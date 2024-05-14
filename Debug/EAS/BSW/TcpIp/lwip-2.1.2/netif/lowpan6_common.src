@@ -1,0 +1,1459 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.2r2 Build 18041957 SN 09003395"
+	.compiler_invocation	"ctc -f cc34692a --dep-file=EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\.lowpan6_common.o.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc39x -D__CPU_TC39X__ --core=tc1.6.2 --fp-model=+float -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Cfg_Ssw -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Cfg_Ssw\\TC39B -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Integration -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr\\TC39xB -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr\\TC39xB\\_Reg -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw\\TC39B -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw\\TC39B\\Tricore -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\inc\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Lib -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\App_Func -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\demo -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Adc_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Gtm_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\AscLin_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Can_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\EthV2_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Stm_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Main -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\APP -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\BswM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanNm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanSm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanTp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanTSyn -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Com -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\ComM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Common -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Crc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Dcm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Dem -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Det -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\DoIP -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EcuM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Eth -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthSM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthTrcv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthTSyn -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\FiM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\FlsTst -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\MemIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Nm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\NvM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS\\Kernel -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS\\Portable -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\PduR -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\RamTst -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\SoAd -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\StbM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\api -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\arch -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv6 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\arpa -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\net -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\sys -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\stdc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\apps -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\priv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\prot -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif\\ppp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif\\ppp\\polarssl -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\polarssl -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\UdpNm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\WdgIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\WdgM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Cal -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Daq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Pag -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Pgm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Std -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\XcpOnEth -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Callout -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Config -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Library\\Vfx_ComE2E -g2 --make-target=EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\lowpan6_common.o -t2 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O1 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\lowpan6_common.src ..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\lowpan6_common.c"
+	.compiler_name		"ctc"
+	;source	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\lowpan6_common.c'
+
+	
+$TC162
+	
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L3:
+	.word	4553
+	.half	3
+	.word	.L4
+	.byte	4
+.L2:
+	.byte	1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\lowpan6_common.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L5
+	.byte	2,1,3
+	.word	174
+	.byte	4
+	.byte	'__codeptr',0,1,1,1
+	.word	176
+	.byte	5
+	.byte	'unsigned char',0,1,8,4
+	.byte	'boolean',0,2,102,29
+	.word	199
+	.byte	4
+	.byte	'uint8',0,2,106,29
+	.word	199
+	.byte	5
+	.byte	'unsigned short int',0,2,7,4
+	.byte	'uint16',0,2,110,29
+	.word	246
+	.byte	5
+	.byte	'unsigned long int',0,4,7,4
+	.byte	'uint32',0,2,114,29
+	.word	283
+	.byte	4
+	.byte	'Std_ReturnType',0,3,109,16
+	.word	199
+	.byte	4
+	.byte	'PduIdType',0,4,37,21
+	.word	199
+	.byte	4
+	.byte	'PduLengthType',0,4,41,22
+	.word	246
+	.byte	6,5,101,9,1,7
+	.byte	'BUFREQ_OK',0,0,7
+	.byte	'BUFREQ_E_NOT_OK',0,1,7
+	.byte	'BUFREQ_E_BUSY',0,2,7
+	.byte	'BUFREQ_E_OVFL',0,3,0,4
+	.byte	'BufReq_ReturnType',0,5,107,3
+	.word	382
+	.byte	3
+	.word	199
+	.byte	4
+	.byte	'SduDataPtrType',0,5,189,1,40
+	.word	476
+	.byte	6,5,204,1,9,1,7
+	.byte	'TP_DATACONF',0,0,7
+	.byte	'TP_DATARETRY',0,1,7
+	.byte	'TP_CONFPENDING',0,2,0,4
+	.byte	'TpDataStateType',0,5,216,1,3
+	.word	505
+	.byte	4
+	.byte	'TcpIp_SocketIdType',0,6,50,16
+	.word	199
+	.byte	8,4
+	.word	283
+	.byte	9,0,0,10,6,52,9,4,11
+	.byte	'Addr',0
+	.word	610
+	.byte	4,2,35,0,0,4
+	.byte	'TcpIp_IpAddressType',0,6,55,3
+	.word	619
+	.byte	4
+	.byte	'TcpIp_DomainType',0,6,61,16
+	.word	246
+	.byte	10,6,68,9,8,11
+	.byte	'Domain',0
+	.word	246
+	.byte	2,2,35,0,11
+	.byte	'Port',0
+	.word	246
+	.byte	2,2,35,2,11
+	.byte	'Addr',0
+	.word	610
+	.byte	4,2,35,4,0,4
+	.byte	'TcpIp_SockAddrInetType',0,6,73,3
+	.word	692
+	.byte	4
+	.byte	'TcpIp_AddressType',0,7,128,1,15
+	.word	199
+	.byte	4
+	.byte	'TcpIp_CtrlIdType',0,7,142,1,15
+	.word	199
+	.byte	4
+	.byte	'TcpIp_IpAddrStateType',0,7,144,1,15
+	.word	199
+	.byte	4
+	.byte	'TcpIp_LocalAddrAssignmentConfigType',0,7,149,1,15
+	.word	199
+	.byte	4
+	.byte	'TcpIp_StaticAddrIdType',0,7,151,1,15
+	.word	199
+	.byte	10,7,152,1,9,12,11
+	.byte	'State',0
+	.word	199
+	.byte	1,2,35,0,11
+	.byte	'Netmask',0
+	.word	199
+	.byte	1,2,35,1,11
+	.byte	'Domain',0
+	.word	246
+	.byte	2,2,35,2,11
+	.byte	'IpAddr',0
+	.word	619
+	.byte	4,2,35,4,11
+	.byte	'DefaultRouter',0
+	.word	619
+	.byte	4,2,35,8,0,4
+	.byte	'TcpIp_StaticIpAddrType',0,7,162,1,3
+	.word	934
+	.byte	4
+	.byte	'TcpIp_LocalAddrIdType',0,7,173,1,15
+	.word	199
+	.byte	8,3
+	.word	199
+	.byte	9,2,0,10,7,231,1,9,8,11
+	.byte	'CtrlId',0
+	.word	199
+	.byte	1,2,35,0,11
+	.byte	'Address',0
+	.word	199
+	.byte	1,2,35,1,11
+	.byte	'Domain',0
+	.word	246
+	.byte	2,2,35,2,11
+	.byte	'StaticAddrId',0
+	.word	199
+	.byte	1,2,35,4,11
+	.byte	'Assignments',0
+	.word	1091
+	.byte	3,2,35,5,0,4
+	.byte	'TcpIp_LocalAddrConfigType',0,7,243,1,3
+	.word	1100
+	.byte	10,7,245,1,9,4,11
+	.byte	'ArpConfigId',0
+	.word	199
+	.byte	1,2,35,0,11
+	.byte	'DHCPConfigId',0
+	.word	199
+	.byte	1,2,35,1,11
+	.byte	'AutoIpInitTimeout',0
+	.word	246
+	.byte	2,2,35,2,0,4
+	.byte	'TcpIp_IpV4CtrlConfigType',0,7,130,2,3
+	.word	1234
+	.byte	10,7,133,2,9,8,11
+	.byte	'CtrlIdx',0
+	.word	199
+	.byte	1,2,35,0,11
+	.byte	'FramePrio',0
+	.word	199
+	.byte	1,2,35,1,11
+	.byte	'UnicastAddrId',0
+	.word	199
+	.byte	1,2,35,2,11
+	.byte	'UnicastAddrLimit',0
+	.word	199
+	.byte	1,2,35,3,11
+	.byte	'MulticastAddrId',0
+	.word	199
+	.byte	1,2,35,4,11
+	.byte	'LocalAddrLimit',0
+	.word	199
+	.byte	1,2,35,5,11
+	.byte	'IpV4CtrlId',0
+	.word	199
+	.byte	1,2,35,6,11
+	.byte	'IpV6CtrlId',0
+	.word	199
+	.byte	1,2,35,7,0,4
+	.byte	'TcpIp_NetIfCtrlConfigType',0,7,148,2,3
+	.word	1345
+	.byte	4
+	.byte	'SoAd_RoutingGroupIdType',0,8,43,15
+	.word	199
+	.byte	4
+	.byte	'SoAd_SoConIdType',0,8,44,15
+	.word	199
+	.byte	4
+	.byte	'SoAd_SoConGroupIdType',0,8,45,15
+	.word	199
+	.byte	4
+	.byte	'SoAd_PduRouteIdType',0,8,46,15
+	.word	199
+	.byte	4
+	.byte	'SoAd_PduRouteDestIdType',0,8,47,15
+	.word	199
+	.byte	4
+	.byte	'SoAd_SocketRouteIdType',0,8,48,15
+	.word	199
+	.byte	4
+	.byte	'SoAd_IfTxUnconfirmedType',0,8,49,16
+	.word	246
+	.byte	4
+	.byte	'SoAd_IfTxTimerType',0,8,51,16
+	.word	246
+	.byte	8,1
+	.word	199
+	.byte	9,0,0,10,8,53,9,2,11
+	.byte	'Mask',0
+	.word	1799
+	.byte	1,2,35,0,11
+	.byte	'RoutingState',0
+	.word	1799
+	.byte	1,2,35,1,0,4
+	.byte	'SoAd_RoutingGroupCtrlType',0,8,57,3
+	.word	1808
+	.byte	6,8,63,9,1,7
+	.byte	'SOAD_UL_DOIP',0,0,7
+	.byte	'SOAD_UL_UDPNM',0,1,7
+	.byte	'SOAD_UL_PDUR',0,2,7
+	.byte	'SOAD_UL_XCP',0,3,7
+	.byte	'SOAD_UL_MAX',0,4,0,4
+	.byte	'SoAd_ULIndexType',0,8,71,3
+	.word	1884
+	.byte	4
+	.byte	'SoAd_RemoteAddressType',0,9,113,32
+	.word	692
+	.byte	6,9,115,9,1,7
+	.byte	'SOAD_SOCON_UNINIT',0,0,7
+	.byte	'SOAD_SOCON_OFFLINE',0,1,7
+	.byte	'SOAD_SOCON_RECONN',0,2,7
+	.byte	'SOAD_SOCON_ONLINE',0,3,0,4
+	.byte	'SoAd_SoConModeType',0,9,121,3
+	.word	2020
+	.byte	12
+	.word	199
+	.byte	3
+	.word	2134
+	.byte	12
+	.word	199
+	.byte	3
+	.word	2144
+	.byte	12
+	.word	199
+	.byte	3
+	.word	2154
+	.byte	12
+	.word	1884
+	.byte	3
+	.word	2164
+	.byte	10,9,129,1,9,36,11
+	.byte	'IfBufferLength',0
+	.word	246
+	.byte	2,2,35,0,11
+	.byte	'IfBufferOffset',0
+	.word	246
+	.byte	2,2,35,2,11
+	.byte	'TpBufferLength',0
+	.word	246
+	.byte	2,2,35,4,11
+	.byte	'TpBufferOffset',0
+	.word	246
+	.byte	2,2,35,6,11
+	.byte	'PduRouteNum',0
+	.word	199
+	.byte	1,2,35,8,11
+	.byte	'SocketRouteNum',0
+	.word	199
+	.byte	1,2,35,9,11
+	.byte	'PduRouteDestNum',0
+	.word	199
+	.byte	1,2,35,10,11
+	.byte	'RemoteAddrState',0
+	.word	199
+	.byte	1,2,35,11,11
+	.byte	'RemoteAddr',0
+	.word	692
+	.byte	8,2,35,12,11
+	.byte	'PduRouteDestList',0
+	.word	2139
+	.byte	4,2,35,20,11
+	.byte	'PduRouteList',0
+	.word	2149
+	.byte	4,2,35,24,11
+	.byte	'SocketRouteList',0
+	.word	2159
+	.byte	4,2,35,28,11
+	.byte	'SoConModeChgList',0
+	.word	2169
+	.byte	4,2,35,32,0,4
+	.byte	'SoAd_SocketConnectionType',0,9,146,1,3
+	.word	2174
+	.byte	10,9,148,1,9,16,11
+	.byte	'CtrlFlag',0
+	.word	199
+	.byte	1,2,35,0,11
+	.byte	'KeepAliveProbesMax',0
+	.word	246
+	.byte	2,2,35,2,11
+	.byte	'KeepAliveInterval',0
+	.word	283
+	.byte	4,2,35,4,11
+	.byte	'KeepAliveTime',0
+	.word	283
+	.byte	4,2,35,8,11
+	.byte	'TxQuota',0
+	.word	283
+	.byte	4,2,35,12,0,4
+	.byte	'SoAd_TcpProtocolType',0,9,155,1,3
+	.word	2526
+	.byte	10,9,157,1,9,12,11
+	.byte	'CtrlFlag',0
+	.word	199
+	.byte	1,2,35,0,11
+	.byte	'nPduTxBufferMin',0
+	.word	246
+	.byte	2,2,35,2,11
+	.byte	'TriggerTimeout',0
+	.word	246
+	.byte	2,2,35,4,11
+	.byte	'AliveSupervisionTimeout',0
+	.word	283
+	.byte	4,2,35,6,0,4
+	.byte	'SoAd_UdpProtocolType',0,9,163,1,3
+	.word	2676
+	.byte	12
+	.word	2526
+	.byte	3
+	.word	2813
+	.byte	12
+	.word	2676
+	.byte	3
+	.word	2823
+	.byte	10,9,165,1,9,24,11
+	.byte	'GroupId',0
+	.word	199
+	.byte	1,2,35,0,11
+	.byte	'CtrlFlag',0
+	.word	199
+	.byte	1,2,35,1,11
+	.byte	'FramePriority',0
+	.word	199
+	.byte	1,2,35,2,11
+	.byte	'SoConNum',0
+	.word	199
+	.byte	1,2,35,3,11
+	.byte	'SoConId',0
+	.word	199
+	.byte	1,2,35,4,11
+	.byte	'IpAddrAssignChgNum',0
+	.word	199
+	.byte	1,2,35,5,11
+	.byte	'LocalAddrId',0
+	.word	199
+	.byte	1,2,35,6,11
+	.byte	'LocalPort',0
+	.word	246
+	.byte	2,2,35,8,11
+	.byte	'IpAddrAssignChgList',0
+	.word	2169
+	.byte	4,2,35,12,11
+	.byte	'TcpProtocolPtr',0
+	.word	2818
+	.byte	4,2,35,16,11
+	.byte	'UdpProtocolPtr',0
+	.word	2828
+	.byte	4,2,35,20,0,4
+	.byte	'SoAd_SocketConnectionGroupType',0,9,178,1,3
+	.word	2833
+	.byte	12
+	.word	199
+	.byte	3
+	.word	3118
+	.byte	10,9,180,1,9,12,11
+	.byte	'CtrlFlag',0
+	.word	199
+	.byte	1,2,35,0,11
+	.byte	'PduRouteDestNum',0
+	.word	199
+	.byte	1,2,35,1,11
+	.byte	'SocketRouteDestNum',0
+	.word	199
+	.byte	1,2,35,2,11
+	.byte	'PduRouteDestList',0
+	.word	3123
+	.byte	4,2,35,4,11
+	.byte	'SocketRouteDestList',0
+	.word	3123
+	.byte	4,2,35,8,0,4
+	.byte	'SoAd_RoutingGroupType',0,9,187,1,3
+	.word	3128
+	.byte	10,9,189,1,9,6,11
+	.byte	'ULType',0
+	.word	199
+	.byte	1,2,35,0,11
+	.byte	'ULIndex',0
+	.word	1884
+	.byte	1,2,35,1,11
+	.byte	'CtrlFlag',0
+	.word	199
+	.byte	1,2,35,2,11
+	.byte	'RouteDestNum',0
+	.word	199
+	.byte	1,2,35,3,11
+	.byte	'RouteDestId',0
+	.word	199
+	.byte	1,2,35,4,11
+	.byte	'TxPduId',0
+	.word	199
+	.byte	1,2,35,5,0,4
+	.byte	'SoAd_PduRouteType',0,9,204,1,3
+	.word	3292
+	.byte	3
+	.word	1808
+	.byte	10,9,206,1,9,20,11
+	.byte	'TxPduHeaderId',0
+	.word	283
+	.byte	4,2,35,0,11
+	.byte	'SoConNum',0
+	.word	199
+	.byte	1,2,35,4,11
+	.byte	'SoConId',0
+	.word	199
+	.byte	1,2,35,5,11
+	.byte	'PduRouteId',0
+	.word	199
+	.byte	1,2,35,6,11
+	.byte	'UdpTriggerMode',0
+	.word	199
+	.byte	1,2,35,7,11
+	.byte	'UdpTriggerTimeout',0
+	.word	246
+	.byte	2,2,35,8,11
+	.byte	'RoutingCtrlList',0
+	.word	3437
+	.byte	4,2,35,12,11
+	.byte	'IfTriggerList',0
+	.word	476
+	.byte	4,2,35,16,0,4
+	.byte	'SoAd_PduRouteDestType',0,9,217,1,3
+	.word	3442
+	.byte	10,9,219,1,9,16,11
+	.byte	'RxPduHeaderId',0
+	.word	283
+	.byte	4,2,35,0,11
+	.byte	'ULType',0
+	.word	199
+	.byte	1,2,35,4,11
+	.byte	'ULIndex',0
+	.word	1884
+	.byte	1,2,35,5,11
+	.byte	'SoConNum',0
+	.word	199
+	.byte	1,2,35,6,11
+	.byte	'SoConId',0
+	.word	199
+	.byte	1,2,35,7,11
+	.byte	'RxPduId',0
+	.word	199
+	.byte	1,2,35,8,11
+	.byte	'RoutingCtrlList',0
+	.word	3437
+	.byte	4,2,35,12,0,4
+	.byte	'SoAd_SocketRouteType',0,9,236,1,3
+	.word	3657
+	.byte	12
+	.word	3442
+	.byte	3
+	.word	3827
+	.byte	10,9,155,2,9,24,11
+	.byte	'State',0
+	.word	199
+	.byte	1,2,35,0,11
+	.byte	'Timer',0
+	.word	246
+	.byte	2,2,35,2,11
+	.byte	'BufferLength',0
+	.word	246
+	.byte	2,2,35,4,11
+	.byte	'BufferOffset',0
+	.word	246
+	.byte	2,2,35,6,11
+	.byte	'UdpTxBuffer',0
+	.word	476
+	.byte	4,2,35,8,11
+	.byte	'TotalTxLength',0
+	.word	246
+	.byte	2,2,35,12,11
+	.byte	'UsedTxLength',0
+	.word	246
+	.byte	2,2,35,14,11
+	.byte	'IfTxDataBuffer',0
+	.word	3123
+	.byte	4,2,35,16,11
+	.byte	'PduRouteDestPtr',0
+	.word	3832
+	.byte	4,2,35,20,0,4
+	.byte	'SoAd_TxSessionType',0,9,177,2,3
+	.word	3837
+	.byte	12
+	.word	3657
+	.byte	3
+	.word	4061
+	.byte	10,9,180,2,9,8,11
+	.byte	'PduLength',0
+	.word	246
+	.byte	2,2,35,0,11
+	.byte	'RemainLength',0
+	.word	246
+	.byte	2,2,35,2,11
+	.byte	'SocketRoutePtr',0
+	.word	4066
+	.byte	4,2,35,4,0,4
+	.byte	'SoAd_RxPduInfoType',0,9,185,2,3
+	.word	4071
+	.byte	10,9,187,2,9,12,11
+	.byte	'TotalLength',0
+	.word	246
+	.byte	2,2,35,0,11
+	.byte	'In',0
+	.word	246
+	.byte	2,2,35,2,11
+	.byte	'Out',0
+	.word	246
+	.byte	2,2,35,4,11
+	.byte	'BufferPtr',0
+	.word	476
+	.byte	4,2,35,8,0,4
+	.byte	'SoAd_RxFifoType',0,9,193,2,3
+	.word	4171
+	.byte	10,9,195,2,9,8,11
+	.byte	'TotalLength',0
+	.word	246
+	.byte	2,2,35,0,11
+	.byte	'UsedLength',0
+	.word	246
+	.byte	2,2,35,2,11
+	.byte	'BufferPtr',0
+	.word	476
+	.byte	4,2,35,4,0,4
+	.byte	'SoAd_RxBufferType',0,9,200,2,3
+	.word	4268
+	.byte	8,8
+	.word	199
+	.byte	9,7,0,10,9,202,2,9,48,11
+	.byte	'State',0
+	.word	199
+	.byte	1,2,35,0,11
+	.byte	'ValidHeaderLen',0
+	.word	199
+	.byte	1,2,35,1,11
+	.byte	'PduHeader',0
+	.word	4362
+	.byte	8,2,35,2,11
+	.byte	'RxPduInfo',0
+	.word	4071
+	.byte	8,2,35,12,11
+	.byte	'ProcessPduInfo',0
+	.word	4071
+	.byte	8,2,35,20,11
+	.byte	'IfBuffer',0
+	.word	4268
+	.byte	8,2,35,28,11
+	.byte	'TpBuffer',0
+	.word	4171
+	.byte	12,2,35,36,0,4
+	.byte	'SoAd_RxSessionType',0,9,216,2,3
+	.word	4371
+	.byte	4
+	.byte	'u8_t',0,10,61,25
+	.word	199
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L4:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,0,0,3,15,0,73,19,0,0,4,22,0,3,8,58,15,59,15
+	.byte	57,15,73,19,0,0,5,36,0,3,8,11,15,62,15,0,0,6,4,1,58,15,59,15,57,15,11,15,0,0,7,40,0,3,8,28,13,0,0,8,1
+	.byte	1,11,15,73,19,0,0,9,33,0,47,15,0,0,10,19,1,58,15,59,15,57,15,11,15,0,0,11,13,0,3,8,73,19,11,15,56,9,0
+	.byte	0,12,38,0,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L5:
+	.word	.L7-.L6
+.L6:
+	.half	3
+	.word	.L9-.L8
+.L8:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Config',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\SoAd',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\arch',0,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\lowpan6_common.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0
+	.byte	'Std_Types.h',0,1,0,0
+	.byte	'ComStack_Types_Cfg.h',0,2,0,0
+	.byte	'ComStack_Types.h',0,3,0,0
+	.byte	'TcpIp_GeneratedTypes.h',0,2,0,0
+	.byte	'TcpIp_Types.h',0,4,0,0
+	.byte	'SoAd_GeneratedTypes.h',0,2,0,0
+	.byte	'SoAd_Types.h',0,5,0,0
+	.byte	'cc.h',0,6,0,0,0
+.L9:
+.L7:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	     1  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	     2   * @file
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	     3   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	     4   * Common 6LowPAN routines for IPv6. Uses ND tables for link-layer addressing. Fragments packets to 6LowPAN units.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	     5   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	     6   * This implementation aims to conform to IEEE 802.15.4(-2015), RFC 4944 and RFC 6282.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	     7   * @todo: RFC 6775.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	     8   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	     9  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    10  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    11   * Copyright (c) 2015 Inico Technologies Ltd.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    12   * All rights reserved.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    13   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    14   * Redistribution and use in source and binary forms, with or without modification,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    15   * are permitted provided that the following conditions are met:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    16   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    17   * 1. Redistributions of source code must retain the above copyright notice,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    18   *    this list of conditions and the following disclaimer.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    19   * 2. Redistributions in binary form must reproduce the above copyright notice,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    20   *    this list of conditions and the following disclaimer in the documentation
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    21   *    and/or other materials provided with the distribution.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    22   * 3. The name of the author may not be used to endorse or promote products
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    23   *    derived from this software without specific prior written permission.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    24   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    25   * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    26   * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    27   * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    28   * SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    29   * EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    30   * OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    31   * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    32   * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    33   * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    34   * OF SUCH DAMAGE.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    35   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    36   * This file is part of the lwIP TCP/IP stack.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    37   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    38   * Author: Ivan Delamer <delamer@inicotech.com>
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    39   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    40   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    41   * Please coordinate changes and requests with Ivan Delamer
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    42   * <delamer@inicotech.com>
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    43   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    44  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    45  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    46   * @defgroup sixlowpan 6LoWPAN (RFC4944)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    47   * @ingroup netifs
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    48   * 6LowPAN netif implementation
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    49   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    50  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    51  #include "netif/lowpan6_common.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    52  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    53  #if LWIP_IPV6
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    54  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    55  #include "lwip/ip.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    56  #include "lwip/pbuf.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    57  #include "lwip/ip_addr.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    58  #include "lwip/netif.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    59  #include "lwip/udp.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    60  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    61  #include <string.h>
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    62  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    63  /* Determine compression mode for unicast address. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    64  s8_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    65  lowpan6_get_address_mode(const ip6_addr_t *ip6addr, const struct lowpan6_link_addr *mac_addr)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    66  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    67    if (mac_addr->addr_len == 2) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    68      if ((ip6addr->addr[2] == (u32_t)PP_HTONL(0x000000ff)) &&
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    69          ((ip6addr->addr[3]  & PP_HTONL(0xffff0000)) == PP_NTOHL(0xfe000000))) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    70        if ((ip6addr->addr[3]  & PP_HTONL(0x0000ffff)) == lwip_ntohl((mac_addr->addr[0] << 8) | mac_addr->addr[1])) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    71          return 3;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    72        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    73      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    74    } else if (mac_addr->addr_len == 8) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    75      if ((ip6addr->addr[2] == lwip_ntohl(((mac_addr->addr[0] ^ 2) << 24) | (mac_addr->addr[1] << 16) | mac_addr->addr[2] << 8 | mac_addr->addr[3])) &&
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    76          (ip6addr->addr[3] == lwip_ntohl((mac_addr->addr[4] << 24) | (mac_addr->addr[5] << 16) | mac_addr->addr[6] << 8 | mac_addr->addr[7]))) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    77        return 3;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    78      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    79    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    80  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    81    if ((ip6addr->addr[2] == PP_HTONL(0x000000ffUL)) &&
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    82        ((ip6addr->addr[3]  & PP_HTONL(0xffff0000)) == PP_NTOHL(0xfe000000UL))) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    83      return 2;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    84    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    85  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    86    return 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    87  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    88  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    89  #if LWIP_6LOWPAN_IPHC
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    90  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    91  /* Determine compression mode for multicast address. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    92  static s8_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    93  lowpan6_get_address_mode_mc(const ip6_addr_t *ip6addr)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    94  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    95    if ((ip6addr->addr[0] == PP_HTONL(0xff020000)) &&
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    96        (ip6addr->addr[1] == 0) &&
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    97        (ip6addr->addr[2] == 0) &&
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    98        ((ip6addr->addr[3]  & PP_HTONL(0xffffff00)) == 0)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	    99      return 3;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   100    } else if (((ip6addr->addr[0] & PP_HTONL(0xff00ffff)) == PP_HTONL(0xff000000)) &&
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   101               (ip6addr->addr[1] == 0)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   102      if ((ip6addr->addr[2] == 0) &&
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   103          ((ip6addr->addr[3]  & PP_HTONL(0xff000000)) == 0)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   104        return 2;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   105      } else if ((ip6addr->addr[2]  & PP_HTONL(0xffffff00)) == 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   106        return 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   107      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   108    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   109  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   110    return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   111  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   112  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   113  #if LWIP_6LOWPAN_NUM_CONTEXTS > 0
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   114  static s8_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   115  lowpan6_context_lookup(const ip6_addr_t *lowpan6_contexts, const ip6_addr_t *ip6addr)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   116  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   117    s8_t i;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   118  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   119    for (i = 0; i < LWIP_6LOWPAN_NUM_CONTEXTS; i++) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   120      if (ip6_addr_netcmp(&lowpan6_contexts[i], ip6addr)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   121        return i;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   122      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   123    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   124    return -1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   125  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   126  #endif /* LWIP_6LOWPAN_NUM_CONTEXTS > 0 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   127  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   128  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   129   * Compress IPv6 and/or UDP headers.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   130   * */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   131  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   132  lowpan6_compress_headers(struct netif *netif, u8_t *inbuf, size_t inbuf_size, u8_t *outbuf, size_t outbuf_size,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   133                           u8_t *lowpan6_header_len_out, u8_t *hidden_header_len_out, ip6_addr_t *lowpan6_contexts,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   134                           const struct lowpan6_link_addr *src, const struct lowpan6_link_addr *dst)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   135  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   136    u8_t *buffer, *inptr;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   137    u8_t lowpan6_header_len;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   138    u8_t hidden_header_len = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   139    s8_t i;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   140    struct ip6_hdr *ip6hdr;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   141    ip_addr_t ip6src, ip6dst;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   142  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   143    LWIP_ASSERT("netif != NULL", netif != NULL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   144    LWIP_ASSERT("inbuf != NULL", inbuf != NULL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   145    LWIP_ASSERT("outbuf != NULL", outbuf != NULL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   146    LWIP_ASSERT("lowpan6_header_len_out != NULL", lowpan6_header_len_out != NULL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   147    LWIP_ASSERT("hidden_header_len_out != NULL", hidden_header_len_out != NULL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   148  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   149    /* Perform 6LowPAN IPv6 header compression according to RFC 6282 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   150    buffer = outbuf;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   151    inptr = inbuf;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   152  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   153    if (inbuf_size < IP6_HLEN) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   154      /* input buffer too short */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   155      return ERR_VAL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   156    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   157    if (outbuf_size < IP6_HLEN) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   158      /* output buffer too short for worst case */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   159      return ERR_MEM;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   160    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   161  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   162    /* Point to ip6 header and align copies of src/dest addresses. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   163    ip6hdr = (struct ip6_hdr *)inptr;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   164    ip_addr_copy_from_ip6_packed(ip6dst, ip6hdr->dest);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   165    ip6_addr_assign_zone(ip_2_ip6(&ip6dst), IP6_UNKNOWN, netif);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   166    ip_addr_copy_from_ip6_packed(ip6src, ip6hdr->src);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   167    ip6_addr_assign_zone(ip_2_ip6(&ip6src), IP6_UNKNOWN, netif);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   168  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   169    /* Basic length of 6LowPAN header, set dispatch and clear fields. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   170    lowpan6_header_len = 2;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   171    buffer[0] = 0x60;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   172    buffer[1] = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   173  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   174    /* Determine whether there will be a Context Identifier Extension byte or not.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   175     * If so, set it already. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   176  #if LWIP_6LOWPAN_NUM_CONTEXTS > 0
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   177    buffer[2] = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   178  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   179    i = lowpan6_context_lookup(lowpan6_contexts, ip_2_ip6(&ip6src));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   180    if (i >= 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   181      /* Stateful source address compression. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   182      buffer[1] |= 0x40;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   183      buffer[2] |= (i & 0x0f) << 4;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   184    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   185  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   186    i = lowpan6_context_lookup(lowpan6_contexts, ip_2_ip6(&ip6dst));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   187    if (i >= 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   188      /* Stateful destination address compression. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   189      buffer[1] |= 0x04;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   190      buffer[2] |= i & 0x0f;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   191    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   192  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   193    if (buffer[2] != 0x00) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   194      /* Context identifier extension byte is appended. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   195      buffer[1] |= 0x80;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   196      lowpan6_header_len++;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   197    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   198  #else /* LWIP_6LOWPAN_NUM_CONTEXTS > 0 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   199    LWIP_UNUSED_ARG(lowpan6_contexts);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   200  #endif /* LWIP_6LOWPAN_NUM_CONTEXTS > 0 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   201  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   202    /* Determine TF field: Traffic Class, Flow Label */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   203    if (IP6H_FL(ip6hdr) == 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   204      /* Flow label is elided. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   205      buffer[0] |= 0x10;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   206      if (IP6H_TC(ip6hdr) == 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   207        /* Traffic class (ECN+DSCP) elided too. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   208        buffer[0] |= 0x08;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   209      } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   210        /* Traffic class (ECN+DSCP) appended. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   211        buffer[lowpan6_header_len++] = IP6H_TC(ip6hdr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   212      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   213    } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   214      if (((IP6H_TC(ip6hdr) & 0x3f) == 0)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   215        /* DSCP portion of Traffic Class is elided, ECN and FL are appended (3 bytes) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   216        buffer[0] |= 0x08;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   217  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   218        buffer[lowpan6_header_len] = IP6H_TC(ip6hdr) & 0xc0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   219        buffer[lowpan6_header_len++] |= (IP6H_FL(ip6hdr) >> 16) & 0x0f;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   220        buffer[lowpan6_header_len++] = (IP6H_FL(ip6hdr) >> 8) & 0xff;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   221        buffer[lowpan6_header_len++] = IP6H_FL(ip6hdr) & 0xff;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   222      } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   223        /* Traffic class and flow label are appended (4 bytes) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   224        buffer[lowpan6_header_len++] = IP6H_TC(ip6hdr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   225        buffer[lowpan6_header_len++] = (IP6H_FL(ip6hdr) >> 16) & 0x0f;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   226        buffer[lowpan6_header_len++] = (IP6H_FL(ip6hdr) >> 8) & 0xff;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   227        buffer[lowpan6_header_len++] = IP6H_FL(ip6hdr) & 0xff;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   228      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   229    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   230  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   231    /* Compress NH?
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   232    * Only if UDP for now. @todo support other NH compression. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   233    if (IP6H_NEXTH(ip6hdr) == IP6_NEXTH_UDP) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   234      buffer[0] |= 0x04;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   235    } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   236      /* append nexth. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   237      buffer[lowpan6_header_len++] = IP6H_NEXTH(ip6hdr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   238    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   239  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   240    /* Compress hop limit? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   241    if (IP6H_HOPLIM(ip6hdr) == 255) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   242      buffer[0] |= 0x03;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   243    } else if (IP6H_HOPLIM(ip6hdr) == 64) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   244      buffer[0] |= 0x02;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   245    } else if (IP6H_HOPLIM(ip6hdr) == 1) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   246      buffer[0] |= 0x01;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   247    } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   248      /* append hop limit */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   249      buffer[lowpan6_header_len++] = IP6H_HOPLIM(ip6hdr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   250    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   251  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   252    /* Compress source address */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   253    if (((buffer[1] & 0x40) != 0) ||
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   254        (ip6_addr_islinklocal(ip_2_ip6(&ip6src)))) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   255      /* Context-based or link-local source address compression. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   256      i = lowpan6_get_address_mode(ip_2_ip6(&ip6src), src);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   257      buffer[1] |= (i & 0x03) << 4;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   258      if (i == 1) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   259        MEMCPY(buffer + lowpan6_header_len, inptr + 16, 8);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   260        lowpan6_header_len += 8;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   261      } else if (i == 2) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   262        MEMCPY(buffer + lowpan6_header_len, inptr + 22, 2);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   263        lowpan6_header_len += 2;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   264      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   265    } else if (ip6_addr_isany(ip_2_ip6(&ip6src))) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   266      /* Special case: mark SAC and leave SAM=0 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   267      buffer[1] |= 0x40;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   268    } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   269      /* Append full address. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   270      MEMCPY(buffer + lowpan6_header_len, inptr + 8, 16);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   271      lowpan6_header_len += 16;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   272    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   273  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   274    /* Compress destination address */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   275    if (ip6_addr_ismulticast(ip_2_ip6(&ip6dst))) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   276      /* @todo support stateful multicast address compression */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   277  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   278      buffer[1] |= 0x08;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   279  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   280      i = lowpan6_get_address_mode_mc(ip_2_ip6(&ip6dst));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   281      buffer[1] |= i & 0x03;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   282      if (i == 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   283        MEMCPY(buffer + lowpan6_header_len, inptr + 24, 16);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   284        lowpan6_header_len += 16;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   285      } else if (i == 1) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   286        buffer[lowpan6_header_len++] = inptr[25];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   287        MEMCPY(buffer + lowpan6_header_len, inptr + 35, 5);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   288        lowpan6_header_len += 5;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   289      } else if (i == 2) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   290        buffer[lowpan6_header_len++] = inptr[25];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   291        MEMCPY(buffer + lowpan6_header_len, inptr + 37, 3);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   292        lowpan6_header_len += 3;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   293      } else if (i == 3) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   294        buffer[lowpan6_header_len++] = (inptr)[39];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   295      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   296    } else if (((buffer[1] & 0x04) != 0) ||
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   297                (ip6_addr_islinklocal(ip_2_ip6(&ip6dst)))) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   298      /* Context-based or link-local destination address compression. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   299      i = lowpan6_get_address_mode(ip_2_ip6(&ip6dst), dst);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   300      buffer[1] |= i & 0x03;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   301      if (i == 1) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   302        MEMCPY(buffer + lowpan6_header_len, inptr + 32, 8);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   303        lowpan6_header_len += 8;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   304      } else if (i == 2) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   305        MEMCPY(buffer + lowpan6_header_len, inptr + 38, 2);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   306        lowpan6_header_len += 2;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   307      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   308    } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   309      /* Append full address. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   310      MEMCPY(buffer + lowpan6_header_len, inptr + 24, 16);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   311      lowpan6_header_len += 16;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   312    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   313  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   314    /* Move to payload. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   315    inptr += IP6_HLEN;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   316    hidden_header_len += IP6_HLEN;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   317  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   318  #if LWIP_UDP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   319    /* Compress UDP header? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   320    if (IP6H_NEXTH(ip6hdr) == IP6_NEXTH_UDP) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   321      /* @todo support optional checksum compression */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   322  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   323      if (inbuf_size < IP6_HLEN + UDP_HLEN) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   324        /* input buffer too short */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   325        return ERR_VAL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   326      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   327      if (outbuf_size < (size_t)(hidden_header_len + 7)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   328        /* output buffer too short for worst case */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   329        return ERR_MEM;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   330      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   331  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   332      buffer[lowpan6_header_len] = 0xf0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   333  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   334      /* determine port compression mode. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   335      if ((inptr[0] == 0xf0) && ((inptr[1] & 0xf0) == 0xb0) &&
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   336          (inptr[2] == 0xf0) && ((inptr[3] & 0xf0) == 0xb0)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   337        /* Compress source and dest ports. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   338        buffer[lowpan6_header_len++] |= 0x03;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   339        buffer[lowpan6_header_len++] = ((inptr[1] & 0x0f) << 4) | (inptr[3] & 0x0f);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   340      } else if (inptr[0] == 0xf0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   341        /* Compress source port. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   342        buffer[lowpan6_header_len++] |= 0x02;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   343        buffer[lowpan6_header_len++] = inptr[1];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   344        buffer[lowpan6_header_len++] = inptr[2];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   345        buffer[lowpan6_header_len++] = inptr[3];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   346      } else if (inptr[2] == 0xf0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   347        /* Compress dest port. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   348        buffer[lowpan6_header_len++] |= 0x01;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   349        buffer[lowpan6_header_len++] = inptr[0];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   350        buffer[lowpan6_header_len++] = inptr[1];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   351        buffer[lowpan6_header_len++] = inptr[3];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   352      } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   353        /* append full ports. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   354        lowpan6_header_len++;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   355        buffer[lowpan6_header_len++] = inptr[0];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   356        buffer[lowpan6_header_len++] = inptr[1];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   357        buffer[lowpan6_header_len++] = inptr[2];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   358        buffer[lowpan6_header_len++] = inptr[3];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   359      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   360  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   361      /* elide length and copy checksum */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   362      buffer[lowpan6_header_len++] = inptr[6];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   363      buffer[lowpan6_header_len++] = inptr[7];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   364  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   365      hidden_header_len += UDP_HLEN;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   366    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   367  #endif /* LWIP_UDP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   368  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   369    *lowpan6_header_len_out = lowpan6_header_len;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   370    *hidden_header_len_out = hidden_header_len;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   371  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   372    return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   373  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   374  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   375  /** Decompress IPv6 and UDP headers compressed according to RFC 6282
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   376   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   377   * @param lowpan6_buffer compressed headers, first byte is the dispatch byte
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   378   * @param lowpan6_bufsize size of lowpan6_buffer (may include data after headers)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   379   * @param decomp_buffer buffer where the decompressed headers are stored
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   380   * @param decomp_bufsize size of decomp_buffer
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   381   * @param hdr_size_comp returns the size of the compressed headers (skip to get to data)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   382   * @param hdr_size_decomp returns the size of the decompressed headers (IPv6 + UDP)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   383   * @param datagram_size datagram size from fragments or 0 if unfragmented
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   384   * @param compressed_size compressed datagram size (for unfragmented rx)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   385   * @param lowpan6_contexts context addresses
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   386   * @param src source address of the outer layer, used for address compression
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   387   * @param dest destination address of the outer layer, used for address compression
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   388   * @return ERR_OK if decompression succeeded, an error otherwise
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   389   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   390  static err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   391  lowpan6_decompress_hdr(u8_t *lowpan6_buffer, size_t lowpan6_bufsize,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   392                         u8_t *decomp_buffer, size_t decomp_bufsize,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   393                         u16_t *hdr_size_comp, u16_t *hdr_size_decomp,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   394                         u16_t datagram_size, u16_t compressed_size,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   395                         ip6_addr_t *lowpan6_contexts,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   396                         struct lowpan6_link_addr *src, struct lowpan6_link_addr *dest)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   397  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   398    u16_t lowpan6_offset;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   399    struct ip6_hdr *ip6hdr;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   400    s8_t i;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   401    u32_t header_temp;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   402    u16_t ip6_offset = IP6_HLEN;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   403  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   404    LWIP_ASSERT("lowpan6_buffer != NULL", lowpan6_buffer != NULL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   405    LWIP_ASSERT("decomp_buffer != NULL", decomp_buffer != NULL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   406    LWIP_ASSERT("src != NULL", src != NULL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   407    LWIP_ASSERT("dest != NULL", dest != NULL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   408    LWIP_ASSERT("hdr_size_comp != NULL", hdr_size_comp != NULL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   409    LWIP_ASSERT("dehdr_size_decompst != NULL", hdr_size_decomp != NULL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   410  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   411    ip6hdr = (struct ip6_hdr *)decomp_buffer;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   412    if (decomp_bufsize < IP6_HLEN) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   413      return ERR_MEM;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   414    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   415  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   416    /* output the full compressed packet, if set in @see lowpan6_opts.h */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   417  #if LWIP_LOWPAN6_IP_COMPRESSED_DEBUG
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   418    {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   419      u16_t j;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   420      LWIP_DEBUGF(LWIP_LOWPAN6_IP_COMPRESSED_DEBUG, ("lowpan6_decompress_hdr: IP6 payload (compressed): \n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   421      for (j = 0; j < lowpan6_bufsize; j++) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   422        if ((j % 4) == 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   423          LWIP_DEBUGF(LWIP_LOWPAN6_IP_COMPRESSED_DEBUG, ("\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   424        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   425        LWIP_DEBUGF(LWIP_LOWPAN6_IP_COMPRESSED_DEBUG, ("%2X ", lowpan6_buffer[j]));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   426      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   427      LWIP_DEBUGF(LWIP_LOWPAN6_IP_COMPRESSED_DEBUG, ("\np->len: %d", lowpan6_bufsize));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   428    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   429  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   430  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   431    /* offset for inline IP headers (RFC 6282 ch3)*/
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   432    lowpan6_offset = 2;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   433    /* if CID is set (context identifier), the context byte 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   434     * follows immediately after the header, so other IPHC fields are @+3 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   435    if (lowpan6_buffer[1] & 0x80) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   436      lowpan6_offset++;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   437    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   438  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   439    /* Set IPv6 version, traffic class and flow label. (RFC6282, ch 3.1.1.)*/
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   440    if ((lowpan6_buffer[0] & 0x18) == 0x00) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   441      header_temp = ((lowpan6_buffer[lowpan6_offset+1] & 0x0f) << 16) | \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   442        (lowpan6_buffer[lowpan6_offset + 2] << 8) | lowpan6_buffer[lowpan6_offset+3];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   443      LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("TF: 00, ECN: 0x%2x, Flowlabel+DSCP: 0x%8X\n", \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   444        lowpan6_buffer[lowpan6_offset],header_temp));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   445      IP6H_VTCFL_SET(ip6hdr, 6, lowpan6_buffer[lowpan6_offset], header_temp);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   446      /* increase offset, processed 4 bytes here:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   447       * TF=00:  ECN + DSCP + 4-bit Pad + Flow Label (4 bytes)*/
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   448      lowpan6_offset += 4;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   449    } else if ((lowpan6_buffer[0] & 0x18) == 0x08) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   450      header_temp = ((lowpan6_buffer[lowpan6_offset] & 0x0f) << 16) | (lowpan6_buffer[lowpan6_offset + 1] << 8) | lowpan6_buffer[lowpan6_offset+2];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   451      LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("TF: 01, ECN: 0x%2x, Flowlabel: 0x%2X, DSCP ignored\n", \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   452        lowpan6_buffer[lowpan6_offset] & 0xc0,header_temp));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   453      IP6H_VTCFL_SET(ip6hdr, 6, lowpan6_buffer[lowpan6_offset] & 0xc0, header_temp);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   454      /* increase offset, processed 3 bytes here:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   455       * TF=01:  ECN + 2-bit Pad + Flow Label (3 bytes), DSCP is elided.*/
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   456      lowpan6_offset += 3;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   457    } else if ((lowpan6_buffer[0] & 0x18) == 0x10) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   458      LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("TF: 10, DCSP+ECN: 0x%2x, Flowlabel ignored\n", lowpan6_buffer[lowpan6_offset]));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   459      IP6H_VTCFL_SET(ip6hdr, 6, lowpan6_buffer[lowpan6_offset],0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   460      /* increase offset, processed 1 byte here:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   461       * ECN + DSCP (1 byte), Flow Label is elided.*/
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   462      lowpan6_offset += 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   463    } else if ((lowpan6_buffer[0] & 0x18) == 0x18) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   464      LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("TF: 11, DCSP/ECN & Flowlabel ignored\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   465      /* don't increase offset, no bytes processed here */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   466      IP6H_VTCFL_SET(ip6hdr, 6, 0, 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   467    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   468  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   469    /* Set Next Header (NH) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   470    if ((lowpan6_buffer[0] & 0x04) == 0x00) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   471      /* 0: full next header byte carried inline (increase offset)*/
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   472      LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("NH: 0x%2X\n", lowpan6_buffer[lowpan6_offset+1]));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   473      IP6H_NEXTH_SET(ip6hdr, lowpan6_buffer[lowpan6_offset++]);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   474    } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   475      /* 1: NH compression, LOWPAN_NHC (RFC6282, ch 4.1) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   476      /* We should fill this later with NHC decoding */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   477      LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("NH: skipped, later done with NHC\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   478      IP6H_NEXTH_SET(ip6hdr, 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   479    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   480  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   481    /* Set Hop Limit, either carried inline or 3 different hops (1,64,255) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   482    if ((lowpan6_buffer[0] & 0x03) == 0x00) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   483      LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("Hops: full value: %d\n", lowpan6_buffer[lowpan6_offset+1]));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   484      IP6H_HOPLIM_SET(ip6hdr, lowpan6_buffer[lowpan6_offset++]);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   485    } else if ((lowpan6_buffer[0] & 0x03) == 0x01) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   486      LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("Hops: compressed: 1\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   487      IP6H_HOPLIM_SET(ip6hdr, 1);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   488    } else if ((lowpan6_buffer[0] & 0x03) == 0x02) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   489      LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("Hops: compressed: 64\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   490      IP6H_HOPLIM_SET(ip6hdr, 64);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   491    } else if ((lowpan6_buffer[0] & 0x03) == 0x03) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   492      LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("Hops: compressed: 255\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   493      IP6H_HOPLIM_SET(ip6hdr, 255);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   494    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   495  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   496    /* Source address decoding. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   497    if ((lowpan6_buffer[1] & 0x40) == 0x00) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   498      /* Source address compression (SAC) = 0 -> stateless compression */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   499      LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("SAC == 0, no context byte\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   500      /* Stateless compression */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   501      if ((lowpan6_buffer[1] & 0x30) == 0x00) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   502        LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("SAM == 00, no src compression, fetching 128bits inline\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   503        /* copy full address, increase offset by 16 Bytes */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   504        MEMCPY(&ip6hdr->src.addr[0], lowpan6_buffer + lowpan6_offset, 16);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   505        lowpan6_offset += 16;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   506      } else if ((lowpan6_buffer[1] & 0x30) == 0x10) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   507        LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("SAM == 01, src compression, 64bits inline\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   508        /* set 64 bits to link local */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   509        ip6hdr->src.addr[0] = PP_HTONL(0xfe800000UL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   510        ip6hdr->src.addr[1] = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   511        /* copy 8 Bytes, increase offset */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   512        MEMCPY(&ip6hdr->src.addr[2], lowpan6_buffer + lowpan6_offset, 8);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   513        lowpan6_offset += 8;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   514      } else if ((lowpan6_buffer[1] & 0x30) == 0x20) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   515        LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("SAM == 10, src compression, 16bits inline\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   516        /* set 96 bits to link local */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   517        ip6hdr->src.addr[0] = PP_HTONL(0xfe800000UL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   518        ip6hdr->src.addr[1] = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   519        ip6hdr->src.addr[2] = PP_HTONL(0x000000ffUL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   520        /* extract remaining 16bits from inline bytes, increase offset */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   521        ip6hdr->src.addr[3] = lwip_htonl(0xfe000000UL | (lowpan6_buffer[lowpan6_offset] << 8) |
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   522                                         lowpan6_buffer[lowpan6_offset + 1]);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   523        lowpan6_offset += 2;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   524      } else if ((lowpan6_buffer[1] & 0x30) == 0x30) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   525        LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("SAM == 11, src compression, 0bits inline, using other headers\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   526        /* no information avalaible, using other layers, see RFC6282 ch 3.2.2 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   527        ip6hdr->src.addr[0] = PP_HTONL(0xfe800000UL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   528        ip6hdr->src.addr[1] = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   529        if (src->addr_len == 2) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   530          ip6hdr->src.addr[2] = PP_HTONL(0x000000ffUL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   531          ip6hdr->src.addr[3] = lwip_htonl(0xfe000000UL | (src->addr[0] << 8) | src->addr[1]);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   532        } else if (src->addr_len == 8) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   533          ip6hdr->src.addr[2] = lwip_htonl(((src->addr[0] ^ 2) << 24) | (src->addr[1] << 16) |
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   534                                           (src->addr[2] << 8) | src->addr[3]);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   535          ip6hdr->src.addr[3] = lwip_htonl((src->addr[4] << 24) | (src->addr[5] << 16) |
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   536                                           (src->addr[6] << 8) | src->addr[7]);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   537        } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   538          /* invalid source address length */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   539          LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("Invalid source address length\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   540          return ERR_VAL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   541        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   542      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   543    } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   544      /* Source address compression (SAC) = 1 -> stateful/context-based compression */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   545      LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("SAC == 1, additional context byte\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   546      if ((lowpan6_buffer[1] & 0x30) == 0x00) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   547        /* SAM=00, address=> :: (ANY) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   548        ip6hdr->src.addr[0] = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   549        ip6hdr->src.addr[1] = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   550        ip6hdr->src.addr[2] = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   551        ip6hdr->src.addr[3] = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   552        LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("SAM == 00, context compression, ANY (::)\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   553      } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   554        /* Set prefix from context info */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   555        if (lowpan6_buffer[1] & 0x80) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   556          i = (lowpan6_buffer[2] >> 4) & 0x0f;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   557        } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   558          i = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   559        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   560        if (i >= LWIP_6LOWPAN_NUM_CONTEXTS) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   561          /* Error */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   562          return ERR_VAL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   563        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   564  #if LWIP_6LOWPAN_NUM_CONTEXTS > 0
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   565        ip6hdr->src.addr[0] = lowpan6_contexts[i].addr[0];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   566        ip6hdr->src.addr[1] = lowpan6_contexts[i].addr[1];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   567        LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("SAM == xx, context compression found @%d: %8X, %8X\n", (int)i, ip6hdr->src.addr[0], ip6hdr->src.addr[1]));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   568  #else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   569        LWIP_UNUSED_ARG(lowpan6_contexts);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   570  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   571      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   572  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   573      /* determine further address bits */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   574      if ((lowpan6_buffer[1] & 0x30) == 0x10) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   575        /* SAM=01, load additional 64bits */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   576        MEMCPY(&ip6hdr->src.addr[2], lowpan6_buffer + lowpan6_offset, 8);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   577        LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("SAM == 01, context compression, 64bits inline\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   578        lowpan6_offset += 8;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   579      } else if ((lowpan6_buffer[1] & 0x30) == 0x20) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   580        /* SAM=01, load additional 16bits */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   581        ip6hdr->src.addr[2] = PP_HTONL(0x000000ffUL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   582        ip6hdr->src.addr[3] = lwip_htonl(0xfe000000UL | (lowpan6_buffer[lowpan6_offset] << 8) | lowpan6_buffer[lowpan6_offset + 1]);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   583        LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("SAM == 10, context compression, 16bits inline\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   584        lowpan6_offset += 2;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   585      } else if ((lowpan6_buffer[1] & 0x30) == 0x30) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   586        /* SAM=11, address is fully elided, load from other layers */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   587        LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("SAM == 11, context compression, 0bits inline, using other headers\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   588        if (src->addr_len == 2) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   589          ip6hdr->src.addr[2] = PP_HTONL(0x000000ffUL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   590          ip6hdr->src.addr[3] = lwip_htonl(0xfe000000UL | (src->addr[0] << 8) | src->addr[1]);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   591        } else if (src->addr_len == 8) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   592          ip6hdr->src.addr[2] = lwip_htonl(((src->addr[0] ^ 2) << 24) | (src->addr[1] << 16) | (src->addr[2] << 8) | src->addr[3]);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   593          ip6hdr->src.addr[3] = lwip_htonl((src->addr[4] << 24) | (src->addr[5] << 16) | (src->addr[6] << 8) | src->addr[7]);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   594        } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   595          /* invalid source address length */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   596          LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("Invalid source address length\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   597          return ERR_VAL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   598        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   599      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   600    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   601  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   602    /* Destination address decoding. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   603    if (lowpan6_buffer[1] & 0x08) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   604      LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("M=1: multicast\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   605      /* Multicast destination */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   606      if (lowpan6_buffer[1] & 0x04) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   607        LWIP_DEBUGF(LWIP_DBG_ON,("DAC == 1, context multicast: unsupported!!!\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   608        /* @todo support stateful multicast addressing */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   609        return ERR_VAL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   610      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   611  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   612      if ((lowpan6_buffer[1] & 0x03) == 0x00) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   613        /* DAM = 00, copy full address (128bits) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   614        LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("DAM == 00, no dst compression, fetching 128bits inline\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   615        MEMCPY(&ip6hdr->dest.addr[0], lowpan6_buffer + lowpan6_offset, 16);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   616        lowpan6_offset += 16;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   617      } else if ((lowpan6_buffer[1] & 0x03) == 0x01) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   618        /* DAM = 01, copy 4 bytes (32bits) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   619        LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("DAM == 01, dst address form (48bits): ffXX::00XX:XXXX:XXXX\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   620        ip6hdr->dest.addr[0] = lwip_htonl(0xff000000UL | (lowpan6_buffer[lowpan6_offset++] << 16));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   621        ip6hdr->dest.addr[1] = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   622        ip6hdr->dest.addr[2] = lwip_htonl(lowpan6_buffer[lowpan6_offset++]);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   623        ip6hdr->dest.addr[3] = lwip_htonl((lowpan6_buffer[lowpan6_offset] << 24) | (lowpan6_buffer[lowpan6_offset + 1] << 16) | (lowpan6_buffer[lowpan6_offset + 2] << 8) | lowpan6_buffer[lowpan6_offset + 3]);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   624        lowpan6_offset += 4;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   625      } else if ((lowpan6_buffer[1] & 0x03) == 0x02) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   626        /* DAM = 10, copy 3 bytes (24bits) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   627        LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("DAM == 10, dst address form (32bits): ffXX::00XX:XXXX\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   628        ip6hdr->dest.addr[0] = lwip_htonl(0xff000000UL | (lowpan6_buffer[lowpan6_offset++] << 16));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   629        ip6hdr->dest.addr[1] = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   630        ip6hdr->dest.addr[2] = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   631        ip6hdr->dest.addr[3] = lwip_htonl((lowpan6_buffer[lowpan6_offset] << 16) | (lowpan6_buffer[lowpan6_offset + 1] << 8) | lowpan6_buffer[lowpan6_offset + 2]);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   632        lowpan6_offset += 3;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   633      } else if ((lowpan6_buffer[1] & 0x03) == 0x03) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   634        /* DAM = 11, copy 1 byte (8bits) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   635        LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("DAM == 11, dst address form (8bits): ff02::00XX\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   636        ip6hdr->dest.addr[0] = PP_HTONL(0xff020000UL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   637        ip6hdr->dest.addr[1] = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   638        ip6hdr->dest.addr[2] = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   639        ip6hdr->dest.addr[3] = lwip_htonl(lowpan6_buffer[lowpan6_offset++]);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   640      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   641  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   642    } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   643      /* no Multicast (M=0) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   644      if (lowpan6_buffer[1] & 0x04) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   645        LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("DAC == 1, stateful compression\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   646        /* Stateful destination compression */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   647        /* Set prefix from context info */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   648        if (lowpan6_buffer[1] & 0x80) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   649          i = lowpan6_buffer[2] & 0x0f;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   650        } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   651          i = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   652        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   653        if (i >= LWIP_6LOWPAN_NUM_CONTEXTS) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   654          /* Error */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   655          return ERR_VAL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   656        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   657  #if LWIP_6LOWPAN_NUM_CONTEXTS > 0
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   658        ip6hdr->dest.addr[0] = lowpan6_contexts[i].addr[0];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   659        ip6hdr->dest.addr[1] = lowpan6_contexts[i].addr[1];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   660  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   661      } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   662        LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("DAC == 0, stateless compression, setting link local prefix\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   663        /* Link local address compression */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   664        ip6hdr->dest.addr[0] = PP_HTONL(0xfe800000UL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   665        ip6hdr->dest.addr[1] = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   666      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   667  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   668      /* M=0, DAC=0, determining destination address length via DAM=xx */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   669      if ((lowpan6_buffer[1] & 0x03) == 0x00) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   670        LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("DAM == 00, no dst compression, fetching 128bits inline"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   671        /* DAM=00, copy full address */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   672        MEMCPY(&ip6hdr->dest.addr[0], lowpan6_buffer + lowpan6_offset, 16);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   673        lowpan6_offset += 16;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   674      } else if ((lowpan6_buffer[1] & 0x03) == 0x01) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   675        LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("DAM == 01, dst compression, 64bits inline\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   676        /* DAM=01, copy 64 inline bits, increase offset */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   677        MEMCPY(&ip6hdr->dest.addr[2], lowpan6_buffer + lowpan6_offset, 8);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   678        lowpan6_offset += 8;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   679      } else if ((lowpan6_buffer[1] & 0x03) == 0x02) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   680        LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("DAM == 01, dst compression, 16bits inline\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   681        /* DAM=10, copy 16 inline bits, increase offset */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   682        ip6hdr->dest.addr[2] = PP_HTONL(0x000000ffUL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   683        ip6hdr->dest.addr[3] = lwip_htonl(0xfe000000UL | (lowpan6_buffer[lowpan6_offset] << 8) | lowpan6_buffer[lowpan6_offset + 1]);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   684        lowpan6_offset += 2;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   685      } else if ((lowpan6_buffer[1] & 0x03) == 0x03) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   686        /* DAM=11, no bits available, use other headers (not done here) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   687        LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG,("DAM == 01, dst compression, 0bits inline, using other headers\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   688        if (dest->addr_len == 2) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   689          ip6hdr->dest.addr[2] = PP_HTONL(0x000000ffUL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   690          ip6hdr->dest.addr[3] = lwip_htonl(0xfe000000UL | (dest->addr[0] << 8) | dest->addr[1]);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   691        } else if (dest->addr_len == 8) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   692          ip6hdr->dest.addr[2] = lwip_htonl(((dest->addr[0] ^ 2) << 24) | (dest->addr[1] << 16) | dest->addr[2] << 8 | dest->addr[3]);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   693          ip6hdr->dest.addr[3] = lwip_htonl((dest->addr[4] << 24) | (dest->addr[5] << 16) | dest->addr[6] << 8 | dest->addr[7]);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   694        } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   695          /* invalid destination address length */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   696          LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("Invalid destination address length\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   697          return ERR_VAL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   698        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   699      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   700    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   701  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   702  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   703    /* Next Header Compression (NHC) decoding? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   704    if (lowpan6_buffer[0] & 0x04) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   705      LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("NHC decoding\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   706  #if LWIP_UDP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   707      if ((lowpan6_buffer[lowpan6_offset] & 0xf8) == 0xf0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   708        /* NHC: UDP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   709        struct udp_hdr *udphdr;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   710        LWIP_DEBUGF(LWIP_LOWPAN6_DECOMPRESSION_DEBUG, ("NHC: UDP\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   711  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   712        /* UDP compression */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   713        IP6H_NEXTH_SET(ip6hdr, IP6_NEXTH_UDP);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   714        udphdr = (struct udp_hdr *)((u8_t *)decomp_buffer + ip6_offset);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   715        if (decomp_bufsize < IP6_HLEN + UDP_HLEN) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   716          return ERR_MEM;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   717        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   718  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   719        /* Checksum decompression */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   720        if (lowpan6_buffer[lowpan6_offset] & 0x04) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   721          /* @todo support checksum decompress */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   722          LWIP_DEBUGF(LWIP_DBG_ON, ("NHC: UDP chechsum decompression UNSUPPORTED\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   723          return ERR_VAL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   724        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   725  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   726        /* Decompress ports, according to RFC4944 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   727        i = lowpan6_buffer[lowpan6_offset++] & 0x03;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   728        if (i == 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   729          udphdr->src = lwip_htons(lowpan6_buffer[lowpan6_offset] << 8 | lowpan6_buffer[lowpan6_offset + 1]);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   730          udphdr->dest = lwip_htons(lowpan6_buffer[lowpan6_offset + 2] << 8 | lowpan6_buffer[lowpan6_offset + 3]);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   731          lowpan6_offset += 4;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   732        } else if (i == 0x01) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   733          udphdr->src = lwip_htons(lowpan6_buffer[lowpan6_offset] << 8 | lowpan6_buffer[lowpan6_offset + 1]);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   734          udphdr->dest = lwip_htons(0xf000 | lowpan6_buffer[lowpan6_offset + 2]);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   735          lowpan6_offset += 3;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   736        } else if (i == 0x02) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   737          udphdr->src = lwip_htons(0xf000 | lowpan6_buffer[lowpan6_offset]);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   738          udphdr->dest = lwip_htons(lowpan6_buffer[lowpan6_offset + 1] << 8 | lowpan6_buffer[lowpan6_offset + 2]);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   739          lowpan6_offset += 3;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   740        } else if (i == 0x03) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   741          udphdr->src = lwip_htons(0xf0b0 | ((lowpan6_buffer[lowpan6_offset] >> 4) & 0x0f));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   742          udphdr->dest = lwip_htons(0xf0b0 | (lowpan6_buffer[lowpan6_offset] & 0x0f));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   743          lowpan6_offset += 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   744        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   745  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   746        udphdr->chksum = lwip_htons(lowpan6_buffer[lowpan6_offset] << 8 | lowpan6_buffer[lowpan6_offset + 1]);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   747        lowpan6_offset += 2;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   748        ip6_offset += UDP_HLEN;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   749        if (datagram_size == 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   750          datagram_size = compressed_size - lowpan6_offset + ip6_offset;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   751        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   752        udphdr->len = lwip_htons(datagram_size - IP6_HLEN);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   753  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   754      } else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   755  #endif /* LWIP_UDP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   756      {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   757        LWIP_DEBUGF(LWIP_DBG_ON,("NHC: unsupported protocol!\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   758        /* @todo support NHC other than UDP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   759        return ERR_VAL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   760      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   761    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   762    if (datagram_size == 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   763      datagram_size = compressed_size - lowpan6_offset + ip6_offset;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   764    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   765    /* Infer IPv6 payload length for header */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   766    IP6H_PLEN_SET(ip6hdr, datagram_size - IP6_HLEN);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   767  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   768    if (lowpan6_offset > lowpan6_bufsize) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   769      /* input buffer overflow */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   770      return ERR_VAL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   771    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   772    *hdr_size_comp = lowpan6_offset;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   773    *hdr_size_decomp = ip6_offset;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   774  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   775    return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   776  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   777  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   778  struct pbuf *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   779  lowpan6_decompress(struct pbuf *p, u16_t datagram_size, ip6_addr_t *lowpan6_contexts,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   780                     struct lowpan6_link_addr *src, struct lowpan6_link_addr *dest)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   781  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   782    struct pbuf *q;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   783    u16_t lowpan6_offset, ip6_offset;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   784    err_t err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   785  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   786  #if LWIP_UDP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   787  #define UDP_HLEN_ALLOC UDP_HLEN
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   788  #else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   789  #define UDP_HLEN_ALLOC 0
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   790  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   791  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   792    /* Allocate a buffer for decompression. This buffer will be too big and will be
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   793       trimmed once the final size is known. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   794    q = pbuf_alloc(PBUF_IP, p->len + IP6_HLEN + UDP_HLEN_ALLOC, PBUF_POOL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   795    if (q == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   796      pbuf_free(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   797      return NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   798    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   799    if (q->len < IP6_HLEN + UDP_HLEN_ALLOC) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   800      /* The headers need to fit into the first pbuf */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   801      pbuf_free(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   802      pbuf_free(q);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   803      return NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   804    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   805  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   806    /* Decompress the IPv6 (and possibly UDP) header(s) into the new pbuf */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   807    err = lowpan6_decompress_hdr((u8_t *)p->payload, p->len, (u8_t *)q->payload, q->len,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   808      &lowpan6_offset, &ip6_offset, datagram_size, p->tot_len, lowpan6_contexts, src, dest);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   809    if (err != ERR_OK) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   810      pbuf_free(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   811      pbuf_free(q);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   812      return NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   813    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   814  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   815    /* Now we copy leftover contents from p to q, so we have all L2 and L3 headers
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   816       (and L4?) in a single pbuf: */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   817  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   818    /* Hide the compressed headers in p */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   819    pbuf_remove_header(p, lowpan6_offset);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   820    /* Temporarily hide the headers in q... */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   821    pbuf_remove_header(q, ip6_offset);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   822    /* ... copy the rest of p into q... */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   823    pbuf_copy(q, p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   824    /* ... and reveal the headers again... */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   825    pbuf_add_header_force(q, ip6_offset);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   826    /* ... trim the pbuf to its correct size... */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   827    pbuf_realloc(q, ip6_offset + p->len);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   828    /* ... and cat possibly remaining (data-only) pbufs */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   829    if (p->next != NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   830      pbuf_cat(q, p->next);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   831    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   832    /* the original (first) pbuf can now be freed */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   833    p->next = NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   834    pbuf_free(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   835  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   836    /* all done */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   837    return q;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   838  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   839  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   840  #endif /* LWIP_6LOWPAN_IPHC */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\lowpan6_common.c	   841  #endif /* LWIP_IPV6 */
+
+	; Module end

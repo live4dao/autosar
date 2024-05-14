@@ -1,0 +1,1379 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.2r2 Build 18041957 SN 09003395"
+	.compiler_invocation	"ctc -f cc27104a --dep-file=EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\.bridgeif.o.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc39x -D__CPU_TC39X__ --core=tc1.6.2 --fp-model=+float -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Cfg_Ssw -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Cfg_Ssw\\TC39B -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Integration -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr\\TC39xB -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr\\TC39xB\\_Reg -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw\\TC39B -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw\\TC39B\\Tricore -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\inc\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Lib -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\App_Func -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\demo -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Adc_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Gtm_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\AscLin_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Can_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\EthV2_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Stm_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Main -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\APP -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\BswM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanNm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanSm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanTp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanTSyn -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Com -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\ComM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Common -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Crc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Dcm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Dem -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Det -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\DoIP -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EcuM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Eth -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthSM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthTrcv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthTSyn -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\FiM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\FlsTst -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\MemIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Nm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\NvM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS\\Kernel -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS\\Portable -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\PduR -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\RamTst -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\SoAd -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\StbM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\api -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\arch -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv6 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\arpa -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\net -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\sys -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\stdc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\apps -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\priv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\prot -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif\\ppp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif\\ppp\\polarssl -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\polarssl -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\UdpNm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\WdgIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\WdgM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Cal -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Daq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Pag -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Pgm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Std -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\XcpOnEth -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Callout -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Config -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Library\\Vfx_ComE2E -g2 --make-target=EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\bridgeif.o -t2 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O1 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\bridgeif.src ..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\bridgeif.c"
+	.compiler_name		"ctc"
+	;source	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\bridgeif.c'
+
+	
+$TC162
+	
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L3:
+	.word	5508
+	.half	3
+	.word	.L4
+	.byte	4
+.L2:
+	.byte	1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\bridgeif.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L5
+	.byte	2,1,3
+	.word	168
+	.byte	4
+	.byte	'__codeptr',0,1,1,1
+	.word	170
+	.byte	5
+	.byte	'unsigned char',0,1,8,4
+	.byte	'boolean',0,2,102,29
+	.word	193
+	.byte	4
+	.byte	'uint8',0,2,106,29
+	.word	193
+	.byte	5
+	.byte	'unsigned short int',0,2,7,4
+	.byte	'uint16',0,2,110,29
+	.word	240
+	.byte	5
+	.byte	'unsigned long int',0,4,7,4
+	.byte	'uint32',0,2,114,29
+	.word	277
+	.byte	4
+	.byte	'Std_ReturnType',0,3,109,16
+	.word	193
+	.byte	4
+	.byte	'PduIdType',0,4,37,21
+	.word	193
+	.byte	4
+	.byte	'PduLengthType',0,4,41,22
+	.word	240
+	.byte	6,5,101,9,1,7
+	.byte	'BUFREQ_OK',0,0,7
+	.byte	'BUFREQ_E_NOT_OK',0,1,7
+	.byte	'BUFREQ_E_BUSY',0,2,7
+	.byte	'BUFREQ_E_OVFL',0,3,0,4
+	.byte	'BufReq_ReturnType',0,5,107,3
+	.word	376
+	.byte	3
+	.word	193
+	.byte	4
+	.byte	'SduDataPtrType',0,5,189,1,40
+	.word	470
+	.byte	6,5,204,1,9,1,7
+	.byte	'TP_DATACONF',0,0,7
+	.byte	'TP_DATARETRY',0,1,7
+	.byte	'TP_CONFPENDING',0,2,0,4
+	.byte	'TpDataStateType',0,5,216,1,3
+	.word	499
+	.byte	4
+	.byte	'TcpIp_SocketIdType',0,6,50,16
+	.word	193
+	.byte	8,4
+	.word	277
+	.byte	9,0,0,10,6,52,9,4,11
+	.byte	'Addr',0
+	.word	604
+	.byte	4,2,35,0,0,4
+	.byte	'TcpIp_IpAddressType',0,6,55,3
+	.word	613
+	.byte	4
+	.byte	'TcpIp_DomainType',0,6,61,16
+	.word	240
+	.byte	10,6,68,9,8,11
+	.byte	'Domain',0
+	.word	240
+	.byte	2,2,35,0,11
+	.byte	'Port',0
+	.word	240
+	.byte	2,2,35,2,11
+	.byte	'Addr',0
+	.word	604
+	.byte	4,2,35,4,0,4
+	.byte	'TcpIp_SockAddrInetType',0,6,73,3
+	.word	686
+	.byte	4
+	.byte	'TcpIp_AddressType',0,7,128,1,15
+	.word	193
+	.byte	4
+	.byte	'TcpIp_CtrlIdType',0,7,142,1,15
+	.word	193
+	.byte	4
+	.byte	'TcpIp_IpAddrStateType',0,7,144,1,15
+	.word	193
+	.byte	4
+	.byte	'TcpIp_LocalAddrAssignmentConfigType',0,7,149,1,15
+	.word	193
+	.byte	4
+	.byte	'TcpIp_StaticAddrIdType',0,7,151,1,15
+	.word	193
+	.byte	10,7,152,1,9,12,11
+	.byte	'State',0
+	.word	193
+	.byte	1,2,35,0,11
+	.byte	'Netmask',0
+	.word	193
+	.byte	1,2,35,1,11
+	.byte	'Domain',0
+	.word	240
+	.byte	2,2,35,2,11
+	.byte	'IpAddr',0
+	.word	613
+	.byte	4,2,35,4,11
+	.byte	'DefaultRouter',0
+	.word	613
+	.byte	4,2,35,8,0,4
+	.byte	'TcpIp_StaticIpAddrType',0,7,162,1,3
+	.word	928
+	.byte	4
+	.byte	'TcpIp_LocalAddrIdType',0,7,173,1,15
+	.word	193
+	.byte	8,3
+	.word	193
+	.byte	9,2,0,10,7,231,1,9,8,11
+	.byte	'CtrlId',0
+	.word	193
+	.byte	1,2,35,0,11
+	.byte	'Address',0
+	.word	193
+	.byte	1,2,35,1,11
+	.byte	'Domain',0
+	.word	240
+	.byte	2,2,35,2,11
+	.byte	'StaticAddrId',0
+	.word	193
+	.byte	1,2,35,4,11
+	.byte	'Assignments',0
+	.word	1085
+	.byte	3,2,35,5,0,4
+	.byte	'TcpIp_LocalAddrConfigType',0,7,243,1,3
+	.word	1094
+	.byte	10,7,245,1,9,4,11
+	.byte	'ArpConfigId',0
+	.word	193
+	.byte	1,2,35,0,11
+	.byte	'DHCPConfigId',0
+	.word	193
+	.byte	1,2,35,1,11
+	.byte	'AutoIpInitTimeout',0
+	.word	240
+	.byte	2,2,35,2,0,4
+	.byte	'TcpIp_IpV4CtrlConfigType',0,7,130,2,3
+	.word	1228
+	.byte	10,7,133,2,9,8,11
+	.byte	'CtrlIdx',0
+	.word	193
+	.byte	1,2,35,0,11
+	.byte	'FramePrio',0
+	.word	193
+	.byte	1,2,35,1,11
+	.byte	'UnicastAddrId',0
+	.word	193
+	.byte	1,2,35,2,11
+	.byte	'UnicastAddrLimit',0
+	.word	193
+	.byte	1,2,35,3,11
+	.byte	'MulticastAddrId',0
+	.word	193
+	.byte	1,2,35,4,11
+	.byte	'LocalAddrLimit',0
+	.word	193
+	.byte	1,2,35,5,11
+	.byte	'IpV4CtrlId',0
+	.word	193
+	.byte	1,2,35,6,11
+	.byte	'IpV6CtrlId',0
+	.word	193
+	.byte	1,2,35,7,0,4
+	.byte	'TcpIp_NetIfCtrlConfigType',0,7,148,2,3
+	.word	1339
+	.byte	4
+	.byte	'SoAd_RoutingGroupIdType',0,8,43,15
+	.word	193
+	.byte	4
+	.byte	'SoAd_SoConIdType',0,8,44,15
+	.word	193
+	.byte	4
+	.byte	'SoAd_SoConGroupIdType',0,8,45,15
+	.word	193
+	.byte	4
+	.byte	'SoAd_PduRouteIdType',0,8,46,15
+	.word	193
+	.byte	4
+	.byte	'SoAd_PduRouteDestIdType',0,8,47,15
+	.word	193
+	.byte	4
+	.byte	'SoAd_SocketRouteIdType',0,8,48,15
+	.word	193
+	.byte	4
+	.byte	'SoAd_IfTxUnconfirmedType',0,8,49,16
+	.word	240
+	.byte	4
+	.byte	'SoAd_IfTxTimerType',0,8,51,16
+	.word	240
+	.byte	8,1
+	.word	193
+	.byte	9,0,0,10,8,53,9,2,11
+	.byte	'Mask',0
+	.word	1793
+	.byte	1,2,35,0,11
+	.byte	'RoutingState',0
+	.word	1793
+	.byte	1,2,35,1,0,4
+	.byte	'SoAd_RoutingGroupCtrlType',0,8,57,3
+	.word	1802
+	.byte	6,8,63,9,1,7
+	.byte	'SOAD_UL_DOIP',0,0,7
+	.byte	'SOAD_UL_UDPNM',0,1,7
+	.byte	'SOAD_UL_PDUR',0,2,7
+	.byte	'SOAD_UL_XCP',0,3,7
+	.byte	'SOAD_UL_MAX',0,4,0,4
+	.byte	'SoAd_ULIndexType',0,8,71,3
+	.word	1878
+	.byte	4
+	.byte	'SoAd_RemoteAddressType',0,9,113,32
+	.word	686
+	.byte	6,9,115,9,1,7
+	.byte	'SOAD_SOCON_UNINIT',0,0,7
+	.byte	'SOAD_SOCON_OFFLINE',0,1,7
+	.byte	'SOAD_SOCON_RECONN',0,2,7
+	.byte	'SOAD_SOCON_ONLINE',0,3,0,4
+	.byte	'SoAd_SoConModeType',0,9,121,3
+	.word	2014
+	.byte	12
+	.word	193
+	.byte	3
+	.word	2128
+	.byte	12
+	.word	193
+	.byte	3
+	.word	2138
+	.byte	12
+	.word	193
+	.byte	3
+	.word	2148
+	.byte	12
+	.word	1878
+	.byte	3
+	.word	2158
+	.byte	10,9,129,1,9,36,11
+	.byte	'IfBufferLength',0
+	.word	240
+	.byte	2,2,35,0,11
+	.byte	'IfBufferOffset',0
+	.word	240
+	.byte	2,2,35,2,11
+	.byte	'TpBufferLength',0
+	.word	240
+	.byte	2,2,35,4,11
+	.byte	'TpBufferOffset',0
+	.word	240
+	.byte	2,2,35,6,11
+	.byte	'PduRouteNum',0
+	.word	193
+	.byte	1,2,35,8,11
+	.byte	'SocketRouteNum',0
+	.word	193
+	.byte	1,2,35,9,11
+	.byte	'PduRouteDestNum',0
+	.word	193
+	.byte	1,2,35,10,11
+	.byte	'RemoteAddrState',0
+	.word	193
+	.byte	1,2,35,11,11
+	.byte	'RemoteAddr',0
+	.word	686
+	.byte	8,2,35,12,11
+	.byte	'PduRouteDestList',0
+	.word	2133
+	.byte	4,2,35,20,11
+	.byte	'PduRouteList',0
+	.word	2143
+	.byte	4,2,35,24,11
+	.byte	'SocketRouteList',0
+	.word	2153
+	.byte	4,2,35,28,11
+	.byte	'SoConModeChgList',0
+	.word	2163
+	.byte	4,2,35,32,0,4
+	.byte	'SoAd_SocketConnectionType',0,9,146,1,3
+	.word	2168
+	.byte	10,9,148,1,9,16,11
+	.byte	'CtrlFlag',0
+	.word	193
+	.byte	1,2,35,0,11
+	.byte	'KeepAliveProbesMax',0
+	.word	240
+	.byte	2,2,35,2,11
+	.byte	'KeepAliveInterval',0
+	.word	277
+	.byte	4,2,35,4,11
+	.byte	'KeepAliveTime',0
+	.word	277
+	.byte	4,2,35,8,11
+	.byte	'TxQuota',0
+	.word	277
+	.byte	4,2,35,12,0,4
+	.byte	'SoAd_TcpProtocolType',0,9,155,1,3
+	.word	2520
+	.byte	10,9,157,1,9,12,11
+	.byte	'CtrlFlag',0
+	.word	193
+	.byte	1,2,35,0,11
+	.byte	'nPduTxBufferMin',0
+	.word	240
+	.byte	2,2,35,2,11
+	.byte	'TriggerTimeout',0
+	.word	240
+	.byte	2,2,35,4,11
+	.byte	'AliveSupervisionTimeout',0
+	.word	277
+	.byte	4,2,35,6,0,4
+	.byte	'SoAd_UdpProtocolType',0,9,163,1,3
+	.word	2670
+	.byte	12
+	.word	2520
+	.byte	3
+	.word	2807
+	.byte	12
+	.word	2670
+	.byte	3
+	.word	2817
+	.byte	10,9,165,1,9,24,11
+	.byte	'GroupId',0
+	.word	193
+	.byte	1,2,35,0,11
+	.byte	'CtrlFlag',0
+	.word	193
+	.byte	1,2,35,1,11
+	.byte	'FramePriority',0
+	.word	193
+	.byte	1,2,35,2,11
+	.byte	'SoConNum',0
+	.word	193
+	.byte	1,2,35,3,11
+	.byte	'SoConId',0
+	.word	193
+	.byte	1,2,35,4,11
+	.byte	'IpAddrAssignChgNum',0
+	.word	193
+	.byte	1,2,35,5,11
+	.byte	'LocalAddrId',0
+	.word	193
+	.byte	1,2,35,6,11
+	.byte	'LocalPort',0
+	.word	240
+	.byte	2,2,35,8,11
+	.byte	'IpAddrAssignChgList',0
+	.word	2163
+	.byte	4,2,35,12,11
+	.byte	'TcpProtocolPtr',0
+	.word	2812
+	.byte	4,2,35,16,11
+	.byte	'UdpProtocolPtr',0
+	.word	2822
+	.byte	4,2,35,20,0,4
+	.byte	'SoAd_SocketConnectionGroupType',0,9,178,1,3
+	.word	2827
+	.byte	12
+	.word	193
+	.byte	3
+	.word	3112
+	.byte	10,9,180,1,9,12,11
+	.byte	'CtrlFlag',0
+	.word	193
+	.byte	1,2,35,0,11
+	.byte	'PduRouteDestNum',0
+	.word	193
+	.byte	1,2,35,1,11
+	.byte	'SocketRouteDestNum',0
+	.word	193
+	.byte	1,2,35,2,11
+	.byte	'PduRouteDestList',0
+	.word	3117
+	.byte	4,2,35,4,11
+	.byte	'SocketRouteDestList',0
+	.word	3117
+	.byte	4,2,35,8,0,4
+	.byte	'SoAd_RoutingGroupType',0,9,187,1,3
+	.word	3122
+	.byte	10,9,189,1,9,6,11
+	.byte	'ULType',0
+	.word	193
+	.byte	1,2,35,0,11
+	.byte	'ULIndex',0
+	.word	1878
+	.byte	1,2,35,1,11
+	.byte	'CtrlFlag',0
+	.word	193
+	.byte	1,2,35,2,11
+	.byte	'RouteDestNum',0
+	.word	193
+	.byte	1,2,35,3,11
+	.byte	'RouteDestId',0
+	.word	193
+	.byte	1,2,35,4,11
+	.byte	'TxPduId',0
+	.word	193
+	.byte	1,2,35,5,0,4
+	.byte	'SoAd_PduRouteType',0,9,204,1,3
+	.word	3286
+	.byte	3
+	.word	1802
+	.byte	10,9,206,1,9,20,11
+	.byte	'TxPduHeaderId',0
+	.word	277
+	.byte	4,2,35,0,11
+	.byte	'SoConNum',0
+	.word	193
+	.byte	1,2,35,4,11
+	.byte	'SoConId',0
+	.word	193
+	.byte	1,2,35,5,11
+	.byte	'PduRouteId',0
+	.word	193
+	.byte	1,2,35,6,11
+	.byte	'UdpTriggerMode',0
+	.word	193
+	.byte	1,2,35,7,11
+	.byte	'UdpTriggerTimeout',0
+	.word	240
+	.byte	2,2,35,8,11
+	.byte	'RoutingCtrlList',0
+	.word	3431
+	.byte	4,2,35,12,11
+	.byte	'IfTriggerList',0
+	.word	470
+	.byte	4,2,35,16,0,4
+	.byte	'SoAd_PduRouteDestType',0,9,217,1,3
+	.word	3436
+	.byte	10,9,219,1,9,16,11
+	.byte	'RxPduHeaderId',0
+	.word	277
+	.byte	4,2,35,0,11
+	.byte	'ULType',0
+	.word	193
+	.byte	1,2,35,4,11
+	.byte	'ULIndex',0
+	.word	1878
+	.byte	1,2,35,5,11
+	.byte	'SoConNum',0
+	.word	193
+	.byte	1,2,35,6,11
+	.byte	'SoConId',0
+	.word	193
+	.byte	1,2,35,7,11
+	.byte	'RxPduId',0
+	.word	193
+	.byte	1,2,35,8,11
+	.byte	'RoutingCtrlList',0
+	.word	3431
+	.byte	4,2,35,12,0,4
+	.byte	'SoAd_SocketRouteType',0,9,236,1,3
+	.word	3651
+	.byte	12
+	.word	3436
+	.byte	3
+	.word	3821
+	.byte	10,9,155,2,9,24,11
+	.byte	'State',0
+	.word	193
+	.byte	1,2,35,0,11
+	.byte	'Timer',0
+	.word	240
+	.byte	2,2,35,2,11
+	.byte	'BufferLength',0
+	.word	240
+	.byte	2,2,35,4,11
+	.byte	'BufferOffset',0
+	.word	240
+	.byte	2,2,35,6,11
+	.byte	'UdpTxBuffer',0
+	.word	470
+	.byte	4,2,35,8,11
+	.byte	'TotalTxLength',0
+	.word	240
+	.byte	2,2,35,12,11
+	.byte	'UsedTxLength',0
+	.word	240
+	.byte	2,2,35,14,11
+	.byte	'IfTxDataBuffer',0
+	.word	3117
+	.byte	4,2,35,16,11
+	.byte	'PduRouteDestPtr',0
+	.word	3826
+	.byte	4,2,35,20,0,4
+	.byte	'SoAd_TxSessionType',0,9,177,2,3
+	.word	3831
+	.byte	12
+	.word	3651
+	.byte	3
+	.word	4055
+	.byte	10,9,180,2,9,8,11
+	.byte	'PduLength',0
+	.word	240
+	.byte	2,2,35,0,11
+	.byte	'RemainLength',0
+	.word	240
+	.byte	2,2,35,2,11
+	.byte	'SocketRoutePtr',0
+	.word	4060
+	.byte	4,2,35,4,0,4
+	.byte	'SoAd_RxPduInfoType',0,9,185,2,3
+	.word	4065
+	.byte	10,9,187,2,9,12,11
+	.byte	'TotalLength',0
+	.word	240
+	.byte	2,2,35,0,11
+	.byte	'In',0
+	.word	240
+	.byte	2,2,35,2,11
+	.byte	'Out',0
+	.word	240
+	.byte	2,2,35,4,11
+	.byte	'BufferPtr',0
+	.word	470
+	.byte	4,2,35,8,0,4
+	.byte	'SoAd_RxFifoType',0,9,193,2,3
+	.word	4165
+	.byte	10,9,195,2,9,8,11
+	.byte	'TotalLength',0
+	.word	240
+	.byte	2,2,35,0,11
+	.byte	'UsedLength',0
+	.word	240
+	.byte	2,2,35,2,11
+	.byte	'BufferPtr',0
+	.word	470
+	.byte	4,2,35,4,0,4
+	.byte	'SoAd_RxBufferType',0,9,200,2,3
+	.word	4262
+	.byte	8,8
+	.word	193
+	.byte	9,7,0,10,9,202,2,9,48,11
+	.byte	'State',0
+	.word	193
+	.byte	1,2,35,0,11
+	.byte	'ValidHeaderLen',0
+	.word	193
+	.byte	1,2,35,1,11
+	.byte	'PduHeader',0
+	.word	4356
+	.byte	8,2,35,2,11
+	.byte	'RxPduInfo',0
+	.word	4065
+	.byte	8,2,35,12,11
+	.byte	'ProcessPduInfo',0
+	.word	4065
+	.byte	8,2,35,20,11
+	.byte	'IfBuffer',0
+	.word	4262
+	.byte	8,2,35,28,11
+	.byte	'TpBuffer',0
+	.word	4165
+	.byte	12,2,35,36,0,4
+	.byte	'SoAd_RxSessionType',0,9,216,2,3
+	.word	4365
+	.byte	4
+	.byte	'u8_t',0,10,61,25
+	.word	193
+	.byte	5
+	.byte	'char',0,1,6,4
+	.byte	's8_t',0,10,62,25
+	.word	4550
+	.byte	4
+	.byte	'u16_t',0,10,63,25
+	.word	240
+	.byte	4
+	.byte	'u32_t',0,10,65,25
+	.word	277
+	.byte	4
+	.byte	'err_t',0,11,96,14
+	.word	4550
+	.byte	13
+	.byte	'ip4_addr',0,12,51,8,4,11
+	.byte	'addr',0
+	.word	277
+	.byte	4,2,35,0,0,4
+	.byte	'ip4_addr_t',0,12,57,25
+	.word	4613
+	.byte	4
+	.byte	'ip_addr_t',0,13,142,2,20
+	.word	4613
+	.byte	14
+	.byte	'void',0,3
+	.word	4680
+	.byte	13
+	.byte	'pbuf',0,14,186,1,8,16,11
+	.byte	'next',0
+	.word	.L6-.L3
+	.byte	4,2,35,0,11
+	.byte	'payload',0
+	.word	4686
+	.byte	4,2,35,4,11
+	.byte	'tot_len',0
+	.word	240
+	.byte	2,2,35,8,11
+	.byte	'len',0
+	.word	240
+	.byte	2,2,35,10,11
+	.byte	'type_internal',0
+	.word	193
+	.byte	1,2,35,12,11
+	.byte	'flags',0
+	.word	193
+	.byte	1,2,35,13,11
+	.byte	'ref',0
+	.word	193
+	.byte	1,2,35,14,11
+	.byte	'if_idx',0
+	.word	193
+	.byte	1,2,35,15,0
+.L6:
+	.byte	3
+	.word	4691
+	.byte	12
+	.word	4613
+	.byte	3
+	.word	4836
+	.byte	15
+	.word	4550
+	.byte	1,1,16
+	.word	.L7-.L3
+	.byte	16
+	.word	4831
+	.byte	16
+	.word	4841
+	.byte	0,3
+	.word	4846
+	.byte	4
+	.byte	'netif_output_fn',0,15,189,1,17
+	.word	4869
+	.byte	15
+	.word	4550
+	.byte	1,1,16
+	.word	.L7-.L3
+	.byte	16
+	.word	4831
+	.byte	0,3
+	.word	4899
+	.byte	4
+	.byte	'netif_linkoutput_fn',0,15,212,1,17
+	.word	4917
+	.byte	17,1,1,16
+	.word	.L7-.L3
+	.byte	0,3
+	.word	4951
+	.byte	4
+	.byte	'netif_status_callback_fn',0,15,214,1,16
+	.word	4960
+	.byte	8,6
+	.word	193
+	.byte	9,5,0,5
+	.byte	'char',0,1,6,8,2
+	.word	5008
+	.byte	9,1,0,13
+	.byte	'netif',0,15,132,2,8,52,11
+	.byte	'next',0
+	.word	.L7-.L3
+	.byte	4,2,35,0,11
+	.byte	'ip_addr',0
+	.word	4613
+	.byte	4,2,35,4,11
+	.byte	'netmask',0
+	.word	4613
+	.byte	4,2,35,8,11
+	.byte	'gw',0
+	.word	4613
+	.byte	4,2,35,12,11
+	.byte	'input',0
+	.word	.L8-.L3
+	.byte	4,2,35,16,11
+	.byte	'output',0
+	.word	4874
+	.byte	4,2,35,20,11
+	.byte	'linkoutput',0
+	.word	4922
+	.byte	4,2,35,24,11
+	.byte	'status_callback',0
+	.word	4965
+	.byte	4,2,35,28,11
+	.byte	'state',0
+	.word	4686
+	.byte	4,2,35,32,11
+	.byte	'mtu',0
+	.word	240
+	.byte	2,2,35,36,11
+	.byte	'hwaddr',0
+	.word	4999
+	.byte	6,2,35,38,11
+	.byte	'hwaddr_len',0
+	.word	193
+	.byte	1,2,35,44,11
+	.byte	'flags',0
+	.word	193
+	.byte	1,2,35,45,11
+	.byte	'name',0
+	.word	5016
+	.byte	2,2,35,46,11
+	.byte	'num',0
+	.word	193
+	.byte	1,2,35,48,11
+	.byte	'rs_count',0
+	.word	193
+	.byte	1,2,35,49,0
+.L7:
+	.byte	3
+	.word	5025
+	.byte	15
+	.word	4550
+	.byte	1,1,16
+	.word	4831
+	.byte	16
+	.word	5298
+	.byte	0,3
+	.word	5303
+.L8:
+	.byte	4
+	.byte	'netif_input_fn',0,15,178,1,17
+	.word	5321
+	.byte	3
+	.word	5303
+	.byte	3
+	.word	4846
+	.byte	3
+	.word	4899
+	.byte	3
+	.word	4951
+	.byte	13
+	.byte	'ip4_addr_packed',0,16,53,8,4,11
+	.byte	'addr',0
+	.word	277
+	.byte	4,2,35,0,0,4
+	.byte	'ip4_addr_p_t',0,16,61,32
+	.word	5370
+	.byte	18,1,1,3
+	.word	5427
+	.byte	4
+	.byte	'lwip_cyclic_timer_handler',0,17,66,17
+	.word	5430
+	.byte	17,1,1,16
+	.word	4686
+	.byte	0,3
+	.word	5469
+	.byte	4
+	.byte	'sys_timeout_handler',0,17,91,17
+	.word	5478
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L4:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,0,0,3,15,0,73,19,0,0,4,22,0,3,8,58,15,59,15
+	.byte	57,15,73,19,0,0,5,36,0,3,8,11,15,62,15,0,0,6,4,1,58,15,59,15,57,15,11,15,0,0,7,40,0,3,8,28,13,0,0,8,1
+	.byte	1,11,15,73,19,0,0,9,33,0,47,15,0,0,10,19,1,58,15,59,15,57,15,11,15,0,0,11,13,0,3,8,73,19,11,15,56,9,0
+	.byte	0,12,38,0,73,19,0,0,13,19,1,3,8,58,15,59,15,57,15,11,15,0,0,14,59,0,3,8,0,0,15,21,1,73,19,54,15,39,12
+	.byte	0,0,16,5,0,73,19,0,0,17,21,1,54,15,39,12,0,0,18,21,0,54,15,39,12,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L5:
+	.word	.L10-.L9
+.L9:
+	.half	3
+	.word	.L12-.L11
+.L11:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Config',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\SoAd',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\arch',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\prot',0
+	.byte	0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\bridgeif.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0
+	.byte	'Std_Types.h',0,1,0,0
+	.byte	'ComStack_Types_Cfg.h',0,2,0,0
+	.byte	'ComStack_Types.h',0,3,0,0
+	.byte	'TcpIp_GeneratedTypes.h',0,2,0,0
+	.byte	'TcpIp_Types.h',0,4,0,0
+	.byte	'SoAd_GeneratedTypes.h',0,2,0,0
+	.byte	'SoAd_Types.h',0,5,0,0
+	.byte	'cc.h',0,6,0,0
+	.byte	'err.h',0,7,0,0
+	.byte	'ip4_addr.h',0,7,0,0
+	.byte	'ip_addr.h',0,7,0,0
+	.byte	'pbuf.h',0,7,0,0
+	.byte	'netif.h',0,7,0,0
+	.byte	'ip4.h',0,8,0,0
+	.byte	'timeouts.h',0,7,0,0,0
+.L12:
+.L10:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	     1  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	     2   * @file
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	     3   * lwIP netif implementing an IEEE 802.1D MAC Bridge
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	     4   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	     5  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	     6  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	     7   * Copyright (c) 2017 Simon Goldschmidt.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	     8   * All rights reserved.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	     9   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    10   * Redistribution and use in source and binary forms, with or without modification,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    11   * are permitted provided that the following conditions are met:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    12   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    13   * 1. Redistributions of source code must retain the above copyright notice,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    14   *    this list of conditions and the following disclaimer.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    15   * 2. Redistributions in binary form must reproduce the above copyright notice,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    16   *    this list of conditions and the following disclaimer in the documentation
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    17   *    and/or other materials provided with the distribution.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    18   * 3. The name of the author may not be used to endorse or promote products
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    19   *    derived from this software without specific prior written permission.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    20   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    21   * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    22   * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    23   * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    24   * SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    25   * EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    26   * OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    27   * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    28   * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    29   * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    30   * OF SUCH DAMAGE.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    31   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    32   * This file is part of the lwIP TCP/IP stack.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    33   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    34   * Author: Simon Goldschmidt <goldsimon@gmx.de>
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    35   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    36   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    37  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    38  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    39   * @defgroup bridgeif IEEE 802.1D bridge
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    40   * @ingroup netifs
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    41   * This file implements an IEEE 802.1D bridge by using a multilayer netif approach
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    42   * (one hardware-independent netif for the bridge that uses hardware netifs for its ports).
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    43   * On transmit, the bridge selects the outgoing port(s).
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    44   * On receive, the port netif calls into the bridge (via its netif->input function) and
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    45   * the bridge selects the port(s) (and/or its netif->input function) to pass the received pbuf to.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    46   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    47   * Usage:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    48   * - add the port netifs just like you would when using them as dedicated netif without a bridge
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    49   *   - only NETIF_FLAG_ETHARP/NETIF_FLAG_ETHERNET netifs are supported as bridge ports
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    50   *   - add the bridge port netifs without IPv4 addresses (i.e. pass 'NULL, NULL, NULL')
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    51   *   - don't add IPv6 addresses to the port netifs!
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    52   * - set up the bridge configuration in a global variable of type 'bridgeif_initdata_t' that contains
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    53   *   - the MAC address of the bridge
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    54   *   - some configuration options controlling the memory consumption (maximum number of ports
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    55   *     and FDB entries)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    56   *   - e.g. for a bridge MAC address 00-01-02-03-04-05, 2 bridge ports, 1024 FDB entries + 16 static MAC entries:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    57   *     bridgeif_initdata_t mybridge_initdata = BRIDGEIF_INITDATA1(2, 1024, 16, ETH_ADDR(0, 1, 2, 3, 4, 5));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    58   * - add the bridge netif (with IPv4 config):
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    59   *   struct netif bridge_netif;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    60   *   netif_add(&bridge_netif, &my_ip, &my_netmask, &my_gw, &mybridge_initdata, bridgeif_init, tcpip_input);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    61   *   NOTE: the passed 'input' function depends on BRIDGEIF_PORT_NETIFS_OUTPUT_DIRECT setting,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    62   *         which controls where the forwarding is done (netif low level input context vs. tcpip_thread)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    63   * - set up all ports netifs and the bridge netif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    64   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    65   * - When adding a port netif, NETIF_FLAG_ETHARP flag will be removed from a port
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    66   *   to prevent ETHARP working on that port netif (we only want one IP per bridge not per port).
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    67   * - When adding a port netif, its input function is changed to call into the bridge.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    68   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    69   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    70   * @todo:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    71   * - compact static FDB entries (instead of walking the whole array)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    72   * - add FDB query/read access
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    73   * - add FDB change callback (when learning or dropping auto-learned entries)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    74   * - prefill FDB with MAC classes that should never be forwarded
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    75   * - multicast snooping? (and only forward group addresses to interested ports)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    76   * - support removing ports
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    77   * - check SNMP integration
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    78   * - VLAN handling / trunk ports
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    79   * - priority handling? (although that largely depends on TX queue limitations and lwIP doesn't provide tx-done handling)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    80   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    81  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    82  #include "netif/bridgeif.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    83  #include "lwip/netif.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    84  #include "lwip/sys.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    85  #include "lwip/etharp.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    86  #include "lwip/ethip6.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    87  #include "lwip/snmp.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    88  #include "lwip/timeouts.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    89  #include <string.h>
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    90  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    91  #if LWIP_NUM_NETIF_CLIENT_DATA
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    92  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    93  /* Define those to better describe your network interface. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    94  #define IFNAME0 'b'
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    95  #define IFNAME1 'r'
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    96  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    97  struct bridgeif_private_s;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    98  typedef struct bridgeif_port_private_s {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	    99    struct bridgeif_private_s *bridge;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   100    struct netif *port_netif;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   101    u8_t port_num;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   102  } bridgeif_port_t;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   103  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   104  typedef struct bridgeif_fdb_static_entry_s {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   105    u8_t used;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   106    bridgeif_portmask_t dst_ports;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   107    struct eth_addr addr;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   108  } bridgeif_fdb_static_entry_t;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   109  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   110  typedef struct bridgeif_private_s {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   111    struct netif     *netif;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   112    struct eth_addr   ethaddr;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   113    u8_t              max_ports;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   114    u8_t              num_ports;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   115    bridgeif_port_t  *ports;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   116    u16_t             max_fdbs_entries;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   117    bridgeif_fdb_static_entry_t *fdbs;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   118    u16_t             max_fdbd_entries;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   119    void             *fdbd;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   120  } bridgeif_private_t;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   121  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   122  /* netif data index to get the bridge on input */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   123  u8_t bridgeif_netif_client_id = 0xff;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   124  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   125  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   126   * @ingroup bridgeif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   127   * Add a static entry to the forwarding database.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   128   * A static entry marks where frames to a specific eth address (unicast or group address) are
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   129   * forwarded.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   130   * bits [0..(BRIDGEIF_MAX_PORTS-1)]: hw ports
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   131   * bit [BRIDGEIF_MAX_PORTS]: cpu port
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   132   * 0: drop
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   133   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   134  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   135  bridgeif_fdb_add(struct netif *bridgeif, const struct eth_addr *addr, bridgeif_portmask_t ports)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   136  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   137    int i;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   138    bridgeif_private_t *br;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   139    BRIDGEIF_DECL_PROTECT(lev);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   140    LWIP_ASSERT("invalid netif", bridgeif != NULL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   141    br = (bridgeif_private_t *)bridgeif->state;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   142    LWIP_ASSERT("invalid state", br != NULL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   143  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   144    BRIDGEIF_READ_PROTECT(lev);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   145    for (i = 0; i < br->max_fdbs_entries; i++) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   146      if (!br->fdbs[i].used) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   147        BRIDGEIF_WRITE_PROTECT(lev);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   148        if (!br->fdbs[i].used) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   149          br->fdbs[i].used = 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   150          br->fdbs[i].dst_ports = ports;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   151          memcpy(&br->fdbs[i].addr, addr, sizeof(struct eth_addr));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   152          BRIDGEIF_WRITE_UNPROTECT(lev);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   153          BRIDGEIF_READ_UNPROTECT(lev);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   154          return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   155        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   156        BRIDGEIF_WRITE_UNPROTECT(lev);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   157      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   158    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   159    BRIDGEIF_READ_UNPROTECT(lev);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   160    return ERR_MEM;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   161  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   162  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   163  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   164   * @ingroup bridgeif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   165   * Remove a static entry from the forwarding database
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   166   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   167  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   168  bridgeif_fdb_remove(struct netif *bridgeif, const struct eth_addr *addr)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   169  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   170    int i;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   171    bridgeif_private_t *br;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   172    BRIDGEIF_DECL_PROTECT(lev);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   173    LWIP_ASSERT("invalid netif", bridgeif != NULL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   174    br = (bridgeif_private_t *)bridgeif->state;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   175    LWIP_ASSERT("invalid state", br != NULL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   176  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   177    BRIDGEIF_READ_PROTECT(lev);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   178    for (i = 0; i < br->max_fdbs_entries; i++) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   179      if (br->fdbs[i].used && !memcmp(&br->fdbs[i].addr, addr, sizeof(struct eth_addr))) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   180        BRIDGEIF_WRITE_PROTECT(lev);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   181        if (br->fdbs[i].used && !memcmp(&br->fdbs[i].addr, addr, sizeof(struct eth_addr))) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   182          memset(&br->fdbs[i], 0, sizeof(bridgeif_fdb_static_entry_t));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   183          BRIDGEIF_WRITE_UNPROTECT(lev);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   184          BRIDGEIF_READ_UNPROTECT(lev);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   185          return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   186        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   187        BRIDGEIF_WRITE_UNPROTECT(lev);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   188      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   189    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   190    BRIDGEIF_READ_UNPROTECT(lev);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   191    return ERR_VAL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   192  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   193  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   194  /** Get the forwarding port(s) (as bit mask) for the specified destination mac address */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   195  static bridgeif_portmask_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   196  bridgeif_find_dst_ports(bridgeif_private_t *br, struct eth_addr *dst_addr)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   197  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   198    int i;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   199    BRIDGEIF_DECL_PROTECT(lev);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   200    BRIDGEIF_READ_PROTECT(lev);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   201    /* first check for static entries */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   202    for (i = 0; i < br->max_fdbs_entries; i++) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   203      if (br->fdbs[i].used) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   204        if (!memcmp(&br->fdbs[i].addr, dst_addr, sizeof(struct eth_addr))) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   205          bridgeif_portmask_t ret = br->fdbs[i].dst_ports;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   206          BRIDGEIF_READ_UNPROTECT(lev);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   207          return ret;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   208        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   209      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   210    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   211    if (dst_addr->addr[0] & 1) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   212      /* no match found: flood remaining group address */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   213      BRIDGEIF_READ_UNPROTECT(lev);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   214      return BR_FLOOD;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   215    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   216    BRIDGEIF_READ_UNPROTECT(lev);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   217    /* no match found: check dynamic fdb for port or fall back to flooding */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   218    return bridgeif_fdb_get_dst_ports(br->fdbd, dst_addr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   219  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   220  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   221  /** Helper function to see if a destination mac belongs to the bridge
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   222   * (bridge netif or one of the port netifs), in which case the frame
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   223   * is sent to the cpu only.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   224   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   225  static int
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   226  bridgeif_is_local_mac(bridgeif_private_t *br, struct eth_addr *addr)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   227  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   228    int i;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   229    BRIDGEIF_DECL_PROTECT(lev);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   230    if (!memcmp(br->netif->hwaddr, addr, sizeof(struct eth_addr))) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   231      return 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   232    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   233    BRIDGEIF_READ_PROTECT(lev);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   234    for (i = 0; i < br->num_ports; i++) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   235      struct netif *portif = br->ports[i].port_netif;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   236      if (portif != NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   237        if (!memcmp(portif->hwaddr, addr, sizeof(struct eth_addr))) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   238          BRIDGEIF_READ_UNPROTECT(lev);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   239          return 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   240        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   241      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   242    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   243    BRIDGEIF_READ_UNPROTECT(lev);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   244    return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   245  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   246  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   247  /* Output helper function */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   248  static err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   249  bridgeif_send_to_port(bridgeif_private_t *br, struct pbuf *p, u8_t dstport_idx)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   250  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   251    if (dstport_idx < BRIDGEIF_MAX_PORTS) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   252      /* possibly an external port */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   253      if (dstport_idx < br->max_ports) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   254        struct netif *portif = br->ports[dstport_idx].port_netif;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   255        if ((portif != NULL) && (portif->linkoutput != NULL)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   256          /* prevent sending out to rx port */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   257          if (netif_get_index(portif) != p->if_idx) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   258            if (netif_is_link_up(portif)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   259              LWIP_DEBUGF(BRIDGEIF_FW_DEBUG, ("br -> flood(%p:%d) -> %d\n", (void *)p, p->if_idx, netif_get_index(portif)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   260              return portif->linkoutput(portif, p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   261            }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   262          }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   263        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   264      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   265    } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   266      LWIP_ASSERT("invalid port index", dstport_idx == BRIDGEIF_MAX_PORTS);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   267    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   268    return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   269  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   270  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   271  /** Helper function to pass a pbuf to all ports marked in 'dstports'
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   272   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   273  static err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   274  bridgeif_send_to_ports(bridgeif_private_t *br, struct pbuf *p, bridgeif_portmask_t dstports)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   275  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   276    err_t err, ret_err = ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   277    u8_t i;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   278    bridgeif_portmask_t mask = 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   279    BRIDGEIF_DECL_PROTECT(lev);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   280    BRIDGEIF_READ_PROTECT(lev);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   281    for (i = 0; i < BRIDGEIF_MAX_PORTS; i++, mask = (bridgeif_portmask_t)(mask << 1)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   282      if (dstports & mask) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   283        err = bridgeif_send_to_port(br, p, i);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   284        if (err != ERR_OK) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   285          ret_err = err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   286        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   287      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   288    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   289    BRIDGEIF_READ_UNPROTECT(lev);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   290    return ret_err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   291  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   292  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   293  /** Output function of the application port of the bridge (the one with an ip address).
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   294   * The forwarding port(s) where this pbuf is sent on is/are automatically selected
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   295   * from the FDB.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   296   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   297  static err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   298  bridgeif_output(struct netif *netif, struct pbuf *p)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   299  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   300    err_t err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   301    bridgeif_private_t *br = (bridgeif_private_t *)netif->state;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   302    struct eth_addr *dst = (struct eth_addr *)(p->payload);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   303  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   304    bridgeif_portmask_t dstports = bridgeif_find_dst_ports(br, dst);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   305    err = bridgeif_send_to_ports(br, p, dstports);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   306  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   307    MIB2_STATS_NETIF_ADD(netif, ifoutoctets, p->tot_len);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   308    if (((u8_t *)p->payload)[0] & 1) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   309      /* broadcast or multicast packet*/
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   310      MIB2_STATS_NETIF_INC(netif, ifoutnucastpkts);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   311    } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   312      /* unicast packet */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   313      MIB2_STATS_NETIF_INC(netif, ifoutucastpkts);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   314    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   315    /* increase ifoutdiscards or ifouterrors on error */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   316  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   317    LINK_STATS_INC(link.xmit);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   318  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   319    return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   320  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   321  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   322  /** The actual bridge input function. Port netif's input is changed to call
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   323   * here. This function decides where the frame is forwarded.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   324   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   325  static err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   326  bridgeif_input(struct pbuf *p, struct netif *netif)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   327  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   328    u8_t rx_idx;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   329    bridgeif_portmask_t dstports;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   330    struct eth_addr *src, *dst;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   331    bridgeif_private_t *br;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   332    bridgeif_port_t *port;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   333    if (p == NULL || netif == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   334      return ERR_VAL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   335    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   336    port = (bridgeif_port_t *)netif_get_client_data(netif, bridgeif_netif_client_id);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   337    LWIP_ASSERT("port data not set", port != NULL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   338    if (port == NULL || port->bridge == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   339      return ERR_VAL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   340    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   341    br = (bridgeif_private_t *)port->bridge;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   342    rx_idx = netif_get_index(netif);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   343    /* store receive index in pbuf */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   344    p->if_idx = rx_idx;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   345  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   346    dst = (struct eth_addr *)p->payload;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   347    src = (struct eth_addr *)(((u8_t *)p->payload) + sizeof(struct eth_addr));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   348  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   349    if ((src->addr[0] & 1) == 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   350      /* update src for all non-group addresses */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   351      bridgeif_fdb_update_src(br->fdbd, src, port->port_num);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   352    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   353  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   354    if (dst->addr[0] & 1) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   355      /* group address -> flood + cpu? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   356      dstports = bridgeif_find_dst_ports(br, dst);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   357      bridgeif_send_to_ports(br, p, dstports);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   358      if (dstports & (1 << BRIDGEIF_MAX_PORTS)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   359        /* we pass the reference to ->input or have to free it */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   360        LWIP_DEBUGF(BRIDGEIF_FW_DEBUG, ("br -> input(%p)\n", (void *)p));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   361        if (br->netif->input(p, br->netif) != ERR_OK) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   362          pbuf_free(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   363        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   364      } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   365        /* all references done */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   366        pbuf_free(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   367      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   368      /* always return ERR_OK here to prevent the caller freeing the pbuf */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   369      return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   370    } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   371      /* is this for one of the local ports? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   372      if (bridgeif_is_local_mac(br, dst)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   373        /* yes, send to cpu port only */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   374        LWIP_DEBUGF(BRIDGEIF_FW_DEBUG, ("br -> input(%p)\n", (void *)p));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   375        return br->netif->input(p, br->netif);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   376      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   377  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   378      /* get dst port */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   379      dstports = bridgeif_find_dst_ports(br, dst);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   380      bridgeif_send_to_ports(br, p, dstports);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   381      /* no need to send to cpu, flooding is for external ports only */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   382      /* by  this, we consumed the pbuf */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   383      pbuf_free(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   384      /* always return ERR_OK here to prevent the caller freeing the pbuf */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   385      return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   386    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   387  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   388  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   389  #if !BRIDGEIF_PORT_NETIFS_OUTPUT_DIRECT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   390  /** Input function for port netifs used to synchronize into tcpip_thread.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   391   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   392  static err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   393  bridgeif_tcpip_input(struct pbuf *p, struct netif *netif)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   394  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   395    return tcpip_inpkt(p, netif, bridgeif_input);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   396  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   397  #endif /* BRIDGEIF_PORT_NETIFS_OUTPUT_DIRECT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   398  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   399  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   400   * @ingroup bridgeif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   401   * Initialization function passed to netif_add().
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   402   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   403   * ATTENTION: A pointer to a @ref bridgeif_initdata_t must be passed as 'state'
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   404   *            to @ref netif_add when adding the bridge. I supplies MAC address
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   405   *            and controls memory allocation (number of ports, FDB size).
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   406   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   407   * @param netif the lwip network interface structure for this ethernetif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   408   * @return ERR_OK if the loopif is initialized
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   409   *         ERR_MEM if private data couldn't be allocated
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   410   *         any other err_t on error
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   411   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   412  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   413  bridgeif_init(struct netif *netif)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   414  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   415    bridgeif_initdata_t *init_data;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   416    bridgeif_private_t *br;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   417    size_t alloc_len_sizet;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   418    mem_size_t alloc_len;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   419  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   420    LWIP_ASSERT("netif != NULL", (netif != NULL));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   421    LWIP_ASSERT("bridgeif needs an input callback", (netif->input != NULL));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   422  #if !BRIDGEIF_PORT_NETIFS_OUTPUT_DIRECT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   423    if (netif->input == tcpip_input) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   424      LWIP_DEBUGF(BRIDGEIF_DEBUG | LWIP_DBG_ON, ("bridgeif does not need tcpip_input, use netif_input/ethernet_input instead"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   425    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   426  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   427  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   428    if (bridgeif_netif_client_id == 0xFF) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   429      bridgeif_netif_client_id = netif_alloc_client_data_id();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   430    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   431  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   432    init_data = (bridgeif_initdata_t *)netif->state;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   433    LWIP_ASSERT("init_data != NULL", (init_data != NULL));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   434    LWIP_ASSERT("init_data->max_ports <= BRIDGEIF_MAX_PORTS",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   435                init_data->max_ports <= BRIDGEIF_MAX_PORTS);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   436  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   437    alloc_len_sizet = sizeof(bridgeif_private_t) + (init_data->max_ports * sizeof(bridgeif_port_t) + (init_data->max_fdb_static_entries * sizeof(bridgeif_fdb_static_entry_t)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   438    alloc_len = (mem_size_t)alloc_len_sizet;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   439    LWIP_ASSERT("alloc_len == alloc_len_sizet", alloc_len == alloc_len_sizet);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   440    LWIP_DEBUGF(BRIDGEIF_DEBUG, ("bridgeif_init: allocating %d bytes for private data\n", (int)alloc_len));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   441    br = (bridgeif_private_t *)mem_calloc(1, alloc_len);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   442    if (br == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   443      LWIP_DEBUGF(NETIF_DEBUG, ("bridgeif_init: out of memory\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   444      return ERR_MEM;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   445    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   446    memcpy(&br->ethaddr, &init_data->ethaddr, sizeof(br->ethaddr));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   447    br->netif = netif;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   448  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   449    br->max_ports = init_data->max_ports;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   450    br->ports = (bridgeif_port_t *)(br + 1);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   451  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   452    br->max_fdbs_entries = init_data->max_fdb_static_entries;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   453    br->fdbs = (bridgeif_fdb_static_entry_t *)(((u8_t *)(br + 1)) + (init_data->max_ports * sizeof(bridgeif_port_t)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   454  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   455    br->max_fdbd_entries = init_data->max_fdb_dynamic_entries;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   456    br->fdbd = bridgeif_fdb_init(init_data->max_fdb_dynamic_entries);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   457    if (br->fdbd == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   458      LWIP_DEBUGF(NETIF_DEBUG, ("bridgeif_init: out of memory in fdb_init\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   459      mem_free(br);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   460      return ERR_MEM;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   461    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   462  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   463  #if LWIP_NETIF_HOSTNAME
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   464    /* Initialize interface hostname */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   465    netif->hostname = "lwip";
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   466  #endif /* LWIP_NETIF_HOSTNAME */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   467  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   468    /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   469     * Initialize the snmp variables and counters inside the struct netif.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   470     * The last argument should be replaced with your link speed, in units
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   471     * of bits per second.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   472     */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   473    MIB2_INIT_NETIF(netif, snmp_ifType_ethernet_csmacd, 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   474  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   475    netif->state = br;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   476    netif->name[0] = IFNAME0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   477    netif->name[1] = IFNAME1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   478    /* We directly use etharp_output() here to save a function call.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   479     * You can instead declare your own function an call etharp_output()
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   480     * from it if you have to do some checks before sending (e.g. if link
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   481     * is available...) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   482  #if LWIP_IPV4
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   483    netif->output = etharp_output;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   484  #endif /* LWIP_IPV4 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   485  #if LWIP_IPV6
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   486    netif->output_ip6 = ethip6_output;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   487  #endif /* LWIP_IPV6 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   488    netif->linkoutput = bridgeif_output;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   489  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   490    /* set MAC hardware address length */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   491    netif->hwaddr_len = ETH_HWADDR_LEN;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   492  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   493    /* set MAC hardware address */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   494    memcpy(netif->hwaddr, &br->ethaddr, ETH_HWADDR_LEN);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   495  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   496    /* maximum transfer unit */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   497    netif->mtu = 1500;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   498  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   499    /* device capabilities */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   500    /* don't set NETIF_FLAG_ETHARP if this device is not an ethernet one */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   501    netif->flags = NETIF_FLAG_BROADCAST | NETIF_FLAG_ETHARP | NETIF_FLAG_ETHERNET | NETIF_FLAG_IGMP | NETIF_FLAG_MLD6 | NETIF_FLAG_LINK_UP;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   502  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   503  #if LWIP_IPV6 && LWIP_IPV6_MLD
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   504    /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   505     * For hardware/netifs that implement MAC filtering.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   506     * All-nodes link-local is handled by default, so we must let the hardware know
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   507     * to allow multicast packets in.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   508     * Should set mld_mac_filter previously. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   509    if (netif->mld_mac_filter != NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   510      ip6_addr_t ip6_allnodes_ll;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   511      ip6_addr_set_allnodes_linklocal(&ip6_allnodes_ll);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   512      netif->mld_mac_filter(netif, &ip6_allnodes_ll, NETIF_ADD_MAC_FILTER);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   513    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   514  #endif /* LWIP_IPV6 && LWIP_IPV6_MLD */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   515  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   516    return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   517  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   518  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   519  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   520   * @ingroup bridgeif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   521   * Add a port to the bridge
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   522   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   523  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   524  bridgeif_add_port(struct netif *bridgeif, struct netif *portif)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   525  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   526    bridgeif_private_t *br;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   527    bridgeif_port_t *port;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   528  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   529    LWIP_ASSERT("bridgeif != NULL", bridgeif != NULL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   530    LWIP_ASSERT("bridgeif->state != NULL", bridgeif->state != NULL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   531    LWIP_ASSERT("portif != NULL", portif != NULL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   532  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   533    if (!(portif->flags & NETIF_FLAG_ETHARP) || !(portif->flags & NETIF_FLAG_ETHERNET)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   534      /* can only add ETHERNET/ETHARP interfaces */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   535      return ERR_VAL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   536    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   537  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   538    br = (bridgeif_private_t *)bridgeif->state;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   539  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   540    if (br->num_ports >= br->max_ports) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   541      return ERR_VAL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   542    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   543    port = &br->ports[br->num_ports];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   544    port->port_netif = portif;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   545    port->port_num = br->num_ports;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   546    port->bridge = br;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   547    br->num_ports++;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   548  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   549    /* let the port call us on input */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   550  #if BRIDGEIF_PORT_NETIFS_OUTPUT_DIRECT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   551    portif->input = bridgeif_input;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   552  #else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   553    portif->input = bridgeif_tcpip_input;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   554  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   555    /* store pointer to bridge in netif */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   556    netif_set_client_data(portif, bridgeif_netif_client_id, port);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   557    /* remove ETHARP flag to prevent sending report events on netif-up */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   558    netif_clear_flags(portif, NETIF_FLAG_ETHARP);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   559  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   560    return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   561  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   562  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\bridgeif.c	   563  #endif /* LWIP_NUM_NETIF_CLIENT_DATA */
+
+	; Module end

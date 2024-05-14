@@ -1,0 +1,565 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.2r2 Build 18041957 SN 09003395"
+	.compiler_invocation	"ctc -f cc33916a --dep-file=EAS\\BSW\\Crc\\.Crc_32.o.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc39x -D__CPU_TC39X__ --core=tc1.6.2 --fp-model=+float -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Cfg_Ssw -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Cfg_Ssw\\TC39B -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Integration -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr\\TC39xB -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr\\TC39xB\\_Reg -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw\\TC39B -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw\\TC39B\\Tricore -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\inc\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Lib -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\App_Func -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\demo -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Adc_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Gtm_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\AscLin_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Can_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\EthV2_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Stm_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Main -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\APP -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\BswM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanNm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanSm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanTp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanTSyn -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Com -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\ComM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Common -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Crc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Dcm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Dem -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Det -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\DoIP -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EcuM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Eth -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthSM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthTrcv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthTSyn -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\FiM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\FlsTst -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\MemIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Nm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\NvM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS\\Kernel -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS\\Portable -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\PduR -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\RamTst -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\SoAd -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\StbM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\api -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\arch -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv6 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\arpa -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\net -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\sys -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\stdc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\apps -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\priv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\prot -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif\\ppp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif\\ppp\\polarssl -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\polarssl -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\UdpNm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\WdgIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\WdgM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Cal -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Daq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Pag -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Pgm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Std -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\XcpOnEth -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Callout -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Config -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Library\\Vfx_ComE2E -g2 --make-target=EAS\\BSW\\Crc\\Crc_32.o -t2 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O1 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o EAS\\BSW\\Crc\\Crc_32.src ..\\EAS\\BSW\\Crc\\Crc_32.c"
+	.compiler_name		"ctc"
+	;source	'..\\EAS\\BSW\\Crc\\Crc_32.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.Crc_32.Crc_CalculateCRC32',code,cluster('Crc_CalculateCRC32')
+	.sect	'.text.Crc_32.Crc_CalculateCRC32'
+	.align	2
+	
+	.global	Crc_CalculateCRC32
+
+; ..\EAS\BSW\Crc\Crc_32.c	     1  /*  BEGIN_FILE_HDR
+; ..\EAS\BSW\Crc\Crc_32.c	     2  ********************************************************************************
+; ..\EAS\BSW\Crc\Crc_32.c	     3  *   NOTICE
+; ..\EAS\BSW\Crc\Crc_32.c	     4  *   This software is the property of HiRain Technologies. Any information
+; ..\EAS\BSW\Crc\Crc_32.c	     5  *   contained in this doc should not be reproduced, or used, or disclosed
+; ..\EAS\BSW\Crc\Crc_32.c	     6  *   without the written authorization from HiRain Technologies.
+; ..\EAS\BSW\Crc\Crc_32.c	     7  ********************************************************************************
+; ..\EAS\BSW\Crc\Crc_32.c	     8  *   File Name       : Crc32.c
+; ..\EAS\BSW\Crc\Crc_32.c	     9  ********************************************************************************
+; ..\EAS\BSW\Crc\Crc_32.c	    10  *   Project/Product : AUTOSAR 4.2.2
+; ..\EAS\BSW\Crc\Crc_32.c	    11  *   Title           : 32-bit CRC function module Source File
+; ..\EAS\BSW\Crc\Crc_32.c	    12  *   Author          : Hirain
+; ..\EAS\BSW\Crc\Crc_32.c	    13  ********************************************************************************
+; ..\EAS\BSW\Crc\Crc_32.c	    14  *   Description     : This service makes a CRC32 calculation on Crc_Length data bytes.
+; ..\EAS\BSW\Crc\Crc_32.c	    15  
+; ..\EAS\BSW\Crc\Crc_32.c	    16  *
+; ..\EAS\BSW\Crc\Crc_32.c	    17  ********************************************************************************
+; ..\EAS\BSW\Crc\Crc_32.c	    18  *   Limitations     : None
+; ..\EAS\BSW\Crc\Crc_32.c	    19  *
+; ..\EAS\BSW\Crc\Crc_32.c	    20  ********************************************************************************
+; ..\EAS\BSW\Crc\Crc_32.c	    21  *
+; ..\EAS\BSW\Crc\Crc_32.c	    22  ********************************************************************************
+; ..\EAS\BSW\Crc\Crc_32.c	    23  *     Revision History:
+; ..\EAS\BSW\Crc\Crc_32.c	    24  *     Reference to Core H File
+; ..\EAS\BSW\Crc\Crc_32.c	    25  ********************************************************************************
+; ..\EAS\BSW\Crc\Crc_32.c	    26  * END_FILE_HDR*/
+; ..\EAS\BSW\Crc\Crc_32.c	    27  
+; ..\EAS\BSW\Crc\Crc_32.c	    28  
+; ..\EAS\BSW\Crc\Crc_32.c	    29  
+; ..\EAS\BSW\Crc\Crc_32.c	    30  /*******************************************************************************
+; ..\EAS\BSW\Crc\Crc_32.c	    31  *   Includes
+; ..\EAS\BSW\Crc\Crc_32.c	    32  *******************************************************************************/
+; ..\EAS\BSW\Crc\Crc_32.c	    33  #include "Crc.h"
+; ..\EAS\BSW\Crc\Crc_32.c	    34  
+; ..\EAS\BSW\Crc\Crc_32.c	    35  /*******************************************************************************
+; ..\EAS\BSW\Crc\Crc_32.c	    36  *   Macro
+; ..\EAS\BSW\Crc\Crc_32.c	    37  *******************************************************************************/
+; ..\EAS\BSW\Crc\Crc_32.c	    38  #define CRC_32_INIT_VALUE     ((uint32)(0xFFFFFFFF))
+; ..\EAS\BSW\Crc\Crc_32.c	    39  #define CRC_32_XOR_VALUE      ((uint32)(0xFFFFFFFF))
+; ..\EAS\BSW\Crc\Crc_32.c	    40  
+; ..\EAS\BSW\Crc\Crc_32.c	    41  #define CRC_START_SEC_VAR_INIT_32
+; ..\EAS\BSW\Crc\Crc_32.c	    42  #include "MemMap.h"
+; ..\EAS\BSW\Crc\Crc_32.c	    43  
+; ..\EAS\BSW\Crc\Crc_32.c	    44  STATIC CONST(uint32, CRC_CONST) Crc_Table32[TABLE_SIZE] =
+; ..\EAS\BSW\Crc\Crc_32.c	    45  {
+; ..\EAS\BSW\Crc\Crc_32.c	    46      (uint32)0x00000000, (uint32)0x77073096, (uint32)0xee0e612c, (uint32)0x990951ba,
+; ..\EAS\BSW\Crc\Crc_32.c	    47      (uint32)0x076dc419, (uint32)0x706af48f, (uint32)0xe963a535, (uint32)0x9e6495a3,
+; ..\EAS\BSW\Crc\Crc_32.c	    48      (uint32)0x0edb8832, (uint32)0x79dcb8a4, (uint32)0xe0d5e91e, (uint32)0x97d2d988,
+; ..\EAS\BSW\Crc\Crc_32.c	    49      (uint32)0x09b64c2b, (uint32)0x7eb17cbd, (uint32)0xe7b82d07, (uint32)0x90bf1d91,
+; ..\EAS\BSW\Crc\Crc_32.c	    50      (uint32)0x1db71064, (uint32)0x6ab020f2, (uint32)0xf3b97148, (uint32)0x84be41de,
+; ..\EAS\BSW\Crc\Crc_32.c	    51      (uint32)0x1adad47d, (uint32)0x6ddde4eb, (uint32)0xf4d4b551, (uint32)0x83d385c7,
+; ..\EAS\BSW\Crc\Crc_32.c	    52      (uint32)0x136c9856, (uint32)0x646ba8c0, (uint32)0xfd62f97a, (uint32)0x8a65c9ec,
+; ..\EAS\BSW\Crc\Crc_32.c	    53      (uint32)0x14015c4f, (uint32)0x63066cd9, (uint32)0xfa0f3d63, (uint32)0x8d080df5,
+; ..\EAS\BSW\Crc\Crc_32.c	    54      (uint32)0x3b6e20c8, (uint32)0x4c69105e, (uint32)0xd56041e4, (uint32)0xa2677172,
+; ..\EAS\BSW\Crc\Crc_32.c	    55      (uint32)0x3c03e4d1, (uint32)0x4b04d447, (uint32)0xd20d85fd, (uint32)0xa50ab56b,
+; ..\EAS\BSW\Crc\Crc_32.c	    56      (uint32)0x35b5a8fa, (uint32)0x42b2986c, (uint32)0xdbbbc9d6, (uint32)0xacbcf940,
+; ..\EAS\BSW\Crc\Crc_32.c	    57      (uint32)0x32d86ce3, (uint32)0x45df5c75, (uint32)0xdcd60dcf, (uint32)0xabd13d59,
+; ..\EAS\BSW\Crc\Crc_32.c	    58      (uint32)0x26d930ac, (uint32)0x51de003a, (uint32)0xc8d75180, (uint32)0xbfd06116,
+; ..\EAS\BSW\Crc\Crc_32.c	    59      (uint32)0x21b4f4b5, (uint32)0x56b3c423, (uint32)0xcfba9599, (uint32)0xb8bda50f,
+; ..\EAS\BSW\Crc\Crc_32.c	    60      (uint32)0x2802b89e, (uint32)0x5f058808, (uint32)0xc60cd9b2, (uint32)0xb10be924,
+; ..\EAS\BSW\Crc\Crc_32.c	    61      (uint32)0x2f6f7c87, (uint32)0x58684c11, (uint32)0xc1611dab, (uint32)0xb6662d3d,
+; ..\EAS\BSW\Crc\Crc_32.c	    62      (uint32)0x76dc4190, (uint32)0x01db7106, (uint32)0x98d220bc, (uint32)0xefd5102a,
+; ..\EAS\BSW\Crc\Crc_32.c	    63      (uint32)0x71b18589, (uint32)0x06b6b51f, (uint32)0x9fbfe4a5, (uint32)0xe8b8d433,
+; ..\EAS\BSW\Crc\Crc_32.c	    64      (uint32)0x7807c9a2, (uint32)0x0f00f934, (uint32)0x9609a88e, (uint32)0xe10e9818,
+; ..\EAS\BSW\Crc\Crc_32.c	    65      (uint32)0x7f6a0dbb, (uint32)0x086d3d2d, (uint32)0x91646c97, (uint32)0xe6635c01,
+; ..\EAS\BSW\Crc\Crc_32.c	    66      (uint32)0x6b6b51f4, (uint32)0x1c6c6162, (uint32)0x856530d8, (uint32)0xf262004e,
+; ..\EAS\BSW\Crc\Crc_32.c	    67      (uint32)0x6c0695ed, (uint32)0x1b01a57b, (uint32)0x8208f4c1, (uint32)0xf50fc457,
+; ..\EAS\BSW\Crc\Crc_32.c	    68      (uint32)0x65b0d9c6, (uint32)0x12b7e950, (uint32)0x8bbeb8ea, (uint32)0xfcb9887c,
+; ..\EAS\BSW\Crc\Crc_32.c	    69      (uint32)0x62dd1ddf, (uint32)0x15da2d49, (uint32)0x8cd37cf3, (uint32)0xfbd44c65,
+; ..\EAS\BSW\Crc\Crc_32.c	    70      (uint32)0x4db26158, (uint32)0x3ab551ce, (uint32)0xa3bc0074, (uint32)0xd4bb30e2,
+; ..\EAS\BSW\Crc\Crc_32.c	    71      (uint32)0x4adfa541, (uint32)0x3dd895d7, (uint32)0xa4d1c46d, (uint32)0xd3d6f4fb,
+; ..\EAS\BSW\Crc\Crc_32.c	    72      (uint32)0x4369e96a, (uint32)0x346ed9fc, (uint32)0xad678846, (uint32)0xda60b8d0,
+; ..\EAS\BSW\Crc\Crc_32.c	    73      (uint32)0x44042d73, (uint32)0x33031de5, (uint32)0xaa0a4c5f, (uint32)0xdd0d7cc9,
+; ..\EAS\BSW\Crc\Crc_32.c	    74      (uint32)0x5005713c, (uint32)0x270241aa, (uint32)0xbe0b1010, (uint32)0xc90c2086,
+; ..\EAS\BSW\Crc\Crc_32.c	    75      (uint32)0x5768b525, (uint32)0x206f85b3, (uint32)0xb966d409, (uint32)0xce61e49f,
+; ..\EAS\BSW\Crc\Crc_32.c	    76      (uint32)0x5edef90e, (uint32)0x29d9c998, (uint32)0xb0d09822, (uint32)0xc7d7a8b4,
+; ..\EAS\BSW\Crc\Crc_32.c	    77      (uint32)0x59b33d17, (uint32)0x2eb40d81, (uint32)0xb7bd5c3b, (uint32)0xc0ba6cad,
+; ..\EAS\BSW\Crc\Crc_32.c	    78      (uint32)0xedb88320, (uint32)0x9abfb3b6, (uint32)0x03b6e20c, (uint32)0x74b1d29a,
+; ..\EAS\BSW\Crc\Crc_32.c	    79      (uint32)0xead54739, (uint32)0x9dd277af, (uint32)0x04db2615, (uint32)0x73dc1683,
+; ..\EAS\BSW\Crc\Crc_32.c	    80      (uint32)0xe3630b12, (uint32)0x94643b84, (uint32)0x0d6d6a3e, (uint32)0x7a6a5aa8,
+; ..\EAS\BSW\Crc\Crc_32.c	    81      (uint32)0xe40ecf0b, (uint32)0x9309ff9d, (uint32)0x0a00ae27, (uint32)0x7d079eb1,
+; ..\EAS\BSW\Crc\Crc_32.c	    82      (uint32)0xf00f9344, (uint32)0x8708a3d2, (uint32)0x1e01f268, (uint32)0x6906c2fe,
+; ..\EAS\BSW\Crc\Crc_32.c	    83      (uint32)0xf762575d, (uint32)0x806567cb, (uint32)0x196c3671, (uint32)0x6e6b06e7,
+; ..\EAS\BSW\Crc\Crc_32.c	    84      (uint32)0xfed41b76, (uint32)0x89d32be0, (uint32)0x10da7a5a, (uint32)0x67dd4acc,
+; ..\EAS\BSW\Crc\Crc_32.c	    85      (uint32)0xf9b9df6f, (uint32)0x8ebeeff9, (uint32)0x17b7be43, (uint32)0x60b08ed5,
+; ..\EAS\BSW\Crc\Crc_32.c	    86      (uint32)0xd6d6a3e8, (uint32)0xa1d1937e, (uint32)0x38d8c2c4, (uint32)0x4fdff252,
+; ..\EAS\BSW\Crc\Crc_32.c	    87      (uint32)0xd1bb67f1, (uint32)0xa6bc5767, (uint32)0x3fb506dd, (uint32)0x48b2364b,
+; ..\EAS\BSW\Crc\Crc_32.c	    88      (uint32)0xd80d2bda, (uint32)0xaf0a1b4c, (uint32)0x36034af6, (uint32)0x41047a60,
+; ..\EAS\BSW\Crc\Crc_32.c	    89      (uint32)0xdf60efc3, (uint32)0xa867df55, (uint32)0x316e8eef, (uint32)0x4669be79,
+; ..\EAS\BSW\Crc\Crc_32.c	    90      (uint32)0xcb61b38c, (uint32)0xbc66831a, (uint32)0x256fd2a0, (uint32)0x5268e236,
+; ..\EAS\BSW\Crc\Crc_32.c	    91      (uint32)0xcc0c7795, (uint32)0xbb0b4703, (uint32)0x220216b9, (uint32)0x5505262f,
+; ..\EAS\BSW\Crc\Crc_32.c	    92      (uint32)0xc5ba3bbe, (uint32)0xb2bd0b28, (uint32)0x2bb45a92, (uint32)0x5cb36a04,
+; ..\EAS\BSW\Crc\Crc_32.c	    93      (uint32)0xc2d7ffa7, (uint32)0xb5d0cf31, (uint32)0x2cd99e8b, (uint32)0x5bdeae1d,
+; ..\EAS\BSW\Crc\Crc_32.c	    94      (uint32)0x9b64c2b0, (uint32)0xec63f226, (uint32)0x756aa39c, (uint32)0x026d930a,
+; ..\EAS\BSW\Crc\Crc_32.c	    95      (uint32)0x9c0906a9, (uint32)0xeb0e363f, (uint32)0x72076785, (uint32)0x05005713,
+; ..\EAS\BSW\Crc\Crc_32.c	    96      (uint32)0x95bf4a82, (uint32)0xe2b87a14, (uint32)0x7bb12bae, (uint32)0x0cb61b38,
+; ..\EAS\BSW\Crc\Crc_32.c	    97      (uint32)0x92d28e9b, (uint32)0xe5d5be0d, (uint32)0x7cdcefb7, (uint32)0x0bdbdf21,
+; ..\EAS\BSW\Crc\Crc_32.c	    98      (uint32)0x86d3d2d4, (uint32)0xf1d4e242, (uint32)0x68ddb3f8, (uint32)0x1fda836e,
+; ..\EAS\BSW\Crc\Crc_32.c	    99      (uint32)0x81be16cd, (uint32)0xf6b9265b, (uint32)0x6fb077e1, (uint32)0x18b74777,
+; ..\EAS\BSW\Crc\Crc_32.c	   100      (uint32)0x88085ae6, (uint32)0xff0f6a70, (uint32)0x66063bca, (uint32)0x11010b5c,
+; ..\EAS\BSW\Crc\Crc_32.c	   101      (uint32)0x8f659eff, (uint32)0xf862ae69, (uint32)0x616bffd3, (uint32)0x166ccf45,
+; ..\EAS\BSW\Crc\Crc_32.c	   102      (uint32)0xa00ae278, (uint32)0xd70dd2ee, (uint32)0x4e048354, (uint32)0x3903b3c2,
+; ..\EAS\BSW\Crc\Crc_32.c	   103      (uint32)0xa7672661, (uint32)0xd06016f7, (uint32)0x4969474d, (uint32)0x3e6e77db,
+; ..\EAS\BSW\Crc\Crc_32.c	   104      (uint32)0xaed16a4a, (uint32)0xd9d65adc, (uint32)0x40df0b66, (uint32)0x37d83bf0,
+; ..\EAS\BSW\Crc\Crc_32.c	   105      (uint32)0xa9bcae53, (uint32)0xdebb9ec5, (uint32)0x47b2cf7f, (uint32)0x30b5ffe9,
+; ..\EAS\BSW\Crc\Crc_32.c	   106      (uint32)0xbdbdf21c, (uint32)0xcabac28a, (uint32)0x53b39330, (uint32)0x24b4a3a6,
+; ..\EAS\BSW\Crc\Crc_32.c	   107      (uint32)0xbad03605, (uint32)0xcdd70693, (uint32)0x54de5729, (uint32)0x23d967bf,
+; ..\EAS\BSW\Crc\Crc_32.c	   108      (uint32)0xb3667a2e, (uint32)0xc4614ab8, (uint32)0x5d681b02, (uint32)0x2a6f2b94,
+; ..\EAS\BSW\Crc\Crc_32.c	   109      (uint32)0xb40bbe37, (uint32)0xc30c8ea1, (uint32)0x5a05df1b, (uint32)0x2d02ef8d
+; ..\EAS\BSW\Crc\Crc_32.c	   110  };
+; ..\EAS\BSW\Crc\Crc_32.c	   111  
+; ..\EAS\BSW\Crc\Crc_32.c	   112  #define CRC_STOP_SEC_VAR_INIT_32
+; ..\EAS\BSW\Crc\Crc_32.c	   113  #include "MemMap.h"
+; ..\EAS\BSW\Crc\Crc_32.c	   114  
+; ..\EAS\BSW\Crc\Crc_32.c	   115  /*******************************************************************************
+; ..\EAS\BSW\Crc\Crc_32.c	   116  *   Local Data Define
+; ..\EAS\BSW\Crc\Crc_32.c	   117  *******************************************************************************/
+; ..\EAS\BSW\Crc\Crc_32.c	   118  #define CRC_START_SEC_CODE
+; ..\EAS\BSW\Crc\Crc_32.c	   119  #include "MemMap.h"
+; ..\EAS\BSW\Crc\Crc_32.c	   120  
+; ..\EAS\BSW\Crc\Crc_32.c	   121  /* BEGIN_FUNCTION_HDR
+; ..\EAS\BSW\Crc\Crc_32.c	   122  ********************************************************************************
+; ..\EAS\BSW\Crc\Crc_32.c	   123  * Function Name: Crc_CalculateCRC32
+; ..\EAS\BSW\Crc\Crc_32.c	   124  *
+; ..\EAS\BSW\Crc\Crc_32.c	   125  * Description:   This service makes a CRC32 calculation on Crc_Length data bytes, using the polynomial 0xF4ACFB13.
+; ..\EAS\BSW\Crc\Crc_32.c	   126  *
+; ..\EAS\BSW\Crc\Crc_32.c	   127  *
+; ..\EAS\BSW\Crc\Crc_32.c	   128  * Inputs:        Crc_DataPtr          Pointer to start address of data block to be calculated.
+; ..\EAS\BSW\Crc\Crc_32.c	   129  *                Crc_Length           Length of data block to be calculated in bytes.
+; ..\EAS\BSW\Crc\Crc_32.c	   130  *                Crc_StartValue32     Start value when the algorithm starts.
+; ..\EAS\BSW\Crc\Crc_32.c	   131  *                Crc_IsFirstCall      TRUE: First call in a sequence or individual CRC calculation;
+; ..\EAS\BSW\Crc\Crc_32.c	   132  *                                          start from initial value, ignore Crc_StartValue32.
+; ..\EAS\BSW\Crc\Crc_32.c	   133  *                                     FALSE: Subsequent call in a call sequence; Crc_StartValue32
+; ..\EAS\BSW\Crc\Crc_32.c	   134  *                                     is interpreted to be the return value of the previous function call.
+; ..\EAS\BSW\Crc\Crc_32.c	   135  *
+; ..\EAS\BSW\Crc\Crc_32.c	   136  * Outputs:       uint32:   32 bit result of CRC calculation.
+; ..\EAS\BSW\Crc\Crc_32.c	   137  *
+; ..\EAS\BSW\Crc\Crc_32.c	   138  * Limitations:   None
+; ..\EAS\BSW\Crc\Crc_32.c	   139  ********************************************************************************
+; ..\EAS\BSW\Crc\Crc_32.c	   140  END_FUNCTION_HDR*/
+; ..\EAS\BSW\Crc\Crc_32.c	   141  /*CRC20,CRC3,CRC16*/
+; ..\EAS\BSW\Crc\Crc_32.c	   142  FUNC(uint32, CRC_CODE) Crc_CalculateCRC32
+; Function Crc_CalculateCRC32
+.L8:
+Crc_CalculateCRC32:	.type	func
+
+; ..\EAS\BSW\Crc\Crc_32.c	   143  (
+; ..\EAS\BSW\Crc\Crc_32.c	   144      P2CONST(uint8, AUTOMATIC, CRC_APPL_DATA) Crc_DataPtr,
+; ..\EAS\BSW\Crc\Crc_32.c	   145      uint32 Crc_Length,
+; ..\EAS\BSW\Crc\Crc_32.c	   146      uint32 Crc_StartValue32,
+; ..\EAS\BSW\Crc\Crc_32.c	   147      boolean Crc_IsFirstCall
+; ..\EAS\BSW\Crc\Crc_32.c	   148  )
+; ..\EAS\BSW\Crc\Crc_32.c	   149  {
+; ..\EAS\BSW\Crc\Crc_32.c	   150      uint32 crc;
+; ..\EAS\BSW\Crc\Crc_32.c	   151      uint32 i;
+; ..\EAS\BSW\Crc\Crc_32.c	   152  
+; ..\EAS\BSW\Crc\Crc_32.c	   153  
+; ..\EAS\BSW\Crc\Crc_32.c	   154      if (Crc_IsFirstCall == TRUE)
+	jne	d6,#1,.L2
+.L42:
+
+; ..\EAS\BSW\Crc\Crc_32.c	   155      {
+; ..\EAS\BSW\Crc\Crc_32.c	   156          /*CRC14*/
+; ..\EAS\BSW\Crc\Crc_32.c	   157          crc = CRC_32_INIT_VALUE;
+	mov	d0,#-1
+.L31:
+	j	.L3
+.L2:
+
+; ..\EAS\BSW\Crc\Crc_32.c	   158      }
+; ..\EAS\BSW\Crc\Crc_32.c	   159      else
+; ..\EAS\BSW\Crc\Crc_32.c	   160      {
+; ..\EAS\BSW\Crc\Crc_32.c	   161          /*CRC41*/
+; ..\EAS\BSW\Crc\Crc_32.c	   162          crc = (Crc_StartValue32) ^ (CRC_32_XOR_VALUE);
+	mov	d0,#-1
+.L32:
+	xor	d0,d5
+.L3:
+
+; ..\EAS\BSW\Crc\Crc_32.c	   163      }
+; ..\EAS\BSW\Crc\Crc_32.c	   164  
+; ..\EAS\BSW\Crc\Crc_32.c	   165      for (i = (uint32)0; i < Crc_Length; i++)
+	mov	d15,#0
+.L33:
+	j	.L4
+.L5:
+
+; ..\EAS\BSW\Crc\Crc_32.c	   166      {
+; ..\EAS\BSW\Crc\Crc_32.c	   167          /*get the crc32 table index by data and crc*/
+; ..\EAS\BSW\Crc\Crc_32.c	   168          crc = Crc_Table32[(Crc_DataPtr[i]) ^ ((uint8)crc)] ^ (crc >> RIGHTMOVE_INDEX);
+	addsc.a	a15,a4,d15,#0
+	ld.bu	d1,[a15]
+.L43:
+	extr.u	d2,d0,#0,#8
+.L44:
+	xor	d1,d2
+.L45:
+	movh.a	a15,#@his(Crc_Table32)
+	lea	a15,[a15]@los(Crc_Table32)
+.L46:
+	addsc.a	a15,a15,d1,#2
+	ld.w	d1,[a15]
+.L47:
+	sh	d0,#-8
+.L48:
+	xor	d0,d1
+.L49:
+	add	d15,#1
+.L4:
+	jlt.u	d15,d4,.L5
+.L50:
+
+; ..\EAS\BSW\Crc\Crc_32.c	   169      }
+; ..\EAS\BSW\Crc\Crc_32.c	   170  
+; ..\EAS\BSW\Crc\Crc_32.c	   171      return (crc ^ CRC_32_XOR_VALUE);
+	mov	d2,#-1
+.L51:
+	xor	d2,d0
+.L52:
+
+; ..\EAS\BSW\Crc\Crc_32.c	   172  }
+	ret
+.L21:
+	
+__Crc_CalculateCRC32_function_end:
+	.size	Crc_CalculateCRC32,__Crc_CalculateCRC32_function_end-Crc_CalculateCRC32
+.L17:
+	; End of function
+	
+	.sdecl	'.rodata.Crc_32.Crc_Table32',data,rom,cluster('Crc_Table32')
+	.sect	'.rodata.Crc_32.Crc_Table32'
+	.align	2
+Crc_Table32:	.type	object
+	.size	Crc_Table32,1024
+	.space	4
+	.word	1996959894,-301047508,-1727442502,124634137
+	.word	1886057615,-379345611,-1637575261,249268274
+	.word	2044508324,-522852066,-1747789432,162941995
+	.word	2125561021,-407360249,-1866523247,498536548
+	.word	1789927666,-205950648,-2067906082,450548861
+	.word	1843258603,-187386543,-2083289657,325883990
+	.word	1684777152,-43845254,-1973040660,335633487
+	.word	1661365465,-99664541,-1928851979,997073096
+	.word	1281953886,-715111964,-1570279054,1006888145
+	.word	1258607687,-770865667,-1526024853,901097722
+	.word	1119000684,-608450090,-1396901568,853044451
+	.word	1172266101,-589951537,-1412350631,651767980
+	.word	1373503546,-925412992,-1076862698,565507253
+	.word	1454621731,-809855591,-1195530993,671266974
+	.word	1594198024,-972236366,-1324619484,795835527
+	.word	1483230225,-1050600021,-1234817731,1994146192
+	.word	31158534,-1731059524,-271249366,1907459465
+	.word	112637215,-1614814043,-390540237,2013776290
+	.word	251722036,-1777751922,-519137256,2137656763
+	.word	141376813,-1855689577,-429695999,1802195444
+	.word	476864866,-2056965928,-228458418,1812370925
+	.word	453092731,-2113342271,-183516073,1706088902
+	.word	314042704,-1950435094,-54949764,1658658271
+	.word	366619977,-1932296973,-69972891,1303535960
+	.word	984961486,-1547960204,-725929758,1256170817
+	.word	1037604311,-1529756563,-740887301,1131014506
+	.word	879679996,-1385723834,-631195440,1141124467
+	.word	855842277,-1442165665,-586318647,1342533948
+	.word	654459306,-1106571248,-921952122,1466479909
+	.word	544179635,-1184443383,-832445281,1591671054
+	.word	702138776,-1328506846,-942167884,1504918807
+	.word	783551873,-1212326853,-1061524307,-306674912
+	.word	-1698712650,62317068,1957810842,-355121351
+	.word	-1647151185,81470997,1943803523,-480048366
+	.word	-1805370492,225274430,2053790376,-468791541
+	.word	-1828061283,167816743,2097651377,-267414716
+	.word	-2029476910,503444072,1762050814,-144550051
+	.word	-2140837941,426522225,1852507879,-19653770
+	.word	-1982649376,282753626,1742555852,-105259153
+	.word	-1900089351,397917763,1622183637,-690576408
+	.word	-1580100738,953729732,1340076626,-776247311
+	.word	-1497606297,1068828381,1219638859,-670225446
+	.word	-1358292148,906185462,1090812512,-547295293
+	.word	-1469587627,829329135,1181335161,-882789492
+	.word	-1134132454,628085408,1382605366,-871598187
+	.word	-1156888829,570562233,1426400815,-977650754
+	.word	-1296233688,733239954,1555261956,-1026031705
+	.word	-1244606671,752459403,1541320221,-1687895376
+	.word	-328994266,1969922972,40735498,-1677130071
+	.word	-351390145,1913087877,83908371,-1782625662
+	.word	-491226604,2075208622,213261112,-1831694693
+	.word	-438977011,2094854071,198958881,-2032938284
+	.word	-237706686,1759359992,534414190,-2118248755
+	.word	-155638181,1873836001,414664567,-2012718362
+	.word	-15766928,1711684554,285281116,-1889165569
+	.word	-127750551,1634467795,376229701,-1609899400
+	.word	-686959890,1308918612,956543938,-1486412191
+	.word	-799009033,1231636301,1047427035,-1362007478
+	.word	-640263460,1088359270,936918000,-1447252397
+	.word	-558129467,1202900863,817233897,-1111625188
+	.word	-893730166,1404277552,615818150,-1160759803
+	.word	-841546093,1423857449,601450431,-1285129682
+	.word	-1000256840,1567103746,711928724,-1274298825
+	.word	-1022587231,1510334235,755167117
+	.calls	'Crc_CalculateCRC32','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L10:
+	.word	315
+	.half	3
+	.word	.L11
+	.byte	4
+.L9:
+	.byte	1
+	.byte	'..\\EAS\\BSW\\Crc\\Crc_32.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L12
+.L20:
+	.byte	2
+	.byte	'unsigned long int',0,4,7
+.L26:
+	.byte	2
+	.byte	'unsigned char',0,1,8,3
+	.word	168
+.L22:
+	.byte	4
+	.word	185
+	.byte	5,1,4
+	.word	195
+	.byte	6
+	.byte	'__codeptr',0,1,1,1
+	.word	197
+	.byte	6
+	.byte	'boolean',0,2,102,29
+	.word	168
+	.byte	6
+	.byte	'uint8',0,2,106,29
+	.word	168
+	.byte	2
+	.byte	'unsigned short int',0,2,7,6
+	.byte	'uint16',0,2,110,29
+	.word	250
+	.byte	6
+	.byte	'uint32',0,2,114,29
+	.word	147
+	.byte	7,128,8
+	.word	147
+	.byte	8,255,1,0
+.L30:
+	.byte	3
+	.word	302
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L11:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,15,0,73,19
+	.byte	0,0,5,21,0,54,15,0,0,6,22,0,3,8,58,15,59,15,57,15,73,19,0,0,7,1,1,11,15,73,19,0,0,8,33,0,47,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L12:
+	.word	.L35-.L34
+.L34:
+	.half	3
+	.word	.L37-.L36
+.L36:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform',0,0
+	.byte	'..\\EAS\\BSW\\Crc\\Crc_32.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0,0
+.L37:
+.L35:
+	.sdecl	'.debug_info',debug,cluster('Crc_CalculateCRC32')
+	.sect	'.debug_info'
+.L13:
+	.word	347
+	.half	3
+	.word	.L14
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\Crc\\Crc_32.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L16,.L15
+	.byte	2
+	.word	.L9
+	.byte	3
+	.byte	'Crc_CalculateCRC32',0,1,142,1,24
+	.word	.L20
+	.byte	1,1,1
+	.word	.L8,.L21,.L7
+	.byte	4
+	.byte	'Crc_DataPtr',0,1,144,1,46
+	.word	.L22,.L23
+	.byte	4
+	.byte	'Crc_Length',0,1,145,1,12
+	.word	.L20,.L24
+	.byte	4
+	.byte	'Crc_StartValue32',0,1,146,1,12
+	.word	.L20,.L25
+	.byte	4
+	.byte	'Crc_IsFirstCall',0,1,147,1,13
+	.word	.L26,.L27
+	.byte	5
+	.word	.L8,.L21
+	.byte	6
+	.byte	'crc',0,1,150,1,12
+	.word	.L20,.L28
+	.byte	6
+	.byte	'i',0,1,151,1,12
+	.word	.L20,.L29
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Crc_CalculateCRC32')
+	.sect	'.debug_abbrev'
+.L14:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Crc_CalculateCRC32')
+	.sect	'.debug_line'
+.L15:
+	.word	.L39-.L38
+.L38:
+	.half	3
+	.word	.L41-.L40
+.L40:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\BSW\\Crc\\Crc_32.c',0,0,0,0,0
+.L41:
+	.byte	5,5,7,0,5,2
+	.word	.L8
+	.byte	3,153,1,1,5,13,7,9
+	.half	.L42-.L8
+	.byte	3,3,1,5,32,9
+	.half	.L31-.L42
+	.byte	1,5,37,9
+	.half	.L2-.L31
+	.byte	3,5,1,5,34,9
+	.half	.L32-.L2
+	.byte	1,5,12,9
+	.half	.L3-.L32
+	.byte	3,3,1,5,39,9
+	.half	.L33-.L3
+	.byte	1,9
+	.half	.L5-.L33
+	.byte	3,3,1,5,47,9
+	.half	.L43-.L5
+	.byte	1,5,44,9
+	.half	.L44-.L43
+	.byte	1,5,15,9
+	.half	.L45-.L44
+	.byte	1,5,26,9
+	.half	.L46-.L45
+	.byte	1,5,67,9
+	.half	.L47-.L46
+	.byte	1,5,60,9
+	.half	.L48-.L47
+	.byte	1,5,42,9
+	.half	.L49-.L48
+	.byte	3,125,1,5,39,9
+	.half	.L4-.L49
+	.byte	1,5,19,7,9
+	.half	.L50-.L4
+	.byte	3,6,1,5,17,9
+	.half	.L51-.L50
+	.byte	1,5,1,9
+	.half	.L52-.L51
+	.byte	3,1,1,7,9
+	.half	.L17-.L52
+	.byte	0,1,1
+.L39:
+	.sdecl	'.debug_ranges',debug,cluster('Crc_CalculateCRC32')
+	.sect	'.debug_ranges'
+.L16:
+	.word	-1,.L8,0,.L17-.L8,0,0
+	.sdecl	'.debug_info',debug,cluster('Crc_Table32')
+	.sect	'.debug_info'
+.L18:
+	.word	171
+	.half	3
+	.word	.L19
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\Crc\\Crc_32.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1,2
+	.word	.L9
+	.byte	3
+	.byte	'Crc_Table32',0,1,44,33
+	.word	.L30
+	.byte	5,3
+	.word	Crc_Table32
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Crc_Table32')
+	.sect	'.debug_abbrev'
+.L19:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_loc',debug,cluster('Crc_CalculateCRC32')
+	.sect	'.debug_loc'
+.L7:
+	.word	-1,.L8,0,.L21-.L8
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L23:
+	.word	-1,.L8,0,.L21-.L8
+	.half	1
+	.byte	100
+	.word	0,0
+.L27:
+	.word	-1,.L8,0,.L21-.L8
+	.half	1
+	.byte	86
+	.word	0,0
+.L24:
+	.word	-1,.L8,0,.L21-.L8
+	.half	1
+	.byte	84
+	.word	0,0
+.L25:
+	.word	-1,.L8,0,.L21-.L8
+	.half	1
+	.byte	85
+	.word	0,0
+.L28:
+	.word	-1,.L8,.L31-.L8,.L2-.L8
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L32-.L8,.L21-.L8
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L29:
+	.word	-1,.L8,.L33-.L8,.L21-.L8
+	.half	1
+	.byte	95
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L53:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('Crc_CalculateCRC32')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L53,.L8,.L21-.L8
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+
+; ..\EAS\BSW\Crc\Crc_32.c	   173  
+; ..\EAS\BSW\Crc\Crc_32.c	   174  #define CRC_STOP_SEC_CODE
+; ..\EAS\BSW\Crc\Crc_32.c	   175  #include "MemMap.h"
+; ..\EAS\BSW\Crc\Crc_32.c	   176  
+; ..\EAS\BSW\Crc\Crc_32.c	   177  
+
+	; Module end

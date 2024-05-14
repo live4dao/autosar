@@ -1,0 +1,1985 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.2r2 Build 18041957 SN 09003395"
+	.compiler_invocation	"ctc -f cc16360a --dep-file=EAS\\BSW\\TcpIp\\lwip-2.1.2\\api\\.api_lib.o.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc39x -D__CPU_TC39X__ --core=tc1.6.2 --fp-model=+float -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Cfg_Ssw -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Cfg_Ssw\\TC39B -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Integration -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr\\TC39xB -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr\\TC39xB\\_Reg -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw\\TC39B -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw\\TC39B\\Tricore -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\inc\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Lib -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\App_Func -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\demo -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Adc_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Gtm_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\AscLin_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Can_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\EthV2_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Stm_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Main -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\APP -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\BswM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanNm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanSm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanTp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanTSyn -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Com -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\ComM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Common -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Crc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Dcm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Dem -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Det -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\DoIP -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EcuM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Eth -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthSM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthTrcv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthTSyn -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\FiM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\FlsTst -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\MemIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Nm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\NvM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS\\Kernel -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS\\Portable -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\PduR -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\RamTst -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\SoAd -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\StbM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\api -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\arch -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv6 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\arpa -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\net -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\sys -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\stdc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\apps -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\priv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\prot -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif\\ppp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif\\ppp\\polarssl -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\polarssl -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\UdpNm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\WdgIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\WdgM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Cal -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Daq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Pag -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Pgm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Std -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\XcpOnEth -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Callout -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Config -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Library\\Vfx_ComE2E -g2 --make-target=EAS\\BSW\\TcpIp\\lwip-2.1.2\\api\\api_lib.o -t2 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O1 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o EAS\\BSW\\TcpIp\\lwip-2.1.2\\api\\api_lib.src ..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\api\\api_lib.c"
+	.compiler_name		"ctc"
+	;source	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\api\\api_lib.c'
+
+	
+$TC162
+	
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L3:
+	.word	4544
+	.half	3
+	.word	.L4
+	.byte	4
+.L2:
+	.byte	1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\api\\api_lib.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L5
+	.byte	2,1,3
+	.word	165
+	.byte	4
+	.byte	'__codeptr',0,1,1,1
+	.word	167
+	.byte	5
+	.byte	'unsigned char',0,1,8,4
+	.byte	'boolean',0,2,102,29
+	.word	190
+	.byte	4
+	.byte	'uint8',0,2,106,29
+	.word	190
+	.byte	5
+	.byte	'unsigned short int',0,2,7,4
+	.byte	'uint16',0,2,110,29
+	.word	237
+	.byte	5
+	.byte	'unsigned long int',0,4,7,4
+	.byte	'uint32',0,2,114,29
+	.word	274
+	.byte	4
+	.byte	'Std_ReturnType',0,3,109,16
+	.word	190
+	.byte	4
+	.byte	'PduIdType',0,4,37,21
+	.word	190
+	.byte	4
+	.byte	'PduLengthType',0,4,41,22
+	.word	237
+	.byte	6,5,101,9,1,7
+	.byte	'BUFREQ_OK',0,0,7
+	.byte	'BUFREQ_E_NOT_OK',0,1,7
+	.byte	'BUFREQ_E_BUSY',0,2,7
+	.byte	'BUFREQ_E_OVFL',0,3,0,4
+	.byte	'BufReq_ReturnType',0,5,107,3
+	.word	373
+	.byte	3
+	.word	190
+	.byte	4
+	.byte	'SduDataPtrType',0,5,189,1,40
+	.word	467
+	.byte	6,5,204,1,9,1,7
+	.byte	'TP_DATACONF',0,0,7
+	.byte	'TP_DATARETRY',0,1,7
+	.byte	'TP_CONFPENDING',0,2,0,4
+	.byte	'TpDataStateType',0,5,216,1,3
+	.word	496
+	.byte	4
+	.byte	'TcpIp_SocketIdType',0,6,50,16
+	.word	190
+	.byte	8,4
+	.word	274
+	.byte	9,0,0,10,6,52,9,4,11
+	.byte	'Addr',0
+	.word	601
+	.byte	4,2,35,0,0,4
+	.byte	'TcpIp_IpAddressType',0,6,55,3
+	.word	610
+	.byte	4
+	.byte	'TcpIp_DomainType',0,6,61,16
+	.word	237
+	.byte	10,6,68,9,8,11
+	.byte	'Domain',0
+	.word	237
+	.byte	2,2,35,0,11
+	.byte	'Port',0
+	.word	237
+	.byte	2,2,35,2,11
+	.byte	'Addr',0
+	.word	601
+	.byte	4,2,35,4,0,4
+	.byte	'TcpIp_SockAddrInetType',0,6,73,3
+	.word	683
+	.byte	4
+	.byte	'TcpIp_AddressType',0,7,128,1,15
+	.word	190
+	.byte	4
+	.byte	'TcpIp_CtrlIdType',0,7,142,1,15
+	.word	190
+	.byte	4
+	.byte	'TcpIp_IpAddrStateType',0,7,144,1,15
+	.word	190
+	.byte	4
+	.byte	'TcpIp_LocalAddrAssignmentConfigType',0,7,149,1,15
+	.word	190
+	.byte	4
+	.byte	'TcpIp_StaticAddrIdType',0,7,151,1,15
+	.word	190
+	.byte	10,7,152,1,9,12,11
+	.byte	'State',0
+	.word	190
+	.byte	1,2,35,0,11
+	.byte	'Netmask',0
+	.word	190
+	.byte	1,2,35,1,11
+	.byte	'Domain',0
+	.word	237
+	.byte	2,2,35,2,11
+	.byte	'IpAddr',0
+	.word	610
+	.byte	4,2,35,4,11
+	.byte	'DefaultRouter',0
+	.word	610
+	.byte	4,2,35,8,0,4
+	.byte	'TcpIp_StaticIpAddrType',0,7,162,1,3
+	.word	925
+	.byte	4
+	.byte	'TcpIp_LocalAddrIdType',0,7,173,1,15
+	.word	190
+	.byte	8,3
+	.word	190
+	.byte	9,2,0,10,7,231,1,9,8,11
+	.byte	'CtrlId',0
+	.word	190
+	.byte	1,2,35,0,11
+	.byte	'Address',0
+	.word	190
+	.byte	1,2,35,1,11
+	.byte	'Domain',0
+	.word	237
+	.byte	2,2,35,2,11
+	.byte	'StaticAddrId',0
+	.word	190
+	.byte	1,2,35,4,11
+	.byte	'Assignments',0
+	.word	1082
+	.byte	3,2,35,5,0,4
+	.byte	'TcpIp_LocalAddrConfigType',0,7,243,1,3
+	.word	1091
+	.byte	10,7,245,1,9,4,11
+	.byte	'ArpConfigId',0
+	.word	190
+	.byte	1,2,35,0,11
+	.byte	'DHCPConfigId',0
+	.word	190
+	.byte	1,2,35,1,11
+	.byte	'AutoIpInitTimeout',0
+	.word	237
+	.byte	2,2,35,2,0,4
+	.byte	'TcpIp_IpV4CtrlConfigType',0,7,130,2,3
+	.word	1225
+	.byte	10,7,133,2,9,8,11
+	.byte	'CtrlIdx',0
+	.word	190
+	.byte	1,2,35,0,11
+	.byte	'FramePrio',0
+	.word	190
+	.byte	1,2,35,1,11
+	.byte	'UnicastAddrId',0
+	.word	190
+	.byte	1,2,35,2,11
+	.byte	'UnicastAddrLimit',0
+	.word	190
+	.byte	1,2,35,3,11
+	.byte	'MulticastAddrId',0
+	.word	190
+	.byte	1,2,35,4,11
+	.byte	'LocalAddrLimit',0
+	.word	190
+	.byte	1,2,35,5,11
+	.byte	'IpV4CtrlId',0
+	.word	190
+	.byte	1,2,35,6,11
+	.byte	'IpV6CtrlId',0
+	.word	190
+	.byte	1,2,35,7,0,4
+	.byte	'TcpIp_NetIfCtrlConfigType',0,7,148,2,3
+	.word	1336
+	.byte	4
+	.byte	'SoAd_RoutingGroupIdType',0,8,43,15
+	.word	190
+	.byte	4
+	.byte	'SoAd_SoConIdType',0,8,44,15
+	.word	190
+	.byte	4
+	.byte	'SoAd_SoConGroupIdType',0,8,45,15
+	.word	190
+	.byte	4
+	.byte	'SoAd_PduRouteIdType',0,8,46,15
+	.word	190
+	.byte	4
+	.byte	'SoAd_PduRouteDestIdType',0,8,47,15
+	.word	190
+	.byte	4
+	.byte	'SoAd_SocketRouteIdType',0,8,48,15
+	.word	190
+	.byte	4
+	.byte	'SoAd_IfTxUnconfirmedType',0,8,49,16
+	.word	237
+	.byte	4
+	.byte	'SoAd_IfTxTimerType',0,8,51,16
+	.word	237
+	.byte	8,1
+	.word	190
+	.byte	9,0,0,10,8,53,9,2,11
+	.byte	'Mask',0
+	.word	1790
+	.byte	1,2,35,0,11
+	.byte	'RoutingState',0
+	.word	1790
+	.byte	1,2,35,1,0,4
+	.byte	'SoAd_RoutingGroupCtrlType',0,8,57,3
+	.word	1799
+	.byte	6,8,63,9,1,7
+	.byte	'SOAD_UL_DOIP',0,0,7
+	.byte	'SOAD_UL_UDPNM',0,1,7
+	.byte	'SOAD_UL_PDUR',0,2,7
+	.byte	'SOAD_UL_XCP',0,3,7
+	.byte	'SOAD_UL_MAX',0,4,0,4
+	.byte	'SoAd_ULIndexType',0,8,71,3
+	.word	1875
+	.byte	4
+	.byte	'SoAd_RemoteAddressType',0,9,113,32
+	.word	683
+	.byte	6,9,115,9,1,7
+	.byte	'SOAD_SOCON_UNINIT',0,0,7
+	.byte	'SOAD_SOCON_OFFLINE',0,1,7
+	.byte	'SOAD_SOCON_RECONN',0,2,7
+	.byte	'SOAD_SOCON_ONLINE',0,3,0,4
+	.byte	'SoAd_SoConModeType',0,9,121,3
+	.word	2011
+	.byte	12
+	.word	190
+	.byte	3
+	.word	2125
+	.byte	12
+	.word	190
+	.byte	3
+	.word	2135
+	.byte	12
+	.word	190
+	.byte	3
+	.word	2145
+	.byte	12
+	.word	1875
+	.byte	3
+	.word	2155
+	.byte	10,9,129,1,9,36,11
+	.byte	'IfBufferLength',0
+	.word	237
+	.byte	2,2,35,0,11
+	.byte	'IfBufferOffset',0
+	.word	237
+	.byte	2,2,35,2,11
+	.byte	'TpBufferLength',0
+	.word	237
+	.byte	2,2,35,4,11
+	.byte	'TpBufferOffset',0
+	.word	237
+	.byte	2,2,35,6,11
+	.byte	'PduRouteNum',0
+	.word	190
+	.byte	1,2,35,8,11
+	.byte	'SocketRouteNum',0
+	.word	190
+	.byte	1,2,35,9,11
+	.byte	'PduRouteDestNum',0
+	.word	190
+	.byte	1,2,35,10,11
+	.byte	'RemoteAddrState',0
+	.word	190
+	.byte	1,2,35,11,11
+	.byte	'RemoteAddr',0
+	.word	683
+	.byte	8,2,35,12,11
+	.byte	'PduRouteDestList',0
+	.word	2130
+	.byte	4,2,35,20,11
+	.byte	'PduRouteList',0
+	.word	2140
+	.byte	4,2,35,24,11
+	.byte	'SocketRouteList',0
+	.word	2150
+	.byte	4,2,35,28,11
+	.byte	'SoConModeChgList',0
+	.word	2160
+	.byte	4,2,35,32,0,4
+	.byte	'SoAd_SocketConnectionType',0,9,146,1,3
+	.word	2165
+	.byte	10,9,148,1,9,16,11
+	.byte	'CtrlFlag',0
+	.word	190
+	.byte	1,2,35,0,11
+	.byte	'KeepAliveProbesMax',0
+	.word	237
+	.byte	2,2,35,2,11
+	.byte	'KeepAliveInterval',0
+	.word	274
+	.byte	4,2,35,4,11
+	.byte	'KeepAliveTime',0
+	.word	274
+	.byte	4,2,35,8,11
+	.byte	'TxQuota',0
+	.word	274
+	.byte	4,2,35,12,0,4
+	.byte	'SoAd_TcpProtocolType',0,9,155,1,3
+	.word	2517
+	.byte	10,9,157,1,9,12,11
+	.byte	'CtrlFlag',0
+	.word	190
+	.byte	1,2,35,0,11
+	.byte	'nPduTxBufferMin',0
+	.word	237
+	.byte	2,2,35,2,11
+	.byte	'TriggerTimeout',0
+	.word	237
+	.byte	2,2,35,4,11
+	.byte	'AliveSupervisionTimeout',0
+	.word	274
+	.byte	4,2,35,6,0,4
+	.byte	'SoAd_UdpProtocolType',0,9,163,1,3
+	.word	2667
+	.byte	12
+	.word	2517
+	.byte	3
+	.word	2804
+	.byte	12
+	.word	2667
+	.byte	3
+	.word	2814
+	.byte	10,9,165,1,9,24,11
+	.byte	'GroupId',0
+	.word	190
+	.byte	1,2,35,0,11
+	.byte	'CtrlFlag',0
+	.word	190
+	.byte	1,2,35,1,11
+	.byte	'FramePriority',0
+	.word	190
+	.byte	1,2,35,2,11
+	.byte	'SoConNum',0
+	.word	190
+	.byte	1,2,35,3,11
+	.byte	'SoConId',0
+	.word	190
+	.byte	1,2,35,4,11
+	.byte	'IpAddrAssignChgNum',0
+	.word	190
+	.byte	1,2,35,5,11
+	.byte	'LocalAddrId',0
+	.word	190
+	.byte	1,2,35,6,11
+	.byte	'LocalPort',0
+	.word	237
+	.byte	2,2,35,8,11
+	.byte	'IpAddrAssignChgList',0
+	.word	2160
+	.byte	4,2,35,12,11
+	.byte	'TcpProtocolPtr',0
+	.word	2809
+	.byte	4,2,35,16,11
+	.byte	'UdpProtocolPtr',0
+	.word	2819
+	.byte	4,2,35,20,0,4
+	.byte	'SoAd_SocketConnectionGroupType',0,9,178,1,3
+	.word	2824
+	.byte	12
+	.word	190
+	.byte	3
+	.word	3109
+	.byte	10,9,180,1,9,12,11
+	.byte	'CtrlFlag',0
+	.word	190
+	.byte	1,2,35,0,11
+	.byte	'PduRouteDestNum',0
+	.word	190
+	.byte	1,2,35,1,11
+	.byte	'SocketRouteDestNum',0
+	.word	190
+	.byte	1,2,35,2,11
+	.byte	'PduRouteDestList',0
+	.word	3114
+	.byte	4,2,35,4,11
+	.byte	'SocketRouteDestList',0
+	.word	3114
+	.byte	4,2,35,8,0,4
+	.byte	'SoAd_RoutingGroupType',0,9,187,1,3
+	.word	3119
+	.byte	10,9,189,1,9,6,11
+	.byte	'ULType',0
+	.word	190
+	.byte	1,2,35,0,11
+	.byte	'ULIndex',0
+	.word	1875
+	.byte	1,2,35,1,11
+	.byte	'CtrlFlag',0
+	.word	190
+	.byte	1,2,35,2,11
+	.byte	'RouteDestNum',0
+	.word	190
+	.byte	1,2,35,3,11
+	.byte	'RouteDestId',0
+	.word	190
+	.byte	1,2,35,4,11
+	.byte	'TxPduId',0
+	.word	190
+	.byte	1,2,35,5,0,4
+	.byte	'SoAd_PduRouteType',0,9,204,1,3
+	.word	3283
+	.byte	3
+	.word	1799
+	.byte	10,9,206,1,9,20,11
+	.byte	'TxPduHeaderId',0
+	.word	274
+	.byte	4,2,35,0,11
+	.byte	'SoConNum',0
+	.word	190
+	.byte	1,2,35,4,11
+	.byte	'SoConId',0
+	.word	190
+	.byte	1,2,35,5,11
+	.byte	'PduRouteId',0
+	.word	190
+	.byte	1,2,35,6,11
+	.byte	'UdpTriggerMode',0
+	.word	190
+	.byte	1,2,35,7,11
+	.byte	'UdpTriggerTimeout',0
+	.word	237
+	.byte	2,2,35,8,11
+	.byte	'RoutingCtrlList',0
+	.word	3428
+	.byte	4,2,35,12,11
+	.byte	'IfTriggerList',0
+	.word	467
+	.byte	4,2,35,16,0,4
+	.byte	'SoAd_PduRouteDestType',0,9,217,1,3
+	.word	3433
+	.byte	10,9,219,1,9,16,11
+	.byte	'RxPduHeaderId',0
+	.word	274
+	.byte	4,2,35,0,11
+	.byte	'ULType',0
+	.word	190
+	.byte	1,2,35,4,11
+	.byte	'ULIndex',0
+	.word	1875
+	.byte	1,2,35,5,11
+	.byte	'SoConNum',0
+	.word	190
+	.byte	1,2,35,6,11
+	.byte	'SoConId',0
+	.word	190
+	.byte	1,2,35,7,11
+	.byte	'RxPduId',0
+	.word	190
+	.byte	1,2,35,8,11
+	.byte	'RoutingCtrlList',0
+	.word	3428
+	.byte	4,2,35,12,0,4
+	.byte	'SoAd_SocketRouteType',0,9,236,1,3
+	.word	3648
+	.byte	12
+	.word	3433
+	.byte	3
+	.word	3818
+	.byte	10,9,155,2,9,24,11
+	.byte	'State',0
+	.word	190
+	.byte	1,2,35,0,11
+	.byte	'Timer',0
+	.word	237
+	.byte	2,2,35,2,11
+	.byte	'BufferLength',0
+	.word	237
+	.byte	2,2,35,4,11
+	.byte	'BufferOffset',0
+	.word	237
+	.byte	2,2,35,6,11
+	.byte	'UdpTxBuffer',0
+	.word	467
+	.byte	4,2,35,8,11
+	.byte	'TotalTxLength',0
+	.word	237
+	.byte	2,2,35,12,11
+	.byte	'UsedTxLength',0
+	.word	237
+	.byte	2,2,35,14,11
+	.byte	'IfTxDataBuffer',0
+	.word	3114
+	.byte	4,2,35,16,11
+	.byte	'PduRouteDestPtr',0
+	.word	3823
+	.byte	4,2,35,20,0,4
+	.byte	'SoAd_TxSessionType',0,9,177,2,3
+	.word	3828
+	.byte	12
+	.word	3648
+	.byte	3
+	.word	4052
+	.byte	10,9,180,2,9,8,11
+	.byte	'PduLength',0
+	.word	237
+	.byte	2,2,35,0,11
+	.byte	'RemainLength',0
+	.word	237
+	.byte	2,2,35,2,11
+	.byte	'SocketRoutePtr',0
+	.word	4057
+	.byte	4,2,35,4,0,4
+	.byte	'SoAd_RxPduInfoType',0,9,185,2,3
+	.word	4062
+	.byte	10,9,187,2,9,12,11
+	.byte	'TotalLength',0
+	.word	237
+	.byte	2,2,35,0,11
+	.byte	'In',0
+	.word	237
+	.byte	2,2,35,2,11
+	.byte	'Out',0
+	.word	237
+	.byte	2,2,35,4,11
+	.byte	'BufferPtr',0
+	.word	467
+	.byte	4,2,35,8,0,4
+	.byte	'SoAd_RxFifoType',0,9,193,2,3
+	.word	4162
+	.byte	10,9,195,2,9,8,11
+	.byte	'TotalLength',0
+	.word	237
+	.byte	2,2,35,0,11
+	.byte	'UsedLength',0
+	.word	237
+	.byte	2,2,35,2,11
+	.byte	'BufferPtr',0
+	.word	467
+	.byte	4,2,35,4,0,4
+	.byte	'SoAd_RxBufferType',0,9,200,2,3
+	.word	4259
+	.byte	8,8
+	.word	190
+	.byte	9,7,0,10,9,202,2,9,48,11
+	.byte	'State',0
+	.word	190
+	.byte	1,2,35,0,11
+	.byte	'ValidHeaderLen',0
+	.word	190
+	.byte	1,2,35,1,11
+	.byte	'PduHeader',0
+	.word	4353
+	.byte	8,2,35,2,11
+	.byte	'RxPduInfo',0
+	.word	4062
+	.byte	8,2,35,12,11
+	.byte	'ProcessPduInfo',0
+	.word	4062
+	.byte	8,2,35,20,11
+	.byte	'IfBuffer',0
+	.word	4259
+	.byte	8,2,35,28,11
+	.byte	'TpBuffer',0
+	.word	4162
+	.byte	12,2,35,36,0,4
+	.byte	'SoAd_RxSessionType',0,9,216,2,3
+	.word	4362
+	.byte	4
+	.byte	'u8_t',0,10,61,25
+	.word	190
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L4:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,0,0,3,15,0,73,19,0,0,4,22,0,3,8,58,15,59,15
+	.byte	57,15,73,19,0,0,5,36,0,3,8,11,15,62,15,0,0,6,4,1,58,15,59,15,57,15,11,15,0,0,7,40,0,3,8,28,13,0,0,8,1
+	.byte	1,11,15,73,19,0,0,9,33,0,47,15,0,0,10,19,1,58,15,59,15,57,15,11,15,0,0,11,13,0,3,8,73,19,11,15,56,9,0
+	.byte	0,12,38,0,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L5:
+	.word	.L7-.L6
+.L6:
+	.half	3
+	.word	.L9-.L8
+.L8:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Config',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\SoAd',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\arch',0,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\api\\api_lib.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0
+	.byte	'Std_Types.h',0,1,0,0
+	.byte	'ComStack_Types_Cfg.h',0,2,0,0
+	.byte	'ComStack_Types.h',0,3,0,0
+	.byte	'TcpIp_GeneratedTypes.h',0,2,0,0
+	.byte	'TcpIp_Types.h',0,4,0,0
+	.byte	'SoAd_GeneratedTypes.h',0,2,0,0
+	.byte	'SoAd_Types.h',0,5,0,0
+	.byte	'cc.h',0,6,0,0,0
+.L9:
+.L7:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	     1  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	     2   * @file
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	     3   * Sequential API External module
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	     4   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	     5   * @defgroup netconn Netconn API
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	     6   * @ingroup sequential_api
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	     7   * Thread-safe, to be called from non-TCPIP threads only.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	     8   * TX/RX handling based on @ref netbuf (containing @ref pbuf)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	     9   * to avoid copying data around.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    10   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    11   * @defgroup netconn_common Common functions
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    12   * @ingroup netconn
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    13   * For use with TCP and UDP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    14   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    15   * @defgroup netconn_tcp TCP only
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    16   * @ingroup netconn
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    17   * TCP only functions
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    18   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    19   * @defgroup netconn_udp UDP only
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    20   * @ingroup netconn
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    21   * UDP only functions
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    22   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    23  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    24  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    25   * Copyright (c) 2001-2004 Swedish Institute of Computer Science.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    26   * All rights reserved.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    27   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    28   * Redistribution and use in source and binary forms, with or without modification,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    29   * are permitted provided that the following conditions are met:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    30   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    31   * 1. Redistributions of source code must retain the above copyright notice,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    32   *    this list of conditions and the following disclaimer.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    33   * 2. Redistributions in binary form must reproduce the above copyright notice,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    34   *    this list of conditions and the following disclaimer in the documentation
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    35   *    and/or other materials provided with the distribution.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    36   * 3. The name of the author may not be used to endorse or promote products
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    37   *    derived from this software without specific prior written permission.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    38   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    39   * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    40   * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    41   * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    42   * SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    43   * EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    44   * OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    45   * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    46   * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    47   * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    48   * OF SUCH DAMAGE.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    49   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    50   * This file is part of the lwIP TCP/IP stack.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    51   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    52   * Author: Adam Dunkels <adam@sics.se>
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    53   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    54  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    55  /* This is the part of the API that is linked with
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    56     the application */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    57  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    58  #include "lwip/opt.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    59  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    60  #if LWIP_NETCONN /* don't build if not configured for use in lwipopts.h */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    61  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    62  #include "lwip/api.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    63  #include "lwip/memp.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    64  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    65  #include "lwip/ip.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    66  #include "lwip/raw.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    67  #include "lwip/udp.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    68  #include "lwip/priv/api_msg.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    69  #include "lwip/priv/tcp_priv.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    70  #include "lwip/priv/tcpip_priv.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    71  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    72  #ifdef LWIP_HOOK_FILENAME
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    73  #include LWIP_HOOK_FILENAME
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    74  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    75  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    76  #include <string.h>
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    77  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    78  #define API_MSG_VAR_REF(name)               API_VAR_REF(name)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    79  #define API_MSG_VAR_DECLARE(name)           API_VAR_DECLARE(struct api_msg, name)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    80  #define API_MSG_VAR_ALLOC(name)             API_VAR_ALLOC(struct api_msg, MEMP_API_MSG, name, ERR_MEM)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    81  #define API_MSG_VAR_ALLOC_RETURN_NULL(name) API_VAR_ALLOC(struct api_msg, MEMP_API_MSG, name, NULL)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    82  #define API_MSG_VAR_FREE(name)              API_VAR_FREE(MEMP_API_MSG, name)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    83  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    84  #if TCP_LISTEN_BACKLOG
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    85  /* need to allocate API message for accept so empty message pool does not result in event loss
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    86   * see bug #47512: MPU_COMPATIBLE may fail on empty pool */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    87  #define API_MSG_VAR_ALLOC_ACCEPT(msg) API_MSG_VAR_ALLOC(msg)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    88  #define API_MSG_VAR_FREE_ACCEPT(msg) API_MSG_VAR_FREE(msg)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    89  #else /* TCP_LISTEN_BACKLOG */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    90  #define API_MSG_VAR_ALLOC_ACCEPT(msg)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    91  #define API_MSG_VAR_FREE_ACCEPT(msg)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    92  #endif /* TCP_LISTEN_BACKLOG */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    93  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    94  #if LWIP_NETCONN_FULLDUPLEX
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    95  #define NETCONN_RECVMBOX_WAITABLE(conn) (sys_mbox_valid(&(conn)->recvmbox) && (((conn)->flags & NETCONN_FLAG_MBOXINVALID) == 0))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    96  #define NETCONN_ACCEPTMBOX_WAITABLE(conn) (sys_mbox_valid(&(conn)->acceptmbox) && (((conn)->flags & (NETCONN_FLAG_MBOXCLOSED|NETCONN_FLAG_MBOXINVALID)) == 0))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    97  #define NETCONN_MBOX_WAITING_INC(conn) SYS_ARCH_INC(conn->mbox_threads_waiting, 1)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    98  #define NETCONN_MBOX_WAITING_DEC(conn) SYS_ARCH_DEC(conn->mbox_threads_waiting, 1)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	    99  #else /* LWIP_NETCONN_FULLDUPLEX */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   100  #define NETCONN_RECVMBOX_WAITABLE(conn)   sys_mbox_valid(&(conn)->recvmbox)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   101  #define NETCONN_ACCEPTMBOX_WAITABLE(conn) (sys_mbox_valid(&(conn)->acceptmbox) && (((conn)->flags & NETCONN_FLAG_MBOXCLOSED) == 0))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   102  #define NETCONN_MBOX_WAITING_INC(conn)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   103  #define NETCONN_MBOX_WAITING_DEC(conn)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   104  #endif /* LWIP_NETCONN_FULLDUPLEX */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   105  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   106  static err_t netconn_close_shutdown(struct netconn *conn, u8_t how);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   107  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   108  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   109   * Call the lower part of a netconn_* function
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   110   * This function is then running in the thread context
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   111   * of tcpip_thread and has exclusive access to lwIP core code.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   112   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   113   * @param fn function to call
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   114   * @param apimsg a struct containing the function to call and its parameters
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   115   * @return ERR_OK if the function was called, another err_t if not
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   116   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   117  static err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   118  netconn_apimsg(tcpip_callback_fn fn, struct api_msg *apimsg)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   119  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   120    err_t err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   121  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   122  #ifdef LWIP_DEBUG
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   123    /* catch functions that don't set err */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   124    apimsg->err = ERR_VAL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   125  #endif /* LWIP_DEBUG */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   126  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   127  #if LWIP_NETCONN_SEM_PER_THREAD
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   128    apimsg->op_completed_sem = LWIP_NETCONN_THREAD_SEM_GET();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   129  #endif /* LWIP_NETCONN_SEM_PER_THREAD */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   130  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   131    err = tcpip_send_msg_wait_sem(fn, apimsg, LWIP_API_MSG_SEM(apimsg));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   132    if (err == ERR_OK) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   133      return apimsg->err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   134    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   135    return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   136  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   137  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   138  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   139   * Create a new netconn (of a specific type) that has a callback function.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   140   * The corresponding pcb is also created.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   141   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   142   * @param t the type of 'connection' to create (@see enum netconn_type)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   143   * @param proto the IP protocol for RAW IP pcbs
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   144   * @param callback a function to call on status changes (RX available, TX'ed)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   145   * @return a newly allocated struct netconn or
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   146   *         NULL on memory error
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   147   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   148  struct netconn *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   149  netconn_new_with_proto_and_callback(enum netconn_type t, u8_t proto, netconn_callback callback)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   150  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   151    struct netconn *conn;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   152    API_MSG_VAR_DECLARE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   153    API_MSG_VAR_ALLOC_RETURN_NULL(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   154  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   155    conn = netconn_alloc(t, callback);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   156    if (conn != NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   157      err_t err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   158  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   159      API_MSG_VAR_REF(msg).msg.n.proto = proto;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   160      API_MSG_VAR_REF(msg).conn = conn;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   161      err = netconn_apimsg(lwip_netconn_do_newconn, &API_MSG_VAR_REF(msg));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   162      if (err != ERR_OK) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   163        LWIP_ASSERT("freeing conn without freeing pcb", conn->pcb.tcp == NULL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   164        LWIP_ASSERT("conn has no recvmbox", sys_mbox_valid(&conn->recvmbox));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   165  #if LWIP_TCP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   166        LWIP_ASSERT("conn->acceptmbox shouldn't exist", !sys_mbox_valid(&conn->acceptmbox));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   167  #endif /* LWIP_TCP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   168  #if !LWIP_NETCONN_SEM_PER_THREAD
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   169        LWIP_ASSERT("conn has no op_completed", sys_sem_valid(&conn->op_completed));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   170        sys_sem_free(&conn->op_completed);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   171  #endif /* !LWIP_NETCONN_SEM_PER_THREAD */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   172        sys_mbox_free(&conn->recvmbox);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   173        memp_free(MEMP_NETCONN, conn);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   174        API_MSG_VAR_FREE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   175        return NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   176      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   177    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   178    API_MSG_VAR_FREE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   179    return conn;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   180  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   181  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   182  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   183   * @ingroup netconn_common
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   184   * Close a netconn 'connection' and free all its resources but not the netconn itself.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   185   * UDP and RAW connection are completely closed, TCP pcbs might still be in a waitstate
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   186   * after this returns.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   187   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   188   * @param conn the netconn to delete
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   189   * @return ERR_OK if the connection was deleted
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   190   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   191  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   192  netconn_prepare_delete(struct netconn *conn)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   193  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   194    err_t err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   195    API_MSG_VAR_DECLARE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   196  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   197    /* No ASSERT here because possible to get a (conn == NULL) if we got an accept error */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   198    if (conn == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   199      return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   200    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   201  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   202    API_MSG_VAR_ALLOC(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   203    API_MSG_VAR_REF(msg).conn = conn;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   204  #if LWIP_SO_SNDTIMEO || LWIP_SO_LINGER
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   205    /* get the time we started, which is later compared to
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   206       sys_now() + conn->send_timeout */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   207    API_MSG_VAR_REF(msg).msg.sd.time_started = sys_now();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   208  #else /* LWIP_SO_SNDTIMEO || LWIP_SO_LINGER */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   209  #if LWIP_TCP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   210    API_MSG_VAR_REF(msg).msg.sd.polls_left =
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   211      ((LWIP_TCP_CLOSE_TIMEOUT_MS_DEFAULT + TCP_SLOW_INTERVAL - 1) / TCP_SLOW_INTERVAL) + 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   212  #endif /* LWIP_TCP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   213  #endif /* LWIP_SO_SNDTIMEO || LWIP_SO_LINGER */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   214    err = netconn_apimsg(lwip_netconn_do_delconn, &API_MSG_VAR_REF(msg));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   215    API_MSG_VAR_FREE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   216  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   217    if (err != ERR_OK) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   218      return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   219    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   220    return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   221  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   222  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   223  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   224   * @ingroup netconn_common
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   225   * Close a netconn 'connection' and free its resources.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   226   * UDP and RAW connection are completely closed, TCP pcbs might still be in a waitstate
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   227   * after this returns.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   228   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   229   * @param conn the netconn to delete
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   230   * @return ERR_OK if the connection was deleted
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   231   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   232  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   233  netconn_delete(struct netconn *conn)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   234  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   235    err_t err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   236  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   237    /* No ASSERT here because possible to get a (conn == NULL) if we got an accept error */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   238    if (conn == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   239      return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   240    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   241  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   242  #if LWIP_NETCONN_FULLDUPLEX
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   243    if (conn->flags & NETCONN_FLAG_MBOXINVALID) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   244      /* Already called netconn_prepare_delete() before */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   245      err = ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   246    } else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   247  #endif /* LWIP_NETCONN_FULLDUPLEX */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   248    {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   249      err = netconn_prepare_delete(conn);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   250    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   251    if (err == ERR_OK) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   252      netconn_free(conn);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   253    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   254    return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   255  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   256  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   257  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   258   * Get the local or remote IP address and port of a netconn.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   259   * For RAW netconns, this returns the protocol instead of a port!
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   260   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   261   * @param conn the netconn to query
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   262   * @param addr a pointer to which to save the IP address
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   263   * @param port a pointer to which to save the port (or protocol for RAW)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   264   * @param local 1 to get the local IP address, 0 to get the remote one
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   265   * @return ERR_CONN for invalid connections
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   266   *         ERR_OK if the information was retrieved
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   267   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   268  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   269  netconn_getaddr(struct netconn *conn, ip_addr_t *addr, u16_t *port, u8_t local)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   270  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   271    API_MSG_VAR_DECLARE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   272    err_t err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   273  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   274    LWIP_ERROR("netconn_getaddr: invalid conn", (conn != NULL), return ERR_ARG;);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   275    LWIP_ERROR("netconn_getaddr: invalid addr", (addr != NULL), return ERR_ARG;);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   276    LWIP_ERROR("netconn_getaddr: invalid port", (port != NULL), return ERR_ARG;);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   277  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   278    API_MSG_VAR_ALLOC(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   279    API_MSG_VAR_REF(msg).conn = conn;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   280    API_MSG_VAR_REF(msg).msg.ad.local = local;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   281  #if LWIP_MPU_COMPATIBLE
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   282    err = netconn_apimsg(lwip_netconn_do_getaddr, &API_MSG_VAR_REF(msg));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   283    *addr = msg->msg.ad.ipaddr;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   284    *port = msg->msg.ad.port;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   285  #else /* LWIP_MPU_COMPATIBLE */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   286    msg.msg.ad.ipaddr = addr;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   287    msg.msg.ad.port = port;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   288    err = netconn_apimsg(lwip_netconn_do_getaddr, &msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   289  #endif /* LWIP_MPU_COMPATIBLE */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   290    API_MSG_VAR_FREE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   291  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   292    return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   293  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   294  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   295  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   296   * @ingroup netconn_common
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   297   * Bind a netconn to a specific local IP address and port.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   298   * Binding one netconn twice might not always be checked correctly!
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   299   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   300   * @param conn the netconn to bind
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   301   * @param addr the local IP address to bind the netconn to
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   302   *             (use IP4_ADDR_ANY/IP6_ADDR_ANY to bind to all addresses)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   303   * @param port the local port to bind the netconn to (not used for RAW)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   304   * @return ERR_OK if bound, any other err_t on failure
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   305   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   306  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   307  netconn_bind(struct netconn *conn, const ip_addr_t *addr, u16_t port)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   308  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   309    API_MSG_VAR_DECLARE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   310    err_t err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   311  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   312    LWIP_ERROR("netconn_bind: invalid conn", (conn != NULL), return ERR_ARG;);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   313  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   314  #if LWIP_IPV4
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   315    /* Don't propagate NULL pointer (IP_ADDR_ANY alias) to subsequent functions */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   316    if (addr == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   317      addr = IP4_ADDR_ANY;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   318    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   319  #endif /* LWIP_IPV4 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   320  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   321  #if LWIP_IPV4 && LWIP_IPV6
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   322    /* "Socket API like" dual-stack support: If IP to bind to is IP6_ADDR_ANY,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   323     * and NETCONN_FLAG_IPV6_V6ONLY is 0, use IP_ANY_TYPE to bind
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   324     */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   325    if ((netconn_get_ipv6only(conn) == 0) &&
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   326        ip_addr_cmp(addr, IP6_ADDR_ANY)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   327      addr = IP_ANY_TYPE;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   328    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   329  #endif /* LWIP_IPV4 && LWIP_IPV6 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   330  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   331    API_MSG_VAR_ALLOC(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   332    API_MSG_VAR_REF(msg).conn = conn;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   333    API_MSG_VAR_REF(msg).msg.bc.ipaddr = API_MSG_VAR_REF(addr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   334    API_MSG_VAR_REF(msg).msg.bc.port = port;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   335    err = netconn_apimsg(lwip_netconn_do_bind, &API_MSG_VAR_REF(msg));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   336    API_MSG_VAR_FREE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   337  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   338    return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   339  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   340  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   341  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   342   * @ingroup netconn_common
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   343   * Bind a netconn to a specific interface and port.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   344   * Binding one netconn twice might not always be checked correctly!
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   345   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   346   * @param conn the netconn to bind
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   347   * @param if_idx the local interface index to bind the netconn to
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   348   * @return ERR_OK if bound, any other err_t on failure
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   349   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   350  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   351  netconn_bind_if(struct netconn *conn, u8_t if_idx)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   352  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   353    API_MSG_VAR_DECLARE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   354    err_t err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   355  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   356    LWIP_ERROR("netconn_bind_if: invalid conn", (conn != NULL), return ERR_ARG;);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   357  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   358    API_MSG_VAR_ALLOC(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   359    API_MSG_VAR_REF(msg).conn = conn;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   360    API_MSG_VAR_REF(msg).msg.bc.if_idx = if_idx;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   361    err = netconn_apimsg(lwip_netconn_do_bind_if, &API_MSG_VAR_REF(msg));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   362    API_MSG_VAR_FREE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   363  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   364    return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   365  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   366  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   367  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   368   * @ingroup netconn_common
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   369   * Connect a netconn to a specific remote IP address and port.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   370   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   371   * @param conn the netconn to connect
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   372   * @param addr the remote IP address to connect to
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   373   * @param port the remote port to connect to (no used for RAW)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   374   * @return ERR_OK if connected, return value of tcp_/udp_/raw_connect otherwise
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   375   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   376  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   377  netconn_connect(struct netconn *conn, const ip_addr_t *addr, u16_t port)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   378  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   379    API_MSG_VAR_DECLARE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   380    err_t err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   381  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   382    LWIP_ERROR("netconn_connect: invalid conn", (conn != NULL), return ERR_ARG;);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   383  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   384  #if LWIP_IPV4
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   385    /* Don't propagate NULL pointer (IP_ADDR_ANY alias) to subsequent functions */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   386    if (addr == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   387      addr = IP4_ADDR_ANY;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   388    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   389  #endif /* LWIP_IPV4 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   390  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   391    API_MSG_VAR_ALLOC(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   392    API_MSG_VAR_REF(msg).conn = conn;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   393    API_MSG_VAR_REF(msg).msg.bc.ipaddr = API_MSG_VAR_REF(addr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   394    API_MSG_VAR_REF(msg).msg.bc.port = port;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   395    err = netconn_apimsg(lwip_netconn_do_connect, &API_MSG_VAR_REF(msg));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   396    API_MSG_VAR_FREE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   397  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   398    return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   399  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   400  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   401  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   402   * @ingroup netconn_udp
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   403   * Disconnect a netconn from its current peer (only valid for UDP netconns).
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   404   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   405   * @param conn the netconn to disconnect
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   406   * @return See @ref err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   407   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   408  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   409  netconn_disconnect(struct netconn *conn)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   410  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   411    API_MSG_VAR_DECLARE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   412    err_t err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   413  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   414    LWIP_ERROR("netconn_disconnect: invalid conn", (conn != NULL), return ERR_ARG;);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   415  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   416    API_MSG_VAR_ALLOC(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   417    API_MSG_VAR_REF(msg).conn = conn;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   418    err = netconn_apimsg(lwip_netconn_do_disconnect, &API_MSG_VAR_REF(msg));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   419    API_MSG_VAR_FREE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   420  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   421    return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   422  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   423  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   424  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   425   * @ingroup netconn_tcp
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   426   * Set a TCP netconn into listen mode
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   427   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   428   * @param conn the tcp netconn to set to listen mode
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   429   * @param backlog the listen backlog, only used if TCP_LISTEN_BACKLOG==1
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   430   * @return ERR_OK if the netconn was set to listen (UDP and RAW netconns
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   431   *         don't return any error (yet?))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   432   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   433  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   434  netconn_listen_with_backlog(struct netconn *conn, u8_t backlog)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   435  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   436  #if LWIP_TCP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   437    API_MSG_VAR_DECLARE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   438    err_t err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   439  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   440    /* This does no harm. If TCP_LISTEN_BACKLOG is off, backlog is unused. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   441    LWIP_UNUSED_ARG(backlog);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   442  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   443    LWIP_ERROR("netconn_listen: invalid conn", (conn != NULL), return ERR_ARG;);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   444  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   445    API_MSG_VAR_ALLOC(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   446    API_MSG_VAR_REF(msg).conn = conn;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   447  #if TCP_LISTEN_BACKLOG
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   448    API_MSG_VAR_REF(msg).msg.lb.backlog = backlog;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   449  #endif /* TCP_LISTEN_BACKLOG */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   450    err = netconn_apimsg(lwip_netconn_do_listen, &API_MSG_VAR_REF(msg));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   451    API_MSG_VAR_FREE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   452  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   453    return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   454  #else /* LWIP_TCP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   455    LWIP_UNUSED_ARG(conn);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   456    LWIP_UNUSED_ARG(backlog);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   457    return ERR_ARG;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   458  #endif /* LWIP_TCP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   459  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   460  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   461  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   462   * @ingroup netconn_tcp
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   463   * Accept a new connection on a TCP listening netconn.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   464   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   465   * @param conn the TCP listen netconn
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   466   * @param new_conn pointer where the new connection is stored
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   467   * @return ERR_OK if a new connection has been received or an error
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   468   *                code otherwise
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   469   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   470  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   471  netconn_accept(struct netconn *conn, struct netconn **new_conn)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   472  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   473  #if LWIP_TCP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   474    err_t err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   475    void *accept_ptr;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   476    struct netconn *newconn;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   477  #if TCP_LISTEN_BACKLOG
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   478    API_MSG_VAR_DECLARE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   479  #endif /* TCP_LISTEN_BACKLOG */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   480  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   481    LWIP_ERROR("netconn_accept: invalid pointer",    (new_conn != NULL),                  return ERR_ARG;);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   482    *new_conn = NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   483    LWIP_ERROR("netconn_accept: invalid conn",       (conn != NULL),                      return ERR_ARG;);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   484  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   485    /* NOTE: Although the opengroup spec says a pending error shall be returned to
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   486             send/recv/getsockopt(SO_ERROR) only, we return it for listening
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   487             connections also, to handle embedded-system errors */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   488    err = netconn_err(conn);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   489    if (err != ERR_OK) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   490      /* return pending error */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   491      return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   492    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   493    if (!NETCONN_ACCEPTMBOX_WAITABLE(conn)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   494      /* don't accept if closed: this might block the application task
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   495         waiting on acceptmbox forever! */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   496      return ERR_CLSD;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   497    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   498  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   499    API_MSG_VAR_ALLOC_ACCEPT(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   500  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   501    NETCONN_MBOX_WAITING_INC(conn);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   502    if (netconn_is_nonblocking(conn)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   503      if (sys_arch_mbox_tryfetch(&conn->acceptmbox, &accept_ptr) == SYS_ARCH_TIMEOUT) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   504        API_MSG_VAR_FREE_ACCEPT(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   505        NETCONN_MBOX_WAITING_DEC(conn);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   506        return ERR_WOULDBLOCK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   507      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   508    } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   509  #if LWIP_SO_RCVTIMEO
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   510      if (sys_arch_mbox_fetch(&conn->acceptmbox, &accept_ptr, conn->recv_timeout) == SYS_ARCH_TIMEOUT) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   511        API_MSG_VAR_FREE_ACCEPT(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   512        NETCONN_MBOX_WAITING_DEC(conn);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   513        return ERR_TIMEOUT;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   514      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   515  #else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   516      sys_arch_mbox_fetch(&conn->acceptmbox, &accept_ptr, 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   517  #endif /* LWIP_SO_RCVTIMEO*/
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   518    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   519    NETCONN_MBOX_WAITING_DEC(conn);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   520  #if LWIP_NETCONN_FULLDUPLEX
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   521    if (conn->flags & NETCONN_FLAG_MBOXINVALID) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   522      if (lwip_netconn_is_deallocated_msg(accept_ptr)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   523        /* the netconn has been closed from another thread */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   524        API_MSG_VAR_FREE_ACCEPT(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   525        return ERR_CONN;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   526      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   527    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   528  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   529  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   530    /* Register event with callback */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   531    API_EVENT(conn, NETCONN_EVT_RCVMINUS, 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   532  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   533    if (lwip_netconn_is_err_msg(accept_ptr, &err)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   534      /* a connection has been aborted: e.g. out of pcbs or out of netconns during accept */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   535      API_MSG_VAR_FREE_ACCEPT(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   536      return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   537    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   538    if (accept_ptr == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   539      /* connection has been aborted */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   540      API_MSG_VAR_FREE_ACCEPT(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   541      return ERR_CLSD;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   542    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   543    newconn = (struct netconn *)accept_ptr;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   544  #if TCP_LISTEN_BACKLOG
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   545    /* Let the stack know that we have accepted the connection. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   546    API_MSG_VAR_REF(msg).conn = newconn;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   547    /* don't care for the return value of lwip_netconn_do_recv */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   548    netconn_apimsg(lwip_netconn_do_accepted, &API_MSG_VAR_REF(msg));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   549    API_MSG_VAR_FREE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   550  #endif /* TCP_LISTEN_BACKLOG */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   551  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   552    *new_conn = newconn;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   553    /* don't set conn->last_err: it's only ERR_OK, anyway */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   554    return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   555  #else /* LWIP_TCP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   556    LWIP_UNUSED_ARG(conn);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   557    LWIP_UNUSED_ARG(new_conn);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   558    return ERR_ARG;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   559  #endif /* LWIP_TCP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   560  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   561  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   562  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   563   * @ingroup netconn_common
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   564   * Receive data: actual implementation that doesn't care whether pbuf or netbuf
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   565   * is received (this is internal, it's just here for describing common errors)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   566   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   567   * @param conn the netconn from which to receive data
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   568   * @param new_buf pointer where a new pbuf/netbuf is stored when received data
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   569   * @param apiflags flags that control function behaviour. For now only:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   570   * - NETCONN_DONTBLOCK: only read data that is available now, don't wait for more data
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   571   * @return ERR_OK if data has been received, an error code otherwise (timeout,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   572   *                memory error or another error)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   573   *         ERR_CONN if not connected
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   574   *         ERR_CLSD if TCP connection has been closed
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   575   *         ERR_WOULDBLOCK if the netconn is nonblocking but would block to wait for data
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   576   *         ERR_TIMEOUT if the netconn has a receive timeout and no data was received
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   577   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   578  static err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   579  netconn_recv_data(struct netconn *conn, void **new_buf, u8_t apiflags)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   580  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   581    void *buf = NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   582    u16_t len;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   583  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   584    LWIP_ERROR("netconn_recv: invalid pointer", (new_buf != NULL), return ERR_ARG;);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   585    *new_buf = NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   586    LWIP_ERROR("netconn_recv: invalid conn",    (conn != NULL),    return ERR_ARG;);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   587  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   588    if (!NETCONN_RECVMBOX_WAITABLE(conn)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   589      err_t err = netconn_err(conn);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   590      if (err != ERR_OK) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   591        /* return pending error */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   592        return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   593      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   594      return ERR_CONN;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   595    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   596  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   597    NETCONN_MBOX_WAITING_INC(conn);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   598    if (netconn_is_nonblocking(conn) || (apiflags & NETCONN_DONTBLOCK) ||
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   599        (conn->flags & NETCONN_FLAG_MBOXCLOSED) || (conn->pending_err != ERR_OK)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   600      if (sys_arch_mbox_tryfetch(&conn->recvmbox, &buf) == SYS_ARCH_TIMEOUT) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   601        err_t err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   602        NETCONN_MBOX_WAITING_DEC(conn);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   603        err = netconn_err(conn);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   604        if (err != ERR_OK) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   605          /* return pending error */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   606          return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   607        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   608        if (conn->flags & NETCONN_FLAG_MBOXCLOSED) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   609          return ERR_CONN;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   610        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   611        return ERR_WOULDBLOCK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   612      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   613    } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   614  #if LWIP_SO_RCVTIMEO
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   615      if (sys_arch_mbox_fetch(&conn->recvmbox, &buf, conn->recv_timeout) == SYS_ARCH_TIMEOUT) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   616        NETCONN_MBOX_WAITING_DEC(conn);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   617        return ERR_TIMEOUT;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   618      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   619  #else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   620      sys_arch_mbox_fetch(&conn->recvmbox, &buf, 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   621  #endif /* LWIP_SO_RCVTIMEO*/
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   622    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   623    NETCONN_MBOX_WAITING_DEC(conn);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   624  #if LWIP_NETCONN_FULLDUPLEX
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   625    if (conn->flags & NETCONN_FLAG_MBOXINVALID) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   626      if (lwip_netconn_is_deallocated_msg(buf)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   627        /* the netconn has been closed from another thread */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   628        API_MSG_VAR_FREE_ACCEPT(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   629        return ERR_CONN;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   630      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   631    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   632  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   633  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   634  #if LWIP_TCP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   635  #if (LWIP_UDP || LWIP_RAW)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   636    if (NETCONNTYPE_GROUP(conn->type) == NETCONN_TCP)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   637  #endif /* (LWIP_UDP || LWIP_RAW) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   638    {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   639      err_t err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   640      /* Check if this is an error message or a pbuf */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   641      if (lwip_netconn_is_err_msg(buf, &err)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   642        /* new_buf has been zeroed above already */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   643        if (err == ERR_CLSD) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   644          /* connection closed translates to ERR_OK with *new_buf == NULL */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   645          return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   646        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   647        return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   648      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   649      len = ((struct pbuf *)buf)->tot_len;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   650    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   651  #endif /* LWIP_TCP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   652  #if LWIP_TCP && (LWIP_UDP || LWIP_RAW)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   653    else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   654  #endif /* LWIP_TCP && (LWIP_UDP || LWIP_RAW) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   655  #if (LWIP_UDP || LWIP_RAW)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   656    {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   657      LWIP_ASSERT("buf != NULL", buf != NULL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   658      len = netbuf_len((struct netbuf *)buf);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   659    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   660  #endif /* (LWIP_UDP || LWIP_RAW) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   661  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   662  #if LWIP_SO_RCVBUF
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   663    SYS_ARCH_DEC(conn->recv_avail, len);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   664  #endif /* LWIP_SO_RCVBUF */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   665    /* Register event with callback */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   666    API_EVENT(conn, NETCONN_EVT_RCVMINUS, len);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   667  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   668    LWIP_DEBUGF(API_LIB_DEBUG, ("netconn_recv_data: received %p, len=%"U16_F"\n", buf, len));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   669  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   670    *new_buf = buf;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   671    /* don't set conn->last_err: it's only ERR_OK, anyway */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   672    return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   673  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   674  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   675  #if LWIP_TCP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   676  static err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   677  netconn_tcp_recvd_msg(struct netconn *conn, size_t len, struct api_msg *msg)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   678  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   679    LWIP_ERROR("netconn_recv_tcp_pbuf: invalid conn", (conn != NULL) &&
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   680               NETCONNTYPE_GROUP(netconn_type(conn)) == NETCONN_TCP, return ERR_ARG;);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   681  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   682    msg->conn = conn;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   683    msg->msg.r.len = len;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   684  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   685    return netconn_apimsg(lwip_netconn_do_recv, msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   686  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   687  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   688  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   689  netconn_tcp_recvd(struct netconn *conn, size_t len)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   690  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   691    err_t err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   692    API_MSG_VAR_DECLARE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   693    LWIP_ERROR("netconn_recv_tcp_pbuf: invalid conn", (conn != NULL) &&
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   694               NETCONNTYPE_GROUP(netconn_type(conn)) == NETCONN_TCP, return ERR_ARG;);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   695  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   696    API_MSG_VAR_ALLOC(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   697    err = netconn_tcp_recvd_msg(conn, len, &API_VAR_REF(msg));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   698    API_MSG_VAR_FREE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   699    return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   700  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   701  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   702  static err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   703  netconn_recv_data_tcp(struct netconn *conn, struct pbuf **new_buf, u8_t apiflags)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   704  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   705    err_t err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   706    struct pbuf *buf;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   707    API_MSG_VAR_DECLARE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   708  #if LWIP_MPU_COMPATIBLE
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   709    msg = NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   710  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   711  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   712    if (!NETCONN_RECVMBOX_WAITABLE(conn)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   713      /* This only happens when calling this function more than once *after* receiving FIN */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   714      return ERR_CONN;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   715    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   716    if (netconn_is_flag_set(conn, NETCONN_FIN_RX_PENDING)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   717      netconn_clear_flags(conn, NETCONN_FIN_RX_PENDING);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   718      goto handle_fin;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   719    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   720  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   721    if (!(apiflags & NETCONN_NOAUTORCVD)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   722      /* need to allocate API message here so empty message pool does not result in event loss
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   723        * see bug #47512: MPU_COMPATIBLE may fail on empty pool */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   724      API_MSG_VAR_ALLOC(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   725    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   726  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   727    err = netconn_recv_data(conn, (void **)new_buf, apiflags);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   728    if (err != ERR_OK) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   729      if (!(apiflags & NETCONN_NOAUTORCVD)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   730        API_MSG_VAR_FREE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   731      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   732      return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   733    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   734    buf = *new_buf;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   735    if (!(apiflags & NETCONN_NOAUTORCVD)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   736      /* Let the stack know that we have taken the data. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   737      u16_t len = buf ? buf->tot_len : 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   738      /* don't care for the return value of lwip_netconn_do_recv */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   739      /* @todo: this should really be fixed, e.g. by retrying in poll on error */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   740      netconn_tcp_recvd_msg(conn, len,  &API_VAR_REF(msg));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   741      API_MSG_VAR_FREE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   742    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   743  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   744    /* If we are closed, we indicate that we no longer wish to use the socket */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   745    if (buf == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   746      if (apiflags & NETCONN_NOFIN) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   747        /* received a FIN but the caller cannot handle it right now:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   748           re-enqueue it and return "no data" */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   749        netconn_set_flags(conn, NETCONN_FIN_RX_PENDING);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   750        return ERR_WOULDBLOCK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   751      } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   752  handle_fin:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   753        API_EVENT(conn, NETCONN_EVT_RCVMINUS, 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   754        if (conn->pcb.ip == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   755          /* race condition: RST during recv */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   756          err = netconn_err(conn);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   757          if (err != ERR_OK) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   758            return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   759          }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   760          return ERR_RST;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   761        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   762        /* RX side is closed, so deallocate the recvmbox */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   763        netconn_close_shutdown(conn, NETCONN_SHUT_RD);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   764        /* Don' store ERR_CLSD as conn->err since we are only half-closed */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   765        return ERR_CLSD;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   766      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   767    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   768    return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   769  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   770  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   771  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   772   * @ingroup netconn_tcp
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   773   * Receive data (in form of a pbuf) from a TCP netconn
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   774   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   775   * @param conn the netconn from which to receive data
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   776   * @param new_buf pointer where a new pbuf is stored when received data
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   777   * @return ERR_OK if data has been received, an error code otherwise (timeout,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   778   *                memory error or another error, @see netconn_recv_data)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   779   *         ERR_ARG if conn is not a TCP netconn
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   780   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   781  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   782  netconn_recv_tcp_pbuf(struct netconn *conn, struct pbuf **new_buf)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   783  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   784    LWIP_ERROR("netconn_recv_tcp_pbuf: invalid conn", (conn != NULL) &&
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   785               NETCONNTYPE_GROUP(netconn_type(conn)) == NETCONN_TCP, return ERR_ARG;);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   786  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   787    return netconn_recv_data_tcp(conn, new_buf, 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   788  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   789  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   790  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   791   * @ingroup netconn_tcp
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   792   * Receive data (in form of a pbuf) from a TCP netconn
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   793   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   794   * @param conn the netconn from which to receive data
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   795   * @param new_buf pointer where a new pbuf is stored when received data
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   796   * @param apiflags flags that control function behaviour. For now only:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   797   * - NETCONN_DONTBLOCK: only read data that is available now, don't wait for more data
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   798   * @return ERR_OK if data has been received, an error code otherwise (timeout,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   799   *                memory error or another error, @see netconn_recv_data)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   800   *         ERR_ARG if conn is not a TCP netconn
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   801   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   802  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   803  netconn_recv_tcp_pbuf_flags(struct netconn *conn, struct pbuf **new_buf, u8_t apiflags)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   804  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   805    LWIP_ERROR("netconn_recv_tcp_pbuf: invalid conn", (conn != NULL) &&
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   806               NETCONNTYPE_GROUP(netconn_type(conn)) == NETCONN_TCP, return ERR_ARG;);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   807  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   808    return netconn_recv_data_tcp(conn, new_buf, apiflags);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   809  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   810  #endif /* LWIP_TCP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   811  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   812  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   813   * Receive data (in form of a netbuf) from a UDP or RAW netconn
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   814   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   815   * @param conn the netconn from which to receive data
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   816   * @param new_buf pointer where a new netbuf is stored when received data
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   817   * @return ERR_OK if data has been received, an error code otherwise (timeout,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   818   *                memory error or another error)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   819   *         ERR_ARG if conn is not a UDP/RAW netconn
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   820   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   821  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   822  netconn_recv_udp_raw_netbuf(struct netconn *conn, struct netbuf **new_buf)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   823  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   824    LWIP_ERROR("netconn_recv_udp_raw_netbuf: invalid conn", (conn != NULL) &&
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   825               NETCONNTYPE_GROUP(netconn_type(conn)) != NETCONN_TCP, return ERR_ARG;);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   826  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   827    return netconn_recv_data(conn, (void **)new_buf, 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   828  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   829  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   830  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   831   * Receive data (in form of a netbuf) from a UDP or RAW netconn
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   832   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   833   * @param conn the netconn from which to receive data
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   834   * @param new_buf pointer where a new netbuf is stored when received data
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   835   * @param apiflags flags that control function behaviour. For now only:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   836   * - NETCONN_DONTBLOCK: only read data that is available now, don't wait for more data
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   837   * @return ERR_OK if data has been received, an error code otherwise (timeout,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   838   *                memory error or another error)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   839   *         ERR_ARG if conn is not a UDP/RAW netconn
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   840   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   841  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   842  netconn_recv_udp_raw_netbuf_flags(struct netconn *conn, struct netbuf **new_buf, u8_t apiflags)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   843  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   844    LWIP_ERROR("netconn_recv_udp_raw_netbuf: invalid conn", (conn != NULL) &&
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   845               NETCONNTYPE_GROUP(netconn_type(conn)) != NETCONN_TCP, return ERR_ARG;);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   846  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   847    return netconn_recv_data(conn, (void **)new_buf, apiflags);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   848  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   849  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   850  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   851   * @ingroup netconn_common
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   852   * Receive data (in form of a netbuf containing a packet buffer) from a netconn
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   853   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   854   * @param conn the netconn from which to receive data
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   855   * @param new_buf pointer where a new netbuf is stored when received data
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   856   * @return ERR_OK if data has been received, an error code otherwise (timeout,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   857   *                memory error or another error)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   858   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   859  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   860  netconn_recv(struct netconn *conn, struct netbuf **new_buf)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   861  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   862  #if LWIP_TCP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   863    struct netbuf *buf = NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   864    err_t err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   865  #endif /* LWIP_TCP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   866  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   867    LWIP_ERROR("netconn_recv: invalid pointer", (new_buf != NULL), return ERR_ARG;);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   868    *new_buf = NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   869    LWIP_ERROR("netconn_recv: invalid conn",    (conn != NULL),    return ERR_ARG;);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   870  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   871  #if LWIP_TCP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   872  #if (LWIP_UDP || LWIP_RAW)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   873    if (NETCONNTYPE_GROUP(conn->type) == NETCONN_TCP)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   874  #endif /* (LWIP_UDP || LWIP_RAW) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   875    {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   876      struct pbuf *p = NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   877      /* This is not a listening netconn, since recvmbox is set */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   878  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   879      buf = (struct netbuf *)memp_malloc(MEMP_NETBUF);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   880      if (buf == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   881        return ERR_MEM;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   882      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   883  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   884      err = netconn_recv_data_tcp(conn, &p, 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   885      if (err != ERR_OK) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   886        memp_free(MEMP_NETBUF, buf);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   887        return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   888      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   889      LWIP_ASSERT("p != NULL", p != NULL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   890  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   891      buf->p = p;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   892      buf->ptr = p;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   893      buf->port = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   894      ip_addr_set_zero(&buf->addr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   895      *new_buf = buf;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   896      /* don't set conn->last_err: it's only ERR_OK, anyway */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   897      return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   898    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   899  #endif /* LWIP_TCP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   900  #if LWIP_TCP && (LWIP_UDP || LWIP_RAW)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   901    else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   902  #endif /* LWIP_TCP && (LWIP_UDP || LWIP_RAW) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   903    {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   904  #if (LWIP_UDP || LWIP_RAW)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   905      return netconn_recv_data(conn, (void **)new_buf, 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   906  #endif /* (LWIP_UDP || LWIP_RAW) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   907    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   908  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   909  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   910  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   911   * @ingroup netconn_udp
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   912   * Send data (in form of a netbuf) to a specific remote IP address and port.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   913   * Only to be used for UDP and RAW netconns (not TCP).
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   914   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   915   * @param conn the netconn over which to send data
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   916   * @param buf a netbuf containing the data to send
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   917   * @param addr the remote IP address to which to send the data
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   918   * @param port the remote port to which to send the data
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   919   * @return ERR_OK if data was sent, any other err_t on error
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   920   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   921  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   922  netconn_sendto(struct netconn *conn, struct netbuf *buf, const ip_addr_t *addr, u16_t port)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   923  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   924    if (buf != NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   925      ip_addr_set(&buf->addr, addr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   926      buf->port = port;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   927      return netconn_send(conn, buf);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   928    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   929    return ERR_VAL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   930  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   931  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   932  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   933   * @ingroup netconn_udp
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   934   * Send data over a UDP or RAW netconn (that is already connected).
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   935   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   936   * @param conn the UDP or RAW netconn over which to send data
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   937   * @param buf a netbuf containing the data to send
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   938   * @return ERR_OK if data was sent, any other err_t on error
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   939   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   940  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   941  netconn_send(struct netconn *conn, struct netbuf *buf)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   942  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   943    API_MSG_VAR_DECLARE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   944    err_t err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   945  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   946    LWIP_ERROR("netconn_send: invalid conn",  (conn != NULL), return ERR_ARG;);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   947  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   948    LWIP_DEBUGF(API_LIB_DEBUG, ("netconn_send: sending %"U16_F" bytes\n", buf->p->tot_len));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   949  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   950    API_MSG_VAR_ALLOC(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   951    API_MSG_VAR_REF(msg).conn = conn;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   952    API_MSG_VAR_REF(msg).msg.b = buf;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   953    err = netconn_apimsg(lwip_netconn_do_send, &API_MSG_VAR_REF(msg));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   954    API_MSG_VAR_FREE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   955  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   956    return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   957  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   958  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   959  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   960   * @ingroup netconn_tcp
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   961   * Send data over a TCP netconn.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   962   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   963   * @param conn the TCP netconn over which to send data
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   964   * @param dataptr pointer to the application buffer that contains the data to send
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   965   * @param size size of the application data to send
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   966   * @param apiflags combination of following flags :
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   967   * - NETCONN_COPY: data will be copied into memory belonging to the stack
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   968   * - NETCONN_MORE: for TCP connection, PSH flag will be set on last segment sent
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   969   * - NETCONN_DONTBLOCK: only write the data if all data can be written at once
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   970   * @param bytes_written pointer to a location that receives the number of written bytes
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   971   * @return ERR_OK if data was sent, any other err_t on error
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   972   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   973  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   974  netconn_write_partly(struct netconn *conn, const void *dataptr, size_t size,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   975                       u8_t apiflags, size_t *bytes_written)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   976  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   977    struct netvector vector;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   978    vector.ptr = dataptr;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   979    vector.len = size;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   980    return netconn_write_vectors_partly(conn, &vector, 1, apiflags, bytes_written);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   981  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   982  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   983  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   984   * Send vectorized data atomically over a TCP netconn.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   985   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   986   * @param conn the TCP netconn over which to send data
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   987   * @param vectors array of vectors containing data to send
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   988   * @param vectorcnt number of vectors in the array
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   989   * @param apiflags combination of following flags :
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   990   * - NETCONN_COPY: data will be copied into memory belonging to the stack
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   991   * - NETCONN_MORE: for TCP connection, PSH flag will be set on last segment sent
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   992   * - NETCONN_DONTBLOCK: only write the data if all data can be written at once
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   993   * @param bytes_written pointer to a location that receives the number of written bytes
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   994   * @return ERR_OK if data was sent, any other err_t on error
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   995   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   996  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   997  netconn_write_vectors_partly(struct netconn *conn, struct netvector *vectors, u16_t vectorcnt,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   998                               u8_t apiflags, size_t *bytes_written)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	   999  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1000    API_MSG_VAR_DECLARE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1001    err_t err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1002    u8_t dontblock;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1003    size_t size;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1004    int i;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1005  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1006    LWIP_ERROR("netconn_write: invalid conn",  (conn != NULL), return ERR_ARG;);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1007    LWIP_ERROR("netconn_write: invalid conn->type",  (NETCONNTYPE_GROUP(conn->type) == NETCONN_TCP), return ERR_VAL;);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1008    dontblock = netconn_is_nonblocking(conn) || (apiflags & NETCONN_DONTBLOCK);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1009  #if LWIP_SO_SNDTIMEO
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1010    if (conn->send_timeout != 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1011      dontblock = 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1012    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1013  #endif /* LWIP_SO_SNDTIMEO */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1014    if (dontblock && !bytes_written) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1015      /* This implies netconn_write() cannot be used for non-blocking send, since
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1016         it has no way to return the number of bytes written. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1017      return ERR_VAL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1018    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1019  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1020    /* sum up the total size */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1021    size = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1022    for (i = 0; i < vectorcnt; i++) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1023      size += vectors[i].len;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1024      if (size < vectors[i].len) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1025        /* overflow */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1026        return ERR_VAL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1027      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1028    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1029    if (size == 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1030      return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1031    } else if (size > SSIZE_MAX) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1032      ssize_t limited;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1033      /* this is required by the socket layer (cannot send full size_t range) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1034      if (!bytes_written) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1035        return ERR_VAL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1036      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1037      /* limit the amount of data to send */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1038      limited = SSIZE_MAX;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1039      size = (size_t)limited;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1040    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1041  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1042    API_MSG_VAR_ALLOC(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1043    /* non-blocking write sends as much  */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1044    API_MSG_VAR_REF(msg).conn = conn;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1045    API_MSG_VAR_REF(msg).msg.w.vector = vectors;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1046    API_MSG_VAR_REF(msg).msg.w.vector_cnt = vectorcnt;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1047    API_MSG_VAR_REF(msg).msg.w.vector_off = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1048    API_MSG_VAR_REF(msg).msg.w.apiflags = apiflags;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1049    API_MSG_VAR_REF(msg).msg.w.len = size;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1050    API_MSG_VAR_REF(msg).msg.w.offset = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1051  #if LWIP_SO_SNDTIMEO
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1052    if (conn->send_timeout != 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1053      /* get the time we started, which is later compared to
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1054          sys_now() + conn->send_timeout */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1055      API_MSG_VAR_REF(msg).msg.w.time_started = sys_now();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1056    } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1057      API_MSG_VAR_REF(msg).msg.w.time_started = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1058    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1059  #endif /* LWIP_SO_SNDTIMEO */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1060  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1061    /* For locking the core: this _can_ be delayed on low memory/low send buffer,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1062       but if it is, this is done inside api_msg.c:do_write(), so we can use the
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1063       non-blocking version here. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1064    err = netconn_apimsg(lwip_netconn_do_write, &API_MSG_VAR_REF(msg));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1065    if (err == ERR_OK) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1066      if (bytes_written != NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1067        *bytes_written = API_MSG_VAR_REF(msg).msg.w.offset;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1068      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1069      /* for blocking, check all requested bytes were written, NOTE: send_timeout is
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1070         treated as dontblock (see dontblock assignment above) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1071      if (!dontblock) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1072        LWIP_ASSERT("do_write failed to write all bytes", API_MSG_VAR_REF(msg).msg.w.offset == size);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1073      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1074    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1075    API_MSG_VAR_FREE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1076  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1077    return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1078  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1079  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1080  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1081   * @ingroup netconn_tcp
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1082   * Close or shutdown a TCP netconn (doesn't delete it).
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1083   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1084   * @param conn the TCP netconn to close or shutdown
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1085   * @param how fully close or only shutdown one side?
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1086   * @return ERR_OK if the netconn was closed, any other err_t on error
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1087   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1088  static err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1089  netconn_close_shutdown(struct netconn *conn, u8_t how)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1090  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1091    API_MSG_VAR_DECLARE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1092    err_t err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1093    LWIP_UNUSED_ARG(how);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1094  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1095    LWIP_ERROR("netconn_close: invalid conn",  (conn != NULL), return ERR_ARG;);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1096  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1097    API_MSG_VAR_ALLOC(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1098    API_MSG_VAR_REF(msg).conn = conn;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1099  #if LWIP_TCP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1100    /* shutting down both ends is the same as closing */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1101    API_MSG_VAR_REF(msg).msg.sd.shut = how;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1102  #if LWIP_SO_SNDTIMEO || LWIP_SO_LINGER
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1103    /* get the time we started, which is later compared to
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1104       sys_now() + conn->send_timeout */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1105    API_MSG_VAR_REF(msg).msg.sd.time_started = sys_now();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1106  #else /* LWIP_SO_SNDTIMEO || LWIP_SO_LINGER */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1107    API_MSG_VAR_REF(msg).msg.sd.polls_left =
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1108      ((LWIP_TCP_CLOSE_TIMEOUT_MS_DEFAULT + TCP_SLOW_INTERVAL - 1) / TCP_SLOW_INTERVAL) + 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1109  #endif /* LWIP_SO_SNDTIMEO || LWIP_SO_LINGER */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1110  #endif /* LWIP_TCP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1111    err = netconn_apimsg(lwip_netconn_do_close, &API_MSG_VAR_REF(msg));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1112    API_MSG_VAR_FREE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1113  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1114    return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1115  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1116  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1117  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1118   * @ingroup netconn_tcp
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1119   * Close a TCP netconn (doesn't delete it).
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1120   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1121   * @param conn the TCP netconn to close
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1122   * @return ERR_OK if the netconn was closed, any other err_t on error
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1123   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1124  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1125  netconn_close(struct netconn *conn)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1126  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1127    /* shutting down both ends is the same as closing */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1128    return netconn_close_shutdown(conn, NETCONN_SHUT_RDWR);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1129  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1130  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1131  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1132   * @ingroup netconn_common
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1133   * Get and reset pending error on a netconn
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1134   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1135   * @param conn the netconn to get the error from
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1136   * @return and pending error or ERR_OK if no error was pending
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1137   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1138  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1139  netconn_err(struct netconn *conn)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1140  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1141    err_t err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1142    SYS_ARCH_DECL_PROTECT(lev);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1143    if (conn == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1144      return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1145    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1146    SYS_ARCH_PROTECT(lev);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1147    err = conn->pending_err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1148    conn->pending_err = ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1149    SYS_ARCH_UNPROTECT(lev);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1150    return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1151  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1152  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1153  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1154   * @ingroup netconn_tcp
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1155   * Shut down one or both sides of a TCP netconn (doesn't delete it).
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1156   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1157   * @param conn the TCP netconn to shut down
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1158   * @param shut_rx shut down the RX side (no more read possible after this)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1159   * @param shut_tx shut down the TX side (no more write possible after this)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1160   * @return ERR_OK if the netconn was closed, any other err_t on error
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1161   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1162  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1163  netconn_shutdown(struct netconn *conn, u8_t shut_rx, u8_t shut_tx)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1164  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1165    return netconn_close_shutdown(conn, (u8_t)((shut_rx ? NETCONN_SHUT_RD : 0) | (shut_tx ? NETCONN_SHUT_WR : 0)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1166  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1167  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1168  #if LWIP_IGMP || (LWIP_IPV6 && LWIP_IPV6_MLD)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1169  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1170   * @ingroup netconn_udp
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1171   * Join multicast groups for UDP netconns.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1172   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1173   * @param conn the UDP netconn for which to change multicast addresses
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1174   * @param multiaddr IP address of the multicast group to join or leave
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1175   * @param netif_addr the IP address of the network interface on which to send
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1176   *                  the igmp message
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1177   * @param join_or_leave flag whether to send a join- or leave-message
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1178   * @return ERR_OK if the action was taken, any err_t on error
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1179   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1180  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1181  netconn_join_leave_group(struct netconn *conn,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1182                           const ip_addr_t *multiaddr,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1183                           const ip_addr_t *netif_addr,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1184                           enum netconn_igmp join_or_leave)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1185  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1186    API_MSG_VAR_DECLARE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1187    err_t err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1188  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1189    LWIP_ERROR("netconn_join_leave_group: invalid conn",  (conn != NULL), return ERR_ARG;);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1190  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1191    API_MSG_VAR_ALLOC(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1192  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1193  #if LWIP_IPV4
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1194    /* Don't propagate NULL pointer (IP_ADDR_ANY alias) to subsequent functions */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1195    if (multiaddr == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1196      multiaddr = IP4_ADDR_ANY;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1197    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1198    if (netif_addr == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1199      netif_addr = IP4_ADDR_ANY;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1200    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1201  #endif /* LWIP_IPV4 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1202  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1203    API_MSG_VAR_REF(msg).conn = conn;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1204    API_MSG_VAR_REF(msg).msg.jl.multiaddr = API_MSG_VAR_REF(multiaddr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1205    API_MSG_VAR_REF(msg).msg.jl.netif_addr = API_MSG_VAR_REF(netif_addr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1206    API_MSG_VAR_REF(msg).msg.jl.join_or_leave = join_or_leave;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1207    err = netconn_apimsg(lwip_netconn_do_join_leave_group, &API_MSG_VAR_REF(msg));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1208    API_MSG_VAR_FREE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1209  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1210    return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1211  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1212  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1213   * @ingroup netconn_udp
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1214   * Join multicast groups for UDP netconns.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1215   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1216   * @param conn the UDP netconn for which to change multicast addresses
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1217   * @param multiaddr IP address of the multicast group to join or leave
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1218   * @param if_idx the index of the netif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1219   * @param join_or_leave flag whether to send a join- or leave-message
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1220   * @return ERR_OK if the action was taken, any err_t on error
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1221   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1222  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1223  netconn_join_leave_group_netif(struct netconn *conn,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1224                                 const ip_addr_t *multiaddr,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1225                                 u8_t if_idx,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1226                                 enum netconn_igmp join_or_leave)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1227  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1228    API_MSG_VAR_DECLARE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1229    err_t err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1230  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1231    LWIP_ERROR("netconn_join_leave_group: invalid conn",  (conn != NULL), return ERR_ARG;);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1232  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1233    API_MSG_VAR_ALLOC(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1234  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1235  #if LWIP_IPV4
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1236    /* Don't propagate NULL pointer (IP_ADDR_ANY alias) to subsequent functions */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1237    if (multiaddr == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1238      multiaddr = IP4_ADDR_ANY;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1239    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1240    if (if_idx == NETIF_NO_INDEX) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1241      return ERR_IF;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1242    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1243  #endif /* LWIP_IPV4 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1244  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1245    API_MSG_VAR_REF(msg).conn = conn;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1246    API_MSG_VAR_REF(msg).msg.jl.multiaddr = API_MSG_VAR_REF(multiaddr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1247    API_MSG_VAR_REF(msg).msg.jl.if_idx = if_idx;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1248    API_MSG_VAR_REF(msg).msg.jl.join_or_leave = join_or_leave;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1249    err = netconn_apimsg(lwip_netconn_do_join_leave_group_netif, &API_MSG_VAR_REF(msg));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1250    API_MSG_VAR_FREE(msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1251  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1252    return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1253  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1254  #endif /* LWIP_IGMP || (LWIP_IPV6 && LWIP_IPV6_MLD) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1255  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1256  #if LWIP_DNS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1257  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1258   * @ingroup netconn_common
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1259   * Execute a DNS query, only one IP address is returned
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1260   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1261   * @param name a string representation of the DNS host name to query
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1262   * @param addr a preallocated ip_addr_t where to store the resolved IP address
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1263   * @param dns_addrtype IP address type (IPv4 / IPv6)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1264   * @return ERR_OK: resolving succeeded
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1265   *         ERR_MEM: memory error, try again later
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1266   *         ERR_ARG: dns client not initialized or invalid hostname
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1267   *         ERR_VAL: dns server response was invalid
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1268   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1269  #if LWIP_IPV4 && LWIP_IPV6
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1270  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1271  netconn_gethostbyname_addrtype(const char *name, ip_addr_t *addr, u8_t dns_addrtype)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1272  #else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1273  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1274  netconn_gethostbyname(const char *name, ip_addr_t *addr)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1275  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1276  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1277    API_VAR_DECLARE(struct dns_api_msg, msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1278  #if !LWIP_MPU_COMPATIBLE
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1279    sys_sem_t sem;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1280  #endif /* LWIP_MPU_COMPATIBLE */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1281    err_t err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1282    err_t cberr;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1283  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1284    LWIP_ERROR("netconn_gethostbyname: invalid name", (name != NULL), return ERR_ARG;);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1285    LWIP_ERROR("netconn_gethostbyname: invalid addr", (addr != NULL), return ERR_ARG;);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1286  #if LWIP_MPU_COMPATIBLE
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1287    if (strlen(name) >= DNS_MAX_NAME_LENGTH) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1288      return ERR_ARG;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1289    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1290  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1291  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1292  #ifdef LWIP_HOOK_NETCONN_EXTERNAL_RESOLVE
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1293  #if LWIP_IPV4 && LWIP_IPV6
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1294    if (LWIP_HOOK_NETCONN_EXTERNAL_RESOLVE(name, addr, dns_addrtype, &err)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1295  #else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1296    if (LWIP_HOOK_NETCONN_EXTERNAL_RESOLVE(name, addr, NETCONN_DNS_DEFAULT, &err)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1297  #endif /* LWIP_IPV4 && LWIP_IPV6 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1298      return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1299    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1300  #endif /* LWIP_HOOK_NETCONN_EXTERNAL_RESOLVE */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1301  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1302    API_VAR_ALLOC(struct dns_api_msg, MEMP_DNS_API_MSG, msg, ERR_MEM);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1303  #if LWIP_MPU_COMPATIBLE
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1304    strncpy(API_VAR_REF(msg).name, name, DNS_MAX_NAME_LENGTH - 1);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1305    API_VAR_REF(msg).name[DNS_MAX_NAME_LENGTH - 1] = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1306  #else /* LWIP_MPU_COMPATIBLE */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1307    msg.err = &err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1308    msg.sem = &sem;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1309    API_VAR_REF(msg).addr = API_VAR_REF(addr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1310    API_VAR_REF(msg).name = name;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1311  #endif /* LWIP_MPU_COMPATIBLE */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1312  #if LWIP_IPV4 && LWIP_IPV6
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1313    API_VAR_REF(msg).dns_addrtype = dns_addrtype;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1314  #endif /* LWIP_IPV4 && LWIP_IPV6 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1315  #if LWIP_NETCONN_SEM_PER_THREAD
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1316    API_VAR_REF(msg).sem = LWIP_NETCONN_THREAD_SEM_GET();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1317  #else /* LWIP_NETCONN_SEM_PER_THREAD*/
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1318    err = sys_sem_new(API_EXPR_REF(API_VAR_REF(msg).sem), 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1319    if (err != ERR_OK) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1320      API_VAR_FREE(MEMP_DNS_API_MSG, msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1321      return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1322    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1323  #endif /* LWIP_NETCONN_SEM_PER_THREAD */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1324  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1325    cberr = tcpip_send_msg_wait_sem(lwip_netconn_do_gethostbyname, &API_VAR_REF(msg), API_EXPR_REF(API_VAR_REF(msg).sem));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1326  #if !LWIP_NETCONN_SEM_PER_THREAD
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1327    sys_sem_free(API_EXPR_REF(API_VAR_REF(msg).sem));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1328  #endif /* !LWIP_NETCONN_SEM_PER_THREAD */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1329    if (cberr != ERR_OK) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1330      API_VAR_FREE(MEMP_DNS_API_MSG, msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1331      return cberr;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1332    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1333  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1334  #if LWIP_MPU_COMPATIBLE
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1335    *addr = msg->addr;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1336    err = msg->err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1337  #endif /* LWIP_MPU_COMPATIBLE */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1338  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1339    API_VAR_FREE(MEMP_DNS_API_MSG, msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1340    return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1341  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1342  #endif /* LWIP_DNS*/
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1343  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1344  #if LWIP_NETCONN_SEM_PER_THREAD
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1345  void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1346  netconn_thread_init(void)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1347  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1348    sys_sem_t *sem = LWIP_NETCONN_THREAD_SEM_GET();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1349    if ((sem == NULL) || !sys_sem_valid(sem)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1350      /* call alloc only once */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1351      LWIP_NETCONN_THREAD_SEM_ALLOC();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1352      LWIP_ASSERT("LWIP_NETCONN_THREAD_SEM_ALLOC() failed", sys_sem_valid(LWIP_NETCONN_THREAD_SEM_GET()));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1353    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1354  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1355  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1356  void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1357  netconn_thread_cleanup(void)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1358  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1359    sys_sem_t *sem = LWIP_NETCONN_THREAD_SEM_GET();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1360    if ((sem != NULL) && sys_sem_valid(sem)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1361      /* call free only once */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1362      LWIP_NETCONN_THREAD_SEM_FREE();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1363    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1364  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1365  #endif /* LWIP_NETCONN_SEM_PER_THREAD */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1366  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\api\api_lib.c	  1367  #endif /* LWIP_NETCONN */
+
+	; Module end

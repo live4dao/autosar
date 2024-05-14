@@ -1,0 +1,1811 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.2r2 Build 18041957 SN 09003395"
+	.compiler_invocation	"ctc -f cc30476a --dep-file=EAS\\Library\\Vfx_ComE2E\\.Vfx_VfE2ELib.o.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc39x -D__CPU_TC39X__ --core=tc1.6.2 --fp-model=+float -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Cfg_Ssw -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Cfg_Ssw\\TC39B -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Integration -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr\\TC39xB -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr\\TC39xB\\_Reg -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw\\TC39B -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw\\TC39B\\Tricore -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\inc\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Lib -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\App_Func -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\demo -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Adc_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Gtm_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\AscLin_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Can_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\EthV2_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Stm_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Main -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\APP -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\BswM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanNm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanSm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanTp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanTSyn -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Com -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\ComM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Common -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Crc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Dcm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Dem -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Det -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\DoIP -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EcuM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Eth -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthSM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthTrcv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthTSyn -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\FiM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\FlsTst -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\MemIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Nm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\NvM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS\\Kernel -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS\\Portable -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\PduR -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\RamTst -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\SoAd -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\StbM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\api -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\arch -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv6 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\arpa -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\net -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\sys -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\stdc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\apps -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\priv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\prot -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif\\ppp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif\\ppp\\polarssl -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\polarssl -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\UdpNm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\WdgIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\WdgM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Cal -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Daq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Pag -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Pgm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Std -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\XcpOnEth -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Callout -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Config -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Library\\Vfx_ComE2E -g2 --make-target=EAS\\Library\\Vfx_ComE2E\\Vfx_VfE2ELib.o -t2 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O1 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o EAS\\Library\\Vfx_ComE2E\\Vfx_VfE2ELib.src ..\\EAS\\Library\\Vfx_ComE2E\\Vfx_VfE2ELib.c"
+	.compiler_name		"ctc"
+	;source	'..\\EAS\\Library\\Vfx_ComE2E\\Vfx_VfE2ELib.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.Vfx_VfE2ELib.LCE2ELib_Protect',code,cluster('LCE2ELib_Protect')
+	.sect	'.text.Vfx_VfE2ELib.LCE2ELib_Protect'
+	.align	2
+	
+	.global	LCE2ELib_Protect
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	     1  /*-----------------------------------------------------------------------------
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	     2   * Copyright (c) 2022 VinFast Trading and Production LLC. All rights reserved.
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	     3   * The reproduction, distribution and utilization of this document as well as 
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	     4   * the communication of its contents to others without explicit authorization 
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	     5   * is prohibited. Offenders will be held liable for the payment of damages. 
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	     6   * All rights reserved in the event of the grant of a patent, utility model or 
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	     7   * design.
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	     8  -----------------------------------------------------------------------------*/
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	     9  /**
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    10  *   @file LCE2ELib.c
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    11  *
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    12  *   @brief E2E library
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    13  *
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    14  *   @author Vinfast
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    15  *
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    16  *   @copyright Copyright (c) 2022.
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    17  *
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    18  *   @note Note 
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    19  *
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    20  */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    21  /*-----------------------------------------------------------------------------
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    22  *   MODIFICATION HISTORY:
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    23  *
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    24  *   Ver     PIC       Date             Changes
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    25  *   -----   --------   ----------   -------------------------------------------
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    26  *   1.00    ThanhNH40 25-02-2022       Initial
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    27  * 
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    28  -----------------------------------------------------------------------------*/
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    29  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    30  /* ********************************************************************************************************************
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    31   * Files inclusion
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    32   ******************************************************************************************************************* */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    33  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    34  #include "Vfx_VfE2ELib.h"
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    35  #include "Crc.h"
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    36  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    37  /* ********************************************************************************************************************
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    38   * Internal Macros
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    39   ******************************************************************************************************************* */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    40  #define LCE2ELIB_MAX_COUNTER_VALUE 14u
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    41  #define LCE2ELIB_MIN_PDU_LEN 1u
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    42  #define LCE2ELIB_CHECK_SUM_BYTE_POS 0u
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    43  #define LCE2ELIB_ALIVE_CNT_BYTE_POS 1u
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    44  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    45  #define LCE2ELIB_LOW_NIBBLE_BYTE_MASK 0x0Fu
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    46  #define LCE2ELIB_HIGH_NIBBLE_BYTE_MASK 0xF0u
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    47  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    48  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    49  #define LCE2ELIB_ALIVE_CNT_BYTE_6B 6u
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    50  #define LCE2ELIB_CHECK_SUM_BYTE_7B 7u
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    51  /* ********************************************************************************************************************
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    52   * Static function declaration
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    53   ******************************************************************************************************************* */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    54  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    55  /* ********************************************************************************************************************
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    56   * Variables
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    57   ******************************************************************************************************************* */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    58  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    59  /* ********************************************************************************************************************
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    60   * Static function definition
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    61   ******************************************************************************************************************* */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    62  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    63  /* ********************************************************************************************************************
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    64   * Public function definition
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    65   ******************************************************************************************************************* */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    66  Std_ReturnType LCE2ELib_Protect(LCE2ELib_ProtectStateType_tst *StatePtr_pst,uint8 *DataPtr_pu8,uint16 DataLen_u16)
+; Function LCE2ELib_Protect
+.L41:
+LCE2ELib_Protect:	.type	func
+	mov.aa	a12,a4
+.L134:
+	mov.aa	a15,a5
+.L135:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    67  {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    68      Std_ReturnType ProcessStatus_o;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    69      uint8 ComputedCRC_u8;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    70  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    71      /* Validate input parameter */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    72      if ((StatePtr_pst != NULL_PTR) && (DataPtr_pu8 != NULL_PTR))
+	jz.a	a12,.L2
+.L191:
+	jz.a	a15,.L3
+.L192:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    73      {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    74          if ((StatePtr_pst->AlvCounter_u8 <= LCE2ELIB_MAX_COUNTER_VALUE)
+	ld.bu	d0,[a12]
+.L193:
+	jge.u	d0,#15,.L4
+.L194:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    75                  && (DataLen_u16 >= LCE2ELIB_MIN_PDU_LEN))
+	jeq	d4,#0,.L5
+.L195:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    76          {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    77              /* Calculate and set Alive counter */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    78              DataPtr_pu8[LCE2ELIB_ALIVE_CNT_BYTE_POS] = (DataPtr_pu8[LCE2ELIB_ALIVE_CNT_BYTE_POS]
+	ld.bu	d15,[a15]1
+.L196:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    79                      & LCE2ELIB_HIGH_NIBBLE_BYTE_MASK) | StatePtr_pst->AlvCounter_u8;
+	and	d15,#240
+.L197:
+	or	d15,d0
+.L198:
+	st.b	[a15]1,d15
+.L199:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    80              /* Calculate and set checksum */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    81              ComputedCRC_u8 = 0u;
+	mov	d5,#0
+.L136:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    82              ComputedCRC_u8 = Crc_CalculateCRC8(&DataPtr_pu8[LCE2ELIB_CHECK_SUM_BYTE_POS + 1u], (uint32)DataLen_u16 - 1u,
+	lea	a4,[a15]1
+.L133:
+	add	d4,#-1
+.L131:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    83                      ComputedCRC_u8, FALSE);
+	mov	d6,d5
+.L137:
+	call	Crc_CalculateCRC8
+.L132:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    84              DataPtr_pu8[LCE2ELIB_CHECK_SUM_BYTE_POS] = ComputedCRC_u8;
+	st.b	[a15],d2
+.L200:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    85  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    86              /*Increment value of Counter. Valid values are 0..14 */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    87              StatePtr_pst->AlvCounter_u8 = (StatePtr_pst->AlvCounter_u8 + 1u) % (LCE2ELIB_MAX_COUNTER_VALUE + 1u);
+	ld.bu	d0,[a12]
+.L201:
+	add	d0,#1
+.L202:
+	mov	d15,#15
+.L203:
+	div.u	e0,d0,d15
+.L204:
+	st.b	[a12],d1
+.L205:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    88  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    89              /* Set status of protect completion */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    90              ProcessStatus_o = LCE2ELIB_OK;
+	mov	d2,#0
+.L138:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    91          }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    92          else
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    93          {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    94              ProcessStatus_o = LCE2ELIB_INPUTERR_WRONG;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    95          }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    96      }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    97      else
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    98      {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	    99          ProcessStatus_o = LCE2ELIB_INPUTERR_NULL;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   100      }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   101  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   102      return ProcessStatus_o;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   103  }
+	ret
+.L5:
+.L4:
+	mov	d2,#23
+.L139:
+	ret
+.L3:
+.L2:
+	mov	d2,#19
+.L140:
+	ret
+.L87:
+	
+__LCE2ELib_Protect_function_end:
+	.size	LCE2ELib_Protect,__LCE2ELib_Protect_function_end-LCE2ELib_Protect
+.L60:
+	; End of function
+	
+	.sdecl	'.text.Vfx_VfE2ELib.LCE2ELib_Protect_Low',code,cluster('LCE2ELib_Protect_Low')
+	.sect	'.text.Vfx_VfE2ELib.LCE2ELib_Protect_Low'
+	.align	2
+	
+	.global	LCE2ELib_Protect_Low
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   104  Std_ReturnType LCE2ELib_Protect_Low(LCE2ELib_ProtectStateType_tst *StatePtr_pst,uint8 *DataPtr_pu8,uint16 DataLen_u16)
+; Function LCE2ELib_Protect_Low
+.L43:
+LCE2ELib_Protect_Low:	.type	func
+	mov.aa	a12,a4
+.L144:
+	mov.aa	a15,a5
+.L145:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   105  {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   106      Std_ReturnType ProcessStatus_o;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   107      uint8 ComputedCRC_u8;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   108  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   109      /* Validate input parameter */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   110      if ((StatePtr_pst != NULL_PTR) && (DataPtr_pu8 != NULL_PTR))
+	jz.a	a12,.L9
+.L210:
+	jz.a	a15,.L10
+.L211:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   111      {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   112          if ((StatePtr_pst->AlvCounter_u8 <= LCE2ELIB_MAX_COUNTER_VALUE)
+	ld.bu	d0,[a12]
+.L212:
+	jge.u	d0,#15,.L11
+.L213:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   113                  && (DataLen_u16 >= LCE2ELIB_MIN_PDU_LEN))
+	jeq	d4,#0,.L12
+.L214:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   114          {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   115              /* Calculate and set Alive counter */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   116              DataPtr_pu8[LCE2ELIB_ALIVE_CNT_BYTE_POS] = (DataPtr_pu8[LCE2ELIB_ALIVE_CNT_BYTE_POS]
+	ld.bu	d15,[a15]1
+.L215:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   117                      & LCE2ELIB_LOW_NIBBLE_BYTE_MASK) | StatePtr_pst->AlvCounter_u8;
+	and	d15,#15
+.L216:
+	or	d15,d0
+.L217:
+	st.b	[a15]1,d15
+.L218:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   118              /* Calculate and set checksum */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   119              ComputedCRC_u8 = 0u;
+	mov	d5,#0
+.L146:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   120              ComputedCRC_u8 = Crc_CalculateCRC8(&DataPtr_pu8[LCE2ELIB_CHECK_SUM_BYTE_POS + 1u], (uint32)DataLen_u16 - 1u,
+	lea	a4,[a15]1
+.L143:
+	add	d4,#-1
+.L141:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   121                      ComputedCRC_u8, FALSE);
+	mov	d6,d5
+.L147:
+	call	Crc_CalculateCRC8
+.L142:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   122              DataPtr_pu8[LCE2ELIB_CHECK_SUM_BYTE_POS] = ComputedCRC_u8;
+	st.b	[a15],d2
+.L219:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   123  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   124              /*Increment value of Counter. Valid values are 0..14 */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   125              StatePtr_pst->AlvCounter_u8 = (StatePtr_pst->AlvCounter_u8 + 1u) % (LCE2ELIB_MAX_COUNTER_VALUE + 1u);
+	ld.bu	d0,[a12]
+.L220:
+	add	d0,#1
+.L221:
+	mov	d15,#15
+.L222:
+	div.u	e0,d0,d15
+.L223:
+	st.b	[a12],d1
+.L224:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   126  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   127              /* Set status of protect completion */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   128              ProcessStatus_o = LCE2ELIB_OK;
+	mov	d2,#0
+.L148:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   129          }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   130          else
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   131          {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   132              ProcessStatus_o = LCE2ELIB_INPUTERR_WRONG;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   133          }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   134      }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   135      else
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   136      {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   137          ProcessStatus_o = LCE2ELIB_INPUTERR_NULL;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   138      }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   139  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   140      return ProcessStatus_o;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   141  }
+	ret
+.L12:
+.L11:
+	mov	d2,#23
+.L149:
+	ret
+.L10:
+.L9:
+	mov	d2,#19
+.L150:
+	ret
+.L96:
+	
+__LCE2ELib_Protect_Low_function_end:
+	.size	LCE2ELib_Protect_Low,__LCE2ELib_Protect_Low_function_end-LCE2ELib_Protect_Low
+.L65:
+	; End of function
+	
+	.sdecl	'.text.Vfx_VfE2ELib.LCE2ELib_Check',code,cluster('LCE2ELib_Check')
+	.sect	'.text.Vfx_VfE2ELib.LCE2ELib_Check'
+	.align	2
+	
+	.global	LCE2ELib_Check
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   142  Std_ReturnType LCE2ELib_Check( const uint8 *DataPtr_pcu8, uint16 DataLen_u16)
+; Function LCE2ELib_Check
+.L45:
+LCE2ELib_Check:	.type	func
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   143  {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   144      uint8 ReceivedCounter_u8;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   145      uint8 ComputedCRC_u8;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   146      uint8 ReceivedCRC_u8;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   147      Std_ReturnType ProcessStatus_o;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   148  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   149      /* Validate input parameter */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   150      if (DataPtr_pcu8 != NULL_PTR)
+	jz.a	a4,.L16
+.L229:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   151      {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   152          if (DataLen_u16 >= LCE2ELIB_MIN_PDU_LEN)
+	jeq	d4,#0,.L17
+.L230:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   153          {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   154              /* Looking for received alive counter */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   155              ReceivedCounter_u8 = DataPtr_pcu8[LCE2ELIB_ALIVE_CNT_BYTE_POS] & LCE2ELIB_LOW_NIBBLE_BYTE_MASK;
+	ld.bu	d15,[a4]1
+.L153:
+	and	d15,#15
+.L231:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   156  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   157              /* Verify receive counter and checksum */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   158              if (ReceivedCounter_u8 <= LCE2ELIB_MAX_COUNTER_VALUE)
+	jge.u	d15,#15,.L18
+.L232:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   159              {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   160                  ReceivedCRC_u8 = DataPtr_pcu8[LCE2ELIB_CHECK_SUM_BYTE_POS];
+	ld.bu	d15,[a4+]
+.L154:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   161                  ComputedCRC_u8 = 0u;
+	mov	d5,#0
+.L155:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   162                  ComputedCRC_u8 = Crc_CalculateCRC8(&DataPtr_pcu8[LCE2ELIB_CHECK_SUM_BYTE_POS + 1u],
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   163                          (uint32)DataLen_u16 - 1u, ComputedCRC_u8, FALSE);
+	add	d4,#-1
+.L151:
+	mov	d6,d5
+.L156:
+	call	Crc_CalculateCRC8
+.L152:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   164  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   165                  /* CRC is correct, check alive counter */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   166                  if (ReceivedCRC_u8 == ComputedCRC_u8)
+	jne	d15,d2,.L19
+.L233:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   167                  {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   168                       ProcessStatus_o = E_OK;
+	mov	d2,#0
+.L157:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   169                  }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   170                  else
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   171                  {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   172                       ProcessStatus_o = E_NOT_OK;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   173                  }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   174              }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   175              else
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   176              {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   177                   ProcessStatus_o = E_NOT_OK;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   178              }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   179  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   180              
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   181          }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   182          else
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   183          {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   184              ProcessStatus_o = E_NOT_OK;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   185          }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   186      }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   187      else
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   188      {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   189          ProcessStatus_o = E_NOT_OK;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   190      }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   191  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   192      return ProcessStatus_o;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   193  }
+	ret
+.L19:
+.L18:
+.L17:
+.L16:
+	mov	d2,#1
+.L158:
+	ret
+.L102:
+	
+__LCE2ELib_Check_function_end:
+	.size	LCE2ELib_Check,__LCE2ELib_Check_function_end-LCE2ELib_Check
+.L70:
+	; End of function
+	
+	.sdecl	'.text.Vfx_VfE2ELib.LCE2ELib_Check1',code,cluster('LCE2ELib_Check1')
+	.sect	'.text.Vfx_VfE2ELib.LCE2ELib_Check1'
+	.align	2
+	
+	.global	LCE2ELib_Check1
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   194  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   195  Std_ReturnType LCE2ELib_Check1( const uint8 *DataPtr_pcu8, uint16 DataLen_u16)
+; Function LCE2ELib_Check1
+.L47:
+LCE2ELib_Check1:	.type	func
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   196  {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   197      uint8 ReceivedCounter_u8;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   198      uint8 ComputedCRC_u8;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   199      uint8 ReceivedCRC_u8;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   200      Std_ReturnType ProcessStatus_o;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   201  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   202      /* Validate input parameter */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   203      if (DataPtr_pcu8 != NULL_PTR)
+	jz.a	a4,.L22
+.L247:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   204      {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   205          if (DataLen_u16 >= LCE2ELIB_MIN_PDU_LEN)
+	jeq	d4,#0,.L23
+.L248:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   206          {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   207              /* Looking for received alive counter */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   208              ReceivedCounter_u8 =( DataPtr_pcu8[LCE2ELIB_ALIVE_CNT_BYTE_POS]>>4) & LCE2ELIB_LOW_NIBBLE_BYTE_MASK;
+	ld.bu	d15,[a4]1
+.L161:
+	sha	d15,#-4
+.L249:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   209  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   210              /* Verify receive counter and checksum */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   211              if (ReceivedCounter_u8 <= LCE2ELIB_MAX_COUNTER_VALUE)
+	jge.u	d15,#15,.L24
+.L250:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   212              {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   213                  ReceivedCRC_u8 = DataPtr_pcu8[LCE2ELIB_CHECK_SUM_BYTE_POS];
+	ld.bu	d15,[a4+]
+.L162:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   214                  ComputedCRC_u8 = 0u;
+	mov	d5,#0
+.L163:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   215                  ComputedCRC_u8 = Crc_CalculateCRC8(&DataPtr_pcu8[LCE2ELIB_CHECK_SUM_BYTE_POS + 1u],
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   216                          (uint32)DataLen_u16 - 1u, ComputedCRC_u8, FALSE);
+	add	d4,#-1
+.L159:
+	mov	d6,d5
+.L164:
+	call	Crc_CalculateCRC8
+.L160:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   217  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   218                  /* CRC is correct, check alive counter */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   219                  if (ReceivedCRC_u8 == ComputedCRC_u8)
+	jne	d15,d2,.L25
+.L251:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   220                  {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   221                       ProcessStatus_o = E_OK;
+	mov	d2,#0
+.L165:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   222                  }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   223                  else
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   224                  {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   225                       ProcessStatus_o = E_NOT_OK;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   226                  }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   227              }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   228              else
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   229              {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   230                   ProcessStatus_o = E_NOT_OK;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   231              }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   232  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   233              
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   234          }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   235          else
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   236          {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   237              ProcessStatus_o = E_NOT_OK;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   238          }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   239      }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   240      else
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   241      {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   242          ProcessStatus_o = E_NOT_OK;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   243      }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   244  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   245      return ProcessStatus_o;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   246  }
+	ret
+.L25:
+.L24:
+.L23:
+.L22:
+	mov	d2,#1
+.L166:
+	ret
+.L117:
+	
+__LCE2ELib_Check1_function_end:
+	.size	LCE2ELib_Check1,__LCE2ELib_Check1_function_end-LCE2ELib_Check1
+.L80:
+	; End of function
+	
+	.sdecl	'.text.Vfx_VfE2ELib.LCE2ELib_Check_Last',code,cluster('LCE2ELib_Check_Last')
+	.sect	'.text.Vfx_VfE2ELib.LCE2ELib_Check_Last'
+	.align	2
+	
+	.global	LCE2ELib_Check_Last
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   247  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   248  Std_ReturnType LCE2ELib_Check_Last( const uint8 *DataPtr_pcu8, uint16 DataLen_u16)
+; Function LCE2ELib_Check_Last
+.L49:
+LCE2ELib_Check_Last:	.type	func
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   249  {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   250      uint8 ReceivedCounter_u8;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   251      uint8 ComputedCRC_u8;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   252      uint8 ReceivedCRC_u8;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   253      Std_ReturnType ProcessStatus_o;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   254  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   255      /* Validate input parameter */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   256      if (DataPtr_pcu8 != NULL_PTR)
+	jz.a	a4,.L28
+.L238:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   257      {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   258          if (DataLen_u16 >= LCE2ELIB_MIN_PDU_LEN)
+	jeq	d4,#0,.L29
+.L239:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   259          {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   260              /* Looking for received alive counter */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   261              ReceivedCounter_u8 = DataPtr_pcu8[LCE2ELIB_ALIVE_CNT_BYTE_6B] & LCE2ELIB_LOW_NIBBLE_BYTE_MASK;
+	ld.bu	d15,[a4]6
+.L169:
+	and	d15,#15
+.L240:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   262  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   263              /* Verify receive counter and checksum */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   264              if (ReceivedCounter_u8 <= LCE2ELIB_MAX_COUNTER_VALUE)
+	jge.u	d15,#15,.L30
+.L241:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   265              {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   266                  ReceivedCRC_u8 = DataPtr_pcu8[LCE2ELIB_CHECK_SUM_BYTE_7B];
+	ld.bu	d15,[a4]7
+.L170:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   267                  ComputedCRC_u8 = 0u;
+	mov	d5,#0
+.L171:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   268                  ComputedCRC_u8 = Crc_CalculateCRC8(&DataPtr_pcu8[0],
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   269                          (uint32)DataLen_u16 - 1u, ComputedCRC_u8, FALSE);
+	add	d4,#-1
+.L167:
+	mov	d6,d5
+.L172:
+	call	Crc_CalculateCRC8
+.L168:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   270  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   271                  /* CRC is correct, check alive counter */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   272                  if (ReceivedCRC_u8 == ComputedCRC_u8)
+	jne	d15,d2,.L31
+.L242:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   273                  {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   274                       ProcessStatus_o = E_OK;
+	mov	d2,#0
+.L173:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   275                  }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   276                  else
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   277                  {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   278                       ProcessStatus_o = E_NOT_OK;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   279                  }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   280              }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   281              else
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   282              {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   283                   ProcessStatus_o = E_NOT_OK;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   284              }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   285  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   286              
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   287          }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   288          else
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   289          {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   290              ProcessStatus_o = E_NOT_OK;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   291          }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   292      }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   293      else
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   294      {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   295          ProcessStatus_o = E_NOT_OK;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   296      }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   297  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   298      return ProcessStatus_o;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   299  }
+	ret
+.L31:
+.L30:
+.L29:
+.L28:
+	mov	d2,#1
+.L174:
+	ret
+.L110:
+	
+__LCE2ELib_Check_Last_function_end:
+	.size	LCE2ELib_Check_Last,__LCE2ELib_Check_Last_function_end-LCE2ELib_Check_Last
+.L75:
+	; End of function
+	
+	.sdecl	'.text.Vfx_VfE2ELib.LCE2ELib_Check_Last1',code,cluster('LCE2ELib_Check_Last1')
+	.sect	'.text.Vfx_VfE2ELib.LCE2ELib_Check_Last1'
+	.align	2
+	
+	.global	LCE2ELib_Check_Last1
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   300  Std_ReturnType LCE2ELib_Check_Last1( const uint8 *DataPtr_pcu8, uint16 DataLen_u16)
+; Function LCE2ELib_Check_Last1
+.L51:
+LCE2ELib_Check_Last1:	.type	func
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   301  {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   302      uint8 ReceivedCounter_u8;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   303      uint8 ComputedCRC_u8;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   304      uint8 ReceivedCRC_u8;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   305      Std_ReturnType ProcessStatus_o;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   306  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   307      /* Validate input parameter */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   308      if (DataPtr_pcu8 != NULL_PTR)
+	jz.a	a4,.L34
+.L256:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   309      {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   310          if (DataLen_u16 >= LCE2ELIB_MIN_PDU_LEN)
+	jeq	d4,#0,.L35
+.L257:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   311          {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   312              /* Looking for received alive counter */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   313              ReceivedCounter_u8 = (DataPtr_pcu8[LCE2ELIB_ALIVE_CNT_BYTE_6B]>>4) & LCE2ELIB_LOW_NIBBLE_BYTE_MASK;
+	ld.bu	d15,[a4]6
+.L177:
+	sha	d15,#-4
+.L258:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   314  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   315              /* Verify receive counter and checksum */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   316              if (ReceivedCounter_u8 <= LCE2ELIB_MAX_COUNTER_VALUE)
+	jge.u	d15,#15,.L36
+.L259:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   317              {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   318                  ReceivedCRC_u8 = DataPtr_pcu8[LCE2ELIB_CHECK_SUM_BYTE_7B];
+	ld.bu	d15,[a4]7
+.L178:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   319                  ComputedCRC_u8 = 0u;
+	mov	d5,#0
+.L179:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   320                  ComputedCRC_u8 = Crc_CalculateCRC8(&DataPtr_pcu8[0],
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   321                          (uint32)DataLen_u16 - 1u, ComputedCRC_u8, FALSE);
+	add	d4,#-1
+.L175:
+	mov	d6,d5
+.L180:
+	call	Crc_CalculateCRC8
+.L176:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   322  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   323                  /* CRC is correct, check alive counter */
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   324                  if (ReceivedCRC_u8 == ComputedCRC_u8)
+	jne	d15,d2,.L37
+.L260:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   325                  {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   326                       ProcessStatus_o = E_OK;
+	mov	d2,#0
+.L181:
+
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   327                  }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   328                  else
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   329                  {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   330                       ProcessStatus_o = E_NOT_OK;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   331                  }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   332              }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   333              else
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   334              {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   335                   ProcessStatus_o = E_NOT_OK;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   336              }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   337  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   338              
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   339          }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   340          else
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   341          {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   342              ProcessStatus_o = E_NOT_OK;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   343          }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   344      }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   345      else
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   346      {
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   347          ProcessStatus_o = E_NOT_OK;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   348      }
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   349  
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   350      return ProcessStatus_o;
+; ..\EAS\Library\Vfx_ComE2E\Vfx_VfE2ELib.c	   350  }
+
+	ret
+.L37:
+.L36:
+.L35:
+.L34:
+	mov	d2,#1
+.L182:
+
+
+	ret
+.L124:
+	
+__LCE2ELib_Check_Last1_function_end:
+	.size	LCE2ELib_Check_Last1,__LCE2ELib_Check_Last1_function_end-LCE2ELib_Check_Last1
+.L85:
+	; End of function
+	
+	.calls	'LCE2ELib_Protect','Crc_CalculateCRC8'
+	.calls	'LCE2ELib_Protect_Low','Crc_CalculateCRC8'
+	.calls	'LCE2ELib_Check','Crc_CalculateCRC8'
+	.calls	'LCE2ELib_Check1','Crc_CalculateCRC8'
+	.calls	'LCE2ELib_Check_Last','Crc_CalculateCRC8'
+	.calls	'LCE2ELib_Check_Last1','Crc_CalculateCRC8'
+	.calls	'LCE2ELib_Protect','',0
+	.calls	'LCE2ELib_Protect_Low','',0
+	.calls	'LCE2ELib_Check','',0
+	.calls	'LCE2ELib_Check1','',0
+	.calls	'LCE2ELib_Check_Last','',0
+	.extern	Crc_CalculateCRC8
+	.calls	'LCE2ELib_Check_Last1','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L53:
+	.word	658
+	.half	3
+	.word	.L54
+	.byte	4
+.L52:
+	.byte	1
+	.byte	'..\\EAS\\Library\\Vfx_ComE2E\\Vfx_VfE2ELib.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L55
+.L86:
+	.byte	2
+	.byte	'unsigned char',0,1,8,3,1,42,9,1,4
+	.byte	'AlvCounter_u8',0
+	.word	164
+	.byte	1,2,35,0,0
+.L88:
+	.byte	5
+	.word	181
+.L90:
+	.byte	5
+	.word	164
+.L92:
+	.byte	2
+	.byte	'unsigned short int',0,2,7,6
+	.word	164
+.L103:
+	.byte	5
+	.word	242
+	.byte	2
+	.byte	'unsigned long int',0,4,7,7
+	.byte	'Crc_CalculateCRC8',0,2,97,23
+	.word	164
+	.byte	1,1,1,1,8
+	.byte	'Crc_DataPtr',0,2,99,46
+	.word	247
+	.byte	8
+	.byte	'Crc_Length',0,2,100,12
+	.word	252
+	.byte	8
+	.byte	'Crc_StartValue8',0,2,101,11
+	.word	164
+	.byte	8
+	.byte	'Crc_IsFirstCall',0,2,102,13
+	.word	164
+	.byte	0,9,1,5
+	.word	391
+	.byte	10
+	.byte	'__codeptr',0,3,1,1
+	.word	393
+	.byte	10
+	.byte	'boolean',0,4,102,29
+	.word	164
+	.byte	10
+	.byte	'uint8',0,4,106,29
+	.word	164
+	.byte	10
+	.byte	'uint16',0,4,110,29
+	.word	220
+	.byte	10
+	.byte	'uint32',0,4,114,29
+	.word	252
+	.byte	10
+	.byte	'Std_ReturnType',0,5,109,16
+	.word	164
+	.byte	10
+	.byte	'LCE2ELib_ProtectStateType_tst',0,1,45,3
+	.word	181
+	.byte	11,1,47,9,1,12
+	.byte	'LCE2ELib_STATUS_OK_e',0,0,12
+	.byte	'LCE2ELib_STATUS_WRONGCNT_e',0,1,12
+	.byte	'LCE2ELib_STATUS_WRONGCRC_e',0,2,0,10
+	.byte	'LCE2ELib_CheckStatusType_ten',0,1,52,3
+	.word	537
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L54:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,19,1,58,15,59,15,57,15,11,15
+	.byte	0,0,4,13,0,3,8,73,19,11,15,56,9,0,0,5,15,0,73,19,0,0,6,38,0,73,19,0,0,7,46,1,3,8,58,15,59,15,57,15,73
+	.byte	19,54,15,39,12,63,12,60,12,0,0,8,5,0,3,8,58,15,59,15,57,15,73,19,0,0,9,21,0,54,15,0,0,10,22,0,3,8,58,15
+	.byte	59,15,57,15,73,19,0,0,11,4,1,58,15,59,15,57,15,11,15,0,0,12,40,0,3,8,28,13,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L55:
+	.word	.L184-.L183
+.L183:
+	.half	3
+	.word	.L186-.L185
+.L185:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Crc',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform',0,0
+	.byte	'..\\EAS\\Library\\Vfx_ComE2E\\Vfx_VfE2ELib.h',0,0,0,0
+	.byte	'Crc.h',0,1,0,0
+	.byte	'..\\EAS\\Library\\Vfx_ComE2E\\Vfx_VfE2ELib.c',0,0,0,0
+	.byte	'Platform_Types.h',0,2,0,0
+	.byte	'Std_Types.h',0,2,0,0,0
+.L186:
+.L184:
+	.sdecl	'.debug_info',debug,cluster('LCE2ELib_Protect')
+	.sect	'.debug_info'
+.L56:
+	.word	349
+	.half	3
+	.word	.L57
+	.byte	4,1
+	.byte	'..\\EAS\\Library\\Vfx_ComE2E\\Vfx_VfE2ELib.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L59,.L58
+	.byte	2
+	.word	.L52
+	.byte	3
+	.byte	'LCE2ELib_Protect',0,1,66,16
+	.word	.L86
+	.byte	1,1,1
+	.word	.L41,.L87,.L40
+	.byte	4
+	.byte	'StatePtr_pst',0,1,66,64
+	.word	.L88,.L89
+	.byte	4
+	.byte	'DataPtr_pu8',0,1,66,84
+	.word	.L90,.L91
+	.byte	4
+	.byte	'DataLen_u16',0,1,66,103
+	.word	.L92,.L93
+	.byte	5
+	.word	.L41,.L87
+	.byte	6
+	.byte	'ProcessStatus_o',0,1,68,20
+	.word	.L86,.L94
+	.byte	6
+	.byte	'ComputedCRC_u8',0,1,69,11
+	.word	.L86,.L95
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('LCE2ELib_Protect')
+	.sect	'.debug_abbrev'
+.L57:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('LCE2ELib_Protect')
+	.sect	'.debug_line'
+.L58:
+	.word	.L188-.L187
+.L187:
+	.half	3
+	.word	.L190-.L189
+.L189:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\Library\\Vfx_ComE2E\\Vfx_VfE2ELib.c',0,0,0,0,0
+.L190:
+	.byte	5,16,7,0,5,2
+	.word	.L41
+	.byte	3,193,0,1,5,9,9
+	.half	.L135-.L41
+	.byte	3,6,1,5,52,7,9
+	.half	.L191-.L135
+	.byte	1,5,26,7,9
+	.half	.L192-.L191
+	.byte	3,2,1,5,13,9
+	.half	.L193-.L192
+	.byte	1,5,33,7,9
+	.half	.L194-.L193
+	.byte	3,1,1,5,68,7,9
+	.half	.L195-.L194
+	.byte	3,3,1,5,21,9
+	.half	.L196-.L195
+	.byte	3,1,1,5,55,9
+	.half	.L197-.L196
+	.byte	1,5,54,9
+	.half	.L198-.L197
+	.byte	3,127,1,5,28,9
+	.half	.L199-.L198
+	.byte	3,3,1,5,89,9
+	.half	.L136-.L199
+	.byte	3,1,1,5,116,9
+	.half	.L133-.L136
+	.byte	1,5,37,9
+	.half	.L131-.L133
+	.byte	3,1,1,5,54,9
+	.half	.L132-.L131
+	.byte	3,1,1,5,56,9
+	.half	.L200-.L132
+	.byte	3,3,1,5,72,9
+	.half	.L201-.L200
+	.byte	1,5,108,9
+	.half	.L202-.L201
+	.byte	1,5,78,9
+	.half	.L203-.L202
+	.byte	1,5,41,9
+	.half	.L204-.L203
+	.byte	1,5,29,9
+	.half	.L205-.L204
+	.byte	3,3,1,5,1,9
+	.half	.L138-.L205
+	.byte	3,13,1,5,29,7,9
+	.half	.L4-.L138
+	.byte	3,119,1,5,1,9
+	.half	.L139-.L4
+	.byte	3,9,1,5,25,7,9
+	.half	.L2-.L139
+	.byte	3,124,1,5,1,9
+	.half	.L140-.L2
+	.byte	3,4,1,7,9
+	.half	.L60-.L140
+	.byte	0,1,1
+.L188:
+	.sdecl	'.debug_ranges',debug,cluster('LCE2ELib_Protect')
+	.sect	'.debug_ranges'
+.L59:
+	.word	-1,.L41,0,.L60-.L41,0,0
+	.sdecl	'.debug_info',debug,cluster('LCE2ELib_Protect_Low')
+	.sect	'.debug_info'
+.L61:
+	.word	353
+	.half	3
+	.word	.L62
+	.byte	4,1
+	.byte	'..\\EAS\\Library\\Vfx_ComE2E\\Vfx_VfE2ELib.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L64,.L63
+	.byte	2
+	.word	.L52
+	.byte	3
+	.byte	'LCE2ELib_Protect_Low',0,1,104,16
+	.word	.L86
+	.byte	1,1,1
+	.word	.L43,.L96,.L42
+	.byte	4
+	.byte	'StatePtr_pst',0,1,104,68
+	.word	.L88,.L97
+	.byte	4
+	.byte	'DataPtr_pu8',0,1,104,88
+	.word	.L90,.L98
+	.byte	4
+	.byte	'DataLen_u16',0,1,104,107
+	.word	.L92,.L99
+	.byte	5
+	.word	.L43,.L96
+	.byte	6
+	.byte	'ProcessStatus_o',0,1,106,20
+	.word	.L86,.L100
+	.byte	6
+	.byte	'ComputedCRC_u8',0,1,107,11
+	.word	.L86,.L101
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('LCE2ELib_Protect_Low')
+	.sect	'.debug_abbrev'
+.L62:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('LCE2ELib_Protect_Low')
+	.sect	'.debug_line'
+.L63:
+	.word	.L207-.L206
+.L206:
+	.half	3
+	.word	.L209-.L208
+.L208:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\Library\\Vfx_ComE2E\\Vfx_VfE2ELib.c',0,0,0,0,0
+.L209:
+	.byte	5,16,7,0,5,2
+	.word	.L43
+	.byte	3,231,0,1,5,9,9
+	.half	.L145-.L43
+	.byte	3,6,1,5,52,7,9
+	.half	.L210-.L145
+	.byte	1,5,26,7,9
+	.half	.L211-.L210
+	.byte	3,2,1,5,13,9
+	.half	.L212-.L211
+	.byte	1,5,33,7,9
+	.half	.L213-.L212
+	.byte	3,1,1,5,68,7,9
+	.half	.L214-.L213
+	.byte	3,3,1,5,21,9
+	.half	.L215-.L214
+	.byte	3,1,1,5,54,9
+	.half	.L216-.L215
+	.byte	1,9
+	.half	.L217-.L216
+	.byte	3,127,1,5,28,9
+	.half	.L218-.L217
+	.byte	3,3,1,5,89,9
+	.half	.L146-.L218
+	.byte	3,1,1,5,116,9
+	.half	.L143-.L146
+	.byte	1,5,37,9
+	.half	.L141-.L143
+	.byte	3,1,1,5,54,9
+	.half	.L142-.L141
+	.byte	3,1,1,5,56,9
+	.half	.L219-.L142
+	.byte	3,3,1,5,72,9
+	.half	.L220-.L219
+	.byte	1,5,108,9
+	.half	.L221-.L220
+	.byte	1,5,78,9
+	.half	.L222-.L221
+	.byte	1,5,41,9
+	.half	.L223-.L222
+	.byte	1,5,29,9
+	.half	.L224-.L223
+	.byte	3,3,1,5,1,9
+	.half	.L148-.L224
+	.byte	3,13,1,5,29,7,9
+	.half	.L11-.L148
+	.byte	3,119,1,5,1,9
+	.half	.L149-.L11
+	.byte	3,9,1,5,25,7,9
+	.half	.L9-.L149
+	.byte	3,124,1,5,1,9
+	.half	.L150-.L9
+	.byte	3,4,1,7,9
+	.half	.L65-.L150
+	.byte	0,1,1
+.L207:
+	.sdecl	'.debug_ranges',debug,cluster('LCE2ELib_Protect_Low')
+	.sect	'.debug_ranges'
+.L64:
+	.word	-1,.L43,0,.L65-.L43,0,0
+	.sdecl	'.debug_info',debug,cluster('LCE2ELib_Check')
+	.sect	'.debug_info'
+.L66:
+	.word	388
+	.half	3
+	.word	.L67
+	.byte	4,1
+	.byte	'..\\EAS\\Library\\Vfx_ComE2E\\Vfx_VfE2ELib.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L69,.L68
+	.byte	2
+	.word	.L52
+	.byte	3
+	.byte	'LCE2ELib_Check',0,1,142,1,16
+	.word	.L86
+	.byte	1,1,1
+	.word	.L45,.L102,.L44
+	.byte	4
+	.byte	'DataPtr_pcu8',0,1,142,1,45
+	.word	.L103,.L104
+	.byte	4
+	.byte	'DataLen_u16',0,1,142,1,66
+	.word	.L92,.L105
+	.byte	5
+	.word	.L45,.L102
+	.byte	6
+	.byte	'ReceivedCounter_u8',0,1,144,1,11
+	.word	.L86,.L106
+	.byte	6
+	.byte	'ComputedCRC_u8',0,1,145,1,11
+	.word	.L86,.L107
+	.byte	6
+	.byte	'ReceivedCRC_u8',0,1,146,1,11
+	.word	.L86,.L108
+	.byte	6
+	.byte	'ProcessStatus_o',0,1,147,1,20
+	.word	.L86,.L109
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('LCE2ELib_Check')
+	.sect	'.debug_abbrev'
+.L67:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('LCE2ELib_Check')
+	.sect	'.debug_line'
+.L68:
+	.word	.L226-.L225
+.L225:
+	.half	3
+	.word	.L228-.L227
+.L227:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\Library\\Vfx_ComE2E\\Vfx_VfE2ELib.c',0,0,0,0,0
+.L228:
+	.byte	5,5,7,0,5,2
+	.word	.L45
+	.byte	3,149,1,1,5,9,7,9
+	.half	.L229-.L45
+	.byte	3,2,1,5,46,7,9
+	.half	.L230-.L229
+	.byte	3,3,1,5,76,9
+	.half	.L153-.L230
+	.byte	1,5,13,9
+	.half	.L231-.L153
+	.byte	3,3,1,5,46,7,9
+	.half	.L232-.L231
+	.byte	3,2,1,5,32,9
+	.half	.L154-.L232
+	.byte	3,1,1,5,45,9
+	.half	.L155-.L154
+	.byte	3,2,1,5,67,9
+	.half	.L151-.L155
+	.byte	1,5,17,9
+	.half	.L152-.L151
+	.byte	3,3,1,5,38,7,9
+	.half	.L233-.L152
+	.byte	3,2,1,5,1,9
+	.half	.L157-.L233
+	.byte	3,25,1,5,25,7,9
+	.half	.L16-.L157
+	.byte	3,124,1,5,1,9
+	.half	.L158-.L16
+	.byte	3,4,1,7,9
+	.half	.L70-.L158
+	.byte	0,1,1
+.L226:
+	.sdecl	'.debug_ranges',debug,cluster('LCE2ELib_Check')
+	.sect	'.debug_ranges'
+.L69:
+	.word	-1,.L45,0,.L70-.L45,0,0
+	.sdecl	'.debug_info',debug,cluster('LCE2ELib_Check_Last')
+	.sect	'.debug_info'
+.L71:
+	.word	393
+	.half	3
+	.word	.L72
+	.byte	4,1
+	.byte	'..\\EAS\\Library\\Vfx_ComE2E\\Vfx_VfE2ELib.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L74,.L73
+	.byte	2
+	.word	.L52
+	.byte	3
+	.byte	'LCE2ELib_Check_Last',0,1,248,1,16
+	.word	.L86
+	.byte	1,1,1
+	.word	.L49,.L110,.L48
+	.byte	4
+	.byte	'DataPtr_pcu8',0,1,248,1,50
+	.word	.L103,.L111
+	.byte	4
+	.byte	'DataLen_u16',0,1,248,1,71
+	.word	.L92,.L112
+	.byte	5
+	.word	.L49,.L110
+	.byte	6
+	.byte	'ReceivedCounter_u8',0,1,250,1,11
+	.word	.L86,.L113
+	.byte	6
+	.byte	'ComputedCRC_u8',0,1,251,1,11
+	.word	.L86,.L114
+	.byte	6
+	.byte	'ReceivedCRC_u8',0,1,252,1,11
+	.word	.L86,.L115
+	.byte	6
+	.byte	'ProcessStatus_o',0,1,253,1,20
+	.word	.L86,.L116
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('LCE2ELib_Check_Last')
+	.sect	'.debug_abbrev'
+.L72:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('LCE2ELib_Check_Last')
+	.sect	'.debug_line'
+.L73:
+	.word	.L235-.L234
+.L234:
+	.half	3
+	.word	.L237-.L236
+.L236:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\Library\\Vfx_ComE2E\\Vfx_VfE2ELib.c',0,0,0,0,0
+.L237:
+	.byte	5,5,7,0,5,2
+	.word	.L49
+	.byte	3,255,1,1,5,9,7,9
+	.half	.L238-.L49
+	.byte	3,2,1,5,46,7,9
+	.half	.L239-.L238
+	.byte	3,3,1,5,75,9
+	.half	.L169-.L239
+	.byte	1,5,13,9
+	.half	.L240-.L169
+	.byte	3,3,1,5,46,7,9
+	.half	.L241-.L240
+	.byte	3,2,1,5,32,9
+	.half	.L170-.L241
+	.byte	3,1,1,5,45,9
+	.half	.L171-.L170
+	.byte	3,2,1,5,67,9
+	.half	.L167-.L171
+	.byte	1,5,17,9
+	.half	.L168-.L167
+	.byte	3,3,1,5,38,7,9
+	.half	.L242-.L168
+	.byte	3,2,1,5,1,9
+	.half	.L173-.L242
+	.byte	3,25,1,5,25,7,9
+	.half	.L28-.L173
+	.byte	3,124,1,5,1,9
+	.half	.L174-.L28
+	.byte	3,4,1,7,9
+	.half	.L75-.L174
+	.byte	0,1,1
+.L235:
+	.sdecl	'.debug_ranges',debug,cluster('LCE2ELib_Check_Last')
+	.sect	'.debug_ranges'
+.L74:
+	.word	-1,.L49,0,.L75-.L49,0,0
+	.sdecl	'.debug_info',debug,cluster('LCE2ELib_Check1')
+	.sect	'.debug_info'
+.L76:
+	.word	389
+	.half	3
+	.word	.L77
+	.byte	4,1
+	.byte	'..\\EAS\\Library\\Vfx_ComE2E\\Vfx_VfE2ELib.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L79,.L78
+	.byte	2
+	.word	.L52
+	.byte	3
+	.byte	'LCE2ELib_Check1',0,1,195,1,16
+	.word	.L86
+	.byte	1,1,1
+	.word	.L47,.L117,.L46
+	.byte	4
+	.byte	'DataPtr_pcu8',0,1,195,1,46
+	.word	.L103,.L118
+	.byte	4
+	.byte	'DataLen_u16',0,1,195,1,67
+	.word	.L92,.L119
+	.byte	5
+	.word	.L47,.L117
+	.byte	6
+	.byte	'ReceivedCounter_u8',0,1,197,1,11
+	.word	.L86,.L120
+	.byte	6
+	.byte	'ComputedCRC_u8',0,1,198,1,11
+	.word	.L86,.L121
+	.byte	6
+	.byte	'ReceivedCRC_u8',0,1,199,1,11
+	.word	.L86,.L122
+	.byte	6
+	.byte	'ProcessStatus_o',0,1,200,1,20
+	.word	.L86,.L123
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('LCE2ELib_Check1')
+	.sect	'.debug_abbrev'
+.L77:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('LCE2ELib_Check1')
+	.sect	'.debug_line'
+.L78:
+	.word	.L244-.L243
+.L243:
+	.half	3
+	.word	.L246-.L245
+.L245:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\Library\\Vfx_ComE2E\\Vfx_VfE2ELib.c',0,0,0,0,0
+.L246:
+	.byte	5,5,7,0,5,2
+	.word	.L47
+	.byte	3,202,1,1,5,9,7,9
+	.half	.L247-.L47
+	.byte	3,2,1,5,47,7,9
+	.half	.L248-.L247
+	.byte	3,3,1,5,76,9
+	.half	.L161-.L248
+	.byte	1,5,13,9
+	.half	.L249-.L161
+	.byte	3,3,1,5,46,7,9
+	.half	.L250-.L249
+	.byte	3,2,1,5,32,9
+	.half	.L162-.L250
+	.byte	3,1,1,5,45,9
+	.half	.L163-.L162
+	.byte	3,2,1,5,67,9
+	.half	.L159-.L163
+	.byte	1,5,17,9
+	.half	.L160-.L159
+	.byte	3,3,1,5,38,7,9
+	.half	.L251-.L160
+	.byte	3,2,1,5,1,9
+	.half	.L165-.L251
+	.byte	3,25,1,5,25,7,9
+	.half	.L22-.L165
+	.byte	3,124,1,5,1,9
+	.half	.L166-.L22
+	.byte	3,4,1,7,9
+	.half	.L80-.L166
+	.byte	0,1,1
+.L244:
+	.sdecl	'.debug_ranges',debug,cluster('LCE2ELib_Check1')
+	.sect	'.debug_ranges'
+.L79:
+	.word	-1,.L47,0,.L80-.L47,0,0
+	.sdecl	'.debug_info',debug,cluster('LCE2ELib_Check_Last1')
+	.sect	'.debug_info'
+.L81:
+	.word	394
+	.half	3
+	.word	.L82
+	.byte	4,1
+	.byte	'..\\EAS\\Library\\Vfx_ComE2E\\Vfx_VfE2ELib.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L84,.L83
+	.byte	2
+	.word	.L52
+	.byte	3
+	.byte	'LCE2ELib_Check_Last1',0,1,172,2,16
+	.word	.L86
+	.byte	1,1,1
+	.word	.L51,.L124,.L50
+	.byte	4
+	.byte	'DataPtr_pcu8',0,1,172,2,51
+	.word	.L103,.L125
+	.byte	4
+	.byte	'DataLen_u16',0,1,172,2,72
+	.word	.L92,.L126
+	.byte	5
+	.word	.L51,.L124
+	.byte	6
+	.byte	'ReceivedCounter_u8',0,1,174,2,11
+	.word	.L86,.L127
+	.byte	6
+	.byte	'ComputedCRC_u8',0,1,175,2,11
+	.word	.L86,.L128
+	.byte	6
+	.byte	'ReceivedCRC_u8',0,1,176,2,11
+	.word	.L86,.L129
+	.byte	6
+	.byte	'ProcessStatus_o',0,1,177,2,20
+	.word	.L86,.L130
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('LCE2ELib_Check_Last1')
+	.sect	'.debug_abbrev'
+.L82:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('LCE2ELib_Check_Last1')
+	.sect	'.debug_line'
+.L83:
+	.word	.L253-.L252
+.L252:
+	.half	3
+	.word	.L255-.L254
+.L254:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\Library\\Vfx_ComE2E\\Vfx_VfE2ELib.c',0,0,0,0,0
+.L255:
+	.byte	5,5,7,0,5,2
+	.word	.L51
+	.byte	3,179,2,1,5,9,7,9
+	.half	.L256-.L51
+	.byte	3,2,1,5,47,7,9
+	.half	.L257-.L256
+	.byte	3,3,1,5,75,9
+	.half	.L177-.L257
+	.byte	1,5,13,9
+	.half	.L258-.L177
+	.byte	3,3,1,5,46,7,9
+	.half	.L259-.L258
+	.byte	3,2,1,5,32,9
+	.half	.L178-.L259
+	.byte	3,1,1,5,45,9
+	.half	.L179-.L178
+	.byte	3,2,1,5,67,9
+	.half	.L175-.L179
+	.byte	1,5,17,9
+	.half	.L176-.L175
+	.byte	3,3,1,5,38,7,9
+	.half	.L260-.L176
+	.byte	3,2,1,5,1,9
+	.half	.L181-.L260
+	.byte	3,25,1,5,25,7,9
+	.half	.L34-.L181
+	.byte	3,124,1,5,1,9
+	.half	.L182-.L34
+	.byte	3,4,1,7,9
+	.half	.L85-.L182
+	.byte	0,1,1
+.L253:
+	.sdecl	'.debug_ranges',debug,cluster('LCE2ELib_Check_Last1')
+	.sect	'.debug_ranges'
+.L84:
+	.word	-1,.L51,0,.L85-.L51,0,0
+	.sdecl	'.debug_loc',debug,cluster('LCE2ELib_Check')
+	.sect	'.debug_loc'
+.L107:
+	.word	-1,.L45,.L155-.L45,.L152-.L45
+	.half	1
+	.byte	85
+	.word	.L156-.L45,.L152-.L45
+	.half	1
+	.byte	86
+	.word	.L152-.L45,.L157-.L45
+	.half	1
+	.byte	82
+	.word	0,0
+.L105:
+	.word	-1,.L45,0,.L151-.L45
+	.half	1
+	.byte	84
+	.word	0,0
+.L104:
+	.word	-1,.L45,0,.L152-.L45
+	.half	1
+	.byte	100
+	.word	0,0
+.L44:
+	.word	-1,.L45,0,.L102-.L45
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L109:
+	.word	-1,.L45,.L157-.L45,.L16-.L45
+	.half	1
+	.byte	82
+	.word	.L158-.L45,.L102-.L45
+	.half	1
+	.byte	82
+	.word	0,0
+.L108:
+	.word	-1,.L45,.L154-.L45,.L16-.L45
+	.half	1
+	.byte	95
+	.word	0,0
+.L106:
+	.word	-1,.L45,.L153-.L45,.L154-.L45
+	.half	1
+	.byte	95
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('LCE2ELib_Check1')
+	.sect	'.debug_loc'
+.L121:
+	.word	-1,.L47,.L163-.L47,.L160-.L47
+	.half	1
+	.byte	85
+	.word	.L164-.L47,.L160-.L47
+	.half	1
+	.byte	86
+	.word	.L160-.L47,.L165-.L47
+	.half	1
+	.byte	82
+	.word	0,0
+.L119:
+	.word	-1,.L47,0,.L159-.L47
+	.half	1
+	.byte	84
+	.word	0,0
+.L118:
+	.word	-1,.L47,0,.L160-.L47
+	.half	1
+	.byte	100
+	.word	0,0
+.L46:
+	.word	-1,.L47,0,.L117-.L47
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L123:
+	.word	-1,.L47,.L165-.L47,.L22-.L47
+	.half	1
+	.byte	82
+	.word	.L166-.L47,.L117-.L47
+	.half	1
+	.byte	82
+	.word	0,0
+.L122:
+	.word	-1,.L47,.L162-.L47,.L22-.L47
+	.half	1
+	.byte	95
+	.word	0,0
+.L120:
+	.word	-1,.L47,.L161-.L47,.L162-.L47
+	.half	1
+	.byte	95
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('LCE2ELib_Check_Last')
+	.sect	'.debug_loc'
+.L114:
+	.word	-1,.L49,.L171-.L49,.L168-.L49
+	.half	1
+	.byte	85
+	.word	.L172-.L49,.L168-.L49
+	.half	1
+	.byte	86
+	.word	.L168-.L49,.L173-.L49
+	.half	1
+	.byte	82
+	.word	0,0
+.L112:
+	.word	-1,.L49,0,.L167-.L49
+	.half	1
+	.byte	84
+	.word	0,0
+.L111:
+	.word	-1,.L49,0,.L168-.L49
+	.half	1
+	.byte	100
+	.word	0,0
+.L48:
+	.word	-1,.L49,0,.L110-.L49
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L116:
+	.word	-1,.L49,.L173-.L49,.L28-.L49
+	.half	1
+	.byte	82
+	.word	.L174-.L49,.L110-.L49
+	.half	1
+	.byte	82
+	.word	0,0
+.L115:
+	.word	-1,.L49,.L170-.L49,.L28-.L49
+	.half	1
+	.byte	95
+	.word	0,0
+.L113:
+	.word	-1,.L49,.L169-.L49,.L170-.L49
+	.half	1
+	.byte	95
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('LCE2ELib_Check_Last1')
+	.sect	'.debug_loc'
+.L128:
+	.word	-1,.L51,.L179-.L51,.L176-.L51
+	.half	1
+	.byte	85
+	.word	.L180-.L51,.L176-.L51
+	.half	1
+	.byte	86
+	.word	.L176-.L51,.L181-.L51
+	.half	1
+	.byte	82
+	.word	0,0
+.L126:
+	.word	-1,.L51,0,.L175-.L51
+	.half	1
+	.byte	84
+	.word	0,0
+.L125:
+	.word	-1,.L51,0,.L176-.L51
+	.half	1
+	.byte	100
+	.word	0,0
+.L50:
+	.word	-1,.L51,0,.L124-.L51
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L130:
+	.word	-1,.L51,.L181-.L51,.L34-.L51
+	.half	1
+	.byte	82
+	.word	.L182-.L51,.L124-.L51
+	.half	1
+	.byte	82
+	.word	0,0
+.L129:
+	.word	-1,.L51,.L178-.L51,.L34-.L51
+	.half	1
+	.byte	95
+	.word	0,0
+.L127:
+	.word	-1,.L51,.L177-.L51,.L178-.L51
+	.half	1
+	.byte	95
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('LCE2ELib_Protect')
+	.sect	'.debug_loc'
+.L95:
+	.word	-1,.L41,.L136-.L41,.L132-.L41
+	.half	1
+	.byte	85
+	.word	.L137-.L41,.L132-.L41
+	.half	1
+	.byte	86
+	.word	.L132-.L41,.L138-.L41
+	.half	1
+	.byte	82
+	.word	0,0
+.L93:
+	.word	-1,.L41,0,.L131-.L41
+	.half	1
+	.byte	84
+	.word	.L4-.L41,.L87-.L41
+	.half	1
+	.byte	84
+	.word	0,0
+.L91:
+	.word	-1,.L41,0,.L132-.L41
+	.half	1
+	.byte	101
+	.word	.L135-.L41,.L87-.L41
+	.half	1
+	.byte	111
+	.word	.L4-.L41,.L87-.L41
+	.half	1
+	.byte	101
+	.word	0,0
+.L40:
+	.word	-1,.L41,0,.L87-.L41
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L94:
+	.word	-1,.L41,.L138-.L41,.L4-.L41
+	.half	1
+	.byte	82
+	.word	.L139-.L41,.L2-.L41
+	.half	1
+	.byte	82
+	.word	.L140-.L41,.L87-.L41
+	.half	1
+	.byte	82
+	.word	0,0
+.L89:
+	.word	-1,.L41,0,.L133-.L41
+	.half	1
+	.byte	100
+	.word	.L134-.L41,.L87-.L41
+	.half	1
+	.byte	108
+	.word	.L4-.L41,.L87-.L41
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('LCE2ELib_Protect_Low')
+	.sect	'.debug_loc'
+.L101:
+	.word	-1,.L43,.L146-.L43,.L142-.L43
+	.half	1
+	.byte	85
+	.word	.L147-.L43,.L142-.L43
+	.half	1
+	.byte	86
+	.word	.L142-.L43,.L148-.L43
+	.half	1
+	.byte	82
+	.word	0,0
+.L99:
+	.word	-1,.L43,0,.L141-.L43
+	.half	1
+	.byte	84
+	.word	.L11-.L43,.L96-.L43
+	.half	1
+	.byte	84
+	.word	0,0
+.L98:
+	.word	-1,.L43,0,.L142-.L43
+	.half	1
+	.byte	101
+	.word	.L145-.L43,.L96-.L43
+	.half	1
+	.byte	111
+	.word	.L11-.L43,.L96-.L43
+	.half	1
+	.byte	101
+	.word	0,0
+.L42:
+	.word	-1,.L43,0,.L96-.L43
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L100:
+	.word	-1,.L43,.L148-.L43,.L11-.L43
+	.half	1
+	.byte	82
+	.word	.L149-.L43,.L9-.L43
+	.half	1
+	.byte	82
+	.word	.L150-.L43,.L96-.L43
+	.half	1
+	.byte	82
+	.word	0,0
+.L97:
+	.word	-1,.L43,0,.L143-.L43
+	.half	1
+	.byte	100
+	.word	.L144-.L43,.L96-.L43
+	.half	1
+	.byte	108
+	.word	.L11-.L43,.L96-.L43
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L261:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('LCE2ELib_Protect')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L261,.L41,.L87-.L41
+	.sdecl	'.debug_frame',debug,cluster('LCE2ELib_Protect_Low')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L261,.L43,.L96-.L43
+	.sdecl	'.debug_frame',debug,cluster('LCE2ELib_Check')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L261,.L45,.L102-.L45
+	.sdecl	'.debug_frame',debug,cluster('LCE2ELib_Check1')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L261,.L47,.L117-.L47
+	.sdecl	'.debug_frame',debug,cluster('LCE2ELib_Check_Last')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L261,.L49,.L110-.L49
+	.sdecl	'.debug_frame',debug,cluster('LCE2ELib_Check_Last1')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L261,.L51,.L124-.L51
+
+
+	; Module end

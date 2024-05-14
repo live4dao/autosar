@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.tasking.config.ctc.abs.debug.1515805457">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.tasking.config.ctc.abs.debug.1515805457" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.tasking.managedbuilder.TASKING_IHEX" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.tasking.managedbuilder.TASKING_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.tasking.managedbuilder.TASKING_SRECORD" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.tasking.managedbuilder.TskRegexErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="elf" artifactName="TC397_DemoProj" buildArtefactType="com.tasking.ctc.buildArtefactType.elf" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.tasking.ctc.buildArtefactType.elf" cleanCommand="&quot;${PRODDIR}/bin/rm&quot; -rf" description="" errorParsers="com.tasking.managedbuilder.TskRegexErrorParser" id="com.tasking.config.ctc.abs.debug.1515805457" name="Debug" parent="com.tasking.config.ctc.abs.debug" postannouncebuildStep="" postbuildStep="" preannouncebuildStep="" prebuildStep="">
+					<folderInfo id="com.tasking.config.ctc.abs.debug.1515805457." name="/" resourcePath="">
+						<toolChain errorParsers="" id="com.tasking.ctc.abs.debug.2018277250" name="TASKING VX-toolset for TriCore" superClass="com.tasking.ctc.abs.debug">
+							<option id="com.tasking.ctc.pluginVersion.559182253" name="Plugin version" superClass="com.tasking.ctc.pluginVersion" value="1.238.0.0" valueType="string"/>
+							<option id="com.tasking.ctc.prodDir.2066428026" name="Product directory:" superClass="com.tasking.ctc.prodDir" value="${eclipse_home}/.." valueType="string"/>
+							<option id="com.tasking.ctc.cpu.690894895" name="Processor:" superClass="com.tasking.ctc.cpu" value="tc39x" valueType="string"/>
+							<option id="com.tasking.ctc.coreSelection.1295866099" name="Use core:" superClass="com.tasking.ctc.coreSelection" value="vtc" valueType="string"/>
+							<targetPlatform archList="all" binaryParser="com.tasking.managedbuilder.TASKING_ELF;com.tasking.managedbuilder.TASKING_SRECORD;com.tasking.managedbuilder.TASKING_IHEX" id="com.tasking.ctc.platform.abs.debug.2050439543" name="Debug" osList="" superClass="com.tasking.ctc.platform.abs.debug"/>
+							<builder buildPath="${workspace_loc:/TC397_Blinky_LED}/Debug" errorParsers="" id="com.tasking.ctc.builder.abs.debug.1861356226" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="TASKING TriCore Makefile generator" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.tasking.ctc.builder.abs.debug"/>
+							<tool command="cctc" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="com.tasking.managedbuilder.TskRegexErrorParser" id="com.tasking.ctc.cc.abs.debug.541580642" name="C/C++ Compiler" superClass="com.tasking.ctc.cc.abs.debug">
+								<option id="com.tasking.ctc.cc.pr36858.1002210160" name="workaround for PR36858" superClass="com.tasking.ctc.cc.pr36858" value="true" valueType="string"/>
+								<option id="com.tasking.ctc.cc.noTaskingSfr.355609641" name="Automatic inclusion of '.sfr' file" superClass="com.tasking.ctc.cc.noTaskingSfr" value="false" valueType="boolean"/>
+								<option id="com.tasking.ctc.cc.includePaths.281755100" name="Include paths" superClass="com.tasking.ctc.cc.includePaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/EB_Cfg}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/EB_Cfg/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/EB_Cfg/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Infra_Prod}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Infra_Prod/Autosar_Srv}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Infra_Prod/Autosar_Srv/AS440}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Infra_Prod/Cfg_Ssw}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Infra_Prod/Cfg_Ssw/TC39B}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Infra_Prod/Integration}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Infra_Prod/Irq}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Infra_Prod/Irq/ssc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Infra_Prod/Irq/ssc/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Infra_Prod/Irq/ssc/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Infra_Prod/Platform}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Infra_Prod/Platform/AS440}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Infra_Prod/Sfr}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Infra_Prod/Sfr/TC39xB}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Infra_Prod/Sfr/TC39xB/_Reg}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Infra_Prod/Ssw}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Infra_Prod/Ssw/TC39B}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Infra_Prod/Ssw/TC39B/Tricore}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Adc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Adc/ssc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Adc/ssc/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Adc/ssc/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Can_17_McmCan}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Can_17_McmCan/ssc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Can_17_McmCan/ssc/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Can_17_McmCan/ssc/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Dio}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Dio/ssc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Dio/ssc/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Dio/ssc/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Eth_17_GEthMacV2}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Eth_17_GEthMacV2/ssc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Eth_17_GEthMacV2/ssc/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Eth_17_GEthMacV2/ssc/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Fee}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Fee/ssc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Fee/ssc/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Fee/ssc/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Fls_17_Dmu}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Fls_17_Dmu/ssc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Fls_17_Dmu/ssc/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Fls_17_Dmu/ssc/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Gpt}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Gpt/ssc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Gpt/ssc/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Gpt/ssc/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/I2c}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/I2c/ssc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/I2c/ssc/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/I2c/ssc/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Icu_17_TimerIp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Icu_17_TimerIp/ssc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Icu_17_TimerIp/ssc/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Icu_17_TimerIp/ssc/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/McalLib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/McalLib/ssc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/McalLib/ssc/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/McalLib/ssc/inc/AS440}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/McalLib/ssc/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Mcu}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Mcu/ssc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Mcu/ssc/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Mcu/ssc/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Ocu}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Ocu/ssc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Ocu/ssc/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Ocu/ssc/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Port}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Port/ssc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Port/ssc/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Port/ssc/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Pwm_17_GtmCcu6}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Pwm_17_GtmCcu6/ssc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Pwm_17_GtmCcu6/ssc/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Pwm_17_GtmCcu6/ssc/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Smu}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Smu/ssc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Smu/ssc/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Smu/ssc/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Spi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Spi/ssc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Spi/ssc/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Spi/ssc/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Stm}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Stm/ssc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Stm/ssc/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Stm/ssc/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Uart}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Uart/ssc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Uart/ssc/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Uart/ssc/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Wdg_17_Scu}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Wdg_17_Scu/ssc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Wdg_17_Scu/ssc/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Mcal/Tricore/Wdg_17_Scu/ssc/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Srval}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Srval/Lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Srval/App_Func}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Srval/demo}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Srval/Irq}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Srval/Irq/Adc_Irq}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Srval/Irq/Gtm_Irq}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Srval/Irq/AscLin_Irq}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Srval/Irq/Can_Irq}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Srval/Irq/EthV2_Irq}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Srval/Irq/Stm_Irq}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Srval/Main}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/APP}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/BswM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/CanIf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/CanNm}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/CanSm}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/CanTp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/CanTSyn}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/Com}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/ComM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/Common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/Crc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/Dcm}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/Dem}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/Det}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/DoIP}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/EcuM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/Eth}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/EthIf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/EthSM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/EthTrcv}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/EthTSyn}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/FiM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/FlsTst}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/MemIf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/Nm}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/NvM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/OS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/OS/Kernel}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/OS/Portable}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/PduR}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/RamTst}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/SoAd}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/StbM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/TcpIp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/TcpIp/lwip-2.1.2}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/TcpIp/lwip-2.1.2/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/TcpIp/lwip-2.1.2/arch}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/TcpIp/lwip-2.1.2/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/TcpIp/lwip-2.1.2/core/ipv4}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/TcpIp/lwip-2.1.2/core/ipv6}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/TcpIp/lwip-2.1.2/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/TcpIp/lwip-2.1.2/include/compat}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/TcpIp/lwip-2.1.2/include/compat/posix}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/TcpIp/lwip-2.1.2/include/compat/posix/arpa}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/TcpIp/lwip-2.1.2/include/compat/posix/net}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/TcpIp/lwip-2.1.2/include/compat/posix/sys}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/TcpIp/lwip-2.1.2/include/compat/stdc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/TcpIp/lwip-2.1.2/include/lwip}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/TcpIp/lwip-2.1.2/include/lwip/apps}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/TcpIp/lwip-2.1.2/include/lwip/priv}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/TcpIp/lwip-2.1.2/include/lwip/prot}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/TcpIp/lwip-2.1.2/include/netif}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/TcpIp/lwip-2.1.2/include/netif/ppp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/TcpIp/lwip-2.1.2/include/netif/ppp/polarssl}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/TcpIp/lwip-2.1.2/netif}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/TcpIp/lwip-2.1.2/netif/ppp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/TcpIp/lwip-2.1.2/netif/ppp/polarssl}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/UdpNm}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/WdgIf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/WdgM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/Xcp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/Xcp/Cal}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/Xcp/Daq}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/Xcp/Pag}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/Xcp/Pgm}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/Xcp/Std}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/BSW/Xcp/XcpOnEth}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/Callout}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/Config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/EAS/Library/Vfx_ComE2E}&quot;"/>
+								</option>
+								<option id="com.tasking.ctc.c.allocation.nearSize.98500396" name="Threshold for putting data in __near:" superClass="com.tasking.ctc.c.allocation.nearSize" value="0" valueType="string"/>
+								<option id="com.tasking.ctc.cc.optimize.1071693452" name="Optimization level:" superClass="com.tasking.ctc.cc.optimize" value="com.tasking.ctc.cc.optimize.1" valueType="enumerated"/>
+								<option id="com.tasking.ctc.cc.tradeoff.2076201354" name="Trade-off between speed and size:" superClass="com.tasking.ctc.cc.tradeoff" value="com.tasking.ctc.cc.tradeoff.2" valueType="enumerated"/>
+								<inputType id="com.tasking.ctc.cppInputType.1872700784" name="C++" superClass="com.tasking.ctc.cppInputType"/>
+								<inputType id="com.tasking.ctc.cpp.cInputType.329625558" name="C" superClass="com.tasking.ctc.cpp.cInputType"/>
+								<inputType id="com.tasking.ctc.cc.msInputType.1729690479" name="MS" superClass="com.tasking.ctc.cc.msInputType"/>
+							</tool>
+							<tool command="cctc" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="com.tasking.managedbuilder.TskRegexErrorParser" id="com.tasking.ctc.as.abs.debug.766581723" name="Assembler" superClass="com.tasking.ctc.as.abs.debug">
+								<inputType id="com.tasking.ctc.asmInputType.690395090" name="ASM" superClass="com.tasking.ctc.asmInputType"/>
+							</tool>
+							<tool command="cctc" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="com.tasking.managedbuilder.TskRegexErrorParser" id="com.tasking.ctc.lk.abs.debug.1415600818" name="Linker" superClass="com.tasking.ctc.lk.abs.debug">
+								<option id="com.tasking.ctc.lk.lslFile.920208658" name="Linker script file:" superClass="com.tasking.ctc.lk.lslFile" value="..\Lcf_Tasking_Tricore_Tc.lsl" valueType="string"/>
+								<option id="com.tasking.ctc.lk.mapFile.mapFile.1348006193" name="Generate map file (.map)" superClass="com.tasking.ctc.lk.mapFile.mapFile" value="true" valueType="boolean"/>
+								<option id="com.tasking.ctc.lk.library.1957757157" name="Libraries" superClass="com.tasking.ctc.lk.library" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;F:\LC_SWC_Projiectend\TC397_PROJECT_NEW\TC397_DemoProj\Srval\Lib\USSDriver_LIB.a&quot;"/>
+								</option>
+								<inputType id="com.tasking.ctc.lkObjInputType.2118887908" name="OBJ" superClass="com.tasking.ctc.lkObjInputType"/>
+								<inputType id="com.tasking.ctc.lkLibInputType.1588837464" name="LIB" superClass="com.tasking.ctc.lkLibInputType"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="HirainOs|Libraries|Cpu5_Main.c|Cpu4_Main.c|Cpu3_Main.c|Cpu1_Main.c|Cpu2_Main.c|Cpu0_Main.c|MCal" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule addStartupFiles="false" moduleId="com.tasking.processor"/>
+			<storageModule moduleId="com.tasking.toolInfo">
+				<toolInfo>TASKING VX-toolset for TriCore: assembler v6.2r2 Build 18041957</toolInfo>
+				<toolInfo>TASKING VX-toolset for TriCore: object link v6.2r2 Build 18041957 SN 09003395</toolInfo>
+				<toolInfo>TASKING program builder v6.2r2 Build 18041957</toolInfo>
+				<toolInfo>TASKING VX-toolset for TriCore: control program v6.2r2 Build 18041957</toolInfo>
+				<toolInfo>TASKING VX-toolset for TriCore: C compiler v6.2r2 Build 18041957 SN 09003395</toolInfo>
+			</storageModule>
+		</cconfiguration>
+		<cconfiguration id="com.tasking.config.ctc.abs.release.2008058716">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.tasking.config.ctc.abs.release.2008058716" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.tasking.managedbuilder.TASKING_IHEX" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.tasking.managedbuilder.TASKING_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.tasking.managedbuilder.TASKING_SRECORD" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.tasking.managedbuilder.TskRegexErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="elf" artifactName="TC397_Blinky_LED" buildArtefactType="com.tasking.ctc.buildArtefactType.elf" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.tasking.ctc.buildArtefactType.elf" cleanCommand="&quot;${PRODDIR}/bin/rm&quot; -rf" description="" id="com.tasking.config.ctc.abs.release.2008058716" name="Release" parent="com.tasking.config.ctc.abs.release">
+					<folderInfo id="com.tasking.config.ctc.abs.release.2008058716." name="/" resourcePath="">
+						<toolChain id="com.tasking.ctc.abs.release.1936659443" name="TASKING VX-toolset for TriCore" superClass="com.tasking.ctc.abs.release">
+							<option id="com.tasking.ctc.pluginVersion.902043855" name="Plugin version" superClass="com.tasking.ctc.pluginVersion" value="1.238.0.0" valueType="string"/>
+							<option id="com.tasking.ctc.prodDir.427555707" name="Product directory:" superClass="com.tasking.ctc.prodDir" value="${eclipse_home}/.." valueType="string"/>
+							<option id="com.tasking.ctc.cpu.209082177" name="Processor:" superClass="com.tasking.ctc.cpu" value="tc39x" valueType="string"/>
+							<option id="com.tasking.ctc.coreSelection.242937901" name="Use core:" superClass="com.tasking.ctc.coreSelection" value="vtc" valueType="string"/>
+							<targetPlatform archList="all" binaryParser="com.tasking.managedbuilder.TASKING_ELF;com.tasking.managedbuilder.TASKING_SRECORD;com.tasking.managedbuilder.TASKING_IHEX" id="com.tasking.ctc.platform.abs.release.1032684996" name="Release" osList="" superClass="com.tasking.ctc.platform.abs.release"/>
+							<builder buildPath="${workspace_loc:/TC397_Blinky_LED}/Release" id="com.tasking.ctc.builder.abs.debug.1464618207" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="TASKING TriCore Makefile generator" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.tasking.ctc.builder.abs.debug"/>
+							<tool id="com.tasking.ctc.cc.abs.release.81952317" name="C/C++ Compiler" superClass="com.tasking.ctc.cc.abs.release">
+								<option id="com.tasking.ctc.cc.pr36858.39914447" name="workaround for PR36858" superClass="com.tasking.ctc.cc.pr36858" value="true" valueType="string"/>
+								<inputType id="com.tasking.ctc.cppInputType.118880121" name="C++" superClass="com.tasking.ctc.cppInputType"/>
+								<inputType id="com.tasking.ctc.cpp.cInputType.66386628" name="C" superClass="com.tasking.ctc.cpp.cInputType"/>
+								<inputType id="com.tasking.ctc.cc.msInputType.1648712743" name="MS" superClass="com.tasking.ctc.cc.msInputType"/>
+							</tool>
+							<tool id="com.tasking.ctc.as.abs.release.1816208198" name="Assembler" superClass="com.tasking.ctc.as.abs.release">
+								<inputType id="com.tasking.ctc.asmInputType.1273226253" name="ASM" superClass="com.tasking.ctc.asmInputType"/>
+							</tool>
+							<tool id="com.tasking.ctc.lk.abs.release.764221163" name="Linker" superClass="com.tasking.ctc.lk.abs.release">
+								<option id="com.tasking.ctc.lk.lslFile.2037753554" name="Linker script file:" superClass="com.tasking.ctc.lk.lslFile" value="" valueType="string"/>
+								<inputType id="com.tasking.ctc.lkObjInputType.831977070" name="OBJ" superClass="com.tasking.ctc.lkObjInputType"/>
+								<inputType id="com.tasking.ctc.lkLibInputType.264458859" name="LIB" superClass="com.tasking.ctc.lkLibInputType"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule addStartupFiles="false" moduleId="com.tasking.processor"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="TC397_Blinky_LED.com.tasking.ctc.target.abs.1575577195" name="TASKING TriCore Application" projectType="com.tasking.ctc.target.abs"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.tasking.config.ctc.abs.release.2008058716;com.tasking.config.ctc.abs.release.2008058716.">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.tasking.ctc.TskTriCoreScannerInfo"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.tasking.config.ctc.abs.debug.1515805457;com.tasking.config.ctc.abs.debug.1515805457.">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.tasking.ctc.TskTriCoreScannerInfo"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.core.language.mapping">
+		<project-mappings>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cHeader" language="com.tasking.ctc.clanguage"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cSource" language="com.tasking.ctc.clanguage"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cxxHeader" language="com.tasking.ctc.cpplanguage"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cxxSource" language="com.tasking.ctc.cpplanguage"/>
+		</project-mappings>
+	</storageModule>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/TC397_DemoProj"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/TC397_Blinky_LED"/>
+		</configuration>
+	</storageModule>
+</cproject>

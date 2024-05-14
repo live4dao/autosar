@@ -1,0 +1,1289 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.2r2 Build 18041957 SN 09003395"
+	.compiler_invocation	"ctc -f cc29648a --dep-file=EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\.raw.o.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc39x -D__CPU_TC39X__ --core=tc1.6.2 --fp-model=+float -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Cfg_Ssw -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Cfg_Ssw\\TC39B -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Integration -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr\\TC39xB -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr\\TC39xB\\_Reg -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw\\TC39B -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw\\TC39B\\Tricore -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\inc\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Lib -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\App_Func -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\demo -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Adc_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Gtm_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\AscLin_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Can_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\EthV2_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Stm_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Main -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\APP -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\BswM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanNm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanSm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanTp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanTSyn -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Com -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\ComM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Common -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Crc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Dcm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Dem -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Det -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\DoIP -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EcuM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Eth -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthSM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthTrcv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthTSyn -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\FiM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\FlsTst -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\MemIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Nm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\NvM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS\\Kernel -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS\\Portable -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\PduR -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\RamTst -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\SoAd -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\StbM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\api -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\arch -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv6 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\arpa -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\net -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\sys -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\stdc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\apps -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\priv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\prot -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif\\ppp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif\\ppp\\polarssl -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\polarssl -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\UdpNm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\WdgIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\WdgM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Cal -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Daq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Pag -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Pgm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Std -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\XcpOnEth -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Callout -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Config -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Library\\Vfx_ComE2E -g2 --make-target=EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\raw.o -t2 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O1 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\raw.src ..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\raw.c"
+	.compiler_name		"ctc"
+	;source	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\raw.c'
+
+	
+$TC162
+	
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L3:
+	.word	4541
+	.half	3
+	.word	.L4
+	.byte	4
+.L2:
+	.byte	1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\raw.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L5
+	.byte	2,1,3
+	.word	162
+	.byte	4
+	.byte	'__codeptr',0,1,1,1
+	.word	164
+	.byte	5
+	.byte	'unsigned char',0,1,8,4
+	.byte	'boolean',0,2,102,29
+	.word	187
+	.byte	4
+	.byte	'uint8',0,2,106,29
+	.word	187
+	.byte	5
+	.byte	'unsigned short int',0,2,7,4
+	.byte	'uint16',0,2,110,29
+	.word	234
+	.byte	5
+	.byte	'unsigned long int',0,4,7,4
+	.byte	'uint32',0,2,114,29
+	.word	271
+	.byte	4
+	.byte	'Std_ReturnType',0,3,109,16
+	.word	187
+	.byte	4
+	.byte	'PduIdType',0,4,37,21
+	.word	187
+	.byte	4
+	.byte	'PduLengthType',0,4,41,22
+	.word	234
+	.byte	6,5,101,9,1,7
+	.byte	'BUFREQ_OK',0,0,7
+	.byte	'BUFREQ_E_NOT_OK',0,1,7
+	.byte	'BUFREQ_E_BUSY',0,2,7
+	.byte	'BUFREQ_E_OVFL',0,3,0,4
+	.byte	'BufReq_ReturnType',0,5,107,3
+	.word	370
+	.byte	3
+	.word	187
+	.byte	4
+	.byte	'SduDataPtrType',0,5,189,1,40
+	.word	464
+	.byte	6,5,204,1,9,1,7
+	.byte	'TP_DATACONF',0,0,7
+	.byte	'TP_DATARETRY',0,1,7
+	.byte	'TP_CONFPENDING',0,2,0,4
+	.byte	'TpDataStateType',0,5,216,1,3
+	.word	493
+	.byte	4
+	.byte	'TcpIp_SocketIdType',0,6,50,16
+	.word	187
+	.byte	8,4
+	.word	271
+	.byte	9,0,0,10,6,52,9,4,11
+	.byte	'Addr',0
+	.word	598
+	.byte	4,2,35,0,0,4
+	.byte	'TcpIp_IpAddressType',0,6,55,3
+	.word	607
+	.byte	4
+	.byte	'TcpIp_DomainType',0,6,61,16
+	.word	234
+	.byte	10,6,68,9,8,11
+	.byte	'Domain',0
+	.word	234
+	.byte	2,2,35,0,11
+	.byte	'Port',0
+	.word	234
+	.byte	2,2,35,2,11
+	.byte	'Addr',0
+	.word	598
+	.byte	4,2,35,4,0,4
+	.byte	'TcpIp_SockAddrInetType',0,6,73,3
+	.word	680
+	.byte	4
+	.byte	'TcpIp_AddressType',0,7,128,1,15
+	.word	187
+	.byte	4
+	.byte	'TcpIp_CtrlIdType',0,7,142,1,15
+	.word	187
+	.byte	4
+	.byte	'TcpIp_IpAddrStateType',0,7,144,1,15
+	.word	187
+	.byte	4
+	.byte	'TcpIp_LocalAddrAssignmentConfigType',0,7,149,1,15
+	.word	187
+	.byte	4
+	.byte	'TcpIp_StaticAddrIdType',0,7,151,1,15
+	.word	187
+	.byte	10,7,152,1,9,12,11
+	.byte	'State',0
+	.word	187
+	.byte	1,2,35,0,11
+	.byte	'Netmask',0
+	.word	187
+	.byte	1,2,35,1,11
+	.byte	'Domain',0
+	.word	234
+	.byte	2,2,35,2,11
+	.byte	'IpAddr',0
+	.word	607
+	.byte	4,2,35,4,11
+	.byte	'DefaultRouter',0
+	.word	607
+	.byte	4,2,35,8,0,4
+	.byte	'TcpIp_StaticIpAddrType',0,7,162,1,3
+	.word	922
+	.byte	4
+	.byte	'TcpIp_LocalAddrIdType',0,7,173,1,15
+	.word	187
+	.byte	8,3
+	.word	187
+	.byte	9,2,0,10,7,231,1,9,8,11
+	.byte	'CtrlId',0
+	.word	187
+	.byte	1,2,35,0,11
+	.byte	'Address',0
+	.word	187
+	.byte	1,2,35,1,11
+	.byte	'Domain',0
+	.word	234
+	.byte	2,2,35,2,11
+	.byte	'StaticAddrId',0
+	.word	187
+	.byte	1,2,35,4,11
+	.byte	'Assignments',0
+	.word	1079
+	.byte	3,2,35,5,0,4
+	.byte	'TcpIp_LocalAddrConfigType',0,7,243,1,3
+	.word	1088
+	.byte	10,7,245,1,9,4,11
+	.byte	'ArpConfigId',0
+	.word	187
+	.byte	1,2,35,0,11
+	.byte	'DHCPConfigId',0
+	.word	187
+	.byte	1,2,35,1,11
+	.byte	'AutoIpInitTimeout',0
+	.word	234
+	.byte	2,2,35,2,0,4
+	.byte	'TcpIp_IpV4CtrlConfigType',0,7,130,2,3
+	.word	1222
+	.byte	10,7,133,2,9,8,11
+	.byte	'CtrlIdx',0
+	.word	187
+	.byte	1,2,35,0,11
+	.byte	'FramePrio',0
+	.word	187
+	.byte	1,2,35,1,11
+	.byte	'UnicastAddrId',0
+	.word	187
+	.byte	1,2,35,2,11
+	.byte	'UnicastAddrLimit',0
+	.word	187
+	.byte	1,2,35,3,11
+	.byte	'MulticastAddrId',0
+	.word	187
+	.byte	1,2,35,4,11
+	.byte	'LocalAddrLimit',0
+	.word	187
+	.byte	1,2,35,5,11
+	.byte	'IpV4CtrlId',0
+	.word	187
+	.byte	1,2,35,6,11
+	.byte	'IpV6CtrlId',0
+	.word	187
+	.byte	1,2,35,7,0,4
+	.byte	'TcpIp_NetIfCtrlConfigType',0,7,148,2,3
+	.word	1333
+	.byte	4
+	.byte	'SoAd_RoutingGroupIdType',0,8,43,15
+	.word	187
+	.byte	4
+	.byte	'SoAd_SoConIdType',0,8,44,15
+	.word	187
+	.byte	4
+	.byte	'SoAd_SoConGroupIdType',0,8,45,15
+	.word	187
+	.byte	4
+	.byte	'SoAd_PduRouteIdType',0,8,46,15
+	.word	187
+	.byte	4
+	.byte	'SoAd_PduRouteDestIdType',0,8,47,15
+	.word	187
+	.byte	4
+	.byte	'SoAd_SocketRouteIdType',0,8,48,15
+	.word	187
+	.byte	4
+	.byte	'SoAd_IfTxUnconfirmedType',0,8,49,16
+	.word	234
+	.byte	4
+	.byte	'SoAd_IfTxTimerType',0,8,51,16
+	.word	234
+	.byte	8,1
+	.word	187
+	.byte	9,0,0,10,8,53,9,2,11
+	.byte	'Mask',0
+	.word	1787
+	.byte	1,2,35,0,11
+	.byte	'RoutingState',0
+	.word	1787
+	.byte	1,2,35,1,0,4
+	.byte	'SoAd_RoutingGroupCtrlType',0,8,57,3
+	.word	1796
+	.byte	6,8,63,9,1,7
+	.byte	'SOAD_UL_DOIP',0,0,7
+	.byte	'SOAD_UL_UDPNM',0,1,7
+	.byte	'SOAD_UL_PDUR',0,2,7
+	.byte	'SOAD_UL_XCP',0,3,7
+	.byte	'SOAD_UL_MAX',0,4,0,4
+	.byte	'SoAd_ULIndexType',0,8,71,3
+	.word	1872
+	.byte	4
+	.byte	'SoAd_RemoteAddressType',0,9,113,32
+	.word	680
+	.byte	6,9,115,9,1,7
+	.byte	'SOAD_SOCON_UNINIT',0,0,7
+	.byte	'SOAD_SOCON_OFFLINE',0,1,7
+	.byte	'SOAD_SOCON_RECONN',0,2,7
+	.byte	'SOAD_SOCON_ONLINE',0,3,0,4
+	.byte	'SoAd_SoConModeType',0,9,121,3
+	.word	2008
+	.byte	12
+	.word	187
+	.byte	3
+	.word	2122
+	.byte	12
+	.word	187
+	.byte	3
+	.word	2132
+	.byte	12
+	.word	187
+	.byte	3
+	.word	2142
+	.byte	12
+	.word	1872
+	.byte	3
+	.word	2152
+	.byte	10,9,129,1,9,36,11
+	.byte	'IfBufferLength',0
+	.word	234
+	.byte	2,2,35,0,11
+	.byte	'IfBufferOffset',0
+	.word	234
+	.byte	2,2,35,2,11
+	.byte	'TpBufferLength',0
+	.word	234
+	.byte	2,2,35,4,11
+	.byte	'TpBufferOffset',0
+	.word	234
+	.byte	2,2,35,6,11
+	.byte	'PduRouteNum',0
+	.word	187
+	.byte	1,2,35,8,11
+	.byte	'SocketRouteNum',0
+	.word	187
+	.byte	1,2,35,9,11
+	.byte	'PduRouteDestNum',0
+	.word	187
+	.byte	1,2,35,10,11
+	.byte	'RemoteAddrState',0
+	.word	187
+	.byte	1,2,35,11,11
+	.byte	'RemoteAddr',0
+	.word	680
+	.byte	8,2,35,12,11
+	.byte	'PduRouteDestList',0
+	.word	2127
+	.byte	4,2,35,20,11
+	.byte	'PduRouteList',0
+	.word	2137
+	.byte	4,2,35,24,11
+	.byte	'SocketRouteList',0
+	.word	2147
+	.byte	4,2,35,28,11
+	.byte	'SoConModeChgList',0
+	.word	2157
+	.byte	4,2,35,32,0,4
+	.byte	'SoAd_SocketConnectionType',0,9,146,1,3
+	.word	2162
+	.byte	10,9,148,1,9,16,11
+	.byte	'CtrlFlag',0
+	.word	187
+	.byte	1,2,35,0,11
+	.byte	'KeepAliveProbesMax',0
+	.word	234
+	.byte	2,2,35,2,11
+	.byte	'KeepAliveInterval',0
+	.word	271
+	.byte	4,2,35,4,11
+	.byte	'KeepAliveTime',0
+	.word	271
+	.byte	4,2,35,8,11
+	.byte	'TxQuota',0
+	.word	271
+	.byte	4,2,35,12,0,4
+	.byte	'SoAd_TcpProtocolType',0,9,155,1,3
+	.word	2514
+	.byte	10,9,157,1,9,12,11
+	.byte	'CtrlFlag',0
+	.word	187
+	.byte	1,2,35,0,11
+	.byte	'nPduTxBufferMin',0
+	.word	234
+	.byte	2,2,35,2,11
+	.byte	'TriggerTimeout',0
+	.word	234
+	.byte	2,2,35,4,11
+	.byte	'AliveSupervisionTimeout',0
+	.word	271
+	.byte	4,2,35,6,0,4
+	.byte	'SoAd_UdpProtocolType',0,9,163,1,3
+	.word	2664
+	.byte	12
+	.word	2514
+	.byte	3
+	.word	2801
+	.byte	12
+	.word	2664
+	.byte	3
+	.word	2811
+	.byte	10,9,165,1,9,24,11
+	.byte	'GroupId',0
+	.word	187
+	.byte	1,2,35,0,11
+	.byte	'CtrlFlag',0
+	.word	187
+	.byte	1,2,35,1,11
+	.byte	'FramePriority',0
+	.word	187
+	.byte	1,2,35,2,11
+	.byte	'SoConNum',0
+	.word	187
+	.byte	1,2,35,3,11
+	.byte	'SoConId',0
+	.word	187
+	.byte	1,2,35,4,11
+	.byte	'IpAddrAssignChgNum',0
+	.word	187
+	.byte	1,2,35,5,11
+	.byte	'LocalAddrId',0
+	.word	187
+	.byte	1,2,35,6,11
+	.byte	'LocalPort',0
+	.word	234
+	.byte	2,2,35,8,11
+	.byte	'IpAddrAssignChgList',0
+	.word	2157
+	.byte	4,2,35,12,11
+	.byte	'TcpProtocolPtr',0
+	.word	2806
+	.byte	4,2,35,16,11
+	.byte	'UdpProtocolPtr',0
+	.word	2816
+	.byte	4,2,35,20,0,4
+	.byte	'SoAd_SocketConnectionGroupType',0,9,178,1,3
+	.word	2821
+	.byte	12
+	.word	187
+	.byte	3
+	.word	3106
+	.byte	10,9,180,1,9,12,11
+	.byte	'CtrlFlag',0
+	.word	187
+	.byte	1,2,35,0,11
+	.byte	'PduRouteDestNum',0
+	.word	187
+	.byte	1,2,35,1,11
+	.byte	'SocketRouteDestNum',0
+	.word	187
+	.byte	1,2,35,2,11
+	.byte	'PduRouteDestList',0
+	.word	3111
+	.byte	4,2,35,4,11
+	.byte	'SocketRouteDestList',0
+	.word	3111
+	.byte	4,2,35,8,0,4
+	.byte	'SoAd_RoutingGroupType',0,9,187,1,3
+	.word	3116
+	.byte	10,9,189,1,9,6,11
+	.byte	'ULType',0
+	.word	187
+	.byte	1,2,35,0,11
+	.byte	'ULIndex',0
+	.word	1872
+	.byte	1,2,35,1,11
+	.byte	'CtrlFlag',0
+	.word	187
+	.byte	1,2,35,2,11
+	.byte	'RouteDestNum',0
+	.word	187
+	.byte	1,2,35,3,11
+	.byte	'RouteDestId',0
+	.word	187
+	.byte	1,2,35,4,11
+	.byte	'TxPduId',0
+	.word	187
+	.byte	1,2,35,5,0,4
+	.byte	'SoAd_PduRouteType',0,9,204,1,3
+	.word	3280
+	.byte	3
+	.word	1796
+	.byte	10,9,206,1,9,20,11
+	.byte	'TxPduHeaderId',0
+	.word	271
+	.byte	4,2,35,0,11
+	.byte	'SoConNum',0
+	.word	187
+	.byte	1,2,35,4,11
+	.byte	'SoConId',0
+	.word	187
+	.byte	1,2,35,5,11
+	.byte	'PduRouteId',0
+	.word	187
+	.byte	1,2,35,6,11
+	.byte	'UdpTriggerMode',0
+	.word	187
+	.byte	1,2,35,7,11
+	.byte	'UdpTriggerTimeout',0
+	.word	234
+	.byte	2,2,35,8,11
+	.byte	'RoutingCtrlList',0
+	.word	3425
+	.byte	4,2,35,12,11
+	.byte	'IfTriggerList',0
+	.word	464
+	.byte	4,2,35,16,0,4
+	.byte	'SoAd_PduRouteDestType',0,9,217,1,3
+	.word	3430
+	.byte	10,9,219,1,9,16,11
+	.byte	'RxPduHeaderId',0
+	.word	271
+	.byte	4,2,35,0,11
+	.byte	'ULType',0
+	.word	187
+	.byte	1,2,35,4,11
+	.byte	'ULIndex',0
+	.word	1872
+	.byte	1,2,35,5,11
+	.byte	'SoConNum',0
+	.word	187
+	.byte	1,2,35,6,11
+	.byte	'SoConId',0
+	.word	187
+	.byte	1,2,35,7,11
+	.byte	'RxPduId',0
+	.word	187
+	.byte	1,2,35,8,11
+	.byte	'RoutingCtrlList',0
+	.word	3425
+	.byte	4,2,35,12,0,4
+	.byte	'SoAd_SocketRouteType',0,9,236,1,3
+	.word	3645
+	.byte	12
+	.word	3430
+	.byte	3
+	.word	3815
+	.byte	10,9,155,2,9,24,11
+	.byte	'State',0
+	.word	187
+	.byte	1,2,35,0,11
+	.byte	'Timer',0
+	.word	234
+	.byte	2,2,35,2,11
+	.byte	'BufferLength',0
+	.word	234
+	.byte	2,2,35,4,11
+	.byte	'BufferOffset',0
+	.word	234
+	.byte	2,2,35,6,11
+	.byte	'UdpTxBuffer',0
+	.word	464
+	.byte	4,2,35,8,11
+	.byte	'TotalTxLength',0
+	.word	234
+	.byte	2,2,35,12,11
+	.byte	'UsedTxLength',0
+	.word	234
+	.byte	2,2,35,14,11
+	.byte	'IfTxDataBuffer',0
+	.word	3111
+	.byte	4,2,35,16,11
+	.byte	'PduRouteDestPtr',0
+	.word	3820
+	.byte	4,2,35,20,0,4
+	.byte	'SoAd_TxSessionType',0,9,177,2,3
+	.word	3825
+	.byte	12
+	.word	3645
+	.byte	3
+	.word	4049
+	.byte	10,9,180,2,9,8,11
+	.byte	'PduLength',0
+	.word	234
+	.byte	2,2,35,0,11
+	.byte	'RemainLength',0
+	.word	234
+	.byte	2,2,35,2,11
+	.byte	'SocketRoutePtr',0
+	.word	4054
+	.byte	4,2,35,4,0,4
+	.byte	'SoAd_RxPduInfoType',0,9,185,2,3
+	.word	4059
+	.byte	10,9,187,2,9,12,11
+	.byte	'TotalLength',0
+	.word	234
+	.byte	2,2,35,0,11
+	.byte	'In',0
+	.word	234
+	.byte	2,2,35,2,11
+	.byte	'Out',0
+	.word	234
+	.byte	2,2,35,4,11
+	.byte	'BufferPtr',0
+	.word	464
+	.byte	4,2,35,8,0,4
+	.byte	'SoAd_RxFifoType',0,9,193,2,3
+	.word	4159
+	.byte	10,9,195,2,9,8,11
+	.byte	'TotalLength',0
+	.word	234
+	.byte	2,2,35,0,11
+	.byte	'UsedLength',0
+	.word	234
+	.byte	2,2,35,2,11
+	.byte	'BufferPtr',0
+	.word	464
+	.byte	4,2,35,4,0,4
+	.byte	'SoAd_RxBufferType',0,9,200,2,3
+	.word	4256
+	.byte	8,8
+	.word	187
+	.byte	9,7,0,10,9,202,2,9,48,11
+	.byte	'State',0
+	.word	187
+	.byte	1,2,35,0,11
+	.byte	'ValidHeaderLen',0
+	.word	187
+	.byte	1,2,35,1,11
+	.byte	'PduHeader',0
+	.word	4350
+	.byte	8,2,35,2,11
+	.byte	'RxPduInfo',0
+	.word	4059
+	.byte	8,2,35,12,11
+	.byte	'ProcessPduInfo',0
+	.word	4059
+	.byte	8,2,35,20,11
+	.byte	'IfBuffer',0
+	.word	4256
+	.byte	8,2,35,28,11
+	.byte	'TpBuffer',0
+	.word	4159
+	.byte	12,2,35,36,0,4
+	.byte	'SoAd_RxSessionType',0,9,216,2,3
+	.word	4359
+	.byte	4
+	.byte	'u8_t',0,10,61,25
+	.word	187
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L4:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,0,0,3,15,0,73,19,0,0,4,22,0,3,8,58,15,59,15
+	.byte	57,15,73,19,0,0,5,36,0,3,8,11,15,62,15,0,0,6,4,1,58,15,59,15,57,15,11,15,0,0,7,40,0,3,8,28,13,0,0,8,1
+	.byte	1,11,15,73,19,0,0,9,33,0,47,15,0,0,10,19,1,58,15,59,15,57,15,11,15,0,0,11,13,0,3,8,73,19,11,15,56,9,0
+	.byte	0,12,38,0,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L5:
+	.word	.L7-.L6
+.L6:
+	.half	3
+	.word	.L9-.L8
+.L8:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Config',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\SoAd',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\arch',0,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\raw.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0
+	.byte	'Std_Types.h',0,1,0,0
+	.byte	'ComStack_Types_Cfg.h',0,2,0,0
+	.byte	'ComStack_Types.h',0,3,0,0
+	.byte	'TcpIp_GeneratedTypes.h',0,2,0,0
+	.byte	'TcpIp_Types.h',0,4,0,0
+	.byte	'SoAd_GeneratedTypes.h',0,2,0,0
+	.byte	'SoAd_Types.h',0,5,0,0
+	.byte	'cc.h',0,6,0,0,0
+.L9:
+.L7:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	     1  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	     2   * @file
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	     3   * Implementation of raw protocol PCBs for low-level handling of
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	     4   * different types of protocols besides (or overriding) those
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	     5   * already available in lwIP.\n
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	     6   * See also @ref raw_raw
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	     7   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	     8   * @defgroup raw_raw RAW
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	     9   * @ingroup callbackstyle_api
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    10   * Implementation of raw protocol PCBs for low-level handling of
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    11   * different types of protocols besides (or overriding) those
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    12   * already available in lwIP.\n
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    13   * @see @ref api
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    14   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    15  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    16  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    17   * Copyright (c) 2001-2004 Swedish Institute of Computer Science.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    18   * All rights reserved.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    19   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    20   * Redistribution and use in source and binary forms, with or without modification,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    21   * are permitted provided that the following conditions are met:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    22   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    23   * 1. Redistributions of source code must retain the above copyright notice,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    24   *    this list of conditions and the following disclaimer.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    25   * 2. Redistributions in binary form must reproduce the above copyright notice,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    26   *    this list of conditions and the following disclaimer in the documentation
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    27   *    and/or other materials provided with the distribution.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    28   * 3. The name of the author may not be used to endorse or promote products
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    29   *    derived from this software without specific prior written permission.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    30   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    31   * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    32   * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    33   * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    34   * SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    35   * EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    36   * OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    37   * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    38   * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    39   * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    40   * OF SUCH DAMAGE.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    41   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    42   * This file is part of the lwIP TCP/IP stack.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    43   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    44   * Author: Adam Dunkels <adam@sics.se>
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    45   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    46   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    47  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    48  #include "lwip/opt.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    49  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    50  #if LWIP_RAW /* don't build if not configured for use in lwipopts.h */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    51  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    52  #include "lwip/def.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    53  #include "lwip/memp.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    54  #include "lwip/ip_addr.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    55  #include "lwip/netif.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    56  #include "lwip/raw.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    57  #include "lwip/priv/raw_priv.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    58  #include "lwip/stats.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    59  #include "lwip/ip6.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    60  #include "lwip/ip6_addr.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    61  #include "lwip/inet_chksum.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    62  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    63  #include <string.h>
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    64  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    65  /** The list of RAW PCBs */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    66  static struct raw_pcb *raw_pcbs;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    67  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    68  static u8_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    69  raw_input_local_match(struct raw_pcb *pcb, u8_t broadcast)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    70  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    71    LWIP_UNUSED_ARG(broadcast); /* in IPv6 only case */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    72  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    73    /* check if PCB is bound to specific netif */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    74    if ((pcb->netif_idx != NETIF_NO_INDEX) &&
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    75        (pcb->netif_idx != netif_get_index(ip_data.current_input_netif))) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    76      return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    77    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    78  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    79  #if LWIP_IPV4 && LWIP_IPV6
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    80    /* Dual-stack: PCBs listening to any IP type also listen to any IP address */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    81    if (IP_IS_ANY_TYPE_VAL(pcb->local_ip)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    82  #if IP_SOF_BROADCAST_RECV
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    83      if ((broadcast != 0) && !ip_get_option(pcb, SOF_BROADCAST)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    84        return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    85      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    86  #endif /* IP_SOF_BROADCAST_RECV */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    87      return 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    88    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    89  #endif /* LWIP_IPV4 && LWIP_IPV6 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    90  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    91    /* Only need to check PCB if incoming IP version matches PCB IP version */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    92    if (IP_ADDR_PCB_VERSION_MATCH_EXACT(pcb, ip_current_dest_addr())) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    93  #if LWIP_IPV4
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    94      /* Special case: IPv4 broadcast: receive all broadcasts
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    95       * Note: broadcast variable can only be 1 if it is an IPv4 broadcast */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    96      if (broadcast != 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    97  #if IP_SOF_BROADCAST_RECV
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    98        if (ip_get_option(pcb, SOF_BROADCAST))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	    99  #endif /* IP_SOF_BROADCAST_RECV */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   100        {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   101          if (ip4_addr_isany(ip_2_ip4(&pcb->local_ip))) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   102            return 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   103          }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   104        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   105      } else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   106  #endif /* LWIP_IPV4 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   107        /* Handle IPv4 and IPv6: catch all or exact match */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   108        if (ip_addr_isany(&pcb->local_ip) ||
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   109            ip_addr_cmp(&pcb->local_ip, ip_current_dest_addr())) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   110          return 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   111        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   112    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   113  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   114    return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   115  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   116  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   117  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   118   * Determine if in incoming IP packet is covered by a RAW PCB
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   119   * and if so, pass it to a user-provided receive callback function.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   120   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   121   * Given an incoming IP datagram (as a chain of pbufs) this function
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   122   * finds a corresponding RAW PCB and calls the corresponding receive
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   123   * callback function.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   124   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   125   * @param p pbuf to be demultiplexed to a RAW PCB.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   126   * @param inp network interface on which the datagram was received.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   127   * @return - 1 if the packet has been eaten by a RAW PCB receive
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   128   *           callback function. The caller MAY NOT not reference the
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   129   *           packet any longer, and MAY NOT call pbuf_free().
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   130   * @return - 0 if packet is not eaten (pbuf is still referenced by the
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   131   *           caller).
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   132   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   133   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   134  raw_input_state_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   135  raw_input(struct pbuf *p, struct netif *inp)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   136  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   137    struct raw_pcb *pcb, *prev;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   138    s16_t proto;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   139    raw_input_state_t ret = RAW_INPUT_NONE;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   140    u8_t broadcast = ip_addr_isbroadcast(ip_current_dest_addr(), ip_current_netif());
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   141  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   142    LWIP_UNUSED_ARG(inp);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   143  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   144  #if LWIP_IPV6
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   145  #if LWIP_IPV4
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   146    if (IP_HDR_GET_VERSION(p->payload) == 6)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   147  #endif /* LWIP_IPV4 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   148    {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   149      struct ip6_hdr *ip6hdr = (struct ip6_hdr *)p->payload;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   150      proto = IP6H_NEXTH(ip6hdr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   151    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   152  #if LWIP_IPV4
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   153    else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   154  #endif /* LWIP_IPV4 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   155  #endif /* LWIP_IPV6 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   156  #if LWIP_IPV4
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   157    {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   158      proto = IPH_PROTO((struct ip_hdr *)p->payload);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   159    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   160  #endif /* LWIP_IPV4 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   161  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   162    prev = NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   163    pcb = raw_pcbs;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   164    /* loop through all raw pcbs until the packet is eaten by one */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   165    /* this allows multiple pcbs to match against the packet by design */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   166    while (pcb != NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   167      if ((pcb->protocol == proto) && raw_input_local_match(pcb, broadcast) &&
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   168          (((pcb->flags & RAW_FLAGS_CONNECTED) == 0) ||
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   169           ip_addr_cmp(&pcb->remote_ip, ip_current_src_addr()))) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   170        /* receive callback function available? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   171        if (pcb->recv != NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   172          u8_t eaten;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   173  #ifndef LWIP_NOASSERT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   174          void *old_payload = p->payload;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   175  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   176          ret = RAW_INPUT_DELIVERED;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   177          /* the receive callback function did not eat the packet? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   178          eaten = pcb->recv(pcb->recv_arg, pcb, p, ip_current_src_addr());
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   179          if (eaten != 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   180            /* receive function ate the packet */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   181            p = NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   182            if (prev != NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   183              /* move the pcb to the front of raw_pcbs so that is
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   184                 found faster next time */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   185              prev->next = pcb->next;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   186              pcb->next = raw_pcbs;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   187              raw_pcbs = pcb;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   188            }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   189            return RAW_INPUT_EATEN;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   190          } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   191            /* sanity-check that the receive callback did not alter the pbuf */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   192            LWIP_ASSERT("raw pcb recv callback altered pbuf payload pointer without eating packet",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   193                        p->payload == old_payload);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   194          }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   195        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   196        /* no receive callback function was set for this raw PCB */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   197      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   198      /* drop the packet */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   199      prev = pcb;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   200      pcb = pcb->next;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   201    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   202    return ret;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   203  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   204  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   205  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   206   * @ingroup raw_raw
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   207   * Bind a RAW PCB.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   208   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   209   * @param pcb RAW PCB to be bound with a local address ipaddr.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   210   * @param ipaddr local IP address to bind with. Use IP4_ADDR_ANY to
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   211   * bind to all local interfaces.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   212   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   213   * @return lwIP error code.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   214   * - ERR_OK. Successful. No error occurred.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   215   * - ERR_USE. The specified IP address is already bound to by
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   216   * another RAW PCB.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   217   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   218   * @see raw_disconnect()
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   219   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   220  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   221  raw_bind(struct raw_pcb *pcb, const ip_addr_t *ipaddr)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   222  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   223    LWIP_ASSERT_CORE_LOCKED();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   224    if ((pcb == NULL) || (ipaddr == NULL)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   225      return ERR_VAL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   226    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   227    ip_addr_set_ipaddr(&pcb->local_ip, ipaddr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   228  #if LWIP_IPV6 && LWIP_IPV6_SCOPES
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   229    /* If the given IP address should have a zone but doesn't, assign one now.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   230     * This is legacy support: scope-aware callers should always provide properly
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   231     * zoned source addresses. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   232    if (IP_IS_V6(&pcb->local_ip) &&
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   233        ip6_addr_lacks_zone(ip_2_ip6(&pcb->local_ip), IP6_UNKNOWN)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   234      ip6_addr_select_zone(ip_2_ip6(&pcb->local_ip), ip_2_ip6(&pcb->local_ip));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   235    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   236  #endif /* LWIP_IPV6 && LWIP_IPV6_SCOPES */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   237    return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   238  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   239  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   240  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   241   * @ingroup raw_raw
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   242   * Bind an RAW PCB to a specific netif.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   243   * After calling this function, all packets received via this PCB
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   244   * are guaranteed to have come in via the specified netif, and all
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   245   * outgoing packets will go out via the specified netif.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   246   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   247   * @param pcb RAW PCB to be bound with netif.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   248   * @param netif netif to bind to. Can be NULL.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   249   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   250   * @see raw_disconnect()
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   251   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   252  void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   253  raw_bind_netif(struct raw_pcb *pcb, const struct netif *netif)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   254  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   255    LWIP_ASSERT_CORE_LOCKED();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   256    if (netif != NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   257      pcb->netif_idx = netif_get_index(netif);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   258    } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   259      pcb->netif_idx = NETIF_NO_INDEX;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   260    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   261  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   262  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   263  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   264   * @ingroup raw_raw
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   265   * Connect an RAW PCB. This function is required by upper layers
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   266   * of lwip. Using the raw api you could use raw_sendto() instead
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   267   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   268   * This will associate the RAW PCB with the remote address.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   269   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   270   * @param pcb RAW PCB to be connected with remote address ipaddr and port.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   271   * @param ipaddr remote IP address to connect with.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   272   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   273   * @return lwIP error code
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   274   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   275   * @see raw_disconnect() and raw_sendto()
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   276   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   277  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   278  raw_connect(struct raw_pcb *pcb, const ip_addr_t *ipaddr)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   279  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   280    LWIP_ASSERT_CORE_LOCKED();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   281    if ((pcb == NULL) || (ipaddr == NULL)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   282      return ERR_VAL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   283    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   284    ip_addr_set_ipaddr(&pcb->remote_ip, ipaddr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   285  #if LWIP_IPV6 && LWIP_IPV6_SCOPES
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   286    /* If the given IP address should have a zone but doesn't, assign one now,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   287     * using the bound address to make a more informed decision when possible. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   288    if (IP_IS_V6(&pcb->remote_ip) &&
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   289        ip6_addr_lacks_zone(ip_2_ip6(&pcb->remote_ip), IP6_UNKNOWN)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   290      ip6_addr_select_zone(ip_2_ip6(&pcb->remote_ip), ip_2_ip6(&pcb->local_ip));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   291    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   292  #endif /* LWIP_IPV6 && LWIP_IPV6_SCOPES */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   293    raw_set_flags(pcb, RAW_FLAGS_CONNECTED);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   294    return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   295  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   296  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   297  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   298   * @ingroup raw_raw
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   299   * Disconnect a RAW PCB.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   300   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   301   * @param pcb the raw pcb to disconnect.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   302   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   303  void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   304  raw_disconnect(struct raw_pcb *pcb)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   305  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   306    LWIP_ASSERT_CORE_LOCKED();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   307    /* reset remote address association */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   308  #if LWIP_IPV4 && LWIP_IPV6
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   309    if (IP_IS_ANY_TYPE_VAL(pcb->local_ip)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   310      ip_addr_copy(pcb->remote_ip, *IP_ANY_TYPE);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   311    } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   312  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   313      ip_addr_set_any(IP_IS_V6_VAL(pcb->remote_ip), &pcb->remote_ip);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   314  #if LWIP_IPV4 && LWIP_IPV6
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   315    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   316  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   317    pcb->netif_idx = NETIF_NO_INDEX;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   318    /* mark PCB as unconnected */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   319    raw_clear_flags(pcb, RAW_FLAGS_CONNECTED);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   320  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   321  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   322  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   323   * @ingroup raw_raw
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   324   * Set the callback function for received packets that match the
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   325   * raw PCB's protocol and binding.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   326   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   327   * The callback function MUST either
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   328   * - eat the packet by calling pbuf_free() and returning non-zero. The
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   329   *   packet will not be passed to other raw PCBs or other protocol layers.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   330   * - not free the packet, and return zero. The packet will be matched
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   331   *   against further PCBs and/or forwarded to another protocol layers.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   332   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   333  void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   334  raw_recv(struct raw_pcb *pcb, raw_recv_fn recv, void *recv_arg)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   335  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   336    LWIP_ASSERT_CORE_LOCKED();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   337    /* remember recv() callback and user data */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   338    pcb->recv = recv;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   339    pcb->recv_arg = recv_arg;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   340  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   341  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   342  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   343   * @ingroup raw_raw
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   344   * Send the raw IP packet to the given address. An IP header will be prepended
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   345   * to the packet, unless the RAW_FLAGS_HDRINCL flag is set on the PCB. In that
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   346   * case, the packet must include an IP header, which will then be sent as is.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   347   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   348   * @param pcb the raw pcb which to send
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   349   * @param p the IP payload to send
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   350   * @param ipaddr the destination address of the IP packet
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   351   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   352   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   353  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   354  raw_sendto(struct raw_pcb *pcb, struct pbuf *p, const ip_addr_t *ipaddr)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   355  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   356    struct netif *netif;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   357    const ip_addr_t *src_ip;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   358  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   359    if ((pcb == NULL) || (ipaddr == NULL) || !IP_ADDR_PCB_VERSION_MATCH(pcb, ipaddr)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   360      return ERR_VAL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   361    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   362  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   363    LWIP_DEBUGF(RAW_DEBUG | LWIP_DBG_TRACE, ("raw_sendto\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   364  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   365    if (pcb->netif_idx != NETIF_NO_INDEX) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   366      netif = netif_get_by_index(pcb->netif_idx);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   367    } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   368  #if LWIP_MULTICAST_TX_OPTIONS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   369      netif = NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   370      if (ip_addr_ismulticast(ipaddr)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   371        /* For multicast-destined packets, use the user-provided interface index to
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   372         * determine the outgoing interface, if an interface index is set and a
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   373         * matching netif can be found. Otherwise, fall back to regular routing. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   374        netif = netif_get_by_index(pcb->mcast_ifindex);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   375      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   376  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   377      if (netif == NULL)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   378  #endif /* LWIP_MULTICAST_TX_OPTIONS */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   379      {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   380        netif = ip_route(&pcb->local_ip, ipaddr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   381      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   382    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   383  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   384    if (netif == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   385      LWIP_DEBUGF(RAW_DEBUG | LWIP_DBG_LEVEL_WARNING, ("raw_sendto: No route to "));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   386      ip_addr_debug_print(RAW_DEBUG | LWIP_DBG_LEVEL_WARNING, ipaddr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   387      return ERR_RTE;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   388    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   389  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   390    if (ip_addr_isany(&pcb->local_ip) || ip_addr_ismulticast(&pcb->local_ip)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   391      /* use outgoing network interface IP address as source address */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   392      src_ip = ip_netif_get_local_ip(netif, ipaddr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   393  #if LWIP_IPV6
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   394      if (src_ip == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   395        return ERR_RTE;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   396      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   397  #endif /* LWIP_IPV6 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   398    } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   399      /* use RAW PCB local IP address as source address */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   400      src_ip = &pcb->local_ip;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   401    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   402  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   403    return raw_sendto_if_src(pcb, p, ipaddr, netif, src_ip);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   404  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   405  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   406  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   407   * @ingroup raw_raw
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   408   * Send the raw IP packet to the given address, using a particular outgoing
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   409   * netif and source IP address. An IP header will be prepended to the packet,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   410   * unless the RAW_FLAGS_HDRINCL flag is set on the PCB. In that case, the
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   411   * packet must include an IP header, which will then be sent as is.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   412   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   413   * @param pcb RAW PCB used to send the data
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   414   * @param p chain of pbufs to be sent
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   415   * @param dst_ip destination IP address
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   416   * @param netif the netif used for sending
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   417   * @param src_ip source IP address
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   418   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   419  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   420  raw_sendto_if_src(struct raw_pcb *pcb, struct pbuf *p, const ip_addr_t *dst_ip,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   421                    struct netif *netif, const ip_addr_t *src_ip)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   422  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   423    err_t err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   424    struct pbuf *q; /* q will be sent down the stack */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   425    u16_t header_size;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   426    u8_t ttl;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   427  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   428    LWIP_ASSERT_CORE_LOCKED();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   429  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   430    if ((pcb == NULL) || (dst_ip == NULL) || (netif == NULL) || (src_ip == NULL) ||
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   431        !IP_ADDR_PCB_VERSION_MATCH(pcb, src_ip) || !IP_ADDR_PCB_VERSION_MATCH(pcb, dst_ip)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   432      return ERR_VAL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   433    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   434  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   435    header_size = (
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   436  #if LWIP_IPV4 && LWIP_IPV6
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   437                    IP_IS_V6(dst_ip) ? IP6_HLEN : IP_HLEN);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   438  #elif LWIP_IPV4
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   439                    IP_HLEN);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   440  #else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   441                    IP6_HLEN);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   442  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   443  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   444    /* Handle the HDRINCL option as an exception: none of the code below applies
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   445     * to this case, and sending the packet needs to be done differently too. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   446    if (pcb->flags & RAW_FLAGS_HDRINCL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   447      /* A full header *must* be present in the first pbuf of the chain, as the
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   448       * output routines may access its fields directly. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   449      if (p->len < header_size) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   450        return ERR_VAL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   451      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   452      /* @todo multicast loop support, if at all desired for this scenario.. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   453      NETIF_SET_HINTS(netif, &pcb->netif_hints);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   454      err = ip_output_if_hdrincl(p, src_ip, dst_ip, netif);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   455      NETIF_RESET_HINTS(netif);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   456      return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   457    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   458  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   459    /* packet too large to add an IP header without causing an overflow? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   460    if ((u16_t)(p->tot_len + header_size) < p->tot_len) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   461      return ERR_MEM;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   462    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   463    /* not enough space to add an IP header to first pbuf in given p chain? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   464    if (pbuf_add_header(p, header_size)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   465      /* allocate header in new pbuf */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   466      q = pbuf_alloc(PBUF_IP, 0, PBUF_RAM);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   467      /* new header pbuf could not be allocated? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   468      if (q == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   469        LWIP_DEBUGF(RAW_DEBUG | LWIP_DBG_TRACE | LWIP_DBG_LEVEL_SERIOUS, ("raw_sendto: could not allocate header\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   470        return ERR_MEM;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   471      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   472      if (p->tot_len != 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   473        /* chain header q in front of given pbuf p */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   474        pbuf_chain(q, p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   475      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   476      /* { first pbuf q points to header pbuf } */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   477      LWIP_DEBUGF(RAW_DEBUG, ("raw_sendto: added header pbuf %p before given pbuf %p\n", (void *)q, (void *)p));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   478    } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   479      /* first pbuf q equals given pbuf */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   480      q = p;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   481      if (pbuf_remove_header(q, header_size)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   482        LWIP_ASSERT("Can't restore header we just removed!", 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   483        return ERR_MEM;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   484      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   485    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   486  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   487  #if IP_SOF_BROADCAST
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   488    if (IP_IS_V4(dst_ip)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   489      /* broadcast filter? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   490      if (!ip_get_option(pcb, SOF_BROADCAST) && ip_addr_isbroadcast(dst_ip, netif)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   491        LWIP_DEBUGF(RAW_DEBUG | LWIP_DBG_LEVEL_WARNING, ("raw_sendto: SOF_BROADCAST not enabled on pcb %p\n", (void *)pcb));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   492        /* free any temporary header pbuf allocated by pbuf_header() */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   493        if (q != p) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   494          pbuf_free(q);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   495        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   496        return ERR_VAL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   497      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   498    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   499  #endif /* IP_SOF_BROADCAST */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   500  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   501    /* Multicast Loop? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   502  #if LWIP_MULTICAST_TX_OPTIONS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   503    if (((pcb->flags & RAW_FLAGS_MULTICAST_LOOP) != 0) && ip_addr_ismulticast(dst_ip)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   504      q->flags |= PBUF_FLAG_MCASTLOOP;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   505    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   506  #endif /* LWIP_MULTICAST_TX_OPTIONS */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   507  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   508  #if LWIP_IPV6
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   509    /* If requested, based on the IPV6_CHECKSUM socket option per RFC3542,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   510       compute the checksum and update the checksum in the payload. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   511    if (IP_IS_V6(dst_ip) && pcb->chksum_reqd) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   512      u16_t chksum = ip6_chksum_pseudo(p, pcb->protocol, p->tot_len, ip_2_ip6(src_ip), ip_2_ip6(dst_ip));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   513      LWIP_ASSERT("Checksum must fit into first pbuf", p->len >= (pcb->chksum_offset + 2));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   514      SMEMCPY(((u8_t *)p->payload) + pcb->chksum_offset, &chksum, sizeof(u16_t));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   515    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   516  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   517  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   518    /* Determine TTL to use */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   519  #if LWIP_MULTICAST_TX_OPTIONS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   520    ttl = (ip_addr_ismulticast(dst_ip) ? raw_get_multicast_ttl(pcb) : pcb->ttl);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   521  #else /* LWIP_MULTICAST_TX_OPTIONS */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   522    ttl = pcb->ttl;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   523  #endif /* LWIP_MULTICAST_TX_OPTIONS */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   524  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   525    NETIF_SET_HINTS(netif, &pcb->netif_hints);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   526    err = ip_output_if(q, src_ip, dst_ip, ttl, pcb->tos, pcb->protocol, netif);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   527    NETIF_RESET_HINTS(netif);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   528  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   529    /* did we chain a header earlier? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   530    if (q != p) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   531      /* free the header */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   532      pbuf_free(q);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   533    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   534    return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   535  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   536  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   537  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   538   * @ingroup raw_raw
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   539   * Send the raw IP packet to the address given by raw_connect()
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   540   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   541   * @param pcb the raw pcb which to send
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   542   * @param p the IP payload to send
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   543   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   544   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   545  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   546  raw_send(struct raw_pcb *pcb, struct pbuf *p)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   547  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   548    return raw_sendto(pcb, p, &pcb->remote_ip);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   549  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   550  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   551  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   552   * @ingroup raw_raw
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   553   * Remove an RAW PCB.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   554   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   555   * @param pcb RAW PCB to be removed. The PCB is removed from the list of
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   556   * RAW PCB's and the data structure is freed from memory.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   557   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   558   * @see raw_new()
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   559   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   560  void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   561  raw_remove(struct raw_pcb *pcb)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   562  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   563    struct raw_pcb *pcb2;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   564    LWIP_ASSERT_CORE_LOCKED();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   565    /* pcb to be removed is first in list? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   566    if (raw_pcbs == pcb) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   567      /* make list start at 2nd pcb */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   568      raw_pcbs = raw_pcbs->next;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   569      /* pcb not 1st in list */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   570    } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   571      for (pcb2 = raw_pcbs; pcb2 != NULL; pcb2 = pcb2->next) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   572        /* find pcb in raw_pcbs list */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   573        if (pcb2->next != NULL && pcb2->next == pcb) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   574          /* remove pcb from list */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   575          pcb2->next = pcb->next;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   576          break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   577        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   578      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   579    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   580    memp_free(MEMP_RAW_PCB, pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   581  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   582  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   583  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   584   * @ingroup raw_raw
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   585   * Create a RAW PCB.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   586   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   587   * @return The RAW PCB which was created. NULL if the PCB data structure
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   588   * could not be allocated.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   589   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   590   * @param proto the protocol number of the IPs payload (e.g. IP_PROTO_ICMP)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   591   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   592   * @see raw_remove()
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   593   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   594  struct raw_pcb *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   595  raw_new(u8_t proto)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   596  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   597    struct raw_pcb *pcb;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   598  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   599    LWIP_DEBUGF(RAW_DEBUG | LWIP_DBG_TRACE, ("raw_new\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   600    LWIP_ASSERT_CORE_LOCKED();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   601  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   602    pcb = (struct raw_pcb *)memp_malloc(MEMP_RAW_PCB);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   603    /* could allocate RAW PCB? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   604    if (pcb != NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   605      /* initialize PCB to all zeroes */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   606      memset(pcb, 0, sizeof(struct raw_pcb));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   607      pcb->protocol = proto;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   608      pcb->ttl = RAW_TTL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   609  #if LWIP_MULTICAST_TX_OPTIONS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   610      raw_set_multicast_ttl(pcb, RAW_TTL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   611  #endif /* LWIP_MULTICAST_TX_OPTIONS */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   612      pcb->next = raw_pcbs;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   613      raw_pcbs = pcb;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   614    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   615    return pcb;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   616  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   617  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   618  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   619   * @ingroup raw_raw
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   620   * Create a RAW PCB for specific IP type.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   621   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   622   * @return The RAW PCB which was created. NULL if the PCB data structure
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   623   * could not be allocated.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   624   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   625   * @param type IP address type, see @ref lwip_ip_addr_type definitions.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   626   * If you want to listen to IPv4 and IPv6 (dual-stack) packets,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   627   * supply @ref IPADDR_TYPE_ANY as argument and bind to @ref IP_ANY_TYPE.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   628   * @param proto the protocol number (next header) of the IPv6 packet payload
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   629   *              (e.g. IP6_NEXTH_ICMP6)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   630   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   631   * @see raw_remove()
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   632   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   633  struct raw_pcb *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   634  raw_new_ip_type(u8_t type, u8_t proto)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   635  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   636    struct raw_pcb *pcb;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   637    LWIP_ASSERT_CORE_LOCKED();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   638    pcb = raw_new(proto);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   639  #if LWIP_IPV4 && LWIP_IPV6
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   640    if (pcb != NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   641      IP_SET_TYPE_VAL(pcb->local_ip,  type);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   642      IP_SET_TYPE_VAL(pcb->remote_ip, type);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   643    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   644  #else /* LWIP_IPV4 && LWIP_IPV6 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   645    LWIP_UNUSED_ARG(type);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   646  #endif /* LWIP_IPV4 && LWIP_IPV6 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   647    return pcb;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   648  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   649  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   650  /** This function is called from netif.c when address is changed
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   651   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   652   * @param old_addr IP address of the netif before change
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   653   * @param new_addr IP address of the netif after change
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   654   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   655  void raw_netif_ip_addr_changed(const ip_addr_t *old_addr, const ip_addr_t *new_addr)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   656  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   657    struct raw_pcb *rpcb;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   658  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   659    if (!ip_addr_isany(old_addr) && !ip_addr_isany(new_addr)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   660      for (rpcb = raw_pcbs; rpcb != NULL; rpcb = rpcb->next) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   661        /* PCB bound to current local interface address? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   662        if (ip_addr_cmp(&rpcb->local_ip, old_addr)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   663          /* The PCB is bound to the old ipaddr and
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   664           * is set to bound to the new one instead */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   665          ip_addr_copy(rpcb->local_ip, *new_addr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   666        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   667      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   668    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   669  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   670  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\raw.c	   671  #endif /* LWIP_RAW */
+
+	; Module end

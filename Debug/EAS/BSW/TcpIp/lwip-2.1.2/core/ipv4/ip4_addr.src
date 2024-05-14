@@ -1,0 +1,2818 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.2r2 Build 18041957 SN 09003395"
+	.compiler_invocation	"ctc -f cc30964a --dep-file=EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\.ip4_addr.o.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc39x -D__CPU_TC39X__ --core=tc1.6.2 --fp-model=+float -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Cfg_Ssw -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Cfg_Ssw\\TC39B -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Integration -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr\\TC39xB -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr\\TC39xB\\_Reg -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw\\TC39B -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw\\TC39B\\Tricore -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\inc\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Lib -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\App_Func -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\demo -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Adc_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Gtm_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\AscLin_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Can_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\EthV2_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Stm_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Main -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\APP -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\BswM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanNm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanSm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanTp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanTSyn -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Com -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\ComM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Common -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Crc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Dcm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Dem -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Det -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\DoIP -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EcuM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Eth -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthSM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthTrcv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthTSyn -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\FiM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\FlsTst -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\MemIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Nm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\NvM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS\\Kernel -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS\\Portable -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\PduR -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\RamTst -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\SoAd -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\StbM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\api -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\arch -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv6 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\arpa -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\net -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\sys -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\stdc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\apps -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\priv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\prot -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif\\ppp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif\\ppp\\polarssl -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\polarssl -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\UdpNm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\WdgIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\WdgM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Cal -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Daq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Pag -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Pgm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Std -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\XcpOnEth -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Callout -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Config -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Library\\Vfx_ComE2E -g2 --make-target=EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4_addr.o -t2 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O1 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4_addr.src ..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4_addr.c"
+	.compiler_name		"ctc"
+	;source	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4_addr.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.ip4_addr.ip4_addr_isbroadcast_u32',code,cluster('ip4_addr_isbroadcast_u32')
+	.sect	'.text.ip4_addr.ip4_addr_isbroadcast_u32'
+	.align	2
+	
+	.global	ip4_addr_isbroadcast_u32
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	     1  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	     2   * @file
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	     3   * This is the IPv4 address tools implementation.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	     4   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	     5   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	     6  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	     7  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	     8   * Copyright (c) 2001-2004 Swedish Institute of Computer Science.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	     9   * All rights reserved.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    10   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    11   * Redistribution and use in source and binary forms, with or without modification,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    12   * are permitted provided that the following conditions are met:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    13   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    14   * 1. Redistributions of source code must retain the above copyright notice,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    15   *    this list of conditions and the following disclaimer.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    16   * 2. Redistributions in binary form must reproduce the above copyright notice,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    17   *    this list of conditions and the following disclaimer in the documentation
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    18   *    and/or other materials provided with the distribution.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    19   * 3. The name of the author may not be used to endorse or promote products
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    20   *    derived from this software without specific prior written permission.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    21   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    22   * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    23   * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    24   * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    25   * SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    26   * EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    27   * OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    28   * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    29   * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    30   * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    31   * OF SUCH DAMAGE.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    32   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    33   * This file is part of the lwIP TCP/IP stack.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    34   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    35   * Author: Adam Dunkels <adam@sics.se>
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    36   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    37   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    38  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    39  #include "lwip/opt.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    40  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    41  #if LWIP_IPV4
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    42  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    43  #include "lwip/ip_addr.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    44  #include "lwip/netif.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    45  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    46  /* used by IP4_ADDR_ANY and IP_ADDR_BROADCAST in ip_addr.h */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    47  const ip_addr_t ip_addr_any = IPADDR4_INIT(IPADDR_ANY);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    48  const ip_addr_t ip_addr_broadcast = IPADDR4_INIT(IPADDR_BROADCAST);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    49  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    50  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    51   * Determine if an address is a broadcast address on a network interface
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    52   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    53   * @param addr address to be checked
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    54   * @param netif the network interface against which the address is checked
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    55   * @return returns non-zero if the address is a broadcast address
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    56   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    57  u8_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    58  ip4_addr_isbroadcast_u32(u32_t addr, const struct netif *netif)
+; Function ip4_addr_isbroadcast_u32
+.L67:
+ip4_addr_isbroadcast_u32:	.type	func
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    59  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    60    ip4_addr_t ipaddr;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    61    ip4_addr_set_u32(&ipaddr, addr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    62  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    63    /* all ones (broadcast) or all zeroes (old skool broadcast) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    64    if ((~addr == IPADDR_ANY) ||
+	mov	d0,#-1
+	xor	d15,d4,d0
+.L204:
+	jeq	d15,#0,.L2
+.L205:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    65        (addr == IPADDR_ANY)) {
+	jeq	d4,#0,.L3
+.L206:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    66      return 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    67      /* no broadcast support on this network interface? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    68    } else if ((netif->flags & NETIF_FLAG_BROADCAST) == 0) {
+	ld.bu	d15,[a4]45
+.L207:
+	jz.t	d15:1,.L4
+.L208:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    69      /* the given address cannot be a broadcast address
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    70       * nor can we check against any broadcast addresses */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    71      return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    72      /* address matches network interface address exactly? => no broadcast */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    73    } else if (addr == ip4_addr_get_u32(netif_ip4_addr(netif))) {
+	ld.w	d15,[a4]4
+.L209:
+	jeq	d15,d4,.L5
+.L210:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    74      return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    75      /*  on the same (sub) network... */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    76    } else if (ip4_addr_netcmp(&ipaddr, netif_ip4_addr(netif), netif_ip4_netmask(netif))
+	ld.w	d1,[a4]8
+	and	d2,d4,d1
+	and	d15,d1
+	jne	d15,d2,.L6
+.L211:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    77               /* ...and host identifier bits are all ones? =>... */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    78               && ((addr & ~ip4_addr_get_u32(netif_ip4_netmask(netif))) ==
+	xor	d0,d1
+.L212:
+	and	d4,d0
+.L166:
+	jne	d4,d0,.L7
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    79                   (IPADDR_BROADCAST & ~ip4_addr_get_u32(netif_ip4_netmask(netif))))) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    80      /* => network broadcast address */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    81      return 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    82    } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    83      return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    84    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    85  }
+.L3:
+.L2:
+	mov	d2,#1
+.L213:
+	ret
+.L7:
+.L6:
+.L5:
+.L4:
+	mov	d2,#0
+.L214:
+	ret
+.L117:
+	
+__ip4_addr_isbroadcast_u32_function_end:
+	.size	ip4_addr_isbroadcast_u32,__ip4_addr_isbroadcast_u32_function_end-ip4_addr_isbroadcast_u32
+.L86:
+	; End of function
+	
+	.sdecl	'.text.ip4_addr.ip4_addr_netmask_valid',code,cluster('ip4_addr_netmask_valid')
+	.sect	'.text.ip4_addr.ip4_addr_netmask_valid'
+	.align	2
+	
+	.global	ip4_addr_netmask_valid
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    86  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    87  /** Checks if a netmask is valid (starting with ones, then only zeros)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    88   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    89   * @param netmask the IPv4 netmask to check (in network byte order!)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    90   * @return 1 if the netmask is valid, 0 if it is not
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    91   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    92  u8_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    93  ip4_addr_netmask_valid(u32_t netmask)
+; Function ip4_addr_netmask_valid
+.L69:
+ip4_addr_netmask_valid:	.type	func
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    94  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    95    u32_t mask;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    96    u32_t nm_hostorder = lwip_htonl(netmask);
+	call	lwip_htonl
+.L167:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    97  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    98    /* first, check for the first zero */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	    99    for (mask = 1UL << 31 ; mask != 0; mask >>= 1) {
+	movh	d15,#32768
+.L169:
+	j	.L10
+.L11:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   100      if ((nm_hostorder & mask) == 0) {
+	and	d0,d2,d15
+.L219:
+	jeq	d0,#0,.L13
+.L220:
+	sh	d15,#-1
+.L10:
+	jne	d15,#0,.L11
+.L221:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   101        break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   102      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   103    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   104    /* then check that there is no one */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   105    for (; mask != 0; mask >>= 1) {
+	j	.L13
+.L14:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   106      if ((nm_hostorder & mask) != 0) {
+	and	d0,d2,d15
+.L222:
+	jeq	d0,#0,.L15
+.L223:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   107        /* there is a one after the first zero -> invalid */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   108        return 0;
+	mov	d2,#0
+.L168:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   109      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   110    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   111    /* no one after the first zero -> valid */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   112    return 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   113  }
+	ret
+.L15:
+	sh	d15,#-1
+.L13:
+	jne	d15,#0,.L14
+.L224:
+	mov	d2,#1
+.L170:
+	ret
+.L124:
+	
+__ip4_addr_netmask_valid_function_end:
+	.size	ip4_addr_netmask_valid,__ip4_addr_netmask_valid_function_end-ip4_addr_netmask_valid
+.L91:
+	; End of function
+	
+	.sdecl	'.text.ip4_addr.ipaddr_addr',code,cluster('ipaddr_addr')
+	.sect	'.text.ip4_addr.ipaddr_addr'
+	.align	2
+	
+	.global	ipaddr_addr
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   114  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   115  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   116   * Ascii internet address interpretation routine.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   117   * The value returned is in network order.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   118   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   119   * @param cp IP address in ascii representation (e.g. "127.0.0.1")
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   120   * @return ip address in network order
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   121   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   122  u32_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   123  ipaddr_addr(const char *cp)
+; Function ipaddr_addr
+.L71:
+ipaddr_addr:	.type	func
+	sub.a	a10,#8
+.L171:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   124  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   125    ip4_addr_t val;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   126  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   127    if (ip4addr_aton(cp, &val)) {
+	mov.aa	a5,a10
+	call	ip4addr_aton
+.L172:
+	jeq	d2,#0,.L18
+.L229:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   128      return ip4_addr_get_u32(&val);
+	ld.w	d2,[a10]
+.L230:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   129    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   130    return (IPADDR_NONE);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   131  }
+	ret
+.L18:
+	mov	d2,#-1
+.L231:
+	ret
+.L128:
+	
+__ipaddr_addr_function_end:
+	.size	ipaddr_addr,__ipaddr_addr_function_end-ipaddr_addr
+.L96:
+	; End of function
+	
+	.sdecl	'.text.ip4_addr.ip4addr_aton',code,cluster('ip4addr_aton')
+	.sect	'.text.ip4_addr.ip4addr_aton'
+	.align	2
+	
+	.global	ip4addr_aton
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   132  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   133  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   134   * Check whether "cp" is a valid ascii representation
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   135   * of an Internet address and convert to a binary address.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   136   * Returns 1 if the address is valid, 0 if not.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   137   * This replaces inet_addr, the return value from which
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   138   * cannot distinguish between failure and a local broadcast address.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   139   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   140   * @param cp IP address in ascii representation (e.g. "127.0.0.1")
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   141   * @param addr pointer to which to save the ip address in network order
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   142   * @return 1 if cp could be converted to addr, 0 on failure
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   143   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   144  int
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   145  ip4addr_aton(const char *cp, ip4_addr_t *addr)
+; Function ip4addr_aton
+.L73:
+ip4addr_aton:	.type	func
+	sub.a	a10,#16
+.L173:
+	mov.aa	a12,a5
+.L175:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   146  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   147    u32_t val;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   148    u8_t base;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   149    char c;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   150    u32_t parts[4];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   151    u32_t *pp = parts;
+	mov.aa	a2,a10
+.L176:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   152  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   153    c = *cp;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   154    for (;;) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   155      /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   156       * Collect number up to ``.''.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   157       * Values are specified as for C:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   158       * 0x=hex, 0=octal, 1-9=decimal.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   159       */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   160      if (!lwip_isdigit(c)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   161        return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   162      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   163      val = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   164      base = 10;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   165      if (c == '0') {
+	mov	d3,#48
+.L236:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   166        c = *++cp;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   167        if (c == 'x' || c == 'X') {
+	mov	d4,#120
+.L237:
+	mov	d5,#88
+.L238:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   168          base = 16;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   169          c = *++cp;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   170        } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   171          base = 8;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   172        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   173      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   174      for (;;) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   175        if (lwip_isdigit(c)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   176          val = (val * base) + (u32_t)(c - '0');
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   177          c = *++cp;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   178        } else if (base == 16 && lwip_isxdigit(c)) {
+	mov	d6,#16
+.L239:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   179          val = (val << 4) | (u32_t)(c + 10 - (lwip_islower(c) ? 'a' : 'A'));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   180          c = *++cp;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   181        } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   182          break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   183        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   184      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   185      if (c == '.') {
+	mov	d7,#46
+.L240:
+	j	.L21
+.L22:
+	extr.u	d0,d8,#0,#8
+	movh.a	a15,#@his(__ctype)
+	lea	a15,[a15]@los(__ctype)
+	addsc.a	a15,a15,d0,#0
+	ld.bu	d0,[a15]1
+	jz.t	d0:5,.L23
+.L241:
+	mov	d2,#0
+.L178:
+	mov	d9,#10
+.L180:
+	jne	d8,d3,.L24
+.L242:
+	ld.b	d8,[+a4]1
+.L243:
+	jeq	d8,d4,.L25
+.L244:
+	jne	d8,d5,.L26
+.L25:
+	mov	d9,#16
+.L245:
+	j	.L27
+.L26:
+	mov	d9,#8
+.L24:
+.L28:
+	extr.u	d0,d8,#0,#8
+	movh.a	a15,#@his(__ctype)
+	lea	a15,[a15]@los(__ctype)
+	addsc.a	a15,a15,d0,#0
+	ld.bu	d15,[a15]1
+.L246:
+	jz.t	d15:5,.L29
+.L247:
+	add	d0,d8,#-48
+.L248:
+	madd	d2,d0,d2,d9
+.L249:
+	j	.L30
+.L29:
+	jne	d9,d6,.L31
+.L250:
+	extr.u	d0,d8,#0,#8
+	movh.a	a15,#@his(__ctype)
+	lea	a15,[a15]@los(__ctype)
+	addsc.a	a15,a15,d0,#0
+	ld.bu	d1,[a15]1
+	and	d1,d1,#160
+	jeq	d1,#0,.L32
+.L251:
+	movh.a	a15,#@his(__ctype)
+	lea	a15,[a15]@los(__ctype)
+	addsc.a	a15,a15,d0,#0
+	ld.bu	d15,[a15]1
+	and	d0,d15,#16
+	ne	d15,d0,#0
+	sha	d15,#5
+	add	d15,d15,#65
+.L252:
+	sh	d2,#4
+.L179:
+	sub	d8,d15
+.L177:
+	add	d15,d8,#10
+.L181:
+	or	d2,d15
+.L30:
+.L27:
+	ld.b	d8,[+a4]1
+.L182:
+	j	.L28
+.L32:
+.L31:
+	jne	d8,d7,.L33
+.L253:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   186        /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   187         * Internet format:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   188         *  a.b.c.d
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   189         *  a.b.c   (with c treated as 16 bits)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   190         *  a.b (with b treated as 24 bits)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   191         */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   192        if (pp >= parts + 3) {
+	lea	a15,[a10]12
+.L254:
+	ge.a	d15,a2,a15
+.L255:
+	jne	d15,#0,.L34
+.L256:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   193          return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   194        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   195        *pp++ = val;
+	st.w	[a2+],d2
+.L257:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   196        c = *++cp;
+	add.a	a4,#1
+.L21:
+	ld.b	d8,[a4]0
+.L183:
+	j	.L22
+.L33:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   197      } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   198        break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   199      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   200    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   201    /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   202     * Check for trailing characters.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   203     */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   204    if (c != '\0' && !lwip_isspace(c)) {
+	jeq	d8,#0,.L35
+.L258:
+	extr.u	d15,d8,#0,#8
+	movh.a	a15,#@his(__ctype)
+	lea	a15,[a15]@los(__ctype)
+	addsc.a	a15,a15,d15,#0
+	ld.bu	d15,[a15]1
+	and	d15,#5
+	jeq	d15,#0,.L36
+.L35:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   205      return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   206    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   207    /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   208     * Concoct the address according to
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   209     * the number of parts specified.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   210     */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   211    switch (pp - parts + 1) {
+	mov.aa	a15,a10
+.L259:
+	sub.a	a15,a2,a15
+	mov.d	d15,a15
+	sha	d15,#-2
+.L260:
+	add	d15,#1
+.L261:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   212  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   213      case 0:
+	jeq	d15,#0,.L37
+.L262:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   214        return 0;       /* initial nondigit */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   215  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   216      case 1:             /* a -- 32 bits */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   217        break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   218  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   219      case 2:             /* a.b -- 8.24 bits */
+	jeq	d15,#2,.L38
+.L263:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   220        if (val > 0xffffffUL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   221          return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   222        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   223        if (parts[0] > 0xff) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   224          return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   225        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   226        val |= parts[0] << 24;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   227        break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   228  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   229      case 3:             /* a.b.c -- 8.8.16 bits */
+	jeq	d15,#3,.L39
+.L264:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   230        if (val > 0xffff) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   231          return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   232        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   233        if ((parts[0] > 0xff) || (parts[1] > 0xff)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   234          return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   235        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   236        val |= (parts[0] << 24) | (parts[1] << 16);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   237        break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   238  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   239      case 4:             /* a.b.c.d -- 8.8.8.8 bits */
+	jeq	d15,#4,.L40
+.L265:
+	j	.L41
+.L38:
+	mov.u	d15,#65535
+	addih	d15,d15,#255
+.L266:
+	jlt.u	d15,d2,.L42
+.L267:
+	ld.w	d0,[a10]
+.L268:
+	mov	d15,#255
+.L269:
+	jlt.u	d15,d0,.L43
+.L270:
+	sh	d15,d0,#24
+.L271:
+	or	d2,d15
+.L272:
+	j	.L44
+.L39:
+	mov.u	d15,#65535
+.L273:
+	jlt.u	d15,d2,.L45
+.L274:
+	ld.w	d0,[a10]
+.L275:
+	mov	d15,#255
+.L276:
+	jlt.u	d15,d0,.L46
+.L277:
+	ld.w	d1,[a10]4
+.L278:
+	jlt.u	d15,d1,.L47
+.L279:
+	sh	d15,d0,#24
+.L280:
+	sh	d0,d1,#16
+.L281:
+	or	d15,d0
+.L282:
+	or	d2,d15
+.L283:
+	j	.L48
+.L40:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   240        if (val > 0xff) {
+	mov	d0,#255
+.L284:
+	jlt.u	d0,d2,.L49
+.L285:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   241          return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   242        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   243        if ((parts[0] > 0xff) || (parts[1] > 0xff) || (parts[2] > 0xff)) {
+	ld.w	d15,[a10]
+.L286:
+	jlt.u	d0,d15,.L50
+.L287:
+	ld.w	d15,[a10]4
+.L288:
+	jlt.u	d0,d15,.L51
+.L289:
+	ld.w	d15,[a10]8
+.L290:
+	jge.u	d0,d15,.L52
+.L51:
+.L50:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   244          return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   245        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   246        val |= (parts[0] << 24) | (parts[1] << 16) | (parts[2] << 8);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   247        break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   248      default:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   249        LWIP_ASSERT("unhandled", 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   250        break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   251    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   252    if (addr) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   253      ip4_addr_set_u32(addr, lwip_htonl(val));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   254    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   255    return 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   256  }
+.L49:
+.L47:
+.L46:
+.L45:
+.L43:
+.L42:
+.L37:
+.L36:
+.L34:
+.L23:
+	mov	d2,#0
+.L291:
+	ret
+.L52:
+	ld.w	d15,[a10]
+.L292:
+	sh	d0,d15,#24
+.L293:
+	ld.w	d15,[a10]4
+.L294:
+	sh	d15,d15,#16
+.L295:
+	or	d0,d15
+.L296:
+	ld.w	d15,[a10]8
+.L297:
+	sh	d15,d15,#8
+.L298:
+	or	d0,d15
+.L299:
+	or	d2,d0
+.L48:
+.L44:
+.L41:
+	jz.a	a12,.L54
+.L300:
+	mov	d4,d2
+.L184:
+	call	lwip_htonl
+.L174:
+	st.w	[a12],d2
+.L54:
+	mov	d2,#1
+.L301:
+	ret
+.L133:
+	
+__ip4addr_aton_function_end:
+	.size	ip4addr_aton,__ip4addr_aton_function_end-ip4addr_aton
+.L101:
+	; End of function
+	
+	.sdecl	'.text.ip4_addr.ip4addr_ntoa',code,cluster('ip4addr_ntoa')
+	.sect	'.text.ip4_addr.ip4addr_ntoa'
+	.align	2
+	
+	.global	ip4addr_ntoa
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   257  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   258  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   259   * Convert numeric IP address into decimal dotted ASCII representation.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   260   * returns ptr to static buffer; not reentrant!
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   261   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   262   * @param addr ip address in network order to convert
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   263   * @return pointer to a global static (!) buffer that holds the ASCII
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   264   *         representation of addr
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   265   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   266  char *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   267  ip4addr_ntoa(const ip4_addr_t *addr)
+; Function ip4addr_ntoa
+.L75:
+ip4addr_ntoa:	.type	func
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   268  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   269    static char str[IP4ADDR_STRLEN_MAX];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   270    return ip4addr_ntoa_r(addr, str, IP4ADDR_STRLEN_MAX);
+	movh.a	a5,#@his(_999001_str)
+	lea	a5,[a5]@los(_999001_str)
+.L306:
+	mov	d4,#16
+	j	ip4addr_ntoa_r
+.L146:
+	
+__ip4addr_ntoa_function_end:
+	.size	ip4addr_ntoa,__ip4addr_ntoa_function_end-ip4addr_ntoa
+.L106:
+	; End of function
+	
+	.sdecl	'.text.ip4_addr.ip4addr_ntoa_r',code,cluster('ip4addr_ntoa_r')
+	.sect	'.text.ip4_addr.ip4addr_ntoa_r'
+	.align	2
+	
+	.global	ip4addr_ntoa_r
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   271  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   272  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   273  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   274   * Same as ip4addr_ntoa, but reentrant since a user-supplied buffer is used.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   275   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   276   * @param addr ip address in network order to convert
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   277   * @param buf target buffer where the string is stored
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   278   * @param buflen length of buf
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   279   * @return either pointer to buf which now holds the ASCII
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   280   *         representation of addr or NULL if buf was too small
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   281   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   282  char *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   283  ip4addr_ntoa_r(const ip4_addr_t *addr, char *buf, int buflen)
+; Function ip4addr_ntoa_r
+.L77:
+ip4addr_ntoa_r:	.type	func
+	sub.a	a10,#8
+.L185:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   284  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   285    u32_t s_addr;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   286    char inv[3];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   287    char *rp;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   288    u8_t *ap;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   289    u8_t rem;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   290    u8_t n;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   291    u8_t i;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   292    int len = 0;
+	mov	d5,#0
+.L187:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   293  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   294    s_addr = ip4_addr_get_u32(addr);
+	ld.w	d15,[a4]
+.L311:
+	st.w	[a10],d15
+.L312:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   295  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   296    rp = buf;
+	mov.aa	a2,a5
+.L188:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   297    ap = (u8_t *)&s_addr;
+	mov.aa	a4,a10
+.L186:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   298    for (n = 0; n < 4; n++) {
+	mov	d2,d5
+.L190:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   299      i = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   300      do {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   301        rem = *ap % (u8_t)10;
+	mov	d3,#10
+.L313:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   302        *ap /= (u8_t)10;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   303        inv[i++] = (char)('0' + rem);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   304      } while (*ap);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   305      while (i--) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   306        if (len++ >= buflen) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   307          return NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   308        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   309        *rp++ = inv[i];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   310      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   311      if (len++ >= buflen) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   312        return NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   313      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   314      *rp++ = '.';
+	mov	d8,#46
+.L314:
+	j	.L57
+.L58:
+	mov	d15,#0
+.L59:
+	ld.bu	d0,[a4]
+.L315:
+	dvinit.bu	e6,d0,d3
+.L192:
+	dvstep.u	e6,e6,d3
+.L316:
+	dvinit.bu	e0,d0,d3
+	dvstep.u	e0,e0,d3
+	st.b	[a4],d0
+.L317:
+	addsc.a	a15,a10,d15,#0
+.L318:
+	add	d0,d7,#48
+.L319:
+	st.b	[a15]4,d0
+.L320:
+	add	d0,d15,#1
+	extr.u	d15,d0,#0,#8
+.L321:
+	ld.bu	d0,[a4]
+.L322:
+	jne	d0,#0,.L59
+.L323:
+	j	.L60
+.L61:
+	add	d15,#-1
+.L324:
+	mov	d0,d5
+	add	d5,#1
+.L325:
+	jge	d0,d4,.L62
+.L326:
+	addsc.a	a15,a10,d15,#0
+	ld.bu	d0,[a15]4
+.L327:
+	st.b	[a2+],d0
+.L60:
+	jne	d15,#0,.L61
+.L328:
+	mov	d15,d5
+.L191:
+	add	d5,#1
+.L329:
+	jlt	d15,d4,.L63
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   315      ap++;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   316    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   317    *--rp = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   318    return buf;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   319  }
+.L62:
+	mov.a	a2,#0
+.L189:
+	ret
+.L63:
+	st.b	[a2+],d8
+.L330:
+	add.a	a4,#1
+.L331:
+	add	d2,#1
+.L57:
+	jlt.u	d2,#4,.L58
+.L332:
+	mov	d15,#0
+.L333:
+	st.b	[+a2]-1,d15
+.L334:
+	mov.aa	a2,a5
+.L193:
+	ret
+.L150:
+	
+__ip4addr_ntoa_r_function_end:
+	.size	ip4addr_ntoa_r,__ip4addr_ntoa_r_function_end-ip4addr_ntoa_r
+.L111:
+	; End of function
+	
+	.sdecl	'.rodata.ip4_addr.ip_addr_any',data,rom,cluster('ip_addr_any')
+	.sect	'.rodata.ip4_addr.ip_addr_any'
+	.global	ip_addr_any
+	.align	2
+ip_addr_any:	.type	object
+	.size	ip_addr_any,4
+	.space	4
+	.sdecl	'.rodata.ip4_addr.ip_addr_broadcast',data,rom,cluster('ip_addr_broadcast')
+	.sect	'.rodata.ip4_addr.ip_addr_broadcast'
+	.global	ip_addr_broadcast
+	.align	2
+ip_addr_broadcast:	.type	object
+	.size	ip_addr_broadcast,4
+	.word	-1
+	.sdecl	'.bss.ip4_addr._999001_str',data,cluster('_999001_str')
+	.sect	'.bss.ip4_addr._999001_str'
+_999001_str:	.type	object
+	.size	_999001_str,16
+	.space	16
+	.calls	'ip4_addr_netmask_valid','lwip_htonl'
+	.calls	'ipaddr_addr','ip4addr_aton'
+	.calls	'ip4addr_aton','lwip_htonl'
+	.calls	'ip4addr_ntoa','ip4addr_ntoa_r'
+	.calls	'ip4_addr_isbroadcast_u32','',0
+	.calls	'ip4_addr_netmask_valid','',0
+	.calls	'ipaddr_addr','',8
+	.calls	'ip4addr_aton','',16
+	.calls	'ip4addr_ntoa','',0
+	.extern	__ctype
+	.extern	lwip_htonl
+	.calls	'ip4addr_ntoa_r','',8
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L79:
+	.word	5533
+	.half	3
+	.word	.L80
+	.byte	4
+.L78:
+	.byte	1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4_addr.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L81
+.L118:
+	.byte	2
+	.byte	'unsigned long int',0,4,7,3
+	.byte	'lwip_htonl',0,1,102,7
+	.word	172
+	.byte	1,1,1,1,4
+	.byte	'x',0,1,102,24
+	.word	172
+	.byte	0
+.L116:
+	.byte	2
+	.byte	'unsigned char',0,1,8,5
+	.word	.L194-.L79
+.L122:
+	.byte	6
+	.byte	'ip4_addr',0,3,51,8,4,7
+	.byte	'addr',0
+	.word	172
+	.byte	4,2,35,0,0,2
+	.byte	'char',0,1,6,8
+	.byte	'void',0,5
+	.word	286
+	.byte	2
+	.byte	'unsigned short int',0,2,7,6
+	.byte	'pbuf',0,4,186,1,8,16,7
+	.byte	'next',0
+	.word	.L195-.L79
+	.byte	4,2,35,0,7
+	.byte	'payload',0
+	.word	292
+	.byte	4,2,35,4,7
+	.byte	'tot_len',0
+	.word	297
+	.byte	2,2,35,8,7
+	.byte	'len',0
+	.word	297
+	.byte	2,2,35,10,7
+	.byte	'type_internal',0
+	.word	227
+	.byte	1,2,35,12,7
+	.byte	'flags',0
+	.word	227
+	.byte	1,2,35,13,7
+	.byte	'ref',0
+	.word	227
+	.byte	1,2,35,14,7
+	.byte	'if_idx',0
+	.word	227
+	.byte	1,2,35,15,0
+.L195:
+	.byte	5
+	.word	319
+	.byte	9
+	.word	278
+	.byte	1,1,10
+	.word	459
+	.byte	10
+	.word	244
+	.byte	0,5
+	.word	464
+	.byte	11
+	.byte	'netif_input_fn',0,2,178,1,17
+	.word	482
+	.byte	12
+	.word	249
+	.byte	5
+	.word	511
+	.byte	9
+	.word	278
+	.byte	1,1,10
+	.word	244
+	.byte	10
+	.word	459
+	.byte	10
+	.word	516
+	.byte	0,5
+	.word	521
+	.byte	11
+	.byte	'netif_output_fn',0,2,189,1,17
+	.word	544
+	.byte	9
+	.word	278
+	.byte	1,1,10
+	.word	244
+	.byte	10
+	.word	459
+	.byte	0,5
+	.word	574
+	.byte	11
+	.byte	'netif_linkoutput_fn',0,2,212,1,17
+	.word	592
+	.byte	13,1,1,10
+	.word	244
+	.byte	0,5
+	.word	626
+	.byte	11
+	.byte	'netif_status_callback_fn',0,2,214,1,16
+	.word	635
+	.byte	14,6
+	.word	227
+	.byte	15,5,0
+.L139:
+	.byte	2
+	.byte	'char',0,1,6,14,2
+	.word	683
+	.byte	15,1,0
+.L194:
+	.byte	6
+	.byte	'netif',0,2,132,2,8,52,7
+	.byte	'next',0
+	.word	244
+	.byte	4,2,35,0,7
+	.byte	'ip_addr',0
+	.word	249
+	.byte	4,2,35,4,7
+	.byte	'netmask',0
+	.word	249
+	.byte	4,2,35,8,7
+	.byte	'gw',0
+	.word	249
+	.byte	4,2,35,12,7
+	.byte	'input',0
+	.word	487
+	.byte	4,2,35,16,7
+	.byte	'output',0
+	.word	549
+	.byte	4,2,35,20,7
+	.byte	'linkoutput',0
+	.word	597
+	.byte	4,2,35,24,7
+	.byte	'status_callback',0
+	.word	640
+	.byte	4,2,35,28,7
+	.byte	'state',0
+	.word	292
+	.byte	4,2,35,32,7
+	.byte	'mtu',0
+	.word	297
+	.byte	2,2,35,36,7
+	.byte	'hwaddr',0
+	.word	674
+	.byte	6,2,35,38,7
+	.byte	'hwaddr_len',0
+	.word	227
+	.byte	1,2,35,44,7
+	.byte	'flags',0
+	.word	227
+	.byte	1,2,35,45,7
+	.byte	'name',0
+	.word	691
+	.byte	2,2,35,46,7
+	.byte	'num',0
+	.word	227
+	.byte	1,2,35,48,7
+	.byte	'rs_count',0
+	.word	227
+	.byte	1,2,35,49,0,12
+	.word	700
+.L120:
+	.byte	5
+	.word	973
+	.byte	5
+	.word	464
+	.byte	5
+	.word	521
+	.byte	5
+	.word	574
+	.byte	5
+	.word	626
+	.byte	12
+	.word	683
+.L129:
+	.byte	5
+	.word	1003
+.L132:
+	.byte	2
+	.byte	'int',0,4,5
+.L135:
+	.byte	5
+	.word	249
+.L141:
+	.byte	14,16
+	.word	172
+	.byte	15,3,0
+.L143:
+	.byte	5
+	.word	172
+.L145:
+	.byte	5
+	.word	683
+	.byte	12
+	.word	249
+.L147:
+	.byte	5
+	.word	1044
+.L149:
+	.byte	14,16
+	.word	683
+	.byte	15,15,0
+.L155:
+	.byte	14,3
+	.word	683
+	.byte	15,2,0
+.L158:
+	.byte	5
+	.word	227
+	.byte	16,1,5
+	.word	1077
+	.byte	11
+	.byte	'__codeptr',0,5,1,1
+	.word	1079
+	.byte	11
+	.byte	'boolean',0,6,102,29
+	.word	227
+	.byte	11
+	.byte	'uint8',0,6,106,29
+	.word	227
+	.byte	11
+	.byte	'uint16',0,6,110,29
+	.word	297
+	.byte	11
+	.byte	'uint32',0,6,114,29
+	.word	172
+	.byte	11
+	.byte	'Std_ReturnType',0,7,109,16
+	.word	227
+	.byte	11
+	.byte	'PduIdType',0,8,37,21
+	.word	227
+	.byte	11
+	.byte	'PduLengthType',0,8,41,22
+	.word	297
+	.byte	17,9,101,9,1,18
+	.byte	'BUFREQ_OK',0,0,18
+	.byte	'BUFREQ_E_NOT_OK',0,1,18
+	.byte	'BUFREQ_E_BUSY',0,2,18
+	.byte	'BUFREQ_E_OVFL',0,3,0,11
+	.byte	'BufReq_ReturnType',0,9,107,3
+	.word	1225
+	.byte	5
+	.word	227
+	.byte	11
+	.byte	'SduDataPtrType',0,9,189,1,40
+	.word	1319
+	.byte	17,9,204,1,9,1,18
+	.byte	'TP_DATACONF',0,0,18
+	.byte	'TP_DATARETRY',0,1,18
+	.byte	'TP_CONFPENDING',0,2,0,11
+	.byte	'TpDataStateType',0,9,216,1,3
+	.word	1348
+	.byte	11
+	.byte	'TcpIp_SocketIdType',0,10,50,16
+	.word	227
+	.byte	14,4
+	.word	172
+	.byte	15,0,0,19,10,52,9,4,7
+	.byte	'Addr',0
+	.word	1453
+	.byte	4,2,35,0,0,11
+	.byte	'TcpIp_IpAddressType',0,10,55,3
+	.word	1462
+	.byte	11
+	.byte	'TcpIp_DomainType',0,10,61,16
+	.word	297
+	.byte	19,10,68,9,8,7
+	.byte	'Domain',0
+	.word	297
+	.byte	2,2,35,0,7
+	.byte	'Port',0
+	.word	297
+	.byte	2,2,35,2,7
+	.byte	'Addr',0
+	.word	1453
+	.byte	4,2,35,4,0,11
+	.byte	'TcpIp_SockAddrInetType',0,10,73,3
+	.word	1535
+	.byte	11
+	.byte	'TcpIp_AddressType',0,11,128,1,15
+	.word	227
+	.byte	11
+	.byte	'TcpIp_CtrlIdType',0,11,142,1,15
+	.word	227
+	.byte	11
+	.byte	'TcpIp_IpAddrStateType',0,11,144,1,15
+	.word	227
+	.byte	11
+	.byte	'TcpIp_LocalAddrAssignmentConfigType',0,11,149,1,15
+	.word	227
+	.byte	11
+	.byte	'TcpIp_StaticAddrIdType',0,11,151,1,15
+	.word	227
+	.byte	19,11,152,1,9,12,7
+	.byte	'State',0
+	.word	227
+	.byte	1,2,35,0,7
+	.byte	'Netmask',0
+	.word	227
+	.byte	1,2,35,1,7
+	.byte	'Domain',0
+	.word	297
+	.byte	2,2,35,2,7
+	.byte	'IpAddr',0
+	.word	1462
+	.byte	4,2,35,4,7
+	.byte	'DefaultRouter',0
+	.word	1462
+	.byte	4,2,35,8,0,11
+	.byte	'TcpIp_StaticIpAddrType',0,11,162,1,3
+	.word	1777
+	.byte	11
+	.byte	'TcpIp_LocalAddrIdType',0,11,173,1,15
+	.word	227
+	.byte	14,3
+	.word	227
+	.byte	15,2,0,19,11,231,1,9,8,7
+	.byte	'CtrlId',0
+	.word	227
+	.byte	1,2,35,0,7
+	.byte	'Address',0
+	.word	227
+	.byte	1,2,35,1,7
+	.byte	'Domain',0
+	.word	297
+	.byte	2,2,35,2,7
+	.byte	'StaticAddrId',0
+	.word	227
+	.byte	1,2,35,4,7
+	.byte	'Assignments',0
+	.word	1934
+	.byte	3,2,35,5,0,11
+	.byte	'TcpIp_LocalAddrConfigType',0,11,243,1,3
+	.word	1943
+	.byte	19,11,245,1,9,4,7
+	.byte	'ArpConfigId',0
+	.word	227
+	.byte	1,2,35,0,7
+	.byte	'DHCPConfigId',0
+	.word	227
+	.byte	1,2,35,1,7
+	.byte	'AutoIpInitTimeout',0
+	.word	297
+	.byte	2,2,35,2,0,11
+	.byte	'TcpIp_IpV4CtrlConfigType',0,11,130,2,3
+	.word	2077
+	.byte	19,11,133,2,9,8,7
+	.byte	'CtrlIdx',0
+	.word	227
+	.byte	1,2,35,0,7
+	.byte	'FramePrio',0
+	.word	227
+	.byte	1,2,35,1,7
+	.byte	'UnicastAddrId',0
+	.word	227
+	.byte	1,2,35,2,7
+	.byte	'UnicastAddrLimit',0
+	.word	227
+	.byte	1,2,35,3,7
+	.byte	'MulticastAddrId',0
+	.word	227
+	.byte	1,2,35,4,7
+	.byte	'LocalAddrLimit',0
+	.word	227
+	.byte	1,2,35,5,7
+	.byte	'IpV4CtrlId',0
+	.word	227
+	.byte	1,2,35,6,7
+	.byte	'IpV6CtrlId',0
+	.word	227
+	.byte	1,2,35,7,0,11
+	.byte	'TcpIp_NetIfCtrlConfigType',0,11,148,2,3
+	.word	2188
+	.byte	11
+	.byte	'SoAd_RoutingGroupIdType',0,12,43,15
+	.word	227
+	.byte	11
+	.byte	'SoAd_SoConIdType',0,12,44,15
+	.word	227
+	.byte	11
+	.byte	'SoAd_SoConGroupIdType',0,12,45,15
+	.word	227
+	.byte	11
+	.byte	'SoAd_PduRouteIdType',0,12,46,15
+	.word	227
+	.byte	11
+	.byte	'SoAd_PduRouteDestIdType',0,12,47,15
+	.word	227
+	.byte	11
+	.byte	'SoAd_SocketRouteIdType',0,12,48,15
+	.word	227
+	.byte	11
+	.byte	'SoAd_IfTxUnconfirmedType',0,12,49,16
+	.word	297
+	.byte	11
+	.byte	'SoAd_IfTxTimerType',0,12,51,16
+	.word	297
+	.byte	14,1
+	.word	227
+	.byte	15,0,0,19,12,53,9,2,7
+	.byte	'Mask',0
+	.word	2642
+	.byte	1,2,35,0,7
+	.byte	'RoutingState',0
+	.word	2642
+	.byte	1,2,35,1,0,11
+	.byte	'SoAd_RoutingGroupCtrlType',0,12,57,3
+	.word	2651
+	.byte	17,12,63,9,1,18
+	.byte	'SOAD_UL_DOIP',0,0,18
+	.byte	'SOAD_UL_UDPNM',0,1,18
+	.byte	'SOAD_UL_PDUR',0,2,18
+	.byte	'SOAD_UL_XCP',0,3,18
+	.byte	'SOAD_UL_MAX',0,4,0,11
+	.byte	'SoAd_ULIndexType',0,12,71,3
+	.word	2727
+	.byte	11
+	.byte	'SoAd_RemoteAddressType',0,13,113,32
+	.word	1535
+	.byte	17,13,115,9,1,18
+	.byte	'SOAD_SOCON_UNINIT',0,0,18
+	.byte	'SOAD_SOCON_OFFLINE',0,1,18
+	.byte	'SOAD_SOCON_RECONN',0,2,18
+	.byte	'SOAD_SOCON_ONLINE',0,3,0,11
+	.byte	'SoAd_SoConModeType',0,13,121,3
+	.word	2863
+	.byte	12
+	.word	227
+	.byte	5
+	.word	2977
+	.byte	12
+	.word	227
+	.byte	5
+	.word	2987
+	.byte	12
+	.word	227
+	.byte	5
+	.word	2997
+	.byte	12
+	.word	2727
+	.byte	5
+	.word	3007
+	.byte	19,13,129,1,9,36,7
+	.byte	'IfBufferLength',0
+	.word	297
+	.byte	2,2,35,0,7
+	.byte	'IfBufferOffset',0
+	.word	297
+	.byte	2,2,35,2,7
+	.byte	'TpBufferLength',0
+	.word	297
+	.byte	2,2,35,4,7
+	.byte	'TpBufferOffset',0
+	.word	297
+	.byte	2,2,35,6,7
+	.byte	'PduRouteNum',0
+	.word	227
+	.byte	1,2,35,8,7
+	.byte	'SocketRouteNum',0
+	.word	227
+	.byte	1,2,35,9,7
+	.byte	'PduRouteDestNum',0
+	.word	227
+	.byte	1,2,35,10,7
+	.byte	'RemoteAddrState',0
+	.word	227
+	.byte	1,2,35,11,7
+	.byte	'RemoteAddr',0
+	.word	1535
+	.byte	8,2,35,12,7
+	.byte	'PduRouteDestList',0
+	.word	2982
+	.byte	4,2,35,20,7
+	.byte	'PduRouteList',0
+	.word	2992
+	.byte	4,2,35,24,7
+	.byte	'SocketRouteList',0
+	.word	3002
+	.byte	4,2,35,28,7
+	.byte	'SoConModeChgList',0
+	.word	3012
+	.byte	4,2,35,32,0,11
+	.byte	'SoAd_SocketConnectionType',0,13,146,1,3
+	.word	3017
+	.byte	19,13,148,1,9,16,7
+	.byte	'CtrlFlag',0
+	.word	227
+	.byte	1,2,35,0,7
+	.byte	'KeepAliveProbesMax',0
+	.word	297
+	.byte	2,2,35,2,7
+	.byte	'KeepAliveInterval',0
+	.word	172
+	.byte	4,2,35,4,7
+	.byte	'KeepAliveTime',0
+	.word	172
+	.byte	4,2,35,8,7
+	.byte	'TxQuota',0
+	.word	172
+	.byte	4,2,35,12,0,11
+	.byte	'SoAd_TcpProtocolType',0,13,155,1,3
+	.word	3369
+	.byte	19,13,157,1,9,12,7
+	.byte	'CtrlFlag',0
+	.word	227
+	.byte	1,2,35,0,7
+	.byte	'nPduTxBufferMin',0
+	.word	297
+	.byte	2,2,35,2,7
+	.byte	'TriggerTimeout',0
+	.word	297
+	.byte	2,2,35,4,7
+	.byte	'AliveSupervisionTimeout',0
+	.word	172
+	.byte	4,2,35,6,0,11
+	.byte	'SoAd_UdpProtocolType',0,13,163,1,3
+	.word	3519
+	.byte	12
+	.word	3369
+	.byte	5
+	.word	3656
+	.byte	12
+	.word	3519
+	.byte	5
+	.word	3666
+	.byte	19,13,165,1,9,24,7
+	.byte	'GroupId',0
+	.word	227
+	.byte	1,2,35,0,7
+	.byte	'CtrlFlag',0
+	.word	227
+	.byte	1,2,35,1,7
+	.byte	'FramePriority',0
+	.word	227
+	.byte	1,2,35,2,7
+	.byte	'SoConNum',0
+	.word	227
+	.byte	1,2,35,3,7
+	.byte	'SoConId',0
+	.word	227
+	.byte	1,2,35,4,7
+	.byte	'IpAddrAssignChgNum',0
+	.word	227
+	.byte	1,2,35,5,7
+	.byte	'LocalAddrId',0
+	.word	227
+	.byte	1,2,35,6,7
+	.byte	'LocalPort',0
+	.word	297
+	.byte	2,2,35,8,7
+	.byte	'IpAddrAssignChgList',0
+	.word	3012
+	.byte	4,2,35,12,7
+	.byte	'TcpProtocolPtr',0
+	.word	3661
+	.byte	4,2,35,16,7
+	.byte	'UdpProtocolPtr',0
+	.word	3671
+	.byte	4,2,35,20,0,11
+	.byte	'SoAd_SocketConnectionGroupType',0,13,178,1,3
+	.word	3676
+	.byte	12
+	.word	227
+	.byte	5
+	.word	3961
+	.byte	19,13,180,1,9,12,7
+	.byte	'CtrlFlag',0
+	.word	227
+	.byte	1,2,35,0,7
+	.byte	'PduRouteDestNum',0
+	.word	227
+	.byte	1,2,35,1,7
+	.byte	'SocketRouteDestNum',0
+	.word	227
+	.byte	1,2,35,2,7
+	.byte	'PduRouteDestList',0
+	.word	3966
+	.byte	4,2,35,4,7
+	.byte	'SocketRouteDestList',0
+	.word	3966
+	.byte	4,2,35,8,0,11
+	.byte	'SoAd_RoutingGroupType',0,13,187,1,3
+	.word	3971
+	.byte	19,13,189,1,9,6,7
+	.byte	'ULType',0
+	.word	227
+	.byte	1,2,35,0,7
+	.byte	'ULIndex',0
+	.word	2727
+	.byte	1,2,35,1,7
+	.byte	'CtrlFlag',0
+	.word	227
+	.byte	1,2,35,2,7
+	.byte	'RouteDestNum',0
+	.word	227
+	.byte	1,2,35,3,7
+	.byte	'RouteDestId',0
+	.word	227
+	.byte	1,2,35,4,7
+	.byte	'TxPduId',0
+	.word	227
+	.byte	1,2,35,5,0,11
+	.byte	'SoAd_PduRouteType',0,13,204,1,3
+	.word	4135
+	.byte	5
+	.word	2651
+	.byte	19,13,206,1,9,20,7
+	.byte	'TxPduHeaderId',0
+	.word	172
+	.byte	4,2,35,0,7
+	.byte	'SoConNum',0
+	.word	227
+	.byte	1,2,35,4,7
+	.byte	'SoConId',0
+	.word	227
+	.byte	1,2,35,5,7
+	.byte	'PduRouteId',0
+	.word	227
+	.byte	1,2,35,6,7
+	.byte	'UdpTriggerMode',0
+	.word	227
+	.byte	1,2,35,7,7
+	.byte	'UdpTriggerTimeout',0
+	.word	297
+	.byte	2,2,35,8,7
+	.byte	'RoutingCtrlList',0
+	.word	4280
+	.byte	4,2,35,12,7
+	.byte	'IfTriggerList',0
+	.word	1319
+	.byte	4,2,35,16,0,11
+	.byte	'SoAd_PduRouteDestType',0,13,217,1,3
+	.word	4285
+	.byte	19,13,219,1,9,16,7
+	.byte	'RxPduHeaderId',0
+	.word	172
+	.byte	4,2,35,0,7
+	.byte	'ULType',0
+	.word	227
+	.byte	1,2,35,4,7
+	.byte	'ULIndex',0
+	.word	2727
+	.byte	1,2,35,5,7
+	.byte	'SoConNum',0
+	.word	227
+	.byte	1,2,35,6,7
+	.byte	'SoConId',0
+	.word	227
+	.byte	1,2,35,7,7
+	.byte	'RxPduId',0
+	.word	227
+	.byte	1,2,35,8,7
+	.byte	'RoutingCtrlList',0
+	.word	4280
+	.byte	4,2,35,12,0,11
+	.byte	'SoAd_SocketRouteType',0,13,236,1,3
+	.word	4500
+	.byte	12
+	.word	4285
+	.byte	5
+	.word	4670
+	.byte	19,13,155,2,9,24,7
+	.byte	'State',0
+	.word	227
+	.byte	1,2,35,0,7
+	.byte	'Timer',0
+	.word	297
+	.byte	2,2,35,2,7
+	.byte	'BufferLength',0
+	.word	297
+	.byte	2,2,35,4,7
+	.byte	'BufferOffset',0
+	.word	297
+	.byte	2,2,35,6,7
+	.byte	'UdpTxBuffer',0
+	.word	1319
+	.byte	4,2,35,8,7
+	.byte	'TotalTxLength',0
+	.word	297
+	.byte	2,2,35,12,7
+	.byte	'UsedTxLength',0
+	.word	297
+	.byte	2,2,35,14,7
+	.byte	'IfTxDataBuffer',0
+	.word	3966
+	.byte	4,2,35,16,7
+	.byte	'PduRouteDestPtr',0
+	.word	4675
+	.byte	4,2,35,20,0,11
+	.byte	'SoAd_TxSessionType',0,13,177,2,3
+	.word	4680
+	.byte	12
+	.word	4500
+	.byte	5
+	.word	4904
+	.byte	19,13,180,2,9,8,7
+	.byte	'PduLength',0
+	.word	297
+	.byte	2,2,35,0,7
+	.byte	'RemainLength',0
+	.word	297
+	.byte	2,2,35,2,7
+	.byte	'SocketRoutePtr',0
+	.word	4909
+	.byte	4,2,35,4,0,11
+	.byte	'SoAd_RxPduInfoType',0,13,185,2,3
+	.word	4914
+	.byte	19,13,187,2,9,12,7
+	.byte	'TotalLength',0
+	.word	297
+	.byte	2,2,35,0,7
+	.byte	'In',0
+	.word	297
+	.byte	2,2,35,2,7
+	.byte	'Out',0
+	.word	297
+	.byte	2,2,35,4,7
+	.byte	'BufferPtr',0
+	.word	1319
+	.byte	4,2,35,8,0,11
+	.byte	'SoAd_RxFifoType',0,13,193,2,3
+	.word	5014
+	.byte	19,13,195,2,9,8,7
+	.byte	'TotalLength',0
+	.word	297
+	.byte	2,2,35,0,7
+	.byte	'UsedLength',0
+	.word	297
+	.byte	2,2,35,2,7
+	.byte	'BufferPtr',0
+	.word	1319
+	.byte	4,2,35,4,0,11
+	.byte	'SoAd_RxBufferType',0,13,200,2,3
+	.word	5111
+	.byte	14,8
+	.word	227
+	.byte	15,7,0,19,13,202,2,9,48,7
+	.byte	'State',0
+	.word	227
+	.byte	1,2,35,0,7
+	.byte	'ValidHeaderLen',0
+	.word	227
+	.byte	1,2,35,1,7
+	.byte	'PduHeader',0
+	.word	5205
+	.byte	8,2,35,2,7
+	.byte	'RxPduInfo',0
+	.word	4914
+	.byte	8,2,35,12,7
+	.byte	'ProcessPduInfo',0
+	.word	4914
+	.byte	8,2,35,20,7
+	.byte	'IfBuffer',0
+	.word	5111
+	.byte	8,2,35,28,7
+	.byte	'TpBuffer',0
+	.word	5014
+	.byte	12,2,35,36,0,11
+	.byte	'SoAd_RxSessionType',0,13,216,2,3
+	.word	5214
+	.byte	11
+	.byte	'u8_t',0,14,61,25
+	.word	227
+	.byte	11
+	.byte	's8_t',0,14,62,25
+	.word	278
+	.byte	11
+	.byte	'u16_t',0,14,63,25
+	.word	297
+	.byte	11
+	.byte	'u32_t',0,14,65,25
+	.word	172
+	.byte	14,129,2
+	.word	227
+	.byte	15,128,2,0,12
+	.word	5440
+	.byte	20
+	.byte	'__ctype',0,15,41,39
+	.word	5451
+	.byte	1,1,11
+	.byte	'ip4_addr_t',0,3,57,25
+	.word	249
+	.byte	11
+	.byte	'ip_addr_t',0,16,142,2,20
+	.word	249
+.L164:
+	.byte	12
+	.word	249
+.L165:
+	.byte	12
+	.word	249
+	.byte	11
+	.byte	'err_t',0,17,96,14
+	.word	278
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L80:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,46,1,3,8,58,15,59,15,57,15
+	.byte	73,19,54,15,39,12,63,12,60,12,0,0,4,5,0,3,8,58,15,59,15,57,15,73,19,0,0,5,15,0,73,19,0,0,6,19,1,3,8,58
+	.byte	15,59,15,57,15,11,15,0,0,7,13,0,3,8,73,19,11,15,56,9,0,0,8,59,0,3,8,0,0,9,21,1,73,19,54,15,39,12,0,0,10
+	.byte	5,0,73,19,0,0,11,22,0,3,8,58,15,59,15,57,15,73,19,0,0,12,38,0,73,19,0,0,13,21,1,54,15,39,12,0,0,14,1,1
+	.byte	11,15,73,19,0,0,15,33,0,47,15,0,0,16,21,0,54,15,0,0,17,4,1,58,15,59,15,57,15,11,15,0,0,18,40,0,3,8,28
+	.byte	13,0,0,19,19,1,58,15,59,15,57,15,11,15,0,0,20,52,0,3,8,58,15,59,15,57,15,73,19,63,12,60,12,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L81:
+	.word	.L197-.L196
+.L196:
+	.half	3
+	.word	.L199-.L198
+.L198:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Config',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\SoAd',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\arch',0
+	.byte	'C:\\tasking\\ctc\\include\\',0,0
+	.byte	'def.h',0,1,0,0
+	.byte	'netif.h',0,1,0,0
+	.byte	'ip4_addr.h',0,1,0,0
+	.byte	'pbuf.h',0,1,0,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4_addr.c',0,0,0,0
+	.byte	'Platform_Types.h',0,2,0,0
+	.byte	'Std_Types.h',0,2,0,0
+	.byte	'ComStack_Types_Cfg.h',0,3,0,0
+	.byte	'ComStack_Types.h',0,4,0,0
+	.byte	'TcpIp_GeneratedTypes.h',0,3,0,0
+	.byte	'TcpIp_Types.h',0,5,0,0
+	.byte	'SoAd_GeneratedTypes.h',0,3,0,0
+	.byte	'SoAd_Types.h',0,6,0,0
+	.byte	'cc.h',0,7,0,0
+	.byte	'ctype.h',0,8,0,0
+	.byte	'ip_addr.h',0,1,0,0
+	.byte	'err.h',0,1,0,0,0
+.L199:
+.L197:
+	.sdecl	'.debug_info',debug,cluster('ip4_addr_isbroadcast_u32')
+	.sect	'.debug_info'
+.L82:
+	.word	291
+	.half	3
+	.word	.L83
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4_addr.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L85,.L84
+	.byte	2
+	.word	.L78
+	.byte	3
+	.byte	'ip4_addr_isbroadcast_u32',0,1,58,1
+	.word	.L116
+	.byte	1,1,1
+	.word	.L67,.L117,.L66
+	.byte	4
+	.byte	'addr',0,1,58,32
+	.word	.L118,.L119
+	.byte	4
+	.byte	'netif',0,1,58,58
+	.word	.L120,.L121
+	.byte	5
+	.word	.L67,.L117
+	.byte	6
+	.byte	'ipaddr',0,1,60,14
+	.word	.L122,.L123
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ip4_addr_isbroadcast_u32')
+	.sect	'.debug_abbrev'
+.L83:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ip4_addr_isbroadcast_u32')
+	.sect	'.debug_line'
+.L84:
+	.word	.L201-.L200
+.L200:
+	.half	3
+	.word	.L203-.L202
+.L202:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4_addr.c',0,0,0,0,0
+.L203:
+	.byte	5,8,7,0,5,2
+	.word	.L67
+	.byte	3,63,1,5,7,9
+	.half	.L204-.L67
+	.byte	1,5,13,7,9
+	.half	.L205-.L204
+	.byte	3,1,1,5,20,7,9
+	.half	.L206-.L205
+	.byte	3,3,1,5,10,9
+	.half	.L207-.L206
+	.byte	1,5,22,7,9
+	.half	.L208-.L207
+	.byte	3,5,1,5,10,9
+	.half	.L209-.L208
+	.byte	1,5,14,7,9
+	.half	.L210-.L209
+	.byte	3,3,1,5,26,9
+	.half	.L211-.L210
+	.byte	3,2,1,5,24,9
+	.half	.L212-.L211
+	.byte	1,5,71,9
+	.half	.L166-.L212
+	.byte	1,5,12,7,9
+	.half	.L2-.L166
+	.byte	3,3,1,5,1,9
+	.half	.L213-.L2
+	.byte	3,4,1,5,12,7,9
+	.half	.L4-.L213
+	.byte	3,126,1,5,1,9
+	.half	.L214-.L4
+	.byte	3,2,1,7,9
+	.half	.L86-.L214
+	.byte	0,1,1
+.L201:
+	.sdecl	'.debug_ranges',debug,cluster('ip4_addr_isbroadcast_u32')
+	.sect	'.debug_ranges'
+.L85:
+	.word	-1,.L67,0,.L86-.L67,0,0
+	.sdecl	'.debug_info',debug,cluster('ip4_addr_netmask_valid')
+	.sect	'.debug_info'
+.L87:
+	.word	297
+	.half	3
+	.word	.L88
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4_addr.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L90,.L89
+	.byte	2
+	.word	.L78
+	.byte	3
+	.byte	'ip4_addr_netmask_valid',0,1,93,1
+	.word	.L116
+	.byte	1,1,1
+	.word	.L69,.L124,.L68
+	.byte	4
+	.byte	'netmask',0,1,93,30
+	.word	.L118,.L125
+	.byte	5
+	.word	.L69,.L124
+	.byte	6
+	.byte	'mask',0,1,95,9
+	.word	.L118,.L126
+	.byte	6
+	.byte	'nm_hostorder',0,1,96,9
+	.word	.L118,.L127
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ip4_addr_netmask_valid')
+	.sect	'.debug_abbrev'
+.L88:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ip4_addr_netmask_valid')
+	.sect	'.debug_line'
+.L89:
+	.word	.L216-.L215
+.L215:
+	.half	3
+	.word	.L218-.L217
+.L217:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4_addr.c',0,0,0,0,0
+.L218:
+	.byte	5,35,7,0,5,2
+	.word	.L69
+	.byte	3,223,0,1,5,19,9
+	.half	.L167-.L69
+	.byte	3,3,1,5,36,9
+	.half	.L169-.L167
+	.byte	1,5,23,9
+	.half	.L11-.L169
+	.byte	3,1,1,5,5,9
+	.half	.L219-.L11
+	.byte	1,5,43,7,9
+	.half	.L220-.L219
+	.byte	3,127,1,5,36,9
+	.half	.L10-.L220
+	.byte	1,5,19,7,9
+	.half	.L221-.L10
+	.byte	3,6,1,5,23,9
+	.half	.L14-.L221
+	.byte	3,1,1,5,5,9
+	.half	.L222-.L14
+	.byte	1,5,14,7,9
+	.half	.L223-.L222
+	.byte	3,2,1,5,1,9
+	.half	.L168-.L223
+	.byte	3,5,1,5,26,7,9
+	.half	.L15-.L168
+	.byte	3,120,1,5,19,9
+	.half	.L13-.L15
+	.byte	1,5,10,7,9
+	.half	.L224-.L13
+	.byte	3,7,1,5,1,9
+	.half	.L170-.L224
+	.byte	3,1,1,7,9
+	.half	.L91-.L170
+	.byte	0,1,1
+.L216:
+	.sdecl	'.debug_ranges',debug,cluster('ip4_addr_netmask_valid')
+	.sect	'.debug_ranges'
+.L90:
+	.word	-1,.L69,0,.L91-.L69,0,0
+	.sdecl	'.debug_info',debug,cluster('ipaddr_addr')
+	.sect	'.debug_info'
+.L92:
+	.word	255
+	.half	3
+	.word	.L93
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4_addr.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L95,.L94
+	.byte	2
+	.word	.L78
+	.byte	3
+	.byte	'ipaddr_addr',0,1,123,1
+	.word	.L118
+	.byte	1,1,1
+	.word	.L71,.L128,.L70
+	.byte	4
+	.byte	'cp',0,1,123,25
+	.word	.L129,.L130
+	.byte	5
+	.word	.L71,.L128
+	.byte	6
+	.byte	'val',0,1,125,14
+	.word	.L122,.L131
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ipaddr_addr')
+	.sect	'.debug_abbrev'
+.L93:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ipaddr_addr')
+	.sect	'.debug_line'
+.L94:
+	.word	.L226-.L225
+.L225:
+	.half	3
+	.word	.L228-.L227
+.L227:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4_addr.c',0,0,0,0,0
+.L228:
+	.byte	5,1,7,0,5,2
+	.word	.L71
+	.byte	3,250,0,1,5,25,9
+	.half	.L171-.L71
+	.byte	3,4,1,5,3,9
+	.half	.L172-.L171
+	.byte	1,5,12,7,9
+	.half	.L229-.L172
+	.byte	3,1,1,5,1,9
+	.half	.L230-.L229
+	.byte	3,3,1,5,11,7,9
+	.half	.L18-.L230
+	.byte	3,127,1,5,1,9
+	.half	.L231-.L18
+	.byte	3,1,1,7,9
+	.half	.L96-.L231
+	.byte	0,1,1
+.L226:
+	.sdecl	'.debug_ranges',debug,cluster('ipaddr_addr')
+	.sect	'.debug_ranges'
+.L95:
+	.word	-1,.L71,0,.L96-.L71,0,0
+	.sdecl	'.debug_info',debug,cluster('ip4addr_aton')
+	.sect	'.debug_info'
+.L97:
+	.word	345
+	.half	3
+	.word	.L98
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4_addr.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L100,.L99
+	.byte	2
+	.word	.L78
+	.byte	3
+	.byte	'ip4addr_aton',0,1,145,1,1
+	.word	.L132
+	.byte	1,1,1
+	.word	.L73,.L133,.L72
+	.byte	4
+	.byte	'cp',0,1,145,1,26
+	.word	.L129,.L134
+	.byte	4
+	.byte	'addr',0,1,145,1,42
+	.word	.L135,.L136
+	.byte	5
+	.word	.L73,.L133
+	.byte	6
+	.byte	'val',0,1,147,1,9
+	.word	.L118,.L137
+	.byte	6
+	.byte	'base',0,1,148,1,8
+	.word	.L116,.L138
+	.byte	6
+	.byte	'c',0,1,149,1,8
+	.word	.L139,.L140
+	.byte	6
+	.byte	'parts',0,1,150,1,9
+	.word	.L141,.L142
+	.byte	6
+	.byte	'pp',0,1,151,1,10
+	.word	.L143,.L144
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ip4addr_aton')
+	.sect	'.debug_abbrev'
+.L98:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ip4addr_aton')
+	.sect	'.debug_line'
+.L99:
+	.word	.L233-.L232
+.L232:
+	.half	3
+	.word	.L235-.L234
+.L234:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4_addr.c',0,0,0,0,0
+.L235:
+	.byte	5,1,7,0,5,2
+	.word	.L73
+	.byte	3,144,1,1,5,15,9
+	.half	.L175-.L73
+	.byte	3,6,1,5,14,9
+	.half	.L176-.L175
+	.byte	3,14,1,5,16,9
+	.half	.L236-.L176
+	.byte	3,2,1,5,28,9
+	.half	.L237-.L236
+	.byte	1,5,26,9
+	.half	.L238-.L237
+	.byte	3,11,1,5,14,9
+	.half	.L239-.L238
+	.byte	3,7,1,5,9,9
+	.half	.L240-.L239
+	.byte	3,97,1,5,10,9
+	.half	.L22-.L240
+	.byte	3,6,1,5,9,9
+	.half	.L241-.L22
+	.byte	3,3,1,5,10,9
+	.half	.L178-.L241
+	.byte	3,1,1,5,5,9
+	.half	.L180-.L178
+	.byte	3,1,1,5,11,7,9
+	.half	.L242-.L180
+	.byte	3,1,1,9
+	.half	.L243-.L242
+	.byte	3,1,1,5,25,7,9
+	.half	.L244-.L243
+	.byte	1,5,14,7,9
+	.half	.L25-.L244
+	.byte	3,1,1,5,18,9
+	.half	.L245-.L25
+	.byte	1,5,14,9
+	.half	.L26-.L245
+	.byte	3,3,1,5,11,9
+	.half	.L28-.L26
+	.byte	3,4,1,5,7,9
+	.half	.L246-.L28
+	.byte	1,5,40,7,9
+	.half	.L247-.L246
+	.byte	3,1,1,5,28,9
+	.half	.L248-.L247
+	.byte	1,5,46,9
+	.half	.L249-.L248
+	.byte	1,5,18,9
+	.half	.L29-.L249
+	.byte	3,2,1,5,32,7,9
+	.half	.L250-.L29
+	.byte	1,5,46,9
+	.half	.L251-.L250
+	.byte	3,1,1,5,20,9
+	.half	.L252-.L251
+	.byte	1,5,36,9
+	.half	.L179-.L252
+	.byte	1,5,26,9
+	.half	.L181-.L179
+	.byte	1,5,13,9
+	.half	.L27-.L181
+	.byte	3,1,1,5,11,9
+	.half	.L182-.L27
+	.byte	3,122,1,5,5,9
+	.half	.L31-.L182
+	.byte	3,11,1,5,23,7,9
+	.half	.L253-.L31
+	.byte	3,7,1,5,14,9
+	.half	.L254-.L253
+	.byte	1,5,7,9
+	.half	.L255-.L254
+	.byte	1,5,13,7,9
+	.half	.L256-.L255
+	.byte	3,3,1,5,12,9
+	.half	.L257-.L256
+	.byte	3,1,1,5,11,9
+	.half	.L21-.L257
+	.byte	1,5,9,9
+	.half	.L183-.L21
+	.byte	3,86,1,5,7,9
+	.half	.L33-.L183
+	.byte	3,50,1,5,21,7,9
+	.half	.L258-.L33
+	.byte	1,5,16,9
+	.half	.L35-.L258
+	.byte	3,7,1,5,14,9
+	.half	.L259-.L35
+	.byte	1,5,22,9
+	.half	.L260-.L259
+	.byte	1,5,10,9
+	.half	.L261-.L260
+	.byte	3,2,1,7,9
+	.half	.L262-.L261
+	.byte	3,6,1,7,9
+	.half	.L263-.L262
+	.byte	3,10,1,7,9
+	.half	.L264-.L263
+	.byte	3,10,1,7,9
+	.half	.L265-.L264
+	.byte	1,5,17,9
+	.half	.L38-.L265
+	.byte	3,109,1,5,7,9
+	.half	.L266-.L38
+	.byte	1,5,16,7,9
+	.half	.L267-.L266
+	.byte	3,3,1,5,22,9
+	.half	.L268-.L267
+	.byte	1,5,7,9
+	.half	.L269-.L268
+	.byte	1,5,23,7,9
+	.half	.L270-.L269
+	.byte	3,3,1,5,11,9
+	.half	.L271-.L270
+	.byte	1,5,7,9
+	.half	.L272-.L271
+	.byte	3,1,1,5,17,9
+	.half	.L39-.L272
+	.byte	3,3,1,5,7,9
+	.half	.L273-.L39
+	.byte	1,5,17,7,9
+	.half	.L274-.L273
+	.byte	3,3,1,5,23,9
+	.half	.L275-.L274
+	.byte	1,5,11,9
+	.half	.L276-.L275
+	.byte	1,5,38,7,9
+	.half	.L277-.L276
+	.byte	1,5,42,9
+	.half	.L278-.L277
+	.byte	1,5,24,7,9
+	.half	.L279-.L278
+	.byte	3,3,1,5,43,9
+	.half	.L280-.L279
+	.byte	1,5,31,9
+	.half	.L281-.L280
+	.byte	1,5,11,9
+	.half	.L282-.L281
+	.byte	1,5,7,9
+	.half	.L283-.L282
+	.byte	3,1,1,5,17,9
+	.half	.L40-.L283
+	.byte	3,3,1,5,7,9
+	.half	.L284-.L40
+	.byte	1,5,17,7,9
+	.half	.L285-.L284
+	.byte	3,3,1,5,11,9
+	.half	.L286-.L285
+	.byte	1,5,38,7,9
+	.half	.L287-.L286
+	.byte	1,5,42,9
+	.half	.L288-.L287
+	.byte	1,5,59,7,9
+	.half	.L289-.L288
+	.byte	1,5,63,9
+	.half	.L290-.L289
+	.byte	1,5,16,7,9
+	.half	.L23-.L290
+	.byte	3,1,1,5,1,9
+	.half	.L291-.L23
+	.byte	3,12,1,5,20,7,9
+	.half	.L52-.L291
+	.byte	3,118,1,5,24,9
+	.half	.L292-.L52
+	.byte	1,5,39,9
+	.half	.L293-.L292
+	.byte	1,5,43,9
+	.half	.L294-.L293
+	.byte	1,5,31,9
+	.half	.L295-.L294
+	.byte	1,5,58,9
+	.half	.L296-.L295
+	.byte	1,5,62,9
+	.half	.L297-.L296
+	.byte	1,5,50,9
+	.half	.L298-.L297
+	.byte	1,5,11,9
+	.half	.L299-.L298
+	.byte	1,5,3,9
+	.half	.L41-.L299
+	.byte	3,6,1,5,5,7,9
+	.half	.L300-.L41
+	.byte	3,1,1,5,10,9
+	.half	.L54-.L300
+	.byte	3,2,1,5,1,9
+	.half	.L301-.L54
+	.byte	3,1,1,7,9
+	.half	.L101-.L301
+	.byte	0,1,1
+.L233:
+	.sdecl	'.debug_ranges',debug,cluster('ip4addr_aton')
+	.sect	'.debug_ranges'
+.L100:
+	.word	-1,.L73,0,.L101-.L73,0,0
+	.sdecl	'.debug_info',debug,cluster('ip4addr_ntoa')
+	.sect	'.debug_info'
+.L102:
+	.word	263
+	.half	3
+	.word	.L103
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4_addr.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L105,.L104
+	.byte	2
+	.word	.L78
+	.byte	3
+	.byte	'ip4addr_ntoa',0,1,139,2,1
+	.word	.L145
+	.byte	1,1,1
+	.word	.L75,.L146,.L74
+	.byte	4
+	.byte	'addr',0,1,139,2,32
+	.word	.L147,.L148
+	.byte	5
+	.word	.L75,.L146
+	.byte	6
+	.byte	'str',0,1,141,2,15
+	.word	.L149
+	.byte	5,3
+	.word	_999001_str
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ip4addr_ntoa')
+	.sect	'.debug_abbrev'
+.L103:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ip4addr_ntoa')
+	.sect	'.debug_line'
+.L104:
+	.word	.L303-.L302
+.L302:
+	.half	3
+	.word	.L305-.L304
+.L304:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4_addr.c',0,0,0,0,0
+.L305:
+	.byte	5,31,7,0,5,2
+	.word	.L75
+	.byte	3,141,2,1,5,36,9
+	.half	.L306-.L75
+	.byte	1,5,1,9
+	.half	.L106-.L306
+	.byte	3,1,0,1,1
+.L303:
+	.sdecl	'.debug_ranges',debug,cluster('ip4addr_ntoa')
+	.sect	'.debug_ranges'
+.L105:
+	.word	-1,.L75,0,.L106-.L75,0,0
+	.sdecl	'.debug_info',debug,cluster('ip4addr_ntoa_r')
+	.sect	'.debug_info'
+.L107:
+	.word	416
+	.half	3
+	.word	.L108
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4_addr.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L110,.L109
+	.byte	2
+	.word	.L78
+	.byte	3
+	.byte	'ip4addr_ntoa_r',0,1,155,2,1
+	.word	.L145
+	.byte	1,1,1
+	.word	.L77,.L150,.L76
+	.byte	4
+	.byte	'addr',0,1,155,2,34
+	.word	.L147,.L151
+	.byte	4
+	.byte	'buf',0,1,155,2,46
+	.word	.L145,.L152
+	.byte	4
+	.byte	'buflen',0,1,155,2,55
+	.word	.L132,.L153
+	.byte	5
+	.word	.L77,.L150
+	.byte	6
+	.byte	's_addr',0,1,157,2,9
+	.word	.L118,.L154
+	.byte	6
+	.byte	'inv',0,1,158,2,8
+	.word	.L155,.L156
+	.byte	6
+	.byte	'rp',0,1,159,2,9
+	.word	.L145,.L157
+	.byte	6
+	.byte	'ap',0,1,160,2,9
+	.word	.L158,.L159
+	.byte	6
+	.byte	'rem',0,1,161,2,8
+	.word	.L116,.L160
+	.byte	6
+	.byte	'n',0,1,162,2,8
+	.word	.L116,.L161
+	.byte	6
+	.byte	'i',0,1,163,2,8
+	.word	.L116,.L162
+	.byte	6
+	.byte	'len',0,1,164,2,7
+	.word	.L132,.L163
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ip4addr_ntoa_r')
+	.sect	'.debug_abbrev'
+.L108:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ip4addr_ntoa_r')
+	.sect	'.debug_line'
+.L109:
+	.word	.L308-.L307
+.L307:
+	.half	3
+	.word	.L310-.L309
+.L309:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4_addr.c',0,0,0,0,0
+.L310:
+	.byte	5,1,7,0,5,2
+	.word	.L77
+	.byte	3,154,2,1,5,11,9
+	.half	.L185-.L77
+	.byte	3,9,1,5,12,9
+	.half	.L187-.L185
+	.byte	3,2,1,5,10,9
+	.half	.L311-.L187
+	.byte	1,5,6,9
+	.half	.L312-.L311
+	.byte	3,2,1,5,17,9
+	.half	.L188-.L312
+	.byte	3,1,1,5,10,9
+	.half	.L186-.L188
+	.byte	3,1,1,5,19,9
+	.half	.L190-.L186
+	.byte	3,3,1,5,13,9
+	.half	.L313-.L190
+	.byte	3,13,1,5,20,9
+	.half	.L314-.L313
+	.byte	3,112,1,5,7,9
+	.half	.L58-.L314
+	.byte	3,1,1,5,13,9
+	.half	.L59-.L58
+	.byte	3,2,1,5,17,9
+	.half	.L315-.L59
+	.byte	1,5,11,9
+	.half	.L316-.L315
+	.byte	3,1,1,5,10,9
+	.half	.L317-.L316
+	.byte	3,1,1,5,29,9
+	.half	.L318-.L317
+	.byte	1,5,16,9
+	.half	.L319-.L318
+	.byte	1,5,12,9
+	.half	.L320-.L319
+	.byte	1,5,14,9
+	.half	.L321-.L320
+	.byte	3,1,1,5,18,9
+	.half	.L322-.L321
+	.byte	1,5,15,7,9
+	.half	.L323-.L322
+	.byte	3,1,1,5,13,9
+	.half	.L61-.L323
+	.byte	1,5,14,9
+	.half	.L324-.L61
+	.byte	3,1,1,5,7,9
+	.half	.L325-.L324
+	.byte	1,5,18,7,9
+	.half	.L326-.L325
+	.byte	3,3,1,5,13,9
+	.half	.L327-.L326
+	.byte	1,5,15,9
+	.half	.L60-.L327
+	.byte	3,124,1,5,12,7,9
+	.half	.L328-.L60
+	.byte	3,6,1,5,5,9
+	.half	.L329-.L328
+	.byte	1,5,14,7,9
+	.half	.L62-.L329
+	.byte	3,1,1,5,1,9
+	.half	.L189-.L62
+	.byte	3,7,1,5,11,7,9
+	.half	.L63-.L189
+	.byte	3,123,1,5,7,9
+	.half	.L330-.L63
+	.byte	3,1,1,5,23,9
+	.half	.L331-.L330
+	.byte	3,111,1,5,20,9
+	.half	.L57-.L331
+	.byte	1,5,11,7,9
+	.half	.L332-.L57
+	.byte	3,19,1,5,9,9
+	.half	.L333-.L332
+	.byte	1,5,3,9
+	.half	.L334-.L333
+	.byte	3,1,1,5,1,9
+	.half	.L193-.L334
+	.byte	3,1,1,7,9
+	.half	.L111-.L193
+	.byte	0,1,1
+.L308:
+	.sdecl	'.debug_ranges',debug,cluster('ip4addr_ntoa_r')
+	.sect	'.debug_ranges'
+.L110:
+	.word	-1,.L77,0,.L111-.L77,0,0
+	.sdecl	'.debug_info',debug,cluster('ip_addr_any')
+	.sect	'.debug_info'
+.L112:
+	.word	197
+	.half	3
+	.word	.L113
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4_addr.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1,2
+	.word	.L78
+	.byte	3
+	.byte	'ip_addr_any',0,5,47,17
+	.word	.L164
+	.byte	1,5,3
+	.word	ip_addr_any
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('ip_addr_any')
+	.sect	'.debug_abbrev'
+.L113:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('ip_addr_broadcast')
+	.sect	'.debug_info'
+.L114:
+	.word	203
+	.half	3
+	.word	.L115
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4_addr.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1,2
+	.word	.L78
+	.byte	3
+	.byte	'ip_addr_broadcast',0,5,48,17
+	.word	.L165
+	.byte	1,5,3
+	.word	ip_addr_broadcast
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('ip_addr_broadcast')
+	.sect	'.debug_abbrev'
+.L115:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_loc',debug,cluster('ip4_addr_isbroadcast_u32')
+	.sect	'.debug_loc'
+.L119:
+	.word	-1,.L67,0,.L166-.L67
+	.half	1
+	.byte	84
+	.word	0,0
+.L66:
+	.word	-1,.L67,0,.L117-.L67
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L123:
+	.word	0,0
+.L121:
+	.word	-1,.L67,0,.L117-.L67
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ip4_addr_netmask_valid')
+	.sect	'.debug_loc'
+.L68:
+	.word	-1,.L69,0,.L124-.L69
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L126:
+	.word	-1,.L69,.L169-.L69,.L124-.L69
+	.half	1
+	.byte	95
+	.word	0,0
+.L125:
+	.word	-1,.L69,0,.L167-.L69
+	.half	1
+	.byte	84
+	.word	0,0
+.L127:
+	.word	-1,.L69,.L167-.L69,.L168-.L69
+	.half	1
+	.byte	82
+	.word	.L15-.L69,.L170-.L69
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ip4addr_aton')
+	.sect	'.debug_loc'
+.L136:
+	.word	-1,.L73,0,.L174-.L73
+	.half	1
+	.byte	101
+	.word	.L175-.L73,.L133-.L73
+	.half	1
+	.byte	108
+	.word	0,0
+.L138:
+	.word	-1,.L73,.L180-.L73,.L21-.L73
+	.half	1
+	.byte	89
+	.word	.L33-.L73,.L23-.L73
+	.half	1
+	.byte	89
+	.word	.L52-.L73,.L133-.L73
+	.half	1
+	.byte	89
+	.word	0,0
+.L140:
+	.word	-1,.L73,.L22-.L73,.L177-.L73
+	.half	1
+	.byte	88
+	.word	.L182-.L73,.L21-.L73
+	.half	1
+	.byte	88
+	.word	.L183-.L73,.L133-.L73
+	.half	1
+	.byte	88
+	.word	0,0
+.L134:
+	.word	-1,.L73,0,.L174-.L73
+	.half	1
+	.byte	100
+	.word	0,0
+.L72:
+	.word	-1,.L73,0,.L173-.L73
+	.half	2
+	.byte	138,0
+	.word	.L173-.L73,.L52-.L73
+	.half	2
+	.byte	138,16
+	.word	.L52-.L73,.L52-.L73
+	.half	2
+	.byte	138,0
+	.word	.L52-.L73,.L133-.L73
+	.half	2
+	.byte	138,16
+	.word	.L133-.L73,.L133-.L73
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L142:
+	.word	-1,.L73,0,.L133-.L73
+	.half	2
+	.byte	145,112
+	.word	0,0
+.L144:
+	.word	-1,.L73,.L175-.L73,.L176-.L73
+	.half	1
+	.byte	106
+	.word	.L176-.L73,.L174-.L73
+	.half	1
+	.byte	98
+	.word	0,0
+.L137:
+	.word	-1,.L73,.L178-.L73,.L179-.L73
+	.half	1
+	.byte	82
+	.word	.L181-.L73,.L21-.L73
+	.half	1
+	.byte	82
+	.word	.L33-.L73,.L23-.L73
+	.half	1
+	.byte	82
+	.word	.L52-.L73,.L174-.L73
+	.half	1
+	.byte	82
+	.word	.L184-.L73,.L174-.L73
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ip4addr_ntoa')
+	.sect	'.debug_loc'
+.L148:
+	.word	-1,.L75,0,.L146-.L75
+	.half	1
+	.byte	100
+	.word	0,0
+.L74:
+	.word	-1,.L75,0,.L146-.L75
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ip4addr_ntoa_r')
+	.sect	'.debug_loc'
+.L151:
+	.word	-1,.L77,0,.L186-.L77
+	.half	1
+	.byte	100
+	.word	0,0
+.L159:
+	.word	-1,.L77,.L188-.L77,.L186-.L77
+	.half	1
+	.byte	106
+	.word	.L186-.L77,.L150-.L77
+	.half	1
+	.byte	100
+	.word	0,0
+.L152:
+	.word	-1,.L77,0,.L150-.L77
+	.half	1
+	.byte	101
+	.word	.L193-.L77,.L150-.L77
+	.half	1
+	.byte	98
+	.word	0,0
+.L153:
+	.word	-1,.L77,0,.L150-.L77
+	.half	1
+	.byte	84
+	.word	0,0
+.L162:
+	.word	-1,.L77,.L59-.L77,.L191-.L77
+	.half	1
+	.byte	95
+	.word	0,0
+.L156:
+	.word	-1,.L77,0,.L150-.L77
+	.half	2
+	.byte	145,124
+	.word	0,0
+.L76:
+	.word	-1,.L77,0,.L185-.L77
+	.half	2
+	.byte	138,0
+	.word	.L185-.L77,.L63-.L77
+	.half	2
+	.byte	138,8
+	.word	.L63-.L77,.L63-.L77
+	.half	2
+	.byte	138,0
+	.word	.L63-.L77,.L150-.L77
+	.half	2
+	.byte	138,8
+	.word	.L150-.L77,.L150-.L77
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L163:
+	.word	-1,.L77,.L187-.L77,.L150-.L77
+	.half	1
+	.byte	85
+	.word	0,0
+.L161:
+	.word	-1,.L77,.L190-.L77,.L150-.L77
+	.half	1
+	.byte	82
+	.word	0,0
+.L160:
+	.word	-1,.L77,.L192-.L77,.L57-.L77
+	.half	1
+	.byte	87
+	.word	0,0
+.L157:
+	.word	-1,.L77,.L188-.L77,.L189-.L77
+	.half	1
+	.byte	98
+	.word	.L63-.L77,.L193-.L77
+	.half	1
+	.byte	98
+	.word	0,0
+.L154:
+	.word	-1,.L77,0,.L150-.L77
+	.half	2
+	.byte	145,120
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ipaddr_addr')
+	.sect	'.debug_loc'
+.L130:
+	.word	-1,.L71,0,.L172-.L71
+	.half	1
+	.byte	100
+	.word	0,0
+.L70:
+	.word	-1,.L71,0,.L171-.L71
+	.half	2
+	.byte	138,0
+	.word	.L171-.L71,.L18-.L71
+	.half	2
+	.byte	138,8
+	.word	.L18-.L71,.L18-.L71
+	.half	2
+	.byte	138,0
+	.word	.L18-.L71,.L128-.L71
+	.half	2
+	.byte	138,8
+	.word	.L128-.L71,.L128-.L71
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L131:
+	.word	-1,.L71,0,.L128-.L71
+	.half	2
+	.byte	145,120
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L335:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('ip4_addr_isbroadcast_u32')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L335,.L67,.L117-.L67
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('ip4_addr_netmask_valid')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L335,.L69,.L124-.L69
+	.sdecl	'.debug_frame',debug,cluster('ipaddr_addr')
+	.sect	'.debug_frame'
+	.word	52
+	.word	.L335,.L71,.L128-.L71
+	.byte	4
+	.word	(.L171-.L71)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L18-.L171)/2
+	.byte	19,0,8,26,19,8,22,26,3,19,138,8,4
+	.word	(.L128-.L18)/2
+	.byte	19,0,8,26,0
+	.sdecl	'.debug_frame',debug,cluster('ip4addr_aton')
+	.sect	'.debug_frame'
+	.word	52
+	.word	.L335,.L73,.L133-.L73
+	.byte	4
+	.word	(.L173-.L73)/2
+	.byte	19,16,22,26,3,19,138,16,4
+	.word	(.L52-.L173)/2
+	.byte	19,0,8,26,19,16,22,26,3,19,138,16,4
+	.word	(.L133-.L52)/2
+	.byte	19,0,8,26,0
+	.sdecl	'.debug_frame',debug,cluster('ip4addr_ntoa')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L335,.L75,.L146-.L75
+	.sdecl	'.debug_frame',debug,cluster('ip4addr_ntoa_r')
+	.sect	'.debug_frame'
+	.word	60
+	.word	.L335,.L77,.L150-.L77
+	.byte	8,19,8,22,8,23,4
+	.word	(.L185-.L77)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L63-.L185)/2
+	.byte	19,0,8,26,19,8,22,26,3,19,138,8,4
+	.word	(.L150-.L63)/2
+	.byte	19,0,8,26,0,0,0
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   320  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4_addr.c	   321  #endif /* LWIP_IPV4 */
+
+	; Module end

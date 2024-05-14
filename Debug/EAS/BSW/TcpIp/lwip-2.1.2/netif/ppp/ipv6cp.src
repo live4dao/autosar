@@ -1,0 +1,2151 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.2r2 Build 18041957 SN 09003395"
+	.compiler_invocation	"ctc -f cc10968a --dep-file=EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\.ipv6cp.o.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc39x -D__CPU_TC39X__ --core=tc1.6.2 --fp-model=+float -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Cfg_Ssw -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Cfg_Ssw\\TC39B -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Integration -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr\\TC39xB -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr\\TC39xB\\_Reg -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw\\TC39B -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw\\TC39B\\Tricore -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\inc\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Lib -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\App_Func -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\demo -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Adc_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Gtm_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\AscLin_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Can_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\EthV2_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Stm_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Main -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\APP -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\BswM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanNm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanSm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanTp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanTSyn -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Com -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\ComM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Common -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Crc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Dcm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Dem -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Det -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\DoIP -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EcuM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Eth -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthSM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthTrcv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthTSyn -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\FiM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\FlsTst -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\MemIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Nm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\NvM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS\\Kernel -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS\\Portable -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\PduR -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\RamTst -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\SoAd -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\StbM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\api -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\arch -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv6 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\arpa -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\net -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\sys -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\stdc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\apps -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\priv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\prot -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif\\ppp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif\\ppp\\polarssl -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\polarssl -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\UdpNm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\WdgIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\WdgM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Cal -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Daq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Pag -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Pgm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Std -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\XcpOnEth -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Callout -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Config -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Library\\Vfx_ComE2E -g2 --make-target=EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\ipv6cp.o -t2 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O1 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\ipv6cp.src ..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\ipv6cp.c"
+	.compiler_name		"ctc"
+	;source	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\ipv6cp.c'
+
+	
+$TC162
+	
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L3:
+	.word	4549
+	.half	3
+	.word	.L4
+	.byte	4
+.L2:
+	.byte	1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\ipv6cp.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L5
+	.byte	2,1,3
+	.word	170
+	.byte	4
+	.byte	'__codeptr',0,1,1,1
+	.word	172
+	.byte	5
+	.byte	'unsigned char',0,1,8,4
+	.byte	'boolean',0,2,102,29
+	.word	195
+	.byte	4
+	.byte	'uint8',0,2,106,29
+	.word	195
+	.byte	5
+	.byte	'unsigned short int',0,2,7,4
+	.byte	'uint16',0,2,110,29
+	.word	242
+	.byte	5
+	.byte	'unsigned long int',0,4,7,4
+	.byte	'uint32',0,2,114,29
+	.word	279
+	.byte	4
+	.byte	'Std_ReturnType',0,3,109,16
+	.word	195
+	.byte	4
+	.byte	'PduIdType',0,4,37,21
+	.word	195
+	.byte	4
+	.byte	'PduLengthType',0,4,41,22
+	.word	242
+	.byte	6,5,101,9,1,7
+	.byte	'BUFREQ_OK',0,0,7
+	.byte	'BUFREQ_E_NOT_OK',0,1,7
+	.byte	'BUFREQ_E_BUSY',0,2,7
+	.byte	'BUFREQ_E_OVFL',0,3,0,4
+	.byte	'BufReq_ReturnType',0,5,107,3
+	.word	378
+	.byte	3
+	.word	195
+	.byte	4
+	.byte	'SduDataPtrType',0,5,189,1,40
+	.word	472
+	.byte	6,5,204,1,9,1,7
+	.byte	'TP_DATACONF',0,0,7
+	.byte	'TP_DATARETRY',0,1,7
+	.byte	'TP_CONFPENDING',0,2,0,4
+	.byte	'TpDataStateType',0,5,216,1,3
+	.word	501
+	.byte	4
+	.byte	'TcpIp_SocketIdType',0,6,50,16
+	.word	195
+	.byte	8,4
+	.word	279
+	.byte	9,0,0,10,6,52,9,4,11
+	.byte	'Addr',0
+	.word	606
+	.byte	4,2,35,0,0,4
+	.byte	'TcpIp_IpAddressType',0,6,55,3
+	.word	615
+	.byte	4
+	.byte	'TcpIp_DomainType',0,6,61,16
+	.word	242
+	.byte	10,6,68,9,8,11
+	.byte	'Domain',0
+	.word	242
+	.byte	2,2,35,0,11
+	.byte	'Port',0
+	.word	242
+	.byte	2,2,35,2,11
+	.byte	'Addr',0
+	.word	606
+	.byte	4,2,35,4,0,4
+	.byte	'TcpIp_SockAddrInetType',0,6,73,3
+	.word	688
+	.byte	4
+	.byte	'TcpIp_AddressType',0,7,128,1,15
+	.word	195
+	.byte	4
+	.byte	'TcpIp_CtrlIdType',0,7,142,1,15
+	.word	195
+	.byte	4
+	.byte	'TcpIp_IpAddrStateType',0,7,144,1,15
+	.word	195
+	.byte	4
+	.byte	'TcpIp_LocalAddrAssignmentConfigType',0,7,149,1,15
+	.word	195
+	.byte	4
+	.byte	'TcpIp_StaticAddrIdType',0,7,151,1,15
+	.word	195
+	.byte	10,7,152,1,9,12,11
+	.byte	'State',0
+	.word	195
+	.byte	1,2,35,0,11
+	.byte	'Netmask',0
+	.word	195
+	.byte	1,2,35,1,11
+	.byte	'Domain',0
+	.word	242
+	.byte	2,2,35,2,11
+	.byte	'IpAddr',0
+	.word	615
+	.byte	4,2,35,4,11
+	.byte	'DefaultRouter',0
+	.word	615
+	.byte	4,2,35,8,0,4
+	.byte	'TcpIp_StaticIpAddrType',0,7,162,1,3
+	.word	930
+	.byte	4
+	.byte	'TcpIp_LocalAddrIdType',0,7,173,1,15
+	.word	195
+	.byte	8,3
+	.word	195
+	.byte	9,2,0,10,7,231,1,9,8,11
+	.byte	'CtrlId',0
+	.word	195
+	.byte	1,2,35,0,11
+	.byte	'Address',0
+	.word	195
+	.byte	1,2,35,1,11
+	.byte	'Domain',0
+	.word	242
+	.byte	2,2,35,2,11
+	.byte	'StaticAddrId',0
+	.word	195
+	.byte	1,2,35,4,11
+	.byte	'Assignments',0
+	.word	1087
+	.byte	3,2,35,5,0,4
+	.byte	'TcpIp_LocalAddrConfigType',0,7,243,1,3
+	.word	1096
+	.byte	10,7,245,1,9,4,11
+	.byte	'ArpConfigId',0
+	.word	195
+	.byte	1,2,35,0,11
+	.byte	'DHCPConfigId',0
+	.word	195
+	.byte	1,2,35,1,11
+	.byte	'AutoIpInitTimeout',0
+	.word	242
+	.byte	2,2,35,2,0,4
+	.byte	'TcpIp_IpV4CtrlConfigType',0,7,130,2,3
+	.word	1230
+	.byte	10,7,133,2,9,8,11
+	.byte	'CtrlIdx',0
+	.word	195
+	.byte	1,2,35,0,11
+	.byte	'FramePrio',0
+	.word	195
+	.byte	1,2,35,1,11
+	.byte	'UnicastAddrId',0
+	.word	195
+	.byte	1,2,35,2,11
+	.byte	'UnicastAddrLimit',0
+	.word	195
+	.byte	1,2,35,3,11
+	.byte	'MulticastAddrId',0
+	.word	195
+	.byte	1,2,35,4,11
+	.byte	'LocalAddrLimit',0
+	.word	195
+	.byte	1,2,35,5,11
+	.byte	'IpV4CtrlId',0
+	.word	195
+	.byte	1,2,35,6,11
+	.byte	'IpV6CtrlId',0
+	.word	195
+	.byte	1,2,35,7,0,4
+	.byte	'TcpIp_NetIfCtrlConfigType',0,7,148,2,3
+	.word	1341
+	.byte	4
+	.byte	'SoAd_RoutingGroupIdType',0,8,43,15
+	.word	195
+	.byte	4
+	.byte	'SoAd_SoConIdType',0,8,44,15
+	.word	195
+	.byte	4
+	.byte	'SoAd_SoConGroupIdType',0,8,45,15
+	.word	195
+	.byte	4
+	.byte	'SoAd_PduRouteIdType',0,8,46,15
+	.word	195
+	.byte	4
+	.byte	'SoAd_PduRouteDestIdType',0,8,47,15
+	.word	195
+	.byte	4
+	.byte	'SoAd_SocketRouteIdType',0,8,48,15
+	.word	195
+	.byte	4
+	.byte	'SoAd_IfTxUnconfirmedType',0,8,49,16
+	.word	242
+	.byte	4
+	.byte	'SoAd_IfTxTimerType',0,8,51,16
+	.word	242
+	.byte	8,1
+	.word	195
+	.byte	9,0,0,10,8,53,9,2,11
+	.byte	'Mask',0
+	.word	1795
+	.byte	1,2,35,0,11
+	.byte	'RoutingState',0
+	.word	1795
+	.byte	1,2,35,1,0,4
+	.byte	'SoAd_RoutingGroupCtrlType',0,8,57,3
+	.word	1804
+	.byte	6,8,63,9,1,7
+	.byte	'SOAD_UL_DOIP',0,0,7
+	.byte	'SOAD_UL_UDPNM',0,1,7
+	.byte	'SOAD_UL_PDUR',0,2,7
+	.byte	'SOAD_UL_XCP',0,3,7
+	.byte	'SOAD_UL_MAX',0,4,0,4
+	.byte	'SoAd_ULIndexType',0,8,71,3
+	.word	1880
+	.byte	4
+	.byte	'SoAd_RemoteAddressType',0,9,113,32
+	.word	688
+	.byte	6,9,115,9,1,7
+	.byte	'SOAD_SOCON_UNINIT',0,0,7
+	.byte	'SOAD_SOCON_OFFLINE',0,1,7
+	.byte	'SOAD_SOCON_RECONN',0,2,7
+	.byte	'SOAD_SOCON_ONLINE',0,3,0,4
+	.byte	'SoAd_SoConModeType',0,9,121,3
+	.word	2016
+	.byte	12
+	.word	195
+	.byte	3
+	.word	2130
+	.byte	12
+	.word	195
+	.byte	3
+	.word	2140
+	.byte	12
+	.word	195
+	.byte	3
+	.word	2150
+	.byte	12
+	.word	1880
+	.byte	3
+	.word	2160
+	.byte	10,9,129,1,9,36,11
+	.byte	'IfBufferLength',0
+	.word	242
+	.byte	2,2,35,0,11
+	.byte	'IfBufferOffset',0
+	.word	242
+	.byte	2,2,35,2,11
+	.byte	'TpBufferLength',0
+	.word	242
+	.byte	2,2,35,4,11
+	.byte	'TpBufferOffset',0
+	.word	242
+	.byte	2,2,35,6,11
+	.byte	'PduRouteNum',0
+	.word	195
+	.byte	1,2,35,8,11
+	.byte	'SocketRouteNum',0
+	.word	195
+	.byte	1,2,35,9,11
+	.byte	'PduRouteDestNum',0
+	.word	195
+	.byte	1,2,35,10,11
+	.byte	'RemoteAddrState',0
+	.word	195
+	.byte	1,2,35,11,11
+	.byte	'RemoteAddr',0
+	.word	688
+	.byte	8,2,35,12,11
+	.byte	'PduRouteDestList',0
+	.word	2135
+	.byte	4,2,35,20,11
+	.byte	'PduRouteList',0
+	.word	2145
+	.byte	4,2,35,24,11
+	.byte	'SocketRouteList',0
+	.word	2155
+	.byte	4,2,35,28,11
+	.byte	'SoConModeChgList',0
+	.word	2165
+	.byte	4,2,35,32,0,4
+	.byte	'SoAd_SocketConnectionType',0,9,146,1,3
+	.word	2170
+	.byte	10,9,148,1,9,16,11
+	.byte	'CtrlFlag',0
+	.word	195
+	.byte	1,2,35,0,11
+	.byte	'KeepAliveProbesMax',0
+	.word	242
+	.byte	2,2,35,2,11
+	.byte	'KeepAliveInterval',0
+	.word	279
+	.byte	4,2,35,4,11
+	.byte	'KeepAliveTime',0
+	.word	279
+	.byte	4,2,35,8,11
+	.byte	'TxQuota',0
+	.word	279
+	.byte	4,2,35,12,0,4
+	.byte	'SoAd_TcpProtocolType',0,9,155,1,3
+	.word	2522
+	.byte	10,9,157,1,9,12,11
+	.byte	'CtrlFlag',0
+	.word	195
+	.byte	1,2,35,0,11
+	.byte	'nPduTxBufferMin',0
+	.word	242
+	.byte	2,2,35,2,11
+	.byte	'TriggerTimeout',0
+	.word	242
+	.byte	2,2,35,4,11
+	.byte	'AliveSupervisionTimeout',0
+	.word	279
+	.byte	4,2,35,6,0,4
+	.byte	'SoAd_UdpProtocolType',0,9,163,1,3
+	.word	2672
+	.byte	12
+	.word	2522
+	.byte	3
+	.word	2809
+	.byte	12
+	.word	2672
+	.byte	3
+	.word	2819
+	.byte	10,9,165,1,9,24,11
+	.byte	'GroupId',0
+	.word	195
+	.byte	1,2,35,0,11
+	.byte	'CtrlFlag',0
+	.word	195
+	.byte	1,2,35,1,11
+	.byte	'FramePriority',0
+	.word	195
+	.byte	1,2,35,2,11
+	.byte	'SoConNum',0
+	.word	195
+	.byte	1,2,35,3,11
+	.byte	'SoConId',0
+	.word	195
+	.byte	1,2,35,4,11
+	.byte	'IpAddrAssignChgNum',0
+	.word	195
+	.byte	1,2,35,5,11
+	.byte	'LocalAddrId',0
+	.word	195
+	.byte	1,2,35,6,11
+	.byte	'LocalPort',0
+	.word	242
+	.byte	2,2,35,8,11
+	.byte	'IpAddrAssignChgList',0
+	.word	2165
+	.byte	4,2,35,12,11
+	.byte	'TcpProtocolPtr',0
+	.word	2814
+	.byte	4,2,35,16,11
+	.byte	'UdpProtocolPtr',0
+	.word	2824
+	.byte	4,2,35,20,0,4
+	.byte	'SoAd_SocketConnectionGroupType',0,9,178,1,3
+	.word	2829
+	.byte	12
+	.word	195
+	.byte	3
+	.word	3114
+	.byte	10,9,180,1,9,12,11
+	.byte	'CtrlFlag',0
+	.word	195
+	.byte	1,2,35,0,11
+	.byte	'PduRouteDestNum',0
+	.word	195
+	.byte	1,2,35,1,11
+	.byte	'SocketRouteDestNum',0
+	.word	195
+	.byte	1,2,35,2,11
+	.byte	'PduRouteDestList',0
+	.word	3119
+	.byte	4,2,35,4,11
+	.byte	'SocketRouteDestList',0
+	.word	3119
+	.byte	4,2,35,8,0,4
+	.byte	'SoAd_RoutingGroupType',0,9,187,1,3
+	.word	3124
+	.byte	10,9,189,1,9,6,11
+	.byte	'ULType',0
+	.word	195
+	.byte	1,2,35,0,11
+	.byte	'ULIndex',0
+	.word	1880
+	.byte	1,2,35,1,11
+	.byte	'CtrlFlag',0
+	.word	195
+	.byte	1,2,35,2,11
+	.byte	'RouteDestNum',0
+	.word	195
+	.byte	1,2,35,3,11
+	.byte	'RouteDestId',0
+	.word	195
+	.byte	1,2,35,4,11
+	.byte	'TxPduId',0
+	.word	195
+	.byte	1,2,35,5,0,4
+	.byte	'SoAd_PduRouteType',0,9,204,1,3
+	.word	3288
+	.byte	3
+	.word	1804
+	.byte	10,9,206,1,9,20,11
+	.byte	'TxPduHeaderId',0
+	.word	279
+	.byte	4,2,35,0,11
+	.byte	'SoConNum',0
+	.word	195
+	.byte	1,2,35,4,11
+	.byte	'SoConId',0
+	.word	195
+	.byte	1,2,35,5,11
+	.byte	'PduRouteId',0
+	.word	195
+	.byte	1,2,35,6,11
+	.byte	'UdpTriggerMode',0
+	.word	195
+	.byte	1,2,35,7,11
+	.byte	'UdpTriggerTimeout',0
+	.word	242
+	.byte	2,2,35,8,11
+	.byte	'RoutingCtrlList',0
+	.word	3433
+	.byte	4,2,35,12,11
+	.byte	'IfTriggerList',0
+	.word	472
+	.byte	4,2,35,16,0,4
+	.byte	'SoAd_PduRouteDestType',0,9,217,1,3
+	.word	3438
+	.byte	10,9,219,1,9,16,11
+	.byte	'RxPduHeaderId',0
+	.word	279
+	.byte	4,2,35,0,11
+	.byte	'ULType',0
+	.word	195
+	.byte	1,2,35,4,11
+	.byte	'ULIndex',0
+	.word	1880
+	.byte	1,2,35,5,11
+	.byte	'SoConNum',0
+	.word	195
+	.byte	1,2,35,6,11
+	.byte	'SoConId',0
+	.word	195
+	.byte	1,2,35,7,11
+	.byte	'RxPduId',0
+	.word	195
+	.byte	1,2,35,8,11
+	.byte	'RoutingCtrlList',0
+	.word	3433
+	.byte	4,2,35,12,0,4
+	.byte	'SoAd_SocketRouteType',0,9,236,1,3
+	.word	3653
+	.byte	12
+	.word	3438
+	.byte	3
+	.word	3823
+	.byte	10,9,155,2,9,24,11
+	.byte	'State',0
+	.word	195
+	.byte	1,2,35,0,11
+	.byte	'Timer',0
+	.word	242
+	.byte	2,2,35,2,11
+	.byte	'BufferLength',0
+	.word	242
+	.byte	2,2,35,4,11
+	.byte	'BufferOffset',0
+	.word	242
+	.byte	2,2,35,6,11
+	.byte	'UdpTxBuffer',0
+	.word	472
+	.byte	4,2,35,8,11
+	.byte	'TotalTxLength',0
+	.word	242
+	.byte	2,2,35,12,11
+	.byte	'UsedTxLength',0
+	.word	242
+	.byte	2,2,35,14,11
+	.byte	'IfTxDataBuffer',0
+	.word	3119
+	.byte	4,2,35,16,11
+	.byte	'PduRouteDestPtr',0
+	.word	3828
+	.byte	4,2,35,20,0,4
+	.byte	'SoAd_TxSessionType',0,9,177,2,3
+	.word	3833
+	.byte	12
+	.word	3653
+	.byte	3
+	.word	4057
+	.byte	10,9,180,2,9,8,11
+	.byte	'PduLength',0
+	.word	242
+	.byte	2,2,35,0,11
+	.byte	'RemainLength',0
+	.word	242
+	.byte	2,2,35,2,11
+	.byte	'SocketRoutePtr',0
+	.word	4062
+	.byte	4,2,35,4,0,4
+	.byte	'SoAd_RxPduInfoType',0,9,185,2,3
+	.word	4067
+	.byte	10,9,187,2,9,12,11
+	.byte	'TotalLength',0
+	.word	242
+	.byte	2,2,35,0,11
+	.byte	'In',0
+	.word	242
+	.byte	2,2,35,2,11
+	.byte	'Out',0
+	.word	242
+	.byte	2,2,35,4,11
+	.byte	'BufferPtr',0
+	.word	472
+	.byte	4,2,35,8,0,4
+	.byte	'SoAd_RxFifoType',0,9,193,2,3
+	.word	4167
+	.byte	10,9,195,2,9,8,11
+	.byte	'TotalLength',0
+	.word	242
+	.byte	2,2,35,0,11
+	.byte	'UsedLength',0
+	.word	242
+	.byte	2,2,35,2,11
+	.byte	'BufferPtr',0
+	.word	472
+	.byte	4,2,35,4,0,4
+	.byte	'SoAd_RxBufferType',0,9,200,2,3
+	.word	4264
+	.byte	8,8
+	.word	195
+	.byte	9,7,0,10,9,202,2,9,48,11
+	.byte	'State',0
+	.word	195
+	.byte	1,2,35,0,11
+	.byte	'ValidHeaderLen',0
+	.word	195
+	.byte	1,2,35,1,11
+	.byte	'PduHeader',0
+	.word	4358
+	.byte	8,2,35,2,11
+	.byte	'RxPduInfo',0
+	.word	4067
+	.byte	8,2,35,12,11
+	.byte	'ProcessPduInfo',0
+	.word	4067
+	.byte	8,2,35,20,11
+	.byte	'IfBuffer',0
+	.word	4264
+	.byte	8,2,35,28,11
+	.byte	'TpBuffer',0
+	.word	4167
+	.byte	12,2,35,36,0,4
+	.byte	'SoAd_RxSessionType',0,9,216,2,3
+	.word	4367
+	.byte	4
+	.byte	'u8_t',0,10,61,25
+	.word	195
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L4:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,0,0,3,15,0,73,19,0,0,4,22,0,3,8,58,15,59,15
+	.byte	57,15,73,19,0,0,5,36,0,3,8,11,15,62,15,0,0,6,4,1,58,15,59,15,57,15,11,15,0,0,7,40,0,3,8,28,13,0,0,8,1
+	.byte	1,11,15,73,19,0,0,9,33,0,47,15,0,0,10,19,1,58,15,59,15,57,15,11,15,0,0,11,13,0,3,8,73,19,11,15,56,9,0
+	.byte	0,12,38,0,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L5:
+	.word	.L7-.L6
+.L6:
+	.half	3
+	.word	.L9-.L8
+.L8:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Config',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\SoAd',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\arch',0,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\ipv6cp.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0
+	.byte	'Std_Types.h',0,1,0,0
+	.byte	'ComStack_Types_Cfg.h',0,2,0,0
+	.byte	'ComStack_Types.h',0,3,0,0
+	.byte	'TcpIp_GeneratedTypes.h',0,2,0,0
+	.byte	'TcpIp_Types.h',0,4,0,0
+	.byte	'SoAd_GeneratedTypes.h',0,2,0,0
+	.byte	'SoAd_Types.h',0,5,0,0
+	.byte	'cc.h',0,6,0,0,0
+.L9:
+.L7:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	     1  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	     2   * ipv6cp.c - PPP IPV6 Control Protocol.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	     3   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	     4   * Copyright (c) 1999 Tommi Komulainen.  All rights reserved.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	     5   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	     6   * Redistribution and use in source and binary forms, with or without
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	     7   * modification, are permitted provided that the following conditions
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	     8   * are met:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	     9   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    10   * 1. Redistributions of source code must retain the above copyright
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    11   *    notice, this list of conditions and the following disclaimer.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    12   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    13   * 2. Redistributions in binary form must reproduce the above copyright
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    14   *    notice, this list of conditions and the following disclaimer in
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    15   *    the documentation and/or other materials provided with the
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    16   *    distribution.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    17   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    18   * 3. The name(s) of the authors of this software must not be used to
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    19   *    endorse or promote products derived from this software without
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    20   *    prior written permission.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    21   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    22   * 4. Redistributions of any form whatsoever must retain the following
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    23   *    acknowledgment:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    24   *    "This product includes software developed by Tommi Komulainen
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    25   *     <Tommi.Komulainen@iki.fi>".
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    26   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    27   * THE AUTHORS OF THIS SOFTWARE DISCLAIM ALL WARRANTIES WITH REGARD TO
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    28   * THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    29   * AND FITNESS, IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    30   * SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    31   * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    32   * AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    33   * OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    34   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    35   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    36  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    37  /*  Original version, based on RFC2023 :
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    38  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    39      Copyright (c) 1995, 1996, 1997 Francis.Dupont@inria.fr, INRIA Rocquencourt,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    40      Alain.Durand@imag.fr, IMAG,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    41      Jean-Luc.Richier@imag.fr, IMAG-LSR.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    42  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    43      Copyright (c) 1998, 1999 Francis.Dupont@inria.fr, GIE DYADE,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    44      Alain.Durand@imag.fr, IMAG,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    45      Jean-Luc.Richier@imag.fr, IMAG-LSR.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    46  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    47      Ce travail a été fait au sein du GIE DYADE (Groupement d'Intérêt
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    48      Économique ayant pour membres BULL S.A. et l'INRIA).
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    49  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    50      Ce logiciel informatique est disponible aux conditions
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    51      usuelles dans la recherche, c'est-à-dire qu'il peut
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    52      être utilisé, copié, modifié, distribué à l'unique
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    53      condition que ce texte soit conservé afin que
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    54      l'origine de ce logiciel soit reconnue.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    55  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    56      Le nom de l'Institut National de Recherche en Informatique
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    57      et en Automatique (INRIA), de l'IMAG, ou d'une personne morale
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    58      ou physique ayant participé à l'élaboration de ce logiciel ne peut
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    59      être utilisé sans son accord préalable explicite.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    60  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    61      Ce logiciel est fourni tel quel sans aucune garantie,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    62      support ou responsabilité d'aucune sorte.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    63      Ce logiciel est dérivé de sources d'origine
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    64      "University of California at Berkeley" et
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    65      "Digital Equipment Corporation" couvertes par des copyrights.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    66  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    67      L'Institut d'Informatique et de Mathématiques Appliquées de Grenoble (IMAG)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    68      est une fédération d'unités mixtes de recherche du CNRS, de l'Institut National
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    69      Polytechnique de Grenoble et de l'Université Joseph Fourier regroupant
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    70      sept laboratoires dont le laboratoire Logiciels, Systèmes, Réseaux (LSR).
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    71  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    72      This work has been done in the context of GIE DYADE (joint R & D venture
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    73      between BULL S.A. and INRIA).
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    74  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    75      This software is available with usual "research" terms
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    76      with the aim of retain credits of the software. 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    77      Permission to use, copy, modify and distribute this software for any
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    78      purpose and without fee is hereby granted, provided that the above
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    79      copyright notice and this permission notice appear in all copies,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    80      and the name of INRIA, IMAG, or any contributor not be used in advertising
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    81      or publicity pertaining to this material without the prior explicit
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    82      permission. The software is provided "as is" without any
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    83      warranties, support or liabilities of any kind.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    84      This software is derived from source code from
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    85      "University of California at Berkeley" and
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    86      "Digital Equipment Corporation" protected by copyrights.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    87  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    88      Grenoble's Institute of Computer Science and Applied Mathematics (IMAG)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    89      is a federation of seven research units funded by the CNRS, National
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    90      Polytechnic Institute of Grenoble and University Joseph Fourier.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    91      The research unit in Software, Systems, Networks (LSR) is member of IMAG.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    92  */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    93  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    94  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    95   * Derived from :
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    96   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    97   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    98   * ipcp.c - PPP IP Control Protocol.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	    99   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   100   * Copyright (c) 1984-2000 Carnegie Mellon University. All rights reserved.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   101   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   102   * Redistribution and use in source and binary forms, with or without
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   103   * modification, are permitted provided that the following conditions
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   104   * are met:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   105   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   106   * 1. Redistributions of source code must retain the above copyright
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   107   *    notice, this list of conditions and the following disclaimer.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   108   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   109   * 2. Redistributions in binary form must reproduce the above copyright
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   110   *    notice, this list of conditions and the following disclaimer in
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   111   *    the documentation and/or other materials provided with the
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   112   *    distribution.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   113   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   114   * 3. The name "Carnegie Mellon University" must not be used to
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   115   *    endorse or promote products derived from this software without
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   116   *    prior written permission. For permission or any legal
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   117   *    details, please contact
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   118   *      Office of Technology Transfer
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   119   *      Carnegie Mellon University
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   120   *      5000 Forbes Avenue
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   121   *      Pittsburgh, PA  15213-3890
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   122   *      (412) 268-4387, fax: (412) 268-7395
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   123   *      tech-transfer@andrew.cmu.edu
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   124   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   125   * 4. Redistributions of any form whatsoever must retain the following
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   126   *    acknowledgment:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   127   *    "This product includes software developed by Computing Services
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   128   *     at Carnegie Mellon University (http://www.cmu.edu/computing/)."
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   129   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   130   * CARNEGIE MELLON UNIVERSITY DISCLAIMS ALL WARRANTIES WITH REGARD TO
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   131   * THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   132   * AND FITNESS, IN NO EVENT SHALL CARNEGIE MELLON UNIVERSITY BE LIABLE
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   133   * FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   134   * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   135   * AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   136   * OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   137   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   138   * $Id: ipv6cp.c,v 1.21 2005/08/25 23:59:34 paulus Exp $ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   139   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   140  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   141  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   142   * @todo: 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   143   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   144   * Proxy Neighbour Discovery.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   145   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   146   * Better defines for selecting the ordering of
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   147   *   interface up / set address.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   148   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   149  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   150  #include "netif/ppp/ppp_opts.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   151  #if PPP_SUPPORT && PPP_IPV6_SUPPORT  /* don't build if not configured for use in lwipopts.h */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   152  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   153  #if 0 /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   154  #include <stdio.h>
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   155  #include <string.h>
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   156  #include <unistd.h>
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   157  #include <netdb.h>
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   158  #include <sys/param.h>
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   159  #include <sys/types.h>
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   160  #include <sys/socket.h>
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   161  #include <netinet/in.h>
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   162  #include <arpa/inet.h>
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   163  #endif /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   164  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   165  #include "netif/ppp/ppp_impl.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   166  #include "netif/ppp/fsm.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   167  #include "netif/ppp/ipcp.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   168  #include "netif/ppp/ipv6cp.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   169  #include "netif/ppp/magic.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   170  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   171  /* global vars */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   172  #if 0 /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   173  int no_ifaceid_neg = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   174  #endif /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   175  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   176  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   177   * Callbacks for fsm code.  (CI = Configuration Information)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   178   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   179  static void ipv6cp_resetci(fsm *f); /* Reset our CI */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   180  static int  ipv6cp_cilen(fsm *f); /* Return length of our CI */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   181  static void ipv6cp_addci(fsm *f, u_char *ucp, int *lenp); /* Add our CI */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   182  static int  ipv6cp_ackci(fsm *f, u_char *p, int len); /* Peer ack'd our CI */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   183  static int  ipv6cp_nakci(fsm *f, u_char *p, int len, int treat_as_reject); /* Peer nak'd our CI */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   184  static int  ipv6cp_rejci(fsm *f, u_char *p, int len); /* Peer rej'd our CI */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   185  static int  ipv6cp_reqci(fsm *f, u_char *inp, int *len, int reject_if_disagree); /* Rcv CI */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   186  static void ipv6cp_up(fsm *f); /* We're UP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   187  static void ipv6cp_down(fsm *f); /* We're DOWN */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   188  static void ipv6cp_finished(fsm *f); /* Don't need lower layer */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   189  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   190  static const fsm_callbacks ipv6cp_callbacks = { /* IPV6CP callback routines */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   191      ipv6cp_resetci,		/* Reset our Configuration Information */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   192      ipv6cp_cilen,		/* Length of our Configuration Information */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   193      ipv6cp_addci,		/* Add our Configuration Information */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   194      ipv6cp_ackci,		/* ACK our Configuration Information */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   195      ipv6cp_nakci,		/* NAK our Configuration Information */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   196      ipv6cp_rejci,		/* Reject our Configuration Information */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   197      ipv6cp_reqci,		/* Request peer's Configuration Information */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   198      ipv6cp_up,			/* Called when fsm reaches OPENED state */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   199      ipv6cp_down,		/* Called when fsm leaves OPENED state */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   200      NULL,			/* Called when we want the lower layer up */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   201      ipv6cp_finished,		/* Called when we want the lower layer down */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   202      NULL,			/* Called when Protocol-Reject received */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   203      NULL,			/* Retransmission is necessary */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   204      NULL,			/* Called to handle protocol-specific codes */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   205      "IPV6CP"			/* String name of protocol */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   206  };
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   207  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   208  #if PPP_OPTIONS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   209  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   210   * Command-line options.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   211   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   212  static int setifaceid(char **arg));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   213  static void printifaceid(option_t *,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   214  			      void (*)(void *, char *, ...), void *));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   215  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   216  static option_t ipv6cp_option_list[] = {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   217      { "ipv6", o_special, (void *)setifaceid,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   218        "Set interface identifiers for IPV6",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   219        OPT_A2PRINTER, (void *)printifaceid },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   220  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   221      { "+ipv6", o_bool, &ipv6cp_protent.enabled_flag,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   222        "Enable IPv6 and IPv6CP", OPT_PRIO | 1 },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   223      { "noipv6", o_bool, &ipv6cp_protent.enabled_flag,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   224        "Disable IPv6 and IPv6CP", OPT_PRIOSUB },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   225      { "-ipv6", o_bool, &ipv6cp_protent.enabled_flag,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   226        "Disable IPv6 and IPv6CP", OPT_PRIOSUB | OPT_ALIAS },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   227  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   228      { "ipv6cp-accept-local", o_bool, &ipv6cp_allowoptions[0].accept_local,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   229        "Accept peer's interface identifier for us", 1 },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   230  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   231      { "ipv6cp-use-ipaddr", o_bool, &ipv6cp_allowoptions[0].use_ip,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   232        "Use (default) IPv4 address as interface identifier", 1 },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   233  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   234      { "ipv6cp-use-persistent", o_bool, &ipv6cp_wantoptions[0].use_persistent,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   235        "Use uniquely-available persistent value for link local address", 1 },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   236  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   237      { "ipv6cp-restart", o_int, &ipv6cp_fsm[0].timeouttime,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   238        "Set timeout for IPv6CP", OPT_PRIO },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   239      { "ipv6cp-max-terminate", o_int, &ipv6cp_fsm[0].maxtermtransmits,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   240        "Set max #xmits for term-reqs", OPT_PRIO },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   241      { "ipv6cp-max-configure", o_int, &ipv6cp_fsm[0].maxconfreqtransmits,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   242        "Set max #xmits for conf-reqs", OPT_PRIO },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   243      { "ipv6cp-max-failure", o_int, &ipv6cp_fsm[0].maxnakloops,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   244        "Set max #conf-naks for IPv6CP", OPT_PRIO },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   245  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   246     { NULL }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   247  };
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   248  #endif /* PPP_OPTIONS */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   249  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   250  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   251   * Protocol entry points from main code.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   252   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   253  static void ipv6cp_init(ppp_pcb *pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   254  static void ipv6cp_open(ppp_pcb *pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   255  static void ipv6cp_close(ppp_pcb *pcb, const char *reason);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   256  static void ipv6cp_lowerup(ppp_pcb *pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   257  static void ipv6cp_lowerdown(ppp_pcb *pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   258  static void ipv6cp_input(ppp_pcb *pcb, u_char *p, int len);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   259  static void ipv6cp_protrej(ppp_pcb *pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   260  #if PPP_OPTIONS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   261  static void ipv6_check_options(void);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   262  #endif /* PPP_OPTIONS */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   263  #if DEMAND_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   264  static int  ipv6_demand_conf(int u);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   265  #endif /* DEMAND_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   266  #if PRINTPKT_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   267  static int ipv6cp_printpkt(const u_char *p, int plen,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   268  		void (*printer)(void *, const char *, ...), void *arg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   269  #endif /* PRINTPKT_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   270  #if DEMAND_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   271  static int ipv6_active_pkt(u_char *pkt, int len);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   272  #endif /* DEMAND_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   273  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   274  const struct protent ipv6cp_protent = {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   275      PPP_IPV6CP,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   276      ipv6cp_init,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   277      ipv6cp_input,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   278      ipv6cp_protrej,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   279      ipv6cp_lowerup,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   280      ipv6cp_lowerdown,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   281      ipv6cp_open,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   282      ipv6cp_close,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   283  #if PRINTPKT_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   284      ipv6cp_printpkt,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   285  #endif /* PRINTPKT_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   286  #if PPP_DATAINPUT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   287      NULL,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   288  #endif /* PPP_DATAINPUT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   289  #if PRINTPKT_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   290      "IPV6CP",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   291      "IPV6",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   292  #endif /* PRINTPKT_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   293  #if PPP_OPTIONS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   294      ipv6cp_option_list,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   295      ipv6_check_options,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   296  #endif /* PPP_OPTIONS */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   297  #if DEMAND_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   298      ipv6_demand_conf,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   299      ipv6_active_pkt
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   300  #endif /* DEMAND_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   301  };
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   302  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   303  static void ipv6cp_clear_addrs(ppp_pcb *pcb, eui64_t ourid, eui64_t hisid);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   304  #if 0 /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   305  static void ipv6cp_script(char *));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   306  static void ipv6cp_script_done(void *));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   307  #endif /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   308  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   309  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   310   * Lengths of configuration options.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   311   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   312  #define CILEN_VOID	2
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   313  #define CILEN_COMPRESS	4	/* length for RFC2023 compress opt. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   314  #define CILEN_IFACEID   10	/* RFC2472, interface identifier    */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   315  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   316  #define CODENAME(x)	((x) == CONFACK ? "ACK" : \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   317  			 (x) == CONFNAK ? "NAK" : "REJ")
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   318  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   319  #if 0 /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   320  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   321   * This state variable is used to ensure that we don't
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   322   * run an ipcp-up/down script while one is already running.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   323   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   324  static enum script_state {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   325      s_down,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   326      s_up,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   327  } ipv6cp_script_state;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   328  static pid_t ipv6cp_script_pid;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   329  #endif /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   330  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   331  static char *llv6_ntoa(eui64_t ifaceid);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   332  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   333  #if PPP_OPTIONS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   334  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   335   * setifaceid - set the interface identifiers manually
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   336   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   337  static int
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   338  setifaceid(argv)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   339      char **argv;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   340  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   341      char *comma, *arg, c;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   342      ipv6cp_options *wo = &ipv6cp_wantoptions[0];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   343      struct in6_addr addr;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   344      static int prio_local, prio_remote;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   345  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   346  #define VALIDID(a) ( (((a).s6_addr32[0] == 0) && ((a).s6_addr32[1] == 0)) && \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   347  			(((a).s6_addr32[2] != 0) || ((a).s6_addr32[3] != 0)) )
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   348      
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   349      arg = *argv;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   350      if ((comma = strchr(arg, ',')) == NULL)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   351  	comma = arg + strlen(arg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   352      
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   353      /* 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   354       * If comma first character, then no local identifier
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   355       */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   356      if (comma != arg) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   357  	c = *comma;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   358  	*comma = '\0';
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   359  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   360  	if (inet_pton(AF_INET6, arg, &addr) == 0 || !VALIDID(addr)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   361  	    option_error("Illegal interface identifier (local): %s", arg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   362  	    return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   363  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   364  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   365  	if (option_priority >= prio_local) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   366  	    eui64_copy(addr.s6_addr32[2], wo->ourid);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   367  	    wo->opt_local = 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   368  	    prio_local = option_priority;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   369  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   370  	*comma = c;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   371      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   372      
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   373      /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   374       * If comma last character, the no remote identifier
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   375       */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   376      if (*comma != 0 && *++comma != '\0') {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   377  	if (inet_pton(AF_INET6, comma, &addr) == 0 || !VALIDID(addr)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   378  	    option_error("Illegal interface identifier (remote): %s", comma);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   379  	    return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   380  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   381  	if (option_priority >= prio_remote) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   382  	    eui64_copy(addr.s6_addr32[2], wo->hisid);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   383  	    wo->opt_remote = 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   384  	    prio_remote = option_priority;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   385  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   386      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   387  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   388      if (override_value("+ipv6", option_priority, option_source))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   389  	ipv6cp_protent.enabled_flag = 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   390      return 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   391  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   392  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   393  static void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   394  printifaceid(opt, printer, arg)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   395      option_t *opt;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   396      void (*printer)(void *, char *, ...));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   397      void *arg;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   398  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   399  	ipv6cp_options *wo = &ipv6cp_wantoptions[0];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   400  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   401  	if (wo->opt_local)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   402  		printer(arg, "%s", llv6_ntoa(wo->ourid));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   403  	printer(arg, ",");
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   404  	if (wo->opt_remote)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   405  		printer(arg, "%s", llv6_ntoa(wo->hisid));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   406  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   407  #endif /* PPP_OPTIONS */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   408  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   409  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   410   * Make a string representation of a network address.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   411   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   412  static char *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   413  llv6_ntoa(eui64_t ifaceid)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   414  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   415      static char b[26];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   416  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   417      sprintf(b, "fe80::%02x%02x:%02x%02x:%02x%02x:%02x%02x",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   418        ifaceid.e8[0], ifaceid.e8[1], ifaceid.e8[2], ifaceid.e8[3],
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   419        ifaceid.e8[4], ifaceid.e8[5], ifaceid.e8[6], ifaceid.e8[7]);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   420  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   421      return b;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   422  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   423  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   424  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   425  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   426   * ipv6cp_init - Initialize IPV6CP.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   427   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   428  static void ipv6cp_init(ppp_pcb *pcb) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   429      fsm *f = &pcb->ipv6cp_fsm;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   430      ipv6cp_options *wo = &pcb->ipv6cp_wantoptions;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   431      ipv6cp_options *ao = &pcb->ipv6cp_allowoptions;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   432  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   433      f->pcb = pcb;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   434      f->protocol = PPP_IPV6CP;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   435      f->callbacks = &ipv6cp_callbacks;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   436      fsm_init(f);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   437  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   438  #if 0 /* Not necessary, everything is cleared in ppp_new() */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   439      memset(wo, 0, sizeof(*wo));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   440      memset(ao, 0, sizeof(*ao));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   441  #endif /* 0 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   442  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   443      wo->accept_local = 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   444      wo->neg_ifaceid = 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   445      ao->neg_ifaceid = 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   446  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   447  #ifdef IPV6CP_COMP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   448      wo->neg_vj = 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   449      ao->neg_vj = 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   450      wo->vj_protocol = IPV6CP_COMP;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   451  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   452  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   453  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   454  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   455  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   456  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   457   * ipv6cp_open - IPV6CP is allowed to come up.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   458   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   459  static void ipv6cp_open(ppp_pcb *pcb) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   460      fsm_open(&pcb->ipv6cp_fsm);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   461  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   462  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   463  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   464  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   465   * ipv6cp_close - Take IPV6CP down.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   466   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   467  static void ipv6cp_close(ppp_pcb *pcb, const char *reason) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   468      fsm_close(&pcb->ipv6cp_fsm, reason);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   469  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   470  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   471  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   472  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   473   * ipv6cp_lowerup - The lower layer is up.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   474   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   475  static void ipv6cp_lowerup(ppp_pcb *pcb) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   476      fsm_lowerup(&pcb->ipv6cp_fsm);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   477  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   478  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   479  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   480  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   481   * ipv6cp_lowerdown - The lower layer is down.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   482   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   483  static void ipv6cp_lowerdown(ppp_pcb *pcb) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   484      fsm_lowerdown(&pcb->ipv6cp_fsm);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   485  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   486  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   487  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   488  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   489   * ipv6cp_input - Input IPV6CP packet.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   490   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   491  static void ipv6cp_input(ppp_pcb *pcb, u_char *p, int len) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   492      fsm_input(&pcb->ipv6cp_fsm, p, len);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   493  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   494  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   495  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   496  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   497   * ipv6cp_protrej - A Protocol-Reject was received for IPV6CP.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   498   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   499   * Pretend the lower layer went down, so we shut up.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   500   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   501  static void ipv6cp_protrej(ppp_pcb *pcb) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   502      fsm_lowerdown(&pcb->ipv6cp_fsm);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   503  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   504  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   505  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   506  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   507   * ipv6cp_resetci - Reset our CI.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   508   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   509  static void ipv6cp_resetci(fsm *f) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   510      ppp_pcb *pcb = f->pcb;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   511      ipv6cp_options *wo = &pcb->ipv6cp_wantoptions;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   512      ipv6cp_options *go = &pcb->ipv6cp_gotoptions;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   513      ipv6cp_options *ao = &pcb->ipv6cp_allowoptions;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   514  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   515      wo->req_ifaceid = wo->neg_ifaceid && ao->neg_ifaceid;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   516      
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   517      if (!wo->opt_local) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   518  	eui64_magic_nz(wo->ourid);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   519      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   520      
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   521      *go = *wo;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   522      eui64_zero(go->hisid);	/* last proposed interface identifier */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   523  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   524  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   525  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   526  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   527   * ipv6cp_cilen - Return length of our CI.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   528   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   529  static int ipv6cp_cilen(fsm *f) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   530      ppp_pcb *pcb = f->pcb;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   531      ipv6cp_options *go = &pcb->ipv6cp_gotoptions;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   532  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   533  #ifdef IPV6CP_COMP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   534  #define LENCIVJ(neg)		(neg ? CILEN_COMPRESS : 0)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   535  #endif /* IPV6CP_COMP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   536  #define LENCIIFACEID(neg)	(neg ? CILEN_IFACEID : 0)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   537  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   538      return (LENCIIFACEID(go->neg_ifaceid) +
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   539  #ifdef IPV6CP_COMP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   540  	    LENCIVJ(go->neg_vj) +
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   541  #endif /* IPV6CP_COMP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   542  	    0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   543  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   544  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   545  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   546  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   547   * ipv6cp_addci - Add our desired CIs to a packet.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   548   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   549  static void ipv6cp_addci(fsm *f, u_char *ucp, int *lenp) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   550      ppp_pcb *pcb = f->pcb;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   551      ipv6cp_options *go = &pcb->ipv6cp_gotoptions;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   552      int len = *lenp;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   553  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   554  #ifdef IPV6CP_COMP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   555  #define ADDCIVJ(opt, neg, val) \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   556      if (neg) { \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   557  	int vjlen = CILEN_COMPRESS; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   558  	if (len >= vjlen) { \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   559  	    PUTCHAR(opt, ucp); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   560  	    PUTCHAR(vjlen, ucp); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   561  	    PUTSHORT(val, ucp); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   562  	    len -= vjlen; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   563  	} else \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   564  	    neg = 0; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   565      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   566  #endif /* IPV6CP_COMP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   567  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   568  #define ADDCIIFACEID(opt, neg, val1) \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   569      if (neg) { \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   570  	int idlen = CILEN_IFACEID; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   571  	if (len >= idlen) { \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   572  	    PUTCHAR(opt, ucp); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   573  	    PUTCHAR(idlen, ucp); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   574  	    eui64_put(val1, ucp); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   575  	    len -= idlen; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   576  	} else \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   577  	    neg = 0; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   578      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   579  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   580      ADDCIIFACEID(CI_IFACEID, go->neg_ifaceid, go->ourid);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   581  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   582  #ifdef IPV6CP_COMP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   583      ADDCIVJ(CI_COMPRESSTYPE, go->neg_vj, go->vj_protocol);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   584  #endif /* IPV6CP_COMP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   585  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   586      *lenp -= len;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   587  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   588  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   589  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   590  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   591   * ipv6cp_ackci - Ack our CIs.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   592   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   593   * Returns:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   594   *	0 - Ack was bad.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   595   *	1 - Ack was good.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   596   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   597  static int ipv6cp_ackci(fsm *f, u_char *p, int len) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   598      ppp_pcb *pcb = f->pcb;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   599      ipv6cp_options *go = &pcb->ipv6cp_gotoptions;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   600      u_short cilen, citype;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   601  #ifdef IPV6CP_COMP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   602      u_short cishort;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   603  #endif /* IPV6CP_COMP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   604      eui64_t ifaceid;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   605  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   606      /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   607       * CIs must be in exactly the same order that we sent...
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   608       * Check packet length and CI length at each step.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   609       * If we find any deviations, then this packet is bad.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   610       */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   611  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   612  #ifdef IPV6CP_COMP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   613  #define ACKCIVJ(opt, neg, val) \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   614      if (neg) { \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   615  	int vjlen = CILEN_COMPRESS; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   616  	if ((len -= vjlen) < 0) \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   617  	    goto bad; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   618  	GETCHAR(citype, p); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   619  	GETCHAR(cilen, p); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   620  	if (cilen != vjlen || \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   621  	    citype != opt)  \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   622  	    goto bad; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   623  	GETSHORT(cishort, p); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   624  	if (cishort != val) \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   625  	    goto bad; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   626      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   627  #endif /* IPV6CP_COMP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   628  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   629  #define ACKCIIFACEID(opt, neg, val1) \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   630      if (neg) { \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   631  	int idlen = CILEN_IFACEID; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   632  	if ((len -= idlen) < 0) \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   633  	    goto bad; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   634  	GETCHAR(citype, p); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   635  	GETCHAR(cilen, p); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   636  	if (cilen != idlen || \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   637  	    citype != opt) \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   638  	    goto bad; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   639  	eui64_get(ifaceid, p); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   640  	if (! eui64_equals(val1, ifaceid)) \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   641  	    goto bad; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   642      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   643  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   644      ACKCIIFACEID(CI_IFACEID, go->neg_ifaceid, go->ourid);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   645  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   646  #ifdef IPV6CP_COMP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   647      ACKCIVJ(CI_COMPRESSTYPE, go->neg_vj, go->vj_protocol);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   648  #endif /* IPV6CP_COMP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   649  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   650      /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   651       * If there are any remaining CIs, then this packet is bad.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   652       */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   653      if (len != 0)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   654  	goto bad;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   655      return (1);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   656  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   657  bad:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   658      IPV6CPDEBUG(("ipv6cp_ackci: received bad Ack!"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   659      return (0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   660  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   661  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   662  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   663   * ipv6cp_nakci - Peer has sent a NAK for some of our CIs.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   664   * This should not modify any state if the Nak is bad
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   665   * or if IPV6CP is in the OPENED state.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   666   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   667   * Returns:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   668   *	0 - Nak was bad.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   669   *	1 - Nak was good.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   670   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   671  static int ipv6cp_nakci(fsm *f, u_char *p, int len, int treat_as_reject) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   672      ppp_pcb *pcb = f->pcb;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   673      ipv6cp_options *go = &pcb->ipv6cp_gotoptions;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   674      u_char citype, cilen, *next;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   675  #ifdef IPV6CP_COMP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   676      u_short cishort;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   677  #endif /* IPV6CP_COMP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   678      eui64_t ifaceid;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   679      ipv6cp_options no;		/* options we've seen Naks for */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   680      ipv6cp_options try_;	/* options to request next time */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   681  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   682      BZERO(&no, sizeof(no));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   683      try_ = *go;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   684  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   685      /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   686       * Any Nak'd CIs must be in exactly the same order that we sent.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   687       * Check packet length and CI length at each step.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   688       * If we find any deviations, then this packet is bad.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   689       */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   690  #define NAKCIIFACEID(opt, neg, code) \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   691      if (go->neg && \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   692  	len >= (cilen = CILEN_IFACEID) && \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   693  	p[1] == cilen && \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   694  	p[0] == opt) { \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   695  	len -= cilen; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   696  	INCPTR(2, p); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   697  	eui64_get(ifaceid, p); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   698  	no.neg = 1; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   699  	code \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   700      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   701  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   702  #ifdef IPV6CP_COMP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   703  #define NAKCIVJ(opt, neg, code) \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   704      if (go->neg && \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   705  	((cilen = p[1]) == CILEN_COMPRESS) && \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   706  	len >= cilen && \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   707  	p[0] == opt) { \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   708  	len -= cilen; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   709  	INCPTR(2, p); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   710  	GETSHORT(cishort, p); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   711  	no.neg = 1; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   712          code \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   713      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   714  #endif /* IPV6CP_COMP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   715  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   716      /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   717       * Accept the peer's idea of {our,his} interface identifier, if different
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   718       * from our idea, only if the accept_{local,remote} flag is set.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   719       */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   720      NAKCIIFACEID(CI_IFACEID, neg_ifaceid,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   721  		 if (treat_as_reject) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   722  		     try_.neg_ifaceid = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   723  		 } else if (go->accept_local) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   724  		     while (eui64_iszero(ifaceid) || 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   725  			    eui64_equals(ifaceid, go->hisid)) /* bad luck */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   726  			 eui64_magic(ifaceid);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   727  		     try_.ourid = ifaceid;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   728  		     IPV6CPDEBUG(("local LL address %s", llv6_ntoa(ifaceid)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   729  		 }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   730  		 );
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   731  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   732  #ifdef IPV6CP_COMP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   733      NAKCIVJ(CI_COMPRESSTYPE, neg_vj,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   734  	    {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   735  		if (cishort == IPV6CP_COMP && !treat_as_reject) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   736  		    try_.vj_protocol = cishort;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   737  		} else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   738  		    try_.neg_vj = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   739  		}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   740  	    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   741  	    );
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   742  #endif /* IPV6CP_COMP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   743  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   744      /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   745       * There may be remaining CIs, if the peer is requesting negotiation
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   746       * on an option that we didn't include in our request packet.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   747       * If they want to negotiate about interface identifier, we comply.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   748       * If they want us to ask for compression, we refuse.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   749       */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   750      while (len >= CILEN_VOID) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   751  	GETCHAR(citype, p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   752  	GETCHAR(cilen, p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   753  	if ( cilen < CILEN_VOID || (len -= cilen) < 0 )
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   754  	    goto bad;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   755  	next = p + cilen - 2;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   756  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   757  	switch (citype) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   758  #ifdef IPV6CP_COMP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   759  	case CI_COMPRESSTYPE:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   760  	    if (go->neg_vj || no.neg_vj ||
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   761  		(cilen != CILEN_COMPRESS))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   762  		goto bad;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   763  	    no.neg_vj = 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   764  	    break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   765  #endif /* IPV6CP_COMP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   766  	case CI_IFACEID:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   767  	    if (go->neg_ifaceid || no.neg_ifaceid || cilen != CILEN_IFACEID)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   768  		goto bad;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   769  	    try_.neg_ifaceid = 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   770  	    eui64_get(ifaceid, p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   771  	    if (go->accept_local) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   772  		while (eui64_iszero(ifaceid) || 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   773  		       eui64_equals(ifaceid, go->hisid)) /* bad luck */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   774  		    eui64_magic(ifaceid);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   775  		try_.ourid = ifaceid;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   776  	    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   777  	    no.neg_ifaceid = 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   778  	    break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   779  	default:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   780  	    break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   781  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   782  	p = next;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   783      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   784  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   785      /* If there is still anything left, this packet is bad. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   786      if (len != 0)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   787  	goto bad;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   788  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   789      /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   790       * OK, the Nak is good.  Now we can update state.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   791       */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   792      if (f->state != PPP_FSM_OPENED)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   793  	*go = try_;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   794  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   795      return 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   796  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   797  bad:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   798      IPV6CPDEBUG(("ipv6cp_nakci: received bad Nak!"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   799      return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   800  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   801  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   802  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   803  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   804   * ipv6cp_rejci - Reject some of our CIs.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   805   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   806  static int ipv6cp_rejci(fsm *f, u_char *p, int len) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   807      ppp_pcb *pcb = f->pcb;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   808      ipv6cp_options *go = &pcb->ipv6cp_gotoptions;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   809      u_char cilen;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   810  #ifdef IPV6CP_COMP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   811      u_short cishort;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   812  #endif /* IPV6CP_COMP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   813      eui64_t ifaceid;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   814      ipv6cp_options try_;		/* options to request next time */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   815  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   816      try_ = *go;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   817      /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   818       * Any Rejected CIs must be in exactly the same order that we sent.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   819       * Check packet length and CI length at each step.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   820       * If we find any deviations, then this packet is bad.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   821       */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   822  #define REJCIIFACEID(opt, neg, val1) \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   823      if (go->neg && \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   824  	len >= (cilen = CILEN_IFACEID) && \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   825  	p[1] == cilen && \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   826  	p[0] == opt) { \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   827  	len -= cilen; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   828  	INCPTR(2, p); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   829  	eui64_get(ifaceid, p); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   830  	/* Check rejected value. */ \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   831  	if (! eui64_equals(ifaceid, val1)) \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   832  	    goto bad; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   833  	try_.neg = 0; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   834      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   835  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   836  #ifdef IPV6CP_COMP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   837  #define REJCIVJ(opt, neg, val) \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   838      if (go->neg && \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   839  	p[1] == CILEN_COMPRESS && \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   840  	len >= p[1] && \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   841  	p[0] == opt) { \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   842  	len -= p[1]; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   843  	INCPTR(2, p); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   844  	GETSHORT(cishort, p); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   845  	/* Check rejected value. */  \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   846  	if (cishort != val) \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   847  	    goto bad; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   848  	try_.neg = 0; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   849       }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   850  #endif /* IPV6CP_COMP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   851  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   852      REJCIIFACEID(CI_IFACEID, neg_ifaceid, go->ourid);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   853  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   854  #ifdef IPV6CP_COMP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   855      REJCIVJ(CI_COMPRESSTYPE, neg_vj, go->vj_protocol);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   856  #endif /* IPV6CP_COMP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   857  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   858      /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   859       * If there are any remaining CIs, then this packet is bad.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   860       */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   861      if (len != 0)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   862  	goto bad;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   863      /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   864       * Now we can update state.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   865       */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   866      if (f->state != PPP_FSM_OPENED)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   867  	*go = try_;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   868      return 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   869  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   870  bad:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   871      IPV6CPDEBUG(("ipv6cp_rejci: received bad Reject!"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   872      return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   873  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   874  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   875  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   876  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   877   * ipv6cp_reqci - Check the peer's requested CIs and send appropriate response.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   878   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   879   * Returns: CONFACK, CONFNAK or CONFREJ and input packet modified
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   880   * appropriately.  If reject_if_disagree is non-zero, doesn't return
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   881   * CONFNAK; returns CONFREJ if it can't return CONFACK.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   882   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   883   * inp = Requested CIs
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   884   * len = Length of requested CIs
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   885   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   886   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   887  static int ipv6cp_reqci(fsm *f, u_char *inp, int *len, int reject_if_disagree) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   888      ppp_pcb *pcb = f->pcb;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   889      ipv6cp_options *wo = &pcb->ipv6cp_wantoptions;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   890      ipv6cp_options *ho = &pcb->ipv6cp_hisoptions;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   891      ipv6cp_options *ao = &pcb->ipv6cp_allowoptions;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   892      ipv6cp_options *go = &pcb->ipv6cp_gotoptions;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   893      u_char *cip, *next;		/* Pointer to current and next CIs */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   894      u_short cilen, citype;	/* Parsed len, type */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   895  #ifdef IPV6CP_COMP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   896      u_short cishort;		/* Parsed short value */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   897  #endif /* IPV6CP_COMP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   898      eui64_t ifaceid;		/* Parsed interface identifier */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   899      int rc = CONFACK;		/* Final packet return code */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   900      int orc;			/* Individual option return code */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   901      u_char *p;			/* Pointer to next char to parse */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   902      u_char *ucp = inp;		/* Pointer to current output char */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   903      int l = *len;		/* Length left */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   904  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   905      /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   906       * Reset all his options.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   907       */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   908      BZERO(ho, sizeof(*ho));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   909      
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   910      /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   911       * Process all his options.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   912       */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   913      next = inp;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   914      while (l) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   915  	orc = CONFACK;			/* Assume success */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   916  	cip = p = next;			/* Remember begining of CI */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   917  	if (l < 2 ||			/* Not enough data for CI header or */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   918  	    p[1] < 2 ||			/*  CI length too small or */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   919  	    p[1] > l) {			/*  CI length too big? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   920  	    IPV6CPDEBUG(("ipv6cp_reqci: bad CI length!"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   921  	    orc = CONFREJ;		/* Reject bad CI */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   922  	    cilen = l;			/* Reject till end of packet */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   923  	    l = 0;			/* Don't loop again */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   924  	    goto endswitch;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   925  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   926  	GETCHAR(citype, p);		/* Parse CI type */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   927  	GETCHAR(cilen, p);		/* Parse CI length */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   928  	l -= cilen;			/* Adjust remaining length */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   929  	next += cilen;			/* Step to next CI */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   930  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   931  	switch (citype) {		/* Check CI type */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   932  	case CI_IFACEID:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   933  	    IPV6CPDEBUG(("ipv6cp: received interface identifier "));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   934  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   935  	    if (!ao->neg_ifaceid ||
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   936  		cilen != CILEN_IFACEID) {	/* Check CI length */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   937  		orc = CONFREJ;		/* Reject CI */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   938  		break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   939  	    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   940  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   941  	    /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   942  	     * If he has no interface identifier, or if we both have same 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   943  	     * identifier then NAK it with new idea.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   944  	     * In particular, if we don't know his identifier, but he does,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   945  	     * then accept it.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   946  	     */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   947  	    eui64_get(ifaceid, p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   948  	    IPV6CPDEBUG(("(%s)", llv6_ntoa(ifaceid)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   949  	    if (eui64_iszero(ifaceid) && eui64_iszero(go->ourid)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   950  		orc = CONFREJ;		/* Reject CI */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   951  		break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   952  	    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   953  	    if (!eui64_iszero(wo->hisid) && 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   954  		!eui64_equals(ifaceid, wo->hisid) && 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   955  		eui64_iszero(go->hisid)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   956  		    
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   957  		orc = CONFNAK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   958  		ifaceid = wo->hisid;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   959  		go->hisid = ifaceid;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   960  		DECPTR(sizeof(ifaceid), p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   961  		eui64_put(ifaceid, p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   962  	    } else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   963  	    if (eui64_iszero(ifaceid) || eui64_equals(ifaceid, go->ourid)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   964  		orc = CONFNAK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   965  		if (eui64_iszero(go->hisid))	/* first time, try option */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   966  		    ifaceid = wo->hisid;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   967  		while (eui64_iszero(ifaceid) || 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   968  		       eui64_equals(ifaceid, go->ourid)) /* bad luck */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   969  		    eui64_magic(ifaceid);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   970  		go->hisid = ifaceid;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   971  		DECPTR(sizeof(ifaceid), p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   972  		eui64_put(ifaceid, p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   973  	    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   974  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   975  	    ho->neg_ifaceid = 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   976  	    ho->hisid = ifaceid;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   977  	    break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   978  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   979  #ifdef IPV6CP_COMP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   980  	case CI_COMPRESSTYPE:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   981  	    IPV6CPDEBUG(("ipv6cp: received COMPRESSTYPE "));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   982  	    if (!ao->neg_vj ||
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   983  		(cilen != CILEN_COMPRESS)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   984  		orc = CONFREJ;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   985  		break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   986  	    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   987  	    GETSHORT(cishort, p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   988  	    IPV6CPDEBUG(("(%d)", cishort));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   989  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   990  	    if (!(cishort == IPV6CP_COMP)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   991  		orc = CONFREJ;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   992  		break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   993  	    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   994  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   995  	    ho->neg_vj = 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   996  	    ho->vj_protocol = cishort;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   997  	    break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   998  #endif /* IPV6CP_COMP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	   999  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1000  	default:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1001  	    orc = CONFREJ;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1002  	    break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1003  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1004  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1005  endswitch:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1006  	IPV6CPDEBUG((" (%s)\n", CODENAME(orc)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1007  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1008  	if (orc == CONFACK &&		/* Good CI */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1009  	    rc != CONFACK)		/*  but prior CI wasnt? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1010  	    continue;			/* Don't send this one */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1011  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1012  	if (orc == CONFNAK) {		/* Nak this CI? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1013  	    if (reject_if_disagree)	/* Getting fed up with sending NAKs? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1014  		orc = CONFREJ;		/* Get tough if so */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1015  	    else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1016  		if (rc == CONFREJ)	/* Rejecting prior CI? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1017  		    continue;		/* Don't send this one */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1018  		if (rc == CONFACK) {	/* Ack'd all prior CIs? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1019  		    rc = CONFNAK;	/* Not anymore... */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1020  		    ucp = inp;		/* Backup */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1021  		}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1022  	    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1023  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1024  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1025  	if (orc == CONFREJ &&		/* Reject this CI */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1026  	    rc != CONFREJ) {		/*  but no prior ones? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1027  	    rc = CONFREJ;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1028  	    ucp = inp;			/* Backup */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1029  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1030  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1031  	/* Need to move CI? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1032  	if (ucp != cip)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1033  	    MEMCPY(ucp, cip, cilen);	/* Move it */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1034  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1035  	/* Update output pointer */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1036  	INCPTR(cilen, ucp);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1037      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1038  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1039      /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1040       * If we aren't rejecting this packet, and we want to negotiate
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1041       * their identifier and they didn't send their identifier, then we
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1042       * send a NAK with a CI_IFACEID option appended.  We assume the
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1043       * input buffer is long enough that we can append the extra
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1044       * option safely.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1045       */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1046      if (rc != CONFREJ && !ho->neg_ifaceid &&
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1047  	wo->req_ifaceid && !reject_if_disagree) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1048  	if (rc == CONFACK) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1049  	    rc = CONFNAK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1050  	    ucp = inp;				/* reset pointer */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1051  	    wo->req_ifaceid = 0;		/* don't ask again */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1052  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1053  	PUTCHAR(CI_IFACEID, ucp);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1054  	PUTCHAR(CILEN_IFACEID, ucp);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1055  	eui64_put(wo->hisid, ucp);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1056      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1057  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1058      *len = ucp - inp;			/* Compute output length */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1059      IPV6CPDEBUG(("ipv6cp: returning Configure-%s", CODENAME(rc)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1060      return (rc);			/* Return final code */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1061  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1062  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1063  #if PPP_OPTIONS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1064  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1065   * ipv6_check_options - check that any IP-related options are OK,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1066   * and assign appropriate defaults.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1067   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1068  static void ipv6_check_options() {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1069      ipv6cp_options *wo = &ipv6cp_wantoptions[0];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1070  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1071      if (!ipv6cp_protent.enabled_flag)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1072  	return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1073  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1074      /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1075       * Persistent link-local id is only used when user has not explicitly
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1076       * configure/hard-code the id
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1077       */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1078      if ((wo->use_persistent) && (!wo->opt_local) && (!wo->opt_remote)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1079  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1080  	/* 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1081  	 * On systems where there are no Ethernet interfaces used, there
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1082  	 * may be other ways to obtain a persistent id. Right now, it
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1083  	 * will fall back to using magic [see eui64_magic] below when
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1084  	 * an EUI-48 from MAC address can't be obtained. Other possibilities
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1085  	 * include obtaining EEPROM serial numbers, or some other unique
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1086  	 * yet persistent number. On Sparc platforms, this is possible,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1087  	 * but too bad there's no standards yet for x86 machines.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1088  	 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1089  	if (ether_to_eui64(&wo->ourid)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1090  	    wo->opt_local = 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1091  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1092      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1093  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1094      if (!wo->opt_local) {	/* init interface identifier */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1095  	if (wo->use_ip && eui64_iszero(wo->ourid)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1096  	    eui64_setlo32(wo->ourid, lwip_ntohl(ipcp_wantoptions[0].ouraddr));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1097  	    if (!eui64_iszero(wo->ourid))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1098  		wo->opt_local = 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1099  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1100  	
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1101  	while (eui64_iszero(wo->ourid))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1102  	    eui64_magic(wo->ourid);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1103      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1104  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1105      if (!wo->opt_remote) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1106  	if (wo->use_ip && eui64_iszero(wo->hisid)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1107  	    eui64_setlo32(wo->hisid, lwip_ntohl(ipcp_wantoptions[0].hisaddr));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1108  	    if (!eui64_iszero(wo->hisid))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1109  		wo->opt_remote = 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1110  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1111      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1112  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1113      if (demand && (eui64_iszero(wo->ourid) || eui64_iszero(wo->hisid))) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1114  	option_error("local/remote LL address required for demand-dialling\n");
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1115  	exit(1);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1116      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1117  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1118  #endif /* PPP_OPTIONS */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1119  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1120  #if DEMAND_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1121  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1122   * ipv6_demand_conf - configure the interface as though
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1123   * IPV6CP were up, for use with dial-on-demand.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1124   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1125  static int ipv6_demand_conf(int u) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1126      ipv6cp_options *wo = &ipv6cp_wantoptions[u];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1127  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1128      if (!sif6up(u))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1129  	return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1130  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1131      if (!sif6addr(u, wo->ourid, wo->hisid))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1132  	return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1133  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1134      if (!sifnpmode(u, PPP_IPV6, NPMODE_QUEUE))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1135  	return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1136  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1137      ppp_notice("ipv6_demand_conf");
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1138      ppp_notice("local  LL address %s", llv6_ntoa(wo->ourid));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1139      ppp_notice("remote LL address %s", llv6_ntoa(wo->hisid));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1140  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1141      return 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1142  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1143  #endif /* DEMAND_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1144  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1145  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1146  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1147   * ipv6cp_up - IPV6CP has come UP.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1148   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1149   * Configure the IPv6 network interface appropriately and bring it up.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1150   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1151  static void ipv6cp_up(fsm *f) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1152      ppp_pcb *pcb = f->pcb;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1153      ipv6cp_options *wo = &pcb->ipv6cp_wantoptions;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1154      ipv6cp_options *ho = &pcb->ipv6cp_hisoptions;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1155      ipv6cp_options *go = &pcb->ipv6cp_gotoptions;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1156  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1157      IPV6CPDEBUG(("ipv6cp: up"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1158  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1159      /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1160       * We must have a non-zero LL address for both ends of the link.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1161       */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1162      if (!ho->neg_ifaceid)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1163  	ho->hisid = wo->hisid;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1164  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1165  #if 0 /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1166      if(!no_ifaceid_neg) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1167  #endif /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1168  	if (eui64_iszero(ho->hisid)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1169  	    ppp_error("Could not determine remote LL address");
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1170  	    ipv6cp_close(f->pcb, "Could not determine remote LL address");
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1171  	    return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1172  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1173  	if (eui64_iszero(go->ourid)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1174  	    ppp_error("Could not determine local LL address");
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1175  	    ipv6cp_close(f->pcb, "Could not determine local LL address");
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1176  	    return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1177  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1178  	if (eui64_equals(go->ourid, ho->hisid)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1179  	    ppp_error("local and remote LL addresses are equal");
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1180  	    ipv6cp_close(f->pcb, "local and remote LL addresses are equal");
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1181  	    return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1182  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1183  #if 0 /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1184      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1185  #endif /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1186  #if 0 /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1187      script_setenv("LLLOCAL", llv6_ntoa(go->ourid), 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1188      script_setenv("LLREMOTE", llv6_ntoa(ho->hisid), 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1189  #endif /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1190  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1191  #ifdef IPV6CP_COMP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1192      /* set tcp compression */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1193      sif6comp(f->unit, ho->neg_vj);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1194  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1195  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1196  #if DEMAND_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1197      /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1198       * If we are doing dial-on-demand, the interface is already
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1199       * configured, so we put out any saved-up packets, then set the
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1200       * interface to pass IPv6 packets.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1201       */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1202      if (demand) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1203  	if (! eui64_equals(go->ourid, wo->ourid) || 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1204  	    ! eui64_equals(ho->hisid, wo->hisid)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1205  	    if (! eui64_equals(go->ourid, wo->ourid))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1206  		warn("Local LL address changed to %s", 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1207  		     llv6_ntoa(go->ourid));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1208  	    if (! eui64_equals(ho->hisid, wo->hisid))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1209  		warn("Remote LL address changed to %s", 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1210  		     llv6_ntoa(ho->hisid));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1211  	    ipv6cp_clear_addrs(f->pcb, go->ourid, ho->hisid);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1212  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1213  	    /* Set the interface to the new addresses */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1214  	    if (!sif6addr(f->pcb, go->ourid, ho->hisid)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1215  		if (debug)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1216  		    warn("sif6addr failed");
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1217  		ipv6cp_close(f->unit, "Interface configuration failed");
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1218  		return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1219  	    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1220  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1221  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1222  	demand_rexmit(PPP_IPV6);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1223  	sifnpmode(f->unit, PPP_IPV6, NPMODE_PASS);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1224  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1225      } else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1226  #endif /* DEMAND_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1227      {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1228  	/*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1229  	 * Set LL addresses
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1230  	 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1231  	if (!sif6addr(f->pcb, go->ourid, ho->hisid)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1232  	    PPPDEBUG(LOG_DEBUG, ("sif6addr failed"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1233  	    ipv6cp_close(f->pcb, "Interface configuration failed");
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1234  	    return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1235  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1236  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1237  	/* bring the interface up for IPv6 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1238  	if (!sif6up(f->pcb)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1239  	    PPPDEBUG(LOG_DEBUG, ("sif6up failed (IPV6)"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1240  	    ipv6cp_close(f->pcb, "Interface configuration failed");
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1241  	    return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1242  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1243  #if DEMAND_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1244  	sifnpmode(f->pcb, PPP_IPV6, NPMODE_PASS);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1245  #endif /* DEMAND_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1246  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1247  	ppp_notice("local  LL address %s", llv6_ntoa(go->ourid));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1248  	ppp_notice("remote LL address %s", llv6_ntoa(ho->hisid));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1249      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1250  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1251      np_up(f->pcb, PPP_IPV6);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1252      pcb->ipv6cp_is_up = 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1253  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1254  #if 0 /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1255      /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1256       * Execute the ipv6-up script, like this:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1257       *	/etc/ppp/ipv6-up interface tty speed local-LL remote-LL
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1258       */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1259      if (ipv6cp_script_state == s_down && ipv6cp_script_pid == 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1260  	ipv6cp_script_state = s_up;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1261  	ipv6cp_script(_PATH_IPV6UP);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1262      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1263  #endif /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1264  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1265  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1266  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1267  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1268   * ipv6cp_down - IPV6CP has gone DOWN.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1269   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1270   * Take the IPv6 network interface down, clear its addresses
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1271   * and delete routes through it.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1272   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1273  static void ipv6cp_down(fsm *f) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1274      ppp_pcb *pcb = f->pcb;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1275      ipv6cp_options *go = &pcb->ipv6cp_gotoptions;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1276      ipv6cp_options *ho = &pcb->ipv6cp_hisoptions;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1277  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1278      IPV6CPDEBUG(("ipv6cp: down"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1279  #if PPP_STATS_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1280      update_link_stats(f->unit);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1281  #endif /* PPP_STATS_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1282      if (pcb->ipv6cp_is_up) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1283  	pcb->ipv6cp_is_up = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1284  	np_down(f->pcb, PPP_IPV6);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1285      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1286  #ifdef IPV6CP_COMP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1287      sif6comp(f->unit, 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1288  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1289  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1290  #if DEMAND_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1291      /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1292       * If we are doing dial-on-demand, set the interface
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1293       * to queue up outgoing packets (for now).
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1294       */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1295      if (demand) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1296  	sifnpmode(f->pcb, PPP_IPV6, NPMODE_QUEUE);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1297      } else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1298  #endif /* DEMAND_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1299      {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1300  #if DEMAND_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1301  	sifnpmode(f->pcb, PPP_IPV6, NPMODE_DROP);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1302  #endif /* DEMAND_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1303  	ipv6cp_clear_addrs(f->pcb,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1304  			   go->ourid,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1305  			   ho->hisid);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1306  	sif6down(f->pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1307      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1308  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1309  #if 0 /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1310      /* Execute the ipv6-down script */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1311      if (ipv6cp_script_state == s_up && ipv6cp_script_pid == 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1312  	ipv6cp_script_state = s_down;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1313  	ipv6cp_script(_PATH_IPV6DOWN);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1314      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1315  #endif /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1316  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1317  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1318  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1319  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1320   * ipv6cp_clear_addrs() - clear the interface addresses, routes,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1321   * proxy neighbour discovery entries, etc.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1322   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1323  static void ipv6cp_clear_addrs(ppp_pcb *pcb, eui64_t ourid, eui64_t hisid) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1324      cif6addr(pcb, ourid, hisid);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1325  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1326  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1327  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1328  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1329   * ipv6cp_finished - possibly shut down the lower layers.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1330   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1331  static void ipv6cp_finished(fsm *f) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1332      np_finished(f->pcb, PPP_IPV6);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1333  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1334  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1335  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1336  #if 0 /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1337  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1338   * ipv6cp_script_done - called when the ipv6-up or ipv6-down script
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1339   * has finished.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1340   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1341  static void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1342  ipv6cp_script_done(arg)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1343      void *arg;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1344  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1345      ipv6cp_script_pid = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1346      switch (ipv6cp_script_state) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1347      case s_up:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1348  	if (ipv6cp_fsm[0].state != PPP_FSM_OPENED) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1349  	    ipv6cp_script_state = s_down;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1350  	    ipv6cp_script(_PATH_IPV6DOWN);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1351  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1352  	break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1353      case s_down:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1354  	if (ipv6cp_fsm[0].state == PPP_FSM_OPENED) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1355  	    ipv6cp_script_state = s_up;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1356  	    ipv6cp_script(_PATH_IPV6UP);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1357  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1358  	break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1359      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1360  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1361  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1362  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1363  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1364   * ipv6cp_script - Execute a script with arguments
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1365   * interface-name tty-name speed local-LL remote-LL.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1366   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1367  static void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1368  ipv6cp_script(script)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1369      char *script;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1370  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1371      char strspeed[32], strlocal[32], strremote[32];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1372      char *argv[8];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1373  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1374      sprintf(strspeed, "%d", baud_rate);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1375      strcpy(strlocal, llv6_ntoa(ipv6cp_gotoptions[0].ourid));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1376      strcpy(strremote, llv6_ntoa(ipv6cp_hisoptions[0].hisid));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1377  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1378      argv[0] = script;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1379      argv[1] = ifname;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1380      argv[2] = devnam;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1381      argv[3] = strspeed;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1382      argv[4] = strlocal;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1383      argv[5] = strremote;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1384      argv[6] = ipparam;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1385      argv[7] = NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1386  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1387      ipv6cp_script_pid = run_program(script, argv, 0, ipv6cp_script_done,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1388  				    NULL, 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1389  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1390  #endif /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1391  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1392  #if PRINTPKT_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1393  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1394   * ipv6cp_printpkt - print the contents of an IPV6CP packet.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1395   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1396  static const char* const ipv6cp_codenames[] = {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1397      "ConfReq", "ConfAck", "ConfNak", "ConfRej",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1398      "TermReq", "TermAck", "CodeRej"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1399  };
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1400  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1401  static int ipv6cp_printpkt(const u_char *p, int plen,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1402  		void (*printer)(void *, const char *, ...), void *arg) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1403      int code, id, len, olen;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1404      const u_char *pstart, *optend;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1405  #ifdef IPV6CP_COMP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1406      u_short cishort;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1407  #endif /* IPV6CP_COMP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1408      eui64_t ifaceid;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1409  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1410      if (plen < HEADERLEN)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1411  	return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1412      pstart = p;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1413      GETCHAR(code, p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1414      GETCHAR(id, p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1415      GETSHORT(len, p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1416      if (len < HEADERLEN || len > plen)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1417  	return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1418  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1419      if (code >= 1 && code <= (int)LWIP_ARRAYSIZE(ipv6cp_codenames))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1420  	printer(arg, " %s", ipv6cp_codenames[code-1]);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1421      else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1422  	printer(arg, " code=0x%x", code);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1423      printer(arg, " id=0x%x", id);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1424      len -= HEADERLEN;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1425      switch (code) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1426      case CONFREQ:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1427      case CONFACK:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1428      case CONFNAK:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1429      case CONFREJ:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1430  	/* print option list */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1431  	while (len >= 2) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1432  	    GETCHAR(code, p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1433  	    GETCHAR(olen, p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1434  	    p -= 2;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1435  	    if (olen < 2 || olen > len) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1436  		break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1437  	    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1438  	    printer(arg, " <");
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1439  	    len -= olen;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1440  	    optend = p + olen;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1441  	    switch (code) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1442  #ifdef IPV6CP_COMP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1443  	    case CI_COMPRESSTYPE:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1444  		if (olen >= CILEN_COMPRESS) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1445  		    p += 2;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1446  		    GETSHORT(cishort, p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1447  		    printer(arg, "compress ");
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1448  		    printer(arg, "0x%x", cishort);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1449  		}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1450  		break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1451  #endif /* IPV6CP_COMP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1452  	    case CI_IFACEID:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1453  		if (olen == CILEN_IFACEID) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1454  		    p += 2;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1455  		    eui64_get(ifaceid, p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1456  		    printer(arg, "addr %s", llv6_ntoa(ifaceid));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1457  		}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1458  		break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1459  	    default:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1460  		break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1461  	    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1462  	    while (p < optend) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1463  		GETCHAR(code, p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1464  		printer(arg, " %.2x", code);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1465  	    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1466  	    printer(arg, ">");
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1467  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1468  	break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1469  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1470      case TERMACK:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1471      case TERMREQ:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1472  	if (len > 0 && *p >= ' ' && *p < 0x7f) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1473  	    printer(arg, " ");
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1474  	    ppp_print_string(p, len, printer, arg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1475  	    p += len;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1476  	    len = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1477  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1478  	break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1479      default:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1480  	break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1481      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1482  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1483      /* print the rest of the bytes in the packet */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1484      for (; len > 0; --len) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1485  	GETCHAR(code, p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1486  	printer(arg, " %.2x", code);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1487      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1488  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1489      return p - pstart;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1490  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1491  #endif /* PRINTPKT_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1492  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1493  #if DEMAND_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1494  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1495   * ipv6_active_pkt - see if this IP packet is worth bringing the link up for.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1496   * We don't bring the link up for IP fragments or for TCP FIN packets
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1497   * with no data.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1498   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1499  #define IP6_HDRLEN	40	/* bytes */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1500  #define IP6_NHDR_FRAG	44	/* fragment IPv6 header */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1501  #define TCP_HDRLEN	20
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1502  #define TH_FIN		0x01
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1503  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1504  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1505   * We use these macros because the IP header may be at an odd address,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1506   * and some compilers might use word loads to get th_off or ip_hl.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1507   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1508  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1509  #define get_ip6nh(x)	(((unsigned char *)(x))[6])
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1510  #define get_tcpoff(x)	(((unsigned char *)(x))[12] >> 4)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1511  #define get_tcpflags(x)	(((unsigned char *)(x))[13])
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1512  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1513  static int ipv6_active_pkt(u_char *pkt, int len) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1514      u_char *tcp;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1515  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1516      len -= PPP_HDRLEN;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1517      pkt += PPP_HDRLEN;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1518      if (len < IP6_HDRLEN)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1519  	return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1520      if (get_ip6nh(pkt) == IP6_NHDR_FRAG)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1521  	return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1522      if (get_ip6nh(pkt) != IPPROTO_TCP)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1523  	return 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1524      if (len < IP6_HDRLEN + TCP_HDRLEN)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1525  	return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1526      tcp = pkt + IP6_HDRLEN;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1527      if ((get_tcpflags(tcp) & TH_FIN) != 0 && len == IP6_HDRLEN + get_tcpoff(tcp) * 4)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1528  	return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1529      return 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1530  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1531  #endif /* DEMAND_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1532  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ipv6cp.c	  1533  #endif /* PPP_SUPPORT && PPP_IPV6_SUPPORT */
+
+	; Module end
