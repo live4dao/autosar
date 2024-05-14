@@ -1,0 +1,4498 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.2r2 Build 18041957 SN 09003395"
+	.compiler_invocation	"ctc -f cc34060a --dep-file=EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\.mem.o.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc39x -D__CPU_TC39X__ --core=tc1.6.2 --fp-model=+float -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Cfg_Ssw -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Cfg_Ssw\\TC39B -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Integration -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr\\TC39xB -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr\\TC39xB\\_Reg -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw\\TC39B -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw\\TC39B\\Tricore -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\inc\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Lib -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\App_Func -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\demo -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Adc_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Gtm_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\AscLin_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Can_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\EthV2_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Stm_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Main -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\APP -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\BswM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanNm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanSm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanTp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanTSyn -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Com -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\ComM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Common -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Crc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Dcm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Dem -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Det -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\DoIP -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EcuM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Eth -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthSM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthTrcv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthTSyn -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\FiM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\FlsTst -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\MemIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Nm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\NvM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS\\Kernel -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS\\Portable -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\PduR -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\RamTst -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\SoAd -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\StbM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\api -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\arch -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv6 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\arpa -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\net -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\sys -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\stdc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\apps -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\priv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\prot -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif\\ppp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif\\ppp\\polarssl -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\polarssl -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\UdpNm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\WdgIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\WdgM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Cal -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Daq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Pag -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Pgm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Std -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\XcpOnEth -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Callout -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Config -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Library\\Vfx_ComE2E -g2 --make-target=EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\mem.o -t2 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O1 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\mem.src ..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\mem.c"
+	.compiler_name		"ctc"
+	;source	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\mem.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.mem.ptr_to_mem',code,cluster('ptr_to_mem')
+	.sect	'.text.mem.ptr_to_mem'
+	.align	2
+	
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	     1  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	     2   * @file
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	     3   * Dynamic memory manager
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	     4   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	     5   * This is a lightweight replacement for the standard C library malloc().
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	     6   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	     7   * If you want to use the standard C library malloc() instead, define
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	     8   * MEM_LIBC_MALLOC to 1 in your lwipopts.h
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	     9   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    10   * To let mem_malloc() use pools (prevents fragmentation and is much faster than
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    11   * a heap but might waste some memory), define MEM_USE_POOLS to 1, define
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    12   * MEMP_USE_CUSTOM_POOLS to 1 and create a file "lwippools.h" that includes a list
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    13   * of pools like this (more pools can be added between _START and _END):
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    14   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    15   * Define three pools with sizes 256, 512, and 1512 bytes
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    16   * LWIP_MALLOC_MEMPOOL_START
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    17   * LWIP_MALLOC_MEMPOOL(20, 256)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    18   * LWIP_MALLOC_MEMPOOL(10, 512)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    19   * LWIP_MALLOC_MEMPOOL(5, 1512)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    20   * LWIP_MALLOC_MEMPOOL_END
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    21   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    22  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    23  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    24   * Copyright (c) 2001-2004 Swedish Institute of Computer Science.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    25   * All rights reserved.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    26   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    27   * Redistribution and use in source and binary forms, with or without modification,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    28   * are permitted provided that the following conditions are met:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    29   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    30   * 1. Redistributions of source code must retain the above copyright notice,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    31   *    this list of conditions and the following disclaimer.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    32   * 2. Redistributions in binary form must reproduce the above copyright notice,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    33   *    this list of conditions and the following disclaimer in the documentation
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    34   *    and/or other materials provided with the distribution.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    35   * 3. The name of the author may not be used to endorse or promote products
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    36   *    derived from this software without specific prior written permission.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    37   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    38   * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    39   * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    40   * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    41   * SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    42   * EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    43   * OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    44   * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    45   * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    46   * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    47   * OF SUCH DAMAGE.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    48   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    49   * This file is part of the lwIP TCP/IP stack.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    50   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    51   * Author: Adam Dunkels <adam@sics.se>
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    52   *         Simon Goldschmidt
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    53   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    54   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    55  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    56  #include "lwip/opt.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    57  #include "lwip/mem.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    58  #include "lwip/def.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    59  #include "lwip/sys.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    60  #include "lwip/stats.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    61  #include "lwip/err.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    62  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    63  #include <string.h>
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    64  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    65  #if MEM_LIBC_MALLOC
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    66  #include <stdlib.h> /* for malloc()/free() */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    67  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    68  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    69  /* This is overridable for tests only... */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    70  #ifndef LWIP_MEM_ILLEGAL_FREE
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    71  #define LWIP_MEM_ILLEGAL_FREE(msg)         LWIP_ASSERT(msg, 0)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    72  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    73  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    74  #define MEM_STATS_INC_LOCKED(x)         SYS_ARCH_LOCKED(MEM_STATS_INC(x))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    75  #define MEM_STATS_INC_USED_LOCKED(x, y) SYS_ARCH_LOCKED(MEM_STATS_INC_USED(x, y))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    76  #define MEM_STATS_DEC_USED_LOCKED(x, y) SYS_ARCH_LOCKED(MEM_STATS_DEC_USED(x, y))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    77  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    78  #if MEM_OVERFLOW_CHECK
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    79  #define MEM_SANITY_OFFSET   MEM_SANITY_REGION_BEFORE_ALIGNED
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    80  #define MEM_SANITY_OVERHEAD (MEM_SANITY_REGION_BEFORE_ALIGNED + MEM_SANITY_REGION_AFTER_ALIGNED)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    81  #else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    82  #define MEM_SANITY_OFFSET   0
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    83  #define MEM_SANITY_OVERHEAD 0
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    84  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    85  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    86  #if MEM_OVERFLOW_CHECK || MEMP_OVERFLOW_CHECK
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    87  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    88   * Check if a mep element was victim of an overflow or underflow
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    89   * (e.g. the restricted area after/before it has been altered)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    90   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    91   * @param p the mem element to check
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    92   * @param size allocated size of the element
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    93   * @param descr1 description of the element source shown on error
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    94   * @param descr2 description of the element source shown on error
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    95   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    96  void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    97  mem_overflow_check_raw(void *p, size_t size, const char *descr1, const char *descr2)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    98  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	    99  #if MEM_SANITY_REGION_AFTER_ALIGNED || MEM_SANITY_REGION_BEFORE_ALIGNED
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   100    u16_t k;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   101    u8_t *m;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   102  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   103  #if MEM_SANITY_REGION_AFTER_ALIGNED > 0
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   104    m = (u8_t *)p + size;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   105    for (k = 0; k < MEM_SANITY_REGION_AFTER_ALIGNED; k++) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   106      if (m[k] != 0xcd) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   107        char errstr[128];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   108        snprintf(errstr, sizeof(errstr), "detected mem overflow in %s%s", descr1, descr2);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   109        LWIP_ASSERT(errstr, 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   110      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   111    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   112  #endif /* MEM_SANITY_REGION_AFTER_ALIGNED > 0 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   113  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   114  #if MEM_SANITY_REGION_BEFORE_ALIGNED > 0
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   115    m = (u8_t *)p - MEM_SANITY_REGION_BEFORE_ALIGNED;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   116    for (k = 0; k < MEM_SANITY_REGION_BEFORE_ALIGNED; k++) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   117      if (m[k] != 0xcd) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   118        char errstr[128];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   119        snprintf(errstr, sizeof(errstr), "detected mem underflow in %s%s", descr1, descr2);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   120        LWIP_ASSERT(errstr, 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   121      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   122    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   123  #endif /* MEM_SANITY_REGION_BEFORE_ALIGNED > 0 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   124  #else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   125    LWIP_UNUSED_ARG(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   126    LWIP_UNUSED_ARG(desc);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   127    LWIP_UNUSED_ARG(descr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   128  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   129  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   130  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   131  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   132   * Initialize the restricted area of a mem element.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   133   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   134  void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   135  mem_overflow_init_raw(void *p, size_t size)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   136  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   137  #if MEM_SANITY_REGION_BEFORE_ALIGNED > 0 || MEM_SANITY_REGION_AFTER_ALIGNED > 0
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   138    u8_t *m;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   139  #if MEM_SANITY_REGION_BEFORE_ALIGNED > 0
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   140    m = (u8_t *)p - MEM_SANITY_REGION_BEFORE_ALIGNED;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   141    memset(m, 0xcd, MEM_SANITY_REGION_BEFORE_ALIGNED);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   142  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   143  #if MEM_SANITY_REGION_AFTER_ALIGNED > 0
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   144    m = (u8_t *)p + size;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   145    memset(m, 0xcd, MEM_SANITY_REGION_AFTER_ALIGNED);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   146  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   147  #else /* MEM_SANITY_REGION_BEFORE_ALIGNED > 0 || MEM_SANITY_REGION_AFTER_ALIGNED > 0 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   148    LWIP_UNUSED_ARG(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   149    LWIP_UNUSED_ARG(desc);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   150  #endif /* MEM_SANITY_REGION_BEFORE_ALIGNED > 0 || MEM_SANITY_REGION_AFTER_ALIGNED > 0 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   151  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   152  #endif /* MEM_OVERFLOW_CHECK || MEMP_OVERFLOW_CHECK */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   153  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   154  #if MEM_LIBC_MALLOC || MEM_USE_POOLS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   155  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   156  /** mem_init is not used when using pools instead of a heap or using
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   157   * C library malloc().
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   158   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   159  void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   160  mem_init(void)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   161  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   162  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   163  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   164  /** mem_trim is not used when using pools instead of a heap or using
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   165   * C library malloc(): we can't free part of a pool element and the stack
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   166   * support mem_trim() to return a different pointer
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   167   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   168  void *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   169  mem_trim(void *mem, mem_size_t size)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   170  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   171    LWIP_UNUSED_ARG(size);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   172    return mem;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   173  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   174  #endif /* MEM_LIBC_MALLOC || MEM_USE_POOLS */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   175  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   176  #if MEM_LIBC_MALLOC
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   177  /* lwIP heap implemented using C library malloc() */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   178  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   179  /* in case C library malloc() needs extra protection,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   180   * allow these defines to be overridden.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   181   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   182  #ifndef mem_clib_free
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   183  #define mem_clib_free free
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   184  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   185  #ifndef mem_clib_malloc
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   186  #define mem_clib_malloc malloc
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   187  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   188  #ifndef mem_clib_calloc
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   189  #define mem_clib_calloc calloc
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   190  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   191  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   192  #if LWIP_STATS && MEM_STATS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   193  #define MEM_LIBC_STATSHELPER_SIZE LWIP_MEM_ALIGN_SIZE(sizeof(mem_size_t))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   194  #else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   195  #define MEM_LIBC_STATSHELPER_SIZE 0
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   196  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   197  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   198  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   199   * Allocate a block of memory with a minimum of 'size' bytes.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   200   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   201   * @param size is the minimum size of the requested block in bytes.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   202   * @return pointer to allocated memory or NULL if no free memory was found.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   203   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   204   * Note that the returned value must always be aligned (as defined by MEM_ALIGNMENT).
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   205   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   206  void *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   207  mem_malloc(mem_size_t size)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   208  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   209    void *ret = mem_clib_malloc(size + MEM_LIBC_STATSHELPER_SIZE);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   210    if (ret == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   211      MEM_STATS_INC_LOCKED(err);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   212    } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   213      LWIP_ASSERT("malloc() must return aligned memory", LWIP_MEM_ALIGN(ret) == ret);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   214  #if LWIP_STATS && MEM_STATS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   215      *(mem_size_t *)ret = size;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   216      ret = (u8_t *)ret + MEM_LIBC_STATSHELPER_SIZE;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   217      MEM_STATS_INC_USED_LOCKED(used, size);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   218  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   219    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   220    return ret;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   221  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   222  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   223  /** Put memory back on the heap
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   224   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   225   * @param rmem is the pointer as returned by a previous call to mem_malloc()
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   226   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   227  void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   228  mem_free(void *rmem)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   229  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   230    LWIP_ASSERT("rmem != NULL", (rmem != NULL));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   231    LWIP_ASSERT("rmem == MEM_ALIGN(rmem)", (rmem == LWIP_MEM_ALIGN(rmem)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   232  #if LWIP_STATS && MEM_STATS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   233    rmem = (u8_t *)rmem - MEM_LIBC_STATSHELPER_SIZE;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   234    MEM_STATS_DEC_USED_LOCKED(used, *(mem_size_t *)rmem);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   235  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   236    mem_clib_free(rmem);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   237  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   238  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   239  #elif MEM_USE_POOLS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   240  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   241  /* lwIP heap implemented with different sized pools */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   242  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   243  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   244   * Allocate memory: determine the smallest pool that is big enough
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   245   * to contain an element of 'size' and get an element from that pool.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   246   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   247   * @param size the size in bytes of the memory needed
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   248   * @return a pointer to the allocated memory or NULL if the pool is empty
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   249   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   250  void *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   251  mem_malloc(mem_size_t size)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   252  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   253    void *ret;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   254    struct memp_malloc_helper *element = NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   255    memp_t poolnr;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   256    mem_size_t required_size = size + LWIP_MEM_ALIGN_SIZE(sizeof(struct memp_malloc_helper));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   257  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   258    for (poolnr = MEMP_POOL_FIRST; poolnr <= MEMP_POOL_LAST; poolnr = (memp_t)(poolnr + 1)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   259      /* is this pool big enough to hold an element of the required size
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   260         plus a struct memp_malloc_helper that saves the pool this element came from? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   261      if (required_size <= memp_pools[poolnr]->size) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   262        element = (struct memp_malloc_helper *)memp_malloc(poolnr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   263        if (element == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   264          /* No need to DEBUGF or ASSERT: This error is already taken care of in memp.c */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   265  #if MEM_USE_POOLS_TRY_BIGGER_POOL
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   266          /** Try a bigger pool if this one is empty! */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   267          if (poolnr < MEMP_POOL_LAST) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   268            continue;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   269          }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   270  #endif /* MEM_USE_POOLS_TRY_BIGGER_POOL */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   271          MEM_STATS_INC_LOCKED(err);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   272          return NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   273        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   274        break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   275      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   276    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   277    if (poolnr > MEMP_POOL_LAST) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   278      LWIP_ASSERT("mem_malloc(): no pool is that big!", 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   279      MEM_STATS_INC_LOCKED(err);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   280      return NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   281    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   282  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   283    /* save the pool number this element came from */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   284    element->poolnr = poolnr;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   285    /* and return a pointer to the memory directly after the struct memp_malloc_helper */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   286    ret = (u8_t *)element + LWIP_MEM_ALIGN_SIZE(sizeof(struct memp_malloc_helper));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   287  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   288  #if MEMP_OVERFLOW_CHECK || (LWIP_STATS && MEM_STATS)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   289    /* truncating to u16_t is safe because struct memp_desc::size is u16_t */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   290    element->size = (u16_t)size;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   291    MEM_STATS_INC_USED_LOCKED(used, element->size);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   292  #endif /* MEMP_OVERFLOW_CHECK || (LWIP_STATS && MEM_STATS) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   293  #if MEMP_OVERFLOW_CHECK
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   294    /* initialize unused memory (diff between requested size and selected pool's size) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   295    memset((u8_t *)ret + size, 0xcd, memp_pools[poolnr]->size - size);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   296  #endif /* MEMP_OVERFLOW_CHECK */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   297    return ret;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   298  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   299  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   300  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   301   * Free memory previously allocated by mem_malloc. Loads the pool number
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   302   * and calls memp_free with that pool number to put the element back into
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   303   * its pool
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   304   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   305   * @param rmem the memory element to free
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   306   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   307  void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   308  mem_free(void *rmem)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   309  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   310    struct memp_malloc_helper *hmem;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   311  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   312    LWIP_ASSERT("rmem != NULL", (rmem != NULL));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   313    LWIP_ASSERT("rmem == MEM_ALIGN(rmem)", (rmem == LWIP_MEM_ALIGN(rmem)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   314  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   315    /* get the original struct memp_malloc_helper */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   316    /* cast through void* to get rid of alignment warnings */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   317    hmem = (struct memp_malloc_helper *)(void *)((u8_t *)rmem - LWIP_MEM_ALIGN_SIZE(sizeof(struct memp_malloc_helper)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   318  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   319    LWIP_ASSERT("hmem != NULL", (hmem != NULL));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   320    LWIP_ASSERT("hmem == MEM_ALIGN(hmem)", (hmem == LWIP_MEM_ALIGN(hmem)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   321    LWIP_ASSERT("hmem->poolnr < MEMP_MAX", (hmem->poolnr < MEMP_MAX));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   322  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   323    MEM_STATS_DEC_USED_LOCKED(used, hmem->size);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   324  #if MEMP_OVERFLOW_CHECK
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   325    {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   326      u16_t i;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   327      LWIP_ASSERT("MEM_USE_POOLS: invalid chunk size",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   328                  hmem->size <= memp_pools[hmem->poolnr]->size);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   329      /* check that unused memory remained untouched (diff between requested size and selected pool's size) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   330      for (i = hmem->size; i < memp_pools[hmem->poolnr]->size; i++) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   331        u8_t data = *((u8_t *)rmem + i);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   332        LWIP_ASSERT("MEM_USE_POOLS: mem overflow detected", data == 0xcd);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   333      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   334    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   335  #endif /* MEMP_OVERFLOW_CHECK */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   336  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   337    /* and put it in the pool we saved earlier */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   338    memp_free(hmem->poolnr, hmem);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   339  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   340  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   341  #else /* MEM_USE_POOLS */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   342  /* lwIP replacement for your libc malloc() */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   343  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   344  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   345   * The heap is made up as a list of structs of this type.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   346   * This does not have to be aligned since for getting its size,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   347   * we only use the macro SIZEOF_STRUCT_MEM, which automatically aligns.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   348   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   349  struct mem {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   350    /** index (-> ram[next]) of the next struct */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   351    mem_size_t next;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   352    /** index (-> ram[prev]) of the previous struct */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   353    mem_size_t prev;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   354    /** 1: this area is used; 0: this area is unused */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   355    u8_t used;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   356  #if MEM_OVERFLOW_CHECK
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   357    /** this keeps track of the user allocation size for guard checks */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   358    mem_size_t user_size;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   359  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   360  };
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   361  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   362  /** All allocated blocks will be MIN_SIZE bytes big, at least!
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   363   * MIN_SIZE can be overridden to suit your needs. Smaller values save space,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   364   * larger values could prevent too small blocks to fragment the RAM too much. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   365  #ifndef MIN_SIZE
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   366  #define MIN_SIZE             12
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   367  #endif /* MIN_SIZE */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   368  /* some alignment macros: we define them here for better source code layout */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   369  #define MIN_SIZE_ALIGNED     LWIP_MEM_ALIGN_SIZE(MIN_SIZE)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   370  #define SIZEOF_STRUCT_MEM    LWIP_MEM_ALIGN_SIZE(sizeof(struct mem))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   371  #define MEM_SIZE_ALIGNED     LWIP_MEM_ALIGN_SIZE(MEM_SIZE)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   372  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   373  /** If you want to relocate the heap to external memory, simply define
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   374   * LWIP_RAM_HEAP_POINTER as a void-pointer to that location.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   375   * If so, make sure the memory at that location is big enough (see below on
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   376   * how that space is calculated). */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   377  #ifndef LWIP_RAM_HEAP_POINTER
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   378  /** the heap. we need one struct mem at the end and some room for alignment */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   379  LWIP_DECLARE_MEMORY_ALIGNED(ram_heap, MEM_SIZE_ALIGNED + (2U * SIZEOF_STRUCT_MEM));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   380  #define LWIP_RAM_HEAP_POINTER ram_heap
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   381  #endif /* LWIP_RAM_HEAP_POINTER */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   382  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   383  /** pointer to the heap (ram_heap): for alignment, ram is now a pointer instead of an array */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   384  static u8_t *ram;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   385  /** the last entry, always unused! */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   386  static struct mem *ram_end;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   387  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   388  /** concurrent access protection */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   389  #if !NO_SYS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   390  static sys_mutex_t mem_mutex;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   391  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   392  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   393  #if LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   394  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   395  static volatile u8_t mem_free_count;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   396  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   397  /* Allow mem_free from other (e.g. interrupt) context */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   398  #define LWIP_MEM_FREE_DECL_PROTECT()  SYS_ARCH_DECL_PROTECT(lev_free)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   399  #define LWIP_MEM_FREE_PROTECT()       SYS_ARCH_PROTECT(lev_free)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   400  #define LWIP_MEM_FREE_UNPROTECT()     SYS_ARCH_UNPROTECT(lev_free)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   401  #define LWIP_MEM_ALLOC_DECL_PROTECT() SYS_ARCH_DECL_PROTECT(lev_alloc)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   402  #define LWIP_MEM_ALLOC_PROTECT()      SYS_ARCH_PROTECT(lev_alloc)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   403  #define LWIP_MEM_ALLOC_UNPROTECT()    SYS_ARCH_UNPROTECT(lev_alloc)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   404  #define LWIP_MEM_LFREE_VOLATILE       volatile
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   405  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   406  #else /* LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   407  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   408  /* Protect the heap only by using a mutex */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   409  #define LWIP_MEM_FREE_DECL_PROTECT()
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   410  #define LWIP_MEM_FREE_PROTECT()    sys_mutex_lock(&mem_mutex)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   411  #define LWIP_MEM_FREE_UNPROTECT()  sys_mutex_unlock(&mem_mutex)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   412  /* mem_malloc is protected using mutex AND LWIP_MEM_ALLOC_PROTECT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   413  #define LWIP_MEM_ALLOC_DECL_PROTECT()
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   414  #define LWIP_MEM_ALLOC_PROTECT()
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   415  #define LWIP_MEM_ALLOC_UNPROTECT()
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   416  #define LWIP_MEM_LFREE_VOLATILE
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   417  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   418  #endif /* LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   419  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   420  /** pointer to the lowest free block, this is used for faster search */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   421  static struct mem * LWIP_MEM_LFREE_VOLATILE lfree;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   422  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   423  #if MEM_SANITY_CHECK
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   424  static void mem_sanity(void);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   425  #define MEM_SANITY() mem_sanity()
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   426  #else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   427  #define MEM_SANITY()
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   428  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   429  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   430  #if MEM_OVERFLOW_CHECK
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   431  static void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   432  mem_overflow_init_element(struct mem *mem, mem_size_t user_size)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   433  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   434    void *p = (u8_t *)mem + SIZEOF_STRUCT_MEM + MEM_SANITY_OFFSET;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   435    mem->user_size = user_size;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   436    mem_overflow_init_raw(p, user_size);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   437  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   438  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   439  static void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   440  mem_overflow_check_element(struct mem *mem)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   441  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   442    void *p = (u8_t *)mem + SIZEOF_STRUCT_MEM + MEM_SANITY_OFFSET;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   443    mem_overflow_check_raw(p, mem->user_size, "heap", "");
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   444  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   445  #else /* MEM_OVERFLOW_CHECK */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   446  #define mem_overflow_init_element(mem, size)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   447  #define mem_overflow_check_element(mem)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   448  #endif /* MEM_OVERFLOW_CHECK */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   449  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   450  static struct mem *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   451  ptr_to_mem(mem_size_t ptr)
+; Function ptr_to_mem
+.L74:
+ptr_to_mem:	.type	func
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   452  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   453    return (struct mem *)(void *)&ram[ptr];
+	movh.a	a15,#@his(ram)
+	ld.a	a15,[a15]@los(ram)
+.L484:
+	addsc.a	a2,a15,d4,#0
+.L485:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   454  }
+	ret
+.L203:
+	
+__ptr_to_mem_function_end:
+	.size	ptr_to_mem,__ptr_to_mem_function_end-ptr_to_mem
+.L124:
+	; End of function
+	
+	.sdecl	'.text.mem.mem_to_ptr',code,cluster('mem_to_ptr')
+	.sect	'.text.mem.mem_to_ptr'
+	.align	2
+	
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   455  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   456  static mem_size_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   457  mem_to_ptr(void *mem)
+; Function mem_to_ptr
+.L76:
+mem_to_ptr:	.type	func
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   458  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   459    return (mem_size_t)((u8_t *)mem - ram);
+	movh.a	a15,#@his(ram)
+	ld.a	a15,[a15]@los(ram)
+.L490:
+	sub.a	a15,a4,a15
+	mov.d	d15,a15
+.L491:
+	extr.u	d2,d15,#0,#16
+.L492:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   460  }
+	ret
+.L205:
+	
+__mem_to_ptr_function_end:
+	.size	mem_to_ptr,__mem_to_ptr_function_end-mem_to_ptr
+.L129:
+	; End of function
+	
+	.sdecl	'.text.mem.plug_holes',code,cluster('plug_holes')
+	.sect	'.text.mem.plug_holes'
+	.align	2
+	
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   461  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   462  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   463   * "Plug holes" by combining adjacent empty struct mems.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   464   * After this function is through, there should not exist
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   465   * one empty struct mem pointing to another empty struct mem.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   466   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   467   * @param mem this points to a struct mem which just has been freed
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   468   * @internal this function is only called by mem_free() and mem_trim()
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   469   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   470   * This assumes access to the heap is protected by the calling function
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   471   * already.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   472   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   473  static void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   474  plug_holes(struct mem *mem)
+; Function plug_holes
+.L78:
+plug_holes:	.type	func
+	mov.aa	a12,a4
+.L222:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   475  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   476    struct mem *nmem;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   477    struct mem *pmem;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   478  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   479    LWIP_ASSERT("plug_holes: mem >= ram", (u8_t *)mem >= ram);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   480    LWIP_ASSERT("plug_holes: mem < ram_end", (u8_t *)mem < (u8_t *)ram_end);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   481    LWIP_ASSERT("plug_holes: mem->used == 0", mem->used == 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   482  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   483    /* plug hole forward */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   484    LWIP_ASSERT("plug_holes: mem->next <= MEM_SIZE_ALIGNED", mem->next <= MEM_SIZE_ALIGNED);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   485  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   486    nmem = ptr_to_mem(mem->next);
+	ld.hu	d4,[a12]0
+	call	ptr_to_mem
+.L221:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   487    if (mem != nmem && nmem->used == 0 && (u8_t *)nmem != (u8_t *)ram_end) {
+	jeq.a	a12,a2,.L4
+.L497:
+	ld.bu	d15,[a2]4
+.L498:
+	jne	d15,#0,.L5
+.L499:
+	movh.a	a15,#@his(ram_end)
+	ld.a	a15,[a15]@los(ram_end)
+.L500:
+	jeq.a	a2,a15,.L6
+.L501:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   488      /* if mem->next is unused and not end of ram, combine mem and mem->next */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   489      if (lfree == nmem) {
+	movh.a	a15,#@his(lfree)
+	ld.a	a4,[a15]@los(lfree)
+.L502:
+	jne.a	a4,a2,.L7
+.L503:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   490        lfree = mem;
+	st.a	[a15]@los(lfree),a12
+.L7:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   491      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   492      mem->next = nmem->next;
+	ld.hu	d15,[a2]0
+.L504:
+	st.h	[a12],d15
+.L505:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   493      if (nmem->next != MEM_SIZE_ALIGNED) {
+	ld.hu	d4,[a2]0
+.L506:
+	mov	d15,#16000
+.L507:
+	jeq	d15,d4,.L8
+.L508:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   494        ptr_to_mem(nmem->next)->prev = mem_to_ptr(mem);
+	call	ptr_to_mem
+.L224:
+	add.a	a2,#2
+.L509:
+	mov.aa	a15,a2
+.L510:
+	mov.aa	a4,a12
+.L225:
+	call	mem_to_ptr
+.L226:
+	st.h	[a15],d2
+.L8:
+.L6:
+.L5:
+.L4:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   495      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   496    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   497  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   498    /* plug hole backward */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   499    pmem = ptr_to_mem(mem->prev);
+	ld.hu	d4,[a12]2
+	call	ptr_to_mem
+.L227:
+	mov.aa	a15,a2
+.L229:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   500    if (pmem != mem && pmem->used == 0) {
+	jeq.a	a15,a12,.L9
+.L511:
+	ld.bu	d15,[a15]4
+.L512:
+	jne	d15,#0,.L10
+.L513:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   501      /* if mem->prev is unused, combine mem and mem->prev */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   502      if (lfree == mem) {
+	movh.a	a2,#@his(lfree)
+.L228:
+	ld.a	a4,[a2]@los(lfree)
+.L514:
+	jne.a	a4,a12,.L11
+.L515:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   503        lfree = pmem;
+	st.a	[a2]@los(lfree),a15
+.L11:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   504      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   505      pmem->next = mem->next;
+	ld.hu	d15,[a12]0
+.L516:
+	st.h	[a15],d15
+.L517:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   506      if (mem->next != MEM_SIZE_ALIGNED) {
+	ld.hu	d4,[a12]0
+.L518:
+	mov	d15,#16000
+.L519:
+	jeq	d15,d4,.L12
+.L520:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   507        ptr_to_mem(mem->next)->prev = mem_to_ptr(pmem);
+	call	ptr_to_mem
+.L521:
+	add.a	a2,#2
+.L522:
+	mov.aa	a12,a2
+.L223:
+	mov.aa	a4,a15
+.L230:
+	call	mem_to_ptr
+.L231:
+	st.h	[a12],d2
+.L12:
+.L10:
+.L9:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   508      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   509    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   510  }
+	ret
+.L207:
+	
+__plug_holes_function_end:
+	.size	plug_holes,__plug_holes_function_end-plug_holes
+.L134:
+	; End of function
+	
+	.sdecl	'.text.mem.mem_init',code,cluster('mem_init')
+	.sect	'.text.mem.mem_init'
+	.align	2
+	
+	.global	mem_init
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   511  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   512  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   513   * Zero the heap and initialize start, end and lowest-free
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   514   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   515  void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   516  mem_init(void)
+; Function mem_init
+.L80:
+mem_init:	.type	func
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   517  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   518    struct mem *mem;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   519  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   520    LWIP_ASSERT("Sanity check alignment",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   521                (SIZEOF_STRUCT_MEM & (MEM_ALIGNMENT - 1)) == 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   522  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   523    /* align the heap */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   524    ram = (u8_t *)LWIP_MEM_ALIGN(LWIP_RAM_HEAP_POINTER);
+	movh.a	a15,#@his(ram)
+.L336:
+	movh.a	a2,#@his(ram_heap)
+	lea	a2,[a2]@los(ram_heap)
+	mov.d	d15,a2
+	add	d15,#3
+	insert	d15,d15,#0,#0,#2
+.L337:
+	st.w	[a15]@los(ram),d15
+.L338:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   525    /* initialize the start of the heap */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   526    mem = (struct mem *)(void *)ram;
+	ld.a	a15,[a15]@los(ram)
+.L232:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   527    mem->next = MEM_SIZE_ALIGNED;
+	mov	d4,#16000
+.L339:
+	st.h	[a15],d4
+.L340:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   528    mem->prev = 0;
+	mov	d15,#0
+.L341:
+	st.h	[a15]2,d15
+.L342:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   529    mem->used = 0;
+	st.b	[a15]4,d15
+.L343:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   530    /* initialize the end of the heap */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   531    ram_end = ptr_to_mem(MEM_SIZE_ALIGNED);
+	movh.a	a15,#@his(ram_end)
+.L233:
+	call	ptr_to_mem
+.L344:
+	st.a	[a15]@los(ram_end),a2
+.L345:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   532    ram_end->used = 1;
+	movh.a	a2,#@his(ram_end)
+	ld.a	a15,[a2]@los(ram_end)
+.L346:
+	mov	d15,#1
+.L347:
+	st.b	[a15]4,d15
+.L348:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   533    ram_end->next = MEM_SIZE_ALIGNED;
+	ld.a	a15,[a2]@los(ram_end)
+.L349:
+	mov	d15,#16000
+.L350:
+	st.h	[a15],d15
+.L351:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   534    ram_end->prev = MEM_SIZE_ALIGNED;
+	ld.a	a15,[a2]@los(ram_end)
+.L352:
+	st.h	[a15]2,d15
+.L353:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   535    MEM_SANITY();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   536  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   537    /* initialize the lowest-free pointer to the start of the heap */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   538    lfree = (struct mem *)(void *)ram;
+	movh.a	a15,#@his(lfree)
+.L354:
+	movh.a	a2,#@his(ram)
+	ld.a	a2,[a2]@los(ram)
+.L355:
+	st.a	[a15]@los(lfree),a2
+.L356:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   539  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   540    MEM_STATS_AVAIL(avail, MEM_SIZE_ALIGNED);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   541  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   542    if (sys_mutex_new(&mem_mutex) != ERR_OK) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   543      LWIP_ASSERT("failed to create mem_mutex", 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   544    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   545  }
+	ret
+.L150:
+	
+__mem_init_function_end:
+	.size	mem_init,__mem_init_function_end-mem_init
+.L99:
+	; End of function
+	
+	.sdecl	'.text.mem.mem_link_valid',code,cluster('mem_link_valid')
+	.sect	'.text.mem.mem_link_valid'
+	.align	2
+	
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   546  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   547  /* Check if a struct mem is correctly linked.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   548   * If not, double-free is a possible reason.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   549   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   550  static int
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   551  mem_link_valid(struct mem *mem)
+; Function mem_link_valid
+.L82:
+mem_link_valid:	.type	func
+	mov.aa	a15,a4
+.L235:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   552  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   553    struct mem *nmem, *pmem;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   554    mem_size_t rmem_idx;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   555    rmem_idx = mem_to_ptr(mem);
+	call	mem_to_ptr
+.L234:
+	mov	d8,d2
+.L238:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   556    nmem = ptr_to_mem(mem->next);
+	ld.hu	d4,[a15]0
+	call	ptr_to_mem
+.L237:
+	mov.aa	a12,a2
+.L240:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   557    pmem = ptr_to_mem(mem->prev);
+	ld.hu	d4,[a15]2
+	call	ptr_to_mem
+.L239:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   558    if ((mem->next > MEM_SIZE_ALIGNED) || (mem->prev > MEM_SIZE_ALIGNED) ||
+	ld.hu	d15,[a15]0
+.L527:
+	mov	d0,#16000
+.L528:
+	jlt.u	d0,d15,.L13
+.L529:
+	ld.hu	d15,[a15]2
+.L530:
+	jlt.u	d0,d15,.L14
+.L531:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   559        ((mem->prev != rmem_idx) && (pmem->next != rmem_idx)) ||
+	jeq	d15,d8,.L15
+.L532:
+	ld.hu	d15,[a2]0
+.L533:
+	jne	d15,d8,.L16
+.L15:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   560        ((nmem != ram_end) && (nmem->prev != rmem_idx))) {
+	movh.a	a15,#@his(ram_end)
+.L236:
+	ld.a	a15,[a15]@los(ram_end)
+.L534:
+	jeq.a	a12,a15,.L17
+.L535:
+	ld.hu	d15,[a12]2
+.L536:
+	jeq	d15,d8,.L18
+.L16:
+.L14:
+.L13:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   561      return 0;
+	mov	d2,#0
+.L537:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   562    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   563    return 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   564  }
+	ret
+.L18:
+.L17:
+	mov	d2,#1
+.L538:
+	ret
+.L212:
+	
+__mem_link_valid_function_end:
+	.size	mem_link_valid,__mem_link_valid_function_end-mem_link_valid
+.L139:
+	; End of function
+	
+	.sdecl	'.text.mem.mem_free',code,cluster('mem_free')
+	.sect	'.text.mem.mem_free'
+	.align	2
+	
+	.global	mem_free
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   565  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   566  #if MEM_SANITY_CHECK
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   567  static void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   568  mem_sanity(void)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   569  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   570    struct mem *mem;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   571    u8_t last_used;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   572  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   573    /* begin with first element here */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   574    mem = (struct mem *)ram;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   575    LWIP_ASSERT("heap element used valid", (mem->used == 0) || (mem->used == 1));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   576    last_used = mem->used;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   577    LWIP_ASSERT("heap element prev ptr valid", mem->prev == 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   578    LWIP_ASSERT("heap element next ptr valid", mem->next <= MEM_SIZE_ALIGNED);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   579    LWIP_ASSERT("heap element next ptr aligned", LWIP_MEM_ALIGN(ptr_to_mem(mem->next) == ptr_to_mem(mem->next)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   580  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   581    /* check all elements before the end of the heap */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   582    for (mem = ptr_to_mem(mem->next);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   583         ((u8_t *)mem > ram) && (mem < ram_end);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   584         mem = ptr_to_mem(mem->next)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   585      LWIP_ASSERT("heap element aligned", LWIP_MEM_ALIGN(mem) == mem);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   586      LWIP_ASSERT("heap element prev ptr valid", mem->prev <= MEM_SIZE_ALIGNED);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   587      LWIP_ASSERT("heap element next ptr valid", mem->next <= MEM_SIZE_ALIGNED);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   588      LWIP_ASSERT("heap element prev ptr aligned", LWIP_MEM_ALIGN(ptr_to_mem(mem->prev) == ptr_to_mem(mem->prev)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   589      LWIP_ASSERT("heap element next ptr aligned", LWIP_MEM_ALIGN(ptr_to_mem(mem->next) == ptr_to_mem(mem->next)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   590  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   591      if (last_used == 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   592        /* 2 unused elements in a row? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   593        LWIP_ASSERT("heap element unused?", mem->used == 1);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   594      } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   595        LWIP_ASSERT("heap element unused member", (mem->used == 0) || (mem->used == 1));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   596      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   597  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   598      LWIP_ASSERT("heap element link valid", mem_link_valid(mem));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   599  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   600      /* used/unused altering */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   601      last_used = mem->used;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   602    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   603    LWIP_ASSERT("heap end ptr sanity", mem == ptr_to_mem(MEM_SIZE_ALIGNED));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   604    LWIP_ASSERT("heap element used valid", mem->used == 1);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   605    LWIP_ASSERT("heap element prev ptr valid", mem->prev == MEM_SIZE_ALIGNED);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   606    LWIP_ASSERT("heap element next ptr valid", mem->next == MEM_SIZE_ALIGNED);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   607  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   608  #endif /* MEM_SANITY_CHECK */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   609  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   610  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   611   * Put a struct mem back on the heap
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   612   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   613   * @param rmem is the data portion of a struct mem as returned by a previous
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   614   *             call to mem_malloc()
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   615   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   616  void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   617  mem_free(void *rmem)
+; Function mem_free
+.L84:
+mem_free:	.type	func
+	mov.aa	a12,a4
+.L242:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   618  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   619    struct mem *mem;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   620    LWIP_MEM_FREE_DECL_PROTECT();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   621  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   622    if (rmem == NULL) {
+	jz.a	a12,.L21
+.L466:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   623      LWIP_DEBUGF(MEM_DEBUG | LWIP_DBG_TRACE | LWIP_DBG_LEVEL_SERIOUS, ("mem_free(p == NULL) was called.\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   624      return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   625    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   626    if ((((mem_ptr_t)rmem) & (MEM_ALIGNMENT - 1)) != 0) {
+	mov.d	d15,a12
+.L241:
+	and	d15,#3
+.L243:
+	jeq	d15,#0,.L22
+.L192:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   627      LWIP_MEM_ILLEGAL_FREE("mem_free: sanity check alignment");
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   628      LWIP_DEBUGF(MEM_DEBUG | LWIP_DBG_LEVEL_SEVERE, ("mem_free: sanity check alignment\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   629      /* protect mem stats from concurrent access */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   630      MEM_STATS_INC_LOCKED(illegal);
+	call	sys_arch_protect
+.L244:
+	mov	d4,d2
+.L193:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   631      return;
+	j	.L23
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   632    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   633  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   634    /* Get the corresponding struct mem: */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   635    /* cast through void* to get rid of alignment warnings */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   636    mem = (struct mem *)(void *)((u8_t *)rmem - (SIZEOF_STRUCT_MEM + MEM_SANITY_OFFSET));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   637  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   638    if ((u8_t *)mem < ram || (u8_t *)rmem + MIN_SIZE_ALIGNED > (u8_t *)ram_end) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   639      LWIP_MEM_ILLEGAL_FREE("mem_free: illegal memory");
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   640      LWIP_DEBUGF(MEM_DEBUG | LWIP_DBG_LEVEL_SEVERE, ("mem_free: illegal memory\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   641      /* protect mem stats from concurrent access */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   642      MEM_STATS_INC_LOCKED(illegal);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   643      return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   644    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   645  #if MEM_OVERFLOW_CHECK
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   646    mem_overflow_check_element(mem);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   647  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   648    /* protect the heap from concurrent access */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   649    LWIP_MEM_FREE_PROTECT();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   650    /* mem has to be in a used state */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   651    if (!mem->used) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   652      LWIP_MEM_ILLEGAL_FREE("mem_free: illegal memory: double free");
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   653      LWIP_MEM_FREE_UNPROTECT();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   654      LWIP_DEBUGF(MEM_DEBUG | LWIP_DBG_LEVEL_SEVERE, ("mem_free: illegal memory: double free?\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   655      /* protect mem stats from concurrent access */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   656      MEM_STATS_INC_LOCKED(illegal);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   657      return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   658    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   659  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   660    if (!mem_link_valid(mem)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   661      LWIP_MEM_ILLEGAL_FREE("mem_free: illegal memory: non-linked: double free");
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   662      LWIP_MEM_FREE_UNPROTECT();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   663      LWIP_DEBUGF(MEM_DEBUG | LWIP_DBG_LEVEL_SEVERE, ("mem_free: illegal memory: non-linked: double free?\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   664      /* protect mem stats from concurrent access */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   665      MEM_STATS_INC_LOCKED(illegal);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   666      return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   667    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   668  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   669    /* mem is now unused. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   670    mem->used = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   671  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   672    if (mem < lfree) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   673      /* the newly freed struct is now the lowest */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   674      lfree = mem;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   675    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   676  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   677    MEM_STATS_DEC_USED(used, mem->next - (mem_size_t)(((u8_t *)mem - ram)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   678  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   679    /* finally, see if prev or next are free also */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   680    plug_holes(mem);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   681    MEM_SANITY();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   682  #if LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   683    mem_free_count = 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   684  #endif /* LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   685    LWIP_MEM_FREE_UNPROTECT();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   686  }
+.L21:
+	ret
+.L22:
+	lea	a13,[a12]-8
+.L245:
+	mov.d	d15,a13
+.L246:
+	movh.a	a15,#@his(ram)
+	ld.w	d0,[a15]@los(ram)
+.L467:
+	jlt.u	d15,d0,.L24
+.L468:
+	lea	a15,[a12]12
+	mov.d	d15,a15
+.L247:
+	movh.a	a15,#@his(ram_end)
+	ld.w	d0,[a15]@los(ram_end)
+.L469:
+	jge.u	d0,d15,.L25
+.L24:
+	call	sys_arch_protect
+.L248:
+	mov	d4,d2
+.L195:
+	j	.L26
+.L25:
+	call	sys_arch_protect
+.L249:
+	mov	d8,d2
+.L251:
+	ld.bu	d15,[a12]-4
+.L470:
+	jne	d15,#0,.L27
+.L471:
+	mov	d4,d8
+.L250:
+	call	sys_arch_unprotect
+.L197:
+	call	sys_arch_protect
+.L252:
+	mov	d4,d2
+.L198:
+	j	.L28
+.L27:
+	mov.aa	a4,a13
+.L254:
+	call	mem_link_valid
+.L253:
+	jne	d2,#0,.L29
+.L472:
+	mov	d4,d8
+.L255:
+	call	sys_arch_unprotect
+.L200:
+	call	sys_arch_protect
+.L256:
+	mov	d4,d2
+.L201:
+	j	.L30
+.L29:
+	mov	d15,#0
+.L473:
+	st.b	[a12]-4,d15
+.L474:
+	mov.d	d15,a13
+.L257:
+	movh.a	a15,#@his(lfree)
+	ld.w	d0,[a15]@los(lfree)
+.L475:
+	jge.u	d15,d0,.L31
+.L476:
+	st.a	[a15]@los(lfree),a13
+.L31:
+	mov.aa	a4,a13
+.L258:
+	call	plug_holes
+.L259:
+	movh.a	a15,#@his(mem_free_count)
+.L477:
+	mov	d15,#1
+.L478:
+	st.b	[a15]@los(mem_free_count),d15
+.L479:
+	mov	d4,d8
+.L23:
+.L26:
+.L28:
+.L30:
+	j	sys_arch_unprotect
+.L188:
+	
+__mem_free_function_end:
+	.size	mem_free,__mem_free_function_end-mem_free
+.L119:
+	; End of function
+	
+	.sdecl	'.text.mem.mem_trim',code,cluster('mem_trim')
+	.sect	'.text.mem.mem_trim'
+	.align	2
+	
+	.global	mem_trim
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   687  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   688  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   689   * Shrink memory returned by mem_malloc().
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   690   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   691   * @param rmem pointer to memory allocated by mem_malloc the is to be shrinked
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   692   * @param new_size required size after shrinking (needs to be smaller than or
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   693   *                equal to the previous size)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   694   * @return for compatibility reasons: is always == rmem, at the moment
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   695   *         or NULL if newsize is > old size, in which case rmem is NOT touched
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   696   *         or freed!
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   697   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   698  void *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   699  mem_trim(void *rmem, mem_size_t new_size)
+; Function mem_trim
+.L86:
+mem_trim:	.type	func
+	mov.aa	a12,a4
+.L262:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   700  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   701    mem_size_t size, newsize;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   702    mem_size_t ptr, ptr2;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   703    struct mem *mem, *mem2;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   704    /* use the FREE_PROTECT here: it protects with sem OR SYS_ARCH_PROTECT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   705    LWIP_MEM_FREE_DECL_PROTECT();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   706  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   707    /* Expand the size of the allocated memory region so that we can
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   708       adjust for alignment. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   709    newsize = (mem_size_t)LWIP_MEM_ALIGN_SIZE(new_size);
+	add	d15,d4,#3
+	extr.u	d15,d15,#0,#16
+	mov.u	d0,#65532
+	and	d15,d0
+.L361:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   710    if (newsize < MIN_SIZE_ALIGNED) {
+	max.u	d8,d15,#12
+.L263:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   711      /* every data block must be at least MIN_SIZE_ALIGNED long */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   712      newsize = MIN_SIZE_ALIGNED;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   713    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   714  #if MEM_OVERFLOW_CHECK
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   715    newsize += MEM_SANITY_REGION_BEFORE_ALIGNED + MEM_SANITY_REGION_AFTER_ALIGNED;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   716  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   717    if ((newsize > MEM_SIZE_ALIGNED) || (newsize < new_size)) {
+	mov	d0,#16000
+.L362:
+	jlt.u	d0,d8,.L32
+.L363:
+	jlt.u	d8,d4,.L33
+.L364:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   718      return NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   719    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   720  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   721    LWIP_ASSERT("mem_trim: legal memory", (u8_t *)rmem >= (u8_t *)ram &&
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   722                (u8_t *)rmem < (u8_t *)ram_end);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   723  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   724    if ((u8_t *)rmem < (u8_t *)ram || (u8_t *)rmem >= (u8_t *)ram_end) {
+	mov.d	d0,a12
+.L261:
+	movh.a	a15,#@his(ram)
+	ld.w	d1,[a15]@los(ram)
+.L365:
+	jlt.u	d0,d1,.L34
+.L366:
+	movh.a	a15,#@his(ram_end)
+	ld.w	d1,[a15]@los(ram_end)
+.L367:
+	jlt.u	d0,d1,.L35
+.L34:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   725      LWIP_DEBUGF(MEM_DEBUG | LWIP_DBG_LEVEL_SEVERE, ("mem_trim: illegal memory\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   726      /* protect mem stats from concurrent access */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   727      MEM_STATS_INC_LOCKED(illegal);
+	call	sys_arch_protect
+.L260:
+	mov	d4,d2
+.L166:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   728      return rmem;
+	j	.L36
+.L35:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   729    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   730    /* Get the corresponding struct mem ... */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   731    /* cast through void* to get rid of alignment warnings */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   732    mem = (struct mem *)(void *)((u8_t *)rmem - (SIZEOF_STRUCT_MEM + MEM_SANITY_OFFSET));
+	lea	a13,[a12]-8
+.L266:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   733  #if MEM_OVERFLOW_CHECK
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   734    mem_overflow_check_element(mem);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   735  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   736    /* ... and its offset pointer */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   737    ptr = mem_to_ptr(mem);
+	mov.aa	a4,a13
+.L267:
+	call	mem_to_ptr
+.L265:
+	mov	d10,d2
+.L268:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   738  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   739    size = (mem_size_t)((mem_size_t)(mem->next - ptr) - (SIZEOF_STRUCT_MEM + MEM_SANITY_OVERHEAD));
+	ld.hu	d0,[a12]-8
+.L368:
+	sub	d0,d10
+.L369:
+	add	d0,#-8
+.L370:
+	extr.u	d9,d0,#0,#16
+.L269:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   740    LWIP_ASSERT("mem_trim can only shrink memory", newsize <= size);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   741    if (newsize > size) {
+	jge.u	d9,d8,.L37
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   742      /* not supported */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   743      return NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   744    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   745    if (newsize == size) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   746      /* No change in size, simply return */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   747      return rmem;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   748    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   749  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   750    /* protect the heap from concurrent access */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   751    LWIP_MEM_FREE_PROTECT();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   752  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   753    mem2 = ptr_to_mem(mem->next);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   754    if (mem2->used == 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   755      /* The next struct is unused, we can simply move it at little */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   756      mem_size_t next;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   757      LWIP_ASSERT("invalid next ptr", mem->next != MEM_SIZE_ALIGNED);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   758      /* remember the old next pointer */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   759      next = mem2->next;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   760      /* create new struct mem which is moved directly after the shrinked mem */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   761      ptr2 = (mem_size_t)(ptr + SIZEOF_STRUCT_MEM + newsize);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   762      if (lfree == mem2) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   763        lfree = ptr_to_mem(ptr2);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   764      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   765      mem2 = ptr_to_mem(ptr2);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   766      mem2->used = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   767      /* restore the next pointer */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   768      mem2->next = next;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   769      /* link it back to mem */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   770      mem2->prev = ptr;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   771      /* link mem to it */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   772      mem->next = ptr2;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   773      /* last thing to restore linked list: as we have moved mem2,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   774       * let 'mem2->next->prev' point to mem2 again. but only if mem2->next is not
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   775       * the end of the heap */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   776      if (mem2->next != MEM_SIZE_ALIGNED) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   777        ptr_to_mem(mem2->next)->prev = ptr2;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   778      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   779      MEM_STATS_DEC_USED(used, (size - newsize));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   780      /* no need to plug holes, we've already done that */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   781    } else if (newsize + SIZEOF_STRUCT_MEM + MIN_SIZE_ALIGNED <= size) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   782      /* Next struct is used but there's room for another struct mem with
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   783       * at least MIN_SIZE_ALIGNED of data.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   784       * Old size ('size') must be big enough to contain at least 'newsize' plus a struct mem
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   785       * ('SIZEOF_STRUCT_MEM') with some data ('MIN_SIZE_ALIGNED').
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   786       * @todo we could leave out MIN_SIZE_ALIGNED. We would create an empty
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   787       *       region that couldn't hold data, but when mem->next gets freed,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   788       *       the 2 regions would be combined, resulting in more free memory */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   789      ptr2 = (mem_size_t)(ptr + SIZEOF_STRUCT_MEM + newsize);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   790      LWIP_ASSERT("invalid next ptr", mem->next != MEM_SIZE_ALIGNED);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   791      mem2 = ptr_to_mem(ptr2);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   792      if (mem2 < lfree) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   793        lfree = mem2;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   794      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   795      mem2->used = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   796      mem2->next = mem->next;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   797      mem2->prev = ptr;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   798      mem->next = ptr2;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   799      if (mem2->next != MEM_SIZE_ALIGNED) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   800        ptr_to_mem(mem2->next)->prev = ptr2;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   801      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   802      MEM_STATS_DEC_USED(used, (size - newsize));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   803      /* the original mem->next is used, so no need to plug holes! */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   804    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   805    /* else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   806      next struct mem is used but size between mem and mem2 is not big enough
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   807      to create another struct mem
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   808      -> don't do anyhting.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   809      -> the remaining space stays unused since it is too small
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   810    } */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   811  #if MEM_OVERFLOW_CHECK
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   812    mem_overflow_init_element(mem, new_size);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   813  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   814    MEM_SANITY();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   815  #if LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   816    mem_free_count = 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   817  #endif /* LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   818    LWIP_MEM_FREE_UNPROTECT();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   819    return rmem;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   820  }
+.L33:
+.L32:
+	mov.a	a2,#0
+.L371:
+	ret
+.L37:
+	jeq	d8,d9,.L39
+.L372:
+	call	sys_arch_protect
+.L270:
+	mov	d11,d2
+.L273:
+	ld.hu	d4,[a12]-8
+	call	ptr_to_mem
+.L272:
+	ld.bu	d15,[a2]4
+.L373:
+	jne	d15,#0,.L40
+.L168:
+	ld.hu	d9,[a2]0
+.L271:
+	add	d8,d10
+.L264:
+	add	d15,d8,#8
+.L374:
+	extr.u	d8,d15,#0,#16
+.L275:
+	movh.a	a15,#@his(lfree)
+	ld.a	a4,[a15]@los(lfree)
+.L375:
+	jne.a	a4,a2,.L41
+.L376:
+	mov	d4,d8
+.L276:
+	call	ptr_to_mem
+.L274:
+	st.a	[a15]@los(lfree),a2
+.L41:
+	mov	d4,d8
+.L277:
+	call	ptr_to_mem
+.L278:
+	mov	d15,#0
+.L377:
+	st.b	[a2]4,d15
+.L378:
+	st.h	[a2],d9
+.L379:
+	st.h	[a2]2,d10
+.L380:
+	st.h	[a13],d8
+.L381:
+	ld.hu	d4,[a2]0
+.L382:
+	mov	d15,#16000
+.L383:
+	jeq	d15,d4,.L42
+.L169:
+	j	.L43
+.L40:
+	add	d15,d8,#20
+.L384:
+	jlt.u	d9,d15,.L44
+.L385:
+	add	d8,d10
+.L279:
+	add	d15,d8,#8
+.L386:
+	extr.u	d8,d15,#0,#16
+.L280:
+	mov	d4,d8
+.L281:
+	call	ptr_to_mem
+.L282:
+	mov.d	d15,a2
+.L283:
+	movh.a	a15,#@his(lfree)
+	ld.w	d0,[a15]@los(lfree)
+.L387:
+	jge.u	d15,d0,.L45
+.L388:
+	st.a	[a15]@los(lfree),a2
+.L45:
+	mov	d15,#0
+.L284:
+	st.b	[a2]4,d15
+.L389:
+	ld.hu	d15,[a12]-8
+.L390:
+	st.h	[a2],d15
+.L391:
+	st.h	[a2]2,d10
+.L392:
+	st.h	[a13],d8
+.L393:
+	ld.hu	d4,[a2]0
+.L394:
+	mov	d15,#16000
+.L395:
+	jeq	d15,d4,.L46
+.L43:
+	call	ptr_to_mem
+.L285:
+	st.h	[+a2]2,d8
+.L46:
+.L44:
+.L42:
+	movh.a	a15,#@his(mem_free_count)
+.L396:
+	mov	d15,#1
+.L397:
+	st.b	[a15]@los(mem_free_count),d15
+.L398:
+	mov	d4,d11
+.L36:
+	call	sys_arch_unprotect
+.L39:
+	mov.aa	a2,a12
+.L286:
+	ret
+.L154:
+	
+__mem_trim_function_end:
+	.size	mem_trim,__mem_trim_function_end-mem_trim
+.L104:
+	; End of function
+	
+	.sdecl	'.text.mem.mem_malloc',code,cluster('mem_malloc')
+	.sect	'.text.mem.mem_malloc'
+	.align	2
+	
+	.global	mem_malloc
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   821  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   822  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   823   * Allocate a block of memory with a minimum of 'size' bytes.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   824   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   825   * @param size_in is the minimum size of the requested block in bytes.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   826   * @return pointer to allocated memory or NULL if no free memory was found.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   827   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   828   * Note that the returned value will always be aligned (as defined by MEM_ALIGNMENT).
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   829   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   830  void *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   831  mem_malloc(mem_size_t size_in)
+; Function mem_malloc
+.L88:
+mem_malloc:	.type	func
+	sub.a	a10,#8
+.L287:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   832  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   833    mem_size_t ptr, ptr2, size;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   834    struct mem *mem, *mem2;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   835  #if LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   836    u8_t local_mem_free_count = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   837  #endif /* LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   838    LWIP_MEM_ALLOC_DECL_PROTECT();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   839  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   840    if (size_in == 0) {
+	jeq	d4,#0,.L48
+.L403:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   841      return NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   842    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   843  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   844    /* Expand the size of the allocated memory region so that we can
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   845       adjust for alignment. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   846    size = (mem_size_t)LWIP_MEM_ALIGN_SIZE(size_in);
+	add	d15,d4,#3
+	extr.u	d15,d15,#0,#16
+	mov.u	d0,#65532
+	and	d15,d0
+.L404:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   847    if (size < MIN_SIZE_ALIGNED) {
+	max.u	d11,d15,#12
+.L289:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   848      /* every data block must be at least MIN_SIZE_ALIGNED long */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   849      size = MIN_SIZE_ALIGNED;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   850    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   851  #if MEM_OVERFLOW_CHECK
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   852    size += MEM_SANITY_REGION_BEFORE_ALIGNED + MEM_SANITY_REGION_AFTER_ALIGNED;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   853  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   854    if ((size > MEM_SIZE_ALIGNED) || (size < size_in)) {
+	mov	d15,#16000
+.L405:
+	jlt.u	d15,d11,.L49
+.L406:
+	jlt.u	d11,d4,.L50
+.L407:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   855      return NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   856    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   857  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   858    /* protect the heap from concurrent access */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   859    sys_mutex_lock(&mem_mutex);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   860    LWIP_MEM_ALLOC_PROTECT();
+	call	sys_arch_protect
+.L288:
+	mov	d8,d2
+.L291:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   861  #if LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   862    /* run as long as a mem_free disturbed mem_malloc or mem_trim */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   863    do {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   864      local_mem_free_count = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   865  #endif /* LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   866  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   867      /* Scan through the heap searching for a free block that is big enough,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   868       * beginning with the lowest free block.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   869       */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   870      for (ptr = mem_to_ptr(lfree); ptr < MEM_SIZE_ALIGNED - size;
+	movh.a	a12,#@his(lfree)
+.L408:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   871           ptr = ptr_to_mem(ptr)->next) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   872        mem = ptr_to_mem(ptr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   873  #if LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   874        mem_free_count = 0;
+	movh.a	a13,#@his(mem_free_count)
+.L409:
+	mov	d9,#0
+.L410:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   875        LWIP_MEM_ALLOC_UNPROTECT();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   876        /* allow mem_free or mem_trim to run */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   877        LWIP_MEM_ALLOC_PROTECT();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   878        if (mem_free_count != 0) {
+	mov.aa	a14,a13
+.L411:
+	mov	d10,#16000
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   879          /* If mem_free or mem_trim have run, we have to restart since they
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   880             could have altered our current struct mem. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   881          local_mem_free_count = 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   882          break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   883        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   884  #endif /* LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   885  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   886        if ((!mem->used) &&
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   887            (mem->next - (ptr + SIZEOF_STRUCT_MEM)) >= size) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   888          /* mem is not used and at least perfect fit is possible:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   889           * mem->next - (ptr + SIZEOF_STRUCT_MEM) gives us the 'user data size' of mem */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   890  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   891          if (mem->next - (ptr + SIZEOF_STRUCT_MEM) >= (size + SIZEOF_STRUCT_MEM + MIN_SIZE_ALIGNED)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   892            /* (in addition to the above, we test if another struct mem (SIZEOF_STRUCT_MEM) containing
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   893             * at least MIN_SIZE_ALIGNED of data also fits in the 'user data space' of 'mem')
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   894             * -> split large block, create empty remainder,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   895             * remainder must be large enough to contain MIN_SIZE_ALIGNED data: if
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   896             * mem->next - (ptr + (2*SIZEOF_STRUCT_MEM)) == size,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   897             * struct mem would fit in but no data between mem2 and mem2->next
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   898             * @todo we could leave out MIN_SIZE_ALIGNED. We would create an empty
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   899             *       region that couldn't hold data, but when mem->next gets freed,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   900             *       the 2 regions would be combined, resulting in more free memory
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   901             */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   902            ptr2 = (mem_size_t)(ptr + SIZEOF_STRUCT_MEM + size);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   903            LWIP_ASSERT("invalid next ptr",ptr2 != MEM_SIZE_ALIGNED);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   904            /* create mem2 struct */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   905            mem2 = ptr_to_mem(ptr2);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   906            mem2->used = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   907            mem2->next = mem->next;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   908            mem2->prev = ptr;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   909            /* and insert it between mem and mem->next */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   910            mem->next = ptr2;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   911            mem->used = 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   912  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   913            if (mem2->next != MEM_SIZE_ALIGNED) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   914              ptr_to_mem(mem2->next)->prev = ptr2;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   915            }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   916            MEM_STATS_INC_USED(used, (size + SIZEOF_STRUCT_MEM));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   917          } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   918            /* (a mem2 struct does no fit into the user data space of mem and mem->next will always
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   919             * be used at this point: if not we have 2 unused structs in a row, plug_holes should have
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   920             * take care of this).
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   921             * -> near fit or exact fit: do not split, no mem2 creation
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   922             * also can't move mem->next directly behind mem, since mem->next
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   923             * will always be used at this point!
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   924             */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   925            mem->used = 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   926            MEM_STATS_INC_USED(used, mem->next - mem_to_ptr(mem));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   927          }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   928  #if LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   929  mem_malloc_adjust_lfree:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   930  #endif /* LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   931          if (mem == lfree) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   932            struct mem *cur = lfree;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   933            /* Find next free block after mem and update lowest free pointer */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   934            while (cur->used && cur != ram_end) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   935  #if LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   936              mem_free_count = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   937              LWIP_MEM_ALLOC_UNPROTECT();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   938              /* prevent high interrupt latency... */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   939              LWIP_MEM_ALLOC_PROTECT();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   940              if (mem_free_count != 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   941                /* If mem_free or mem_trim have run, we have to restart since they
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   942                   could have altered our current struct mem or lfree. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   943                goto mem_malloc_adjust_lfree;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   944              }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   945  #endif /* LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   946              cur = ptr_to_mem(cur->next);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   947            }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   948            lfree = cur;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   949            LWIP_ASSERT("mem_malloc: !lfree->used", ((lfree == ram_end) || (!lfree->used)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   950          }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   951          LWIP_MEM_ALLOC_UNPROTECT();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   952          sys_mutex_unlock(&mem_mutex);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   953          LWIP_ASSERT("mem_malloc: allocated memory not above ram_end.",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   954                      (mem_ptr_t)mem + SIZEOF_STRUCT_MEM + size <= (mem_ptr_t)ram_end);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   955          LWIP_ASSERT("mem_malloc: allocated memory properly aligned.",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   956                      ((mem_ptr_t)mem + SIZEOF_STRUCT_MEM) % MEM_ALIGNMENT == 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   957          LWIP_ASSERT("mem_malloc: sanity check alignment",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   958                      (((mem_ptr_t)mem) & (MEM_ALIGNMENT - 1)) == 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   959  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   960  #if MEM_OVERFLOW_CHECK
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   961          mem_overflow_init_element(mem, size_in);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   962  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   963          MEM_SANITY();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   964          return (u8_t *)mem + SIZEOF_STRUCT_MEM + MEM_SANITY_OFFSET;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   965        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   966      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   967  #if LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   968      /* if we got interrupted by a mem_free, try again */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   969    } while (local_mem_free_count != 0);
+.L51:
+	mov	d12,#0
+.L292:
+	ld.a	a4,[a12]@los(lfree)
+	call	mem_to_ptr
+.L293:
+	mov	d13,d2
+.L294:
+	j	.L52
+.L53:
+	mov	d4,d13
+.L295:
+	call	ptr_to_mem
+.L296:
+	st.a	[a10],a2
+.L298:
+	st.b	[a13]@los(mem_free_count),d9
+.L412:
+	mov	d4,d8
+.L299:
+	call	sys_arch_unprotect
+.L297:
+	call	sys_arch_protect
+.L300:
+	mov	d8,d2
+.L301:
+	ld.bu	d15,[a14]@los(mem_free_count)
+.L413:
+	jeq	d15,#0,.L54
+.L414:
+	mov	d12,#1
+.L415:
+	j	.L55
+.L54:
+	ld.a	a15,[a10]
+.L302:
+	ld.bu	d15,[a15]4
+.L416:
+	jne	d15,#0,.L56
+.L417:
+	ld.hu	d15,[a15]0
+	sub	d15,d13
+	add	d15,#-8
+.L418:
+	jlt.u	d15,d11,.L57
+.L419:
+	add	d0,d11,#20
+.L420:
+	jlt.u	d15,d0,.L58
+.L421:
+	add	d11,d13
+.L290:
+	add	d15,d11,#8
+.L422:
+	extr.u	d9,d15,#0,#16
+.L303:
+	mov	d4,d9
+.L304:
+	call	ptr_to_mem
+.L305:
+	mov	d15,#0
+.L423:
+	st.b	[a2]4,d15
+.L424:
+	ld.hu	d15,[a15]0
+.L425:
+	st.h	[a2],d15
+.L426:
+	st.h	[a2]2,d13
+.L427:
+	st.h	[a15],d9
+.L428:
+	mov	d15,#1
+.L429:
+	st.b	[a15]4,d15
+.L430:
+	ld.hu	d4,[a2]0
+.L431:
+	mov	d15,#16000
+.L432:
+	jeq	d15,d4,.L59
+.L433:
+	call	ptr_to_mem
+.L306:
+	st.h	[+a2]2,d9
+.L434:
+	j	.L60
+.L58:
+	mov	d15,#1
+.L435:
+	st.b	[a15]4,d15
+.L60:
+.L59:
+.L61:
+	movh.a	a15,#@his(lfree)
+	ld.a	a2,[a15]@los(lfree)
+.L436:
+	ld.a	a4,[a10]
+.L307:
+	jne.a	a4,a2,.L62
+.L180:
+	ld.a	a15,[a15]@los(lfree)
+.L308:
+	movh.a	a12,#@his(mem_free_count)
+.L437:
+	mov	d9,#0
+.L438:
+	mov.aa	a13,a12
+.L439:
+	movh.a	a14,#@his(ram_end)
+.L440:
+	j	.L63
+.L64:
+	st.b	[a12]@los(mem_free_count),d9
+.L441:
+	mov	d4,d8
+.L310:
+	call	sys_arch_unprotect
+.L311:
+	call	sys_arch_protect
+.L312:
+	mov	d8,d2
+.L313:
+	ld.bu	d15,[a13]@los(mem_free_count)
+.L442:
+	jne	d15,#0,.L61
+.L443:
+	ld.hu	d4,[a15]0
+	call	ptr_to_mem
+.L309:
+	mov.aa	a15,a2
+.L63:
+	ld.bu	d15,[a15]4
+.L444:
+	jeq	d15,#0,.L65
+.L445:
+	ld.a	a2,[a14]@los(ram_end)
+.L446:
+	jne.a	a15,a2,.L64
+.L65:
+	movh.a	a2,#@his(lfree)
+.L447:
+	st.a	[a2]@los(lfree),a15
+.L448:
+	ld.a	a15,[a2]@los(lfree)
+.L314:
+	movh.a	a4,#@his(ram_end)
+	ld.a	a4,[a4]@los(ram_end)
+	jeq.a	a15,a4,.L66
+	ld.w	d15,[a2]@los(lfree)
+.L66:
+.L62:
+	mov	d4,d8
+.L315:
+	call	sys_arch_unprotect
+.L316:
+	ld.a	a15,[a10]
+.L317:
+	lea	a2,[a15]8
+.L449:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   970  #endif /* LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   971    MEM_STATS_INC(err);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   972    LWIP_MEM_ALLOC_UNPROTECT();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   973    sys_mutex_unlock(&mem_mutex);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   974    LWIP_DEBUGF(MEM_DEBUG | LWIP_DBG_LEVEL_SERIOUS, ("mem_malloc: could not allocate %"S16_F" bytes\n", (s16_t)size));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   975    return NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   976  }
+	ret
+.L57:
+.L56:
+	mov	d4,d13
+.L318:
+	call	ptr_to_mem
+.L319:
+	ld.hu	d13,[a2]0
+.L52:
+	sub	d15,d10,d11
+.L450:
+	jlt.u	d13,d15,.L53
+.L55:
+	jne	d12,#0,.L51
+.L451:
+	mov	d4,d8
+.L320:
+	call	sys_arch_unprotect
+.L50:
+.L49:
+.L48:
+	mov.a	a2,#0
+.L452:
+	ret
+.L171:
+	
+__mem_malloc_function_end:
+	.size	mem_malloc,__mem_malloc_function_end-mem_malloc
+.L109:
+	; End of function
+	
+	.sdecl	'.text.mem.mem_calloc',code,cluster('mem_calloc')
+	.sect	'.text.mem.mem_calloc'
+	.align	2
+	
+	.global	mem_calloc
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   977  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   978  #endif /* MEM_USE_POOLS */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   979  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   980  #if MEM_LIBC_MALLOC && (!LWIP_STATS || !MEM_STATS)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   981  void *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   982  mem_calloc(mem_size_t count, mem_size_t size)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   983  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   984    return mem_clib_calloc(count, size);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   985  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   986  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   987  #else /* MEM_LIBC_MALLOC && (!LWIP_STATS || !MEM_STATS) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   988  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   989   * Contiguously allocates enough space for count objects that are size bytes
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   990   * of memory each and returns a pointer to the allocated memory.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   991   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   992   * The allocated memory is filled with bytes of value zero.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   993   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   994   * @param count number of objects to allocate
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   995   * @param size size of the objects to allocate
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   996   * @return pointer to allocated memory / NULL pointer if there is an error
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   997   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   998  void *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	   999  mem_calloc(mem_size_t count, mem_size_t size)
+; Function mem_calloc
+.L90:
+mem_calloc:	.type	func
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	  1000  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	  1001    void *p;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	  1002    size_t alloc_size = (size_t)count * (size_t)size;
+	mul	d8,d4,d5
+.L323:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	  1003  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	  1004    if ((size_t)(mem_size_t)alloc_size != alloc_size) {
+	extr.u	d15,d8,#0,#16
+.L457:
+	jeq	d15,d8,.L69
+.L458:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	  1005      LWIP_DEBUGF(MEM_DEBUG | LWIP_DBG_LEVEL_SERIOUS, ("mem_calloc: could not allocate %"SZT_F" bytes\n", alloc_size));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	  1006      return NULL;
+	mov.a	a2,#0
+.L459:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	  1007    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	  1008  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	  1009    /* allocate 'count' objects of size 'size' */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	  1010    p = mem_malloc((mem_size_t)alloc_size);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	  1011    if (p) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	  1012      /* zero the memory */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	  1013      memset(p, 0, alloc_size);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	  1014    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	  1015    return p;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	  1016  }
+	ret
+.L69:
+	mov	d4,d15
+.L321:
+	call	mem_malloc
+.L322:
+	mov.aa	a15,a2
+.L325:
+	jz.a	a15,.L71
+.L460:
+	mov	d4,#0
+.L461:
+	mov.aa	a4,a15
+.L324:
+	mov	d5,d8
+.L326:
+	call	memset
+.L71:
+	mov.aa	a2,a15
+.L327:
+	ret
+.L182:
+	
+__mem_calloc_function_end:
+	.size	mem_calloc,__mem_calloc_function_end-mem_calloc
+.L114:
+	; End of function
+	
+	.sdecl	'.bss.mem.ram_heap',data,cluster('ram_heap')
+	.sect	'.bss.mem.ram_heap'
+	.global	ram_heap
+ram_heap:	.type	object
+	.size	ram_heap,16019
+	.space	16019
+	.sdecl	'.bss.mem.ram',data,cluster('ram')
+	.sect	'.bss.mem.ram'
+	.align	4
+ram:	.type	object
+	.size	ram,4
+	.space	4
+	.sdecl	'.bss.mem.ram_end',data,cluster('ram_end')
+	.sect	'.bss.mem.ram_end'
+	.align	4
+ram_end:	.type	object
+	.size	ram_end,4
+	.space	4
+	.sdecl	'.bss.mem.mem_free_count',data,cluster('mem_free_count')
+	.sect	'.bss.mem.mem_free_count'
+mem_free_count:	.type	object
+	.size	mem_free_count,1
+	.space	1
+	.sdecl	'.bss.mem.lfree',data,cluster('lfree')
+	.sect	'.bss.mem.lfree'
+	.align	4
+lfree:	.type	object
+	.size	lfree,4
+	.space	4
+	.calls	'plug_holes','ptr_to_mem'
+	.calls	'plug_holes','mem_to_ptr'
+	.calls	'mem_init','ptr_to_mem'
+	.calls	'mem_link_valid','mem_to_ptr'
+	.calls	'mem_link_valid','ptr_to_mem'
+	.calls	'mem_free','sys_arch_protect'
+	.calls	'mem_free','sys_arch_unprotect'
+	.calls	'mem_free','mem_link_valid'
+	.calls	'mem_free','plug_holes'
+	.calls	'mem_trim','sys_arch_protect'
+	.calls	'mem_trim','sys_arch_unprotect'
+	.calls	'mem_trim','mem_to_ptr'
+	.calls	'mem_trim','ptr_to_mem'
+	.calls	'mem_malloc','sys_arch_protect'
+	.calls	'mem_malloc','mem_to_ptr'
+	.calls	'mem_malloc','ptr_to_mem'
+	.calls	'mem_malloc','sys_arch_unprotect'
+	.calls	'mem_calloc','mem_malloc'
+	.calls	'mem_calloc','memset'
+	.calls	'ptr_to_mem','',0
+	.calls	'mem_to_ptr','',0
+	.calls	'plug_holes','',0
+	.calls	'mem_init','',0
+	.calls	'mem_link_valid','',0
+	.calls	'mem_free','',0
+	.calls	'mem_trim','',0
+	.calls	'mem_malloc','',8
+	.extern	memset
+	.extern	sys_arch_protect
+	.extern	sys_arch_unprotect
+	.calls	'mem_calloc','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L92:
+	.word	4848
+	.half	3
+	.word	.L93
+	.byte	4
+.L91:
+	.byte	1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\mem.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L94
+.L156:
+	.byte	2
+	.byte	'unsigned short int',0,2,7
+.L164:
+	.byte	2
+	.byte	'unsigned char',0,1,8,3
+	.byte	'mem',0,1,221,2,8,6,4
+	.byte	'next',0
+	.word	162
+	.byte	2,2,35,0,4
+	.byte	'prev',0
+	.word	162
+	.byte	2,2,35,2,4
+	.byte	'used',0
+	.word	184
+	.byte	1,2,35,4,0
+.L151:
+	.byte	5
+	.word	201
+	.byte	6
+	.byte	'void',0
+.L153:
+	.byte	5
+	.word	259
+.L186:
+	.byte	2
+	.byte	'unsigned long int',0,4,7
+.L211:
+	.byte	2
+	.byte	'int',0,4,5,7
+	.byte	'memset',0,2,56,17
+	.word	265
+	.byte	1,1,1,1,8,2,56,33
+	.word	265
+	.byte	8,2,56,36
+	.word	291
+	.byte	8,2,56,41
+	.word	270
+	.byte	0,9
+	.byte	'sys_arch_protect',0,3,236,3,12
+	.word	184
+	.byte	1,1,1,1,10
+	.byte	'sys_arch_unprotect',0,3,237,3,6,1,1,1,1,11
+	.byte	'pval',0,3,237,3,36
+	.word	184
+	.byte	0,12,1,5
+	.word	415
+	.byte	13
+	.byte	'__codeptr',0,1,1,1
+	.word	417
+	.byte	13
+	.byte	'boolean',0,4,102,29
+	.word	184
+	.byte	13
+	.byte	'uint8',0,4,106,29
+	.word	184
+	.byte	13
+	.byte	'uint16',0,4,110,29
+	.word	162
+	.byte	13
+	.byte	'uint32',0,4,114,29
+	.word	270
+	.byte	13
+	.byte	'Std_ReturnType',0,5,109,16
+	.word	184
+	.byte	13
+	.byte	'PduIdType',0,6,37,21
+	.word	184
+	.byte	13
+	.byte	'PduLengthType',0,6,41,22
+	.word	162
+	.byte	14,7,101,9,1,15
+	.byte	'BUFREQ_OK',0,0,15
+	.byte	'BUFREQ_E_NOT_OK',0,1,15
+	.byte	'BUFREQ_E_BUSY',0,2,15
+	.byte	'BUFREQ_E_OVFL',0,3,0,13
+	.byte	'BufReq_ReturnType',0,7,107,3
+	.word	563
+	.byte	5
+	.word	184
+	.byte	13
+	.byte	'SduDataPtrType',0,7,189,1,40
+	.word	657
+	.byte	14,7,204,1,9,1,15
+	.byte	'TP_DATACONF',0,0,15
+	.byte	'TP_DATARETRY',0,1,15
+	.byte	'TP_CONFPENDING',0,2,0,13
+	.byte	'TpDataStateType',0,7,216,1,3
+	.word	686
+	.byte	13
+	.byte	'TcpIp_SocketIdType',0,8,50,16
+	.word	184
+	.byte	16,4
+	.word	270
+	.byte	17,0,0,18,8,52,9,4,4
+	.byte	'Addr',0
+	.word	791
+	.byte	4,2,35,0,0,13
+	.byte	'TcpIp_IpAddressType',0,8,55,3
+	.word	800
+	.byte	13
+	.byte	'TcpIp_DomainType',0,8,61,16
+	.word	162
+	.byte	18,8,68,9,8,4
+	.byte	'Domain',0
+	.word	162
+	.byte	2,2,35,0,4
+	.byte	'Port',0
+	.word	162
+	.byte	2,2,35,2,4
+	.byte	'Addr',0
+	.word	791
+	.byte	4,2,35,4,0,13
+	.byte	'TcpIp_SockAddrInetType',0,8,73,3
+	.word	873
+	.byte	13
+	.byte	'TcpIp_AddressType',0,9,128,1,15
+	.word	184
+	.byte	13
+	.byte	'TcpIp_CtrlIdType',0,9,142,1,15
+	.word	184
+	.byte	13
+	.byte	'TcpIp_IpAddrStateType',0,9,144,1,15
+	.word	184
+	.byte	13
+	.byte	'TcpIp_LocalAddrAssignmentConfigType',0,9,149,1,15
+	.word	184
+	.byte	13
+	.byte	'TcpIp_StaticAddrIdType',0,9,151,1,15
+	.word	184
+	.byte	18,9,152,1,9,12,4
+	.byte	'State',0
+	.word	184
+	.byte	1,2,35,0,4
+	.byte	'Netmask',0
+	.word	184
+	.byte	1,2,35,1,4
+	.byte	'Domain',0
+	.word	162
+	.byte	2,2,35,2,4
+	.byte	'IpAddr',0
+	.word	800
+	.byte	4,2,35,4,4
+	.byte	'DefaultRouter',0
+	.word	800
+	.byte	4,2,35,8,0,13
+	.byte	'TcpIp_StaticIpAddrType',0,9,162,1,3
+	.word	1115
+	.byte	13
+	.byte	'TcpIp_LocalAddrIdType',0,9,173,1,15
+	.word	184
+	.byte	16,3
+	.word	184
+	.byte	17,2,0,18,9,231,1,9,8,4
+	.byte	'CtrlId',0
+	.word	184
+	.byte	1,2,35,0,4
+	.byte	'Address',0
+	.word	184
+	.byte	1,2,35,1,4
+	.byte	'Domain',0
+	.word	162
+	.byte	2,2,35,2,4
+	.byte	'StaticAddrId',0
+	.word	184
+	.byte	1,2,35,4,4
+	.byte	'Assignments',0
+	.word	1272
+	.byte	3,2,35,5,0,13
+	.byte	'TcpIp_LocalAddrConfigType',0,9,243,1,3
+	.word	1281
+	.byte	18,9,245,1,9,4,4
+	.byte	'ArpConfigId',0
+	.word	184
+	.byte	1,2,35,0,4
+	.byte	'DHCPConfigId',0
+	.word	184
+	.byte	1,2,35,1,4
+	.byte	'AutoIpInitTimeout',0
+	.word	162
+	.byte	2,2,35,2,0,13
+	.byte	'TcpIp_IpV4CtrlConfigType',0,9,130,2,3
+	.word	1415
+	.byte	18,9,133,2,9,8,4
+	.byte	'CtrlIdx',0
+	.word	184
+	.byte	1,2,35,0,4
+	.byte	'FramePrio',0
+	.word	184
+	.byte	1,2,35,1,4
+	.byte	'UnicastAddrId',0
+	.word	184
+	.byte	1,2,35,2,4
+	.byte	'UnicastAddrLimit',0
+	.word	184
+	.byte	1,2,35,3,4
+	.byte	'MulticastAddrId',0
+	.word	184
+	.byte	1,2,35,4,4
+	.byte	'LocalAddrLimit',0
+	.word	184
+	.byte	1,2,35,5,4
+	.byte	'IpV4CtrlId',0
+	.word	184
+	.byte	1,2,35,6,4
+	.byte	'IpV6CtrlId',0
+	.word	184
+	.byte	1,2,35,7,0,13
+	.byte	'TcpIp_NetIfCtrlConfigType',0,9,148,2,3
+	.word	1526
+	.byte	13
+	.byte	'SoAd_RoutingGroupIdType',0,10,43,15
+	.word	184
+	.byte	13
+	.byte	'SoAd_SoConIdType',0,10,44,15
+	.word	184
+	.byte	13
+	.byte	'SoAd_SoConGroupIdType',0,10,45,15
+	.word	184
+	.byte	13
+	.byte	'SoAd_PduRouteIdType',0,10,46,15
+	.word	184
+	.byte	13
+	.byte	'SoAd_PduRouteDestIdType',0,10,47,15
+	.word	184
+	.byte	13
+	.byte	'SoAd_SocketRouteIdType',0,10,48,15
+	.word	184
+	.byte	13
+	.byte	'SoAd_IfTxUnconfirmedType',0,10,49,16
+	.word	162
+	.byte	13
+	.byte	'SoAd_IfTxTimerType',0,10,51,16
+	.word	162
+	.byte	16,1
+	.word	184
+	.byte	17,0,0,18,10,53,9,2,4
+	.byte	'Mask',0
+	.word	1980
+	.byte	1,2,35,0,4
+	.byte	'RoutingState',0
+	.word	1980
+	.byte	1,2,35,1,0,13
+	.byte	'SoAd_RoutingGroupCtrlType',0,10,57,3
+	.word	1989
+	.byte	14,10,63,9,1,15
+	.byte	'SOAD_UL_DOIP',0,0,15
+	.byte	'SOAD_UL_UDPNM',0,1,15
+	.byte	'SOAD_UL_PDUR',0,2,15
+	.byte	'SOAD_UL_XCP',0,3,15
+	.byte	'SOAD_UL_MAX',0,4,0,13
+	.byte	'SoAd_ULIndexType',0,10,71,3
+	.word	2065
+	.byte	13
+	.byte	'SoAd_RemoteAddressType',0,11,113,32
+	.word	873
+	.byte	14,11,115,9,1,15
+	.byte	'SOAD_SOCON_UNINIT',0,0,15
+	.byte	'SOAD_SOCON_OFFLINE',0,1,15
+	.byte	'SOAD_SOCON_RECONN',0,2,15
+	.byte	'SOAD_SOCON_ONLINE',0,3,0,13
+	.byte	'SoAd_SoConModeType',0,11,121,3
+	.word	2201
+	.byte	19
+	.word	184
+	.byte	5
+	.word	2315
+	.byte	19
+	.word	184
+	.byte	5
+	.word	2325
+	.byte	19
+	.word	184
+	.byte	5
+	.word	2335
+	.byte	19
+	.word	2065
+	.byte	5
+	.word	2345
+	.byte	18,11,129,1,9,36,4
+	.byte	'IfBufferLength',0
+	.word	162
+	.byte	2,2,35,0,4
+	.byte	'IfBufferOffset',0
+	.word	162
+	.byte	2,2,35,2,4
+	.byte	'TpBufferLength',0
+	.word	162
+	.byte	2,2,35,4,4
+	.byte	'TpBufferOffset',0
+	.word	162
+	.byte	2,2,35,6,4
+	.byte	'PduRouteNum',0
+	.word	184
+	.byte	1,2,35,8,4
+	.byte	'SocketRouteNum',0
+	.word	184
+	.byte	1,2,35,9,4
+	.byte	'PduRouteDestNum',0
+	.word	184
+	.byte	1,2,35,10,4
+	.byte	'RemoteAddrState',0
+	.word	184
+	.byte	1,2,35,11,4
+	.byte	'RemoteAddr',0
+	.word	873
+	.byte	8,2,35,12,4
+	.byte	'PduRouteDestList',0
+	.word	2320
+	.byte	4,2,35,20,4
+	.byte	'PduRouteList',0
+	.word	2330
+	.byte	4,2,35,24,4
+	.byte	'SocketRouteList',0
+	.word	2340
+	.byte	4,2,35,28,4
+	.byte	'SoConModeChgList',0
+	.word	2350
+	.byte	4,2,35,32,0,13
+	.byte	'SoAd_SocketConnectionType',0,11,146,1,3
+	.word	2355
+	.byte	18,11,148,1,9,16,4
+	.byte	'CtrlFlag',0
+	.word	184
+	.byte	1,2,35,0,4
+	.byte	'KeepAliveProbesMax',0
+	.word	162
+	.byte	2,2,35,2,4
+	.byte	'KeepAliveInterval',0
+	.word	270
+	.byte	4,2,35,4,4
+	.byte	'KeepAliveTime',0
+	.word	270
+	.byte	4,2,35,8,4
+	.byte	'TxQuota',0
+	.word	270
+	.byte	4,2,35,12,0,13
+	.byte	'SoAd_TcpProtocolType',0,11,155,1,3
+	.word	2707
+	.byte	18,11,157,1,9,12,4
+	.byte	'CtrlFlag',0
+	.word	184
+	.byte	1,2,35,0,4
+	.byte	'nPduTxBufferMin',0
+	.word	162
+	.byte	2,2,35,2,4
+	.byte	'TriggerTimeout',0
+	.word	162
+	.byte	2,2,35,4,4
+	.byte	'AliveSupervisionTimeout',0
+	.word	270
+	.byte	4,2,35,6,0,13
+	.byte	'SoAd_UdpProtocolType',0,11,163,1,3
+	.word	2857
+	.byte	19
+	.word	2707
+	.byte	5
+	.word	2994
+	.byte	19
+	.word	2857
+	.byte	5
+	.word	3004
+	.byte	18,11,165,1,9,24,4
+	.byte	'GroupId',0
+	.word	184
+	.byte	1,2,35,0,4
+	.byte	'CtrlFlag',0
+	.word	184
+	.byte	1,2,35,1,4
+	.byte	'FramePriority',0
+	.word	184
+	.byte	1,2,35,2,4
+	.byte	'SoConNum',0
+	.word	184
+	.byte	1,2,35,3,4
+	.byte	'SoConId',0
+	.word	184
+	.byte	1,2,35,4,4
+	.byte	'IpAddrAssignChgNum',0
+	.word	184
+	.byte	1,2,35,5,4
+	.byte	'LocalAddrId',0
+	.word	184
+	.byte	1,2,35,6,4
+	.byte	'LocalPort',0
+	.word	162
+	.byte	2,2,35,8,4
+	.byte	'IpAddrAssignChgList',0
+	.word	2350
+	.byte	4,2,35,12,4
+	.byte	'TcpProtocolPtr',0
+	.word	2999
+	.byte	4,2,35,16,4
+	.byte	'UdpProtocolPtr',0
+	.word	3009
+	.byte	4,2,35,20,0,13
+	.byte	'SoAd_SocketConnectionGroupType',0,11,178,1,3
+	.word	3014
+	.byte	19
+	.word	184
+	.byte	5
+	.word	3299
+	.byte	18,11,180,1,9,12,4
+	.byte	'CtrlFlag',0
+	.word	184
+	.byte	1,2,35,0,4
+	.byte	'PduRouteDestNum',0
+	.word	184
+	.byte	1,2,35,1,4
+	.byte	'SocketRouteDestNum',0
+	.word	184
+	.byte	1,2,35,2,4
+	.byte	'PduRouteDestList',0
+	.word	3304
+	.byte	4,2,35,4,4
+	.byte	'SocketRouteDestList',0
+	.word	3304
+	.byte	4,2,35,8,0,13
+	.byte	'SoAd_RoutingGroupType',0,11,187,1,3
+	.word	3309
+	.byte	18,11,189,1,9,6,4
+	.byte	'ULType',0
+	.word	184
+	.byte	1,2,35,0,4
+	.byte	'ULIndex',0
+	.word	2065
+	.byte	1,2,35,1,4
+	.byte	'CtrlFlag',0
+	.word	184
+	.byte	1,2,35,2,4
+	.byte	'RouteDestNum',0
+	.word	184
+	.byte	1,2,35,3,4
+	.byte	'RouteDestId',0
+	.word	184
+	.byte	1,2,35,4,4
+	.byte	'TxPduId',0
+	.word	184
+	.byte	1,2,35,5,0,13
+	.byte	'SoAd_PduRouteType',0,11,204,1,3
+	.word	3473
+	.byte	5
+	.word	1989
+	.byte	18,11,206,1,9,20,4
+	.byte	'TxPduHeaderId',0
+	.word	270
+	.byte	4,2,35,0,4
+	.byte	'SoConNum',0
+	.word	184
+	.byte	1,2,35,4,4
+	.byte	'SoConId',0
+	.word	184
+	.byte	1,2,35,5,4
+	.byte	'PduRouteId',0
+	.word	184
+	.byte	1,2,35,6,4
+	.byte	'UdpTriggerMode',0
+	.word	184
+	.byte	1,2,35,7,4
+	.byte	'UdpTriggerTimeout',0
+	.word	162
+	.byte	2,2,35,8,4
+	.byte	'RoutingCtrlList',0
+	.word	3618
+	.byte	4,2,35,12,4
+	.byte	'IfTriggerList',0
+	.word	657
+	.byte	4,2,35,16,0,13
+	.byte	'SoAd_PduRouteDestType',0,11,217,1,3
+	.word	3623
+	.byte	18,11,219,1,9,16,4
+	.byte	'RxPduHeaderId',0
+	.word	270
+	.byte	4,2,35,0,4
+	.byte	'ULType',0
+	.word	184
+	.byte	1,2,35,4,4
+	.byte	'ULIndex',0
+	.word	2065
+	.byte	1,2,35,5,4
+	.byte	'SoConNum',0
+	.word	184
+	.byte	1,2,35,6,4
+	.byte	'SoConId',0
+	.word	184
+	.byte	1,2,35,7,4
+	.byte	'RxPduId',0
+	.word	184
+	.byte	1,2,35,8,4
+	.byte	'RoutingCtrlList',0
+	.word	3618
+	.byte	4,2,35,12,0,13
+	.byte	'SoAd_SocketRouteType',0,11,236,1,3
+	.word	3838
+	.byte	19
+	.word	3623
+	.byte	5
+	.word	4008
+	.byte	18,11,155,2,9,24,4
+	.byte	'State',0
+	.word	184
+	.byte	1,2,35,0,4
+	.byte	'Timer',0
+	.word	162
+	.byte	2,2,35,2,4
+	.byte	'BufferLength',0
+	.word	162
+	.byte	2,2,35,4,4
+	.byte	'BufferOffset',0
+	.word	162
+	.byte	2,2,35,6,4
+	.byte	'UdpTxBuffer',0
+	.word	657
+	.byte	4,2,35,8,4
+	.byte	'TotalTxLength',0
+	.word	162
+	.byte	2,2,35,12,4
+	.byte	'UsedTxLength',0
+	.word	162
+	.byte	2,2,35,14,4
+	.byte	'IfTxDataBuffer',0
+	.word	3304
+	.byte	4,2,35,16,4
+	.byte	'PduRouteDestPtr',0
+	.word	4013
+	.byte	4,2,35,20,0,13
+	.byte	'SoAd_TxSessionType',0,11,177,2,3
+	.word	4018
+	.byte	19
+	.word	3838
+	.byte	5
+	.word	4242
+	.byte	18,11,180,2,9,8,4
+	.byte	'PduLength',0
+	.word	162
+	.byte	2,2,35,0,4
+	.byte	'RemainLength',0
+	.word	162
+	.byte	2,2,35,2,4
+	.byte	'SocketRoutePtr',0
+	.word	4247
+	.byte	4,2,35,4,0,13
+	.byte	'SoAd_RxPduInfoType',0,11,185,2,3
+	.word	4252
+	.byte	18,11,187,2,9,12,4
+	.byte	'TotalLength',0
+	.word	162
+	.byte	2,2,35,0,4
+	.byte	'In',0
+	.word	162
+	.byte	2,2,35,2,4
+	.byte	'Out',0
+	.word	162
+	.byte	2,2,35,4,4
+	.byte	'BufferPtr',0
+	.word	657
+	.byte	4,2,35,8,0,13
+	.byte	'SoAd_RxFifoType',0,11,193,2,3
+	.word	4352
+	.byte	18,11,195,2,9,8,4
+	.byte	'TotalLength',0
+	.word	162
+	.byte	2,2,35,0,4
+	.byte	'UsedLength',0
+	.word	162
+	.byte	2,2,35,2,4
+	.byte	'BufferPtr',0
+	.word	657
+	.byte	4,2,35,4,0,13
+	.byte	'SoAd_RxBufferType',0,11,200,2,3
+	.word	4449
+	.byte	16,8
+	.word	184
+	.byte	17,7,0,18,11,202,2,9,48,4
+	.byte	'State',0
+	.word	184
+	.byte	1,2,35,0,4
+	.byte	'ValidHeaderLen',0
+	.word	184
+	.byte	1,2,35,1,4
+	.byte	'PduHeader',0
+	.word	4543
+	.byte	8,2,35,2,4
+	.byte	'RxPduInfo',0
+	.word	4252
+	.byte	8,2,35,12,4
+	.byte	'ProcessPduInfo',0
+	.word	4252
+	.byte	8,2,35,20,4
+	.byte	'IfBuffer',0
+	.word	4449
+	.byte	8,2,35,28,4
+	.byte	'TpBuffer',0
+	.word	4352
+	.byte	12,2,35,36,0,13
+	.byte	'SoAd_RxSessionType',0,11,216,2,3
+	.word	4552
+	.byte	13
+	.byte	'size_t',0,12,57,25
+	.word	270
+	.byte	13
+	.byte	'u8_t',0,12,61,25
+	.word	184
+	.byte	2
+	.byte	'char',0,1,6,13
+	.byte	's8_t',0,12,62,25
+	.word	4752
+	.byte	13
+	.byte	'u16_t',0,12,63,25
+	.word	162
+	.byte	13
+	.byte	'sys_prot_t',0,12,88,14
+	.word	184
+	.byte	13
+	.byte	'mem_size_t',0,13,67,15
+	.word	162
+.L217:
+	.byte	16,147,125
+	.word	184
+	.byte	17,146,125,0
+.L218:
+	.byte	5
+	.word	184
+.L219:
+	.byte	20
+	.word	184
+.L220:
+	.byte	20
+	.word	254
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L93:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,19,1,3,8,58,15,59,15,57,15
+	.byte	11,15,0,0,4,13,0,3,8,73,19,11,15,56,9,0,0,5,15,0,73,19,0,0,6,59,0,3,8,0,0,7,46,1,3,8,58,15,59,15,57,15
+	.byte	73,19,54,15,39,12,63,12,60,12,0,0,8,5,0,58,15,59,15,57,15,73,19,0,0,9,46,0,3,8,58,15,59,15,57,15,73,19
+	.byte	54,15,39,12,63,12,60,12,0,0,10,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,11,5,0,3,8,58,15
+	.byte	59,15,57,15,73,19,0,0,12,21,0,54,15,0,0,13,22,0,3,8,58,15,59,15,57,15,73,19,0,0,14,4,1,58,15,59,15,57
+	.byte	15,11,15,0,0,15,40,0,3,8,28,13,0,0,16,1,1,11,15,73,19,0,0,17,33,0,47,15,0,0,18,19,1,58,15,59,15,57,15
+	.byte	11,15,0,0,19,38,0,73,19,0,0,20,53,0,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L94:
+	.word	.L329-.L328
+.L328:
+	.half	3
+	.word	.L331-.L330
+.L330:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\tasking\\ctc\\include\\',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Config',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\SoAd',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\arch',0,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\mem.c',0,0,0,0
+	.byte	'string.h',0,1,0,0
+	.byte	'sys.h',0,2,0,0
+	.byte	'Platform_Types.h',0,3,0,0
+	.byte	'Std_Types.h',0,3,0,0
+	.byte	'ComStack_Types_Cfg.h',0,4,0,0
+	.byte	'ComStack_Types.h',0,5,0,0
+	.byte	'TcpIp_GeneratedTypes.h',0,4,0,0
+	.byte	'TcpIp_Types.h',0,6,0,0
+	.byte	'SoAd_GeneratedTypes.h',0,4,0,0
+	.byte	'SoAd_Types.h',0,7,0,0
+	.byte	'cc.h',0,8,0,0
+	.byte	'mem.h',0,2,0,0,0
+.L331:
+.L329:
+	.sdecl	'.debug_info',debug,cluster('mem_init')
+	.sect	'.debug_info'
+.L95:
+	.word	225
+	.half	3
+	.word	.L96
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\mem.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L98,.L97
+	.byte	2
+	.word	.L91
+	.byte	3
+	.byte	'mem_init',0,1,132,4,1,1,1,1
+	.word	.L80,.L150,.L79
+	.byte	4
+	.word	.L80,.L150
+	.byte	5
+	.byte	'mem',0,1,134,4,15
+	.word	.L151,.L152
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('mem_init')
+	.sect	'.debug_abbrev'
+.L96:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('mem_init')
+	.sect	'.debug_line'
+.L97:
+	.word	.L333-.L332
+.L332:
+	.half	3
+	.word	.L335-.L334
+.L334:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\mem.c',0,0,0,0,0
+.L335:
+	.byte	5,3,7,0,5,2
+	.word	.L80
+	.byte	3,139,4,1,5,17,9
+	.half	.L336-.L80
+	.byte	1,5,7,9
+	.half	.L337-.L336
+	.byte	1,5,31,9
+	.half	.L338-.L337
+	.byte	3,2,1,5,15,9
+	.half	.L232-.L338
+	.byte	3,1,1,5,13,9
+	.half	.L339-.L232
+	.byte	1,5,15,9
+	.half	.L340-.L339
+	.byte	3,1,1,5,13,9
+	.half	.L341-.L340
+	.byte	1,9
+	.half	.L342-.L341
+	.byte	3,1,1,5,3,9
+	.half	.L343-.L342
+	.byte	3,2,1,5,24,9
+	.half	.L233-.L343
+	.byte	1,5,11,9
+	.half	.L344-.L233
+	.byte	1,5,3,9
+	.half	.L345-.L344
+	.byte	3,1,1,5,19,9
+	.half	.L346-.L345
+	.byte	1,5,17,9
+	.half	.L347-.L346
+	.byte	1,5,3,9
+	.half	.L348-.L347
+	.byte	3,1,1,5,19,9
+	.half	.L349-.L348
+	.byte	1,5,17,9
+	.half	.L350-.L349
+	.byte	1,5,3,9
+	.half	.L351-.L350
+	.byte	3,1,1,5,17,9
+	.half	.L352-.L351
+	.byte	1,5,3,9
+	.half	.L353-.L352
+	.byte	3,4,1,5,33,9
+	.half	.L354-.L353
+	.byte	1,5,9,9
+	.half	.L355-.L354
+	.byte	1,5,1,9
+	.half	.L356-.L355
+	.byte	3,7,1,7,9
+	.half	.L99-.L356
+	.byte	0,1,1
+.L333:
+	.sdecl	'.debug_ranges',debug,cluster('mem_init')
+	.sect	'.debug_ranges'
+.L98:
+	.word	-1,.L80,0,.L99-.L80,0,0
+	.sdecl	'.debug_info',debug,cluster('mem_trim')
+	.sect	'.debug_info'
+.L100:
+	.word	444
+	.half	3
+	.word	.L101
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\mem.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L103,.L102
+	.byte	2
+	.word	.L91
+	.byte	3
+	.byte	'mem_trim',0,1,187,5,1
+	.word	.L153
+	.byte	1,1,1
+	.word	.L86,.L154,.L85
+	.byte	4
+	.byte	'rmem',0,1,187,5,16
+	.word	.L153,.L155
+	.byte	4
+	.byte	'new_size',0,1,187,5,33
+	.word	.L156,.L157
+	.byte	5
+	.word	.L86,.L154
+	.byte	6
+	.byte	'size',0,1,189,5,14
+	.word	.L156,.L158
+	.byte	6
+	.byte	'newsize',0,1,189,5,20
+	.word	.L156,.L159
+	.byte	6
+	.byte	'ptr',0,1,190,5,14
+	.word	.L156,.L160
+	.byte	6
+	.byte	'ptr2',0,1,190,5,19
+	.word	.L156,.L161
+	.byte	6
+	.byte	'mem',0,1,191,5,15
+	.word	.L151,.L162
+	.byte	6
+	.byte	'mem2',0,1,191,5,21
+	.word	.L151,.L163
+	.byte	6
+	.byte	'lev_free',0,1,193,5,3
+	.word	.L164,.L165
+	.byte	5
+	.word	.L34,.L166
+	.byte	6
+	.byte	'old_level',0,1,215,5,5
+	.word	.L164,.L167
+	.byte	0,5
+	.word	.L168,.L169
+	.byte	6
+	.byte	'next',0,1,244,5,16
+	.word	.L156,.L170
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('mem_trim')
+	.sect	'.debug_abbrev'
+.L101:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('mem_trim')
+	.sect	'.debug_line'
+.L102:
+	.word	.L358-.L357
+.L357:
+	.half	3
+	.word	.L360-.L359
+.L359:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\mem.c',0,0,0,0,0
+.L360:
+	.byte	5,1,7,0,5,2
+	.word	.L86
+	.byte	3,186,5,1,5,25,9
+	.half	.L262-.L86
+	.byte	3,10,1,5,15,9
+	.half	.L361-.L262
+	.byte	3,1,1,5,18,9
+	.half	.L263-.L361
+	.byte	3,7,1,5,7,9
+	.half	.L362-.L263
+	.byte	1,5,48,7,9
+	.half	.L363-.L362
+	.byte	1,5,15,7,9
+	.half	.L364-.L363
+	.byte	3,7,1,5,30,9
+	.half	.L261-.L364
+	.byte	1,5,7,9
+	.half	.L365-.L261
+	.byte	1,5,61,7,9
+	.half	.L366-.L365
+	.byte	1,5,50,9
+	.half	.L367-.L366
+	.byte	1,5,5,7,9
+	.half	.L34-.L367
+	.byte	3,3,1,9
+	.half	.L166-.L34
+	.byte	3,1,1,5,66,9
+	.half	.L35-.L166
+	.byte	3,4,1,5,20,9
+	.half	.L266-.L35
+	.byte	3,5,1,5,7,9
+	.half	.L265-.L266
+	.byte	1,5,39,9
+	.half	.L268-.L265
+	.byte	3,2,1,5,46,9
+	.half	.L368-.L268
+	.byte	1,5,53,9
+	.half	.L369-.L368
+	.byte	1,5,10,9
+	.half	.L370-.L369
+	.byte	1,5,3,9
+	.half	.L269-.L370
+	.byte	3,2,1,5,12,7,9
+	.half	.L32-.L269
+	.byte	3,2,1,5,1,9
+	.half	.L371-.L32
+	.byte	3,205,0,1,5,3,7,9
+	.half	.L37-.L371
+	.byte	3,181,127,1,7,9
+	.half	.L372-.L37
+	.byte	3,6,1,5,24,9
+	.half	.L273-.L372
+	.byte	3,2,1,5,11,9
+	.half	.L272-.L273
+	.byte	3,1,1,5,3,9
+	.half	.L373-.L272
+	.byte	1,5,16,7,9
+	.half	.L168-.L373
+	.byte	3,5,1,5,49,9
+	.half	.L271-.L168
+	.byte	3,2,1,5,29,9
+	.half	.L264-.L271
+	.byte	1,5,12,9
+	.half	.L374-.L264
+	.byte	1,5,9,9
+	.half	.L275-.L374
+	.byte	3,1,1,5,5,9
+	.half	.L375-.L275
+	.byte	1,5,26,7,9
+	.half	.L376-.L375
+	.byte	3,1,1,5,13,9
+	.half	.L274-.L376
+	.byte	1,5,23,9
+	.half	.L41-.L274
+	.byte	3,2,1,5,18,9
+	.half	.L278-.L41
+	.byte	3,1,1,5,16,9
+	.half	.L377-.L278
+	.byte	1,9
+	.half	.L378-.L377
+	.byte	3,2,1,9
+	.half	.L379-.L378
+	.byte	3,2,1,5,15,9
+	.half	.L380-.L379
+	.byte	3,2,1,5,13,9
+	.half	.L381-.L380
+	.byte	3,4,1,5,23,9
+	.half	.L382-.L381
+	.byte	1,5,5,9
+	.half	.L383-.L382
+	.byte	1,7,9
+	.half	.L169-.L383
+	.byte	1,5,14,9
+	.half	.L40-.L169
+	.byte	3,5,1,5,10,9
+	.half	.L384-.L40
+	.byte	1,5,49,7,9
+	.half	.L385-.L384
+	.byte	3,8,1,5,29,9
+	.half	.L279-.L385
+	.byte	1,5,12,9
+	.half	.L386-.L279
+	.byte	1,5,23,9
+	.half	.L280-.L386
+	.byte	3,2,1,5,9,9
+	.half	.L282-.L280
+	.byte	3,1,1,5,16,9
+	.half	.L283-.L282
+	.byte	1,5,5,9
+	.half	.L387-.L283
+	.byte	1,5,13,7,9
+	.half	.L388-.L387
+	.byte	3,1,1,5,18,9
+	.half	.L45-.L388
+	.byte	3,2,1,5,16,9
+	.half	.L284-.L45
+	.byte	1,5,21,9
+	.half	.L389-.L284
+	.byte	3,1,1,5,16,9
+	.half	.L390-.L389
+	.byte	1,9
+	.half	.L391-.L390
+	.byte	3,1,1,5,15,9
+	.half	.L392-.L391
+	.byte	3,1,1,5,13,9
+	.half	.L393-.L392
+	.byte	3,1,1,5,23,9
+	.half	.L394-.L393
+	.byte	1,5,5,9
+	.half	.L395-.L394
+	.byte	1,5,22,7,9
+	.half	.L43-.L395
+	.byte	3,1,1,5,36,9
+	.half	.L285-.L43
+	.byte	1,5,3,9
+	.half	.L42-.L285
+	.byte	3,16,1,5,20,9
+	.half	.L396-.L42
+	.byte	1,5,18,9
+	.half	.L397-.L396
+	.byte	1,5,3,9
+	.half	.L398-.L397
+	.byte	3,2,1,9
+	.half	.L39-.L398
+	.byte	3,1,1,5,1,9
+	.half	.L286-.L39
+	.byte	3,1,1,7,9
+	.half	.L104-.L286
+	.byte	0,1,1
+.L358:
+	.sdecl	'.debug_ranges',debug,cluster('mem_trim')
+	.sect	'.debug_ranges'
+.L103:
+	.word	-1,.L86,0,.L104-.L86,0,0
+	.sdecl	'.debug_info',debug,cluster('mem_malloc')
+	.sect	'.debug_info'
+.L105:
+	.word	407
+	.half	3
+	.word	.L106
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\mem.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L108,.L107
+	.byte	2
+	.word	.L91
+	.byte	3
+	.byte	'mem_malloc',0,1,191,6,1
+	.word	.L153
+	.byte	1,1,1
+	.word	.L88,.L171,.L87
+	.byte	4
+	.byte	'size_in',0,1,191,6,23
+	.word	.L156,.L172
+	.byte	5
+	.word	.L88,.L171
+	.byte	6
+	.byte	'ptr',0,1,193,6,14
+	.word	.L156,.L173
+	.byte	6
+	.byte	'ptr2',0,1,193,6,19
+	.word	.L156,.L174
+	.byte	6
+	.byte	'size',0,1,193,6,25
+	.word	.L156,.L175
+	.byte	6
+	.byte	'mem',0,1,194,6,15
+	.word	.L151,.L176
+	.byte	6
+	.byte	'mem2',0,1,194,6,21
+	.word	.L151,.L177
+	.byte	6
+	.byte	'local_mem_free_count',0,1,196,6,8
+	.word	.L164,.L178
+	.byte	6
+	.byte	'lev_alloc',0,1,198,6,3
+	.word	.L164,.L179
+	.byte	5
+	.word	.L180,.L62
+	.byte	6
+	.byte	'cur',0,1,164,7,23
+	.word	.L151,.L181
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('mem_malloc')
+	.sect	'.debug_abbrev'
+.L106:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('mem_malloc')
+	.sect	'.debug_line'
+.L107:
+	.word	.L400-.L399
+.L399:
+	.half	3
+	.word	.L402-.L401
+.L401:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\mem.c',0,0,0,0,0
+.L402:
+	.byte	5,1,7,0,5,2
+	.word	.L88
+	.byte	3,190,6,1,5,3,9
+	.half	.L287-.L88
+	.byte	3,9,1,5,22,7,9
+	.half	.L403-.L287
+	.byte	3,6,1,5,12,9
+	.half	.L404-.L403
+	.byte	3,1,1,5,15,9
+	.half	.L289-.L404
+	.byte	3,7,1,5,7,9
+	.half	.L405-.L289
+	.byte	1,5,42,7,9
+	.half	.L406-.L405
+	.byte	1,5,3,7,9
+	.half	.L407-.L406
+	.byte	3,6,1,5,27,9
+	.half	.L291-.L407
+	.byte	3,10,1,5,7,9
+	.half	.L408-.L291
+	.byte	3,4,1,5,24,9
+	.half	.L409-.L408
+	.byte	1,5,11,9
+	.half	.L410-.L409
+	.byte	3,4,1,5,41,9
+	.half	.L411-.L410
+	.byte	3,120,1,5,26,9
+	.half	.L51-.L411
+	.byte	3,122,1,5,27,9
+	.half	.L292-.L51
+	.byte	3,6,1,5,14,9
+	.half	.L293-.L292
+	.byte	1,5,64,9
+	.half	.L294-.L293
+	.byte	1,5,24,9
+	.half	.L53-.L294
+	.byte	3,2,1,5,11,9
+	.half	.L296-.L53
+	.byte	1,5,22,9
+	.half	.L298-.L296
+	.byte	3,2,1,5,7,9
+	.half	.L412-.L298
+	.byte	3,1,1,9
+	.half	.L297-.L412
+	.byte	3,2,1,5,11,9
+	.half	.L301-.L297
+	.byte	3,1,1,5,7,9
+	.half	.L413-.L301
+	.byte	1,5,30,7,9
+	.half	.L414-.L413
+	.byte	3,3,1,5,9,9
+	.half	.L415-.L414
+	.byte	3,1,1,5,16,9
+	.half	.L54-.L415
+	.byte	3,4,1,5,13,9
+	.half	.L416-.L54
+	.byte	1,5,15,7,9
+	.half	.L417-.L416
+	.byte	3,1,1,5,51,9
+	.half	.L418-.L417
+	.byte	1,5,55,7,9
+	.half	.L419-.L418
+	.byte	3,4,1,5,9,9
+	.half	.L420-.L419
+	.byte	1,5,55,7,9
+	.half	.L421-.L420
+	.byte	3,11,1,5,35,9
+	.half	.L290-.L421
+	.byte	1,5,18,9
+	.half	.L422-.L290
+	.byte	1,5,29,9
+	.half	.L303-.L422
+	.byte	3,3,1,5,24,9
+	.half	.L305-.L303
+	.byte	3,1,1,5,22,9
+	.half	.L423-.L305
+	.byte	1,5,27,9
+	.half	.L424-.L423
+	.byte	3,1,1,5,22,9
+	.half	.L425-.L424
+	.byte	1,9
+	.half	.L426-.L425
+	.byte	3,1,1,5,21,9
+	.half	.L427-.L426
+	.byte	3,2,1,5,23,9
+	.half	.L428-.L427
+	.byte	3,1,1,5,21,9
+	.half	.L429-.L428
+	.byte	1,5,19,9
+	.half	.L430-.L429
+	.byte	3,2,1,5,29,9
+	.half	.L431-.L430
+	.byte	1,5,11,9
+	.half	.L432-.L431
+	.byte	1,5,28,7,9
+	.half	.L433-.L432
+	.byte	3,1,1,5,42,9
+	.half	.L306-.L433
+	.byte	1,5,11,9
+	.half	.L434-.L306
+	.byte	3,127,1,5,23,9
+	.half	.L58-.L434
+	.byte	3,12,1,5,21,9
+	.half	.L435-.L58
+	.byte	1,5,20,9
+	.half	.L61-.L435
+	.byte	3,6,1,5,9,9
+	.half	.L436-.L61
+	.byte	1,5,29,9
+	.half	.L180-.L436
+	.byte	3,1,1,5,13,9
+	.half	.L308-.L180
+	.byte	3,4,1,5,30,9
+	.half	.L437-.L308
+	.byte	1,5,17,9
+	.half	.L438-.L437
+	.byte	3,4,1,5,38,9
+	.half	.L439-.L438
+	.byte	3,122,1,5,45,9
+	.half	.L440-.L439
+	.byte	1,5,28,9
+	.half	.L64-.L440
+	.byte	3,2,1,5,13,9
+	.half	.L441-.L64
+	.byte	3,1,1,9
+	.half	.L311-.L441
+	.byte	3,2,1,5,17,9
+	.half	.L313-.L311
+	.byte	3,1,1,5,13,9
+	.half	.L442-.L313
+	.byte	1,5,33,7,9
+	.half	.L443-.L442
+	.byte	3,6,1,5,17,9
+	.half	.L309-.L443
+	.byte	1,5,21,9
+	.half	.L63-.L309
+	.byte	3,116,1,5,18,9
+	.half	.L444-.L63
+	.byte	1,5,38,7,9
+	.half	.L445-.L444
+	.byte	1,5,35,9
+	.half	.L446-.L445
+	.byte	1,5,11,7,9
+	.half	.L65-.L446
+	.byte	3,14,1,5,17,9
+	.half	.L447-.L65
+	.byte	1,5,11,9
+	.half	.L448-.L447
+	.byte	3,1,1,5,9,9
+	.half	.L62-.L448
+	.byte	3,2,1,5,28,9
+	.half	.L316-.L62
+	.byte	3,13,1,5,1,9
+	.half	.L449-.L316
+	.byte	3,12,1,5,27,7,9
+	.half	.L56-.L449
+	.byte	3,151,127,1,5,31,9
+	.half	.L319-.L56
+	.byte	1,5,58,9
+	.half	.L52-.L319
+	.byte	3,127,1,5,64,9
+	.half	.L450-.L52
+	.byte	1,5,38,7,9
+	.half	.L55-.L450
+	.byte	3,227,0,1,5,3,7,9
+	.half	.L451-.L55
+	.byte	3,3,1,5,10,9
+	.half	.L48-.L451
+	.byte	3,3,1,5,1,9
+	.half	.L452-.L48
+	.byte	3,1,1,7,9
+	.half	.L109-.L452
+	.byte	0,1,1
+.L400:
+	.sdecl	'.debug_ranges',debug,cluster('mem_malloc')
+	.sect	'.debug_ranges'
+.L108:
+	.word	-1,.L88,0,.L109-.L88,0,0
+	.sdecl	'.debug_info',debug,cluster('mem_calloc')
+	.sect	'.debug_info'
+.L110:
+	.word	290
+	.half	3
+	.word	.L111
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\mem.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L113,.L112
+	.byte	2
+	.word	.L91
+	.byte	3
+	.byte	'mem_calloc',0,1,231,7,1
+	.word	.L153
+	.byte	1,1,1
+	.word	.L90,.L182,.L89
+	.byte	4
+	.byte	'count',0,1,231,7,23
+	.word	.L156,.L183
+	.byte	4
+	.byte	'size',0,1,231,7,41
+	.word	.L156,.L184
+	.byte	5
+	.word	.L90,.L182
+	.byte	6
+	.byte	'p',0,1,233,7,9
+	.word	.L153,.L185
+	.byte	6
+	.byte	'alloc_size',0,1,234,7,10
+	.word	.L186,.L187
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('mem_calloc')
+	.sect	'.debug_abbrev'
+.L111:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('mem_calloc')
+	.sect	'.debug_line'
+.L112:
+	.word	.L454-.L453
+.L453:
+	.half	3
+	.word	.L456-.L455
+.L455:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\mem.c',0,0,0,0,0
+.L456:
+	.byte	5,37,7,0,5,2
+	.word	.L90
+	.byte	3,233,7,1,5,15,9
+	.half	.L323-.L90
+	.byte	3,2,1,5,3,9
+	.half	.L457-.L323
+	.byte	1,5,12,7,9
+	.half	.L458-.L457
+	.byte	3,2,1,5,1,9
+	.half	.L459-.L458
+	.byte	3,10,1,5,18,7,9
+	.half	.L69-.L459
+	.byte	3,122,1,5,5,9
+	.half	.L322-.L69
+	.byte	1,5,3,9
+	.half	.L325-.L322
+	.byte	3,1,1,5,15,7,9
+	.half	.L460-.L325
+	.byte	3,2,1,5,18,9
+	.half	.L461-.L460
+	.byte	1,5,3,9
+	.half	.L71-.L461
+	.byte	3,2,1,5,1,9
+	.half	.L327-.L71
+	.byte	3,1,1,7,9
+	.half	.L114-.L327
+	.byte	0,1,1
+.L454:
+	.sdecl	'.debug_ranges',debug,cluster('mem_calloc')
+	.sect	'.debug_ranges'
+.L113:
+	.word	-1,.L90,0,.L114-.L90,0,0
+	.sdecl	'.debug_info',debug,cluster('mem_free')
+	.sect	'.debug_info'
+.L115:
+	.word	397
+	.half	3
+	.word	.L116
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\mem.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L118,.L117
+	.byte	2
+	.word	.L91
+	.byte	3
+	.byte	'mem_free',0,1,233,4,1,1,1,1
+	.word	.L84,.L188,.L83
+	.byte	4
+	.byte	'rmem',0,1,233,4,16
+	.word	.L153,.L189
+	.byte	5
+	.word	.L84,.L188
+	.byte	6
+	.byte	'mem',0,1,235,4,15
+	.word	.L151,.L190
+	.byte	6
+	.byte	'lev_free',0,1,236,4,3
+	.word	.L164,.L191
+	.byte	5
+	.word	.L192,.L193
+	.byte	6
+	.byte	'old_level',0,1,246,4,5
+	.word	.L164,.L194
+	.byte	0,5
+	.word	.L24,.L195
+	.byte	6
+	.byte	'old_level',0,1,130,5,5
+	.word	.L164,.L196
+	.byte	0,5
+	.word	.L197,.L198
+	.byte	6
+	.byte	'old_level',0,1,144,5,5
+	.word	.L164,.L199
+	.byte	0,5
+	.word	.L200,.L201
+	.byte	6
+	.byte	'old_level',0,1,153,5,5
+	.word	.L164,.L202
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('mem_free')
+	.sect	'.debug_abbrev'
+.L116:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('mem_free')
+	.sect	'.debug_line'
+.L117:
+	.word	.L463-.L462
+.L462:
+	.half	3
+	.word	.L465-.L464
+.L464:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\mem.c',0,0,0,0,0
+.L465:
+	.byte	5,1,7,0,5,2
+	.word	.L84
+	.byte	3,232,4,1,5,3,9
+	.half	.L242-.L84
+	.byte	3,5,1,5,20,7,9
+	.half	.L466-.L242
+	.byte	3,4,1,5,26,9
+	.half	.L241-.L466
+	.byte	1,5,3,9
+	.half	.L243-.L241
+	.byte	1,5,5,7,9
+	.half	.L192-.L243
+	.byte	3,4,1,9
+	.half	.L193-.L192
+	.byte	3,1,1,5,1,9
+	.half	.L21-.L193
+	.byte	3,55,1,5,66,7,9
+	.half	.L22-.L21
+	.byte	3,78,1,5,15,9
+	.half	.L245-.L22
+	.byte	3,2,1,5,21,9
+	.half	.L246-.L245
+	.byte	1,5,7,9
+	.half	.L467-.L246
+	.byte	1,5,41,7,9
+	.half	.L468-.L467
+	.byte	1,5,70,9
+	.half	.L247-.L468
+	.byte	1,5,60,9
+	.half	.L469-.L247
+	.byte	1,5,5,7,9
+	.half	.L24-.L469
+	.byte	3,4,1,9
+	.half	.L195-.L24
+	.byte	3,1,1,5,3,9
+	.half	.L25-.L195
+	.byte	3,6,1,5,11,9
+	.half	.L251-.L25
+	.byte	3,2,1,5,8,9
+	.half	.L470-.L251
+	.byte	1,5,5,7,9
+	.half	.L471-.L470
+	.byte	3,2,1,9
+	.half	.L197-.L471
+	.byte	3,3,1,9
+	.half	.L198-.L197
+	.byte	3,1,1,5,23,9
+	.half	.L27-.L198
+	.byte	3,3,1,5,8,9
+	.half	.L253-.L27
+	.byte	1,5,5,7,9
+	.half	.L472-.L253
+	.byte	3,2,1,9
+	.half	.L200-.L472
+	.byte	3,3,1,9
+	.half	.L201-.L200
+	.byte	3,1,1,5,15,9
+	.half	.L29-.L201
+	.byte	3,4,1,5,13,9
+	.half	.L473-.L29
+	.byte	1,5,7,9
+	.half	.L474-.L473
+	.byte	3,2,1,5,13,9
+	.half	.L257-.L474
+	.byte	1,5,3,9
+	.half	.L475-.L257
+	.byte	1,5,11,7,9
+	.half	.L476-.L475
+	.byte	3,2,1,5,14,9
+	.half	.L31-.L476
+	.byte	3,6,1,5,3,9
+	.half	.L259-.L31
+	.byte	3,3,1,5,20,9
+	.half	.L477-.L259
+	.byte	1,5,18,9
+	.half	.L478-.L477
+	.byte	1,5,3,9
+	.half	.L479-.L478
+	.byte	3,2,1,5,1,9
+	.half	.L119-.L479
+	.byte	3,1,0,1,1
+.L463:
+	.sdecl	'.debug_ranges',debug,cluster('mem_free')
+	.sect	'.debug_ranges'
+.L118:
+	.word	-1,.L84,0,.L119-.L84,0,0
+	.sdecl	'.debug_info',debug,cluster('ptr_to_mem')
+	.sect	'.debug_info'
+.L120:
+	.word	229
+	.half	3
+	.word	.L121
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\mem.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L123,.L122
+	.byte	2
+	.word	.L91
+	.byte	3
+	.byte	'ptr_to_mem',0,1,195,3,1
+	.word	.L151
+	.byte	1,1
+	.word	.L74,.L203,.L73
+	.byte	4
+	.byte	'ptr',0,1,195,3,23
+	.word	.L156,.L204
+	.byte	5
+	.word	.L74,.L203
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ptr_to_mem')
+	.sect	'.debug_abbrev'
+.L121:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ptr_to_mem')
+	.sect	'.debug_line'
+.L122:
+	.word	.L481-.L480
+.L480:
+	.half	3
+	.word	.L483-.L482
+.L482:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\mem.c',0,0,0,0,0
+.L483:
+	.byte	5,33,7,0,5,2
+	.word	.L74
+	.byte	3,196,3,1,5,36,9
+	.half	.L484-.L74
+	.byte	1,5,1,9
+	.half	.L485-.L484
+	.byte	3,1,1,7,9
+	.half	.L124-.L485
+	.byte	0,1,1
+.L481:
+	.sdecl	'.debug_ranges',debug,cluster('ptr_to_mem')
+	.sect	'.debug_ranges'
+.L123:
+	.word	-1,.L74,0,.L124-.L74,0,0
+	.sdecl	'.debug_info',debug,cluster('mem_to_ptr')
+	.sect	'.debug_info'
+.L125:
+	.word	229
+	.half	3
+	.word	.L126
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\mem.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L128,.L127
+	.byte	2
+	.word	.L91
+	.byte	3
+	.byte	'mem_to_ptr',0,1,201,3,1
+	.word	.L156
+	.byte	1,1
+	.word	.L76,.L205,.L75
+	.byte	4
+	.byte	'mem',0,1,201,3,18
+	.word	.L153,.L206
+	.byte	5
+	.word	.L76,.L205
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('mem_to_ptr')
+	.sect	'.debug_abbrev'
+.L126:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('mem_to_ptr')
+	.sect	'.debug_line'
+.L127:
+	.word	.L487-.L486
+.L486:
+	.half	3
+	.word	.L489-.L488
+.L488:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\mem.c',0,0,0,0,0
+.L489:
+	.byte	5,37,7,0,5,2
+	.word	.L76
+	.byte	3,202,3,1,5,35,9
+	.half	.L490-.L76
+	.byte	1,5,10,9
+	.half	.L491-.L490
+	.byte	1,5,1,9
+	.half	.L492-.L491
+	.byte	3,1,1,7,9
+	.half	.L129-.L492
+	.byte	0,1,1
+.L487:
+	.sdecl	'.debug_ranges',debug,cluster('mem_to_ptr')
+	.sect	'.debug_ranges'
+.L128:
+	.word	-1,.L76,0,.L129-.L76,0,0
+	.sdecl	'.debug_info',debug,cluster('plug_holes')
+	.sect	'.debug_info'
+.L130:
+	.word	262
+	.half	3
+	.word	.L131
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\mem.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L133,.L132
+	.byte	2
+	.word	.L91
+	.byte	3
+	.byte	'plug_holes',0,1,218,3,1,1,1
+	.word	.L78,.L207,.L77
+	.byte	4
+	.byte	'mem',0,1,218,3,24
+	.word	.L151,.L208
+	.byte	5
+	.word	.L78,.L207
+	.byte	6
+	.byte	'nmem',0,1,220,3,15
+	.word	.L151,.L209
+	.byte	6
+	.byte	'pmem',0,1,221,3,15
+	.word	.L151,.L210
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('plug_holes')
+	.sect	'.debug_abbrev'
+.L131:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3,8,58
+	.byte	15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('plug_holes')
+	.sect	'.debug_line'
+.L132:
+	.word	.L494-.L493
+.L493:
+	.half	3
+	.word	.L496-.L495
+.L495:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\mem.c',0,0,0,0,0
+.L496:
+	.byte	5,1,7,0,5,2
+	.word	.L78
+	.byte	3,217,3,1,5,24,9
+	.half	.L222-.L78
+	.byte	3,12,1,5,7,9
+	.half	.L221-.L222
+	.byte	3,1,1,5,26,7,9
+	.half	.L497-.L221
+	.byte	1,5,33,9
+	.half	.L498-.L497
+	.byte	1,5,65,7,9
+	.half	.L499-.L498
+	.byte	1,5,54,9
+	.half	.L500-.L499
+	.byte	1,5,9,7,9
+	.half	.L501-.L500
+	.byte	3,2,1,5,5,9
+	.half	.L502-.L501
+	.byte	1,5,13,7,9
+	.half	.L503-.L502
+	.byte	3,1,1,5,21,9
+	.half	.L7-.L503
+	.byte	3,2,1,5,15,9
+	.half	.L504-.L7
+	.byte	1,5,13,9
+	.half	.L505-.L504
+	.byte	3,1,1,5,23,9
+	.half	.L506-.L505
+	.byte	1,5,5,9
+	.half	.L507-.L506
+	.byte	1,5,22,7,9
+	.half	.L508-.L507
+	.byte	3,1,1,5,29,9
+	.half	.L224-.L508
+	.byte	1,5,36,9
+	.half	.L509-.L224
+	.byte	1,5,49,9
+	.half	.L510-.L509
+	.byte	1,5,36,9
+	.half	.L226-.L510
+	.byte	1,5,24,9
+	.half	.L4-.L226
+	.byte	3,5,1,5,8,9
+	.half	.L227-.L4
+	.byte	1,5,7,9
+	.half	.L229-.L227
+	.byte	3,1,1,5,26,7,9
+	.half	.L511-.L229
+	.byte	1,5,33,9
+	.half	.L512-.L511
+	.byte	1,5,9,7,9
+	.half	.L513-.L512
+	.byte	3,2,1,5,5,9
+	.half	.L514-.L513
+	.byte	1,5,13,7,9
+	.half	.L515-.L514
+	.byte	3,1,1,5,21,9
+	.half	.L11-.L515
+	.byte	3,2,1,5,16,9
+	.half	.L516-.L11
+	.byte	1,5,12,9
+	.half	.L517-.L516
+	.byte	3,1,1,5,22,9
+	.half	.L518-.L517
+	.byte	1,5,5,9
+	.half	.L519-.L518
+	.byte	1,5,21,7,9
+	.half	.L520-.L519
+	.byte	3,1,1,5,28,9
+	.half	.L521-.L520
+	.byte	1,5,35,9
+	.half	.L522-.L521
+	.byte	1,5,48,9
+	.half	.L223-.L522
+	.byte	1,5,35,9
+	.half	.L231-.L223
+	.byte	1,5,1,9
+	.half	.L9-.L231
+	.byte	3,3,1,7,9
+	.half	.L134-.L9
+	.byte	0,1,1
+.L494:
+	.sdecl	'.debug_ranges',debug,cluster('plug_holes')
+	.sect	'.debug_ranges'
+.L133:
+	.word	-1,.L78,0,.L134-.L78,0,0
+	.sdecl	'.debug_info',debug,cluster('mem_link_valid')
+	.sect	'.debug_info'
+.L135:
+	.word	292
+	.half	3
+	.word	.L136
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\mem.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L138,.L137
+	.byte	2
+	.word	.L91
+	.byte	3
+	.byte	'mem_link_valid',0,1,167,4,1
+	.word	.L211
+	.byte	1,1
+	.word	.L82,.L212,.L81
+	.byte	4
+	.byte	'mem',0,1,167,4,28
+	.word	.L151,.L213
+	.byte	5
+	.word	.L82,.L212
+	.byte	6
+	.byte	'nmem',0,1,169,4,15
+	.word	.L151,.L214
+	.byte	6
+	.byte	'pmem',0,1,169,4,22
+	.word	.L151,.L215
+	.byte	6
+	.byte	'rmem_idx',0,1,170,4,14
+	.word	.L156,.L216
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('mem_link_valid')
+	.sect	'.debug_abbrev'
+.L136:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('mem_link_valid')
+	.sect	'.debug_line'
+.L137:
+	.word	.L524-.L523
+.L523:
+	.half	3
+	.word	.L526-.L525
+.L525:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\mem.c',0,0,0,0,0
+.L526:
+	.byte	5,1,7,0,5,2
+	.word	.L82
+	.byte	3,166,4,1,5,25,9
+	.half	.L235-.L82
+	.byte	3,4,1,5,12,9
+	.half	.L234-.L235
+	.byte	1,5,24,9
+	.half	.L238-.L234
+	.byte	3,1,1,5,8,9
+	.half	.L237-.L238
+	.byte	1,5,24,9
+	.half	.L240-.L237
+	.byte	3,1,1,5,11,9
+	.half	.L239-.L240
+	.byte	3,1,1,5,20,9
+	.half	.L527-.L239
+	.byte	1,5,7,9
+	.half	.L528-.L527
+	.byte	1,5,45,7,9
+	.half	.L529-.L528
+	.byte	1,5,52,9
+	.half	.L530-.L529
+	.byte	1,5,8,7,9
+	.half	.L531-.L530
+	.byte	3,1,1,5,40,7,9
+	.half	.L532-.L531
+	.byte	1,5,47,9
+	.half	.L533-.L532
+	.byte	1,5,17,7,9
+	.half	.L15-.L533
+	.byte	3,1,1,5,8,9
+	.half	.L534-.L15
+	.byte	1,5,34,7,9
+	.half	.L535-.L534
+	.byte	1,5,41,9
+	.half	.L536-.L535
+	.byte	1,5,12,7,9
+	.half	.L13-.L536
+	.byte	3,1,1,5,1,9
+	.half	.L537-.L13
+	.byte	3,3,1,5,10,7,9
+	.half	.L17-.L537
+	.byte	3,127,1,5,1,9
+	.half	.L538-.L17
+	.byte	3,1,1,7,9
+	.half	.L139-.L538
+	.byte	0,1,1
+.L524:
+	.sdecl	'.debug_ranges',debug,cluster('mem_link_valid')
+	.sect	'.debug_ranges'
+.L138:
+	.word	-1,.L82,0,.L139-.L82,0,0
+	.sdecl	'.debug_info',debug,cluster('ram_heap')
+	.sect	'.debug_info'
+.L140:
+	.word	185
+	.half	3
+	.word	.L141
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\mem.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1,2
+	.word	.L91
+	.byte	3
+	.byte	'ram_heap',0,1,251,2,1
+	.word	.L217
+	.byte	1,5,3
+	.word	ram_heap
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('ram_heap')
+	.sect	'.debug_abbrev'
+.L141:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('ram')
+	.sect	'.debug_info'
+.L142:
+	.word	179
+	.half	3
+	.word	.L143
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\mem.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1,2
+	.word	.L91
+	.byte	3
+	.byte	'ram',0,1,128,3,14
+	.word	.L218
+	.byte	5,3
+	.word	ram
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('ram')
+	.sect	'.debug_abbrev'
+.L143:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('ram_end')
+	.sect	'.debug_info'
+.L144:
+	.word	183
+	.half	3
+	.word	.L145
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\mem.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1,2
+	.word	.L91
+	.byte	3
+	.byte	'ram_end',0,1,130,3,20
+	.word	.L151
+	.byte	5,3
+	.word	ram_end
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('ram_end')
+	.sect	'.debug_abbrev'
+.L145:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('mem_free_count')
+	.sect	'.debug_info'
+.L146:
+	.word	190
+	.half	3
+	.word	.L147
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\mem.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1,2
+	.word	.L91
+	.byte	3
+	.byte	'mem_free_count',0,1,139,3,22
+	.word	.L219
+	.byte	5,3
+	.word	mem_free_count
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('mem_free_count')
+	.sect	'.debug_abbrev'
+.L147:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('lfree')
+	.sect	'.debug_info'
+.L148:
+	.word	181
+	.half	3
+	.word	.L149
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\mem.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1,2
+	.word	.L91
+	.byte	3
+	.byte	'lfree',0,1,165,3,45
+	.word	.L220
+	.byte	5,3
+	.word	lfree
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('lfree')
+	.sect	'.debug_abbrev'
+.L149:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_loc',debug,cluster('mem_calloc')
+	.sect	'.debug_loc'
+.L187:
+	.word	-1,.L90,.L323-.L90,.L182-.L90
+	.half	1
+	.byte	88
+	.word	.L326-.L90,.L71-.L90
+	.half	1
+	.byte	85
+	.word	0,0
+.L183:
+	.word	-1,.L90,0,.L321-.L90
+	.half	1
+	.byte	84
+	.word	0,0
+.L89:
+	.word	-1,.L90,0,.L182-.L90
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L185:
+	.word	-1,.L90,.L322-.L90,.L324-.L90
+	.half	1
+	.byte	98
+	.word	.L325-.L90,.L182-.L90
+	.half	1
+	.byte	111
+	.word	.L324-.L90,.L71-.L90
+	.half	1
+	.byte	100
+	.word	.L327-.L90,.L182-.L90
+	.half	1
+	.byte	98
+	.word	0,0
+.L184:
+	.word	-1,.L90,0,.L322-.L90
+	.half	1
+	.byte	85
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('mem_free')
+	.sect	'.debug_loc'
+.L191:
+	.word	-1,.L84,.L249-.L84,.L250-.L84
+	.half	1
+	.byte	82
+	.word	.L251-.L84,.L30-.L84
+	.half	1
+	.byte	88
+	.word	.L250-.L84,.L197-.L84
+	.half	1
+	.byte	84
+	.word	.L27-.L84,.L253-.L84
+	.half	1
+	.byte	82
+	.word	.L255-.L84,.L200-.L84
+	.half	1
+	.byte	84
+	.word	.L30-.L84,.L188-.L84
+	.half	1
+	.byte	84
+	.word	0,0
+.L190:
+	.word	-1,.L84,.L245-.L84,.L30-.L84
+	.half	1
+	.byte	109
+	.word	.L246-.L84,.L247-.L84
+	.half	1
+	.byte	95
+	.word	.L254-.L84,.L253-.L84
+	.half	1
+	.byte	100
+	.word	.L257-.L84,.L258-.L84
+	.half	1
+	.byte	95
+	.word	.L258-.L84,.L259-.L84
+	.half	1
+	.byte	100
+	.word	0,0
+.L83:
+	.word	-1,.L84,0,.L188-.L84
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L194:
+	.word	-1,.L84,.L244-.L84,.L21-.L84
+	.half	1
+	.byte	82
+	.word	.L193-.L84,.L21-.L84
+	.half	1
+	.byte	84
+	.word	0,0
+.L196:
+	.word	-1,.L84,.L248-.L84,.L25-.L84
+	.half	1
+	.byte	82
+	.word	.L195-.L84,.L25-.L84
+	.half	1
+	.byte	84
+	.word	0,0
+.L199:
+	.word	-1,.L84,.L252-.L84,.L198-.L84
+	.half	1
+	.byte	82
+	.word	.L198-.L84,.L27-.L84
+	.half	1
+	.byte	84
+	.word	0,0
+.L202:
+	.word	-1,.L84,.L256-.L84,.L201-.L84
+	.half	1
+	.byte	82
+	.word	.L201-.L84,.L29-.L84
+	.half	1
+	.byte	84
+	.word	0,0
+.L189:
+	.word	-1,.L84,0,.L241-.L84
+	.half	1
+	.byte	100
+	.word	.L242-.L84,.L188-.L84
+	.half	1
+	.byte	108
+	.word	.L241-.L84,.L243-.L84
+	.half	1
+	.byte	95
+	.word	.L21-.L84,.L22-.L84
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('mem_init')
+	.sect	'.debug_loc'
+.L152:
+	.word	-1,.L80,.L232-.L80,.L233-.L80
+	.half	1
+	.byte	111
+	.word	0,0
+.L79:
+	.word	-1,.L80,0,.L150-.L80
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('mem_link_valid')
+	.sect	'.debug_loc'
+.L213:
+	.word	-1,.L82,0,.L234-.L82
+	.half	1
+	.byte	100
+	.word	.L235-.L82,.L236-.L82
+	.half	1
+	.byte	111
+	.word	0,0
+.L81:
+	.word	-1,.L82,0,.L212-.L82
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L214:
+	.word	-1,.L82,.L237-.L82,.L239-.L82
+	.half	1
+	.byte	98
+	.word	.L240-.L82,.L212-.L82
+	.half	1
+	.byte	108
+	.word	0,0
+.L215:
+	.word	-1,.L82,.L239-.L82,.L212-.L82
+	.half	1
+	.byte	98
+	.word	0,0
+.L216:
+	.word	-1,.L82,.L234-.L82,.L237-.L82
+	.half	1
+	.byte	82
+	.word	.L238-.L82,.L212-.L82
+	.half	1
+	.byte	88
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('mem_malloc')
+	.sect	'.debug_loc'
+.L181:
+	.word	-1,.L88,.L308-.L88,.L309-.L88
+	.half	1
+	.byte	111
+	.word	.L309-.L88,.L63-.L88
+	.half	1
+	.byte	98
+	.word	.L63-.L88,.L314-.L88
+	.half	1
+	.byte	111
+	.word	0,0
+.L179:
+	.word	-1,.L88,.L288-.L88,.L51-.L88
+	.half	1
+	.byte	82
+	.word	.L291-.L88,.L48-.L88
+	.half	1
+	.byte	88
+	.word	.L299-.L88,.L297-.L88
+	.half	1
+	.byte	84
+	.word	.L300-.L88,.L301-.L88
+	.half	1
+	.byte	82
+	.word	.L310-.L88,.L311-.L88
+	.half	1
+	.byte	84
+	.word	.L312-.L88,.L313-.L88
+	.half	1
+	.byte	82
+	.word	.L315-.L88,.L316-.L88
+	.half	1
+	.byte	84
+	.word	.L320-.L88,.L48-.L88
+	.half	1
+	.byte	84
+	.word	0,0
+.L178:
+	.word	-1,.L88,.L292-.L88,.L48-.L88
+	.half	1
+	.byte	92
+	.word	0,0
+.L176:
+	.word	-1,.L88,.L296-.L88,.L297-.L88
+	.half	1
+	.byte	98
+	.word	.L298-.L88,.L52-.L88
+	.half	2
+	.byte	145,120
+	.word	.L302-.L88,.L61-.L88
+	.half	1
+	.byte	111
+	.word	.L307-.L88,.L64-.L88
+	.half	1
+	.byte	100
+	.word	.L317-.L88,.L52-.L88
+	.half	1
+	.byte	111
+	.word	0,0
+.L177:
+	.word	-1,.L88,.L305-.L88,.L306-.L88
+	.half	1
+	.byte	98
+	.word	0,0
+.L87:
+	.word	-1,.L88,0,.L287-.L88
+	.half	2
+	.byte	138,0
+	.word	.L287-.L88,.L57-.L88
+	.half	2
+	.byte	138,8
+	.word	.L57-.L88,.L57-.L88
+	.half	2
+	.byte	138,0
+	.word	.L57-.L88,.L171-.L88
+	.half	2
+	.byte	138,8
+	.word	.L171-.L88,.L171-.L88
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L173:
+	.word	-1,.L88,.L293-.L88,.L53-.L88
+	.half	1
+	.byte	82
+	.word	.L294-.L88,.L48-.L88
+	.half	1
+	.byte	93
+	.word	.L295-.L88,.L296-.L88
+	.half	1
+	.byte	84
+	.word	.L318-.L88,.L319-.L88
+	.half	1
+	.byte	84
+	.word	0,0
+.L174:
+	.word	-1,.L88,.L303-.L88,.L58-.L88
+	.half	1
+	.byte	89
+	.word	.L304-.L88,.L305-.L88
+	.half	1
+	.byte	84
+	.word	0,0
+.L175:
+	.word	-1,.L88,.L289-.L88,.L290-.L88
+	.half	1
+	.byte	91
+	.word	.L58-.L88,.L61-.L88
+	.half	1
+	.byte	91
+	.word	.L56-.L88,.L48-.L88
+	.half	1
+	.byte	91
+	.word	0,0
+.L172:
+	.word	-1,.L88,0,.L288-.L88
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('mem_to_ptr')
+	.sect	'.debug_loc'
+.L206:
+	.word	-1,.L76,0,.L205-.L76
+	.half	1
+	.byte	100
+	.word	0,0
+.L75:
+	.word	-1,.L76,0,.L205-.L76
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('mem_trim')
+	.sect	'.debug_loc'
+.L165:
+	.word	-1,.L86,.L270-.L86,.L272-.L86
+	.half	1
+	.byte	82
+	.word	.L273-.L86,.L36-.L86
+	.half	1
+	.byte	91
+	.word	.L36-.L86,.L39-.L86
+	.half	1
+	.byte	84
+	.word	0,0
+.L162:
+	.word	-1,.L86,.L266-.L86,.L32-.L86
+	.half	1
+	.byte	109
+	.word	.L267-.L86,.L265-.L86
+	.half	1
+	.byte	100
+	.word	.L37-.L86,.L36-.L86
+	.half	1
+	.byte	109
+	.word	0,0
+.L163:
+	.word	-1,.L86,.L272-.L86,.L274-.L86
+	.half	1
+	.byte	98
+	.word	.L278-.L86,.L43-.L86
+	.half	1
+	.byte	98
+	.word	.L283-.L86,.L284-.L86
+	.half	1
+	.byte	95
+	.word	0,0
+.L85:
+	.word	-1,.L86,0,.L154-.L86
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L157:
+	.word	-1,.L86,0,.L260-.L86
+	.half	1
+	.byte	84
+	.word	.L35-.L86,.L265-.L86
+	.half	1
+	.byte	84
+	.word	0,0
+.L159:
+	.word	-1,.L86,.L263-.L86,.L264-.L86
+	.half	1
+	.byte	88
+	.word	.L40-.L86,.L279-.L86
+	.half	1
+	.byte	88
+	.word	0,0
+.L170:
+	.word	-1,.L86,.L271-.L86,.L40-.L86
+	.half	1
+	.byte	89
+	.word	0,0
+.L167:
+	.word	-1,.L86,.L260-.L86,.L35-.L86
+	.half	1
+	.byte	82
+	.word	.L166-.L86,.L35-.L86
+	.half	1
+	.byte	84
+	.word	0,0
+.L160:
+	.word	-1,.L86,.L265-.L86,.L32-.L86
+	.half	1
+	.byte	82
+	.word	.L268-.L86,.L32-.L86
+	.half	1
+	.byte	90
+	.word	.L37-.L86,.L36-.L86
+	.half	1
+	.byte	90
+	.word	.L37-.L86,.L270-.L86
+	.half	1
+	.byte	82
+	.word	0,0
+.L161:
+	.word	-1,.L86,.L275-.L86,.L40-.L86
+	.half	1
+	.byte	88
+	.word	.L276-.L86,.L274-.L86
+	.half	1
+	.byte	84
+	.word	.L277-.L86,.L278-.L86
+	.half	1
+	.byte	84
+	.word	.L280-.L86,.L43-.L86
+	.half	1
+	.byte	88
+	.word	.L281-.L86,.L282-.L86
+	.half	1
+	.byte	84
+	.word	.L285-.L86,.L42-.L86
+	.half	1
+	.byte	88
+	.word	0,0
+.L155:
+	.word	-1,.L86,0,.L261-.L86
+	.half	1
+	.byte	100
+	.word	.L262-.L86,.L154-.L86
+	.half	1
+	.byte	108
+	.word	.L261-.L86,.L260-.L86
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L35-.L86,.L265-.L86
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L286-.L86,.L154-.L86
+	.half	1
+	.byte	98
+	.word	0,0
+.L158:
+	.word	-1,.L86,.L269-.L86,.L32-.L86
+	.half	1
+	.byte	89
+	.word	.L37-.L86,.L271-.L86
+	.half	1
+	.byte	89
+	.word	.L40-.L86,.L43-.L86
+	.half	1
+	.byte	89
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('plug_holes')
+	.sect	'.debug_loc'
+.L208:
+	.word	-1,.L78,0,.L221-.L78
+	.half	1
+	.byte	100
+	.word	.L222-.L78,.L223-.L78
+	.half	1
+	.byte	108
+	.word	.L225-.L78,.L226-.L78
+	.half	1
+	.byte	100
+	.word	0,0
+.L209:
+	.word	-1,.L78,.L221-.L78,.L224-.L78
+	.half	1
+	.byte	98
+	.word	0,0
+.L77:
+	.word	-1,.L78,0,.L207-.L78
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L210:
+	.word	-1,.L78,.L227-.L78,.L228-.L78
+	.half	1
+	.byte	98
+	.word	.L229-.L78,.L207-.L78
+	.half	1
+	.byte	111
+	.word	.L230-.L78,.L231-.L78
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ptr_to_mem')
+	.sect	'.debug_loc'
+.L204:
+	.word	-1,.L74,0,.L203-.L74
+	.half	1
+	.byte	84
+	.word	0,0
+.L73:
+	.word	-1,.L74,0,.L203-.L74
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L539:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('ptr_to_mem')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L539,.L74,.L203-.L74
+	.byte	8,19,8,20,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('mem_to_ptr')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L539,.L76,.L205-.L76
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('plug_holes')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L539,.L78,.L207-.L78
+	.sdecl	'.debug_frame',debug,cluster('mem_init')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L539,.L80,.L150-.L80
+	.sdecl	'.debug_frame',debug,cluster('mem_link_valid')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L539,.L82,.L212-.L82
+	.sdecl	'.debug_frame',debug,cluster('mem_free')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L539,.L84,.L188-.L84
+	.sdecl	'.debug_frame',debug,cluster('mem_trim')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L539,.L86,.L154-.L86
+	.sdecl	'.debug_frame',debug,cluster('mem_malloc')
+	.sect	'.debug_frame'
+	.word	52
+	.word	.L539,.L88,.L171-.L88
+	.byte	4
+	.word	(.L287-.L88)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L57-.L287)/2
+	.byte	19,0,8,26,19,8,22,26,3,19,138,8,4
+	.word	(.L171-.L57)/2
+	.byte	19,0,8,26,0
+	.sdecl	'.debug_frame',debug,cluster('mem_calloc')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L539,.L90,.L182-.L90
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\mem.c	  1017  #endif /* MEM_LIBC_MALLOC && (!LWIP_STATS || !MEM_STATS) */
+
+	; Module end

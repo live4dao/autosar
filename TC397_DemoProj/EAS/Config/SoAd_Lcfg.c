@@ -1,0 +1,2367 @@
+/*  BEGIN_FILE_HDR
+********************************************************************************
+*   File Name       : SoAd_Lcfg.c
+********************************************************************************
+*   Project/Product : AUTOSAR BSW PROJECT
+*   Title           : SoAd module configuration File
+*   Author          : Hirain
+********************************************************************************
+*   Description     : SoAd module configuration File
+*
+********************************************************************************
+*   Limitations     : None
+*
+********************************************************************************
+*
+********************************************************************************
+*   Revision History:
+*
+*   Version     Date          Initials      CR#          Descriptions
+*   ---------   ----------    ------------  ----------   ---------------
+*   V1.0.2_3.5.5_AZ240046       09/05/2024    Eas           N/A          N/A
+*
+********************************************************************************
+* END_FILE_HDR*/
+
+/*******************************************************************************
+*   Includes
+*******************************************************************************/
+#include "SoAd_Cfg.h"
+#include "SoAd_Types.h"
+#include "PduR_Cfg.h"
+#include "DoIP.h"
+#include "UdpNm_Cfg.h"
+#include "Xcp_Cfg.h"
+
+#define SOAD_START_SEC_VAR_NOINIT_8
+#include "MemMap.h"
+
+/*SoAd Module Configurations*/
+
+VAR(SoAd_SoConIdType, SOAD_VAR) SoAd_SharedSocketIdList[21];
+
+VAR(TcpIp_IpAddrStateType, SOAD_VAR) SoAd_LocalIpStateList[1];
+
+VAR(SoAd_IfTxUnconfirmedType, SOAD_VAR) SoAd_IfTxUnconfirmList[15];
+
+VAR(uint8, SOAD_VAR) SoAd_Buffer[41175];
+
+
+#define SOAD_STOP_SEC_VAR_NOINIT_8
+#include "MemMap.h"
+
+
+#define SOAD_START_SEC_VAR_UNSPECIFIED
+#include "MemMap.h"
+/* SoAdPduRouteDest */
+VAR(SoAd_RoutingGroupCtrlType, SOAD_CONST) SoAd_PduRouteDest_RoutingGroupCtrlList[4] = 
+{
+    {
+            {0x01},
+            {0x0}
+    },
+    {
+            {0x01},
+            {0x0}
+    },
+    {
+            {0x01},
+            {0x0}
+    },
+    {
+            {0x01},
+            {0x0}
+    }
+};
+/* SoAdSocketRoute */
+VAR(SoAd_RoutingGroupCtrlType, SOAD_CONST) SoAd_SocketRoute_RoutingGroupCtrlList[4]  = 
+{
+    {
+            {0x01},
+            {0x0}
+    },
+    {
+            {0x01},
+            {0x0}
+    },
+    {
+            {0x01},
+            {0x0}
+    },
+    {
+            {0x01},
+            {0x0}
+    },
+};
+
+#define SOAD_STOP_SEC_VAR_UNSPECIFIED
+#include "MemMap.h"
+
+
+#define SOAD_START_SEC_CONFIG_DATA_UNSPECIFIED
+#include "MemMap.h"
+
+
+VAR(SoAd_ConnectionType, SOAD_VAR) SoAd_Connections[SOAD_SOCON_MAX];
+
+/* SoAdSocketConnection */
+CONST(SoAd_PduRouteDestIdType, SOAD_CONST) SoCon_DoIP_UDP_PduRouteDestList[1] = 
+{
+    0
+};
+CONST(SoAd_PduRouteDestIdType, SOAD_CONST) SoCon_DoIP_UDP_PduRouteList[1] = 
+{
+    0
+};
+CONST(SoAd_SocketRouteIdType, SOAD_CONST) SoCon_DoIP_UDP_SocketRouteList[1] = 
+{
+    0
+};
+CONST(SoAd_ULIndexType, SOAD_CONFIG_DATA) SoConGroup_DoIP_UDP_SoConModeChgList[2] = 
+{
+    SOAD_UL_DOIP,
+    SOAD_UL_MAX
+};
+
+CONST(SoAd_PduRouteDestIdType, SOAD_CONST) SoCon_DoIP_TCP0_PduRouteDestList[1] = 
+{
+    1
+};
+CONST(SoAd_PduRouteDestIdType, SOAD_CONST) SoCon_DoIP_TCP0_PduRouteList[1] = 
+{
+    1
+};
+CONST(SoAd_SocketRouteIdType, SOAD_CONST) SoCon_DoIP_TCP0_SocketRouteList[1] = 
+{
+    1
+};
+CONST(SoAd_ULIndexType, SOAD_CONFIG_DATA) SoConGroup_DoIP_TCP_SoConModeChgList[2] = 
+{
+    SOAD_UL_DOIP,
+    SOAD_UL_MAX
+};
+
+CONST(SoAd_PduRouteDestIdType, SOAD_CONST) SoCon_DoIP_TCP1_PduRouteDestList[1] = 
+{
+    2
+};
+CONST(SoAd_PduRouteDestIdType, SOAD_CONST) SoCon_DoIP_TCP1_PduRouteList[1] = 
+{
+    2
+};
+CONST(SoAd_SocketRouteIdType, SOAD_CONST) SoCon_DoIP_TCP1_SocketRouteList[1] = 
+{
+    2
+};
+CONST(SoAd_PduRouteDestIdType, SOAD_CONST) SoCon_DoIP_TCP2_PduRouteDestList[1] = 
+{
+    3
+};
+CONST(SoAd_PduRouteDestIdType, SOAD_CONST) SoCon_DoIP_TCP2_PduRouteList[1] = 
+{
+    3
+};
+CONST(SoAd_SocketRouteIdType, SOAD_CONST) SoCon_DoIP_TCP2_SocketRouteList[1] = 
+{
+    3
+};
+CONST(SoAd_PduRouteDestIdType, SOAD_CONST) SoCon_Xcp_PduRouteDestList[1] = 
+{
+    6
+};
+CONST(SoAd_PduRouteDestIdType, SOAD_CONST) SoCon_Xcp_PduRouteList[1] = 
+{
+    6
+};
+CONST(SoAd_SocketRouteIdType, SOAD_CONST) SoCon_Xcp_SocketRouteList[1] = 
+{
+    6
+};
+CONST(SoAd_PduRouteDestIdType, SOAD_CONST) SoCon_UdpNm_PduRouteDestList[1] = 
+{
+    7
+};
+CONST(SoAd_PduRouteDestIdType, SOAD_CONST) SoCon_UdpNm_PduRouteList[1] = 
+{
+    7
+};
+CONST(SoAd_SocketRouteIdType, SOAD_CONST) SoCon_UdpNm_SocketRouteList[1] = 
+{
+    7
+};
+CONST(SoAd_PduRouteDestIdType, SOAD_CONST) TCP_SoCon_PduRouteDestList[1] = 
+{
+    4
+};
+CONST(SoAd_PduRouteDestIdType, SOAD_CONST) TCP_SoCon_PduRouteList[1] = 
+{
+    4
+};
+CONST(SoAd_SocketRouteIdType, SOAD_CONST) TCP_SoCon_SocketRouteList[1] = 
+{
+    4
+};
+CONST(SoAd_PduRouteDestIdType, SOAD_CONST) UDP_SoCon_PduRouteDestList[1] = 
+{
+    5
+};
+CONST(SoAd_PduRouteDestIdType, SOAD_CONST) UDP_SoCon_PduRouteList[1] = 
+{
+    5
+};
+CONST(SoAd_SocketRouteIdType, SOAD_CONST) UDP_SoCon_SocketRouteList[1] = 
+{
+    5
+};
+CONST(SoAd_SocketRouteIdType, SOAD_CONST) TCP_SoCon_1601_SocketRouteList[1] = 
+{
+    8
+};
+CONST(SoAd_SocketRouteIdType, SOAD_CONST) TCP_SoCon_1602_SocketRouteList[1] = 
+{
+    9
+};
+CONST(SoAd_PduRouteDestIdType, SOAD_CONST) UDP_SoCon_1501_PduRouteDestList[1] = 
+{
+    8
+};
+CONST(SoAd_PduRouteDestIdType, SOAD_CONST) UDP_SoCon_1501_PduRouteList[1] = 
+{
+    8
+};
+CONST(SoAd_SocketRouteIdType, SOAD_CONST) TCP_SoCon_1603_SocketRouteList[1] = 
+{
+    10
+};
+CONST(SoAd_SocketRouteIdType, SOAD_CONST) TCP_SoCon_1604_SocketRouteList[1] = 
+{
+    11
+};
+CONST(SoAd_SocketRouteIdType, SOAD_CONST) TCP_SoCon_1605_SocketRouteList[1] = 
+{
+    12
+};
+CONST(SoAd_SocketRouteIdType, SOAD_CONST) TCP_SoCon_1606_SocketRouteList[1] = 
+{
+    13
+};
+CONST(SoAd_SocketRouteIdType, SOAD_CONST) TCP_SoCon_1607_SocketRouteList[1] = 
+{
+    14
+};
+CONST(SoAd_SocketRouteIdType, SOAD_CONST) TCP_SoCon_1608_SocketRouteList[1] = 
+{
+    15
+};
+CONST(SoAd_PduRouteDestIdType, SOAD_CONST) UDP_SoCon_1502_PduRouteDestList[1] = 
+{
+    9
+};
+CONST(SoAd_PduRouteDestIdType, SOAD_CONST) UDP_SoCon_1502_PduRouteList[1] = 
+{
+    9
+};
+CONST(SoAd_PduRouteDestIdType, SOAD_CONST) UDP_SoCon_1503_PduRouteDestList[1] = 
+{
+    10
+};
+CONST(SoAd_PduRouteDestIdType, SOAD_CONST) UDP_SoCon_1503_PduRouteList[1] = 
+{
+    10
+};
+CONST(SoAd_PduRouteDestIdType, SOAD_CONST) UDP_SoCon_1504_PduRouteDestList[1] = 
+{
+    11
+};
+CONST(SoAd_PduRouteDestIdType, SOAD_CONST) UDP_SoCon_1504_PduRouteList[1] = 
+{
+    11
+};
+CONST(SoAd_PduRouteDestIdType, SOAD_CONST) UDP_SoCon_1505_PduRouteDestList[1] = 
+{
+    12
+};
+CONST(SoAd_PduRouteDestIdType, SOAD_CONST) UDP_SoCon_1505_PduRouteList[1] = 
+{
+    12
+};
+CONST(SoAd_PduRouteDestIdType, SOAD_CONST) UDP_SoCon_1506_PduRouteDestList[1] = 
+{
+    13
+};
+CONST(SoAd_PduRouteDestIdType, SOAD_CONST) UDP_SoCon_1506_PduRouteList[1] = 
+{
+    13
+};
+CONST(SoAd_PduRouteDestIdType, SOAD_CONST) UDP_SoCon_1507_PduRouteDestList[1] = 
+{
+    14
+};
+CONST(SoAd_PduRouteDestIdType, SOAD_CONST) UDP_SoCon_1507_PduRouteList[1] = 
+{
+    14
+};
+CONST(SoAd_SocketConnectionType, SOAD_CONST) SoAd_SoConList[23] = 
+{
+    /*0*/
+    {
+        /*IfBufferLength*/
+        100,
+        /*IfBufferOffset*/
+        0,
+        /*TpBufferLength*/
+        0,
+        /*TpBufferOffset*/
+        100,
+        /*PduRouteNum*/
+        1,
+        /*SocketRouteNum*/
+        1,
+        /*PduRouteDestNum*/
+        1,
+        /*RemoteAddrState*/
+        SOAD_REMOTE_ADDRESS_ALL_ANY,
+        /*RemoteAddr*/
+        {TCPIP_AF_INET, TCPIP_PORT_ANY, {TCPIP_IPADDR_ANY}},
+        /*PduRouteDestList*/
+        SoCon_DoIP_UDP_PduRouteDestList,
+        /*PduRouteList*/
+        SoCon_DoIP_UDP_PduRouteList,
+        /*SocketRouteList*/
+        SoCon_DoIP_UDP_SocketRouteList,
+        /*SoConModeChgList*/
+        SoConGroup_DoIP_UDP_SoConModeChgList
+    },
+    /*1*/
+    {
+        /*IfBufferLength*/
+        0,
+        /*IfBufferOffset*/
+        100,
+        /*TpBufferLength*/
+        512,
+        /*TpBufferOffset*/
+        100,
+        /*PduRouteNum*/
+        1,
+        /*SocketRouteNum*/
+        1,
+        /*PduRouteDestNum*/
+        1,
+        /*RemoteAddrState*/
+        SOAD_REMOTE_ADDRESS_ALL_ANY,
+        /*RemoteAddr*/
+        {TCPIP_AF_INET, TCPIP_PORT_ANY, {TCPIP_IPADDR_ANY}},
+        /*PduRouteDestList*/
+        SoCon_DoIP_TCP0_PduRouteDestList,
+        /*PduRouteList*/
+        SoCon_DoIP_TCP0_PduRouteList,
+        /*SocketRouteList*/
+        SoCon_DoIP_TCP0_SocketRouteList,
+        /*SoConModeChgList*/
+        SoConGroup_DoIP_TCP_SoConModeChgList
+    },
+    /*2*/
+    {
+        /*IfBufferLength*/
+        0,
+        /*IfBufferOffset*/
+        612,
+        /*TpBufferLength*/
+        512,
+        /*TpBufferOffset*/
+        612,
+        /*PduRouteNum*/
+        1,
+        /*SocketRouteNum*/
+        1,
+        /*PduRouteDestNum*/
+        1,
+        /*RemoteAddrState*/
+        SOAD_REMOTE_ADDRESS_ALL_ANY,
+        /*RemoteAddr*/
+        {TCPIP_AF_INET, TCPIP_PORT_ANY, {TCPIP_IPADDR_ANY}},
+        /*PduRouteDestList*/
+        SoCon_DoIP_TCP1_PduRouteDestList,
+        /*PduRouteList*/
+        SoCon_DoIP_TCP1_PduRouteList,
+        /*SocketRouteList*/
+        SoCon_DoIP_TCP1_SocketRouteList,
+        /*SoConModeChgList*/
+        SoConGroup_DoIP_TCP_SoConModeChgList
+    },
+    /*3*/
+    {
+        /*IfBufferLength*/
+        0,
+        /*IfBufferOffset*/
+        1124,
+        /*TpBufferLength*/
+        512,
+        /*TpBufferOffset*/
+        1124,
+        /*PduRouteNum*/
+        1,
+        /*SocketRouteNum*/
+        1,
+        /*PduRouteDestNum*/
+        1,
+        /*RemoteAddrState*/
+        SOAD_REMOTE_ADDRESS_ALL_ANY,
+        /*RemoteAddr*/
+        {TCPIP_AF_INET, TCPIP_PORT_ANY, {TCPIP_IPADDR_ANY}},
+        /*PduRouteDestList*/
+        SoCon_DoIP_TCP2_PduRouteDestList,
+        /*PduRouteList*/
+        SoCon_DoIP_TCP2_PduRouteList,
+        /*SocketRouteList*/
+        SoCon_DoIP_TCP2_SocketRouteList,
+        /*SoConModeChgList*/
+        SoConGroup_DoIP_TCP_SoConModeChgList
+    },
+    /*4*/
+    {
+        /*IfBufferLength*/
+        200,
+        /*IfBufferOffset*/
+        1636,
+        /*TpBufferLength*/
+        0,
+        /*TpBufferOffset*/
+        1836,
+        /*PduRouteNum*/
+        1,
+        /*SocketRouteNum*/
+        1,
+        /*PduRouteDestNum*/
+        1,
+        /*RemoteAddrState*/
+        SOAD_REMOTE_ADDRESS_ALL_ANY,
+        /*RemoteAddr*/
+        {TCPIP_AF_INET, TCPIP_PORT_ANY, {TCPIP_IPADDR_ANY}},
+        /*PduRouteDestList*/
+        SoCon_Xcp_PduRouteDestList,
+        /*PduRouteList*/
+        SoCon_Xcp_PduRouteList,
+        /*SocketRouteList*/
+        SoCon_Xcp_SocketRouteList,
+        /*SoConModeChgList*/
+        NULL_PTR
+    },
+    /*5*/
+    {
+        /*IfBufferLength*/
+        200,
+        /*IfBufferOffset*/
+        1836,
+        /*TpBufferLength*/
+        0,
+        /*TpBufferOffset*/
+        2036,
+        /*PduRouteNum*/
+        1,
+        /*SocketRouteNum*/
+        1,
+        /*PduRouteDestNum*/
+        1,
+        /*RemoteAddrState*/
+        SOAD_REMOTE_ADDRESS_SET,
+        /*RemoteAddr*/
+        {TCPIP_AF_INET, 15000, {0xFFFFFFFF}},
+        /*PduRouteDestList*/
+        SoCon_UdpNm_PduRouteDestList,
+        /*PduRouteList*/
+        SoCon_UdpNm_PduRouteList,
+        /*SocketRouteList*/
+        SoCon_UdpNm_SocketRouteList,
+        /*SoConModeChgList*/
+        NULL_PTR
+    },
+    /*6*/
+    {
+        /*IfBufferLength*/
+        200,
+        /*IfBufferOffset*/
+        2036,
+        /*TpBufferLength*/
+        0,
+        /*TpBufferOffset*/
+        2236,
+        /*PduRouteNum*/
+        1,
+        /*SocketRouteNum*/
+        1,
+        /*PduRouteDestNum*/
+        1,
+        /*RemoteAddrState*/
+        SOAD_REMOTE_ADDRESS_SET,
+        /*RemoteAddr*/
+        {TCPIP_AF_INET, 55001, {0xC0A81212}},
+        /*PduRouteDestList*/
+        TCP_SoCon_PduRouteDestList,
+        /*PduRouteList*/
+        TCP_SoCon_PduRouteList,
+        /*SocketRouteList*/
+        TCP_SoCon_SocketRouteList,
+        /*SoConModeChgList*/
+        NULL_PTR
+    },
+    /*7*/
+    {
+        /*IfBufferLength*/
+        200,
+        /*IfBufferOffset*/
+        2236,
+        /*TpBufferLength*/
+        0,
+        /*TpBufferOffset*/
+        2436,
+        /*PduRouteNum*/
+        1,
+        /*SocketRouteNum*/
+        1,
+        /*PduRouteDestNum*/
+        1,
+        /*RemoteAddrState*/
+        SOAD_REMOTE_ADDRESS_SET,
+        /*RemoteAddr*/
+        {TCPIP_AF_INET, 51000, {0xC0A81212}},
+        /*PduRouteDestList*/
+        UDP_SoCon_PduRouteDestList,
+        /*PduRouteList*/
+        UDP_SoCon_PduRouteList,
+        /*SocketRouteList*/
+        UDP_SoCon_SocketRouteList,
+        /*SoConModeChgList*/
+        NULL_PTR
+    },
+    /*8*/
+    {
+        /*IfBufferLength*/
+        1017,
+        /*IfBufferOffset*/
+        2436,
+        /*TpBufferLength*/
+        0,
+        /*TpBufferOffset*/
+        3453,
+        /*PduRouteNum*/
+        0,
+        /*SocketRouteNum*/
+        1,
+        /*PduRouteDestNum*/
+        0,
+        /*RemoteAddrState*/
+        SOAD_REMOTE_ADDRESS_SET,
+        /*RemoteAddr*/
+        {TCPIP_AF_INET, 1601, {0xC0A81212}},
+        /*PduRouteDestList*/
+        NULL_PTR,
+        /*PduRouteList*/
+        NULL_PTR,
+        /*SocketRouteList*/
+        TCP_SoCon_1601_SocketRouteList,
+        /*SoConModeChgList*/
+        NULL_PTR
+    },
+    /*9*/
+    {
+        /*IfBufferLength*/
+        10643,
+        /*IfBufferOffset*/
+        3453,
+        /*TpBufferLength*/
+        0,
+        /*TpBufferOffset*/
+        14096,
+        /*PduRouteNum*/
+        0,
+        /*SocketRouteNum*/
+        1,
+        /*PduRouteDestNum*/
+        0,
+        /*RemoteAddrState*/
+        SOAD_REMOTE_ADDRESS_SET,
+        /*RemoteAddr*/
+        {TCPIP_AF_INET, 1602, {0xC0A81212}},
+        /*PduRouteDestList*/
+        NULL_PTR,
+        /*PduRouteList*/
+        NULL_PTR,
+        /*SocketRouteList*/
+        TCP_SoCon_1602_SocketRouteList,
+        /*SoConModeChgList*/
+        NULL_PTR
+    },
+    /*10*/
+    {
+        /*IfBufferLength*/
+        1294,
+        /*IfBufferOffset*/
+        14096,
+        /*TpBufferLength*/
+        0,
+        /*TpBufferOffset*/
+        15390,
+        /*PduRouteNum*/
+        1,
+        /*SocketRouteNum*/
+        0,
+        /*PduRouteDestNum*/
+        1,
+        /*RemoteAddrState*/
+        SOAD_REMOTE_ADDRESS_SET,
+        /*RemoteAddr*/
+        {TCPIP_AF_INET, 1501, {0xC0A81212}},
+        /*PduRouteDestList*/
+        UDP_SoCon_1501_PduRouteDestList,
+        /*PduRouteList*/
+        UDP_SoCon_1501_PduRouteList,
+        /*SocketRouteList*/
+        NULL_PTR,
+        /*SoConModeChgList*/
+        NULL_PTR
+    },
+    /*11*/
+    {
+        /*IfBufferLength*/
+        10643,
+        /*IfBufferOffset*/
+        15390,
+        /*TpBufferLength*/
+        0,
+        /*TpBufferOffset*/
+        26033,
+        /*PduRouteNum*/
+        0,
+        /*SocketRouteNum*/
+        1,
+        /*PduRouteDestNum*/
+        0,
+        /*RemoteAddrState*/
+        SOAD_REMOTE_ADDRESS_ALL_ANY,
+        /*RemoteAddr*/
+        {TCPIP_AF_INET, TCPIP_PORT_ANY, {TCPIP_IPADDR_ANY}},
+        /*PduRouteDestList*/
+        NULL_PTR,
+        /*PduRouteList*/
+        NULL_PTR,
+        /*SocketRouteList*/
+        TCP_SoCon_1603_SocketRouteList,
+        /*SoConModeChgList*/
+        NULL_PTR
+    },
+    /*12*/
+    {
+        /*IfBufferLength*/
+        84,
+        /*IfBufferOffset*/
+        26033,
+        /*TpBufferLength*/
+        0,
+        /*TpBufferOffset*/
+        26117,
+        /*PduRouteNum*/
+        0,
+        /*SocketRouteNum*/
+        1,
+        /*PduRouteDestNum*/
+        0,
+        /*RemoteAddrState*/
+        SOAD_REMOTE_ADDRESS_ALL_ANY,
+        /*RemoteAddr*/
+        {TCPIP_AF_INET, TCPIP_PORT_ANY, {TCPIP_IPADDR_ANY}},
+        /*PduRouteDestList*/
+        NULL_PTR,
+        /*PduRouteList*/
+        NULL_PTR,
+        /*SocketRouteList*/
+        TCP_SoCon_1604_SocketRouteList,
+        /*SoConModeChgList*/
+        NULL_PTR
+    },
+    /*13*/
+    {
+        /*IfBufferLength*/
+        6788,
+        /*IfBufferOffset*/
+        26117,
+        /*TpBufferLength*/
+        0,
+        /*TpBufferOffset*/
+        32905,
+        /*PduRouteNum*/
+        0,
+        /*SocketRouteNum*/
+        1,
+        /*PduRouteDestNum*/
+        0,
+        /*RemoteAddrState*/
+        SOAD_REMOTE_ADDRESS_ALL_ANY,
+        /*RemoteAddr*/
+        {TCPIP_AF_INET, TCPIP_PORT_ANY, {TCPIP_IPADDR_ANY}},
+        /*PduRouteDestList*/
+        NULL_PTR,
+        /*PduRouteList*/
+        NULL_PTR,
+        /*SocketRouteList*/
+        TCP_SoCon_1605_SocketRouteList,
+        /*SoConModeChgList*/
+        NULL_PTR
+    },
+    /*14*/
+    {
+        /*IfBufferLength*/
+        713,
+        /*IfBufferOffset*/
+        32905,
+        /*TpBufferLength*/
+        0,
+        /*TpBufferOffset*/
+        33618,
+        /*PduRouteNum*/
+        0,
+        /*SocketRouteNum*/
+        1,
+        /*PduRouteDestNum*/
+        0,
+        /*RemoteAddrState*/
+        SOAD_REMOTE_ADDRESS_ALL_ANY,
+        /*RemoteAddr*/
+        {TCPIP_AF_INET, TCPIP_PORT_ANY, {TCPIP_IPADDR_ANY}},
+        /*PduRouteDestList*/
+        NULL_PTR,
+        /*PduRouteList*/
+        NULL_PTR,
+        /*SocketRouteList*/
+        TCP_SoCon_1606_SocketRouteList,
+        /*SoConModeChgList*/
+        NULL_PTR
+    },
+    /*15*/
+    {
+        /*IfBufferLength*/
+        4248,
+        /*IfBufferOffset*/
+        33618,
+        /*TpBufferLength*/
+        0,
+        /*TpBufferOffset*/
+        37866,
+        /*PduRouteNum*/
+        0,
+        /*SocketRouteNum*/
+        1,
+        /*PduRouteDestNum*/
+        0,
+        /*RemoteAddrState*/
+        SOAD_REMOTE_ADDRESS_ALL_ANY,
+        /*RemoteAddr*/
+        {TCPIP_AF_INET, TCPIP_PORT_ANY, {TCPIP_IPADDR_ANY}},
+        /*PduRouteDestList*/
+        NULL_PTR,
+        /*PduRouteList*/
+        NULL_PTR,
+        /*SocketRouteList*/
+        TCP_SoCon_1607_SocketRouteList,
+        /*SoConModeChgList*/
+        NULL_PTR
+    },
+    /*16*/
+    {
+        /*IfBufferLength*/
+        406,
+        /*IfBufferOffset*/
+        37866,
+        /*TpBufferLength*/
+        0,
+        /*TpBufferOffset*/
+        38272,
+        /*PduRouteNum*/
+        0,
+        /*SocketRouteNum*/
+        1,
+        /*PduRouteDestNum*/
+        0,
+        /*RemoteAddrState*/
+        SOAD_REMOTE_ADDRESS_ALL_ANY,
+        /*RemoteAddr*/
+        {TCPIP_AF_INET, TCPIP_PORT_ANY, {TCPIP_IPADDR_ANY}},
+        /*PduRouteDestList*/
+        NULL_PTR,
+        /*PduRouteList*/
+        NULL_PTR,
+        /*SocketRouteList*/
+        TCP_SoCon_1608_SocketRouteList,
+        /*SoConModeChgList*/
+        NULL_PTR
+    },
+    /*17*/
+    {
+        /*IfBufferLength*/
+        1294,
+        /*IfBufferOffset*/
+        38272,
+        /*TpBufferLength*/
+        0,
+        /*TpBufferOffset*/
+        39566,
+        /*PduRouteNum*/
+        1,
+        /*SocketRouteNum*/
+        0,
+        /*PduRouteDestNum*/
+        1,
+        /*RemoteAddrState*/
+        SOAD_REMOTE_ADDRESS_SET,
+        /*RemoteAddr*/
+        {TCPIP_AF_INET, 1502, {0xC0A81212}},
+        /*PduRouteDestList*/
+        UDP_SoCon_1502_PduRouteDestList,
+        /*PduRouteList*/
+        UDP_SoCon_1502_PduRouteList,
+        /*SocketRouteList*/
+        NULL_PTR,
+        /*SoConModeChgList*/
+        NULL_PTR
+    },
+    /*18*/
+    {
+        /*IfBufferLength*/
+        23,
+        /*IfBufferOffset*/
+        39566,
+        /*TpBufferLength*/
+        0,
+        /*TpBufferOffset*/
+        39589,
+        /*PduRouteNum*/
+        1,
+        /*SocketRouteNum*/
+        0,
+        /*PduRouteDestNum*/
+        1,
+        /*RemoteAddrState*/
+        SOAD_REMOTE_ADDRESS_SET,
+        /*RemoteAddr*/
+        {TCPIP_AF_INET, 1503, {0xC0A81212}},
+        /*PduRouteDestList*/
+        UDP_SoCon_1503_PduRouteDestList,
+        /*PduRouteList*/
+        UDP_SoCon_1503_PduRouteList,
+        /*SocketRouteList*/
+        NULL_PTR,
+        /*SoConModeChgList*/
+        NULL_PTR
+    },
+    /*19*/
+    {
+        /*IfBufferLength*/
+        423,
+        /*IfBufferOffset*/
+        39589,
+        /*TpBufferLength*/
+        0,
+        /*TpBufferOffset*/
+        40012,
+        /*PduRouteNum*/
+        1,
+        /*SocketRouteNum*/
+        0,
+        /*PduRouteDestNum*/
+        1,
+        /*RemoteAddrState*/
+        SOAD_REMOTE_ADDRESS_SET,
+        /*RemoteAddr*/
+        {TCPIP_AF_INET, 1504, {0xC0A81212}},
+        /*PduRouteDestList*/
+        UDP_SoCon_1504_PduRouteDestList,
+        /*PduRouteList*/
+        UDP_SoCon_1504_PduRouteList,
+        /*SocketRouteList*/
+        NULL_PTR,
+        /*SoConModeChgList*/
+        NULL_PTR
+    },
+    /*20*/
+    {
+        /*IfBufferLength*/
+        942,
+        /*IfBufferOffset*/
+        40012,
+        /*TpBufferLength*/
+        0,
+        /*TpBufferOffset*/
+        40954,
+        /*PduRouteNum*/
+        1,
+        /*SocketRouteNum*/
+        0,
+        /*PduRouteDestNum*/
+        1,
+        /*RemoteAddrState*/
+        SOAD_REMOTE_ADDRESS_SET,
+        /*RemoteAddr*/
+        {TCPIP_AF_INET, 1505, {0xC0A81212}},
+        /*PduRouteDestList*/
+        UDP_SoCon_1505_PduRouteDestList,
+        /*PduRouteList*/
+        UDP_SoCon_1505_PduRouteList,
+        /*SocketRouteList*/
+        NULL_PTR,
+        /*SoConModeChgList*/
+        NULL_PTR
+    },
+    /*21*/
+    {
+        /*IfBufferLength*/
+        13,
+        /*IfBufferOffset*/
+        40954,
+        /*TpBufferLength*/
+        0,
+        /*TpBufferOffset*/
+        40967,
+        /*PduRouteNum*/
+        1,
+        /*SocketRouteNum*/
+        0,
+        /*PduRouteDestNum*/
+        1,
+        /*RemoteAddrState*/
+        SOAD_REMOTE_ADDRESS_SET,
+        /*RemoteAddr*/
+        {TCPIP_AF_INET, 1506, {0xC0A81212}},
+        /*PduRouteDestList*/
+        UDP_SoCon_1506_PduRouteDestList,
+        /*PduRouteList*/
+        UDP_SoCon_1506_PduRouteList,
+        /*SocketRouteList*/
+        NULL_PTR,
+        /*SoConModeChgList*/
+        NULL_PTR
+    },
+    /*22*/
+    {
+        /*IfBufferLength*/
+        208,
+        /*IfBufferOffset*/
+        40967,
+        /*TpBufferLength*/
+        0,
+        /*TpBufferOffset*/
+        41175,
+        /*PduRouteNum*/
+        1,
+        /*SocketRouteNum*/
+        0,
+        /*PduRouteDestNum*/
+        1,
+        /*RemoteAddrState*/
+        SOAD_REMOTE_ADDRESS_SET,
+        /*RemoteAddr*/
+        {TCPIP_AF_INET, 1507, {0xC0A81212}},
+        /*PduRouteDestList*/
+        UDP_SoCon_1507_PduRouteDestList,
+        /*PduRouteList*/
+        UDP_SoCon_1507_PduRouteList,
+        /*SocketRouteList*/
+        NULL_PTR,
+        /*SoConModeChgList*/
+        NULL_PTR
+    }
+};
+
+/* SoAdSocketUdpProtocol */
+CONST(SoAd_UdpProtocolType, SOAD_CONST) SoAd_Sd_UdpProtocol[1] =
+{
+    {
+        /*CtrlFlag*/
+        0x0,
+        /*PduTxBufferMin*/
+        200,
+        /*TriggerTimeout*/
+        65535,
+        /*AliveSupervisionTimeout*/
+        4294967295
+    }
+};
+
+/* SoAdSocketTcpProtocol */
+CONST(SoAd_TcpProtocolType, SOAD_CONST) SoAd_Sd_TcpProtocol[2] =
+{
+    {
+        /*CtrlFlag*/
+        0x0,
+        /*KeepAliveProbesMax*/
+        10,
+        /*KeepAliveInterval*/
+        10,
+        /*KeepAliveTime*/
+        7200,
+        /*TxQuota*/
+        10
+    },
+    {
+        /*CtrlFlag*/
+        0x0,
+        /*KeepAliveProbesMax*/
+        10,
+        /*KeepAliveInterval*/
+        10,
+        /*KeepAliveTime*/
+        7200,
+        /*TxQuota*/
+        10
+    }
+};
+
+/* SoAdSocketConnectionGroup */
+CONST(SoAd_ULIndexType, SOAD_CONST) SoConGroup_DoIP_UDP_IpAddrAssignChgList[2] = 
+{
+    SOAD_UL_DOIP,
+    SOAD_UL_MAX
+};
+
+CONST(SoAd_ULIndexType, SOAD_CONST) SoConGroup_DoIP_TCP_IpAddrAssignChgList[2] = 
+{
+    SOAD_UL_DOIP,
+    SOAD_UL_MAX
+};
+
+CONST(SoAd_SocketConnectionGroupType, SOAD_CONST) SoAd_SoConGroupList[21] =
+{
+    {
+        /*GroupId*/
+        0,
+        /* CtrlFlag */
+        0x3C,
+        /*FramePriority*/
+        0,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        0,
+        /*IpAddrAssignChgNum*/
+        1,
+        /*LocalAddrId*/
+        0,
+        /*LocalPort*/
+        13400,
+        /*IpAddrAssignChgList*/
+        SoConGroup_DoIP_UDP_IpAddrAssignChgList,
+        /*TcpProtocolPtr*/
+        NULL_PTR,
+        /*UdpProtocolPtr*/
+        &SoAd_Sd_UdpProtocol[0]
+    },
+    {
+        /*GroupId*/
+        1,
+        /* CtrlFlag */
+        0x18,
+        /*FramePriority*/
+        0,
+        /*SoConNum*/
+        3,
+        /*SoConId*/
+        1,
+        /*IpAddrAssignChgNum*/
+        1,
+        /*LocalAddrId*/
+        0,
+        /*LocalPort*/
+        13400,
+        /*IpAddrAssignChgList*/
+        SoConGroup_DoIP_TCP_IpAddrAssignChgList,
+        /*UdpProtocolPtr*/
+        &SoAd_Sd_TcpProtocol[0],
+        /*TcpProtocolPtr*/
+        NULL_PTR
+    },
+    {
+        /*GroupId*/
+        2,
+        /* CtrlFlag */
+        0x25,
+        /*FramePriority*/
+        0,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        4,
+        /*IpAddrAssignChgNum*/
+        0,
+        /*LocalAddrId*/
+        0,
+        /*LocalPort*/
+        2000,
+        /*IpAddrAssignChgList*/
+        NULL_PTR,
+        /*TcpProtocolPtr*/
+        NULL_PTR,
+        /*UdpProtocolPtr*/
+        &SoAd_Sd_UdpProtocol[0]
+    },
+    {
+        /*GroupId*/
+        3,
+        /* CtrlFlag */
+        0x21,
+        /*FramePriority*/
+        0,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        5,
+        /*IpAddrAssignChgNum*/
+        0,
+        /*LocalAddrId*/
+        0,
+        /*LocalPort*/
+        15000,
+        /*IpAddrAssignChgList*/
+        NULL_PTR,
+        /*TcpProtocolPtr*/
+        NULL_PTR,
+        /*UdpProtocolPtr*/
+        &SoAd_Sd_UdpProtocol[0]
+    },
+    {
+        /*GroupId*/
+        4,
+        /* CtrlFlag */
+        0x1,
+        /*FramePriority*/
+        0,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        6,
+        /*IpAddrAssignChgNum*/
+        0,
+        /*LocalAddrId*/
+        0,
+        /*LocalPort*/
+        51001,
+        /*IpAddrAssignChgList*/
+        NULL_PTR,
+        /*UdpProtocolPtr*/
+        &SoAd_Sd_TcpProtocol[0],
+        /*TcpProtocolPtr*/
+        NULL_PTR
+    },
+    {
+        /*GroupId*/
+        5,
+        /* CtrlFlag */
+        0x21,
+        /*FramePriority*/
+        0,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        7,
+        /*IpAddrAssignChgNum*/
+        0,
+        /*LocalAddrId*/
+        0,
+        /*LocalPort*/
+        51000,
+        /*IpAddrAssignChgList*/
+        NULL_PTR,
+        /*TcpProtocolPtr*/
+        NULL_PTR,
+        /*UdpProtocolPtr*/
+        &SoAd_Sd_UdpProtocol[0]
+    },
+    {
+        /*GroupId*/
+        6,
+        /* CtrlFlag */
+        0x1,
+        /*FramePriority*/
+        0,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        8,
+        /*IpAddrAssignChgNum*/
+        0,
+        /*LocalAddrId*/
+        0,
+        /*LocalPort*/
+        1601,
+        /*IpAddrAssignChgList*/
+        NULL_PTR,
+        /*UdpProtocolPtr*/
+        &SoAd_Sd_TcpProtocol[0],
+        /*TcpProtocolPtr*/
+        NULL_PTR
+    },
+    {
+        /*GroupId*/
+        7,
+        /* CtrlFlag */
+        0x1,
+        /*FramePriority*/
+        0,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        9,
+        /*IpAddrAssignChgNum*/
+        0,
+        /*LocalAddrId*/
+        0,
+        /*LocalPort*/
+        10,
+        /*IpAddrAssignChgList*/
+        NULL_PTR,
+        /*UdpProtocolPtr*/
+        &SoAd_Sd_TcpProtocol[0],
+        /*TcpProtocolPtr*/
+        NULL_PTR
+    },
+    {
+        /*GroupId*/
+        8,
+        /* CtrlFlag */
+        0x21,
+        /*FramePriority*/
+        0,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        10,
+        /*IpAddrAssignChgNum*/
+        0,
+        /*LocalAddrId*/
+        0,
+        /*LocalPort*/
+        1501,
+        /*IpAddrAssignChgList*/
+        NULL_PTR,
+        /*TcpProtocolPtr*/
+        NULL_PTR,
+        /*UdpProtocolPtr*/
+        &SoAd_Sd_UdpProtocol[0]
+    },
+    {
+        /*GroupId*/
+        9,
+        /* CtrlFlag */
+        0x1,
+        /*FramePriority*/
+        0,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        11,
+        /*IpAddrAssignChgNum*/
+        0,
+        /*LocalAddrId*/
+        0,
+        /*LocalPort*/
+        1602,
+        /*IpAddrAssignChgList*/
+        NULL_PTR,
+        /*UdpProtocolPtr*/
+        &SoAd_Sd_TcpProtocol[0],
+        /*TcpProtocolPtr*/
+        NULL_PTR
+    },
+    {
+        /*GroupId*/
+        10,
+        /* CtrlFlag */
+        0x1,
+        /*FramePriority*/
+        0,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        12,
+        /*IpAddrAssignChgNum*/
+        0,
+        /*LocalAddrId*/
+        0,
+        /*LocalPort*/
+        1604,
+        /*IpAddrAssignChgList*/
+        NULL_PTR,
+        /*UdpProtocolPtr*/
+        &SoAd_Sd_TcpProtocol[0],
+        /*TcpProtocolPtr*/
+        NULL_PTR
+    },
+    {
+        /*GroupId*/
+        11,
+        /* CtrlFlag */
+        0x1,
+        /*FramePriority*/
+        0,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        13,
+        /*IpAddrAssignChgNum*/
+        0,
+        /*LocalAddrId*/
+        0,
+        /*LocalPort*/
+        1605,
+        /*IpAddrAssignChgList*/
+        NULL_PTR,
+        /*UdpProtocolPtr*/
+        &SoAd_Sd_TcpProtocol[0],
+        /*TcpProtocolPtr*/
+        NULL_PTR
+    },
+    {
+        /*GroupId*/
+        12,
+        /* CtrlFlag */
+        0x1,
+        /*FramePriority*/
+        0,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        14,
+        /*IpAddrAssignChgNum*/
+        0,
+        /*LocalAddrId*/
+        0,
+        /*LocalPort*/
+        1606,
+        /*IpAddrAssignChgList*/
+        NULL_PTR,
+        /*UdpProtocolPtr*/
+        &SoAd_Sd_TcpProtocol[0],
+        /*TcpProtocolPtr*/
+        NULL_PTR
+    },
+    {
+        /*GroupId*/
+        13,
+        /* CtrlFlag */
+        0x1,
+        /*FramePriority*/
+        0,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        15,
+        /*IpAddrAssignChgNum*/
+        0,
+        /*LocalAddrId*/
+        0,
+        /*LocalPort*/
+        1607,
+        /*IpAddrAssignChgList*/
+        NULL_PTR,
+        /*UdpProtocolPtr*/
+        &SoAd_Sd_TcpProtocol[0],
+        /*TcpProtocolPtr*/
+        NULL_PTR
+    },
+    {
+        /*GroupId*/
+        14,
+        /* CtrlFlag */
+        0x1,
+        /*FramePriority*/
+        0,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        16,
+        /*IpAddrAssignChgNum*/
+        0,
+        /*LocalAddrId*/
+        0,
+        /*LocalPort*/
+        1608,
+        /*IpAddrAssignChgList*/
+        NULL_PTR,
+        /*UdpProtocolPtr*/
+        &SoAd_Sd_TcpProtocol[0],
+        /*TcpProtocolPtr*/
+        NULL_PTR
+    },
+    {
+        /*GroupId*/
+        15,
+        /* CtrlFlag */
+        0x21,
+        /*FramePriority*/
+        0,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        17,
+        /*IpAddrAssignChgNum*/
+        0,
+        /*LocalAddrId*/
+        0,
+        /*LocalPort*/
+        1502,
+        /*IpAddrAssignChgList*/
+        NULL_PTR,
+        /*TcpProtocolPtr*/
+        NULL_PTR,
+        /*UdpProtocolPtr*/
+        &SoAd_Sd_UdpProtocol[0]
+    },
+    {
+        /*GroupId*/
+        16,
+        /* CtrlFlag */
+        0x21,
+        /*FramePriority*/
+        0,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        18,
+        /*IpAddrAssignChgNum*/
+        0,
+        /*LocalAddrId*/
+        0,
+        /*LocalPort*/
+        1503,
+        /*IpAddrAssignChgList*/
+        NULL_PTR,
+        /*TcpProtocolPtr*/
+        NULL_PTR,
+        /*UdpProtocolPtr*/
+        &SoAd_Sd_UdpProtocol[0]
+    },
+    {
+        /*GroupId*/
+        17,
+        /* CtrlFlag */
+        0x21,
+        /*FramePriority*/
+        0,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        19,
+        /*IpAddrAssignChgNum*/
+        0,
+        /*LocalAddrId*/
+        0,
+        /*LocalPort*/
+        1504,
+        /*IpAddrAssignChgList*/
+        NULL_PTR,
+        /*TcpProtocolPtr*/
+        NULL_PTR,
+        /*UdpProtocolPtr*/
+        &SoAd_Sd_UdpProtocol[0]
+    },
+    {
+        /*GroupId*/
+        18,
+        /* CtrlFlag */
+        0x21,
+        /*FramePriority*/
+        0,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        20,
+        /*IpAddrAssignChgNum*/
+        0,
+        /*LocalAddrId*/
+        0,
+        /*LocalPort*/
+        1505,
+        /*IpAddrAssignChgList*/
+        NULL_PTR,
+        /*TcpProtocolPtr*/
+        NULL_PTR,
+        /*UdpProtocolPtr*/
+        &SoAd_Sd_UdpProtocol[0]
+    },
+    {
+        /*GroupId*/
+        19,
+        /* CtrlFlag */
+        0x21,
+        /*FramePriority*/
+        0,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        21,
+        /*IpAddrAssignChgNum*/
+        0,
+        /*LocalAddrId*/
+        0,
+        /*LocalPort*/
+        1506,
+        /*IpAddrAssignChgList*/
+        NULL_PTR,
+        /*TcpProtocolPtr*/
+        NULL_PTR,
+        /*UdpProtocolPtr*/
+        &SoAd_Sd_UdpProtocol[0]
+    },
+    {
+        /*GroupId*/
+        20,
+        /* CtrlFlag */
+        0x21,
+        /*FramePriority*/
+        0,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        22,
+        /*IpAddrAssignChgNum*/
+        0,
+        /*LocalAddrId*/
+        0,
+        /*LocalPort*/
+        1507,
+        /*IpAddrAssignChgList*/
+        NULL_PTR,
+        /*TcpProtocolPtr*/
+        NULL_PTR,
+        /*UdpProtocolPtr*/
+        &SoAd_Sd_UdpProtocol[0]
+    }
+};
+
+/* SoAdPduRouteDest */
+CONST(SoAd_PduRouteDestType, SOAD_CONST) SoAd_PduRouteDestList[15] =
+{
+    {
+        /*TxPduHeaderId*/
+        0xA,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        0,
+        /*PduRouteId*/
+        0,
+        /*UdpTriggerMode*/
+        SOAD_UDP_TRIGGER_ALWAYS,
+        /*UdpTriggerTimeout*/
+        20,
+        /*RoutingCtrlList*/
+        &SoAd_PduRouteDest_RoutingGroupCtrlList[0],
+        /*IfTriggerList*/
+        NULL_PTR
+    },
+    {
+        /*TxPduHeaderId*/
+        0xA,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        1,
+        /*PduRouteId*/
+        1,
+        /*UdpTriggerMode*/
+        SOAD_UDP_TRIGGER_ALWAYS,
+        /*UdpTriggerTimeout*/
+        20,
+        /*RoutingCtrlList*/
+        &SoAd_PduRouteDest_RoutingGroupCtrlList[1],
+        /*IfTriggerList*/
+        NULL_PTR
+    },
+    {
+        /*TxPduHeaderId*/
+        0xA,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        2,
+        /*PduRouteId*/
+        2,
+        /*UdpTriggerMode*/
+        SOAD_UDP_TRIGGER_ALWAYS,
+        /*UdpTriggerTimeout*/
+        20,
+        /*RoutingCtrlList*/
+        &SoAd_PduRouteDest_RoutingGroupCtrlList[2],
+        /*IfTriggerList*/
+        NULL_PTR
+    },
+    {
+        /*TxPduHeaderId*/
+        0xA,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        3,
+        /*PduRouteId*/
+        3,
+        /*UdpTriggerMode*/
+        SOAD_UDP_TRIGGER_ALWAYS,
+        /*UdpTriggerTimeout*/
+        20,
+        /*RoutingCtrlList*/
+        &SoAd_PduRouteDest_RoutingGroupCtrlList[3],
+        /*IfTriggerList*/
+        NULL_PTR
+    },
+    {
+        /*TxPduHeaderId*/
+        0xA,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        6,
+        /*PduRouteId*/
+        4,
+        /*UdpTriggerMode*/
+        SOAD_UDP_TRIGGER_ALWAYS,
+        /*UdpTriggerTimeout*/
+        20,
+        /*RoutingCtrlList*/
+        NULL_PTR,
+        /*IfTriggerList*/
+        NULL_PTR
+    },
+    {
+        /*TxPduHeaderId*/
+        0xA,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        7,
+        /*PduRouteId*/
+        5,
+        /*UdpTriggerMode*/
+        SOAD_UDP_TRIGGER_ALWAYS,
+        /*UdpTriggerTimeout*/
+        20,
+        /*RoutingCtrlList*/
+        NULL_PTR,
+        /*IfTriggerList*/
+        NULL_PTR
+    },
+    {
+        /*TxPduHeaderId*/
+        0xA,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        4,
+        /*PduRouteId*/
+        6,
+        /*UdpTriggerMode*/
+        SOAD_UDP_TRIGGER_ALWAYS,
+        /*UdpTriggerTimeout*/
+        20,
+        /*RoutingCtrlList*/
+        NULL_PTR,
+        /*IfTriggerList*/
+        NULL_PTR
+    },
+    {
+        /*TxPduHeaderId*/
+        0xA,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        5,
+        /*PduRouteId*/
+        7,
+        /*UdpTriggerMode*/
+        SOAD_UDP_TRIGGER_ALWAYS,
+        /*UdpTriggerTimeout*/
+        20,
+        /*RoutingCtrlList*/
+        NULL_PTR,
+        /*IfTriggerList*/
+        NULL_PTR
+    },
+    {
+        /*TxPduHeaderId*/
+        0xA,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        10,
+        /*PduRouteId*/
+        8,
+        /*UdpTriggerMode*/
+        SOAD_UDP_TRIGGER_ALWAYS,
+        /*UdpTriggerTimeout*/
+        20,
+        /*RoutingCtrlList*/
+        NULL_PTR,
+        /*IfTriggerList*/
+        NULL_PTR
+    },
+    {
+        /*TxPduHeaderId*/
+        0xA,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        17,
+        /*PduRouteId*/
+        9,
+        /*UdpTriggerMode*/
+        SOAD_UDP_TRIGGER_ALWAYS,
+        /*UdpTriggerTimeout*/
+        20,
+        /*RoutingCtrlList*/
+        NULL_PTR,
+        /*IfTriggerList*/
+        NULL_PTR
+    },
+    {
+        /*TxPduHeaderId*/
+        0xA,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        18,
+        /*PduRouteId*/
+        10,
+        /*UdpTriggerMode*/
+        SOAD_UDP_TRIGGER_ALWAYS,
+        /*UdpTriggerTimeout*/
+        20,
+        /*RoutingCtrlList*/
+        NULL_PTR,
+        /*IfTriggerList*/
+        NULL_PTR
+    },
+    {
+        /*TxPduHeaderId*/
+        0xA,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        19,
+        /*PduRouteId*/
+        11,
+        /*UdpTriggerMode*/
+        SOAD_UDP_TRIGGER_ALWAYS,
+        /*UdpTriggerTimeout*/
+        20,
+        /*RoutingCtrlList*/
+        NULL_PTR,
+        /*IfTriggerList*/
+        NULL_PTR
+    },
+    {
+        /*TxPduHeaderId*/
+        0xA,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        20,
+        /*PduRouteId*/
+        12,
+        /*UdpTriggerMode*/
+        SOAD_UDP_TRIGGER_ALWAYS,
+        /*UdpTriggerTimeout*/
+        20,
+        /*RoutingCtrlList*/
+        NULL_PTR,
+        /*IfTriggerList*/
+        NULL_PTR
+    },
+    {
+        /*TxPduHeaderId*/
+        0xA,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        21,
+        /*PduRouteId*/
+        13,
+        /*UdpTriggerMode*/
+        SOAD_UDP_TRIGGER_ALWAYS,
+        /*UdpTriggerTimeout*/
+        20,
+        /*RoutingCtrlList*/
+        NULL_PTR,
+        /*IfTriggerList*/
+        NULL_PTR
+    },
+    {
+        /*TxPduHeaderId*/
+        0xA,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        22,
+        /*PduRouteId*/
+        14,
+        /*UdpTriggerMode*/
+        SOAD_UDP_TRIGGER_ALWAYS,
+        /*UdpTriggerTimeout*/
+        20,
+        /*RoutingCtrlList*/
+        NULL_PTR,
+        /*IfTriggerList*/
+        NULL_PTR
+    }
+};
+
+/* SoAdPduRoute */
+CONST(SoAd_PduRouteType, SOAD_CONST) SoAd_PduRouteList[15] =
+{
+    {
+        /*ULType*/
+        SOAD_UL_TYPE_IF,
+        /*ULIndex*/
+        SOAD_UL_DOIP,
+        /*CtrlFlag*/
+        0x0,
+        /*RouteDestNum*/
+        1,
+        /*RouteDestId*/
+        0,
+        /*TxPduId*/
+        DoIP_SoAd_DoIPDefaultConfig_DoIP_To_SoAd_UDP
+    },
+    {
+        /*ULType*/
+        SOAD_UL_TYPE_TP,
+        /*ULIndex*/
+        SOAD_UL_DOIP,
+        /*CtrlFlag*/
+        0x0,
+        /*RouteDestNum*/
+        1,
+        /*RouteDestId*/
+        1,
+        /*TxPduId*/
+        DoIP_SoAd_DoIPDefaultConfig_DoIP_To_SoAd_TCP0
+    },
+    {
+        /*ULType*/
+        SOAD_UL_TYPE_TP,
+        /*ULIndex*/
+        SOAD_UL_DOIP,
+        /*CtrlFlag*/
+        0x0,
+        /*RouteDestNum*/
+        1,
+        /*RouteDestId*/
+        2,
+        /*TxPduId*/
+        DoIP_SoAd_DoIPDefaultConfig_DoIP_To_SoAd_TCP1
+    },
+    {
+        /*ULType*/
+        SOAD_UL_TYPE_TP,
+        /*ULIndex*/
+        SOAD_UL_DOIP,
+        /*CtrlFlag*/
+        0x0,
+        /*RouteDestNum*/
+        1,
+        /*RouteDestId*/
+        3,
+        /*TxPduId*/
+        DoIP_SoAd_DoIPDefaultConfig_DoIP_To_SoAd_TCP2
+    },
+    {
+        /*ULType*/
+        SOAD_UL_TYPE_IF,
+        /*ULIndex*/
+        SOAD_UL_PDUR,
+        /*CtrlFlag*/
+        0x0,
+        /*RouteDestNum*/
+        1,
+        /*RouteDestId*/
+        4,
+        /*TxPduId*/
+        PduR_SoAd_Tcp_Send
+    },
+    {
+        /*ULType*/
+        SOAD_UL_TYPE_IF,
+        /*ULIndex*/
+        SOAD_UL_PDUR,
+        /*CtrlFlag*/
+        0x0,
+        /*RouteDestNum*/
+        1,
+        /*RouteDestId*/
+        5,
+        /*TxPduId*/
+        PduR_SoAd_Udp_Send
+    },
+    {
+        /*ULType*/
+        SOAD_UL_TYPE_IF,
+        /*ULIndex*/
+        SOAD_UL_XCP,
+        /*CtrlFlag*/
+        0x0,
+        /*RouteDestNum*/
+        1,
+        /*RouteDestId*/
+        6,
+        /*TxPduId*/
+        Xcp_Xcp_Tx
+    },
+    {
+        /*ULType*/
+        SOAD_UL_TYPE_IF,
+        /*ULIndex*/
+        SOAD_UL_UDPNM,
+        /*CtrlFlag*/
+        0x0,
+        /*RouteDestNum*/
+        1,
+        /*RouteDestId*/
+        7,
+        /*TxPduId*/
+        UdpNm_SoAd_UdpNm_Tx
+    },
+    {
+        /*ULType*/
+        SOAD_UL_TYPE_IF,
+        /*ULIndex*/
+        SOAD_UL_PDUR,
+        /*CtrlFlag*/
+        0x0,
+        /*RouteDestNum*/
+        1,
+        /*RouteDestId*/
+        8,
+        /*TxPduId*/
+        PduR_SoAd_Udp_Send_1501
+    },
+    {
+        /*ULType*/
+        SOAD_UL_TYPE_IF,
+        /*ULIndex*/
+        SOAD_UL_PDUR,
+        /*CtrlFlag*/
+        0x0,
+        /*RouteDestNum*/
+        1,
+        /*RouteDestId*/
+        9,
+        /*TxPduId*/
+        PduR_SoAd_Udp_Send_1502
+    },
+    {
+        /*ULType*/
+        SOAD_UL_TYPE_IF,
+        /*ULIndex*/
+        SOAD_UL_PDUR,
+        /*CtrlFlag*/
+        0x0,
+        /*RouteDestNum*/
+        1,
+        /*RouteDestId*/
+        10,
+        /*TxPduId*/
+        PduR_SoAd_Udp_Send_1503
+    },
+    {
+        /*ULType*/
+        SOAD_UL_TYPE_IF,
+        /*ULIndex*/
+        SOAD_UL_PDUR,
+        /*CtrlFlag*/
+        0x0,
+        /*RouteDestNum*/
+        1,
+        /*RouteDestId*/
+        11,
+        /*TxPduId*/
+        PduR_SoAd_Udp_Send_1504
+    },
+    {
+        /*ULType*/
+        SOAD_UL_TYPE_IF,
+        /*ULIndex*/
+        SOAD_UL_PDUR,
+        /*CtrlFlag*/
+        0x0,
+        /*RouteDestNum*/
+        1,
+        /*RouteDestId*/
+        12,
+        /*TxPduId*/
+        PduR_SoAd_Udp_Send_1505
+    },
+    {
+        /*ULType*/
+        SOAD_UL_TYPE_IF,
+        /*ULIndex*/
+        SOAD_UL_PDUR,
+        /*CtrlFlag*/
+        0x0,
+        /*RouteDestNum*/
+        1,
+        /*RouteDestId*/
+        13,
+        /*TxPduId*/
+        PduR_SoAd_Udp_Send_1506
+    },
+    {
+        /*ULType*/
+        SOAD_UL_TYPE_IF,
+        /*ULIndex*/
+        SOAD_UL_PDUR,
+        /*CtrlFlag*/
+        0x0,
+        /*RouteDestNum*/
+        1,
+        /*RouteDestId*/
+        14,
+        /*TxPduId*/
+        PduR_SoAd_Udp_Send_1507
+    }
+};
+
+/* SoAdSocketRoute */
+CONST(SoAd_SocketRouteType, SOAD_CONST) SoAd_SocketRouteList[16] =
+{
+    {
+        /*RxPduHeaderId*/
+        0x0,
+        /*ULType*/
+        SOAD_UL_TYPE_IF,
+        /*ULIndex*/
+        SOAD_UL_DOIP,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        0,
+        /*RxPduId*/
+        DoIP_SoAd_DoIPDefaultConfig_SoAd_To_DoIP_UDP,
+        /*RoutingCtrlList*/
+        &SoAd_SocketRoute_RoutingGroupCtrlList[0]
+    },
+    {
+        /*RxPduHeaderId*/
+        0x0,
+        /*ULType*/
+        SOAD_UL_TYPE_TP,
+        /*ULIndex*/
+        SOAD_UL_DOIP,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        1,
+        /*RxPduId*/
+        DoIP_SoAd_DoIPDefaultConfig_SoAd_To_DoIP_TCP0,
+        /*RoutingCtrlList*/
+        &SoAd_SocketRoute_RoutingGroupCtrlList[1]
+    },
+    {
+        /*RxPduHeaderId*/
+        0x0,
+        /*ULType*/
+        SOAD_UL_TYPE_TP,
+        /*ULIndex*/
+        SOAD_UL_DOIP,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        2,
+        /*RxPduId*/
+        DoIP_SoAd_DoIPDefaultConfig_SoAd_To_DoIP_TCP1,
+        /*RoutingCtrlList*/
+        &SoAd_SocketRoute_RoutingGroupCtrlList[2]
+    },
+    {
+        /*RxPduHeaderId*/
+        0x0,
+        /*ULType*/
+        SOAD_UL_TYPE_TP,
+        /*ULIndex*/
+        SOAD_UL_DOIP,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        3,
+        /*RxPduId*/
+        DoIP_SoAd_DoIPDefaultConfig_SoAd_To_DoIP_TCP2,
+        /*RoutingCtrlList*/
+        &SoAd_SocketRoute_RoutingGroupCtrlList[3]
+    },
+    {
+        /*RxPduHeaderId*/
+        0x0,
+        /*ULType*/
+        SOAD_UL_TYPE_IF,
+        /*ULIndex*/
+        SOAD_UL_PDUR,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        6,
+        /*RxPduId*/
+        PduR_SoAd_Tcp_Receive,
+        /*RoutingCtrlList*/
+        NULL_PTR
+    },
+    {
+        /*RxPduHeaderId*/
+        0x0,
+        /*ULType*/
+        SOAD_UL_TYPE_IF,
+        /*ULIndex*/
+        SOAD_UL_PDUR,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        7,
+        /*RxPduId*/
+        PduR_SoAd_Udp_Receive,
+        /*RoutingCtrlList*/
+        NULL_PTR
+    },
+    {
+        /*RxPduHeaderId*/
+        0,
+        /*ULType*/
+        SOAD_UL_TYPE_IF,
+        /*ULIndex*/
+        SOAD_UL_XCP,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        4,
+        /*RxPduId*/
+        Xcp_Xcp_Rx,
+        /*RoutingCtrlList*/
+        NULL_PTR
+    },
+    {
+        /*RxPduHeaderId*/
+        0x0,
+        /*ULType*/
+        SOAD_UL_TYPE_IF,
+        /*ULIndex*/
+        SOAD_UL_UDPNM,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        5,
+        /*RxPduId*/
+        UdpNm_SoAd_UdpNm_Rx,
+        /*RoutingCtrlList*/
+        NULL_PTR
+    },
+    {
+        /*RxPduHeaderId*/
+        0x5,
+        /*ULType*/
+        SOAD_UL_TYPE_IF,
+        /*ULIndex*/
+        SOAD_UL_PDUR,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        8,
+        /*RxPduId*/
+        PduR_SoAd_Tcp_Receive_1601,
+        /*RoutingCtrlList*/
+        NULL_PTR
+    },
+    {
+        /*RxPduHeaderId*/
+        0x6,
+        /*ULType*/
+        SOAD_UL_TYPE_IF,
+        /*ULIndex*/
+        SOAD_UL_PDUR,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        9,
+        /*RxPduId*/
+        PduR_SoAd_Tcp_Receive_1602,
+        /*RoutingCtrlList*/
+        NULL_PTR
+    },
+    {
+        /*RxPduHeaderId*/
+        0x7,
+        /*ULType*/
+        SOAD_UL_TYPE_IF,
+        /*ULIndex*/
+        SOAD_UL_PDUR,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        11,
+        /*RxPduId*/
+        PduR_SoAd_Tcp_Receive_1603,
+        /*RoutingCtrlList*/
+        NULL_PTR
+    },
+    {
+        /*RxPduHeaderId*/
+        0x8,
+        /*ULType*/
+        SOAD_UL_TYPE_IF,
+        /*ULIndex*/
+        SOAD_UL_PDUR,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        12,
+        /*RxPduId*/
+        PduR_SoAd_Tcp_Receive_1604,
+        /*RoutingCtrlList*/
+        NULL_PTR
+    },
+    {
+        /*RxPduHeaderId*/
+        0x9,
+        /*ULType*/
+        SOAD_UL_TYPE_IF,
+        /*ULIndex*/
+        SOAD_UL_PDUR,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        13,
+        /*RxPduId*/
+        PduR_SoAd_Tcp_Receive_1605,
+        /*RoutingCtrlList*/
+        NULL_PTR
+    },
+    {
+        /*RxPduHeaderId*/
+        0x10,
+        /*ULType*/
+        SOAD_UL_TYPE_IF,
+        /*ULIndex*/
+        SOAD_UL_PDUR,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        14,
+        /*RxPduId*/
+        PduR_SoAd_Tcp_Receive_1606,
+        /*RoutingCtrlList*/
+        NULL_PTR
+    },
+    {
+        /*RxPduHeaderId*/
+        0x11,
+        /*ULType*/
+        SOAD_UL_TYPE_IF,
+        /*ULIndex*/
+        SOAD_UL_PDUR,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        15,
+        /*RxPduId*/
+        PduR_SoAd_Tcp_Receive_1607,
+        /*RoutingCtrlList*/
+        NULL_PTR
+    },
+    {
+        /*RxPduHeaderId*/
+        0x12,
+        /*ULType*/
+        SOAD_UL_TYPE_IF,
+        /*ULIndex*/
+        SOAD_UL_PDUR,
+        /*SoConNum*/
+        1,
+        /*SoConId*/
+        16,
+        /*RxPduId*/
+        PduR_SoAd_Tcp_Receive_1608,
+        /*RoutingCtrlList*/
+        NULL_PTR
+    }
+};
+
+/* SoAdRoutingGroup */
+CONST(SoAd_PduRouteDestIdType, SOAD_CONST) SoAdRoutingGroup_DefaultON_PduRouteDestList[4] = 
+{
+    0,
+    1,
+    2,
+    3
+};
+CONST(SoAd_SocketRouteIdType, SOAD_CONST) SoAdRoutingGroup_DefaultON_SocketRouteDestList[4] = 
+{
+    0,
+    1,
+    2,
+    3
+};
+CONST(SoAd_RoutingGroupType, SOAD_CONST) SoAd_RoutingGroupList[1] =
+{
+    {
+        /*CtrlFlag*/
+        0x2,
+        /*PduRouteDestNum*/
+        4,
+        /*SocketRouteDestNum*/
+        4,
+        /*PduRouteDestList*/
+        SoAdRoutingGroup_DefaultON_PduRouteDestList,
+        /*SocketRouteDestList*/
+        SoAdRoutingGroup_DefaultON_SocketRouteDestList
+    }
+};
+
+
+CONST(SoAd_ConfigType, SOAD_CONST) SoAd_Config =
+{
+    /*SoConNum*/
+    SOAD_SOCON_MAX,
+    /*SoConGroupNum*/
+    21,
+    /*PduRouteNum*/
+    15,
+    /*SocketRouteNum*/
+    16,
+    /*RoutingGroupNum*/
+    1,
+    /*LocalIpStateNum*/
+    1,
+    /*PduRouteDestNum*/
+    15,
+    /*BufferLength*/
+    41175,
+    /*IfTriggerBufferLength*/
+    0,
+    /*Buffer*/
+    SoAd_Buffer,
+    /*SharedSocketIdList*/
+    SoAd_SharedSocketIdList,
+    /*LocalIpStateList*/
+    SoAd_LocalIpStateList,
+    /*IfTxUnconfirmList*/
+    SoAd_IfTxUnconfirmList,
+    /*SoConList*/
+    SoAd_SoConList,
+    /*SoConGroupList*/
+    SoAd_SoConGroupList,
+    /*PduRouteList*/
+    SoAd_PduRouteList,
+    /*PduRouteDestList*/
+    SoAd_PduRouteDestList,
+    /*SocketRouteList*/
+    SoAd_SocketRouteList,
+    /*SoAd_RoutingGroupList*/
+    SoAd_RoutingGroupList,
+};
+
+#define SOAD_STOP_SEC_CONFIG_DATA_UNSPECIFIED
+#include "MemMap.h"
+

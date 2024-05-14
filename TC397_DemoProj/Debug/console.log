@@ -1,0 +1,42 @@
+
+**** Build of configuration Debug for project TC397_DemoProj ****
+
+"C:\\tasking\\ctc\\bin\\amk" -j16 all 
+Compiling Vfx_ComE2E.c
+ctc W545: ["..\EAS\Library\Vfx_ComE2E\Vfx_ComE2E.c" 409/84] missing 'return'
+ctc W545: ["..\EAS\Library\Vfx_ComE2E\Vfx_ComE2E.c" 410/79] missing 'return'
+ctc W545: ["..\EAS\Library\Vfx_ComE2E\Vfx_ComE2E.c" 411/83] missing 'return'
+ctc W545: ["..\EAS\Library\Vfx_ComE2E\Vfx_ComE2E.c" 412/87] missing 'return'
+ctc W545: ["..\EAS\Library\Vfx_ComE2E\Vfx_ComE2E.c" 413/86] missing 'return'
+ctc W545: ["..\EAS\Library\Vfx_ComE2E\Vfx_ComE2E.c" 414/80] missing 'return'
+ctc W545: ["..\EAS\Library\Vfx_ComE2E\Vfx_ComE2E.c" 415/74] missing 'return'
+ctc W545: ["..\EAS\Library\Vfx_ComE2E\Vfx_ComE2E.c" 416/80] missing 'return'
+ctc W545: ["..\EAS\Library\Vfx_ComE2E\Vfx_ComE2E.c" 417/72] missing 'return'
+ctc W545: ["..\EAS\Library\Vfx_ComE2E\Vfx_ComE2E.c" 418/74] missing 'return'
+ctc W545: ["..\EAS\Library\Vfx_ComE2E\Vfx_ComE2E.c" 419/80] missing 'return'
+ctc W545: ["..\EAS\Library\Vfx_ComE2E\Vfx_ComE2E.c" 420/75] missing 'return'
+ctc W545: ["..\EAS\Library\Vfx_ComE2E\Vfx_ComE2E.c" 421/76] missing 'return'
+ctc W545: ["..\EAS\Library\Vfx_ComE2E\Vfx_ComE2E.c" 422/77] missing 'return'
+ctc W545: ["..\EAS\Library\Vfx_ComE2E\Vfx_ComE2E.c" 423/82] missing 'return'
+ctc W545: ["..\EAS\Library\Vfx_ComE2E\Vfx_ComE2E.c" 424/81] missing 'return'
+ctc W545: ["..\EAS\Library\Vfx_ComE2E\Vfx_ComE2E.c" 425/91] missing 'return'
+ctc W545: ["..\EAS\Library\Vfx_ComE2E\Vfx_ComE2E.c" 428/71] missing 'return'
+ctc W545: ["..\EAS\Library\Vfx_ComE2E\Vfx_ComE2E.c" 429/71] missing 'return'
+ctc W545: ["..\EAS\Library\Vfx_ComE2E\Vfx_ComE2E.c" 430/71] missing 'return'
+ctc W545: ["..\EAS\Library\Vfx_ComE2E\Vfx_ComE2E.c" 431/75] missing 'return'
+ctc W537: ["..\EAS\Library\Vfx_ComE2E\Vfx_ComE2E.c" 34/40] unused variable "ComE2E_ProtectState_ACAN_ADAS_01"
+ctc W537: ["..\EAS\Library\Vfx_ComE2E\Vfx_ComE2E.c" 35/40] unused variable "ComE2E_ProtectState_ACAN_ADAS_02"
+ctc W537: ["..\EAS\Library\Vfx_ComE2E\Vfx_ComE2E.c" 36/40] unused variable "ComE2E_ProtectState_ACAN_ADAS_03"
+ctc W537: ["..\EAS\Library\Vfx_ComE2E\Vfx_ComE2E.c" 37/40] unused variable "ComE2E_ProtectState_ACAN_ADAS_Info23"
+0 errors, 25 warnings
+Linking to TC397_DemoProj.elf
+
+Time consumed: 30116 ms
+**** End of build ****
+
+Tool info: 
+TASKING VX-toolset for TriCore: assembler v6.2r2 Build 18041957
+TASKING VX-toolset for TriCore: object link v6.2r2 Build 18041957 SN 09003395
+TASKING program builder v6.2r2 Build 18041957
+TASKING VX-toolset for TriCore: control program v6.2r2 Build 18041957
+TASKING VX-toolset for TriCore: C compiler v6.2r2 Build 18041957 SN 09003395

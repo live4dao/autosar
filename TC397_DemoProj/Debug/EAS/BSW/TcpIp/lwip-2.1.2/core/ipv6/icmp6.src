@@ -1,0 +1,1043 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.2r2 Build 18041957 SN 09003395"
+	.compiler_invocation	"ctc -f cc22796a --dep-file=EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv6\\.icmp6.o.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc39x -D__CPU_TC39X__ --core=tc1.6.2 --fp-model=+float -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Cfg_Ssw -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Cfg_Ssw\\TC39B -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Integration -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr\\TC39xB -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr\\TC39xB\\_Reg -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw\\TC39B -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw\\TC39B\\Tricore -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\inc\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Lib -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\App_Func -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\demo -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Adc_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Gtm_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\AscLin_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Can_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\EthV2_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Stm_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Main -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\APP -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\BswM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanNm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanSm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanTp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanTSyn -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Com -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\ComM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Common -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Crc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Dcm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Dem -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Det -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\DoIP -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EcuM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Eth -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthSM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthTrcv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthTSyn -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\FiM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\FlsTst -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\MemIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Nm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\NvM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS\\Kernel -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS\\Portable -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\PduR -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\RamTst -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\SoAd -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\StbM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\api -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\arch -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv6 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\arpa -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\net -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\sys -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\stdc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\apps -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\priv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\prot -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif\\ppp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif\\ppp\\polarssl -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\polarssl -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\UdpNm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\WdgIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\WdgM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Cal -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Daq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Pag -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Pgm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Std -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\XcpOnEth -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Callout -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Config -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Library\\Vfx_ComE2E -g2 --make-target=EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv6\\icmp6.o -t2 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O1 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv6\\icmp6.src ..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv6\\icmp6.c"
+	.compiler_name		"ctc"
+	;source	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv6\\icmp6.c'
+
+	
+$TC162
+	
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L3:
+	.word	4548
+	.half	3
+	.word	.L4
+	.byte	4
+.L2:
+	.byte	1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv6\\icmp6.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L5
+	.byte	2,1,3
+	.word	169
+	.byte	4
+	.byte	'__codeptr',0,1,1,1
+	.word	171
+	.byte	5
+	.byte	'unsigned char',0,1,8,4
+	.byte	'boolean',0,2,102,29
+	.word	194
+	.byte	4
+	.byte	'uint8',0,2,106,29
+	.word	194
+	.byte	5
+	.byte	'unsigned short int',0,2,7,4
+	.byte	'uint16',0,2,110,29
+	.word	241
+	.byte	5
+	.byte	'unsigned long int',0,4,7,4
+	.byte	'uint32',0,2,114,29
+	.word	278
+	.byte	4
+	.byte	'Std_ReturnType',0,3,109,16
+	.word	194
+	.byte	4
+	.byte	'PduIdType',0,4,37,21
+	.word	194
+	.byte	4
+	.byte	'PduLengthType',0,4,41,22
+	.word	241
+	.byte	6,5,101,9,1,7
+	.byte	'BUFREQ_OK',0,0,7
+	.byte	'BUFREQ_E_NOT_OK',0,1,7
+	.byte	'BUFREQ_E_BUSY',0,2,7
+	.byte	'BUFREQ_E_OVFL',0,3,0,4
+	.byte	'BufReq_ReturnType',0,5,107,3
+	.word	377
+	.byte	3
+	.word	194
+	.byte	4
+	.byte	'SduDataPtrType',0,5,189,1,40
+	.word	471
+	.byte	6,5,204,1,9,1,7
+	.byte	'TP_DATACONF',0,0,7
+	.byte	'TP_DATARETRY',0,1,7
+	.byte	'TP_CONFPENDING',0,2,0,4
+	.byte	'TpDataStateType',0,5,216,1,3
+	.word	500
+	.byte	4
+	.byte	'TcpIp_SocketIdType',0,6,50,16
+	.word	194
+	.byte	8,4
+	.word	278
+	.byte	9,0,0,10,6,52,9,4,11
+	.byte	'Addr',0
+	.word	605
+	.byte	4,2,35,0,0,4
+	.byte	'TcpIp_IpAddressType',0,6,55,3
+	.word	614
+	.byte	4
+	.byte	'TcpIp_DomainType',0,6,61,16
+	.word	241
+	.byte	10,6,68,9,8,11
+	.byte	'Domain',0
+	.word	241
+	.byte	2,2,35,0,11
+	.byte	'Port',0
+	.word	241
+	.byte	2,2,35,2,11
+	.byte	'Addr',0
+	.word	605
+	.byte	4,2,35,4,0,4
+	.byte	'TcpIp_SockAddrInetType',0,6,73,3
+	.word	687
+	.byte	4
+	.byte	'TcpIp_AddressType',0,7,128,1,15
+	.word	194
+	.byte	4
+	.byte	'TcpIp_CtrlIdType',0,7,142,1,15
+	.word	194
+	.byte	4
+	.byte	'TcpIp_IpAddrStateType',0,7,144,1,15
+	.word	194
+	.byte	4
+	.byte	'TcpIp_LocalAddrAssignmentConfigType',0,7,149,1,15
+	.word	194
+	.byte	4
+	.byte	'TcpIp_StaticAddrIdType',0,7,151,1,15
+	.word	194
+	.byte	10,7,152,1,9,12,11
+	.byte	'State',0
+	.word	194
+	.byte	1,2,35,0,11
+	.byte	'Netmask',0
+	.word	194
+	.byte	1,2,35,1,11
+	.byte	'Domain',0
+	.word	241
+	.byte	2,2,35,2,11
+	.byte	'IpAddr',0
+	.word	614
+	.byte	4,2,35,4,11
+	.byte	'DefaultRouter',0
+	.word	614
+	.byte	4,2,35,8,0,4
+	.byte	'TcpIp_StaticIpAddrType',0,7,162,1,3
+	.word	929
+	.byte	4
+	.byte	'TcpIp_LocalAddrIdType',0,7,173,1,15
+	.word	194
+	.byte	8,3
+	.word	194
+	.byte	9,2,0,10,7,231,1,9,8,11
+	.byte	'CtrlId',0
+	.word	194
+	.byte	1,2,35,0,11
+	.byte	'Address',0
+	.word	194
+	.byte	1,2,35,1,11
+	.byte	'Domain',0
+	.word	241
+	.byte	2,2,35,2,11
+	.byte	'StaticAddrId',0
+	.word	194
+	.byte	1,2,35,4,11
+	.byte	'Assignments',0
+	.word	1086
+	.byte	3,2,35,5,0,4
+	.byte	'TcpIp_LocalAddrConfigType',0,7,243,1,3
+	.word	1095
+	.byte	10,7,245,1,9,4,11
+	.byte	'ArpConfigId',0
+	.word	194
+	.byte	1,2,35,0,11
+	.byte	'DHCPConfigId',0
+	.word	194
+	.byte	1,2,35,1,11
+	.byte	'AutoIpInitTimeout',0
+	.word	241
+	.byte	2,2,35,2,0,4
+	.byte	'TcpIp_IpV4CtrlConfigType',0,7,130,2,3
+	.word	1229
+	.byte	10,7,133,2,9,8,11
+	.byte	'CtrlIdx',0
+	.word	194
+	.byte	1,2,35,0,11
+	.byte	'FramePrio',0
+	.word	194
+	.byte	1,2,35,1,11
+	.byte	'UnicastAddrId',0
+	.word	194
+	.byte	1,2,35,2,11
+	.byte	'UnicastAddrLimit',0
+	.word	194
+	.byte	1,2,35,3,11
+	.byte	'MulticastAddrId',0
+	.word	194
+	.byte	1,2,35,4,11
+	.byte	'LocalAddrLimit',0
+	.word	194
+	.byte	1,2,35,5,11
+	.byte	'IpV4CtrlId',0
+	.word	194
+	.byte	1,2,35,6,11
+	.byte	'IpV6CtrlId',0
+	.word	194
+	.byte	1,2,35,7,0,4
+	.byte	'TcpIp_NetIfCtrlConfigType',0,7,148,2,3
+	.word	1340
+	.byte	4
+	.byte	'SoAd_RoutingGroupIdType',0,8,43,15
+	.word	194
+	.byte	4
+	.byte	'SoAd_SoConIdType',0,8,44,15
+	.word	194
+	.byte	4
+	.byte	'SoAd_SoConGroupIdType',0,8,45,15
+	.word	194
+	.byte	4
+	.byte	'SoAd_PduRouteIdType',0,8,46,15
+	.word	194
+	.byte	4
+	.byte	'SoAd_PduRouteDestIdType',0,8,47,15
+	.word	194
+	.byte	4
+	.byte	'SoAd_SocketRouteIdType',0,8,48,15
+	.word	194
+	.byte	4
+	.byte	'SoAd_IfTxUnconfirmedType',0,8,49,16
+	.word	241
+	.byte	4
+	.byte	'SoAd_IfTxTimerType',0,8,51,16
+	.word	241
+	.byte	8,1
+	.word	194
+	.byte	9,0,0,10,8,53,9,2,11
+	.byte	'Mask',0
+	.word	1794
+	.byte	1,2,35,0,11
+	.byte	'RoutingState',0
+	.word	1794
+	.byte	1,2,35,1,0,4
+	.byte	'SoAd_RoutingGroupCtrlType',0,8,57,3
+	.word	1803
+	.byte	6,8,63,9,1,7
+	.byte	'SOAD_UL_DOIP',0,0,7
+	.byte	'SOAD_UL_UDPNM',0,1,7
+	.byte	'SOAD_UL_PDUR',0,2,7
+	.byte	'SOAD_UL_XCP',0,3,7
+	.byte	'SOAD_UL_MAX',0,4,0,4
+	.byte	'SoAd_ULIndexType',0,8,71,3
+	.word	1879
+	.byte	4
+	.byte	'SoAd_RemoteAddressType',0,9,113,32
+	.word	687
+	.byte	6,9,115,9,1,7
+	.byte	'SOAD_SOCON_UNINIT',0,0,7
+	.byte	'SOAD_SOCON_OFFLINE',0,1,7
+	.byte	'SOAD_SOCON_RECONN',0,2,7
+	.byte	'SOAD_SOCON_ONLINE',0,3,0,4
+	.byte	'SoAd_SoConModeType',0,9,121,3
+	.word	2015
+	.byte	12
+	.word	194
+	.byte	3
+	.word	2129
+	.byte	12
+	.word	194
+	.byte	3
+	.word	2139
+	.byte	12
+	.word	194
+	.byte	3
+	.word	2149
+	.byte	12
+	.word	1879
+	.byte	3
+	.word	2159
+	.byte	10,9,129,1,9,36,11
+	.byte	'IfBufferLength',0
+	.word	241
+	.byte	2,2,35,0,11
+	.byte	'IfBufferOffset',0
+	.word	241
+	.byte	2,2,35,2,11
+	.byte	'TpBufferLength',0
+	.word	241
+	.byte	2,2,35,4,11
+	.byte	'TpBufferOffset',0
+	.word	241
+	.byte	2,2,35,6,11
+	.byte	'PduRouteNum',0
+	.word	194
+	.byte	1,2,35,8,11
+	.byte	'SocketRouteNum',0
+	.word	194
+	.byte	1,2,35,9,11
+	.byte	'PduRouteDestNum',0
+	.word	194
+	.byte	1,2,35,10,11
+	.byte	'RemoteAddrState',0
+	.word	194
+	.byte	1,2,35,11,11
+	.byte	'RemoteAddr',0
+	.word	687
+	.byte	8,2,35,12,11
+	.byte	'PduRouteDestList',0
+	.word	2134
+	.byte	4,2,35,20,11
+	.byte	'PduRouteList',0
+	.word	2144
+	.byte	4,2,35,24,11
+	.byte	'SocketRouteList',0
+	.word	2154
+	.byte	4,2,35,28,11
+	.byte	'SoConModeChgList',0
+	.word	2164
+	.byte	4,2,35,32,0,4
+	.byte	'SoAd_SocketConnectionType',0,9,146,1,3
+	.word	2169
+	.byte	10,9,148,1,9,16,11
+	.byte	'CtrlFlag',0
+	.word	194
+	.byte	1,2,35,0,11
+	.byte	'KeepAliveProbesMax',0
+	.word	241
+	.byte	2,2,35,2,11
+	.byte	'KeepAliveInterval',0
+	.word	278
+	.byte	4,2,35,4,11
+	.byte	'KeepAliveTime',0
+	.word	278
+	.byte	4,2,35,8,11
+	.byte	'TxQuota',0
+	.word	278
+	.byte	4,2,35,12,0,4
+	.byte	'SoAd_TcpProtocolType',0,9,155,1,3
+	.word	2521
+	.byte	10,9,157,1,9,12,11
+	.byte	'CtrlFlag',0
+	.word	194
+	.byte	1,2,35,0,11
+	.byte	'nPduTxBufferMin',0
+	.word	241
+	.byte	2,2,35,2,11
+	.byte	'TriggerTimeout',0
+	.word	241
+	.byte	2,2,35,4,11
+	.byte	'AliveSupervisionTimeout',0
+	.word	278
+	.byte	4,2,35,6,0,4
+	.byte	'SoAd_UdpProtocolType',0,9,163,1,3
+	.word	2671
+	.byte	12
+	.word	2521
+	.byte	3
+	.word	2808
+	.byte	12
+	.word	2671
+	.byte	3
+	.word	2818
+	.byte	10,9,165,1,9,24,11
+	.byte	'GroupId',0
+	.word	194
+	.byte	1,2,35,0,11
+	.byte	'CtrlFlag',0
+	.word	194
+	.byte	1,2,35,1,11
+	.byte	'FramePriority',0
+	.word	194
+	.byte	1,2,35,2,11
+	.byte	'SoConNum',0
+	.word	194
+	.byte	1,2,35,3,11
+	.byte	'SoConId',0
+	.word	194
+	.byte	1,2,35,4,11
+	.byte	'IpAddrAssignChgNum',0
+	.word	194
+	.byte	1,2,35,5,11
+	.byte	'LocalAddrId',0
+	.word	194
+	.byte	1,2,35,6,11
+	.byte	'LocalPort',0
+	.word	241
+	.byte	2,2,35,8,11
+	.byte	'IpAddrAssignChgList',0
+	.word	2164
+	.byte	4,2,35,12,11
+	.byte	'TcpProtocolPtr',0
+	.word	2813
+	.byte	4,2,35,16,11
+	.byte	'UdpProtocolPtr',0
+	.word	2823
+	.byte	4,2,35,20,0,4
+	.byte	'SoAd_SocketConnectionGroupType',0,9,178,1,3
+	.word	2828
+	.byte	12
+	.word	194
+	.byte	3
+	.word	3113
+	.byte	10,9,180,1,9,12,11
+	.byte	'CtrlFlag',0
+	.word	194
+	.byte	1,2,35,0,11
+	.byte	'PduRouteDestNum',0
+	.word	194
+	.byte	1,2,35,1,11
+	.byte	'SocketRouteDestNum',0
+	.word	194
+	.byte	1,2,35,2,11
+	.byte	'PduRouteDestList',0
+	.word	3118
+	.byte	4,2,35,4,11
+	.byte	'SocketRouteDestList',0
+	.word	3118
+	.byte	4,2,35,8,0,4
+	.byte	'SoAd_RoutingGroupType',0,9,187,1,3
+	.word	3123
+	.byte	10,9,189,1,9,6,11
+	.byte	'ULType',0
+	.word	194
+	.byte	1,2,35,0,11
+	.byte	'ULIndex',0
+	.word	1879
+	.byte	1,2,35,1,11
+	.byte	'CtrlFlag',0
+	.word	194
+	.byte	1,2,35,2,11
+	.byte	'RouteDestNum',0
+	.word	194
+	.byte	1,2,35,3,11
+	.byte	'RouteDestId',0
+	.word	194
+	.byte	1,2,35,4,11
+	.byte	'TxPduId',0
+	.word	194
+	.byte	1,2,35,5,0,4
+	.byte	'SoAd_PduRouteType',0,9,204,1,3
+	.word	3287
+	.byte	3
+	.word	1803
+	.byte	10,9,206,1,9,20,11
+	.byte	'TxPduHeaderId',0
+	.word	278
+	.byte	4,2,35,0,11
+	.byte	'SoConNum',0
+	.word	194
+	.byte	1,2,35,4,11
+	.byte	'SoConId',0
+	.word	194
+	.byte	1,2,35,5,11
+	.byte	'PduRouteId',0
+	.word	194
+	.byte	1,2,35,6,11
+	.byte	'UdpTriggerMode',0
+	.word	194
+	.byte	1,2,35,7,11
+	.byte	'UdpTriggerTimeout',0
+	.word	241
+	.byte	2,2,35,8,11
+	.byte	'RoutingCtrlList',0
+	.word	3432
+	.byte	4,2,35,12,11
+	.byte	'IfTriggerList',0
+	.word	471
+	.byte	4,2,35,16,0,4
+	.byte	'SoAd_PduRouteDestType',0,9,217,1,3
+	.word	3437
+	.byte	10,9,219,1,9,16,11
+	.byte	'RxPduHeaderId',0
+	.word	278
+	.byte	4,2,35,0,11
+	.byte	'ULType',0
+	.word	194
+	.byte	1,2,35,4,11
+	.byte	'ULIndex',0
+	.word	1879
+	.byte	1,2,35,5,11
+	.byte	'SoConNum',0
+	.word	194
+	.byte	1,2,35,6,11
+	.byte	'SoConId',0
+	.word	194
+	.byte	1,2,35,7,11
+	.byte	'RxPduId',0
+	.word	194
+	.byte	1,2,35,8,11
+	.byte	'RoutingCtrlList',0
+	.word	3432
+	.byte	4,2,35,12,0,4
+	.byte	'SoAd_SocketRouteType',0,9,236,1,3
+	.word	3652
+	.byte	12
+	.word	3437
+	.byte	3
+	.word	3822
+	.byte	10,9,155,2,9,24,11
+	.byte	'State',0
+	.word	194
+	.byte	1,2,35,0,11
+	.byte	'Timer',0
+	.word	241
+	.byte	2,2,35,2,11
+	.byte	'BufferLength',0
+	.word	241
+	.byte	2,2,35,4,11
+	.byte	'BufferOffset',0
+	.word	241
+	.byte	2,2,35,6,11
+	.byte	'UdpTxBuffer',0
+	.word	471
+	.byte	4,2,35,8,11
+	.byte	'TotalTxLength',0
+	.word	241
+	.byte	2,2,35,12,11
+	.byte	'UsedTxLength',0
+	.word	241
+	.byte	2,2,35,14,11
+	.byte	'IfTxDataBuffer',0
+	.word	3118
+	.byte	4,2,35,16,11
+	.byte	'PduRouteDestPtr',0
+	.word	3827
+	.byte	4,2,35,20,0,4
+	.byte	'SoAd_TxSessionType',0,9,177,2,3
+	.word	3832
+	.byte	12
+	.word	3652
+	.byte	3
+	.word	4056
+	.byte	10,9,180,2,9,8,11
+	.byte	'PduLength',0
+	.word	241
+	.byte	2,2,35,0,11
+	.byte	'RemainLength',0
+	.word	241
+	.byte	2,2,35,2,11
+	.byte	'SocketRoutePtr',0
+	.word	4061
+	.byte	4,2,35,4,0,4
+	.byte	'SoAd_RxPduInfoType',0,9,185,2,3
+	.word	4066
+	.byte	10,9,187,2,9,12,11
+	.byte	'TotalLength',0
+	.word	241
+	.byte	2,2,35,0,11
+	.byte	'In',0
+	.word	241
+	.byte	2,2,35,2,11
+	.byte	'Out',0
+	.word	241
+	.byte	2,2,35,4,11
+	.byte	'BufferPtr',0
+	.word	471
+	.byte	4,2,35,8,0,4
+	.byte	'SoAd_RxFifoType',0,9,193,2,3
+	.word	4166
+	.byte	10,9,195,2,9,8,11
+	.byte	'TotalLength',0
+	.word	241
+	.byte	2,2,35,0,11
+	.byte	'UsedLength',0
+	.word	241
+	.byte	2,2,35,2,11
+	.byte	'BufferPtr',0
+	.word	471
+	.byte	4,2,35,4,0,4
+	.byte	'SoAd_RxBufferType',0,9,200,2,3
+	.word	4263
+	.byte	8,8
+	.word	194
+	.byte	9,7,0,10,9,202,2,9,48,11
+	.byte	'State',0
+	.word	194
+	.byte	1,2,35,0,11
+	.byte	'ValidHeaderLen',0
+	.word	194
+	.byte	1,2,35,1,11
+	.byte	'PduHeader',0
+	.word	4357
+	.byte	8,2,35,2,11
+	.byte	'RxPduInfo',0
+	.word	4066
+	.byte	8,2,35,12,11
+	.byte	'ProcessPduInfo',0
+	.word	4066
+	.byte	8,2,35,20,11
+	.byte	'IfBuffer',0
+	.word	4263
+	.byte	8,2,35,28,11
+	.byte	'TpBuffer',0
+	.word	4166
+	.byte	12,2,35,36,0,4
+	.byte	'SoAd_RxSessionType',0,9,216,2,3
+	.word	4366
+	.byte	4
+	.byte	'u8_t',0,10,61,25
+	.word	194
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L4:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,0,0,3,15,0,73,19,0,0,4,22,0,3,8,58,15,59,15
+	.byte	57,15,73,19,0,0,5,36,0,3,8,11,15,62,15,0,0,6,4,1,58,15,59,15,57,15,11,15,0,0,7,40,0,3,8,28,13,0,0,8,1
+	.byte	1,11,15,73,19,0,0,9,33,0,47,15,0,0,10,19,1,58,15,59,15,57,15,11,15,0,0,11,13,0,3,8,73,19,11,15,56,9,0
+	.byte	0,12,38,0,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L5:
+	.word	.L7-.L6
+.L6:
+	.half	3
+	.word	.L9-.L8
+.L8:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Config',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\SoAd',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\arch',0,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv6\\icmp6.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0
+	.byte	'Std_Types.h',0,1,0,0
+	.byte	'ComStack_Types_Cfg.h',0,2,0,0
+	.byte	'ComStack_Types.h',0,3,0,0
+	.byte	'TcpIp_GeneratedTypes.h',0,2,0,0
+	.byte	'TcpIp_Types.h',0,4,0,0
+	.byte	'SoAd_GeneratedTypes.h',0,2,0,0
+	.byte	'SoAd_Types.h',0,5,0,0
+	.byte	'cc.h',0,6,0,0,0
+.L9:
+.L7:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	     1  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	     2   * @file
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	     3   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	     4   * IPv6 version of ICMP, as per RFC 4443.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	     5   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	     6  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	     7  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	     8   * Copyright (c) 2010 Inico Technologies Ltd.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	     9   * All rights reserved.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    10   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    11   * Redistribution and use in source and binary forms, with or without modification,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    12   * are permitted provided that the following conditions are met:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    13   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    14   * 1. Redistributions of source code must retain the above copyright notice,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    15   *    this list of conditions and the following disclaimer.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    16   * 2. Redistributions in binary form must reproduce the above copyright notice,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    17   *    this list of conditions and the following disclaimer in the documentation
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    18   *    and/or other materials provided with the distribution.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    19   * 3. The name of the author may not be used to endorse or promote products
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    20   *    derived from this software without specific prior written permission.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    21   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    22   * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    23   * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    24   * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    25   * SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    26   * EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    27   * OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    28   * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    29   * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    30   * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    31   * OF SUCH DAMAGE.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    32   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    33   * This file is part of the lwIP TCP/IP stack.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    34   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    35   * Author: Ivan Delamer <delamer@inicotech.com>
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    36   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    37   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    38   * Please coordinate changes and requests with Ivan Delamer
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    39   * <delamer@inicotech.com>
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    40   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    41  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    42  #include "lwip/opt.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    43  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    44  #if LWIP_ICMP6 && LWIP_IPV6 /* don't build if not configured for use in lwipopts.h */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    45  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    46  #include "lwip/icmp6.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    47  #include "lwip/prot/icmp6.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    48  #include "lwip/ip6.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    49  #include "lwip/ip6_addr.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    50  #include "lwip/inet_chksum.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    51  #include "lwip/pbuf.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    52  #include "lwip/netif.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    53  #include "lwip/nd6.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    54  #include "lwip/mld6.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    55  #include "lwip/ip.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    56  #include "lwip/stats.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    57  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    58  #include <string.h>
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    59  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    60  #if LWIP_ICMP6_DATASIZE == 0
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    61  #undef LWIP_ICMP6_DATASIZE
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    62  #define LWIP_ICMP6_DATASIZE   8
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    63  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    64  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    65  /* Forward declarations */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    66  static void icmp6_send_response(struct pbuf *p, u8_t code, u32_t data, u8_t type);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    67  static void icmp6_send_response_with_addrs(struct pbuf *p, u8_t code, u32_t data,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    68      u8_t type, const ip6_addr_t *src_addr, const ip6_addr_t *dest_addr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    69  static void icmp6_send_response_with_addrs_and_netif(struct pbuf *p, u8_t code, u32_t data,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    70      u8_t type, const ip6_addr_t *src_addr, const ip6_addr_t *dest_addr, struct netif *netif);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    71  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    72  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    73  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    74   * Process an input ICMPv6 message. Called by ip6_input.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    75   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    76   * Will generate a reply for echo requests. Other messages are forwarded
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    77   * to nd6_input, or mld6_input.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    78   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    79   * @param p the mld packet, p->payload pointing to the icmpv6 header
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    80   * @param inp the netif on which this packet was received
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    81   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    82  void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    83  icmp6_input(struct pbuf *p, struct netif *inp)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    84  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    85    struct icmp6_hdr *icmp6hdr;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    86    struct pbuf *r;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    87    const ip6_addr_t *reply_src;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    88  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    89    ICMP6_STATS_INC(icmp6.recv);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    90  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    91    /* Check that ICMPv6 header fits in payload */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    92    if (p->len < sizeof(struct icmp6_hdr)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    93      /* drop short packets */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    94      pbuf_free(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    95      ICMP6_STATS_INC(icmp6.lenerr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    96      ICMP6_STATS_INC(icmp6.drop);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    97      return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    98    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	    99  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   100    icmp6hdr = (struct icmp6_hdr *)p->payload;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   101  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   102  #if CHECKSUM_CHECK_ICMP6
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   103    IF__NETIF_CHECKSUM_ENABLED(inp, NETIF_CHECKSUM_CHECK_ICMP6) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   104      if (ip6_chksum_pseudo(p, IP6_NEXTH_ICMP6, p->tot_len, ip6_current_src_addr(),
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   105                            ip6_current_dest_addr()) != 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   106        /* Checksum failed */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   107        pbuf_free(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   108        ICMP6_STATS_INC(icmp6.chkerr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   109        ICMP6_STATS_INC(icmp6.drop);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   110        return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   111      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   112    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   113  #endif /* CHECKSUM_CHECK_ICMP6 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   114  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   115    switch (icmp6hdr->type) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   116    case ICMP6_TYPE_NA: /* Neighbor advertisement */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   117    case ICMP6_TYPE_NS: /* Neighbor solicitation */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   118    case ICMP6_TYPE_RA: /* Router advertisement */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   119    case ICMP6_TYPE_RD: /* Redirect */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   120    case ICMP6_TYPE_PTB: /* Packet too big */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   121      nd6_input(p, inp);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   122      return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   123    case ICMP6_TYPE_RS:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   124  #if LWIP_IPV6_FORWARD
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   125      /* @todo implement router functionality */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   126  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   127      break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   128  #if LWIP_IPV6_MLD
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   129    case ICMP6_TYPE_MLQ:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   130    case ICMP6_TYPE_MLR:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   131    case ICMP6_TYPE_MLD:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   132      mld6_input(p, inp);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   133      return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   134  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   135    case ICMP6_TYPE_EREQ:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   136  #if !LWIP_MULTICAST_PING
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   137      /* multicast destination address? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   138      if (ip6_addr_ismulticast(ip6_current_dest_addr())) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   139        /* drop */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   140        pbuf_free(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   141        ICMP6_STATS_INC(icmp6.drop);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   142        return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   143      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   144  #endif /* LWIP_MULTICAST_PING */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   145  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   146      /* Allocate reply. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   147      r = pbuf_alloc(PBUF_IP, p->tot_len, PBUF_RAM);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   148      if (r == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   149        /* drop */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   150        pbuf_free(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   151        ICMP6_STATS_INC(icmp6.memerr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   152        return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   153      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   154  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   155      /* Copy echo request. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   156      if (pbuf_copy(r, p) != ERR_OK) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   157        /* drop */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   158        pbuf_free(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   159        pbuf_free(r);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   160        ICMP6_STATS_INC(icmp6.err);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   161        return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   162      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   163  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   164      /* Determine reply source IPv6 address. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   165  #if LWIP_MULTICAST_PING
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   166      if (ip6_addr_ismulticast(ip6_current_dest_addr())) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   167        reply_src = ip_2_ip6(ip6_select_source_address(inp, ip6_current_src_addr()));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   168        if (reply_src == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   169          /* drop */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   170          pbuf_free(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   171          pbuf_free(r);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   172          ICMP6_STATS_INC(icmp6.rterr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   173          return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   174        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   175      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   176      else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   177  #endif /* LWIP_MULTICAST_PING */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   178      {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   179        reply_src = ip6_current_dest_addr();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   180      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   181  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   182      /* Set fields in reply. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   183      ((struct icmp6_echo_hdr *)(r->payload))->type = ICMP6_TYPE_EREP;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   184      ((struct icmp6_echo_hdr *)(r->payload))->chksum = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   185  #if CHECKSUM_GEN_ICMP6
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   186      IF__NETIF_CHECKSUM_ENABLED(inp, NETIF_CHECKSUM_GEN_ICMP6) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   187        ((struct icmp6_echo_hdr *)(r->payload))->chksum = ip6_chksum_pseudo(r,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   188            IP6_NEXTH_ICMP6, r->tot_len, reply_src, ip6_current_src_addr());
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   189      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   190  #endif /* CHECKSUM_GEN_ICMP6 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   191  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   192      /* Send reply. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   193      ICMP6_STATS_INC(icmp6.xmit);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   194      ip6_output_if(r, reply_src, ip6_current_src_addr(),
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   195          LWIP_ICMP6_HL, 0, IP6_NEXTH_ICMP6, inp);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   196      pbuf_free(r);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   197  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   198      break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   199    default:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   200      ICMP6_STATS_INC(icmp6.proterr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   201      ICMP6_STATS_INC(icmp6.drop);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   202      break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   203    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   204  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   205    pbuf_free(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   206  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   207  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   208  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   209  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   210   * Send an icmpv6 'destination unreachable' packet.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   211   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   212   * This function must be used only in direct response to a packet that is being
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   213   * received right now. Otherwise, address zones would be lost.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   214   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   215   * @param p the input packet for which the 'unreachable' should be sent,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   216   *          p->payload pointing to the IPv6 header
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   217   * @param c ICMPv6 code for the unreachable type
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   218   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   219  void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   220  icmp6_dest_unreach(struct pbuf *p, enum icmp6_dur_code c)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   221  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   222    icmp6_send_response(p, c, 0, ICMP6_TYPE_DUR);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   223  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   224  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   225  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   226   * Send an icmpv6 'packet too big' packet.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   227   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   228   * This function must be used only in direct response to a packet that is being
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   229   * received right now. Otherwise, address zones would be lost.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   230   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   231   * @param p the input packet for which the 'packet too big' should be sent,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   232   *          p->payload pointing to the IPv6 header
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   233   * @param mtu the maximum mtu that we can accept
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   234   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   235  void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   236  icmp6_packet_too_big(struct pbuf *p, u32_t mtu)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   237  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   238    icmp6_send_response(p, 0, mtu, ICMP6_TYPE_PTB);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   239  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   240  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   241  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   242   * Send an icmpv6 'time exceeded' packet.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   243   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   244   * This function must be used only in direct response to a packet that is being
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   245   * received right now. Otherwise, address zones would be lost.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   246   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   247   * @param p the input packet for which the 'time exceeded' should be sent,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   248   *          p->payload pointing to the IPv6 header
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   249   * @param c ICMPv6 code for the time exceeded type
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   250   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   251  void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   252  icmp6_time_exceeded(struct pbuf *p, enum icmp6_te_code c)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   253  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   254    icmp6_send_response(p, c, 0, ICMP6_TYPE_TE);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   255  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   256  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   257  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   258   * Send an icmpv6 'time exceeded' packet, with explicit source and destination
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   259   * addresses.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   260   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   261   * This function may be used to send a response sometime after receiving the
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   262   * packet for which this response is meant. The provided source and destination
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   263   * addresses are used primarily to retain their zone information.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   264   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   265   * @param p the input packet for which the 'time exceeded' should be sent,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   266   *          p->payload pointing to the IPv6 header
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   267   * @param c ICMPv6 code for the time exceeded type
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   268   * @param src_addr source address of the original packet, with zone information
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   269   * @param dest_addr destination address of the original packet, with zone
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   270   *                  information
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   271   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   272  void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   273  icmp6_time_exceeded_with_addrs(struct pbuf *p, enum icmp6_te_code c,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   274      const ip6_addr_t *src_addr, const ip6_addr_t *dest_addr)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   275  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   276    icmp6_send_response_with_addrs(p, c, 0, ICMP6_TYPE_TE, src_addr, dest_addr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   277  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   278  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   279  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   280   * Send an icmpv6 'parameter problem' packet.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   281   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   282   * This function must be used only in direct response to a packet that is being
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   283   * received right now. Otherwise, address zones would be lost and the calculated
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   284   * offset would be wrong (calculated against ip6_current_header()).
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   285   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   286   * @param p the input packet for which the 'param problem' should be sent,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   287   *          p->payload pointing to the IP header
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   288   * @param c ICMPv6 code for the param problem type
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   289   * @param pointer the pointer to the byte where the parameter is found
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   290   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   291  void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   292  icmp6_param_problem(struct pbuf *p, enum icmp6_pp_code c, const void *pointer)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   293  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   294    u32_t pointer_u32 = (u32_t)((const u8_t *)pointer - (const u8_t *)ip6_current_header());
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   295    icmp6_send_response(p, c, pointer_u32, ICMP6_TYPE_PP);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   296  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   297  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   298  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   299   * Send an ICMPv6 packet in response to an incoming packet.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   300   * The packet is sent *to* ip_current_src_addr() on ip_current_netif().
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   301   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   302   * @param p the input packet for which the response should be sent,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   303   *          p->payload pointing to the IPv6 header
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   304   * @param code Code of the ICMPv6 header
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   305   * @param data Additional 32-bit parameter in the ICMPv6 header
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   306   * @param type Type of the ICMPv6 header
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   307   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   308  static void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   309  icmp6_send_response(struct pbuf *p, u8_t code, u32_t data, u8_t type)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   310  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   311    const struct ip6_addr *reply_src, *reply_dest;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   312    struct netif *netif = ip_current_netif();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   313  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   314    LWIP_ASSERT("icmpv6 packet not a direct response", netif != NULL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   315    reply_dest = ip6_current_src_addr();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   316  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   317    /* Select an address to use as source. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   318    reply_src = ip_2_ip6(ip6_select_source_address(netif, reply_dest));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   319    if (reply_src == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   320      ICMP6_STATS_INC(icmp6.rterr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   321      return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   322    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   323    icmp6_send_response_with_addrs_and_netif(p, code, data, type, reply_src, reply_dest, netif);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   324  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   325  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   326  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   327   * Send an ICMPv6 packet in response to an incoming packet.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   328   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   329   * Call this function if the packet is NOT sent as a direct response to an
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   330   * incoming packet, but rather sometime later (e.g. for a fragment reassembly
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   331   * timeout). The caller must provide the zoned source and destination addresses
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   332   * from the original packet with the src_addr and dest_addr parameters. The
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   333   * reason for this approach is that while the addresses themselves are part of
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   334   * the original packet, their zone information is not, thus possibly resulting
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   335   * in a link-local response being sent over the wrong link.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   336   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   337   * @param p the input packet for which the response should be sent,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   338   *          p->payload pointing to the IPv6 header
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   339   * @param code Code of the ICMPv6 header
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   340   * @param data Additional 32-bit parameter in the ICMPv6 header
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   341   * @param type Type of the ICMPv6 header
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   342   * @param src_addr original source address
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   343   * @param dest_addr original destination address
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   344   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   345  static void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   346  icmp6_send_response_with_addrs(struct pbuf *p, u8_t code, u32_t data, u8_t type,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   347      const ip6_addr_t *src_addr, const ip6_addr_t *dest_addr)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   348  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   349    const struct ip6_addr *reply_src, *reply_dest;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   350    struct netif *netif;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   351  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   352    /* Get the destination address and netif for this ICMP message. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   353    LWIP_ASSERT("must provide both source and destination", src_addr != NULL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   354    LWIP_ASSERT("must provide both source and destination", dest_addr != NULL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   355  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   356    /* Special case, as ip6_current_xxx is either NULL, or points
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   357       to a different packet than the one that expired. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   358    IP6_ADDR_ZONECHECK(src_addr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   359    IP6_ADDR_ZONECHECK(dest_addr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   360    /* Swap source and destination for the reply. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   361    reply_dest = src_addr;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   362    reply_src = dest_addr;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   363    netif = ip6_route(reply_src, reply_dest);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   364    if (netif == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   365      ICMP6_STATS_INC(icmp6.rterr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   366      return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   367    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   368    icmp6_send_response_with_addrs_and_netif(p, code, data, type, reply_src,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   369      reply_dest, netif);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   370  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   371  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   372  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   373   * Send an ICMPv6 packet (with srd/dst address and netif given).
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   374   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   375   * @param p the input packet for which the response should be sent,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   376   *          p->payload pointing to the IPv6 header
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   377   * @param code Code of the ICMPv6 header
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   378   * @param data Additional 32-bit parameter in the ICMPv6 header
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   379   * @param type Type of the ICMPv6 header
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   380   * @param reply_src source address of the packet to send
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   381   * @param reply_dest destination address of the packet to send
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   382   * @param netif netif to send the packet
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   383   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   384  static void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   385  icmp6_send_response_with_addrs_and_netif(struct pbuf *p, u8_t code, u32_t data, u8_t type,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   386      const ip6_addr_t *reply_src, const ip6_addr_t *reply_dest, struct netif *netif)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   387  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   388    struct pbuf *q;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   389    struct icmp6_hdr *icmp6hdr;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   390  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   391    /* ICMPv6 header + IPv6 header + data */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   392    q = pbuf_alloc(PBUF_IP, sizeof(struct icmp6_hdr) + IP6_HLEN + LWIP_ICMP6_DATASIZE,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   393                   PBUF_RAM);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   394    if (q == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   395      LWIP_DEBUGF(ICMP_DEBUG, ("icmp_time_exceeded: failed to allocate pbuf for ICMPv6 packet.\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   396      ICMP6_STATS_INC(icmp6.memerr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   397      return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   398    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   399    LWIP_ASSERT("check that first pbuf can hold icmp 6message",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   400               (q->len >= (sizeof(struct icmp6_hdr) + IP6_HLEN + LWIP_ICMP6_DATASIZE)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   401  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   402    icmp6hdr = (struct icmp6_hdr *)q->payload;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   403    icmp6hdr->type = type;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   404    icmp6hdr->code = code;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   405    icmp6hdr->data = lwip_htonl(data);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   406  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   407    /* copy fields from original packet */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   408    SMEMCPY((u8_t *)q->payload + sizeof(struct icmp6_hdr), (u8_t *)p->payload,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   409            IP6_HLEN + LWIP_ICMP6_DATASIZE);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   410  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   411    /* calculate checksum */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   412    icmp6hdr->chksum = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   413  #if CHECKSUM_GEN_ICMP6
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   414    IF__NETIF_CHECKSUM_ENABLED(netif, NETIF_CHECKSUM_GEN_ICMP6) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   415      icmp6hdr->chksum = ip6_chksum_pseudo(q, IP6_NEXTH_ICMP6, q->tot_len,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   416        reply_src, reply_dest);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   417    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   418  #endif /* CHECKSUM_GEN_ICMP6 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   419  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   420    ICMP6_STATS_INC(icmp6.xmit);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   421    ip6_output_if(q, reply_src, reply_dest, LWIP_ICMP6_HL, 0, IP6_NEXTH_ICMP6, netif);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   422    pbuf_free(q);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   423  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   424  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv6\icmp6.c	   425  #endif /* LWIP_ICMP6 && LWIP_IPV6 */
+
+	; Module end

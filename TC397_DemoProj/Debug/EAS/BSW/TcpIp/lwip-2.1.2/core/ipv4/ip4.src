@@ -1,0 +1,4997 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.2r2 Build 18041957 SN 09003395"
+	.compiler_invocation	"ctc -f cc16388a --dep-file=EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\.ip4.o.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc39x -D__CPU_TC39X__ --core=tc1.6.2 --fp-model=+float -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Cfg_Ssw -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Cfg_Ssw\\TC39B -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Integration -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr\\TC39xB -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr\\TC39xB\\_Reg -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw\\TC39B -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw\\TC39B\\Tricore -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\inc\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Lib -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\App_Func -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\demo -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Adc_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Gtm_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\AscLin_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Can_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\EthV2_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Stm_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Main -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\APP -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\BswM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanNm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanSm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanTp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanTSyn -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Com -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\ComM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Common -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Crc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Dcm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Dem -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Det -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\DoIP -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EcuM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Eth -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthSM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthTrcv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthTSyn -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\FiM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\FlsTst -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\MemIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Nm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\NvM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS\\Kernel -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS\\Portable -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\PduR -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\RamTst -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\SoAd -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\StbM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\api -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\arch -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv6 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\arpa -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\net -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\sys -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\stdc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\apps -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\priv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\prot -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif\\ppp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif\\ppp\\polarssl -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\polarssl -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\UdpNm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\WdgIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\WdgM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Cal -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Daq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Pag -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Pgm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Std -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\XcpOnEth -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Callout -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Config -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Library\\Vfx_ComE2E -g2 --make-target=EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4.o -t2 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O1 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4.src ..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4.c"
+	.compiler_name		"ctc"
+	;source	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.ip4.ip4_find_netif_by_src',code,cluster('ip4_find_netif_by_src')
+	.sect	'.text.ip4.ip4_find_netif_by_src'
+	.align	2
+	
+	.global	ip4_find_netif_by_src
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	     1  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	     2   * @file
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	     3   * This is the IPv4 layer implementation for incoming and outgoing IP traffic.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	     4   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	     5   * @see ip_frag.c
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	     6   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	     7   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	     8  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	     9  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    10   * Copyright (c) 2001-2004 Swedish Institute of Computer Science.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    11   * All rights reserved.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    12   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    13   * Redistribution and use in source and binary forms, with or without modification,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    14   * are permitted provided that the following conditions are met:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    15   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    16   * 1. Redistributions of source code must retain the above copyright notice,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    17   *    this list of conditions and the following disclaimer.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    18   * 2. Redistributions in binary form must reproduce the above copyright notice,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    19   *    this list of conditions and the following disclaimer in the documentation
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    20   *    and/or other materials provided with the distribution.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    21   * 3. The name of the author may not be used to endorse or promote products
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    22   *    derived from this software without specific prior written permission.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    23   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    24   * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    25   * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    26   * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    27   * SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    28   * EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    29   * OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    30   * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    31   * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    32   * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    33   * OF SUCH DAMAGE.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    34   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    35   * This file is part of the lwIP TCP/IP stack.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    36   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    37   * Author: Adam Dunkels <adam@sics.se>
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    38   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    39   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    40  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    41  #include "lwip/opt.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    42  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    43  #if LWIP_IPV4
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    44  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    45  #include "lwip/ip.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    46  #include "lwip/def.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    47  #include "lwip/mem.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    48  #include "lwip/ip4_frag.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    49  #include "lwip/inet_chksum.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    50  #include "lwip/netif.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    51  #include "lwip/icmp.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    52  #include "lwip/igmp.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    53  #include "lwip/priv/raw_priv.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    54  #include "lwip/udp.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    55  #include "lwip/priv/tcp_priv.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    56  #include "lwip/autoip.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    57  #include "lwip/stats.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    58  #include "lwip/prot/iana.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    59  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    60  #include <string.h>
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    61  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    62  #ifdef LWIP_HOOK_FILENAME
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    63  #include LWIP_HOOK_FILENAME
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    64  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    65  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    66  /** Set this to 0 in the rare case of wanting to call an extra function to
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    67   * generate the IP checksum (in contrast to calculating it on-the-fly). */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    68  #ifndef LWIP_INLINE_IP_CHKSUM
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    69  #if LWIP_CHECKSUM_CTRL_PER_NETIF
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    70  #define LWIP_INLINE_IP_CHKSUM   0
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    71  #else /* LWIP_CHECKSUM_CTRL_PER_NETIF */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    72  #define LWIP_INLINE_IP_CHKSUM   1
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    73  #endif /* LWIP_CHECKSUM_CTRL_PER_NETIF */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    74  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    75  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    76  #if LWIP_INLINE_IP_CHKSUM && CHECKSUM_GEN_IP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    77  #define CHECKSUM_GEN_IP_INLINE  1
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    78  #else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    79  #define CHECKSUM_GEN_IP_INLINE  0
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    80  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    81  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    82  #if LWIP_DHCP || defined(LWIP_IP_ACCEPT_UDP_PORT)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    83  #define IP_ACCEPT_LINK_LAYER_ADDRESSING 1
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    84  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    85  /** Some defines for DHCP to let link-layer-addressed packets through while the
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    86   * netif is down.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    87   * To use this in your own application/protocol, define LWIP_IP_ACCEPT_UDP_PORT(port)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    88   * to return 1 if the port is accepted and 0 if the port is not accepted.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    89   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    90  #if LWIP_DHCP && defined(LWIP_IP_ACCEPT_UDP_PORT)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    91  /* accept DHCP client port and custom port */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    92  #define IP_ACCEPT_LINK_LAYER_ADDRESSED_PORT(port) (((port) == PP_NTOHS(LWIP_IANA_PORT_DHCP_CLIENT)) \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    93           || (LWIP_IP_ACCEPT_UDP_PORT(port)))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    94  #elif defined(LWIP_IP_ACCEPT_UDP_PORT) /* LWIP_DHCP && defined(LWIP_IP_ACCEPT_UDP_PORT) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    95  /* accept custom port only */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    96  #define IP_ACCEPT_LINK_LAYER_ADDRESSED_PORT(port) (LWIP_IP_ACCEPT_UDP_PORT(port))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    97  #else /* LWIP_DHCP && defined(LWIP_IP_ACCEPT_UDP_PORT) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    98  /* accept DHCP client port only */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	    99  #define IP_ACCEPT_LINK_LAYER_ADDRESSED_PORT(port) ((port) == PP_NTOHS(LWIP_IANA_PORT_DHCP_CLIENT))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   100  #endif /* LWIP_DHCP && defined(LWIP_IP_ACCEPT_UDP_PORT) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   101  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   102  #else /* LWIP_DHCP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   103  #define IP_ACCEPT_LINK_LAYER_ADDRESSING 0
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   104  #endif /* LWIP_DHCP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   105  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   106  /** The IP header ID of the next outgoing IP packet */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   107  static u16_t ip_id;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   108  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   109  #if LWIP_MULTICAST_TX_OPTIONS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   110  /** The default netif used for multicast */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   111  static struct netif *ip4_default_multicast_netif;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   112  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   113  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   114   * @ingroup ip4
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   115   * Set a default netif for IPv4 multicast. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   116  void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   117  ip4_set_default_multicast_netif(struct netif *default_multicast_netif)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   118  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   119    ip4_default_multicast_netif = default_multicast_netif;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   120  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   121  #endif /* LWIP_MULTICAST_TX_OPTIONS */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   122  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   123  #ifdef LWIP_HOOK_IP4_ROUTE_SRC
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   124  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   125   * Source based IPv4 routing must be fully implemented in
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   126   * LWIP_HOOK_IP4_ROUTE_SRC(). This function only provides the parameters.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   127   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   128  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   129  /*zeyu*/
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   130  struct netif * 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   131  ip4_find_netif_by_src(const ip4_addr_t *src, const ip4_addr_t *dest)
+; Function ip4_find_netif_by_src
+.L84:
+ip4_find_netif_by_src:	.type	func
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   132  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   133    struct netif *netif;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   134  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   135    NETIF_FOREACH(netif) {
+	movh.a	a15,#@his(netif_list)
+	ld.a	a2,[a15]@los(netif_list)
+.L208:
+	j	.L2
+.L3:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   136      /* find a netif with matched local IP address */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   137        if (ip4_addr_cmp(netif_ip4_addr(netif), ip_2_ip4(src)) && !ip4_addr_isany_val(*netif_ip4_addr(netif))) {
+	ld.w	d15,[a2]4
+	ld.w	d0,[a4]
+	jne	d15,d0,.L4
+.L449:
+	jne	d0,#0,.L6
+.L4:
+	ld.a	a2,[a2]
+.L2:
+	jnz.a	a2,.L3
+.L450:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   138            return netif;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   139        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   140    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   141    return NULL;
+	mov.a	a2,#0
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   142  }
+.L6:
+	ret
+.L201:
+	
+__ip4_find_netif_by_src_function_end:
+	.size	ip4_find_netif_by_src,__ip4_find_netif_by_src_function_end-ip4_find_netif_by_src
+.L137:
+	; End of function
+	
+	.sdecl	'.text.ip4.ip4_route_src',code,cluster('ip4_route_src')
+	.sect	'.text.ip4.ip4_route_src'
+	.align	2
+	
+	.global	ip4_route_src
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   143  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   144  struct netif *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   145  ip4_route_src(const ip4_addr_t *src, const ip4_addr_t *dest)
+; Function ip4_route_src
+.L86:
+ip4_route_src:	.type	func
+	mov.aa	a15,a5
+.L210:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   146  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   147    if (src != NULL) {
+	jz.a	a4,.L8
+.L153:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   148      /* when src==NULL, the hook is called from ip4_route(dest) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   149      struct netif *netif = LWIP_HOOK_IP4_ROUTE_SRC(src, dest);
+	call	ip4_find_netif_by_src
+.L209:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   150      if (netif != NULL) {
+	jnz.a	a2,.L10
+.L8:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   151        return netif;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   152      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   153    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   154    return ip4_route(dest);
+	mov.aa	a4,a15
+.L211:
+	j	ip4_route
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   155  }
+.L10:
+	ret
+.L150:
+	
+__ip4_route_src_function_end:
+	.size	ip4_route_src,__ip4_route_src_function_end-ip4_route_src
+.L112:
+	; End of function
+	
+	.sdecl	'.text.ip4.ip4_route',code,cluster('ip4_route')
+	.sect	'.text.ip4.ip4_route'
+	.align	2
+	
+	.global	ip4_route
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   156  #endif /* LWIP_HOOK_IP4_ROUTE_SRC */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   157  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   158  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   159   * Finds the appropriate network interface for a given IP address. It
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   160   * searches the list of network interfaces linearly. A match is found
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   161   * if the masked IP address of the network interface equals the masked
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   162   * IP address given to the function.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   163   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   164   * @param dest the destination IP address for which to find the route
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   165   * @return the netif on which to send to reach dest
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   166   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   167  struct netif *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   168  ip4_route(const ip4_addr_t *dest)
+; Function ip4_route
+.L88:
+ip4_route:	.type	func
+	mov.aa	a12,a4
+.L213:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   169  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   170  #if !LWIP_SINGLE_NETIF
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   171    struct netif *netif;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   172  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   173    LWIP_ASSERT_CORE_LOCKED();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   174  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   175  #if LWIP_MULTICAST_TX_OPTIONS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   176    /* Use administratively selected interface for multicast by default */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   177    if (ip4_addr_ismulticast(dest) && ip4_default_multicast_netif) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   178      return ip4_default_multicast_netif;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   179    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   180  #endif /* LWIP_MULTICAST_TX_OPTIONS */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   181  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   182    /* bug #54569: in case LWIP_SINGLE_NETIF=1 and LWIP_DEBUGF() disabled, the following loop is optimized away */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   183    LWIP_UNUSED_ARG(dest);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   184  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   185    /* iterate through netifs */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   186    NETIF_FOREACH(netif) {
+	movh.a	a15,#@his(netif_list)
+	ld.a	a2,[a15]@los(netif_list)
+.L214:
+	j	.L12
+.L13:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   187      /* is the netif up, does it have a link and a valid address? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   188      if (netif_is_up(netif) && netif_is_link_up(netif) && !ip4_addr_isany_val(*netif_ip4_addr(netif))) {
+	ld.bu	d0,[a2]45
+	and	d15,d0,#1
+	jeq	d15,#0,.L14
+.L323:
+	and	d15,d0,#4
+	jeq	d15,#0,.L15
+.L324:
+	ld.w	d15,[a2]4
+	jeq	d15,#0,.L16
+.L325:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   189        /* network mask matches? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   190        if (ip4_addr_netcmp(dest, netif_ip4_addr(netif), netif_ip4_netmask(netif))) {
+	ld.w	d1,[a12]
+	ld.w	d2,[a2]8
+	and	d3,d1,d2
+	and	d15,d2
+.L326:
+	jeq	d15,d3,.L21
+.L327:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   191          /* return netif on which to forward IP packet */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   192          return netif;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   193        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   194        /* gateway matches on a non broadcast interface? (i.e. peer in a point to point interface) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   195        if (((netif->flags & NETIF_FLAG_BROADCAST) == 0) && ip4_addr_cmp(dest, netif_ip4_gw(netif))) {
+	jnz.t	d0:1,.L18
+.L328:
+	ld.w	d15,[a2]12
+	jeq	d15,d1,.L21
+.L18:
+.L16:
+.L15:
+.L14:
+	ld.a	a2,[a2]
+.L12:
+	jnz.a	a2,.L13
+.L329:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   196          /* return netif on which to forward IP packet */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   197          return netif;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   198        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   199      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   200    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   201  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   202  #if LWIP_NETIF_LOOPBACK && !LWIP_HAVE_LOOPIF
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   203    /* loopif is disabled, looopback traffic is passed through any netif */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   204    if (ip4_addr_isloopback(dest)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   205      /* don't check for link on loopback traffic */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   206      if (netif_default != NULL && netif_is_up(netif_default)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   207        return netif_default;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   208      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   209      /* default netif is not up, just use any netif for loopback traffic */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   210      NETIF_FOREACH(netif) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   211        if (netif_is_up(netif)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   212          return netif;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   213        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   214      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   215      return NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   216    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   217  #endif /* LWIP_NETIF_LOOPBACK && !LWIP_HAVE_LOOPIF */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   218  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   219  #ifdef LWIP_HOOK_IP4_ROUTE_SRC
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   220    netif = LWIP_HOOK_IP4_ROUTE_SRC(NULL, dest);
+	mov.a	a4,#0
+.L212:
+	mov.aa	a5,a12
+.L215:
+	call	ip4_find_netif_by_src
+.L216:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   221    if (netif != NULL) {
+	jnz.a	a2,.L21
+.L330:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   222      return netif;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   223    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   224  #elif defined(LWIP_HOOK_IP4_ROUTE)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   225    netif = LWIP_HOOK_IP4_ROUTE(dest);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   226    if (netif != NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   227      return netif;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   228    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   229  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   230  #endif /* !LWIP_SINGLE_NETIF */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   231  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   232    if ((netif_default == NULL) || !netif_is_up(netif_default) || !netif_is_link_up(netif_default) ||
+	movh.a	a15,#@his(netif_default)
+	ld.w	d15,[a15]@los(netif_default)
+.L331:
+	jeq	d15,#0,.L22
+.L332:
+	ld.a	a15,[a15]@los(netif_default)
+	ld.bu	d15,[a15]45
+	and	d0,d15,#1
+	jeq	d0,#0,.L23
+.L333:
+	and	d15,#4
+	jeq	d15,#0,.L24
+.L334:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   233        ip4_addr_isany_val(*netif_ip4_addr(netif_default)) || ip4_addr_isloopback(dest)) {
+	ld.w	d15,[a15]4
+	jeq	d15,#0,.L25
+.L335:
+	ld.w	d15,[a12]
+	and	d15,#255
+	mov	d0,#127
+	jne	d15,d0,.L26
+.L25:
+.L24:
+.L23:
+.L22:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   234      /* No matching netif found and default netif is not usable.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   235         If this is not good enough for you, use LWIP_HOOK_IP4_ROUTE() */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   236      LWIP_DEBUGF(IP_DEBUG | LWIP_DBG_LEVEL_SERIOUS, ("ip4_route: No route to %"U16_F".%"U16_F".%"U16_F".%"U16_F"\n",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   237                  ip4_addr1_16(dest), ip4_addr2_16(dest), ip4_addr3_16(dest), ip4_addr4_16(dest)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   238      IP_STATS_INC(ip.rterr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   239      MIB2_STATS_INC(mib2.ipoutnoroutes);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   240      return NULL;
+	mov.a	a2,#0
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   241    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   242  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   243    return netif_default;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   244  }
+.L21:
+	ret
+.L26:
+	movh.a	a15,#@his(netif_default)
+	ld.a	a2,[a15]@los(netif_default)
+.L217:
+	ret
+.L146:
+	
+__ip4_route_function_end:
+	.size	ip4_route,__ip4_route_function_end-ip4_route
+.L107:
+	; End of function
+	
+	.sdecl	'.text.ip4.ip4_input_accept',code,cluster('ip4_input_accept')
+	.sect	'.text.ip4.ip4_input_accept'
+	.align	2
+	
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   245  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   246  #if IP_FORWARD
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   247  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   248   * Determine whether an IP address is in a reserved set of addresses
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   249   * that may not be forwarded, or whether datagrams to that destination
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   250   * may be forwarded.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   251   * @param p the packet to forward
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   252   * @return 1: can forward 0: discard
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   253   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   254  static int
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   255  ip4_canforward(struct pbuf *p)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   256  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   257    u32_t addr = lwip_htonl(ip4_addr_get_u32(ip4_current_dest_addr()));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   258  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   259  #ifdef LWIP_HOOK_IP4_CANFORWARD
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   260    int ret = LWIP_HOOK_IP4_CANFORWARD(p, addr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   261    if (ret >= 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   262      return ret;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   263    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   264  #endif /* LWIP_HOOK_IP4_CANFORWARD */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   265  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   266    if (p->flags & PBUF_FLAG_LLBCAST) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   267      /* don't route link-layer broadcasts */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   268      return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   269    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   270    if ((p->flags & PBUF_FLAG_LLMCAST) || IP_MULTICAST(addr)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   271      /* don't route link-layer multicasts (use LWIP_HOOK_IP4_CANFORWARD instead) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   272      return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   273    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   274    if (IP_EXPERIMENTAL(addr)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   275      return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   276    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   277    if (IP_CLASSA(addr)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   278      u32_t net = addr & IP_CLASSA_NET;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   279      if ((net == 0) || (net == ((u32_t)IP_LOOPBACKNET << IP_CLASSA_NSHIFT))) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   280        /* don't route loopback packets */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   281        return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   282      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   283    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   284    return 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   285  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   286  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   287  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   288   * Forwards an IP packet. It finds an appropriate route for the
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   289   * packet, decrements the TTL value of the packet, adjusts the
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   290   * checksum and outputs the packet on the appropriate interface.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   291   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   292   * @param p the packet to forward (p->payload points to IP header)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   293   * @param iphdr the IP header of the input packet
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   294   * @param inp the netif on which this packet was received
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   295   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   296  static void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   297  ip4_forward(struct pbuf *p, struct ip_hdr *iphdr, struct netif *inp)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   298  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   299    struct netif *netif;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   300  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   301    PERF_START;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   302    LWIP_UNUSED_ARG(inp);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   303  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   304    if (!ip4_canforward(p)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   305      goto return_noroute;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   306    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   307  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   308    /* RFC3927 2.7: do not forward link-local addresses */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   309    if (ip4_addr_islinklocal(ip4_current_dest_addr())) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   310      LWIP_DEBUGF(IP_DEBUG, ("ip4_forward: not forwarding LLA %"U16_F".%"U16_F".%"U16_F".%"U16_F"\n",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   311                             ip4_addr1_16(ip4_current_dest_addr()), ip4_addr2_16(ip4_current_dest_addr()),
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   312                             ip4_addr3_16(ip4_current_dest_addr()), ip4_addr4_16(ip4_current_dest_addr())));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   313      goto return_noroute;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   314    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   315  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   316    /* Find network interface where to forward this IP packet to. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   317    netif = ip4_route_src(ip4_current_src_addr(), ip4_current_dest_addr());
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   318    if (netif == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   319      LWIP_DEBUGF(IP_DEBUG, ("ip4_forward: no forwarding route for %"U16_F".%"U16_F".%"U16_F".%"U16_F" found\n",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   320                             ip4_addr1_16(ip4_current_dest_addr()), ip4_addr2_16(ip4_current_dest_addr()),
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   321                             ip4_addr3_16(ip4_current_dest_addr()), ip4_addr4_16(ip4_current_dest_addr())));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   322      /* @todo: send ICMP_DUR_NET? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   323      goto return_noroute;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   324    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   325  #if !IP_FORWARD_ALLOW_TX_ON_RX_NETIF
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   326    /* Do not forward packets onto the same network interface on which
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   327     * they arrived. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   328    if (netif == inp) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   329      LWIP_DEBUGF(IP_DEBUG, ("ip4_forward: not bouncing packets back on incoming interface.\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   330      goto return_noroute;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   331    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   332  #endif /* IP_FORWARD_ALLOW_TX_ON_RX_NETIF */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   333  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   334    /* decrement TTL */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   335    IPH_TTL_SET(iphdr, IPH_TTL(iphdr) - 1);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   336    /* send ICMP if TTL == 0 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   337    if (IPH_TTL(iphdr) == 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   338      MIB2_STATS_INC(mib2.ipinhdrerrors);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   339  #if LWIP_ICMP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   340      /* Don't send ICMP messages in response to ICMP messages */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   341      if (IPH_PROTO(iphdr) != IP_PROTO_ICMP) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   342        icmp_time_exceeded(p, ICMP_TE_TTL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   343      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   344  #endif /* LWIP_ICMP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   345      return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   346    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   347  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   348    /* Incrementally update the IP checksum. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   349    if (IPH_CHKSUM(iphdr) >= PP_HTONS(0xffffU - 0x100)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   350      IPH_CHKSUM_SET(iphdr, (u16_t)(IPH_CHKSUM(iphdr) + PP_HTONS(0x100) + 1));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   351    } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   352      IPH_CHKSUM_SET(iphdr, (u16_t)(IPH_CHKSUM(iphdr) + PP_HTONS(0x100)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   353    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   354  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   355    LWIP_DEBUGF(IP_DEBUG, ("ip4_forward: forwarding packet to %"U16_F".%"U16_F".%"U16_F".%"U16_F"\n",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   356                           ip4_addr1_16(ip4_current_dest_addr()), ip4_addr2_16(ip4_current_dest_addr()),
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   357                           ip4_addr3_16(ip4_current_dest_addr()), ip4_addr4_16(ip4_current_dest_addr())));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   358  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   359    IP_STATS_INC(ip.fw);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   360    MIB2_STATS_INC(mib2.ipforwdatagrams);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   361    IP_STATS_INC(ip.xmit);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   362  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   363    PERF_STOP("ip4_forward");
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   364    /* don't fragment if interface has mtu set to 0 [loopif] */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   365    if (netif->mtu && (p->tot_len > netif->mtu)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   366      if ((IPH_OFFSET(iphdr) & PP_NTOHS(IP_DF)) == 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   367  #if IP_FRAG
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   368        ip4_frag(p, netif, ip4_current_dest_addr());
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   369  #else /* IP_FRAG */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   370        /* @todo: send ICMP Destination Unreachable code 13 "Communication administratively prohibited"? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   371  #endif /* IP_FRAG */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   372      } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   373  #if LWIP_ICMP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   374        /* send ICMP Destination Unreachable code 4: "Fragmentation Needed and DF Set" */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   375        icmp_dest_unreach(p, ICMP_DUR_FRAG);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   376  #endif /* LWIP_ICMP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   377      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   378      return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   379    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   380    /* transmit pbuf on chosen interface */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   381    netif->output(netif, p, ip4_current_dest_addr());
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   382    return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   383  return_noroute:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   384    MIB2_STATS_INC(mib2.ipoutnoroutes);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   385  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   386  #endif /* IP_FORWARD */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   387  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   388  /** Return true if the current input packet should be accepted on this netif */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   389  static int
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   390  ip4_input_accept(struct netif *netif)
+; Function ip4_input_accept
+.L90:
+ip4_input_accept:	.type	func
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   391  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   392    LWIP_DEBUGF(IP_DEBUG, ("ip_input: iphdr->dest 0x%"X32_F" netif->ip_addr 0x%"X32_F" (0x%"X32_F", 0x%"X32_F", 0x%"X32_F")\n",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   393                           ip4_addr_get_u32(ip4_current_dest_addr()), ip4_addr_get_u32(netif_ip4_addr(netif)),
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   394                           ip4_addr_get_u32(ip4_current_dest_addr()) & ip4_addr_get_u32(netif_ip4_netmask(netif)),
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   395                           ip4_addr_get_u32(netif_ip4_addr(netif)) & ip4_addr_get_u32(netif_ip4_netmask(netif)),
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   396                           ip4_addr_get_u32(ip4_current_dest_addr()) & ~ip4_addr_get_u32(netif_ip4_netmask(netif))));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   397  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   398    /* interface is up and configured? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   399    if ((netif_is_up(netif)) && (!ip4_addr_isany_val(*netif_ip4_addr(netif)))) {
+	ld.bu	d15,[a4]45
+	and	d15,#1
+.L455:
+	jeq	d15,#0,.L29
+.L456:
+	ld.w	d15,[a4]4
+	jeq	d15,#0,.L30
+.L457:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   400      /* unicast to this interface address? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   401      if (ip4_addr_cmp(ip4_current_dest_addr(), netif_ip4_addr(netif)) ||
+	movh.a	a15,#@his(ip_data+18)
+	ld.w	d4,[a15]@los(ip_data+18)
+	jeq	d15,d4,.L31
+.L458:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   402          /* or broadcast on this interface network address? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   403          ip4_addr_isbroadcast(ip4_current_dest_addr(), netif)
+	call	ip4_addr_isbroadcast_u32
+.L218:
+	jeq	d2,#0,.L32
+.L31:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   404  #if LWIP_NETIF_LOOPBACK && !LWIP_HAVE_LOOPIF
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   405          || (ip4_addr_get_u32(ip4_current_dest_addr()) == PP_HTONL(IPADDR_LOOPBACK))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   406  #endif /* LWIP_NETIF_LOOPBACK && !LWIP_HAVE_LOOPIF */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   407         ) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   408        LWIP_DEBUGF(IP_DEBUG, ("ip4_input: packet accepted on interface %c%c\n",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   409                               netif->name[0], netif->name[1]));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   410        /* accept on this netif */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   411        return 1;
+	mov	d2,#1
+.L459:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   412      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   413  #if LWIP_AUTOIP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   414      /* connections to link-local addresses must persist after changing
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   415          the netif's address (RFC3927 ch. 1.9) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   416      if (autoip_accept_packet(netif, ip4_current_dest_addr())) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   417        LWIP_DEBUGF(IP_DEBUG, ("ip4_input: LLA packet accepted on interface %c%c\n",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   418                               netif->name[0], netif->name[1]));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   419        /* accept on this netif */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   420        return 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   421      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   422  #endif /* LWIP_AUTOIP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   423    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   424    return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   425  }
+	ret
+.L32:
+.L30:
+.L29:
+	mov	d2,#0
+.L460:
+	ret
+.L206:
+	
+__ip4_input_accept_function_end:
+	.size	ip4_input_accept,__ip4_input_accept_function_end-ip4_input_accept
+.L142:
+	; End of function
+	
+	.sdecl	'.text.ip4.ip4_input',code,cluster('ip4_input')
+	.sect	'.text.ip4.ip4_input'
+	.align	2
+	
+	.global	ip4_input
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   426  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   427  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   428   * This function is called by the network interface device driver when
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   429   * an IP packet is received. The function does the basic checks of the
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   430   * IP header such as packet size being at least larger than the header
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   431   * size etc. If the packet was not destined for us, the packet is
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   432   * forwarded (using ip_forward). The IP checksum is always checked.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   433   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   434   * Finally, the packet is sent to the upper layer protocol input function.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   435   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   436   * @param p the received IP packet (p->payload points to IP header)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   437   * @param inp the netif on which this packet was received
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   438   * @return ERR_OK if the packet was processed (could return ERR_* if it wasn't
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   439   *         processed, but currently always returns ERR_OK)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   440   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   441  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   442  ip4_input(struct pbuf *p, struct netif *inp)
+; Function ip4_input
+.L92:
+ip4_input:	.type	func
+	mov.aa	a12,a4
+.L220:
+	mov.aa	a13,a5
+.L221:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   443  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   444    const struct ip_hdr *iphdr;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   445    struct netif *netif;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   446    u16_t iphdr_hlen;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   447    u16_t iphdr_len;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   448  #if IP_ACCEPT_LINK_LAYER_ADDRESSING || LWIP_IGMP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   449    int check_ip_src = 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   450  #endif /* IP_ACCEPT_LINK_LAYER_ADDRESSING || LWIP_IGMP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   451  #if LWIP_RAW
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   452    raw_input_state_t raw_status;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   453  #endif /* LWIP_RAW */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   454  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   455    LWIP_ASSERT_CORE_LOCKED();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   456  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   457    IP_STATS_INC(ip.recv);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   458    MIB2_STATS_INC(mib2.ipinreceives);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   459  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   460    /* identify the IP header */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   461    iphdr = (struct ip_hdr *)p->payload;
+	ld.a	a15,[a12]4
+.L222:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   462    if (IPH_V(iphdr) != 4) {
+	ld.bu	d15,[a15]
+	sha	d0,d15,#-4
+.L344:
+	jne	d0,#4,.L35
+.L345:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   463      LWIP_DEBUGF(IP_DEBUG | LWIP_DBG_LEVEL_WARNING, ("IP packet dropped due to bad version number %"U16_F"\n", (u16_t)IPH_V(iphdr)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   464      ip4_debug_print(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   465      pbuf_free(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   466      IP_STATS_INC(ip.err);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   467      IP_STATS_INC(ip.drop);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   468      MIB2_STATS_INC(mib2.ipinhdrerrors);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   469      return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   470    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   471  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   472  #ifdef LWIP_HOOK_IP4_INPUT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   473    if (LWIP_HOOK_IP4_INPUT(p, inp)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   474      /* the packet has been eaten */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   475      return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   476    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   477  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   478  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   479    /* obtain IP header length in bytes */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   480    iphdr_hlen = IPH_HL_BYTES(iphdr);
+	and	d15,#15
+	sha	d9,d15,#2
+.L224:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   481    /* obtain ip length in bytes */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   482    iphdr_len = lwip_ntohs(IPH_LEN(iphdr));
+	ld.hu	d4,[a15]2
+	call	lwip_htons
+.L219:
+	mov	d8,d2
+.L226:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   483  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   484    /* Trim pbuf. This is especially required for packets < 60 bytes. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   485    if (iphdr_len < p->tot_len) {
+	ld.hu	d0,[a12]8
+.L346:
+	jge.u	d8,d0,.L36
+.L347:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   486      pbuf_realloc(p, iphdr_len);
+	mov.aa	a4,a12
+.L227:
+	mov	d4,d8
+.L225:
+	call	pbuf_realloc
+.L36:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   487    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   488  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   489    /* header length exceeds first pbuf length, or ip length exceeds total pbuf length? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   490    if ((iphdr_hlen > p->len) || (iphdr_len > p->tot_len) || (iphdr_hlen < IP_HLEN)) {
+	ld.hu	d0,[a12]10
+.L348:
+	jlt.u	d0,d9,.L37
+.L349:
+	ld.hu	d15,[a12]8
+.L350:
+	jlt.u	d15,d8,.L38
+.L351:
+	mov	d15,#20
+.L352:
+	jlt.u	d9,d15,.L39
+.L353:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   491      if (iphdr_hlen < IP_HLEN) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   492        LWIP_DEBUGF(IP_DEBUG | LWIP_DBG_LEVEL_SERIOUS,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   493                    ("ip4_input: short IP header (%"U16_F" bytes) received, IP packet dropped\n", iphdr_hlen));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   494      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   495      if (iphdr_hlen > p->len) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   496        LWIP_DEBUGF(IP_DEBUG | LWIP_DBG_LEVEL_SERIOUS,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   497                    ("IP header (len %"U16_F") does not fit in first pbuf (len %"U16_F"), IP packet dropped.\n",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   498                     iphdr_hlen, p->len));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   499      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   500      if (iphdr_len > p->tot_len) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   501        LWIP_DEBUGF(IP_DEBUG | LWIP_DBG_LEVEL_SERIOUS,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   502                    ("IP (len %"U16_F") is longer than pbuf (len %"U16_F"), IP packet dropped.\n",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   503                     iphdr_len, p->tot_len));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   504      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   505      /* free (drop) packet pbufs */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   506      pbuf_free(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   507      IP_STATS_INC(ip.lenerr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   508      IP_STATS_INC(ip.drop);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   509      MIB2_STATS_INC(mib2.ipindiscards);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   510      return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   511    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   512  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   513    /* verify checksum */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   514  #if CHECKSUM_CHECK_IP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   515    IF__NETIF_CHECKSUM_ENABLED(inp, NETIF_CHECKSUM_CHECK_IP) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   516      if (inet_chksum(iphdr, iphdr_hlen) != 0) {
+	mov.aa	a4,a15
+.L228:
+	mov	d4,d9
+.L230:
+	call	inet_chksum
+.L229:
+	jne	d2,#0,.L40
+.L354:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   517  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   518        LWIP_DEBUGF(IP_DEBUG | LWIP_DBG_LEVEL_SERIOUS,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   519                    ("Checksum (0x%"X16_F") failed, IP packet dropped.\n", inet_chksum(iphdr, iphdr_hlen)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   520        ip4_debug_print(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   521        pbuf_free(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   522        IP_STATS_INC(ip.chkerr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   523        IP_STATS_INC(ip.drop);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   524        MIB2_STATS_INC(mib2.ipinhdrerrors);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   525        return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   526      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   527    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   528  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   529  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   530    /* copy IP addresses to aligned ip_addr_t */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   531    ip_addr_copy_from_ip4(ip_data.current_iphdr_dest, iphdr->dest);
+	movh.a	a2,#@his(ip_data+18)
+	ld.w	d15,[a15]16
+	st.w	[a2]@los(ip_data+18),d15
+.L355:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   532    ip_addr_copy_from_ip4(ip_data.current_iphdr_src, iphdr->src);
+	movh.a	a4,#@his(ip_data+14)
+	ld.w	d15,[a15]12
+	st.w	[a4]@los(ip_data+14),d15
+.L356:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   533  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   534    /* match packet against an interface, i.e. is this packet for us? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   535    if (ip4_addr_ismulticast(ip4_current_dest_addr())) {
+	ld.w	d15,[a2]@los(ip_data+18)
+	and	d15,#240
+	mov	d0,#224
+.L357:
+	jne	d15,d0,.L41
+.L358:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   536  #if LWIP_IGMP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   537      if ((inp->flags & NETIF_FLAG_IGMP) && (igmp_lookfor_group(inp, ip4_current_dest_addr()))) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   538        /* IGMP snooping switches need 0.0.0.0 to be allowed as source address (RFC 4541) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   539        ip4_addr_t allsystems;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   540        IP4_ADDR(&allsystems, 224, 0, 0, 1);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   541        if (ip4_addr_cmp(ip4_current_dest_addr(), &allsystems) &&
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   542            ip4_addr_isany(ip4_current_src_addr())) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   543          check_ip_src = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   544        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   545        netif = inp;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   546      } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   547        netif = NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   548      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   549  #else /* LWIP_IGMP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   550      if ((netif_is_up(inp)) && (!ip4_addr_isany_val(*netif_ip4_addr(inp)))) {
+	ld.bu	d15,[a13]45
+	and	d15,#1
+.L359:
+	jeq	d15,#0,.L42
+.L360:
+	ld.w	d15,[a13]4
+	jne	d15,#0,.L43
+.L42:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   551        netif = inp;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   552      } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   553        netif = NULL;
+	mov.a	a14,#0
+.L231:
+	j	.L44
+.L41:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   554      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   555  #endif /* LWIP_IGMP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   556    } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   557      /* start trying with inp. if that's not acceptable, start walking the
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   558         list of configured netifs. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   559      if (ip4_input_accept(inp)) {
+	mov.aa	a4,a13
+.L232:
+	call	ip4_input_accept
+.L233:
+	jeq	d2,#0,.L45
+.L43:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   560        netif = inp;
+	mov.aa	a14,a13
+.L234:
+	j	.L46
+.L45:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   561      } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   562        netif = NULL;
+	mov.a	a14,#0
+.L235:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   563  #if !LWIP_NETIF_LOOPBACK || LWIP_HAVE_LOOPIF
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   564        /* Packets sent to the loopback address must not be accepted on an
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   565         * interface that does not have the loopback address assigned to it,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   566         * unless a non-loopback interface is used for loopback traffic. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   567        if (!ip4_addr_isloopback(ip4_current_dest_addr()))
+	movh.a	a2,#@his(ip_data+18)
+	ld.w	d15,[a2]@los(ip_data+18)
+	and	d15,#255
+	mov	d0,#127
+	jeq	d15,d0,.L47
+.L361:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   568  #endif /* !LWIP_NETIF_LOOPBACK || LWIP_HAVE_LOOPIF */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   569        {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   570  #if !LWIP_SINGLE_NETIF
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   571          NETIF_FOREACH(netif) {
+	movh.a	a2,#@his(netif_list)
+	ld.a	a14,[a2]@los(netif_list)
+	j	.L48
+.L49:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   572            if (netif == inp) {
+	jeq.a	a14,a13,.L50
+.L362:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   573              /* we checked that before already */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   574              continue;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   575            }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   576            if (ip4_input_accept(netif)) {
+	mov.aa	a4,a14
+.L236:
+	call	ip4_input_accept
+.L237:
+	jne	d2,#0,.L51
+.L50:
+	ld.a	a14,[a14]
+.L48:
+	jnz.a	a14,.L49
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   577              break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   578            }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   579          }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   580  #endif /* !LWIP_SINGLE_NETIF */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   581        }
+.L51:
+.L47:
+.L46:
+.L44:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   582      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   583    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   584  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   585  #if IP_ACCEPT_LINK_LAYER_ADDRESSING
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   586    /* Pass DHCP messages regardless of destination address. DHCP traffic is addressed
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   587     * using link layer addressing (such as Ethernet MAC) so we must not filter on IP.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   588     * According to RFC 1542 section 3.1.1, referred by RFC 2131).
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   589     *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   590     * If you want to accept private broadcast communication while a netif is down,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   591     * define LWIP_IP_ACCEPT_UDP_PORT(dst_port), e.g.:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   592     *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   593     * #define LWIP_IP_ACCEPT_UDP_PORT(dst_port) ((dst_port) == PP_NTOHS(12345))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   594     */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   595    if (netif == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   596      /* remote port is DHCP server? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   597      if (IPH_PROTO(iphdr) == IP_PROTO_UDP) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   598        const struct udp_hdr *udphdr = (const struct udp_hdr *)((const u8_t *)iphdr + iphdr_hlen);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   599        LWIP_DEBUGF(IP_DEBUG | LWIP_DBG_TRACE, ("ip4_input: UDP packet to DHCP client port %"U16_F"\n",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   600                                                lwip_ntohs(udphdr->dest)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   601        if (IP_ACCEPT_LINK_LAYER_ADDRESSED_PORT(udphdr->dest)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   602          LWIP_DEBUGF(IP_DEBUG | LWIP_DBG_TRACE, ("ip4_input: DHCP packet accepted.\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   603          netif = inp;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   604          check_ip_src = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   605        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   606      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   607    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   608  #endif /* IP_ACCEPT_LINK_LAYER_ADDRESSING */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   609  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   610    /* broadcast or multicast packet source address? Compliant with RFC 1122: 3.2.1.3 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   611  #if LWIP_IGMP || IP_ACCEPT_LINK_LAYER_ADDRESSING
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   612    if (check_ip_src
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   613  #if IP_ACCEPT_LINK_LAYER_ADDRESSING
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   614        /* DHCP servers need 0.0.0.0 to be allowed as source address (RFC 1.1.2.2: 3.2.1.3/a) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   615        && !ip4_addr_isany_val(*ip4_current_src_addr())
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   616  #endif /* IP_ACCEPT_LINK_LAYER_ADDRESSING */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   617       )
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   618  #endif /* LWIP_IGMP || IP_ACCEPT_LINK_LAYER_ADDRESSING */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   619    {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   620      if ((ip4_addr_isbroadcast(ip4_current_src_addr(), inp)) ||
+	movh.a	a2,#@his(ip_data+14)
+	ld.w	d4,[a2]@los(ip_data+14)
+	mov.aa	a4,a13
+.L238:
+	call	ip4_addr_isbroadcast_u32
+.L239:
+	jne	d2,#0,.L52
+.L363:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   621          (ip4_addr_ismulticast(ip4_current_src_addr()))) {
+	movh.a	a2,#@his(ip_data+14)
+	ld.w	d15,[a2]@los(ip_data+14)
+	and	d15,#240
+	mov	d0,#224
+	jeq	d15,d0,.L53
+.L364:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   622        /* packet source is not valid */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   623        LWIP_DEBUGF(IP_DEBUG | LWIP_DBG_TRACE | LWIP_DBG_LEVEL_WARNING, ("ip4_input: packet source is not valid.\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   624        /* free (drop) packet pbufs */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   625        pbuf_free(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   626        IP_STATS_INC(ip.drop);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   627        MIB2_STATS_INC(mib2.ipinaddrerrors);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   628        MIB2_STATS_INC(mib2.ipindiscards);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   629        return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   630      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   631    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   632  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   633    /* packet not for us? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   634    if (netif == NULL) {
+	jz.a	a14,.L54
+.L365:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   635      /* packet not for us, route or discard */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   636      LWIP_DEBUGF(IP_DEBUG | LWIP_DBG_TRACE, ("ip4_input: packet not for us.\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   637  #if IP_FORWARD
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   638      /* non-broadcast packet? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   639      if (!ip4_addr_isbroadcast(ip4_current_dest_addr(), inp)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   640        /* try to forward IP packet on (other) interfaces */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   641        ip4_forward(p, (struct ip_hdr *)p->payload, inp);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   642      } else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   643  #endif /* IP_FORWARD */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   644      {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   645        IP_STATS_INC(ip.drop);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   646        MIB2_STATS_INC(mib2.ipinaddrerrors);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   647        MIB2_STATS_INC(mib2.ipindiscards);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   648      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   649      pbuf_free(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   650      return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   651    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   652    /* packet consists of multiple fragments? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   653    if ((IPH_OFFSET(iphdr) & PP_HTONS(IP_OFFMASK | IP_MF)) != 0) {
+	ld.hu	d15,[a15]6
+.L366:
+	mov.u	d0,#65343
+.L367:
+	and	d15,d0
+.L368:
+	jeq	d15,#0,.L55
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   654  #if IP_REASSEMBLY /* packet fragment reassembly code present? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   655      LWIP_DEBUGF(IP_DEBUG, ("IP packet is a fragment (id=0x%04"X16_F" tot_len=%"U16_F" len=%"U16_F" MF=%"U16_F" offset=%"U16_F"), calling ip4_reass()\n",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   656                             lwip_ntohs(IPH_ID(iphdr)), p->tot_len, lwip_ntohs(IPH_LEN(iphdr)), (u16_t)!!(IPH_OFFSET(iphdr) & PP_HTONS(IP_MF)), (u16_t)((lwip_ntohs(IPH_OFFSET(iphdr)) & IP_OFFMASK) * 8)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   657      /* reassemble the packet*/
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   658      p = ip4_reass(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   659      /* packet not fully reassembled yet? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   660      if (p == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   661        return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   662      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   663      iphdr = (const struct ip_hdr *)p->payload;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   664  #else /* IP_REASSEMBLY == 0, no packet fragment reassembly code present */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   665      pbuf_free(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   666      LWIP_DEBUGF(IP_DEBUG | LWIP_DBG_LEVEL_SERIOUS, ("IP packet dropped since it was fragmented (0x%"X16_F") (while IP_REASSEMBLY == 0).\n",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   667                  lwip_ntohs(IPH_OFFSET(iphdr))));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   668      IP_STATS_INC(ip.opterr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   669      IP_STATS_INC(ip.drop);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   670      /* unsupported protocol feature */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   671      MIB2_STATS_INC(mib2.ipinunknownprotos);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   672      return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   673  #endif /* IP_REASSEMBLY */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   674    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   675  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   676  #if IP_OPTIONS_ALLOWED == 0 /* no support for IP options in the IP header? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   677  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   678  #if LWIP_IGMP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   679    /* there is an extra "router alert" option in IGMP messages which we allow for but do not police */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   680    if ((iphdr_hlen > IP_HLEN) &&  (IPH_PROTO(iphdr) != IP_PROTO_IGMP)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   681  #else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   682    if (iphdr_hlen > IP_HLEN) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   683  #endif /* LWIP_IGMP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   684      LWIP_DEBUGF(IP_DEBUG | LWIP_DBG_LEVEL_SERIOUS, ("IP packet dropped since there were IP options (while IP_OPTIONS_ALLOWED == 0).\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   685      pbuf_free(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   686      IP_STATS_INC(ip.opterr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   687      IP_STATS_INC(ip.drop);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   688      /* unsupported protocol feature */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   689      MIB2_STATS_INC(mib2.ipinunknownprotos);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   690      return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   691    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   692  #endif /* IP_OPTIONS_ALLOWED == 0 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   693  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   694    /* send to upper layers */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   695    LWIP_DEBUGF(IP_DEBUG, ("ip4_input: \n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   696    ip4_debug_print(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   697    LWIP_DEBUGF(IP_DEBUG, ("ip4_input: p->len %"U16_F" p->tot_len %"U16_F"\n", p->len, p->tot_len));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   698  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   699    ip_data.current_netif = netif;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   700    ip_data.current_input_netif = inp;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   701    ip_data.current_ip4_header = iphdr;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   702    ip_data.current_ip_header_tot_len = IPH_HL_BYTES(iphdr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   703  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   704  #if LWIP_RAW
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   705    /* raw input did not eat the packet? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   706    raw_status = raw_input(p, inp);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   707    if (raw_status != RAW_INPUT_EATEN)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   708  #endif /* LWIP_RAW */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   709    {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   710      pbuf_remove_header(p, iphdr_hlen); /* Move to payload, no check necessary. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   711  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   712      switch (IPH_PROTO(iphdr)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   713  #if LWIP_UDP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   714        case IP_PROTO_UDP:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   715  #if LWIP_UDPLITE
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   716        case IP_PROTO_UDPLITE:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   717  #endif /* LWIP_UDPLITE */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   718          MIB2_STATS_INC(mib2.ipindelivers);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   719          udp_input(p, inp);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   720          break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   721  #endif /* LWIP_UDP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   722  #if LWIP_TCP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   723        case IP_PROTO_TCP:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   724          MIB2_STATS_INC(mib2.ipindelivers);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   725          tcp_input(p, inp);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   726          break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   727  #endif /* LWIP_TCP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   728  #if LWIP_ICMP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   729        case IP_PROTO_ICMP:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   730          MIB2_STATS_INC(mib2.ipindelivers);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   731         if(ERR_OK == icmp_addr_cmp(inp, ip4_current_dest_addr()))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   732         {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   733          icmp_input(p, inp);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   734         }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   735          break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   736  #endif /* LWIP_ICMP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   737  #if LWIP_IGMP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   738        case IP_PROTO_IGMP:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   739          igmp_input(p, inp, ip4_current_dest_addr());
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   740          break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   741  #endif /* LWIP_IGMP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   742        default:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   743  #if LWIP_RAW
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   744          if (raw_status == RAW_INPUT_DELIVERED) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   745            MIB2_STATS_INC(mib2.ipindelivers);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   746          } else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   747  #endif /* LWIP_RAW */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   748          {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   749  #if LWIP_ICMP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   750            /* send ICMP destination protocol unreachable unless is was a broadcast */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   751            if (!ip4_addr_isbroadcast(ip4_current_dest_addr(), netif) &&
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   752                !ip4_addr_ismulticast(ip4_current_dest_addr())) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   753              pbuf_header_force(p, (s16_t)iphdr_hlen); /* Move to ip header, no check necessary. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   754              icmp_dest_unreach(p, ICMP_DUR_PROTO);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   755            }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   756  #endif /* LWIP_ICMP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   757  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   758            LWIP_DEBUGF(IP_DEBUG | LWIP_DBG_LEVEL_SERIOUS, ("Unsupported transport protocol %"U16_F"\n", (u16_t)IPH_PROTO(iphdr)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   759  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   760            IP_STATS_INC(ip.proterr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   761            IP_STATS_INC(ip.drop);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   762            MIB2_STATS_INC(mib2.ipinunknownprotos);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   763          }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   764          pbuf_free(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   765          break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   766      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   767    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   768  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   769    /* @todo: this is not really necessary... */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   770    ip_data.current_netif = NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   771    ip_data.current_input_netif = NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   772    ip_data.current_ip4_header = NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   773    ip_data.current_ip_header_tot_len = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   774    ip4_addr_set_any(ip4_current_src_addr());
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   775    ip4_addr_set_any(ip4_current_dest_addr());
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   776  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   777    return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   778  }
+.L54:
+.L53:
+.L52:
+.L40:
+.L39:
+.L38:
+.L37:
+.L35:
+	mov.aa	a4,a12
+.L240:
+	call	pbuf_free
+.L241:
+	j	.L56
+.L55:
+	movh.a	a2,#@his(ip_data)
+.L369:
+	st.a	[a2]@los(ip_data),a14
+.L370:
+	movh.a	a2,#@his(ip_data+4)
+.L371:
+	st.a	[a2]@los(ip_data+4),a13
+.L372:
+	movh.a	a2,#@his(ip_data+8)
+.L373:
+	st.a	[a2]@los(ip_data+8),a15
+.L374:
+	movh.a	a2,#@his(ip_data+12)
+.L375:
+	ld.bu	d15,[a15]
+	and	d15,#15
+	sha	d15,#2
+.L376:
+	st.h	[a2]@los(ip_data+12),d15
+.L377:
+	mov.aa	a4,a12
+.L242:
+	mov	d4,d9
+.L244:
+	call	pbuf_remove_header
+.L243:
+	ld.bu	d15,[a15]9
+.L378:
+	jeq	d15,#1,.L57
+.L379:
+	jeq	d15,#6,.L58
+.L380:
+	mov	d0,#17
+	jne	d15,d0,.L60
+.L381:
+	mov.aa	a4,a12
+.L245:
+	mov.aa	a5,a13
+.L247:
+	call	udp_input
+.L246:
+	j	.L61
+.L58:
+	mov.aa	a4,a12
+.L248:
+	mov.aa	a5,a13
+.L250:
+	call	tcp_input
+.L249:
+	j	.L62
+.L57:
+	movh.a	a15,#@his(ip_data+18)
+.L223:
+	lea	a5,[a15]@los(ip_data+18)
+	mov.aa	a4,a13
+.L251:
+	call	icmp_addr_cmp
+.L252:
+	jne	d2,#0,.L63
+.L382:
+	mov.aa	a4,a12
+.L253:
+	mov.aa	a5,a13
+.L255:
+	call	icmp_input
+.L254:
+	j	.L64
+.L60:
+	movh.a	a15,#@his(ip_data+18)
+.L256:
+	ld.w	d4,[a15]@los(ip_data+18)
+	mov.aa	a4,a14
+.L257:
+	call	ip4_addr_isbroadcast_u32
+.L258:
+	jne	d2,#0,.L65
+.L383:
+	movh.a	a15,#@his(ip_data+18)
+	ld.w	d15,[a15]@los(ip_data+18)
+	and	d15,#240
+	mov	d0,#224
+	jeq	d15,d0,.L66
+.L384:
+	mov.aa	a4,a12
+.L259:
+	mov	d4,d9
+.L261:
+	call	pbuf_header_force
+.L260:
+	mov	d4,#2
+	mov.aa	a4,a12
+.L262:
+	call	icmp_dest_unreach
+.L66:
+.L65:
+	mov.aa	a4,a12
+.L263:
+	call	pbuf_free
+.L64:
+.L63:
+.L62:
+.L61:
+	movh.a	a15,#@his(ip_data)
+.L385:
+	mov.a	a2,#0
+.L386:
+	st.a	[a15]@los(ip_data),a2
+.L387:
+	movh.a	a15,#@his(ip_data+4)
+.L388:
+	st.a	[a15]@los(ip_data+4),a2
+.L389:
+	movh.a	a15,#@his(ip_data+8)
+.L390:
+	st.a	[a15]@los(ip_data+8),a2
+.L391:
+	movh.a	a15,#@his(ip_data+12)
+.L392:
+	mov	d15,#0
+.L393:
+	st.h	[a15]@los(ip_data+12),d15
+.L394:
+	movh.a	a15,#@his(ip_data+14)
+	st.w	[a15]@los(ip_data+14),d15
+.L395:
+	movh.a	a15,#@his(ip_data+18)
+	st.w	[a15]@los(ip_data+18),d15
+.L56:
+	mov	d2,#0
+.L396:
+	ret
+.L156:
+	
+__ip4_input_function_end:
+	.size	ip4_input,__ip4_input_function_end-ip4_input
+.L117:
+	; End of function
+	
+	.sdecl	'.text.ip4.ip4_output_if',code,cluster('ip4_output_if')
+	.sect	'.text.ip4.ip4_output_if'
+	.align	2
+	
+	.global	ip4_output_if
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   779  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   780  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   781   * Sends an IP packet on a network interface. This function constructs
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   782   * the IP header and calculates the IP header checksum. If the source
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   783   * IP address is NULL, the IP address of the outgoing network
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   784   * interface is filled in as source address.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   785   * If the destination IP address is LWIP_IP_HDRINCL, p is assumed to already
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   786   * include an IP header and p->payload points to it instead of the data.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   787   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   788   * @param p the packet to send (p->payload points to the data, e.g. next
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   789              protocol header; if dest == LWIP_IP_HDRINCL, p already includes an
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   790              IP header and p->payload points to that IP header)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   791   * @param src the source IP address to send from (if src == IP4_ADDR_ANY, the
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   792   *         IP  address of the netif used to send is used as source address)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   793   * @param dest the destination IP address to send the packet to
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   794   * @param ttl the TTL value to be set in the IP header
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   795   * @param tos the TOS value to be set in the IP header
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   796   * @param proto the PROTOCOL to be set in the IP header
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   797   * @param netif the netif on which to send this packet
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   798   * @return ERR_OK if the packet was sent OK
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   799   *         ERR_BUF if p doesn't have enough space for IP/LINK headers
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   800   *         returns errors returned by netif->output
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   801   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   802   * @note ip_id: RFC791 "some host may be able to simply use
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   803   *  unique identifiers independent of destination"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   804   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   805  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   806  ip4_output_if(struct pbuf *p, const ip4_addr_t *src, const ip4_addr_t *dest,
+; Function ip4_output_if
+.L94:
+ip4_output_if:	.type	func
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   807                u8_t ttl, u8_t tos,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   808                u8_t proto, struct netif *netif)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   809  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   810  #if IP_OPTIONS_SEND
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   811    return ip4_output_if_opt(p, src, dest, ttl, tos, proto, netif, NULL, 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   812  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   813  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   814  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   815   * Same as ip_output_if() but with the possibility to include IP options:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   816   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   817   * @ param ip_options pointer to the IP options, copied into the IP header
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   818   * @ param optlen length of ip_options
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   819   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   820  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   821  ip4_output_if_opt(struct pbuf *p, const ip4_addr_t *src, const ip4_addr_t *dest,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   822                    u8_t ttl, u8_t tos, u8_t proto, struct netif *netif, void *ip_options,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   823                    u16_t optlen)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   824  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   825  #endif /* IP_OPTIONS_SEND */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   826    const ip4_addr_t *src_used = src;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   827    if (dest != LWIP_IP_HDRINCL) {
+	jz.a	a6,.L68
+.L408:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   828      if (ip4_addr_isany(src)) {
+	jz.a	a5,.L69
+.L409:
+	ld.w	d15,[a5]
+	jne	d15,#0,.L70
+.L69:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   829        src_used = netif_ip4_addr(netif);
+	lea	a5,[a7]4
+.L70:
+.L68:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   830      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   831    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   832  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   833  #if IP_OPTIONS_SEND
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   834    return ip4_output_if_opt_src(p, src_used, dest, ttl, tos, proto, netif,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   835                                 ip_options, optlen);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   836  #else /* IP_OPTIONS_SEND */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   837    return ip4_output_if_src(p, src_used, dest, ttl, tos, proto, netif);
+	j	ip4_output_if_src
+.L175:
+	
+__ip4_output_if_function_end:
+	.size	ip4_output_if,__ip4_output_if_function_end-ip4_output_if
+.L127:
+	; End of function
+	
+	.sdecl	'.text.ip4.ip4_output_if_src',code,cluster('ip4_output_if_src')
+	.sect	'.text.ip4.ip4_output_if_src'
+	.align	2
+	
+	.global	ip4_output_if_src
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   838  #endif /* IP_OPTIONS_SEND */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   839  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   840  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   841  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   842   * Same as ip_output_if() but 'src' address is not replaced by netif address
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   843   * when it is 'any'.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   844   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   845  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   846  ip4_output_if_src(struct pbuf *p, const ip4_addr_t *src, const ip4_addr_t *dest,
+; Function ip4_output_if_src
+.L96:
+ip4_output_if_src:	.type	func
+	sub.a	a10,#8
+.L264:
+	mov.aa	a12,a4
+.L267:
+	mov.aa	a13,a5
+.L268:
+	mov.aa	a14,a6
+.L269:
+	mov	d15,d4
+.L270:
+	mov	d10,d5
+.L272:
+	mov	d8,d6
+.L274:
+	st.a	[a10]4,a7
+.L276:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   847                    u8_t ttl, u8_t tos,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   848                    u8_t proto, struct netif *netif)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   849  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   850  #if IP_OPTIONS_SEND
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   851    return ip4_output_if_opt_src(p, src, dest, ttl, tos, proto, netif, NULL, 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   852  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   853  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   854  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   855   * Same as ip_output_if_opt() but 'src' address is not replaced by netif address
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   856   * when it is 'any'.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   857   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   858  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   859  ip4_output_if_opt_src(struct pbuf *p, const ip4_addr_t *src, const ip4_addr_t *dest,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   860                        u8_t ttl, u8_t tos, u8_t proto, struct netif *netif, void *ip_options,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   861                        u16_t optlen)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   862  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   863  #endif /* IP_OPTIONS_SEND */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   864    struct ip_hdr *iphdr;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   865    ip4_addr_t dest_addr;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   866  #if CHECKSUM_GEN_IP_INLINE
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   867    u32_t chk_sum = 0;
+	mov	d9,#0
+.L277:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   868  #endif /* CHECKSUM_GEN_IP_INLINE */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   869  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   870    LWIP_ASSERT_CORE_LOCKED();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   871    LWIP_IP_CHECK_PBUF_REF_COUNT_FOR_TX(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   872  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   873    MIB2_STATS_INC(mib2.ipoutrequests);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   874  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   875    /* Should the IP header be generated or is it already included in p? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   876    if (dest != LWIP_IP_HDRINCL) {
+	jz.a	a14,.L72
+.L198:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   877      u16_t ip_hlen = IP_HLEN;
+	mov	d11,#20
+.L279:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   878  #if IP_OPTIONS_SEND
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   879      u16_t optlen_aligned = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   880      if (optlen != 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   881  #if CHECKSUM_GEN_IP_INLINE
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   882        int i;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   883  #endif /* CHECKSUM_GEN_IP_INLINE */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   884        if (optlen > (IP_HLEN_MAX - IP_HLEN)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   885          /* optlen too long */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   886          LWIP_DEBUGF(IP_DEBUG | LWIP_DBG_LEVEL_SERIOUS, ("ip4_output_if_opt: optlen too long\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   887          IP_STATS_INC(ip.err);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   888          MIB2_STATS_INC(mib2.ipoutdiscards);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   889          return ERR_VAL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   890        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   891        /* round up to a multiple of 4 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   892        optlen_aligned = (u16_t)((optlen + 3) & ~3);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   893        ip_hlen = (u16_t)(ip_hlen + optlen_aligned);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   894        /* First write in the IP options */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   895        if (pbuf_add_header(p, optlen_aligned)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   896          LWIP_DEBUGF(IP_DEBUG | LWIP_DBG_LEVEL_SERIOUS, ("ip4_output_if_opt: not enough room for IP options in pbuf\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   897          IP_STATS_INC(ip.err);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   898          MIB2_STATS_INC(mib2.ipoutdiscards);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   899          return ERR_BUF;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   900        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   901        MEMCPY(p->payload, ip_options, optlen);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   902        if (optlen < optlen_aligned) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   903          /* zero the remaining bytes */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   904          memset(((char *)p->payload) + optlen, 0, (size_t)(optlen_aligned - optlen));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   905        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   906  #if CHECKSUM_GEN_IP_INLINE
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   907        for (i = 0; i < optlen_aligned / 2; i++) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   908          chk_sum += ((u16_t *)p->payload)[i];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   909        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   910  #endif /* CHECKSUM_GEN_IP_INLINE */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   911      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   912  #endif /* IP_OPTIONS_SEND */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   913      /* generate IP header */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   914      if (pbuf_add_header(p, IP_HLEN)) {
+	mov	d4,d11
+.L266:
+	call	pbuf_add_header
+.L265:
+	jne	d2,#0,.L73
+.L414:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   915        LWIP_DEBUGF(IP_DEBUG | LWIP_DBG_LEVEL_SERIOUS, ("ip4_output: not enough room for IP header in pbuf\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   916  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   917        IP_STATS_INC(ip.err);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   918        MIB2_STATS_INC(mib2.ipoutdiscards);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   919        return ERR_BUF;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   920      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   921  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   922      iphdr = (struct ip_hdr *)p->payload;
+	ld.a	a15,[a12]4
+.L281:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   923      LWIP_ASSERT("check that first pbuf can hold struct ip_hdr",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   924                  (p->len >= sizeof(struct ip_hdr)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   925  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   926      IPH_TTL_SET(iphdr, ttl);
+	st.b	[a15]8,d15
+.L415:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   927      IPH_PROTO_SET(iphdr, proto);
+	st.b	[a15]9,d8
+.L416:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   928  #if CHECKSUM_GEN_IP_INLINE
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   929      chk_sum += PP_NTOHS(proto | (ttl << 8));
+	sha	d0,d15,#8
+	or	d8,d0
+.L275:
+	and	d15,d8,#255
+.L271:
+	sha	d15,d15,#8
+	sha	d8,#-8
+	or	d15,d8
+.L417:
+	add	d9,d15
+.L418:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   930  #endif /* CHECKSUM_GEN_IP_INLINE */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   931  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   932      /* dest cannot be NULL here */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   933      ip4_addr_copy(iphdr->dest, *dest);
+	ld.w	d15,[a14]
+	st.w	[a15]16,d15
+.L419:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   934  #if CHECKSUM_GEN_IP_INLINE
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   935      chk_sum += ip4_addr_get_u32(&iphdr->dest) & 0xFFFF;
+	insert	d0,d15,#0,#16,#16
+.L420:
+	add	d9,d0
+.L278:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   936      chk_sum += ip4_addr_get_u32(&iphdr->dest) >> 16;
+	sh	d15,d15,#-16
+.L282:
+	add	d9,d15
+.L421:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   937  #endif /* CHECKSUM_GEN_IP_INLINE */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   938  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   939      IPH_VHL_SET(iphdr, 4, ip_hlen / 4);
+	sha	d11,#-2
+.L280:
+	or	d15,d11,#64
+	st.b	[a15],d15
+.L422:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   940      IPH_TOS_SET(iphdr, tos);
+	st.b	[a15]1,d10
+.L423:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   941  #if CHECKSUM_GEN_IP_INLINE
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   942      chk_sum += PP_NTOHS(tos | (iphdr->_v_hl << 8));
+	sha	d15,d15,#8
+	or	d10,d15
+.L273:
+	and	d15,d10,#255
+	sha	d15,d15,#8
+	sha	d10,#-8
+	or	d15,d10
+.L424:
+	add	d9,d15
+.L425:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   943  #endif /* CHECKSUM_GEN_IP_INLINE */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   944      IPH_LEN_SET(iphdr, lwip_htons(p->tot_len));
+	ld.hu	d4,[a12]8
+	call	lwip_htons
+	st.h	[a15]2,d2
+.L426:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   945  #if CHECKSUM_GEN_IP_INLINE
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   946      chk_sum += iphdr->_len;
+	add	d9,d2
+.L427:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   947  #endif /* CHECKSUM_GEN_IP_INLINE */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   948      IPH_OFFSET_SET(iphdr, 0);
+	mov	d15,#0
+	st.h	[a15]6,d15
+.L428:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   949      IPH_ID_SET(iphdr, lwip_htons(ip_id));
+	movh.a	a2,#@his(ip_id)
+	ld.hu	d4,[a2]@los(ip_id)
+	call	lwip_htons
+	st.h	[a15]4,d2
+.L429:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   950  #if CHECKSUM_GEN_IP_INLINE
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   951      chk_sum += iphdr->_id;
+	add	d9,d2
+.L430:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   952  #endif /* CHECKSUM_GEN_IP_INLINE */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   953      ++ip_id;
+	movh.a	a2,#@his(ip_id)
+	ld.hu	d15,[a2]@los(ip_id)
+.L431:
+	add	d15,#1
+	st.h	[a2]@los(ip_id),d15
+.L432:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   954  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   955      if (src == NULL) {
+	jnz.a	a13,.L74
+.L433:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   956        ip4_addr_copy(iphdr->src, *IP4_ADDR_ANY4);
+	movh.a	a2,#@his(ip_addr_any)
+	ld.w	d15,[a2]@los(ip_addr_any)
+.L434:
+	j	.L75
+.L74:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   957      } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   958        /* src cannot be NULL here */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   959        ip4_addr_copy(iphdr->src, *src);
+	ld.w	d15,[a13]
+.L75:
+	st.w	[a15]12,d15
+.L435:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   960      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   961  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   962  #if CHECKSUM_GEN_IP_INLINE
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   963      chk_sum += ip4_addr_get_u32(&iphdr->src) & 0xFFFF;
+	insert	d0,d15,#0,#16,#16
+.L436:
+	add	d9,d0
+.L283:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   964      chk_sum += ip4_addr_get_u32(&iphdr->src) >> 16;
+	sh	d15,d15,#-16
+.L284:
+	add	d9,d15
+.L437:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   965      chk_sum = (chk_sum >> 16) + (chk_sum & 0xFFFF);
+	sh	d15,d9,#-16
+.L438:
+	insert	d0,d9,#0,#16,#16
+.L286:
+	add	d15,d0
+.L285:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   966      chk_sum = (chk_sum >> 16) + chk_sum;
+	sh	d0,d15,#-16
+.L439:
+	add	d0,d15
+.L440:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   967      chk_sum = ~chk_sum;
+	mov	d15,#-1
+.L287:
+	xor	d0,d15
+.L441:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   968      IF__NETIF_CHECKSUM_ENABLED(netif, NETIF_CHECKSUM_GEN_IP) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   969        iphdr->_chksum = (u16_t)chk_sum; /* network order */
+	st.h	[a15]10,d0
+.L199:
+	j	.L76
+.L72:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   970      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   971  #if LWIP_CHECKSUM_CTRL_PER_NETIF
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   972      else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   973        IPH_CHKSUM_SET(iphdr, 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   974      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   975  #endif /* LWIP_CHECKSUM_CTRL_PER_NETIF*/
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   976  #else /* CHECKSUM_GEN_IP_INLINE */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   977      IPH_CHKSUM_SET(iphdr, 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   978  #if CHECKSUM_GEN_IP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   979      IF__NETIF_CHECKSUM_ENABLED(netif, NETIF_CHECKSUM_GEN_IP) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   980        IPH_CHKSUM_SET(iphdr, inet_chksum(iphdr, ip_hlen));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   981      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   982  #endif /* CHECKSUM_GEN_IP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   983  #endif /* CHECKSUM_GEN_IP_INLINE */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   984    } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   985      /* IP header already included in p */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   986      if (p->len < IP_HLEN) {
+	ld.hu	d0,[a12]10
+.L442:
+	mov	d15,#20
+.L288:
+	jge.u	d0,d15,.L77
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   987        LWIP_DEBUGF(IP_DEBUG | LWIP_DBG_LEVEL_SERIOUS, ("ip4_output: LWIP_IP_HDRINCL but pbuf is too short\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   988        IP_STATS_INC(ip.err);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   989        MIB2_STATS_INC(mib2.ipoutdiscards);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   990        return ERR_BUF;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   991      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   992      iphdr = (struct ip_hdr *)p->payload;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   993      ip4_addr_copy(dest_addr, iphdr->dest);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   994      dest = &dest_addr;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   995    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   996  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   997    IP_STATS_INC(ip.xmit);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   998  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	   999    LWIP_DEBUGF(IP_DEBUG, ("ip4_output_if: %c%c%"U16_F"\n", netif->name[0], netif->name[1], (u16_t)netif->num));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1000    ip4_debug_print(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1001  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1002  #if ENABLE_LOOPBACK
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1003    if (ip4_addr_cmp(dest, netif_ip4_addr(netif))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1004  #if !LWIP_HAVE_LOOPIF
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1005        || ip4_addr_isloopback(dest)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1006  #endif /* !LWIP_HAVE_LOOPIF */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1007       ) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1008      /* Packet to self, enqueue it for loopback */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1009      LWIP_DEBUGF(IP_DEBUG, ("netif_loop_output()"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1010      return netif_loop_output(netif, p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1011    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1012  #if LWIP_MULTICAST_TX_OPTIONS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1013    if ((p->flags & PBUF_FLAG_MCASTLOOP) != 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1014      netif_loop_output(netif, p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1015    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1016  #endif /* LWIP_MULTICAST_TX_OPTIONS */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1017  #endif /* ENABLE_LOOPBACK */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1018  #if IP_FRAG
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1019    /* don't fragment if interface has mtu set to 0 [loopif] */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1020    if (netif->mtu && (p->tot_len > netif->mtu)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1021      return ip4_frag(p, netif, dest);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1022    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1023  #endif /* IP_FRAG */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1024  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1025    LWIP_DEBUGF(IP_DEBUG, ("ip4_output_if: call netif->output()\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1026    return netif->output(netif, p, dest);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1027  }
+.L73:
+	mov	d2,#-2
+.L443:
+	ret
+.L77:
+	ld.a	a15,[a12]4
+.L289:
+	ld.w	d15,[a15]16
+	st.w	[a10],d15
+.L290:
+	mov.aa	a14,a10
+.L76:
+	ld.a	a4,[a10]4
+.L291:
+	ld.a	a15,[a4]20
+.L444:
+	mov.aa	a5,a12
+.L292:
+	mov.aa	a6,a14
+.L293:
+	ji	a15
+.L184:
+	
+__ip4_output_if_src_function_end:
+	.size	ip4_output_if_src,__ip4_output_if_src_function_end-ip4_output_if_src
+.L132:
+	; End of function
+	
+	.sdecl	'.text.ip4.ip4_output',code,cluster('ip4_output')
+	.sect	'.text.ip4.ip4_output'
+	.align	2
+	
+	.global	ip4_output
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1028  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1029  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1030   * Simple interface to ip_output_if. It finds the outgoing network
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1031   * interface and calls upon ip_output_if to do the actual work.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1032   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1033   * @param p the packet to send (p->payload points to the data, e.g. next
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1034              protocol header; if dest == LWIP_IP_HDRINCL, p already includes an
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1035              IP header and p->payload points to that IP header)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1036   * @param src the source IP address to send from (if src == IP4_ADDR_ANY, the
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1037   *         IP  address of the netif used to send is used as source address)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1038   * @param dest the destination IP address to send the packet to
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1039   * @param ttl the TTL value to be set in the IP header
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1040   * @param tos the TOS value to be set in the IP header
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1041   * @param proto the PROTOCOL to be set in the IP header
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1042   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1043   * @return ERR_RTE if no route is found
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1044   *         see ip_output_if() for more return values
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1045   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1046  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1047  ip4_output(struct pbuf *p, const ip4_addr_t *src, const ip4_addr_t *dest,
+; Function ip4_output
+.L98:
+ip4_output:	.type	func
+	mov.aa	a15,a4
+.L297:
+	mov.aa	a12,a5
+.L298:
+	mov.aa	a13,a6
+.L299:
+	mov	d15,d4
+.L300:
+	mov	e8,d6,d5
+.L401:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1048             u8_t ttl, u8_t tos, u8_t proto)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1049  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1050    struct netif *netif;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1051  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1052    LWIP_IP_CHECK_PBUF_REF_COUNT_FOR_TX(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1053  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1054    if ((netif = ip4_route_src(src, dest)) == NULL) {
+	mov.aa	a4,a12
+.L295:
+	mov.aa	a5,a13
+.L294:
+	call	ip4_route_src
+.L296:
+	jnz.a	a2,.L80
+.L402:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1055      LWIP_DEBUGF(IP_DEBUG, ("ip4_output: No route to %"U16_F".%"U16_F".%"U16_F".%"U16_F"\n",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1056                             ip4_addr1_16(dest), ip4_addr2_16(dest), ip4_addr3_16(dest), ip4_addr4_16(dest)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1057      IP_STATS_INC(ip.rterr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1058      return ERR_RTE;
+	mov	d2,#-4
+.L403:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1059    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1060  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1061    return ip4_output_if(p, src, dest, ttl, tos, proto, netif);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1062  }
+	ret
+.L80:
+	mov.aa	a4,a15
+.L301:
+	mov.aa	a5,a12
+.L302:
+	mov.aa	a6,a13
+.L303:
+	mov	e4,d8,d15
+.L304:
+	mov	d6,d9
+.L305:
+	mov.aa	a7,a2
+.L306:
+	j	ip4_output_if
+.L166:
+	
+__ip4_output_function_end:
+	.size	ip4_output,__ip4_output_function_end-ip4_output
+.L122:
+	; End of function
+	
+	.sdecl	'.bss.ip4.ip_id',data,cluster('ip_id')
+	.sect	'.bss.ip4.ip_id'
+	.align	2
+ip_id:	.type	object
+	.size	ip_id,2
+	.space	2
+	.calls	'ip4_route_src','ip4_find_netif_by_src'
+	.calls	'ip4_route_src','ip4_route'
+	.calls	'ip4_route','ip4_find_netif_by_src'
+	.calls	'ip4_input_accept','ip4_addr_isbroadcast_u32'
+	.calls	'ip4_input','lwip_htons'
+	.calls	'ip4_input','pbuf_realloc'
+	.calls	'ip4_input','inet_chksum'
+	.calls	'ip4_input','ip4_input_accept'
+	.calls	'ip4_input','ip4_addr_isbroadcast_u32'
+	.calls	'ip4_input','pbuf_free'
+	.calls	'ip4_input','pbuf_remove_header'
+	.calls	'ip4_input','udp_input'
+	.calls	'ip4_input','tcp_input'
+	.calls	'ip4_input','icmp_addr_cmp'
+	.calls	'ip4_input','icmp_input'
+	.calls	'ip4_input','pbuf_header_force'
+	.calls	'ip4_input','icmp_dest_unreach'
+	.calls	'ip4_output_if','ip4_output_if_src'
+	.calls	'ip4_output_if_src','pbuf_add_header'
+	.calls	'ip4_output_if_src','lwip_htons'
+	.calls	'ip4_output_if_src','__INDIRECT__'
+	.calls	'ip4_output','ip4_route_src'
+	.calls	'ip4_output','ip4_output_if'
+	.calls	'ip4_find_netif_by_src','',0
+	.calls	'ip4_route_src','',0
+	.calls	'ip4_route','',0
+	.calls	'ip4_input_accept','',0
+	.calls	'ip4_input','',0
+	.calls	'ip4_output_if','',0
+	.calls	'ip4_output_if_src','',8
+	.extern	lwip_htons
+	.extern	pbuf_realloc
+	.extern	pbuf_header_force
+	.extern	pbuf_add_header
+	.extern	pbuf_remove_header
+	.extern	pbuf_free
+	.extern	ip4_addr_isbroadcast_u32
+	.extern	ip_addr_any
+	.extern	netif_list
+	.extern	netif_default
+	.extern	ip_data
+	.extern	inet_chksum
+	.extern	icmp_input
+	.extern	icmp_dest_unreach
+	.extern	icmp_addr_cmp
+	.extern	udp_input
+	.extern	tcp_input
+	.extern	__INDIRECT__
+	.calls	'ip4_output','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L100:
+	.word	9199
+	.half	3
+	.word	.L101
+	.byte	4
+.L99:
+	.byte	1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L102
+.L163:
+	.byte	2
+	.byte	'unsigned short int',0,2,7,3
+	.byte	'lwip_htons',0,1,97,7
+	.word	167
+	.byte	1,1,1,1,4
+	.byte	'x',0,1,97,24
+	.word	167
+	.byte	0,5
+	.byte	'void',0,6
+	.word	223
+.L170:
+	.byte	2
+	.byte	'unsigned char',0,1,8,7
+	.byte	'pbuf',0,2,186,1,8,16,8
+	.byte	'next',0
+	.word	.L157-.L100
+	.byte	4,2,35,0,8
+	.byte	'payload',0
+	.word	229
+	.byte	4,2,35,4,8
+	.byte	'tot_len',0
+	.word	167
+	.byte	2,2,35,8,8
+	.byte	'len',0
+	.word	167
+	.byte	2,2,35,10,8
+	.byte	'type_internal',0
+	.word	234
+	.byte	1,2,35,12,8
+	.byte	'flags',0
+	.word	234
+	.byte	1,2,35,13,8
+	.byte	'ref',0
+	.word	234
+	.byte	1,2,35,14,8
+	.byte	'if_idx',0
+	.word	234
+	.byte	1,2,35,15,0
+.L157:
+	.byte	6
+	.word	251
+	.byte	9
+	.byte	'pbuf_realloc',0,2,151,2,6,1,1,1,1,4
+	.byte	'p',0,2,151,2,32
+	.word	391
+	.byte	4
+	.byte	'size',0,2,151,2,41
+	.word	167
+	.byte	0,2
+	.byte	'short int',0,2,5,3
+	.byte	'pbuf_header_force',0,2,156,2,6
+	.word	234
+	.byte	1,1,1,1,4
+	.byte	'p',0,2,156,2,37
+	.word	391
+	.byte	4
+	.byte	'header_size',0,2,156,2,46
+	.word	444
+	.byte	0
+.L196:
+	.byte	2
+	.byte	'unsigned long int',0,4,7,3
+	.byte	'pbuf_add_header',0,2,157,2,6
+	.word	234
+	.byte	1,1,1,1,4
+	.byte	'p',0,2,157,2,35
+	.word	391
+	.byte	4
+	.byte	'header_size_increment',0,2,157,2,45
+	.word	521
+	.byte	0,3
+	.byte	'pbuf_remove_header',0,2,159,2,6
+	.word	234
+	.byte	1,1,1,1,4
+	.byte	'p',0,2,159,2,38
+	.word	391
+	.byte	4
+	.byte	'header_size',0,2,159,2,48
+	.word	521
+	.byte	0,3
+	.byte	'pbuf_free',0,2,162,2,6
+	.word	234
+	.byte	1,1,1,1,4
+	.byte	'p',0,2,162,2,29
+	.word	391
+	.byte	0
+.L145:
+	.byte	6
+	.word	.L307-.L100
+.L194:
+	.byte	7
+	.byte	'ip4_addr',0,3,51,8,4,8
+	.byte	'addr',0
+	.word	521
+	.byte	4,2,35,0,0
+.L155:
+	.byte	2
+	.byte	'char',0,1,6,10
+	.word	748
+	.byte	1,1,11
+	.word	391
+	.byte	11
+	.word	714
+	.byte	0,6
+	.word	756
+	.byte	12
+	.byte	'netif_input_fn',0,4,178,1,17
+	.word	774
+	.byte	13
+	.word	719
+	.byte	6
+	.word	803
+	.byte	10
+	.word	748
+	.byte	1,1,11
+	.word	714
+	.byte	11
+	.word	391
+	.byte	11
+	.word	808
+	.byte	0,6
+	.word	813
+	.byte	12
+	.byte	'netif_output_fn',0,4,189,1,17
+	.word	836
+	.byte	10
+	.word	748
+	.byte	1,1,11
+	.word	714
+	.byte	11
+	.word	391
+	.byte	0,6
+	.word	866
+	.byte	12
+	.byte	'netif_linkoutput_fn',0,4,212,1,17
+	.word	884
+	.byte	14,1,1,11
+	.word	714
+	.byte	0,6
+	.word	918
+	.byte	12
+	.byte	'netif_status_callback_fn',0,4,214,1,16
+	.word	927
+	.byte	15,6
+	.word	234
+	.byte	16,5,0,2
+	.byte	'char',0,1,6,15,2
+	.word	975
+	.byte	16,1,0
+.L307:
+	.byte	7
+	.byte	'netif',0,4,132,2,8,52,8
+	.byte	'next',0
+	.word	714
+	.byte	4,2,35,0,8
+	.byte	'ip_addr',0
+	.word	719
+	.byte	4,2,35,4,8
+	.byte	'netmask',0
+	.word	719
+	.byte	4,2,35,8,8
+	.byte	'gw',0
+	.word	719
+	.byte	4,2,35,12,8
+	.byte	'input',0
+	.word	779
+	.byte	4,2,35,16,8
+	.byte	'output',0
+	.word	841
+	.byte	4,2,35,20,8
+	.byte	'linkoutput',0
+	.word	889
+	.byte	4,2,35,24,8
+	.byte	'status_callback',0
+	.word	932
+	.byte	4,2,35,28,8
+	.byte	'state',0
+	.word	229
+	.byte	4,2,35,32,8
+	.byte	'mtu',0
+	.word	167
+	.byte	2,2,35,36,8
+	.byte	'hwaddr',0
+	.word	966
+	.byte	6,2,35,38,8
+	.byte	'hwaddr_len',0
+	.word	234
+	.byte	1,2,35,44,8
+	.byte	'flags',0
+	.word	234
+	.byte	1,2,35,45,8
+	.byte	'name',0
+	.word	983
+	.byte	2,2,35,46,8
+	.byte	'num',0
+	.word	234
+	.byte	1,2,35,48,8
+	.byte	'rs_count',0
+	.word	234
+	.byte	1,2,35,49,0,13
+	.word	992
+	.byte	6
+	.word	1265
+	.byte	3
+	.byte	'ip4_addr_isbroadcast_u32',0,3,151,1,6
+	.word	234
+	.byte	1,1,1,1,4
+	.byte	'addr',0,3,151,1,37
+	.word	521
+	.byte	4
+	.byte	'netif',0,3,151,1,63
+	.word	1270
+	.byte	0,6
+	.word	756
+	.byte	6
+	.word	813
+	.byte	6
+	.word	866
+	.byte	6
+	.word	918
+	.byte	13
+	.word	719
+.L147:
+	.byte	6
+	.word	1363
+	.byte	7
+	.byte	'ip4_addr_packed',0,5,53,8,4,8
+	.byte	'addr',0
+	.word	521
+	.byte	4,2,35,0,0,7
+	.byte	'ip_hdr',0,5,73,8,20,8
+	.byte	'_v_hl',0
+	.word	234
+	.byte	1,2,35,0,8
+	.byte	'_tos',0
+	.word	234
+	.byte	1,2,35,1,8
+	.byte	'_len',0
+	.word	167
+	.byte	2,2,35,2,8
+	.byte	'_id',0
+	.word	167
+	.byte	2,2,35,4,8
+	.byte	'_offset',0
+	.word	167
+	.byte	2,2,35,6,8
+	.byte	'_ttl',0
+	.word	234
+	.byte	1,2,35,8,8
+	.byte	'_proto',0
+	.word	234
+	.byte	1,2,35,9,8
+	.byte	'_chksum',0
+	.word	167
+	.byte	2,2,35,10,8
+	.byte	'src',0
+	.word	1373
+	.byte	4,2,35,12,8
+	.byte	'dest',0
+	.word	1373
+	.byte	4,2,35,16,0,13
+	.word	1409
+.L160:
+	.byte	6
+	.word	1569
+.L192:
+	.byte	6
+	.word	1409
+	.byte	13
+	.word	223
+	.byte	6
+	.word	1584
+	.byte	3
+	.byte	'inet_chksum',0,6,74,7
+	.word	167
+	.byte	1,1,1,1,4
+	.byte	'dataptr',0,6,74,31
+	.word	1589
+	.byte	4
+	.byte	'len',0,6,74,46
+	.word	167
+	.byte	0,9
+	.byte	'icmp_input',0,7,80,6,1,1,1,1,4
+	.byte	'p',0,7,80,30
+	.word	391
+	.byte	4
+	.byte	'inp',0,7,80,47
+	.word	714
+	.byte	0,17
+	.byte	'icmp_dur_type',0,7,55,6,1,18
+	.byte	'ICMP_DUR_NET',0,0,18
+	.byte	'ICMP_DUR_HOST',0,1,18
+	.byte	'ICMP_DUR_PROTO',0,2,18
+	.byte	'ICMP_DUR_PORT',0,3,18
+	.byte	'ICMP_DUR_FRAG',0,4,18
+	.byte	'ICMP_DUR_SR',0,5,0,9
+	.byte	'icmp_dest_unreach',0,7,81,6,1,1,1,1,4
+	.byte	'p',0,7,81,37
+	.word	391
+	.byte	4
+	.byte	't',0,7,81,59
+	.word	1689
+	.byte	0,3
+	.byte	'icmp_addr_cmp',0,7,83,7
+	.word	748
+	.byte	1,1,1,1,4
+	.byte	'ifp',0,7,83,35
+	.word	714
+	.byte	4
+	.byte	'addr',0,7,83,58
+	.word	1368
+	.byte	0,9
+	.byte	'udp_input',0,8,163,1,18,1,1,1,1,4
+	.byte	'p',0,8,163,1,47
+	.word	391
+	.byte	4
+	.byte	'inp',0,8,163,1,64
+	.word	714
+	.byte	0,9
+	.byte	'tcp_input',0,9,77,18,1,1,1,1,4
+	.byte	'p',0,9,77,44
+	.word	391
+	.byte	4
+	.byte	'inp',0,9,77,61
+	.word	714
+	.byte	0
+.L205:
+	.byte	2
+	.byte	'int',0,4,5,19
+	.byte	'__INDIRECT__',0,10,1,1,1,1,1,20,1,6
+	.word	2014
+	.byte	12
+	.byte	'__codeptr',0,10,1,1
+	.word	2016
+	.byte	12
+	.byte	'boolean',0,11,102,29
+	.word	234
+	.byte	12
+	.byte	'uint8',0,11,106,29
+	.word	234
+	.byte	12
+	.byte	'uint16',0,11,110,29
+	.word	167
+	.byte	12
+	.byte	'uint32',0,11,114,29
+	.word	521
+	.byte	12
+	.byte	'Std_ReturnType',0,12,109,16
+	.word	234
+	.byte	12
+	.byte	'PduIdType',0,13,37,21
+	.word	234
+	.byte	12
+	.byte	'PduLengthType',0,13,41,22
+	.word	167
+	.byte	21,14,101,9,1,18
+	.byte	'BUFREQ_OK',0,0,18
+	.byte	'BUFREQ_E_NOT_OK',0,1,18
+	.byte	'BUFREQ_E_BUSY',0,2,18
+	.byte	'BUFREQ_E_OVFL',0,3,0,12
+	.byte	'BufReq_ReturnType',0,14,107,3
+	.word	2162
+	.byte	6
+	.word	234
+	.byte	12
+	.byte	'SduDataPtrType',0,14,189,1,40
+	.word	2256
+	.byte	21,14,204,1,9,1,18
+	.byte	'TP_DATACONF',0,0,18
+	.byte	'TP_DATARETRY',0,1,18
+	.byte	'TP_CONFPENDING',0,2,0,12
+	.byte	'TpDataStateType',0,14,216,1,3
+	.word	2285
+	.byte	12
+	.byte	'TcpIp_SocketIdType',0,15,50,16
+	.word	234
+	.byte	15,4
+	.word	521
+	.byte	16,0,0,22,15,52,9,4,8
+	.byte	'Addr',0
+	.word	2390
+	.byte	4,2,35,0,0,12
+	.byte	'TcpIp_IpAddressType',0,15,55,3
+	.word	2399
+	.byte	12
+	.byte	'TcpIp_DomainType',0,15,61,16
+	.word	167
+	.byte	22,15,68,9,8,8
+	.byte	'Domain',0
+	.word	167
+	.byte	2,2,35,0,8
+	.byte	'Port',0
+	.word	167
+	.byte	2,2,35,2,8
+	.byte	'Addr',0
+	.word	2390
+	.byte	4,2,35,4,0,12
+	.byte	'TcpIp_SockAddrInetType',0,15,73,3
+	.word	2472
+	.byte	12
+	.byte	'TcpIp_AddressType',0,16,128,1,15
+	.word	234
+	.byte	12
+	.byte	'TcpIp_CtrlIdType',0,16,142,1,15
+	.word	234
+	.byte	12
+	.byte	'TcpIp_IpAddrStateType',0,16,144,1,15
+	.word	234
+	.byte	12
+	.byte	'TcpIp_LocalAddrAssignmentConfigType',0,16,149,1,15
+	.word	234
+	.byte	12
+	.byte	'TcpIp_StaticAddrIdType',0,16,151,1,15
+	.word	234
+	.byte	22,16,152,1,9,12,8
+	.byte	'State',0
+	.word	234
+	.byte	1,2,35,0,8
+	.byte	'Netmask',0
+	.word	234
+	.byte	1,2,35,1,8
+	.byte	'Domain',0
+	.word	167
+	.byte	2,2,35,2,8
+	.byte	'IpAddr',0
+	.word	2399
+	.byte	4,2,35,4,8
+	.byte	'DefaultRouter',0
+	.word	2399
+	.byte	4,2,35,8,0,12
+	.byte	'TcpIp_StaticIpAddrType',0,16,162,1,3
+	.word	2714
+	.byte	12
+	.byte	'TcpIp_LocalAddrIdType',0,16,173,1,15
+	.word	234
+	.byte	15,3
+	.word	234
+	.byte	16,2,0,22,16,231,1,9,8,8
+	.byte	'CtrlId',0
+	.word	234
+	.byte	1,2,35,0,8
+	.byte	'Address',0
+	.word	234
+	.byte	1,2,35,1,8
+	.byte	'Domain',0
+	.word	167
+	.byte	2,2,35,2,8
+	.byte	'StaticAddrId',0
+	.word	234
+	.byte	1,2,35,4,8
+	.byte	'Assignments',0
+	.word	2871
+	.byte	3,2,35,5,0,12
+	.byte	'TcpIp_LocalAddrConfigType',0,16,243,1,3
+	.word	2880
+	.byte	22,16,245,1,9,4,8
+	.byte	'ArpConfigId',0
+	.word	234
+	.byte	1,2,35,0,8
+	.byte	'DHCPConfigId',0
+	.word	234
+	.byte	1,2,35,1,8
+	.byte	'AutoIpInitTimeout',0
+	.word	167
+	.byte	2,2,35,2,0,12
+	.byte	'TcpIp_IpV4CtrlConfigType',0,16,130,2,3
+	.word	3014
+	.byte	22,16,133,2,9,8,8
+	.byte	'CtrlIdx',0
+	.word	234
+	.byte	1,2,35,0,8
+	.byte	'FramePrio',0
+	.word	234
+	.byte	1,2,35,1,8
+	.byte	'UnicastAddrId',0
+	.word	234
+	.byte	1,2,35,2,8
+	.byte	'UnicastAddrLimit',0
+	.word	234
+	.byte	1,2,35,3,8
+	.byte	'MulticastAddrId',0
+	.word	234
+	.byte	1,2,35,4,8
+	.byte	'LocalAddrLimit',0
+	.word	234
+	.byte	1,2,35,5,8
+	.byte	'IpV4CtrlId',0
+	.word	234
+	.byte	1,2,35,6,8
+	.byte	'IpV6CtrlId',0
+	.word	234
+	.byte	1,2,35,7,0,12
+	.byte	'TcpIp_NetIfCtrlConfigType',0,16,148,2,3
+	.word	3125
+	.byte	12
+	.byte	'SoAd_RoutingGroupIdType',0,17,43,15
+	.word	234
+	.byte	12
+	.byte	'SoAd_SoConIdType',0,17,44,15
+	.word	234
+	.byte	12
+	.byte	'SoAd_SoConGroupIdType',0,17,45,15
+	.word	234
+	.byte	12
+	.byte	'SoAd_PduRouteIdType',0,17,46,15
+	.word	234
+	.byte	12
+	.byte	'SoAd_PduRouteDestIdType',0,17,47,15
+	.word	234
+	.byte	12
+	.byte	'SoAd_SocketRouteIdType',0,17,48,15
+	.word	234
+	.byte	12
+	.byte	'SoAd_IfTxUnconfirmedType',0,17,49,16
+	.word	167
+	.byte	12
+	.byte	'SoAd_IfTxTimerType',0,17,51,16
+	.word	167
+	.byte	15,1
+	.word	234
+	.byte	16,0,0,22,17,53,9,2,8
+	.byte	'Mask',0
+	.word	3579
+	.byte	1,2,35,0,8
+	.byte	'RoutingState',0
+	.word	3579
+	.byte	1,2,35,1,0,12
+	.byte	'SoAd_RoutingGroupCtrlType',0,17,57,3
+	.word	3588
+	.byte	21,17,63,9,1,18
+	.byte	'SOAD_UL_DOIP',0,0,18
+	.byte	'SOAD_UL_UDPNM',0,1,18
+	.byte	'SOAD_UL_PDUR',0,2,18
+	.byte	'SOAD_UL_XCP',0,3,18
+	.byte	'SOAD_UL_MAX',0,4,0,12
+	.byte	'SoAd_ULIndexType',0,17,71,3
+	.word	3664
+	.byte	12
+	.byte	'SoAd_RemoteAddressType',0,18,113,32
+	.word	2472
+	.byte	21,18,115,9,1,18
+	.byte	'SOAD_SOCON_UNINIT',0,0,18
+	.byte	'SOAD_SOCON_OFFLINE',0,1,18
+	.byte	'SOAD_SOCON_RECONN',0,2,18
+	.byte	'SOAD_SOCON_ONLINE',0,3,0,12
+	.byte	'SoAd_SoConModeType',0,18,121,3
+	.word	3800
+	.byte	13
+	.word	234
+	.byte	6
+	.word	3914
+	.byte	13
+	.word	234
+	.byte	6
+	.word	3924
+	.byte	13
+	.word	234
+	.byte	6
+	.word	3934
+	.byte	13
+	.word	3664
+	.byte	6
+	.word	3944
+	.byte	22,18,129,1,9,36,8
+	.byte	'IfBufferLength',0
+	.word	167
+	.byte	2,2,35,0,8
+	.byte	'IfBufferOffset',0
+	.word	167
+	.byte	2,2,35,2,8
+	.byte	'TpBufferLength',0
+	.word	167
+	.byte	2,2,35,4,8
+	.byte	'TpBufferOffset',0
+	.word	167
+	.byte	2,2,35,6,8
+	.byte	'PduRouteNum',0
+	.word	234
+	.byte	1,2,35,8,8
+	.byte	'SocketRouteNum',0
+	.word	234
+	.byte	1,2,35,9,8
+	.byte	'PduRouteDestNum',0
+	.word	234
+	.byte	1,2,35,10,8
+	.byte	'RemoteAddrState',0
+	.word	234
+	.byte	1,2,35,11,8
+	.byte	'RemoteAddr',0
+	.word	2472
+	.byte	8,2,35,12,8
+	.byte	'PduRouteDestList',0
+	.word	3919
+	.byte	4,2,35,20,8
+	.byte	'PduRouteList',0
+	.word	3929
+	.byte	4,2,35,24,8
+	.byte	'SocketRouteList',0
+	.word	3939
+	.byte	4,2,35,28,8
+	.byte	'SoConModeChgList',0
+	.word	3949
+	.byte	4,2,35,32,0,12
+	.byte	'SoAd_SocketConnectionType',0,18,146,1,3
+	.word	3954
+	.byte	22,18,148,1,9,16,8
+	.byte	'CtrlFlag',0
+	.word	234
+	.byte	1,2,35,0,8
+	.byte	'KeepAliveProbesMax',0
+	.word	167
+	.byte	2,2,35,2,8
+	.byte	'KeepAliveInterval',0
+	.word	521
+	.byte	4,2,35,4,8
+	.byte	'KeepAliveTime',0
+	.word	521
+	.byte	4,2,35,8,8
+	.byte	'TxQuota',0
+	.word	521
+	.byte	4,2,35,12,0,12
+	.byte	'SoAd_TcpProtocolType',0,18,155,1,3
+	.word	4306
+	.byte	22,18,157,1,9,12,8
+	.byte	'CtrlFlag',0
+	.word	234
+	.byte	1,2,35,0,8
+	.byte	'nPduTxBufferMin',0
+	.word	167
+	.byte	2,2,35,2,8
+	.byte	'TriggerTimeout',0
+	.word	167
+	.byte	2,2,35,4,8
+	.byte	'AliveSupervisionTimeout',0
+	.word	521
+	.byte	4,2,35,6,0,12
+	.byte	'SoAd_UdpProtocolType',0,18,163,1,3
+	.word	4456
+	.byte	13
+	.word	4306
+	.byte	6
+	.word	4593
+	.byte	13
+	.word	4456
+	.byte	6
+	.word	4603
+	.byte	22,18,165,1,9,24,8
+	.byte	'GroupId',0
+	.word	234
+	.byte	1,2,35,0,8
+	.byte	'CtrlFlag',0
+	.word	234
+	.byte	1,2,35,1,8
+	.byte	'FramePriority',0
+	.word	234
+	.byte	1,2,35,2,8
+	.byte	'SoConNum',0
+	.word	234
+	.byte	1,2,35,3,8
+	.byte	'SoConId',0
+	.word	234
+	.byte	1,2,35,4,8
+	.byte	'IpAddrAssignChgNum',0
+	.word	234
+	.byte	1,2,35,5,8
+	.byte	'LocalAddrId',0
+	.word	234
+	.byte	1,2,35,6,8
+	.byte	'LocalPort',0
+	.word	167
+	.byte	2,2,35,8,8
+	.byte	'IpAddrAssignChgList',0
+	.word	3949
+	.byte	4,2,35,12,8
+	.byte	'TcpProtocolPtr',0
+	.word	4598
+	.byte	4,2,35,16,8
+	.byte	'UdpProtocolPtr',0
+	.word	4608
+	.byte	4,2,35,20,0,12
+	.byte	'SoAd_SocketConnectionGroupType',0,18,178,1,3
+	.word	4613
+	.byte	13
+	.word	234
+	.byte	6
+	.word	4898
+	.byte	22,18,180,1,9,12,8
+	.byte	'CtrlFlag',0
+	.word	234
+	.byte	1,2,35,0,8
+	.byte	'PduRouteDestNum',0
+	.word	234
+	.byte	1,2,35,1,8
+	.byte	'SocketRouteDestNum',0
+	.word	234
+	.byte	1,2,35,2,8
+	.byte	'PduRouteDestList',0
+	.word	4903
+	.byte	4,2,35,4,8
+	.byte	'SocketRouteDestList',0
+	.word	4903
+	.byte	4,2,35,8,0,12
+	.byte	'SoAd_RoutingGroupType',0,18,187,1,3
+	.word	4908
+	.byte	22,18,189,1,9,6,8
+	.byte	'ULType',0
+	.word	234
+	.byte	1,2,35,0,8
+	.byte	'ULIndex',0
+	.word	3664
+	.byte	1,2,35,1,8
+	.byte	'CtrlFlag',0
+	.word	234
+	.byte	1,2,35,2,8
+	.byte	'RouteDestNum',0
+	.word	234
+	.byte	1,2,35,3,8
+	.byte	'RouteDestId',0
+	.word	234
+	.byte	1,2,35,4,8
+	.byte	'TxPduId',0
+	.word	234
+	.byte	1,2,35,5,0,12
+	.byte	'SoAd_PduRouteType',0,18,204,1,3
+	.word	5072
+	.byte	6
+	.word	3588
+	.byte	22,18,206,1,9,20,8
+	.byte	'TxPduHeaderId',0
+	.word	521
+	.byte	4,2,35,0,8
+	.byte	'SoConNum',0
+	.word	234
+	.byte	1,2,35,4,8
+	.byte	'SoConId',0
+	.word	234
+	.byte	1,2,35,5,8
+	.byte	'PduRouteId',0
+	.word	234
+	.byte	1,2,35,6,8
+	.byte	'UdpTriggerMode',0
+	.word	234
+	.byte	1,2,35,7,8
+	.byte	'UdpTriggerTimeout',0
+	.word	167
+	.byte	2,2,35,8,8
+	.byte	'RoutingCtrlList',0
+	.word	5217
+	.byte	4,2,35,12,8
+	.byte	'IfTriggerList',0
+	.word	2256
+	.byte	4,2,35,16,0,12
+	.byte	'SoAd_PduRouteDestType',0,18,217,1,3
+	.word	5222
+	.byte	22,18,219,1,9,16,8
+	.byte	'RxPduHeaderId',0
+	.word	521
+	.byte	4,2,35,0,8
+	.byte	'ULType',0
+	.word	234
+	.byte	1,2,35,4,8
+	.byte	'ULIndex',0
+	.word	3664
+	.byte	1,2,35,5,8
+	.byte	'SoConNum',0
+	.word	234
+	.byte	1,2,35,6,8
+	.byte	'SoConId',0
+	.word	234
+	.byte	1,2,35,7,8
+	.byte	'RxPduId',0
+	.word	234
+	.byte	1,2,35,8,8
+	.byte	'RoutingCtrlList',0
+	.word	5217
+	.byte	4,2,35,12,0,12
+	.byte	'SoAd_SocketRouteType',0,18,236,1,3
+	.word	5437
+	.byte	13
+	.word	5222
+	.byte	6
+	.word	5607
+	.byte	22,18,155,2,9,24,8
+	.byte	'State',0
+	.word	234
+	.byte	1,2,35,0,8
+	.byte	'Timer',0
+	.word	167
+	.byte	2,2,35,2,8
+	.byte	'BufferLength',0
+	.word	167
+	.byte	2,2,35,4,8
+	.byte	'BufferOffset',0
+	.word	167
+	.byte	2,2,35,6,8
+	.byte	'UdpTxBuffer',0
+	.word	2256
+	.byte	4,2,35,8,8
+	.byte	'TotalTxLength',0
+	.word	167
+	.byte	2,2,35,12,8
+	.byte	'UsedTxLength',0
+	.word	167
+	.byte	2,2,35,14,8
+	.byte	'IfTxDataBuffer',0
+	.word	4903
+	.byte	4,2,35,16,8
+	.byte	'PduRouteDestPtr',0
+	.word	5612
+	.byte	4,2,35,20,0,12
+	.byte	'SoAd_TxSessionType',0,18,177,2,3
+	.word	5617
+	.byte	13
+	.word	5437
+	.byte	6
+	.word	5841
+	.byte	22,18,180,2,9,8,8
+	.byte	'PduLength',0
+	.word	167
+	.byte	2,2,35,0,8
+	.byte	'RemainLength',0
+	.word	167
+	.byte	2,2,35,2,8
+	.byte	'SocketRoutePtr',0
+	.word	5846
+	.byte	4,2,35,4,0,12
+	.byte	'SoAd_RxPduInfoType',0,18,185,2,3
+	.word	5851
+	.byte	22,18,187,2,9,12,8
+	.byte	'TotalLength',0
+	.word	167
+	.byte	2,2,35,0,8
+	.byte	'In',0
+	.word	167
+	.byte	2,2,35,2,8
+	.byte	'Out',0
+	.word	167
+	.byte	2,2,35,4,8
+	.byte	'BufferPtr',0
+	.word	2256
+	.byte	4,2,35,8,0,12
+	.byte	'SoAd_RxFifoType',0,18,193,2,3
+	.word	5951
+	.byte	22,18,195,2,9,8,8
+	.byte	'TotalLength',0
+	.word	167
+	.byte	2,2,35,0,8
+	.byte	'UsedLength',0
+	.word	167
+	.byte	2,2,35,2,8
+	.byte	'BufferPtr',0
+	.word	2256
+	.byte	4,2,35,4,0,12
+	.byte	'SoAd_RxBufferType',0,18,200,2,3
+	.word	6048
+	.byte	15,8
+	.word	234
+	.byte	16,7,0,22,18,202,2,9,48,8
+	.byte	'State',0
+	.word	234
+	.byte	1,2,35,0,8
+	.byte	'ValidHeaderLen',0
+	.word	234
+	.byte	1,2,35,1,8
+	.byte	'PduHeader',0
+	.word	6142
+	.byte	8,2,35,2,8
+	.byte	'RxPduInfo',0
+	.word	5851
+	.byte	8,2,35,12,8
+	.byte	'ProcessPduInfo',0
+	.word	5851
+	.byte	8,2,35,20,8
+	.byte	'IfBuffer',0
+	.word	6048
+	.byte	8,2,35,28,8
+	.byte	'TpBuffer',0
+	.word	5951
+	.byte	12,2,35,36,0,12
+	.byte	'SoAd_RxSessionType',0,18,216,2,3
+	.word	6151
+	.byte	12
+	.byte	'size_t',0,19,57,25
+	.word	521
+	.byte	12
+	.byte	'u8_t',0,19,61,25
+	.word	234
+	.byte	12
+	.byte	's8_t',0,19,62,25
+	.word	748
+	.byte	12
+	.byte	'u16_t',0,19,63,25
+	.word	167
+	.byte	12
+	.byte	's16_t',0,19,64,25
+	.word	444
+	.byte	12
+	.byte	'u32_t',0,19,65,25
+	.word	521
+	.byte	12
+	.byte	'err_t',0,20,96,14
+	.word	748
+	.byte	12
+	.byte	'ip4_addr_t',0,3,57,25
+	.word	719
+	.byte	12
+	.byte	'ip_addr_t',0,21,142,2,20
+	.word	719
+	.byte	13
+	.word	719
+	.byte	23
+	.byte	'ip_addr_any',0,21,241,2,24
+	.word	6458
+	.byte	1,1,23
+	.byte	'netif_list',0,4,149,3,22
+	.word	714
+	.byte	1,1,23
+	.byte	'netif_default',0,4,153,3,22
+	.word	714
+	.byte	1,1,12
+	.byte	'ip4_addr_p_t',0,5,61,32
+	.word	1373
+	.byte	7
+	.byte	'ip_globals',0,22,107,8,24,8
+	.byte	'current_netif',0
+	.word	714
+	.byte	4,2,35,0,8
+	.byte	'current_input_netif',0
+	.word	714
+	.byte	4,2,35,4,8
+	.byte	'current_ip4_header',0
+	.word	1574
+	.byte	4,2,35,8,8
+	.byte	'current_ip_header_tot_len',0
+	.word	167
+	.byte	2,2,35,12,8
+	.byte	'current_iphdr_src',0
+	.word	719
+	.byte	4,2,35,14,8
+	.byte	'current_iphdr_dest',0
+	.word	719
+	.byte	4,2,35,18,0,23
+	.byte	'ip_data',0,22,128,1,26
+	.word	6554
+	.byte	1,1,7
+	.byte	'udp_pcb',0,8,81,8,32,8
+	.byte	'local_ip',0
+	.word	719
+	.byte	4,2,35,0,8
+	.byte	'remote_ip',0
+	.word	719
+	.byte	4,2,35,4,8
+	.byte	'netif_idx',0
+	.word	234
+	.byte	1,2,35,8,8
+	.byte	'so_options',0
+	.word	234
+	.byte	1,2,35,9,8
+	.byte	'tos',0
+	.word	234
+	.byte	1,2,35,10,8
+	.byte	'ttl',0
+	.word	234
+	.byte	1,2,35,11,8
+	.byte	'next',0
+	.word	.L308-.L100
+	.byte	4,2,35,12,8
+	.byte	'flags',0
+	.word	234
+	.byte	1,2,35,16,8
+	.byte	'local_port',0
+	.word	167
+	.byte	2,2,35,18,8
+	.byte	'remote_port',0
+	.word	167
+	.byte	2,2,35,20,8
+	.byte	'recv',0
+	.word	.L309-.L100
+	.byte	4,2,35,24,8
+	.byte	'recv_arg',0
+	.word	229
+	.byte	4,2,35,28,0
+.L308:
+	.byte	6
+	.word	6760
+	.byte	14,1,1,11
+	.word	229
+	.byte	11
+	.word	6978
+	.byte	11
+	.word	391
+	.byte	11
+	.word	808
+	.byte	11
+	.word	167
+	.byte	0,6
+	.word	6983
+.L309:
+	.byte	12
+	.byte	'udp_recv_fn',0,8,77,16
+	.word	7012
+	.byte	6
+	.word	6983
+	.byte	12
+	.byte	'tcpwnd_size_t',0,23,53,15
+	.word	167
+	.byte	17
+	.byte	'tcp_state',0,23,56,6,1,18
+	.byte	'CLOSED',0,0,18
+	.byte	'LISTEN',0,1,18
+	.byte	'SYN_SENT',0,2,18
+	.byte	'SYN_RCVD',0,3,18
+	.byte	'ESTABLISHED',0,4,18
+	.byte	'FIN_WAIT_1',0,5,18
+	.byte	'FIN_WAIT_2',0,6,18
+	.byte	'CLOSE_WAIT',0,7,18
+	.byte	'CLOSING',0,8,18
+	.byte	'LAST_ACK',0,9,18
+	.byte	'TIME_WAIT',0,10,0,7
+	.byte	'tcp_hdr',0,25,56,8,20,8
+	.byte	'src',0
+	.word	167
+	.byte	2,2,35,0,8
+	.byte	'dest',0
+	.word	167
+	.byte	2,2,35,2,8
+	.byte	'seqno',0
+	.word	521
+	.byte	4,2,35,4,8
+	.byte	'ackno',0
+	.word	521
+	.byte	4,2,35,8,8
+	.byte	'_hdrlen_rsvd_flags',0
+	.word	167
+	.byte	2,2,35,12,8
+	.byte	'wnd',0
+	.word	167
+	.byte	2,2,35,14,8
+	.byte	'chksum',0
+	.word	167
+	.byte	2,2,35,16,8
+	.byte	'urgp',0
+	.word	167
+	.byte	2,2,35,18,0,6
+	.word	7206
+	.byte	7
+	.byte	'tcp_seg',0,9,253,1,8,16,8
+	.byte	'next',0
+	.word	.L310-.L100
+	.byte	4,2,35,0,8
+	.byte	'p',0
+	.word	391
+	.byte	4,2,35,4,8
+	.byte	'len',0
+	.word	167
+	.byte	2,2,35,8,8
+	.byte	'flags',0
+	.word	234
+	.byte	1,2,35,10,8
+	.byte	'tcphdr',0
+	.word	7348
+	.byte	4,2,35,12,0
+.L310:
+	.byte	6
+	.word	7353
+	.byte	7
+	.byte	'tcp_pcb_listen',0,24,223,1,8,32,8
+	.byte	'local_ip',0
+	.word	719
+	.byte	4,2,35,0,8
+	.byte	'remote_ip',0
+	.word	719
+	.byte	4,2,35,4,8
+	.byte	'netif_idx',0
+	.word	234
+	.byte	1,2,35,8,8
+	.byte	'so_options',0
+	.word	234
+	.byte	1,2,35,9,8
+	.byte	'tos',0
+	.word	234
+	.byte	1,2,35,10,8
+	.byte	'ttl',0
+	.word	234
+	.byte	1,2,35,11,8
+	.byte	'next',0
+	.word	.L311-.L100
+	.byte	4,2,35,12,8
+	.byte	'callback_arg',0
+	.word	229
+	.byte	4,2,35,16,8
+	.byte	'state',0
+	.word	7064
+	.byte	1,2,35,20,8
+	.byte	'prio',0
+	.word	234
+	.byte	1,2,35,21,8
+	.byte	'local_port',0
+	.word	167
+	.byte	2,2,35,22,8
+	.byte	'accept',0
+	.word	.L312-.L100
+	.byte	4,2,35,24,8
+	.byte	'backlog',0
+	.word	234
+	.byte	1,2,35,28,8
+	.byte	'accepts_pending',0
+	.word	234
+	.byte	1,2,35,29,0
+.L311:
+	.byte	6
+	.word	7442
+	.byte	10
+	.word	748
+	.byte	1,1,11
+	.word	229
+	.byte	11
+	.word	.L313-.L100
+	.byte	11
+	.word	167
+	.byte	0,6
+	.word	7714
+	.byte	12
+	.byte	'tcp_sent_fn',0,24,96,17
+	.word	7737
+	.byte	10
+	.word	748
+	.byte	1,1,11
+	.word	229
+	.byte	11
+	.word	.L313-.L100
+	.byte	11
+	.word	391
+	.byte	11
+	.word	748
+	.byte	0,6
+	.word	7762
+	.byte	12
+	.byte	'tcp_recv_fn',0,24,82,17
+	.word	7790
+	.byte	12
+	.byte	'tcp_connected_fn',0,24,134,1,17
+	.word	.L314-.L100
+	.byte	10
+	.word	748
+	.byte	1,1,11
+	.word	229
+	.byte	11
+	.word	.L313-.L100
+	.byte	0,6
+	.word	7841
+	.byte	12
+	.byte	'tcp_poll_fn',0,24,108,17
+	.word	7859
+	.byte	14,1,1,11
+	.word	229
+	.byte	11
+	.word	748
+	.byte	0,6
+	.word	7884
+	.byte	12
+	.byte	'tcp_err_fn',0,24,120,17
+	.word	7898
+	.byte	7
+	.byte	'tcp_pcb',0,24,242,1,8,156,1,8
+	.byte	'local_ip',0
+	.word	719
+	.byte	4,2,35,0,8
+	.byte	'remote_ip',0
+	.word	719
+	.byte	4,2,35,4,8
+	.byte	'netif_idx',0
+	.word	234
+	.byte	1,2,35,8,8
+	.byte	'so_options',0
+	.word	234
+	.byte	1,2,35,9,8
+	.byte	'tos',0
+	.word	234
+	.byte	1,2,35,10,8
+	.byte	'ttl',0
+	.word	234
+	.byte	1,2,35,11,8
+	.byte	'next',0
+	.word	.L313-.L100
+	.byte	4,2,35,12,8
+	.byte	'callback_arg',0
+	.word	229
+	.byte	4,2,35,16,8
+	.byte	'state',0
+	.word	7064
+	.byte	1,2,35,20,8
+	.byte	'prio',0
+	.word	234
+	.byte	1,2,35,21,8
+	.byte	'local_port',0
+	.word	167
+	.byte	2,2,35,22,8
+	.byte	'remote_port',0
+	.word	167
+	.byte	2,2,35,24,8
+	.byte	'flags',0
+	.word	167
+	.byte	2,2,35,26,8
+	.byte	'polltmr',0
+	.word	234
+	.byte	1,2,35,28,8
+	.byte	'pollinterval',0
+	.word	234
+	.byte	1,2,35,29,8
+	.byte	'last_timer',0
+	.word	234
+	.byte	1,2,35,30,8
+	.byte	'tmr',0
+	.word	521
+	.byte	4,2,35,32,8
+	.byte	'rcv_nxt',0
+	.word	521
+	.byte	4,2,35,36,8
+	.byte	'rcv_wnd',0
+	.word	167
+	.byte	2,2,35,40,8
+	.byte	'rcv_ann_wnd',0
+	.word	167
+	.byte	2,2,35,42,8
+	.byte	'rcv_ann_right_edge',0
+	.word	521
+	.byte	4,2,35,44,8
+	.byte	'rtime',0
+	.word	444
+	.byte	2,2,35,48,8
+	.byte	'mss',0
+	.word	167
+	.byte	2,2,35,50,8
+	.byte	'rttest',0
+	.word	521
+	.byte	4,2,35,52,8
+	.byte	'rtseq',0
+	.word	521
+	.byte	4,2,35,56,8
+	.byte	'sa',0
+	.word	444
+	.byte	2,2,35,60,8
+	.byte	'sv',0
+	.word	444
+	.byte	2,2,35,62,8
+	.byte	'rto',0
+	.word	444
+	.byte	2,2,35,64,8
+	.byte	'nrtx',0
+	.word	234
+	.byte	1,2,35,66,8
+	.byte	'dupacks',0
+	.word	234
+	.byte	1,2,35,67,8
+	.byte	'lastack',0
+	.word	521
+	.byte	4,2,35,68,8
+	.byte	'cwnd',0
+	.word	167
+	.byte	2,2,35,72,8
+	.byte	'ssthresh',0
+	.word	167
+	.byte	2,2,35,74,8
+	.byte	'rto_end',0
+	.word	521
+	.byte	4,2,35,76,8
+	.byte	'snd_nxt',0
+	.word	521
+	.byte	4,2,35,80,8
+	.byte	'snd_wl1',0
+	.word	521
+	.byte	4,2,35,84,8
+	.byte	'snd_wl2',0
+	.word	521
+	.byte	4,2,35,88,8
+	.byte	'snd_lbb',0
+	.word	521
+	.byte	4,2,35,92,8
+	.byte	'snd_wnd',0
+	.word	167
+	.byte	2,2,35,96,8
+	.byte	'snd_wnd_max',0
+	.word	167
+	.byte	2,2,35,98,8
+	.byte	'snd_buf',0
+	.word	167
+	.byte	2,2,35,100,8
+	.byte	'snd_queuelen',0
+	.word	167
+	.byte	2,2,35,102,8
+	.byte	'bytes_acked',0
+	.word	167
+	.byte	2,2,35,104,8
+	.byte	'unsent',0
+	.word	7437
+	.byte	4,2,35,108,8
+	.byte	'unacked',0
+	.word	7437
+	.byte	4,2,35,112,8
+	.byte	'ooseq',0
+	.word	7437
+	.byte	4,2,35,116,8
+	.byte	'refused_data',0
+	.word	391
+	.byte	4,2,35,120,8
+	.byte	'listener',0
+	.word	7709
+	.byte	4,2,35,124,8
+	.byte	'sent',0
+	.word	7742
+	.byte	4,3,35,128,1,8
+	.byte	'recv',0
+	.word	7795
+	.byte	4,3,35,132,1,8
+	.byte	'connected',0
+	.word	7815
+	.byte	4,3,35,136,1,8
+	.byte	'poll',0
+	.word	7864
+	.byte	4,3,35,140,1,8
+	.byte	'errf',0
+	.word	7903
+	.byte	4,3,35,144,1,8
+	.byte	'keep_idle',0
+	.word	521
+	.byte	4,3,35,148,1,8
+	.byte	'persist_cnt',0
+	.word	234
+	.byte	1,3,35,152,1,8
+	.byte	'persist_backoff',0
+	.word	234
+	.byte	1,3,35,153,1,8
+	.byte	'persist_probe',0
+	.word	234
+	.byte	1,3,35,154,1,8
+	.byte	'keep_cnt_sent',0
+	.word	234
+	.byte	1,3,35,155,1,0
+.L313:
+	.byte	6
+	.word	7922
+	.byte	10
+	.word	748
+	.byte	1,1,11
+	.word	229
+	.byte	11
+	.word	8959
+	.byte	11
+	.word	748
+	.byte	0
+.L314:
+	.byte	6
+	.word	8964
+.L312:
+	.byte	12
+	.byte	'tcp_accept_fn',0,24,70,17
+	.word	8987
+	.byte	6
+	.word	8964
+	.byte	6
+	.word	7714
+	.byte	6
+	.word	7762
+	.byte	6
+	.word	8964
+	.byte	6
+	.word	7841
+	.byte	6
+	.word	7884
+	.byte	14,1,1,11
+	.word	234
+	.byte	11
+	.word	229
+	.byte	0,6
+	.word	9044
+	.byte	12
+	.byte	'tcp_extarg_callback_pcb_destroyed_fn',0,24,173,1,16
+	.word	9058
+	.byte	10
+	.word	748
+	.byte	1,1,11
+	.word	234
+	.byte	11
+	.word	7709
+	.byte	11
+	.word	8959
+	.byte	0,6
+	.word	9109
+	.byte	12
+	.byte	'tcp_extarg_callback_passive_open_fn',0,24,182,1,17
+	.word	9132
+	.byte	12
+	.byte	'tcpflags_t',0,24,206,1,15
+	.word	167
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L101:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,46,1,3,8,58,15,59,15,57,15
+	.byte	73,19,54,15,39,12,63,12,60,12,0,0,4,5,0,3,8,58,15,59,15,57,15,73,19,0,0,5,59,0,3,8,0,0,6,15,0,73,19,0
+	.byte	0,7,19,1,3,8,58,15,59,15,57,15,11,15,0,0,8,13,0,3,8,73,19,11,15,56,9,0,0,9,46,1,3,8,58,15,59,15,57,15
+	.byte	54,15,39,12,63,12,60,12,0,0,10,21,1,73,19,54,15,39,12,0,0,11,5,0,73,19,0,0,12,22,0,3,8,58,15,59,15,57
+	.byte	15,73,19,0,0,13,38,0,73,19,0,0,14,21,1,54,15,39,12,0,0,15,1,1,11,15,73,19,0,0,16,33,0,47,15,0,0,17,4,1
+	.byte	3,8,58,15,59,15,57,15,11,15,0,0,18,40,0,3,8,28,13,0,0,19,46,0,3,8,58,15,59,15,57,15,54,15,63,12,60,12
+	.byte	0,0,20,21,0,54,15,0,0,21,4,1,58,15,59,15,57,15,11,15,0,0,22,19,1,58,15,59,15,57,15,11,15,0,0,23,52,0,3
+	.byte	8,58,15,59,15,57,15,73,19,63,12,60,12,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L102:
+	.word	.L316-.L315
+.L315:
+	.half	3
+	.word	.L318-.L317
+.L317:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\prot',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\priv',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Config',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\SoAd',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\arch',0,0
+	.byte	'def.h',0,1,0,0
+	.byte	'pbuf.h',0,1,0,0
+	.byte	'ip4_addr.h',0,1,0,0
+	.byte	'netif.h',0,1,0,0
+	.byte	'ip4.h',0,2,0,0
+	.byte	'inet_chksum.h',0,1,0,0
+	.byte	'icmp.h',0,1,0,0
+	.byte	'udp.h',0,1,0,0
+	.byte	'tcp_priv.h',0,3,0,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4.c',0,0,0,0
+	.byte	'Platform_Types.h',0,4,0,0
+	.byte	'Std_Types.h',0,4,0,0
+	.byte	'ComStack_Types_Cfg.h',0,5,0,0
+	.byte	'ComStack_Types.h',0,6,0,0
+	.byte	'TcpIp_GeneratedTypes.h',0,5,0,0
+	.byte	'TcpIp_Types.h',0,7,0,0
+	.byte	'SoAd_GeneratedTypes.h',0,5,0,0
+	.byte	'SoAd_Types.h',0,8,0,0
+	.byte	'cc.h',0,9,0,0
+	.byte	'err.h',0,1,0,0
+	.byte	'ip_addr.h',0,1,0,0
+	.byte	'ip.h',0,1,0,0
+	.byte	'tcpbase.h',0,1,0,0
+	.byte	'tcp.h',0,1,0,0
+	.byte	'tcp.h',0,2,0,0,0
+.L318:
+.L316:
+	.sdecl	'.debug_info',debug,cluster('ip4_route')
+	.sect	'.debug_info'
+.L103:
+	.word	255
+	.half	3
+	.word	.L104
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L106,.L105
+	.byte	2
+	.word	.L99
+	.byte	3
+	.byte	'ip4_route',0,1,168,1,1
+	.word	.L145
+	.byte	1,1,1
+	.word	.L88,.L146,.L87
+	.byte	4
+	.byte	'dest',0,1,168,1,29
+	.word	.L147,.L148
+	.byte	5
+	.word	.L88,.L146
+	.byte	6
+	.byte	'netif',0,1,171,1,17
+	.word	.L145,.L149
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ip4_route')
+	.sect	'.debug_abbrev'
+.L104:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ip4_route')
+	.sect	'.debug_line'
+.L105:
+	.word	.L320-.L319
+.L319:
+	.half	3
+	.word	.L322-.L321
+.L321:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4.c',0,0,0,0,0
+.L322:
+	.byte	5,1,7,0,5,2
+	.word	.L88
+	.byte	3,167,1,1,5,3,9
+	.half	.L213-.L88
+	.byte	3,18,1,5,9,9
+	.half	.L13-.L213
+	.byte	3,2,1,5,31,9
+	.half	.L323-.L13
+	.byte	1,5,59,9
+	.half	.L324-.L323
+	.byte	1,5,11,9
+	.half	.L325-.L324
+	.byte	3,2,1,5,7,9
+	.half	.L326-.L325
+	.byte	1,5,11,7,9
+	.half	.L327-.L326
+	.byte	3,5,1,5,59,7,9
+	.half	.L328-.L327
+	.byte	1,5,3,9
+	.half	.L14-.L328
+	.byte	3,119,1,5,11,9
+	.half	.L329-.L14
+	.byte	3,34,1,5,3,9
+	.half	.L216-.L329
+	.byte	3,1,1,5,8,7,9
+	.half	.L330-.L216
+	.byte	3,11,1,5,7,9
+	.half	.L331-.L330
+	.byte	1,5,35,7,9
+	.half	.L332-.L331
+	.byte	1,5,66,9
+	.half	.L333-.L332
+	.byte	1,5,7,9
+	.half	.L334-.L333
+	.byte	3,1,1,5,61,9
+	.half	.L335-.L334
+	.byte	1,5,12,9
+	.half	.L22-.L335
+	.byte	3,7,1,5,1,9
+	.half	.L21-.L22
+	.byte	3,4,1,5,10,7,9
+	.half	.L26-.L21
+	.byte	3,127,1,5,1,9
+	.half	.L217-.L26
+	.byte	3,1,1,7,9
+	.half	.L107-.L217
+	.byte	0,1,1
+.L320:
+	.sdecl	'.debug_ranges',debug,cluster('ip4_route')
+	.sect	'.debug_ranges'
+.L106:
+	.word	-1,.L88,0,.L107-.L88,0,0
+	.sdecl	'.debug_info',debug,cluster('ip4_route_src')
+	.sect	'.debug_info'
+.L108:
+	.word	286
+	.half	3
+	.word	.L109
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L111,.L110
+	.byte	2
+	.word	.L99
+	.byte	3
+	.byte	'ip4_route_src',0,1,145,1,1
+	.word	.L145
+	.byte	1,1,1
+	.word	.L86,.L150,.L85
+	.byte	4
+	.byte	'src',0,1,145,1,33
+	.word	.L147,.L151
+	.byte	4
+	.byte	'dest',0,1,145,1,56
+	.word	.L147,.L152
+	.byte	5
+	.word	.L86,.L150
+	.byte	5
+	.word	.L153,.L8
+	.byte	6
+	.byte	'netif',0,1,149,1,19
+	.word	.L145,.L154
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ip4_route_src')
+	.sect	'.debug_abbrev'
+.L109:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ip4_route_src')
+	.sect	'.debug_line'
+.L110:
+	.word	.L337-.L336
+.L336:
+	.half	3
+	.word	.L339-.L338
+.L338:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4.c',0,0,0,0,0
+.L339:
+	.byte	5,1,7,0,5,2
+	.word	.L86
+	.byte	3,144,1,1,5,3,9
+	.half	.L210-.L86
+	.byte	3,2,1,5,27,7,9
+	.half	.L153-.L210
+	.byte	3,2,1,5,5,9
+	.half	.L209-.L153
+	.byte	3,1,1,5,20,7,9
+	.half	.L8-.L209
+	.byte	3,4,1,5,1,9
+	.half	.L10-.L8
+	.byte	3,1,1,7,9
+	.half	.L112-.L10
+	.byte	0,1,1
+.L337:
+	.sdecl	'.debug_ranges',debug,cluster('ip4_route_src')
+	.sect	'.debug_ranges'
+.L111:
+	.word	-1,.L86,0,.L112-.L86,0,0
+	.sdecl	'.debug_info',debug,cluster('ip4_input')
+	.sect	'.debug_info'
+.L113:
+	.word	335
+	.half	3
+	.word	.L114
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L116,.L115
+	.byte	2
+	.word	.L99
+	.byte	3
+	.byte	'ip4_input',0,1,186,3,1
+	.word	.L155
+	.byte	1,1,1
+	.word	.L92,.L156,.L91
+	.byte	4
+	.byte	'p',0,1,186,3,24
+	.word	.L157,.L158
+	.byte	4
+	.byte	'inp',0,1,186,3,41
+	.word	.L145,.L159
+	.byte	5
+	.word	.L92,.L156
+	.byte	6
+	.byte	'iphdr',0,1,188,3,24
+	.word	.L160,.L161
+	.byte	6
+	.byte	'netif',0,1,189,3,17
+	.word	.L145,.L162
+	.byte	6
+	.byte	'iphdr_hlen',0,1,190,3,9
+	.word	.L163,.L164
+	.byte	6
+	.byte	'iphdr_len',0,1,191,3,9
+	.word	.L163,.L165
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ip4_input')
+	.sect	'.debug_abbrev'
+.L114:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ip4_input')
+	.sect	'.debug_line'
+.L115:
+	.word	.L341-.L340
+.L340:
+	.half	3
+	.word	.L343-.L342
+.L342:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4.c',0,0,0,0,0
+.L343:
+	.byte	5,1,7,0,5,2
+	.word	.L92
+	.byte	3,185,3,1,5,29,9
+	.half	.L221-.L92
+	.byte	3,19,1,5,7,9
+	.half	.L222-.L221
+	.byte	3,1,1,5,3,9
+	.half	.L344-.L222
+	.byte	1,5,16,7,9
+	.half	.L345-.L344
+	.byte	3,18,1,5,15,9
+	.half	.L224-.L345
+	.byte	3,2,1,5,13,9
+	.half	.L219-.L224
+	.byte	1,5,20,9
+	.half	.L226-.L219
+	.byte	3,3,1,5,3,9
+	.half	.L346-.L226
+	.byte	1,5,21,7,9
+	.half	.L347-.L346
+	.byte	3,1,1,5,22,9
+	.half	.L36-.L347
+	.byte	3,4,1,5,7,9
+	.half	.L348-.L36
+	.byte	1,5,46,7,9
+	.half	.L349-.L348
+	.byte	1,5,43,9
+	.half	.L350-.L349
+	.byte	1,5,74,7,9
+	.half	.L351-.L350
+	.byte	1,5,72,9
+	.half	.L352-.L351
+	.byte	1,5,28,7,9
+	.half	.L353-.L352
+	.byte	3,26,1,5,5,9
+	.half	.L229-.L353
+	.byte	1,5,3,7,9
+	.half	.L354-.L229
+	.byte	3,15,1,9
+	.half	.L355-.L354
+	.byte	3,1,1,5,7,9
+	.half	.L356-.L355
+	.byte	3,3,1,5,3,9
+	.half	.L357-.L356
+	.byte	1,5,10,7,9
+	.half	.L358-.L357
+	.byte	3,15,1,5,9,9
+	.half	.L359-.L358
+	.byte	1,5,33,7,9
+	.half	.L360-.L359
+	.byte	1,5,13,9
+	.half	.L42-.L360
+	.byte	3,3,1,5,7,9
+	.half	.L231-.L42
+	.byte	3,127,1,5,26,9
+	.half	.L41-.L231
+	.byte	3,7,1,5,5,9
+	.half	.L233-.L41
+	.byte	1,5,13,7,9
+	.half	.L43-.L233
+	.byte	3,1,1,5,18,9
+	.half	.L234-.L43
+	.byte	1,5,13,9
+	.half	.L45-.L234
+	.byte	3,2,1,5,12,9
+	.half	.L235-.L45
+	.byte	3,5,1,5,9,9
+	.half	.L361-.L235
+	.byte	3,4,1,5,11,9
+	.half	.L49-.L361
+	.byte	3,1,1,5,32,7,9
+	.half	.L362-.L49
+	.byte	3,4,1,5,11,9
+	.half	.L237-.L362
+	.byte	1,5,9,7,9
+	.half	.L50-.L237
+	.byte	3,123,1,5,10,9
+	.half	.L44-.L50
+	.byte	3,49,1,5,9,9
+	.half	.L239-.L44
+	.byte	1,5,10,7,9
+	.half	.L363-.L239
+	.byte	3,1,1,5,3,9
+	.half	.L364-.L363
+	.byte	3,13,1,5,8,7,9
+	.half	.L365-.L364
+	.byte	3,19,1,5,28,9
+	.half	.L366-.L365
+	.byte	1,5,26,9
+	.half	.L367-.L366
+	.byte	1,5,3,9
+	.half	.L368-.L367
+	.byte	1,5,15,7,9
+	.half	.L35-.L368
+	.byte	3,12,1,5,5,9
+	.half	.L241-.L35
+	.byte	3,7,1,5,3,9
+	.half	.L55-.L241
+	.byte	3,27,1,5,25,9
+	.half	.L369-.L55
+	.byte	1,5,3,9
+	.half	.L370-.L369
+	.byte	3,1,1,5,31,9
+	.half	.L371-.L370
+	.byte	1,5,3,9
+	.half	.L372-.L371
+	.byte	3,1,1,5,30,9
+	.half	.L373-.L372
+	.byte	1,5,3,9
+	.half	.L374-.L373
+	.byte	3,1,1,5,39,9
+	.half	.L375-.L374
+	.byte	1,5,37,9
+	.half	.L376-.L375
+	.byte	1,5,27,9
+	.half	.L377-.L376
+	.byte	3,8,1,5,13,9
+	.half	.L243-.L377
+	.byte	3,2,1,5,12,9
+	.half	.L378-.L243
+	.byte	3,17,1,7,9
+	.half	.L379-.L378
+	.byte	3,122,1,7,9
+	.half	.L380-.L379
+	.byte	3,119,1,5,22,9
+	.half	.L381-.L380
+	.byte	3,5,1,5,9,9
+	.half	.L246-.L381
+	.byte	3,1,1,5,22,9
+	.half	.L58-.L246
+	.byte	3,5,1,5,9,9
+	.half	.L249-.L58
+	.byte	3,1,1,5,40,9
+	.half	.L57-.L249
+	.byte	3,5,1,5,8,9
+	.half	.L252-.L57
+	.byte	1,5,23,7,9
+	.half	.L382-.L252
+	.byte	3,2,1,5,9,9
+	.half	.L254-.L382
+	.byte	3,2,1,5,16,9
+	.half	.L60-.L254
+	.byte	3,16,1,9
+	.half	.L383-.L60
+	.byte	3,1,1,5,34,9
+	.half	.L384-.L383
+	.byte	3,1,1,9
+	.half	.L260-.L384
+	.byte	3,1,1,5,19,9
+	.half	.L65-.L260
+	.byte	3,10,1,5,3,9
+	.half	.L61-.L65
+	.byte	3,6,1,5,27,9
+	.half	.L385-.L61
+	.byte	1,5,25,9
+	.half	.L386-.L385
+	.byte	1,5,3,9
+	.half	.L387-.L386
+	.byte	3,1,1,5,31,9
+	.half	.L388-.L387
+	.byte	1,5,3,9
+	.half	.L389-.L388
+	.byte	3,1,1,5,30,9
+	.half	.L390-.L389
+	.byte	1,5,3,9
+	.half	.L391-.L390
+	.byte	3,1,1,5,39,9
+	.half	.L392-.L391
+	.byte	1,5,37,9
+	.half	.L393-.L392
+	.byte	1,5,3,9
+	.half	.L394-.L393
+	.byte	3,1,1,9
+	.half	.L395-.L394
+	.byte	3,1,1,5,10,9
+	.half	.L56-.L395
+	.byte	3,2,1,5,1,9
+	.half	.L396-.L56
+	.byte	3,1,1,7,9
+	.half	.L117-.L396
+	.byte	0,1,1
+.L341:
+	.sdecl	'.debug_ranges',debug,cluster('ip4_input')
+	.sect	'.debug_ranges'
+.L116:
+	.word	-1,.L92,0,.L117-.L92,0,0
+	.sdecl	'.debug_info',debug,cluster('ip4_output')
+	.sect	'.debug_info'
+.L118:
+	.word	341
+	.half	3
+	.word	.L119
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L121,.L120
+	.byte	2
+	.word	.L99
+	.byte	3
+	.byte	'ip4_output',0,1,151,8,1
+	.word	.L155
+	.byte	1,1,1
+	.word	.L98,.L166,.L97
+	.byte	4
+	.byte	'p',0,1,151,8,25
+	.word	.L157,.L167
+	.byte	4
+	.byte	'src',0,1,151,8,46
+	.word	.L147,.L168
+	.byte	4
+	.byte	'dest',0,1,151,8,69
+	.word	.L147,.L169
+	.byte	4
+	.byte	'ttl',0,1,152,8,17
+	.word	.L170,.L171
+	.byte	4
+	.byte	'tos',0,1,152,8,27
+	.word	.L170,.L172
+	.byte	4
+	.byte	'proto',0,1,152,8,37
+	.word	.L170,.L173
+	.byte	5
+	.word	.L98,.L166
+	.byte	6
+	.byte	'netif',0,1,154,8,17
+	.word	.L145,.L174
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ip4_output')
+	.sect	'.debug_abbrev'
+.L119:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ip4_output')
+	.sect	'.debug_line'
+.L120:
+	.word	.L398-.L397
+.L397:
+	.half	3
+	.word	.L400-.L399
+.L399:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4.c',0,0,0,0,0
+.L400:
+	.byte	5,1,7,0,5,2
+	.word	.L98
+	.byte	3,150,8,1,5,35,9
+	.half	.L401-.L98
+	.byte	3,7,1,5,3,9
+	.half	.L296-.L401
+	.byte	1,5,12,7,9
+	.half	.L402-.L296
+	.byte	3,4,1,5,1,9
+	.half	.L403-.L402
+	.byte	3,4,1,5,55,7,9
+	.half	.L80-.L403
+	.byte	3,127,1,5,1,9
+	.half	.L122-.L80
+	.byte	3,1,0,1,1
+.L398:
+	.sdecl	'.debug_ranges',debug,cluster('ip4_output')
+	.sect	'.debug_ranges'
+.L121:
+	.word	-1,.L98,0,.L122-.L98,0,0
+	.sdecl	'.debug_info',debug,cluster('ip4_output_if')
+	.sect	'.debug_info'
+.L123:
+	.word	366
+	.half	3
+	.word	.L124
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L126,.L125
+	.byte	2
+	.word	.L99
+	.byte	3
+	.byte	'ip4_output_if',0,1,166,6,1
+	.word	.L155
+	.byte	1,1,1
+	.word	.L94,.L175,.L93
+	.byte	4
+	.byte	'p',0,1,166,6,28
+	.word	.L157,.L176
+	.byte	4
+	.byte	'src',0,1,166,6,49
+	.word	.L147,.L177
+	.byte	4
+	.byte	'dest',0,1,166,6,72
+	.word	.L147,.L178
+	.byte	4
+	.byte	'ttl',0,1,167,6,20
+	.word	.L170,.L179
+	.byte	4
+	.byte	'tos',0,1,167,6,30
+	.word	.L170,.L180
+	.byte	4
+	.byte	'proto',0,1,168,6,20
+	.word	.L170,.L181
+	.byte	4
+	.byte	'netif',0,1,168,6,41
+	.word	.L145,.L182
+	.byte	5
+	.word	.L94,.L175
+	.byte	6
+	.byte	'src_used',0,1,186,6,21
+	.word	.L147,.L183
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ip4_output_if')
+	.sect	'.debug_abbrev'
+.L124:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ip4_output_if')
+	.sect	'.debug_line'
+.L125:
+	.word	.L405-.L404
+.L404:
+	.half	3
+	.word	.L407-.L406
+.L406:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4.c',0,0,0,0,0
+.L407:
+	.byte	5,3,7,0,5,2
+	.word	.L94
+	.byte	3,186,6,1,5,9,7,9
+	.half	.L408-.L94
+	.byte	3,1,1,7,9
+	.half	.L409-.L408
+	.byte	1,5,18,9
+	.half	.L69-.L409
+	.byte	3,1,1,5,64,9
+	.half	.L68-.L69
+	.byte	3,8,1,5,1,7,9
+	.half	.L127-.L68
+	.byte	3,2,0,1,1
+.L405:
+	.sdecl	'.debug_ranges',debug,cluster('ip4_output_if')
+	.sect	'.debug_ranges'
+.L126:
+	.word	-1,.L94,0,.L127-.L94,0,0
+	.sdecl	'.debug_info',debug,cluster('ip4_output_if_src')
+	.sect	'.debug_info'
+.L128:
+	.word	442
+	.half	3
+	.word	.L129
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L131,.L130
+	.byte	2
+	.word	.L99
+	.byte	3
+	.byte	'ip4_output_if_src',0,1,206,6,1
+	.word	.L155
+	.byte	1,1,1
+	.word	.L96,.L184,.L95
+	.byte	4
+	.byte	'p',0,1,206,6,32
+	.word	.L157,.L185
+	.byte	4
+	.byte	'src',0,1,206,6,53
+	.word	.L147,.L186
+	.byte	4
+	.byte	'dest',0,1,206,6,76
+	.word	.L147,.L187
+	.byte	4
+	.byte	'ttl',0,1,207,6,24
+	.word	.L170,.L188
+	.byte	4
+	.byte	'tos',0,1,207,6,34
+	.word	.L170,.L189
+	.byte	4
+	.byte	'proto',0,1,208,6,24
+	.word	.L170,.L190
+	.byte	4
+	.byte	'netif',0,1,208,6,45
+	.word	.L145,.L191
+	.byte	5
+	.word	.L96,.L184
+	.byte	6
+	.byte	'iphdr',0,1,224,6,18
+	.word	.L192,.L193
+	.byte	6
+	.byte	'dest_addr',0,1,225,6,14
+	.word	.L194,.L195
+	.byte	6
+	.byte	'chk_sum',0,1,227,6,9
+	.word	.L196,.L197
+	.byte	5
+	.word	.L198,.L199
+	.byte	6
+	.byte	'ip_hlen',0,1,237,6,11
+	.word	.L163,.L200
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ip4_output_if_src')
+	.sect	'.debug_abbrev'
+.L129:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ip4_output_if_src')
+	.sect	'.debug_line'
+.L130:
+	.word	.L411-.L410
+.L410:
+	.half	3
+	.word	.L413-.L412
+.L412:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4.c',0,0,0,0,0
+.L413:
+	.byte	5,1,7,0,5,2
+	.word	.L96
+	.byte	3,205,6,1,5,17,9
+	.half	.L276-.L96
+	.byte	3,21,1,5,3,9
+	.half	.L277-.L276
+	.byte	3,9,1,5,19,7,9
+	.half	.L198-.L277
+	.byte	3,1,1,5,28,9
+	.half	.L279-.L198
+	.byte	3,37,1,5,5,9
+	.half	.L265-.L279
+	.byte	1,5,31,7,9
+	.half	.L414-.L265
+	.byte	3,8,1,5,5,9
+	.half	.L281-.L414
+	.byte	3,4,1,9
+	.half	.L415-.L281
+	.byte	3,1,1,5,16,9
+	.half	.L416-.L415
+	.byte	3,2,1,5,13,9
+	.half	.L417-.L416
+	.byte	1,5,5,9
+	.half	.L418-.L417
+	.byte	3,4,1,5,47,9
+	.half	.L419-.L418
+	.byte	3,2,1,5,13,9
+	.half	.L420-.L419
+	.byte	1,5,47,9
+	.half	.L278-.L420
+	.byte	3,1,1,5,13,9
+	.half	.L282-.L278
+	.byte	1,5,5,9
+	.half	.L421-.L282
+	.byte	3,3,1,9
+	.half	.L422-.L421
+	.byte	3,1,1,5,16,9
+	.half	.L423-.L422
+	.byte	3,2,1,5,13,9
+	.half	.L424-.L423
+	.byte	1,5,5,9
+	.half	.L425-.L424
+	.byte	3,2,1,5,13,9
+	.half	.L426-.L425
+	.byte	3,2,1,5,5,9
+	.half	.L427-.L426
+	.byte	3,2,1,9
+	.half	.L428-.L427
+	.byte	3,1,1,5,13,9
+	.half	.L429-.L428
+	.byte	3,2,1,5,7,9
+	.half	.L430-.L429
+	.byte	3,2,1,5,5,9
+	.half	.L431-.L430
+	.byte	1,9
+	.half	.L432-.L431
+	.byte	3,2,1,5,7,7,9
+	.half	.L433-.L432
+	.byte	3,1,1,5,48,9
+	.half	.L434-.L433
+	.byte	1,5,7,9
+	.half	.L74-.L434
+	.byte	3,3,1,5,46,9
+	.half	.L435-.L74
+	.byte	3,4,1,5,13,9
+	.half	.L436-.L435
+	.byte	1,5,46,9
+	.half	.L283-.L436
+	.byte	3,1,1,5,13,9
+	.half	.L284-.L283
+	.byte	1,5,24,9
+	.half	.L437-.L284
+	.byte	3,1,1,5,42,9
+	.half	.L438-.L437
+	.byte	1,5,31,9
+	.half	.L286-.L438
+	.byte	1,5,24,9
+	.half	.L285-.L286
+	.byte	3,1,1,5,31,9
+	.half	.L439-.L285
+	.byte	1,5,15,9
+	.half	.L440-.L439
+	.byte	3,1,1,5,22,9
+	.half	.L441-.L440
+	.byte	3,2,1,5,54,9
+	.half	.L199-.L441
+	.byte	3,122,1,5,10,9
+	.half	.L72-.L199
+	.byte	3,23,1,5,18,9
+	.half	.L442-.L72
+	.byte	1,5,5,9
+	.half	.L288-.L442
+	.byte	1,5,14,7,9
+	.half	.L73-.L288
+	.byte	3,4,1,5,1,9
+	.half	.L443-.L73
+	.byte	3,37,1,5,31,7,9
+	.half	.L77-.L443
+	.byte	3,93,1,5,5,9
+	.half	.L289-.L77
+	.byte	3,1,1,5,13,9
+	.half	.L290-.L289
+	.byte	3,1,1,5,15,9
+	.half	.L76-.L290
+	.byte	3,32,1,5,34,9
+	.half	.L444-.L76
+	.byte	1,5,1,9
+	.half	.L132-.L444
+	.byte	3,1,0,1,1
+.L411:
+	.sdecl	'.debug_ranges',debug,cluster('ip4_output_if_src')
+	.sect	'.debug_ranges'
+.L131:
+	.word	-1,.L96,0,.L132-.L96,0,0
+	.sdecl	'.debug_info',debug,cluster('ip4_find_netif_by_src')
+	.sect	'.debug_info'
+.L133:
+	.word	284
+	.half	3
+	.word	.L134
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L136,.L135
+	.byte	2
+	.word	.L99
+	.byte	3
+	.byte	'ip4_find_netif_by_src',0,1,131,1,1
+	.word	.L145
+	.byte	1,1,1
+	.word	.L84,.L201,.L83
+	.byte	4
+	.byte	'src',0,1,131,1,41
+	.word	.L147,.L202
+	.byte	4
+	.byte	'dest',0,1,131,1,64
+	.word	.L147,.L203
+	.byte	5
+	.word	.L84,.L201
+	.byte	6
+	.byte	'netif',0,1,133,1,17
+	.word	.L145,.L204
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ip4_find_netif_by_src')
+	.sect	'.debug_abbrev'
+.L134:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ip4_find_netif_by_src')
+	.sect	'.debug_line'
+.L135:
+	.word	.L446-.L445
+.L445:
+	.half	3
+	.word	.L448-.L447
+.L447:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4.c',0,0,0,0,0
+.L448:
+	.byte	5,3,7,0,5,2
+	.word	.L84
+	.byte	3,134,1,1,5,11,9
+	.half	.L3-.L84
+	.byte	3,2,1,5,66,9
+	.half	.L449-.L3
+	.byte	1,5,3,7,9
+	.half	.L4-.L449
+	.byte	3,126,1,5,10,9
+	.half	.L450-.L4
+	.byte	3,6,1,5,1,9
+	.half	.L6-.L450
+	.byte	3,1,1,7,9
+	.half	.L137-.L6
+	.byte	0,1,1
+.L446:
+	.sdecl	'.debug_ranges',debug,cluster('ip4_find_netif_by_src')
+	.sect	'.debug_ranges'
+.L136:
+	.word	-1,.L84,0,.L137-.L84,0,0
+	.sdecl	'.debug_info',debug,cluster('ip4_input_accept')
+	.sect	'.debug_info'
+.L138:
+	.word	242
+	.half	3
+	.word	.L139
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L141,.L140
+	.byte	2
+	.word	.L99
+	.byte	3
+	.byte	'ip4_input_accept',0,1,134,3,1
+	.word	.L205
+	.byte	1,1
+	.word	.L90,.L206,.L89
+	.byte	4
+	.byte	'netif',0,1,134,3,32
+	.word	.L145,.L207
+	.byte	5
+	.word	.L90,.L206
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ip4_input_accept')
+	.sect	'.debug_abbrev'
+.L139:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ip4_input_accept')
+	.sect	'.debug_line'
+.L140:
+	.word	.L452-.L451
+.L451:
+	.half	3
+	.word	.L454-.L453
+.L453:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4.c',0,0,0,0,0
+.L454:
+	.byte	5,8,7,0,5,2
+	.word	.L90
+	.byte	3,142,3,1,5,7,9
+	.half	.L455-.L90
+	.byte	1,5,33,7,9
+	.half	.L456-.L455
+	.byte	1,5,9,9
+	.half	.L457-.L456
+	.byte	3,2,1,9
+	.half	.L458-.L457
+	.byte	3,2,1,5,14,9
+	.half	.L31-.L458
+	.byte	3,8,1,5,1,9
+	.half	.L459-.L31
+	.byte	3,14,1,5,10,7,9
+	.half	.L29-.L459
+	.byte	3,127,1,5,1,9
+	.half	.L460-.L29
+	.byte	3,1,1,7,9
+	.half	.L142-.L460
+	.byte	0,1,1
+.L452:
+	.sdecl	'.debug_ranges',debug,cluster('ip4_input_accept')
+	.sect	'.debug_ranges'
+.L141:
+	.word	-1,.L90,0,.L142-.L90,0,0
+	.sdecl	'.debug_info',debug,cluster('ip_id')
+	.sect	'.debug_info'
+.L143:
+	.word	185
+	.half	3
+	.word	.L144
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4\\ip4.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1,2
+	.word	.L99
+	.byte	3
+	.byte	'ip_id',0,10,107,14
+	.word	.L163
+	.byte	5,3
+	.word	ip_id
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('ip_id')
+	.sect	'.debug_abbrev'
+.L144:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_loc',debug,cluster('ip4_find_netif_by_src')
+	.sect	'.debug_loc'
+.L203:
+	.word	-1,.L84,0,.L201-.L84
+	.half	1
+	.byte	101
+	.word	0,0
+.L83:
+	.word	-1,.L84,0,.L201-.L84
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L204:
+	.word	-1,.L84,.L208-.L84,.L6-.L84
+	.half	1
+	.byte	98
+	.word	0,0
+.L202:
+	.word	-1,.L84,0,.L201-.L84
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ip4_input')
+	.sect	'.debug_loc'
+.L159:
+	.word	-1,.L92,0,.L219-.L92
+	.half	1
+	.byte	101
+	.word	.L221-.L92,.L156-.L92
+	.half	1
+	.byte	109
+	.word	.L232-.L92,.L233-.L92
+	.half	1
+	.byte	100
+	.word	.L238-.L92,.L239-.L92
+	.half	1
+	.byte	100
+	.word	.L247-.L92,.L246-.L92
+	.half	1
+	.byte	101
+	.word	.L250-.L92,.L249-.L92
+	.half	1
+	.byte	101
+	.word	.L251-.L92,.L252-.L92
+	.half	1
+	.byte	100
+	.word	.L255-.L92,.L254-.L92
+	.half	1
+	.byte	101
+	.word	0,0
+.L91:
+	.word	-1,.L92,0,.L156-.L92
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L161:
+	.word	-1,.L92,.L222-.L92,.L223-.L92
+	.half	1
+	.byte	111
+	.word	.L228-.L92,.L229-.L92
+	.half	1
+	.byte	100
+	.word	.L60-.L92,.L256-.L92
+	.half	1
+	.byte	111
+	.word	0,0
+.L164:
+	.word	-1,.L92,.L224-.L92,.L35-.L92
+	.half	1
+	.byte	89
+	.word	.L230-.L92,.L229-.L92
+	.half	1
+	.byte	84
+	.word	.L55-.L92,.L56-.L92
+	.half	1
+	.byte	89
+	.word	.L244-.L92,.L243-.L92
+	.half	1
+	.byte	84
+	.word	.L261-.L92,.L260-.L92
+	.half	1
+	.byte	84
+	.word	0,0
+.L165:
+	.word	-1,.L92,.L219-.L92,.L225-.L92
+	.half	1
+	.byte	82
+	.word	.L226-.L92,.L35-.L92
+	.half	1
+	.byte	88
+	.word	.L225-.L92,.L36-.L92
+	.half	1
+	.byte	84
+	.word	.L55-.L92,.L56-.L92
+	.half	1
+	.byte	88
+	.word	0,0
+.L162:
+	.word	-1,.L92,.L231-.L92,.L41-.L92
+	.half	1
+	.byte	110
+	.word	.L234-.L92,.L45-.L92
+	.half	1
+	.byte	110
+	.word	.L235-.L92,.L35-.L92
+	.half	1
+	.byte	110
+	.word	.L236-.L92,.L237-.L92
+	.half	1
+	.byte	100
+	.word	.L55-.L92,.L56-.L92
+	.half	1
+	.byte	110
+	.word	.L257-.L92,.L258-.L92
+	.half	1
+	.byte	100
+	.word	0,0
+.L158:
+	.word	-1,.L92,0,.L219-.L92
+	.half	1
+	.byte	100
+	.word	.L220-.L92,.L156-.L92
+	.half	1
+	.byte	108
+	.word	.L227-.L92,.L36-.L92
+	.half	1
+	.byte	100
+	.word	.L240-.L92,.L241-.L92
+	.half	1
+	.byte	100
+	.word	.L242-.L92,.L243-.L92
+	.half	1
+	.byte	100
+	.word	.L245-.L92,.L246-.L92
+	.half	1
+	.byte	100
+	.word	.L248-.L92,.L249-.L92
+	.half	1
+	.byte	100
+	.word	.L253-.L92,.L254-.L92
+	.half	1
+	.byte	100
+	.word	.L259-.L92,.L260-.L92
+	.half	1
+	.byte	100
+	.word	.L262-.L92,.L65-.L92
+	.half	1
+	.byte	100
+	.word	.L263-.L92,.L61-.L92
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ip4_input_accept')
+	.sect	'.debug_loc'
+.L89:
+	.word	-1,.L90,0,.L206-.L90
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L207:
+	.word	-1,.L90,0,.L218-.L90
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ip4_output')
+	.sect	'.debug_loc'
+.L169:
+	.word	-1,.L98,0,.L294-.L98
+	.half	1
+	.byte	102
+	.word	.L299-.L98,.L166-.L98
+	.half	1
+	.byte	109
+	.word	.L294-.L98,.L296-.L98
+	.half	1
+	.byte	101
+	.word	.L303-.L98,.L166-.L98
+	.half	1
+	.byte	102
+	.word	0,0
+.L97:
+	.word	-1,.L98,0,.L166-.L98
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L174:
+	.word	-1,.L98,.L296-.L98,.L166-.L98
+	.half	1
+	.byte	98
+	.word	.L306-.L98,.L166-.L98
+	.half	1
+	.byte	103
+	.word	0,0
+.L167:
+	.word	-1,.L98,0,.L295-.L98
+	.half	1
+	.byte	100
+	.word	.L297-.L98,.L166-.L98
+	.half	1
+	.byte	111
+	.word	.L301-.L98,.L166-.L98
+	.half	1
+	.byte	100
+	.word	0,0
+.L173:
+	.word	-1,.L98,0,.L296-.L98
+	.half	1
+	.byte	86
+	.word	.L304-.L98,.L305-.L98
+	.half	1
+	.byte	89
+	.word	.L305-.L98,.L166-.L98
+	.half	1
+	.byte	86
+	.word	0,0
+.L168:
+	.word	-1,.L98,0,.L295-.L98
+	.half	1
+	.byte	101
+	.word	.L298-.L98,.L166-.L98
+	.half	1
+	.byte	108
+	.word	.L295-.L98,.L296-.L98
+	.half	1
+	.byte	100
+	.word	.L302-.L98,.L166-.L98
+	.half	1
+	.byte	101
+	.word	0,0
+.L172:
+	.word	-1,.L98,0,.L296-.L98
+	.half	1
+	.byte	85
+	.word	.L303-.L98,.L304-.L98
+	.half	1
+	.byte	88
+	.word	0,0
+.L171:
+	.word	-1,.L98,0,.L296-.L98
+	.half	1
+	.byte	84
+	.word	.L300-.L98,.L166-.L98
+	.half	1
+	.byte	95
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ip4_output_if')
+	.sect	'.debug_loc'
+.L178:
+	.word	-1,.L94,0,.L175-.L94
+	.half	1
+	.byte	102
+	.word	0,0
+.L93:
+	.word	-1,.L94,0,.L175-.L94
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L182:
+	.word	-1,.L94,0,.L175-.L94
+	.half	1
+	.byte	103
+	.word	0,0
+.L176:
+	.word	-1,.L94,0,.L175-.L94
+	.half	1
+	.byte	100
+	.word	0,0
+.L181:
+	.word	-1,.L94,0,.L175-.L94
+	.half	1
+	.byte	86
+	.word	0,0
+.L177:
+	.word	-1,.L94,0,.L175-.L94
+	.half	1
+	.byte	101
+	.word	0,0
+.L183:
+	.word	-1,.L94,0,.L175-.L94
+	.half	1
+	.byte	101
+	.word	0,0
+.L180:
+	.word	-1,.L94,0,.L175-.L94
+	.half	1
+	.byte	85
+	.word	0,0
+.L179:
+	.word	-1,.L94,0,.L175-.L94
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ip4_output_if_src')
+	.sect	'.debug_loc'
+.L197:
+	.word	-1,.L96,.L277-.L96,.L278-.L96
+	.half	1
+	.byte	89
+	.word	.L282-.L96,.L283-.L96
+	.half	1
+	.byte	89
+	.word	.L284-.L96,.L285-.L96
+	.half	1
+	.byte	89
+	.word	.L286-.L96,.L287-.L96
+	.half	1
+	.byte	95
+	.word	.L287-.L96,.L72-.L96
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L72-.L96,.L76-.L96
+	.half	1
+	.byte	89
+	.word	0,0
+.L187:
+	.word	-1,.L96,0,.L265-.L96
+	.half	1
+	.byte	102
+	.word	.L269-.L96,.L184-.L96
+	.half	1
+	.byte	110
+	.word	.L72-.L96,.L73-.L96
+	.half	1
+	.byte	102
+	.word	.L77-.L96,.L76-.L96
+	.half	1
+	.byte	102
+	.word	.L290-.L96,.L76-.L96
+	.half	1
+	.byte	106
+	.word	.L293-.L96,.L184-.L96
+	.half	1
+	.byte	102
+	.word	0,0
+.L195:
+	.word	-1,.L96,0,.L184-.L96
+	.half	2
+	.byte	145,120
+	.word	0,0
+.L95:
+	.word	-1,.L96,0,.L264-.L96
+	.half	2
+	.byte	138,0
+	.word	.L264-.L96,.L77-.L96
+	.half	2
+	.byte	138,8
+	.word	.L77-.L96,.L77-.L96
+	.half	2
+	.byte	138,0
+	.word	.L77-.L96,.L184-.L96
+	.half	2
+	.byte	138,8
+	.word	.L184-.L96,.L184-.L96
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L200:
+	.word	-1,.L96,.L279-.L96,.L280-.L96
+	.half	1
+	.byte	91
+	.word	.L266-.L96,.L265-.L96
+	.half	1
+	.byte	84
+	.word	0,0
+.L193:
+	.word	-1,.L96,.L281-.L96,.L72-.L96
+	.half	1
+	.byte	111
+	.word	.L289-.L96,.L76-.L96
+	.half	1
+	.byte	111
+	.word	0,0
+.L191:
+	.word	-1,.L96,0,.L265-.L96
+	.half	1
+	.byte	103
+	.word	.L276-.L96,.L184-.L96
+	.half	2
+	.byte	145,124
+	.word	.L72-.L96,.L73-.L96
+	.half	1
+	.byte	103
+	.word	.L77-.L96,.L76-.L96
+	.half	1
+	.byte	103
+	.word	.L291-.L96,.L184-.L96
+	.half	1
+	.byte	100
+	.word	0,0
+.L185:
+	.word	-1,.L96,0,.L265-.L96
+	.half	1
+	.byte	100
+	.word	.L267-.L96,.L184-.L96
+	.half	1
+	.byte	108
+	.word	.L72-.L96,.L73-.L96
+	.half	1
+	.byte	100
+	.word	.L77-.L96,.L76-.L96
+	.half	1
+	.byte	100
+	.word	.L292-.L96,.L184-.L96
+	.half	1
+	.byte	101
+	.word	0,0
+.L190:
+	.word	-1,.L96,0,.L265-.L96
+	.half	1
+	.byte	86
+	.word	.L274-.L96,.L275-.L96
+	.half	1
+	.byte	88
+	.word	.L72-.L96,.L76-.L96
+	.half	1
+	.byte	88
+	.word	.L72-.L96,.L73-.L96
+	.half	1
+	.byte	86
+	.word	.L77-.L96,.L76-.L96
+	.half	1
+	.byte	86
+	.word	0,0
+.L186:
+	.word	-1,.L96,0,.L265-.L96
+	.half	1
+	.byte	101
+	.word	.L268-.L96,.L184-.L96
+	.half	1
+	.byte	109
+	.word	.L72-.L96,.L73-.L96
+	.half	1
+	.byte	101
+	.word	.L77-.L96,.L76-.L96
+	.half	1
+	.byte	101
+	.word	0,0
+.L189:
+	.word	-1,.L96,0,.L265-.L96
+	.half	1
+	.byte	85
+	.word	.L272-.L96,.L273-.L96
+	.half	1
+	.byte	90
+	.word	.L72-.L96,.L73-.L96
+	.half	1
+	.byte	85
+	.word	.L72-.L96,.L76-.L96
+	.half	1
+	.byte	90
+	.word	.L77-.L96,.L76-.L96
+	.half	1
+	.byte	85
+	.word	0,0
+.L188:
+	.word	-1,.L96,0,.L266-.L96
+	.half	1
+	.byte	84
+	.word	.L270-.L96,.L271-.L96
+	.half	1
+	.byte	95
+	.word	.L72-.L96,.L73-.L96
+	.half	1
+	.byte	84
+	.word	.L72-.L96,.L288-.L96
+	.half	1
+	.byte	95
+	.word	.L77-.L96,.L76-.L96
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ip4_route')
+	.sect	'.debug_loc'
+.L148:
+	.word	-1,.L88,0,.L212-.L88
+	.half	1
+	.byte	100
+	.word	.L213-.L88,.L146-.L88
+	.half	1
+	.byte	108
+	.word	.L215-.L88,.L216-.L88
+	.half	1
+	.byte	101
+	.word	0,0
+.L87:
+	.word	-1,.L88,0,.L146-.L88
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L149:
+	.word	-1,.L88,.L214-.L88,.L21-.L88
+	.half	1
+	.byte	98
+	.word	.L26-.L88,.L217-.L88
+	.half	1
+	.byte	98
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ip4_route_src')
+	.sect	'.debug_loc'
+.L152:
+	.word	-1,.L86,0,.L209-.L86
+	.half	1
+	.byte	101
+	.word	.L210-.L86,.L150-.L86
+	.half	1
+	.byte	111
+	.word	.L211-.L86,.L10-.L86
+	.half	1
+	.byte	100
+	.word	0,0
+.L85:
+	.word	-1,.L86,0,.L150-.L86
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L154:
+	.word	-1,.L86,.L209-.L86,.L8-.L86
+	.half	1
+	.byte	98
+	.word	.L10-.L86,.L150-.L86
+	.half	1
+	.byte	98
+	.word	0,0
+.L151:
+	.word	-1,.L86,0,.L209-.L86
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L461:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('ip4_find_netif_by_src')
+	.sect	'.debug_frame'
+	.word	20
+	.word	.L461,.L84,.L201-.L84
+	.byte	8,19,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('ip4_route_src')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L461,.L86,.L150-.L86
+	.sdecl	'.debug_frame',debug,cluster('ip4_route')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L461,.L88,.L146-.L88
+	.sdecl	'.debug_frame',debug,cluster('ip4_input_accept')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L461,.L90,.L206-.L90
+	.sdecl	'.debug_frame',debug,cluster('ip4_input')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L461,.L92,.L156-.L92
+	.sdecl	'.debug_frame',debug,cluster('ip4_output_if')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L461,.L94,.L175-.L94
+	.sdecl	'.debug_frame',debug,cluster('ip4_output_if_src')
+	.sect	'.debug_frame'
+	.word	52
+	.word	.L461,.L96,.L184-.L96
+	.byte	4
+	.word	(.L264-.L96)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L77-.L264)/2
+	.byte	19,0,8,26,19,8,22,26,3,19,138,8,4
+	.word	(.L184-.L77)/2
+	.byte	19,0,8,26,0
+	.sdecl	'.debug_frame',debug,cluster('ip4_output')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L461,.L98,.L166-.L98
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1063  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1064  #if LWIP_NETIF_USE_HINTS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1065  /** Like ip_output, but takes and addr_hint pointer that is passed on to netif->addr_hint
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1066   *  before calling ip_output_if.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1067   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1068   * @param p the packet to send (p->payload points to the data, e.g. next
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1069              protocol header; if dest == LWIP_IP_HDRINCL, p already includes an
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1070              IP header and p->payload points to that IP header)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1071   * @param src the source IP address to send from (if src == IP4_ADDR_ANY, the
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1072   *         IP  address of the netif used to send is used as source address)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1073   * @param dest the destination IP address to send the packet to
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1074   * @param ttl the TTL value to be set in the IP header
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1075   * @param tos the TOS value to be set in the IP header
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1076   * @param proto the PROTOCOL to be set in the IP header
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1077   * @param netif_hint netif output hint pointer set to netif->hint before
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1078   *        calling ip_output_if()
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1079   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1080   * @return ERR_RTE if no route is found
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1081   *         see ip_output_if() for more return values
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1082   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1083  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1084  ip4_output_hinted(struct pbuf *p, const ip4_addr_t *src, const ip4_addr_t *dest,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1085                    u8_t ttl, u8_t tos, u8_t proto, struct netif_hint *netif_hint)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1086  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1087    struct netif *netif;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1088    err_t err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1089  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1090    LWIP_IP_CHECK_PBUF_REF_COUNT_FOR_TX(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1091  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1092    if ((netif = ip4_route_src(src, dest)) == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1093      LWIP_DEBUGF(IP_DEBUG, ("ip4_output: No route to %"U16_F".%"U16_F".%"U16_F".%"U16_F"\n",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1094                             ip4_addr1_16(dest), ip4_addr2_16(dest), ip4_addr3_16(dest), ip4_addr4_16(dest)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1095      IP_STATS_INC(ip.rterr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1096      return ERR_RTE;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1097    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1098  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1099    NETIF_SET_HINTS(netif, netif_hint);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1100    err = ip4_output_if(p, src, dest, ttl, tos, proto, netif);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1101    NETIF_RESET_HINTS(netif);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1102  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1103    return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1104  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1105  #endif /* LWIP_NETIF_USE_HINTS*/
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1106  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1107  #if IP_DEBUG
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1108  /* Print an IP header by using LWIP_DEBUGF
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1109   * @param p an IP packet, p->payload pointing to the IP header
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1110   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1111  void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1112  ip4_debug_print(struct pbuf *p)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1113  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1114    struct ip_hdr *iphdr = (struct ip_hdr *)p->payload;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1115  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1116    LWIP_DEBUGF(IP_DEBUG, ("IP header:\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1117    LWIP_DEBUGF(IP_DEBUG, ("+-------------------------------+\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1118    LWIP_DEBUGF(IP_DEBUG, ("|%2"S16_F" |%2"S16_F" |  0x%02"X16_F" |     %5"U16_F"     | (v, hl, tos, len)\n",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1119                           (u16_t)IPH_V(iphdr),
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1120                           (u16_t)IPH_HL(iphdr),
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1121                           (u16_t)IPH_TOS(iphdr),
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1122                           lwip_ntohs(IPH_LEN(iphdr))));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1123    LWIP_DEBUGF(IP_DEBUG, ("+-------------------------------+\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1124    LWIP_DEBUGF(IP_DEBUG, ("|    %5"U16_F"      |%"U16_F"%"U16_F"%"U16_F"|    %4"U16_F"   | (id, flags, offset)\n",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1125                           lwip_ntohs(IPH_ID(iphdr)),
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1126                           (u16_t)(lwip_ntohs(IPH_OFFSET(iphdr)) >> 15 & 1),
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1127                           (u16_t)(lwip_ntohs(IPH_OFFSET(iphdr)) >> 14 & 1),
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1128                           (u16_t)(lwip_ntohs(IPH_OFFSET(iphdr)) >> 13 & 1),
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1129                           (u16_t)(lwip_ntohs(IPH_OFFSET(iphdr)) & IP_OFFMASK)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1130    LWIP_DEBUGF(IP_DEBUG, ("+-------------------------------+\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1131    LWIP_DEBUGF(IP_DEBUG, ("|  %3"U16_F"  |  %3"U16_F"  |    0x%04"X16_F"     | (ttl, proto, chksum)\n",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1132                           (u16_t)IPH_TTL(iphdr),
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1133                           (u16_t)IPH_PROTO(iphdr),
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1134                           lwip_ntohs(IPH_CHKSUM(iphdr))));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1135    LWIP_DEBUGF(IP_DEBUG, ("+-------------------------------+\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1136    LWIP_DEBUGF(IP_DEBUG, ("|  %3"U16_F"  |  %3"U16_F"  |  %3"U16_F"  |  %3"U16_F"  | (src)\n",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1137                           ip4_addr1_16_val(iphdr->src),
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1138                           ip4_addr2_16_val(iphdr->src),
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1139                           ip4_addr3_16_val(iphdr->src),
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1140                           ip4_addr4_16_val(iphdr->src)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1141    LWIP_DEBUGF(IP_DEBUG, ("+-------------------------------+\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1142    LWIP_DEBUGF(IP_DEBUG, ("|  %3"U16_F"  |  %3"U16_F"  |  %3"U16_F"  |  %3"U16_F"  | (dest)\n",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1143                           ip4_addr1_16_val(iphdr->dest),
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1144                           ip4_addr2_16_val(iphdr->dest),
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1145                           ip4_addr3_16_val(iphdr->dest),
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1146                           ip4_addr4_16_val(iphdr->dest)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1147    LWIP_DEBUGF(IP_DEBUG, ("+-------------------------------+\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1148  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1149  #endif /* IP_DEBUG */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1150  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\core\ipv4\ip4.c	  1151  #endif /* LWIP_IPV4 */
+
+	; Module end

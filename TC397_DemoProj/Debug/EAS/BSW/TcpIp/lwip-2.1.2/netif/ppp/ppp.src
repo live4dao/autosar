@@ -1,0 +1,2246 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.2r2 Build 18041957 SN 09003395"
+	.compiler_invocation	"ctc -f cc25852a --dep-file=EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\.ppp.o.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc39x -D__CPU_TC39X__ --core=tc1.6.2 --fp-model=+float -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Cfg_Ssw -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Cfg_Ssw\\TC39B -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Integration -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr\\TC39xB -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr\\TC39xB\\_Reg -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw\\TC39B -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw\\TC39B\\Tricore -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\inc\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Lib -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\App_Func -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\demo -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Adc_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Gtm_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\AscLin_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Can_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\EthV2_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Stm_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Main -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\APP -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\BswM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanNm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanSm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanTp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanTSyn -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Com -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\ComM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Common -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Crc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Dcm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Dem -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Det -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\DoIP -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EcuM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Eth -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthSM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthTrcv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthTSyn -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\FiM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\FlsTst -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\MemIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Nm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\NvM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS\\Kernel -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS\\Portable -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\PduR -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\RamTst -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\SoAd -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\StbM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\api -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\arch -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv6 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\arpa -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\net -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\sys -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\stdc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\apps -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\priv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\prot -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif\\ppp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif\\ppp\\polarssl -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\polarssl -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\UdpNm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\WdgIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\WdgM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Cal -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Daq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Pag -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Pgm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Std -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\XcpOnEth -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Callout -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Config -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Library\\Vfx_ComE2E -g2 --make-target=EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\ppp.o -t2 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O1 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\ppp.src ..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\ppp.c"
+	.compiler_name		"ctc"
+	;source	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\ppp.c'
+
+	
+$TC162
+	
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L3:
+	.word	4546
+	.half	3
+	.word	.L4
+	.byte	4
+.L2:
+	.byte	1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\ppp.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L5
+	.byte	2,1,3
+	.word	167
+	.byte	4
+	.byte	'__codeptr',0,1,1,1
+	.word	169
+	.byte	5
+	.byte	'unsigned char',0,1,8,4
+	.byte	'boolean',0,2,102,29
+	.word	192
+	.byte	4
+	.byte	'uint8',0,2,106,29
+	.word	192
+	.byte	5
+	.byte	'unsigned short int',0,2,7,4
+	.byte	'uint16',0,2,110,29
+	.word	239
+	.byte	5
+	.byte	'unsigned long int',0,4,7,4
+	.byte	'uint32',0,2,114,29
+	.word	276
+	.byte	4
+	.byte	'Std_ReturnType',0,3,109,16
+	.word	192
+	.byte	4
+	.byte	'PduIdType',0,4,37,21
+	.word	192
+	.byte	4
+	.byte	'PduLengthType',0,4,41,22
+	.word	239
+	.byte	6,5,101,9,1,7
+	.byte	'BUFREQ_OK',0,0,7
+	.byte	'BUFREQ_E_NOT_OK',0,1,7
+	.byte	'BUFREQ_E_BUSY',0,2,7
+	.byte	'BUFREQ_E_OVFL',0,3,0,4
+	.byte	'BufReq_ReturnType',0,5,107,3
+	.word	375
+	.byte	3
+	.word	192
+	.byte	4
+	.byte	'SduDataPtrType',0,5,189,1,40
+	.word	469
+	.byte	6,5,204,1,9,1,7
+	.byte	'TP_DATACONF',0,0,7
+	.byte	'TP_DATARETRY',0,1,7
+	.byte	'TP_CONFPENDING',0,2,0,4
+	.byte	'TpDataStateType',0,5,216,1,3
+	.word	498
+	.byte	4
+	.byte	'TcpIp_SocketIdType',0,6,50,16
+	.word	192
+	.byte	8,4
+	.word	276
+	.byte	9,0,0,10,6,52,9,4,11
+	.byte	'Addr',0
+	.word	603
+	.byte	4,2,35,0,0,4
+	.byte	'TcpIp_IpAddressType',0,6,55,3
+	.word	612
+	.byte	4
+	.byte	'TcpIp_DomainType',0,6,61,16
+	.word	239
+	.byte	10,6,68,9,8,11
+	.byte	'Domain',0
+	.word	239
+	.byte	2,2,35,0,11
+	.byte	'Port',0
+	.word	239
+	.byte	2,2,35,2,11
+	.byte	'Addr',0
+	.word	603
+	.byte	4,2,35,4,0,4
+	.byte	'TcpIp_SockAddrInetType',0,6,73,3
+	.word	685
+	.byte	4
+	.byte	'TcpIp_AddressType',0,7,128,1,15
+	.word	192
+	.byte	4
+	.byte	'TcpIp_CtrlIdType',0,7,142,1,15
+	.word	192
+	.byte	4
+	.byte	'TcpIp_IpAddrStateType',0,7,144,1,15
+	.word	192
+	.byte	4
+	.byte	'TcpIp_LocalAddrAssignmentConfigType',0,7,149,1,15
+	.word	192
+	.byte	4
+	.byte	'TcpIp_StaticAddrIdType',0,7,151,1,15
+	.word	192
+	.byte	10,7,152,1,9,12,11
+	.byte	'State',0
+	.word	192
+	.byte	1,2,35,0,11
+	.byte	'Netmask',0
+	.word	192
+	.byte	1,2,35,1,11
+	.byte	'Domain',0
+	.word	239
+	.byte	2,2,35,2,11
+	.byte	'IpAddr',0
+	.word	612
+	.byte	4,2,35,4,11
+	.byte	'DefaultRouter',0
+	.word	612
+	.byte	4,2,35,8,0,4
+	.byte	'TcpIp_StaticIpAddrType',0,7,162,1,3
+	.word	927
+	.byte	4
+	.byte	'TcpIp_LocalAddrIdType',0,7,173,1,15
+	.word	192
+	.byte	8,3
+	.word	192
+	.byte	9,2,0,10,7,231,1,9,8,11
+	.byte	'CtrlId',0
+	.word	192
+	.byte	1,2,35,0,11
+	.byte	'Address',0
+	.word	192
+	.byte	1,2,35,1,11
+	.byte	'Domain',0
+	.word	239
+	.byte	2,2,35,2,11
+	.byte	'StaticAddrId',0
+	.word	192
+	.byte	1,2,35,4,11
+	.byte	'Assignments',0
+	.word	1084
+	.byte	3,2,35,5,0,4
+	.byte	'TcpIp_LocalAddrConfigType',0,7,243,1,3
+	.word	1093
+	.byte	10,7,245,1,9,4,11
+	.byte	'ArpConfigId',0
+	.word	192
+	.byte	1,2,35,0,11
+	.byte	'DHCPConfigId',0
+	.word	192
+	.byte	1,2,35,1,11
+	.byte	'AutoIpInitTimeout',0
+	.word	239
+	.byte	2,2,35,2,0,4
+	.byte	'TcpIp_IpV4CtrlConfigType',0,7,130,2,3
+	.word	1227
+	.byte	10,7,133,2,9,8,11
+	.byte	'CtrlIdx',0
+	.word	192
+	.byte	1,2,35,0,11
+	.byte	'FramePrio',0
+	.word	192
+	.byte	1,2,35,1,11
+	.byte	'UnicastAddrId',0
+	.word	192
+	.byte	1,2,35,2,11
+	.byte	'UnicastAddrLimit',0
+	.word	192
+	.byte	1,2,35,3,11
+	.byte	'MulticastAddrId',0
+	.word	192
+	.byte	1,2,35,4,11
+	.byte	'LocalAddrLimit',0
+	.word	192
+	.byte	1,2,35,5,11
+	.byte	'IpV4CtrlId',0
+	.word	192
+	.byte	1,2,35,6,11
+	.byte	'IpV6CtrlId',0
+	.word	192
+	.byte	1,2,35,7,0,4
+	.byte	'TcpIp_NetIfCtrlConfigType',0,7,148,2,3
+	.word	1338
+	.byte	4
+	.byte	'SoAd_RoutingGroupIdType',0,8,43,15
+	.word	192
+	.byte	4
+	.byte	'SoAd_SoConIdType',0,8,44,15
+	.word	192
+	.byte	4
+	.byte	'SoAd_SoConGroupIdType',0,8,45,15
+	.word	192
+	.byte	4
+	.byte	'SoAd_PduRouteIdType',0,8,46,15
+	.word	192
+	.byte	4
+	.byte	'SoAd_PduRouteDestIdType',0,8,47,15
+	.word	192
+	.byte	4
+	.byte	'SoAd_SocketRouteIdType',0,8,48,15
+	.word	192
+	.byte	4
+	.byte	'SoAd_IfTxUnconfirmedType',0,8,49,16
+	.word	239
+	.byte	4
+	.byte	'SoAd_IfTxTimerType',0,8,51,16
+	.word	239
+	.byte	8,1
+	.word	192
+	.byte	9,0,0,10,8,53,9,2,11
+	.byte	'Mask',0
+	.word	1792
+	.byte	1,2,35,0,11
+	.byte	'RoutingState',0
+	.word	1792
+	.byte	1,2,35,1,0,4
+	.byte	'SoAd_RoutingGroupCtrlType',0,8,57,3
+	.word	1801
+	.byte	6,8,63,9,1,7
+	.byte	'SOAD_UL_DOIP',0,0,7
+	.byte	'SOAD_UL_UDPNM',0,1,7
+	.byte	'SOAD_UL_PDUR',0,2,7
+	.byte	'SOAD_UL_XCP',0,3,7
+	.byte	'SOAD_UL_MAX',0,4,0,4
+	.byte	'SoAd_ULIndexType',0,8,71,3
+	.word	1877
+	.byte	4
+	.byte	'SoAd_RemoteAddressType',0,9,113,32
+	.word	685
+	.byte	6,9,115,9,1,7
+	.byte	'SOAD_SOCON_UNINIT',0,0,7
+	.byte	'SOAD_SOCON_OFFLINE',0,1,7
+	.byte	'SOAD_SOCON_RECONN',0,2,7
+	.byte	'SOAD_SOCON_ONLINE',0,3,0,4
+	.byte	'SoAd_SoConModeType',0,9,121,3
+	.word	2013
+	.byte	12
+	.word	192
+	.byte	3
+	.word	2127
+	.byte	12
+	.word	192
+	.byte	3
+	.word	2137
+	.byte	12
+	.word	192
+	.byte	3
+	.word	2147
+	.byte	12
+	.word	1877
+	.byte	3
+	.word	2157
+	.byte	10,9,129,1,9,36,11
+	.byte	'IfBufferLength',0
+	.word	239
+	.byte	2,2,35,0,11
+	.byte	'IfBufferOffset',0
+	.word	239
+	.byte	2,2,35,2,11
+	.byte	'TpBufferLength',0
+	.word	239
+	.byte	2,2,35,4,11
+	.byte	'TpBufferOffset',0
+	.word	239
+	.byte	2,2,35,6,11
+	.byte	'PduRouteNum',0
+	.word	192
+	.byte	1,2,35,8,11
+	.byte	'SocketRouteNum',0
+	.word	192
+	.byte	1,2,35,9,11
+	.byte	'PduRouteDestNum',0
+	.word	192
+	.byte	1,2,35,10,11
+	.byte	'RemoteAddrState',0
+	.word	192
+	.byte	1,2,35,11,11
+	.byte	'RemoteAddr',0
+	.word	685
+	.byte	8,2,35,12,11
+	.byte	'PduRouteDestList',0
+	.word	2132
+	.byte	4,2,35,20,11
+	.byte	'PduRouteList',0
+	.word	2142
+	.byte	4,2,35,24,11
+	.byte	'SocketRouteList',0
+	.word	2152
+	.byte	4,2,35,28,11
+	.byte	'SoConModeChgList',0
+	.word	2162
+	.byte	4,2,35,32,0,4
+	.byte	'SoAd_SocketConnectionType',0,9,146,1,3
+	.word	2167
+	.byte	10,9,148,1,9,16,11
+	.byte	'CtrlFlag',0
+	.word	192
+	.byte	1,2,35,0,11
+	.byte	'KeepAliveProbesMax',0
+	.word	239
+	.byte	2,2,35,2,11
+	.byte	'KeepAliveInterval',0
+	.word	276
+	.byte	4,2,35,4,11
+	.byte	'KeepAliveTime',0
+	.word	276
+	.byte	4,2,35,8,11
+	.byte	'TxQuota',0
+	.word	276
+	.byte	4,2,35,12,0,4
+	.byte	'SoAd_TcpProtocolType',0,9,155,1,3
+	.word	2519
+	.byte	10,9,157,1,9,12,11
+	.byte	'CtrlFlag',0
+	.word	192
+	.byte	1,2,35,0,11
+	.byte	'nPduTxBufferMin',0
+	.word	239
+	.byte	2,2,35,2,11
+	.byte	'TriggerTimeout',0
+	.word	239
+	.byte	2,2,35,4,11
+	.byte	'AliveSupervisionTimeout',0
+	.word	276
+	.byte	4,2,35,6,0,4
+	.byte	'SoAd_UdpProtocolType',0,9,163,1,3
+	.word	2669
+	.byte	12
+	.word	2519
+	.byte	3
+	.word	2806
+	.byte	12
+	.word	2669
+	.byte	3
+	.word	2816
+	.byte	10,9,165,1,9,24,11
+	.byte	'GroupId',0
+	.word	192
+	.byte	1,2,35,0,11
+	.byte	'CtrlFlag',0
+	.word	192
+	.byte	1,2,35,1,11
+	.byte	'FramePriority',0
+	.word	192
+	.byte	1,2,35,2,11
+	.byte	'SoConNum',0
+	.word	192
+	.byte	1,2,35,3,11
+	.byte	'SoConId',0
+	.word	192
+	.byte	1,2,35,4,11
+	.byte	'IpAddrAssignChgNum',0
+	.word	192
+	.byte	1,2,35,5,11
+	.byte	'LocalAddrId',0
+	.word	192
+	.byte	1,2,35,6,11
+	.byte	'LocalPort',0
+	.word	239
+	.byte	2,2,35,8,11
+	.byte	'IpAddrAssignChgList',0
+	.word	2162
+	.byte	4,2,35,12,11
+	.byte	'TcpProtocolPtr',0
+	.word	2811
+	.byte	4,2,35,16,11
+	.byte	'UdpProtocolPtr',0
+	.word	2821
+	.byte	4,2,35,20,0,4
+	.byte	'SoAd_SocketConnectionGroupType',0,9,178,1,3
+	.word	2826
+	.byte	12
+	.word	192
+	.byte	3
+	.word	3111
+	.byte	10,9,180,1,9,12,11
+	.byte	'CtrlFlag',0
+	.word	192
+	.byte	1,2,35,0,11
+	.byte	'PduRouteDestNum',0
+	.word	192
+	.byte	1,2,35,1,11
+	.byte	'SocketRouteDestNum',0
+	.word	192
+	.byte	1,2,35,2,11
+	.byte	'PduRouteDestList',0
+	.word	3116
+	.byte	4,2,35,4,11
+	.byte	'SocketRouteDestList',0
+	.word	3116
+	.byte	4,2,35,8,0,4
+	.byte	'SoAd_RoutingGroupType',0,9,187,1,3
+	.word	3121
+	.byte	10,9,189,1,9,6,11
+	.byte	'ULType',0
+	.word	192
+	.byte	1,2,35,0,11
+	.byte	'ULIndex',0
+	.word	1877
+	.byte	1,2,35,1,11
+	.byte	'CtrlFlag',0
+	.word	192
+	.byte	1,2,35,2,11
+	.byte	'RouteDestNum',0
+	.word	192
+	.byte	1,2,35,3,11
+	.byte	'RouteDestId',0
+	.word	192
+	.byte	1,2,35,4,11
+	.byte	'TxPduId',0
+	.word	192
+	.byte	1,2,35,5,0,4
+	.byte	'SoAd_PduRouteType',0,9,204,1,3
+	.word	3285
+	.byte	3
+	.word	1801
+	.byte	10,9,206,1,9,20,11
+	.byte	'TxPduHeaderId',0
+	.word	276
+	.byte	4,2,35,0,11
+	.byte	'SoConNum',0
+	.word	192
+	.byte	1,2,35,4,11
+	.byte	'SoConId',0
+	.word	192
+	.byte	1,2,35,5,11
+	.byte	'PduRouteId',0
+	.word	192
+	.byte	1,2,35,6,11
+	.byte	'UdpTriggerMode',0
+	.word	192
+	.byte	1,2,35,7,11
+	.byte	'UdpTriggerTimeout',0
+	.word	239
+	.byte	2,2,35,8,11
+	.byte	'RoutingCtrlList',0
+	.word	3430
+	.byte	4,2,35,12,11
+	.byte	'IfTriggerList',0
+	.word	469
+	.byte	4,2,35,16,0,4
+	.byte	'SoAd_PduRouteDestType',0,9,217,1,3
+	.word	3435
+	.byte	10,9,219,1,9,16,11
+	.byte	'RxPduHeaderId',0
+	.word	276
+	.byte	4,2,35,0,11
+	.byte	'ULType',0
+	.word	192
+	.byte	1,2,35,4,11
+	.byte	'ULIndex',0
+	.word	1877
+	.byte	1,2,35,5,11
+	.byte	'SoConNum',0
+	.word	192
+	.byte	1,2,35,6,11
+	.byte	'SoConId',0
+	.word	192
+	.byte	1,2,35,7,11
+	.byte	'RxPduId',0
+	.word	192
+	.byte	1,2,35,8,11
+	.byte	'RoutingCtrlList',0
+	.word	3430
+	.byte	4,2,35,12,0,4
+	.byte	'SoAd_SocketRouteType',0,9,236,1,3
+	.word	3650
+	.byte	12
+	.word	3435
+	.byte	3
+	.word	3820
+	.byte	10,9,155,2,9,24,11
+	.byte	'State',0
+	.word	192
+	.byte	1,2,35,0,11
+	.byte	'Timer',0
+	.word	239
+	.byte	2,2,35,2,11
+	.byte	'BufferLength',0
+	.word	239
+	.byte	2,2,35,4,11
+	.byte	'BufferOffset',0
+	.word	239
+	.byte	2,2,35,6,11
+	.byte	'UdpTxBuffer',0
+	.word	469
+	.byte	4,2,35,8,11
+	.byte	'TotalTxLength',0
+	.word	239
+	.byte	2,2,35,12,11
+	.byte	'UsedTxLength',0
+	.word	239
+	.byte	2,2,35,14,11
+	.byte	'IfTxDataBuffer',0
+	.word	3116
+	.byte	4,2,35,16,11
+	.byte	'PduRouteDestPtr',0
+	.word	3825
+	.byte	4,2,35,20,0,4
+	.byte	'SoAd_TxSessionType',0,9,177,2,3
+	.word	3830
+	.byte	12
+	.word	3650
+	.byte	3
+	.word	4054
+	.byte	10,9,180,2,9,8,11
+	.byte	'PduLength',0
+	.word	239
+	.byte	2,2,35,0,11
+	.byte	'RemainLength',0
+	.word	239
+	.byte	2,2,35,2,11
+	.byte	'SocketRoutePtr',0
+	.word	4059
+	.byte	4,2,35,4,0,4
+	.byte	'SoAd_RxPduInfoType',0,9,185,2,3
+	.word	4064
+	.byte	10,9,187,2,9,12,11
+	.byte	'TotalLength',0
+	.word	239
+	.byte	2,2,35,0,11
+	.byte	'In',0
+	.word	239
+	.byte	2,2,35,2,11
+	.byte	'Out',0
+	.word	239
+	.byte	2,2,35,4,11
+	.byte	'BufferPtr',0
+	.word	469
+	.byte	4,2,35,8,0,4
+	.byte	'SoAd_RxFifoType',0,9,193,2,3
+	.word	4164
+	.byte	10,9,195,2,9,8,11
+	.byte	'TotalLength',0
+	.word	239
+	.byte	2,2,35,0,11
+	.byte	'UsedLength',0
+	.word	239
+	.byte	2,2,35,2,11
+	.byte	'BufferPtr',0
+	.word	469
+	.byte	4,2,35,4,0,4
+	.byte	'SoAd_RxBufferType',0,9,200,2,3
+	.word	4261
+	.byte	8,8
+	.word	192
+	.byte	9,7,0,10,9,202,2,9,48,11
+	.byte	'State',0
+	.word	192
+	.byte	1,2,35,0,11
+	.byte	'ValidHeaderLen',0
+	.word	192
+	.byte	1,2,35,1,11
+	.byte	'PduHeader',0
+	.word	4355
+	.byte	8,2,35,2,11
+	.byte	'RxPduInfo',0
+	.word	4064
+	.byte	8,2,35,12,11
+	.byte	'ProcessPduInfo',0
+	.word	4064
+	.byte	8,2,35,20,11
+	.byte	'IfBuffer',0
+	.word	4261
+	.byte	8,2,35,28,11
+	.byte	'TpBuffer',0
+	.word	4164
+	.byte	12,2,35,36,0,4
+	.byte	'SoAd_RxSessionType',0,9,216,2,3
+	.word	4364
+	.byte	4
+	.byte	'u8_t',0,10,61,25
+	.word	192
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L4:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,0,0,3,15,0,73,19,0,0,4,22,0,3,8,58,15,59,15
+	.byte	57,15,73,19,0,0,5,36,0,3,8,11,15,62,15,0,0,6,4,1,58,15,59,15,57,15,11,15,0,0,7,40,0,3,8,28,13,0,0,8,1
+	.byte	1,11,15,73,19,0,0,9,33,0,47,15,0,0,10,19,1,58,15,59,15,57,15,11,15,0,0,11,13,0,3,8,73,19,11,15,56,9,0
+	.byte	0,12,38,0,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L5:
+	.word	.L7-.L6
+.L6:
+	.half	3
+	.word	.L9-.L8
+.L8:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Config',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\SoAd',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\arch',0,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\ppp.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0
+	.byte	'Std_Types.h',0,1,0,0
+	.byte	'ComStack_Types_Cfg.h',0,2,0,0
+	.byte	'ComStack_Types.h',0,3,0,0
+	.byte	'TcpIp_GeneratedTypes.h',0,2,0,0
+	.byte	'TcpIp_Types.h',0,4,0,0
+	.byte	'SoAd_GeneratedTypes.h',0,2,0,0
+	.byte	'SoAd_Types.h',0,5,0,0
+	.byte	'cc.h',0,6,0,0,0
+.L9:
+.L7:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	     1  /*****************************************************************************
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	     2  * ppp.c - Network Point to Point Protocol program file.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	     3  *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	     4  * Copyright (c) 2003 by Marc Boucher, Services Informatiques (MBSI) inc.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	     5  * portions Copyright (c) 1997 by Global Election Systems Inc.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	     6  *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	     7  * The authors hereby grant permission to use, copy, modify, distribute,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	     8  * and license this software and its documentation for any purpose, provided
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	     9  * that existing copyright notices are retained in all copies and that this
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    10  * notice and the following disclaimer are included verbatim in any
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    11  * distributions. No written agreement, license, or royalty fee is required
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    12  * for any of the authorized uses.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    13  *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    14  * THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS *AS IS* AND ANY EXPRESS OR
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    15  * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    16  * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    17  * IN NO EVENT SHALL THE CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    18  * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    19  * NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    20  * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    21  * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    22  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    23  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    24  *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    25  ******************************************************************************
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    26  * REVISION HISTORY
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    27  *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    28  * 03-01-01 Marc Boucher <marc@mbsi.ca>
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    29  *   Ported to lwIP.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    30  * 97-11-05 Guy Lancaster <lancasterg@acm.org>, Global Election Systems Inc.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    31  *   Original.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    32  *****************************************************************************/
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    33  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    34  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    35   * ppp_defs.h - PPP definitions.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    36   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    37   * if_pppvar.h - private structures and declarations for PPP.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    38   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    39   * Copyright (c) 1994 The Australian National University.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    40   * All rights reserved.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    41   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    42   * Permission to use, copy, modify, and distribute this software and its
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    43   * documentation is hereby granted, provided that the above copyright
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    44   * notice appears in all copies.  This software is provided without any
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    45   * warranty, express or implied. The Australian National University
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    46   * makes no representations about the suitability of this software for
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    47   * any purpose.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    48   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    49   * IN NO EVENT SHALL THE AUSTRALIAN NATIONAL UNIVERSITY BE LIABLE TO ANY
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    50   * PARTY FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    51   * ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    52   * THE AUSTRALIAN NATIONAL UNIVERSITY HAVE BEEN ADVISED OF THE POSSIBILITY
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    53   * OF SUCH DAMAGE.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    54   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    55   * THE AUSTRALIAN NATIONAL UNIVERSITY SPECIFICALLY DISCLAIMS ANY WARRANTIES,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    56   * INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    57   * AND FITNESS FOR A PARTICULAR PURPOSE.  THE SOFTWARE PROVIDED HEREUNDER IS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    58   * ON AN "AS IS" BASIS, AND THE AUSTRALIAN NATIONAL UNIVERSITY HAS NO
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    59   * OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    60   * OR MODIFICATIONS.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    61   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    62  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    63  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    64   * if_ppp.h - Point-to-Point Protocol definitions.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    65   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    66   * Copyright (c) 1989 Carnegie Mellon University.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    67   * All rights reserved.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    68   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    69   * Redistribution and use in source and binary forms are permitted
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    70   * provided that the above copyright notice and this paragraph are
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    71   * duplicated in all such forms and that any documentation,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    72   * advertising materials, and other materials related to such
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    73   * distribution and use acknowledge that the software was developed
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    74   * by Carnegie Mellon University.  The name of the
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    75   * University may not be used to endorse or promote products derived
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    76   * from this software without specific prior written permission.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    77   * THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    78   * IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    79   * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    80   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    81  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    82  /**
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    83   * @defgroup ppp PPP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    84   * @ingroup netifs
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    85   * @verbinclude "ppp.txt"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    86   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    87  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    88  #include "netif/ppp/ppp_opts.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    89  #if PPP_SUPPORT /* don't build if not configured for use in lwipopts.h */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    90  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    91  #include "lwip/pbuf.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    92  #include "lwip/stats.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    93  #include "lwip/sys.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    94  #include "lwip/tcpip.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    95  #include "lwip/api.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    96  #include "lwip/snmp.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    97  #include "lwip/ip4.h" /* for ip4_input() */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    98  #if PPP_IPV6_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	    99  #include "lwip/ip6.h" /* for ip6_input() */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   100  #endif /* PPP_IPV6_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   101  #include "lwip/dns.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   102  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   103  #include "netif/ppp/ppp_impl.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   104  #include "netif/ppp/pppos.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   105  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   106  #include "netif/ppp/fsm.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   107  #include "netif/ppp/lcp.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   108  #include "netif/ppp/magic.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   109  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   110  #if PAP_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   111  #include "netif/ppp/upap.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   112  #endif /* PAP_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   113  #if CHAP_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   114  #include "netif/ppp/chap-new.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   115  #endif /* CHAP_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   116  #if EAP_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   117  #include "netif/ppp/eap.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   118  #endif /* EAP_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   119  #if CCP_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   120  #include "netif/ppp/ccp.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   121  #endif /* CCP_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   122  #if MPPE_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   123  #include "netif/ppp/mppe.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   124  #endif /* MPPE_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   125  #if ECP_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   126  #include "netif/ppp/ecp.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   127  #endif /* EAP_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   128  #if VJ_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   129  #include "netif/ppp/vj.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   130  #endif /* VJ_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   131  #if PPP_IPV4_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   132  #include "netif/ppp/ipcp.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   133  #endif /* PPP_IPV4_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   134  #if PPP_IPV6_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   135  #include "netif/ppp/ipv6cp.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   136  #endif /* PPP_IPV6_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   137  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   138  /*************************/
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   139  /*** LOCAL DEFINITIONS ***/
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   140  /*************************/
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   141  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   142  /* Memory pools */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   143  #if PPPOS_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   144  LWIP_MEMPOOL_PROTOTYPE(PPPOS_PCB);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   145  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   146  #if PPPOE_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   147  LWIP_MEMPOOL_PROTOTYPE(PPPOE_IF);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   148  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   149  #if PPPOL2TP_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   150  LWIP_MEMPOOL_PROTOTYPE(PPPOL2TP_PCB);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   151  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   152  #if LWIP_PPP_API && LWIP_MPU_COMPATIBLE
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   153  LWIP_MEMPOOL_PROTOTYPE(PPPAPI_MSG);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   154  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   155  LWIP_MEMPOOL_DECLARE(PPP_PCB, MEMP_NUM_PPP_PCB, sizeof(ppp_pcb), "PPP_PCB")
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   156  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   157  /* FIXME: add stats per PPP session */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   158  #if PPP_STATS_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   159  static struct timeval start_time; /* Time when link was started. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   160  static struct pppd_stats old_link_stats;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   161  struct pppd_stats link_stats;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   162  unsigned link_connect_time;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   163  int link_stats_valid;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   164  #endif /* PPP_STATS_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   165  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   166  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   167   * PPP Data Link Layer "protocol" table.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   168   * One entry per supported protocol.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   169   * The last entry must be NULL.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   170   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   171  const struct protent* const protocols[] = {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   172      &lcp_protent,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   173  #if PAP_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   174      &pap_protent,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   175  #endif /* PAP_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   176  #if CHAP_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   177      &chap_protent,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   178  #endif /* CHAP_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   179  #if CBCP_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   180      &cbcp_protent,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   181  #endif /* CBCP_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   182  #if PPP_IPV4_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   183      &ipcp_protent,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   184  #endif /* PPP_IPV4_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   185  #if PPP_IPV6_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   186      &ipv6cp_protent,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   187  #endif /* PPP_IPV6_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   188  #if CCP_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   189      &ccp_protent,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   190  #endif /* CCP_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   191  #if ECP_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   192      &ecp_protent,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   193  #endif /* ECP_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   194  #ifdef AT_CHANGE
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   195      &atcp_protent,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   196  #endif /* AT_CHANGE */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   197  #if EAP_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   198      &eap_protent,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   199  #endif /* EAP_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   200      NULL
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   201  };
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   202  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   203  /* Prototypes for procedures local to this file. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   204  static void ppp_do_connect(void *arg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   205  static err_t ppp_netif_init_cb(struct netif *netif);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   206  #if PPP_IPV4_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   207  static err_t ppp_netif_output_ip4(struct netif *netif, struct pbuf *pb, const ip4_addr_t *ipaddr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   208  #endif /* PPP_IPV4_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   209  #if PPP_IPV6_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   210  static err_t ppp_netif_output_ip6(struct netif *netif, struct pbuf *pb, const ip6_addr_t *ipaddr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   211  #endif /* PPP_IPV6_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   212  static err_t ppp_netif_output(struct netif *netif, struct pbuf *pb, u16_t protocol);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   213  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   214  /***********************************/
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   215  /*** PUBLIC FUNCTION DEFINITIONS ***/
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   216  /***********************************/
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   217  #if PPP_AUTH_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   218  void ppp_set_auth(ppp_pcb *pcb, u8_t authtype, const char *user, const char *passwd) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   219    LWIP_ASSERT_CORE_LOCKED();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   220  #if PAP_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   221    pcb->settings.refuse_pap = !(authtype & PPPAUTHTYPE_PAP);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   222  #endif /* PAP_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   223  #if CHAP_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   224    pcb->settings.refuse_chap = !(authtype & PPPAUTHTYPE_CHAP);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   225  #if MSCHAP_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   226    pcb->settings.refuse_mschap = !(authtype & PPPAUTHTYPE_MSCHAP);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   227    pcb->settings.refuse_mschap_v2 = !(authtype & PPPAUTHTYPE_MSCHAP_V2);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   228  #endif /* MSCHAP_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   229  #endif /* CHAP_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   230  #if EAP_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   231    pcb->settings.refuse_eap = !(authtype & PPPAUTHTYPE_EAP);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   232  #endif /* EAP_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   233    pcb->settings.user = user;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   234    pcb->settings.passwd = passwd;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   235  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   236  #endif /* PPP_AUTH_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   237  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   238  #if MPPE_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   239  /* Set MPPE configuration */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   240  void ppp_set_mppe(ppp_pcb *pcb, u8_t flags) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   241    if (flags == PPP_MPPE_DISABLE) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   242      pcb->settings.require_mppe = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   243      return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   244    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   245  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   246    pcb->settings.require_mppe = 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   247    pcb->settings.refuse_mppe_stateful = !(flags & PPP_MPPE_ALLOW_STATEFUL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   248    pcb->settings.refuse_mppe_40 = !!(flags & PPP_MPPE_REFUSE_40);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   249    pcb->settings.refuse_mppe_128 = !!(flags & PPP_MPPE_REFUSE_128);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   250  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   251  #endif /* MPPE_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   252  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   253  #if PPP_NOTIFY_PHASE
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   254  void ppp_set_notify_phase_callback(ppp_pcb *pcb, ppp_notify_phase_cb_fn notify_phase_cb) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   255    pcb->notify_phase_cb = notify_phase_cb;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   256    notify_phase_cb(pcb, pcb->phase, pcb->ctx_cb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   257  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   258  #endif /* PPP_NOTIFY_PHASE */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   259  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   260  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   261   * Initiate a PPP connection.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   262   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   263   * This can only be called if PPP is in the dead phase.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   264   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   265   * Holdoff is the time to wait (in seconds) before initiating
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   266   * the connection.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   267   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   268   * If this port connects to a modem, the modem connection must be
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   269   * established before calling this.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   270   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   271  err_t ppp_connect(ppp_pcb *pcb, u16_t holdoff) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   272    LWIP_ASSERT_CORE_LOCKED();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   273    if (pcb->phase != PPP_PHASE_DEAD) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   274      return ERR_ALREADY;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   275    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   276  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   277    PPPDEBUG(LOG_DEBUG, ("ppp_connect[%d]: holdoff=%d\n", pcb->netif->num, holdoff));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   278  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   279    magic_randomize();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   280  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   281    if (holdoff == 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   282      ppp_do_connect(pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   283      return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   284    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   285  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   286    new_phase(pcb, PPP_PHASE_HOLDOFF);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   287    sys_timeout((u32_t)(holdoff*1000), ppp_do_connect, pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   288    return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   289  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   290  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   291  #if PPP_SERVER
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   292  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   293   * Listen for an incoming PPP connection.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   294   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   295   * This can only be called if PPP is in the dead phase.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   296   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   297   * If this port connects to a modem, the modem connection must be
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   298   * established before calling this.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   299   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   300  err_t ppp_listen(ppp_pcb *pcb) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   301    LWIP_ASSERT_CORE_LOCKED();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   302    if (pcb->phase != PPP_PHASE_DEAD) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   303      return ERR_ALREADY;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   304    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   305  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   306    PPPDEBUG(LOG_DEBUG, ("ppp_listen[%d]\n", pcb->netif->num));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   307  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   308    magic_randomize();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   309  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   310    if (pcb->link_cb->listen) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   311      new_phase(pcb, PPP_PHASE_INITIALIZE);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   312      pcb->link_cb->listen(pcb, pcb->link_ctx_cb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   313      return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   314    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   315    return ERR_IF;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   316  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   317  #endif /* PPP_SERVER */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   318  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   319  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   320   * Initiate the end of a PPP connection.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   321   * Any outstanding packets in the queues are dropped.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   322   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   323   * Setting nocarrier to 1 close the PPP connection without initiating the
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   324   * shutdown procedure. Always using nocarrier = 0 is still recommended,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   325   * this is going to take a little longer time if your link is down, but
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   326   * is a safer choice for the PPP state machine.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   327   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   328   * Return 0 on success, an error code on failure.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   329   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   330  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   331  ppp_close(ppp_pcb *pcb, u8_t nocarrier)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   332  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   333    LWIP_ASSERT_CORE_LOCKED();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   334  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   335    pcb->err_code = PPPERR_USER;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   336  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   337    /* holdoff phase, cancel the reconnection */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   338    if (pcb->phase == PPP_PHASE_HOLDOFF) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   339      sys_untimeout(ppp_do_connect, pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   340      new_phase(pcb, PPP_PHASE_DEAD);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   341    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   342  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   343    /* dead phase, nothing to do, call the status callback to be consistent */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   344    if (pcb->phase == PPP_PHASE_DEAD) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   345      pcb->link_status_cb(pcb, pcb->err_code, pcb->ctx_cb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   346      return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   347    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   348  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   349    /* Already terminating, nothing to do */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   350    if (pcb->phase >= PPP_PHASE_TERMINATE) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   351      return ERR_INPROGRESS;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   352    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   353  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   354    /* LCP not open, close link protocol */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   355    if (pcb->phase < PPP_PHASE_ESTABLISH) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   356      new_phase(pcb, PPP_PHASE_DISCONNECT);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   357      ppp_link_terminated(pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   358      return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   359    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   360  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   361    /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   362     * Only accept carrier lost signal on the stable running phase in order
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   363     * to prevent changing the PPP phase FSM in transition phases.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   364     *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   365     * Always using nocarrier = 0 is still recommended, this is going to
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   366     * take a little longer time, but is a safer choice from FSM point of view.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   367     */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   368    if (nocarrier && pcb->phase == PPP_PHASE_RUNNING) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   369      PPPDEBUG(LOG_DEBUG, ("ppp_close[%d]: carrier lost -> lcp_lowerdown\n", pcb->netif->num));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   370      lcp_lowerdown(pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   371      /* forced link termination, this will force link protocol to disconnect. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   372      link_terminated(pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   373      return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   374    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   375  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   376    /* Disconnect */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   377    PPPDEBUG(LOG_DEBUG, ("ppp_close[%d]: kill_link -> lcp_close\n", pcb->netif->num));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   378    /* LCP soft close request. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   379    lcp_close(pcb, "User request");
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   380    return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   381  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   382  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   383  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   384   * Release the control block.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   385   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   386   * This can only be called if PPP is in the dead phase.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   387   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   388   * You must use ppp_close() before if you wish to terminate
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   389   * an established PPP session.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   390   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   391   * Return 0 on success, an error code on failure.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   392   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   393  err_t ppp_free(ppp_pcb *pcb) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   394    err_t err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   395    LWIP_ASSERT_CORE_LOCKED();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   396    if (pcb->phase != PPP_PHASE_DEAD) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   397      return ERR_CONN;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   398    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   399  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   400    PPPDEBUG(LOG_DEBUG, ("ppp_free[%d]\n", pcb->netif->num));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   401  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   402    netif_remove(pcb->netif);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   403  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   404    err = pcb->link_cb->free(pcb, pcb->link_ctx_cb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   405  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   406    LWIP_MEMPOOL_FREE(PPP_PCB, pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   407    return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   408  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   409  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   410  /* Get and set parameters for the given connection.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   411   * Return 0 on success, an error code on failure. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   412  err_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   413  ppp_ioctl(ppp_pcb *pcb, u8_t cmd, void *arg)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   414  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   415    LWIP_ASSERT_CORE_LOCKED();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   416    if (pcb == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   417      return ERR_VAL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   418    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   419  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   420    switch(cmd) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   421      case PPPCTLG_UPSTATUS:      /* Get the PPP up status. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   422        if (!arg) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   423          goto fail;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   424        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   425        *(int *)arg = (int)(0
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   426  #if PPP_IPV4_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   427             || pcb->if4_up
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   428  #endif /* PPP_IPV4_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   429  #if PPP_IPV6_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   430             || pcb->if6_up
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   431  #endif /* PPP_IPV6_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   432             );
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   433        return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   434  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   435      case PPPCTLG_ERRCODE:       /* Get the PPP error code. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   436        if (!arg) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   437          goto fail;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   438        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   439        *(int *)arg = (int)(pcb->err_code);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   440        return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   441  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   442      default:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   443        goto fail;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   444    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   445  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   446  fail:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   447    return ERR_VAL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   448  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   449  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   450  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   451  /**********************************/
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   452  /*** LOCAL FUNCTION DEFINITIONS ***/
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   453  /**********************************/
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   454  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   455  static void ppp_do_connect(void *arg) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   456    ppp_pcb *pcb = (ppp_pcb*)arg;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   457  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   458    LWIP_ASSERT("pcb->phase == PPP_PHASE_DEAD || pcb->phase == PPP_PHASE_HOLDOFF", pcb->phase == PPP_PHASE_DEAD || pcb->phase == PPP_PHASE_HOLDOFF);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   459  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   460    new_phase(pcb, PPP_PHASE_INITIALIZE);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   461    pcb->link_cb->connect(pcb, pcb->link_ctx_cb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   462  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   463  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   464  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   465   * ppp_netif_init_cb - netif init callback
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   466   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   467  static err_t ppp_netif_init_cb(struct netif *netif) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   468    netif->name[0] = 'p';
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   469    netif->name[1] = 'p';
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   470  #if PPP_IPV4_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   471    netif->output = ppp_netif_output_ip4;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   472  #endif /* PPP_IPV4_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   473  #if PPP_IPV6_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   474    netif->output_ip6 = ppp_netif_output_ip6;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   475  #endif /* PPP_IPV6_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   476    netif->flags = NETIF_FLAG_UP;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   477  #if LWIP_NETIF_HOSTNAME
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   478    /* @todo: Initialize interface hostname */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   479    /* netif_set_hostname(netif, "lwip"); */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   480  #endif /* LWIP_NETIF_HOSTNAME */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   481    return ERR_OK;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   482  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   483  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   484  #if PPP_IPV4_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   485  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   486   * Send an IPv4 packet on the given connection.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   487   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   488  static err_t ppp_netif_output_ip4(struct netif *netif, struct pbuf *pb, const ip4_addr_t *ipaddr) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   489    LWIP_UNUSED_ARG(ipaddr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   490    return ppp_netif_output(netif, pb, PPP_IP);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   491  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   492  #endif /* PPP_IPV4_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   493  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   494  #if PPP_IPV6_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   495  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   496   * Send an IPv6 packet on the given connection.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   497   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   498  static err_t ppp_netif_output_ip6(struct netif *netif, struct pbuf *pb, const ip6_addr_t *ipaddr) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   499    LWIP_UNUSED_ARG(ipaddr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   500    return ppp_netif_output(netif, pb, PPP_IPV6);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   501  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   502  #endif /* PPP_IPV6_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   503  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   504  static err_t ppp_netif_output(struct netif *netif, struct pbuf *pb, u16_t protocol) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   505    ppp_pcb *pcb = (ppp_pcb*)netif->state;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   506    err_t err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   507    struct pbuf *fpb = NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   508  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   509    /* Check that the link is up. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   510    if (0
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   511  #if PPP_IPV4_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   512        || (protocol == PPP_IP && !pcb->if4_up)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   513  #endif /* PPP_IPV4_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   514  #if PPP_IPV6_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   515        || (protocol == PPP_IPV6 && !pcb->if6_up)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   516  #endif /* PPP_IPV6_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   517        ) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   518      PPPDEBUG(LOG_ERR, ("ppp_netif_output[%d]: link not up\n", pcb->netif->num));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   519      goto err_rte_drop;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   520    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   521  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   522  #if MPPE_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   523    /* If MPPE is required, refuse any IP packet until we are able to crypt them. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   524    if (pcb->settings.require_mppe && pcb->ccp_transmit_method != CI_MPPE) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   525      PPPDEBUG(LOG_ERR, ("ppp_netif_output[%d]: MPPE required, not up\n", pcb->netif->num));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   526      goto err_rte_drop;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   527    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   528  #endif /* MPPE_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   529  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   530  #if VJ_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   531    /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   532     * Attempt Van Jacobson header compression if VJ is configured and
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   533     * this is an IP packet.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   534     */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   535    if (protocol == PPP_IP && pcb->vj_enabled) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   536      switch (vj_compress_tcp(&pcb->vj_comp, &pb)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   537        case TYPE_IP:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   538          /* No change...
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   539             protocol = PPP_IP; */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   540          break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   541        case TYPE_COMPRESSED_TCP:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   542          /* vj_compress_tcp() returns a new allocated pbuf, indicate we should free
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   543           * our duplicated pbuf later */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   544          fpb = pb;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   545          protocol = PPP_VJC_COMP;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   546          break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   547        case TYPE_UNCOMPRESSED_TCP:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   548          /* vj_compress_tcp() returns a new allocated pbuf, indicate we should free
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   549           * our duplicated pbuf later */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   550          fpb = pb;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   551          protocol = PPP_VJC_UNCOMP;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   552          break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   553        default:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   554          PPPDEBUG(LOG_WARNING, ("ppp_netif_output[%d]: bad IP packet\n", pcb->netif->num));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   555          LINK_STATS_INC(link.proterr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   556          LINK_STATS_INC(link.drop);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   557          MIB2_STATS_NETIF_INC(pcb->netif, ifoutdiscards);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   558          return ERR_VAL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   559      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   560    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   561  #endif /* VJ_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   562  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   563  #if CCP_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   564    switch (pcb->ccp_transmit_method) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   565    case 0:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   566      break; /* Don't compress */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   567  #if MPPE_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   568    case CI_MPPE:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   569      if ((err = mppe_compress(pcb, &pcb->mppe_comp, &pb, protocol)) != ERR_OK) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   570        LINK_STATS_INC(link.memerr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   571        LINK_STATS_INC(link.drop);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   572        MIB2_STATS_NETIF_INC(netif, ifoutdiscards);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   573        goto err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   574      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   575      /* if VJ compressor returned a new allocated pbuf, free it */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   576      if (fpb) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   577        pbuf_free(fpb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   578      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   579      /* mppe_compress() returns a new allocated pbuf, indicate we should free
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   580       * our duplicated pbuf later */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   581      fpb = pb;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   582      protocol = PPP_COMP;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   583      break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   584  #endif /* MPPE_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   585    default:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   586      PPPDEBUG(LOG_ERR, ("ppp_netif_output[%d]: bad CCP transmit method\n", pcb->netif->num));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   587      goto err_rte_drop; /* Cannot really happen, we only negotiate what we are able to do */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   588    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   589  #endif /* CCP_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   590  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   591    err = pcb->link_cb->netif_output(pcb, pcb->link_ctx_cb, pb, protocol);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   592    goto err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   593  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   594  err_rte_drop:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   595    err = ERR_RTE;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   596    LINK_STATS_INC(link.rterr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   597    LINK_STATS_INC(link.drop);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   598    MIB2_STATS_NETIF_INC(netif, ifoutdiscards);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   599  err:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   600    if (fpb) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   601      pbuf_free(fpb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   602    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   603    return err;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   604  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   605  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   606  /************************************/
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   607  /*** PRIVATE FUNCTION DEFINITIONS ***/
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   608  /************************************/
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   609  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   610  /* Initialize the PPP subsystem. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   611  int ppp_init(void)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   612  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   613  #if PPPOS_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   614    LWIP_MEMPOOL_INIT(PPPOS_PCB);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   615  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   616  #if PPPOE_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   617    LWIP_MEMPOOL_INIT(PPPOE_IF);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   618  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   619  #if PPPOL2TP_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   620    LWIP_MEMPOOL_INIT(PPPOL2TP_PCB);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   621  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   622  #if LWIP_PPP_API && LWIP_MPU_COMPATIBLE
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   623    LWIP_MEMPOOL_INIT(PPPAPI_MSG);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   624  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   625  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   626    LWIP_MEMPOOL_INIT(PPP_PCB);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   627  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   628    /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   629     * Initialize magic number generator now so that protocols may
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   630     * use magic numbers in initialization.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   631     */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   632    magic_init();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   633  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   634    return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   635  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   636   
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   637  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   638   * Create a new PPP control block.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   639   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   640   * This initializes the PPP control block but does not
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   641   * attempt to negotiate the LCP session.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   642   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   643   * Return a new PPP connection control block pointer
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   644   * on success or a null pointer on failure.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   645   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   646  ppp_pcb *ppp_new(struct netif *pppif, const struct link_callbacks *callbacks, void *link_ctx_cb, ppp_link_status_cb_fn link_status_cb, void *ctx_cb) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   647    ppp_pcb *pcb;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   648    const struct protent *protp;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   649    int i;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   650  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   651    /* PPP is single-threaded: without a callback,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   652     * there is no way to know when the link is up. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   653    if (link_status_cb == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   654      return NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   655    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   656  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   657    pcb = (ppp_pcb*)LWIP_MEMPOOL_ALLOC(PPP_PCB);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   658    if (pcb == NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   659      return NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   660    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   661  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   662    memset(pcb, 0, sizeof(ppp_pcb));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   663  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   664    /* default configuration */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   665  #if PAP_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   666    pcb->settings.pap_timeout_time = UPAP_DEFTIMEOUT;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   667    pcb->settings.pap_max_transmits = UPAP_DEFTRANSMITS;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   668  #if PPP_SERVER
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   669    pcb->settings.pap_req_timeout = UPAP_DEFREQTIME;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   670  #endif /* PPP_SERVER */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   671  #endif /* PAP_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   672  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   673  #if CHAP_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   674    pcb->settings.chap_timeout_time = CHAP_DEFTIMEOUT;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   675    pcb->settings.chap_max_transmits = CHAP_DEFTRANSMITS;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   676  #if PPP_SERVER
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   677    pcb->settings.chap_rechallenge_time = CHAP_DEFRECHALLENGETIME;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   678  #endif /* PPP_SERVER */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   679  #endif /* CHAP_SUPPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   680  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   681  #if EAP_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   682    pcb->settings.eap_req_time = EAP_DEFREQTIME;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   683    pcb->settings.eap_allow_req = EAP_DEFALLOWREQ;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   684  #if PPP_SERVER
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   685    pcb->settings.eap_timeout_time = EAP_DEFTIMEOUT;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   686    pcb->settings.eap_max_transmits = EAP_DEFTRANSMITS;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   687  #endif /* PPP_SERVER */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   688  #endif /* EAP_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   689  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   690    pcb->settings.lcp_loopbackfail = LCP_DEFLOOPBACKFAIL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   691    pcb->settings.lcp_echo_interval = LCP_ECHOINTERVAL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   692    pcb->settings.lcp_echo_fails = LCP_MAXECHOFAILS;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   693  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   694    pcb->settings.fsm_timeout_time = FSM_DEFTIMEOUT;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   695    pcb->settings.fsm_max_conf_req_transmits = FSM_DEFMAXCONFREQS;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   696    pcb->settings.fsm_max_term_transmits = FSM_DEFMAXTERMREQS;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   697    pcb->settings.fsm_max_nak_loops = FSM_DEFMAXNAKLOOPS;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   698  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   699    pcb->netif = pppif;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   700    MIB2_INIT_NETIF(pppif, snmp_ifType_ppp, 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   701    if (!netif_add(pcb->netif,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   702  #if LWIP_IPV4
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   703                   IP4_ADDR_ANY4, IP4_ADDR_BROADCAST, IP4_ADDR_ANY4,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   704  #endif /* LWIP_IPV4 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   705                   (void *)pcb, ppp_netif_init_cb, NULL)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   706      LWIP_MEMPOOL_FREE(PPP_PCB, pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   707      PPPDEBUG(LOG_ERR, ("ppp_new: netif_add failed\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   708      return NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   709    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   710  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   711    pcb->link_cb = callbacks;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   712    pcb->link_ctx_cb = link_ctx_cb;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   713    pcb->link_status_cb = link_status_cb;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   714    pcb->ctx_cb = ctx_cb;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   715  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   716    /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   717     * Initialize each protocol.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   718     */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   719    for (i = 0; (protp = protocols[i]) != NULL; ++i) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   720        (*protp->init)(pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   721    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   722  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   723    new_phase(pcb, PPP_PHASE_DEAD);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   724    return pcb;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   725  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   726  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   727  /** Initiate LCP open request */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   728  void ppp_start(ppp_pcb *pcb) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   729    PPPDEBUG(LOG_DEBUG, ("ppp_start[%d]\n", pcb->netif->num));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   730  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   731    /* Clean data not taken care by anything else, mostly shared data. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   732  #if PPP_STATS_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   733    link_stats_valid = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   734  #endif /* PPP_STATS_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   735  #if MPPE_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   736    pcb->mppe_keys_set = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   737    memset(&pcb->mppe_comp, 0, sizeof(pcb->mppe_comp));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   738    memset(&pcb->mppe_decomp, 0, sizeof(pcb->mppe_decomp));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   739  #endif /* MPPE_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   740  #if VJ_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   741    vj_compress_init(&pcb->vj_comp);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   742  #endif /* VJ_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   743  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   744    /* Start protocol */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   745    new_phase(pcb, PPP_PHASE_ESTABLISH);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   746    lcp_open(pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   747    lcp_lowerup(pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   748    PPPDEBUG(LOG_DEBUG, ("ppp_start[%d]: finished\n", pcb->netif->num));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   749  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   750  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   751  /** Called when link failed to setup */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   752  void ppp_link_failed(ppp_pcb *pcb) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   753    PPPDEBUG(LOG_DEBUG, ("ppp_link_failed[%d]\n", pcb->netif->num));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   754    new_phase(pcb, PPP_PHASE_DEAD);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   755    pcb->err_code = PPPERR_OPEN;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   756    pcb->link_status_cb(pcb, pcb->err_code, pcb->ctx_cb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   757  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   758  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   759  /** Called when link is normally down (i.e. it was asked to end) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   760  void ppp_link_end(ppp_pcb *pcb) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   761    PPPDEBUG(LOG_DEBUG, ("ppp_link_end[%d]\n", pcb->netif->num));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   762    new_phase(pcb, PPP_PHASE_DEAD);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   763    if (pcb->err_code == PPPERR_NONE) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   764      pcb->err_code = PPPERR_CONNECT;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   765    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   766    pcb->link_status_cb(pcb, pcb->err_code, pcb->ctx_cb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   767  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   768  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   769  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   770   * Pass the processed input packet to the appropriate handler.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   771   * This function and all handlers run in the context of the tcpip_thread
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   772   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   773  void ppp_input(ppp_pcb *pcb, struct pbuf *pb) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   774    u16_t protocol;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   775  #if PPP_DEBUG && PPP_PROTOCOLNAME
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   776      const char *pname;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   777  #endif /* PPP_DEBUG && PPP_PROTOCOLNAME */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   778  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   779    magic_randomize();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   780  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   781    if (pb->len < 2) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   782      PPPDEBUG(LOG_ERR, ("ppp_input[%d]: packet too short\n", pcb->netif->num));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   783      goto drop;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   784    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   785    protocol = (((u8_t *)pb->payload)[0] << 8) | ((u8_t*)pb->payload)[1];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   786  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   787  #if PRINTPKT_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   788    ppp_dump_packet(pcb, "rcvd", (unsigned char *)pb->payload, pb->len);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   789  #endif /* PRINTPKT_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   790  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   791    pbuf_remove_header(pb, sizeof(protocol));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   792  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   793    LINK_STATS_INC(link.recv);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   794    MIB2_STATS_NETIF_INC(pcb->netif, ifinucastpkts);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   795    MIB2_STATS_NETIF_ADD(pcb->netif, ifinoctets, pb->tot_len);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   796  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   797    /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   798     * Toss all non-LCP packets unless LCP is OPEN.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   799     */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   800    if (protocol != PPP_LCP && pcb->lcp_fsm.state != PPP_FSM_OPENED) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   801      ppp_dbglog("Discarded non-LCP packet when LCP not open");
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   802      goto drop;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   803    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   804  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   805    /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   806     * Until we get past the authentication phase, toss all packets
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   807     * except LCP, LQR and authentication packets.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   808     */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   809    if (pcb->phase <= PPP_PHASE_AUTHENTICATE
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   810     && !(protocol == PPP_LCP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   811  #if LQR_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   812     || protocol == PPP_LQR
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   813  #endif /* LQR_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   814  #if PAP_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   815     || protocol == PPP_PAP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   816  #endif /* PAP_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   817  #if CHAP_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   818     || protocol == PPP_CHAP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   819  #endif /* CHAP_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   820  #if EAP_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   821     || protocol == PPP_EAP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   822  #endif /* EAP_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   823     )) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   824      ppp_dbglog("discarding proto 0x%x in phase %d", protocol, pcb->phase);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   825      goto drop;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   826    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   827  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   828  #if CCP_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   829  #if MPPE_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   830    /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   831     * MPPE is required and unencrypted data has arrived (this
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   832     * should never happen!). We should probably drop the link if
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   833     * the protocol is in the range of what should be encrypted.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   834     * At the least, we drop this packet.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   835     */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   836    if (pcb->settings.require_mppe && protocol != PPP_COMP && protocol < 0x8000) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   837      PPPDEBUG(LOG_ERR, ("ppp_input[%d]: MPPE required, received unencrypted data!\n", pcb->netif->num));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   838      goto drop;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   839    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   840  #endif /* MPPE_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   841  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   842    if (protocol == PPP_COMP) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   843      u8_t *pl;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   844  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   845      switch (pcb->ccp_receive_method) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   846  #if MPPE_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   847      case CI_MPPE:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   848        if (mppe_decompress(pcb, &pcb->mppe_decomp, &pb) != ERR_OK) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   849          goto drop;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   850        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   851        break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   852  #endif /* MPPE_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   853      default:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   854        PPPDEBUG(LOG_ERR, ("ppp_input[%d]: bad CCP receive method\n", pcb->netif->num));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   855        goto drop; /* Cannot really happen, we only negotiate what we are able to do */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   856      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   857  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   858      /* Assume no PFC */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   859      if (pb->len < 2) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   860        goto drop;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   861      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   862  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   863      /* Extract and hide protocol (do PFC decompression if necessary) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   864      pl = (u8_t*)pb->payload;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   865      if (pl[0] & 0x01) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   866        protocol = pl[0];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   867        pbuf_remove_header(pb, 1);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   868      } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   869        protocol = (pl[0] << 8) | pl[1];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   870        pbuf_remove_header(pb, 2);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   871      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   872    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   873  #endif /* CCP_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   874  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   875    switch(protocol) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   876  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   877  #if PPP_IPV4_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   878      case PPP_IP:            /* Internet Protocol */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   879        PPPDEBUG(LOG_INFO, ("ppp_input[%d]: ip in pbuf len=%d\n", pcb->netif->num, pb->tot_len));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   880        ip4_input(pb, pcb->netif);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   881        return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   882  #endif /* PPP_IPV4_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   883  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   884  #if PPP_IPV6_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   885      case PPP_IPV6:          /* Internet Protocol Version 6 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   886        PPPDEBUG(LOG_INFO, ("ppp_input[%d]: ip6 in pbuf len=%d\n", pcb->netif->num, pb->tot_len));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   887        ip6_input(pb, pcb->netif);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   888        return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   889  #endif /* PPP_IPV6_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   890  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   891  #if VJ_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   892      case PPP_VJC_COMP:      /* VJ compressed TCP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   893        /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   894         * Clip off the VJ header and prepend the rebuilt TCP/IP header and
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   895         * pass the result to IP.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   896         */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   897        PPPDEBUG(LOG_INFO, ("ppp_input[%d]: vj_comp in pbuf len=%d\n", pcb->netif->num, pb->tot_len));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   898        if (pcb->vj_enabled && vj_uncompress_tcp(&pb, &pcb->vj_comp) >= 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   899          ip4_input(pb, pcb->netif);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   900          return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   901        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   902        /* Something's wrong so drop it. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   903        PPPDEBUG(LOG_WARNING, ("ppp_input[%d]: Dropping VJ compressed\n", pcb->netif->num));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   904        break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   905  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   906      case PPP_VJC_UNCOMP:    /* VJ uncompressed TCP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   907        /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   908         * Process the TCP/IP header for VJ header compression and then pass
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   909         * the packet to IP.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   910         */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   911        PPPDEBUG(LOG_INFO, ("ppp_input[%d]: vj_un in pbuf len=%d\n", pcb->netif->num, pb->tot_len));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   912        if (pcb->vj_enabled && vj_uncompress_uncomp(pb, &pcb->vj_comp) >= 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   913          ip4_input(pb, pcb->netif);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   914          return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   915        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   916        /* Something's wrong so drop it. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   917        PPPDEBUG(LOG_WARNING, ("ppp_input[%d]: Dropping VJ uncompressed\n", pcb->netif->num));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   918        break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   919  #endif /* VJ_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   920  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   921      default: {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   922        int i;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   923        const struct protent *protp;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   924  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   925        /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   926         * Upcall the proper protocol input routine.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   927         */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   928        for (i = 0; (protp = protocols[i]) != NULL; ++i) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   929          if (protp->protocol == protocol) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   930            pb = pbuf_coalesce(pb, PBUF_RAW);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   931            (*protp->input)(pcb, (u8_t*)pb->payload, pb->len);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   932            goto out;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   933          }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   934  #if 0   /* UNUSED
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   935           *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   936           * This is actually a (hacked?) way for the Linux kernel to pass a data
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   937           * packet to pppd. pppd in normal condition only do signaling
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   938           * (LCP, PAP, CHAP, IPCP, ...) and does not handle any data packet at all.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   939           *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   940           * We don't even need this interface, which is only there because of PPP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   941           * interface limitation between Linux kernel and pppd. For MPPE, which uses
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   942           * CCP to negotiate although it is not really a (de)compressor, we added
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   943           * ccp_resetrequest() in CCP and MPPE input data flow is calling either
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   944           * ccp_resetrequest() or lcp_close() if the issue is, respectively, non-fatal
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   945           * or fatal, this is what ccp_datainput() really do.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   946           */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   947          if (protocol == (protp->protocol & ~0x8000)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   948            && protp->datainput != NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   949            (*protp->datainput)(pcb, pb->payload, pb->len);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   950            goto out;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   951          }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   952  #endif /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   953        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   954  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   955  #if PPP_DEBUG
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   956  #if PPP_PROTOCOLNAME
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   957        pname = protocol_name(protocol);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   958        if (pname != NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   959          ppp_warn("Unsupported protocol '%s' (0x%x) received", pname, protocol);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   960        } else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   961  #endif /* PPP_PROTOCOLNAME */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   962          ppp_warn("Unsupported protocol 0x%x received", protocol);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   963  #endif /* PPP_DEBUG */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   964          if (pbuf_add_header(pb, sizeof(protocol))) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   965            PPPDEBUG(LOG_WARNING, ("ppp_input[%d]: Dropping (pbuf_add_header failed)\n", pcb->netif->num));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   966            goto drop;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   967          }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   968          lcp_sprotrej(pcb, (u8_t*)pb->payload, pb->len);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   969        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   970        break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   971    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   972  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   973  drop:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   974    LINK_STATS_INC(link.drop);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   975    MIB2_STATS_NETIF_INC(pcb->netif, ifindiscards);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   976  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   977  out:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   978    pbuf_free(pb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   979  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   980  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   981  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   982   * Write a pbuf to a ppp link, only used from PPP functions
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   983   * to send PPP packets.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   984   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   985   * IPv4 and IPv6 packets from lwIP are sent, respectively,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   986   * with ppp_netif_output_ip4() and ppp_netif_output_ip6()
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   987   * functions (which are callbacks of the netif PPP interface).
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   988   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   989  err_t ppp_write(ppp_pcb *pcb, struct pbuf *p) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   990  #if PRINTPKT_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   991    ppp_dump_packet(pcb, "sent", (unsigned char *)p->payload+2, p->len-2);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   992  #endif /* PRINTPKT_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   993    return pcb->link_cb->write(pcb, pcb->link_ctx_cb, p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   994  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   995  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   996  void ppp_link_terminated(ppp_pcb *pcb) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   997    PPPDEBUG(LOG_DEBUG, ("ppp_link_terminated[%d]\n", pcb->netif->num));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   998    pcb->link_cb->disconnect(pcb, pcb->link_ctx_cb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	   999    PPPDEBUG(LOG_DEBUG, ("ppp_link_terminated[%d]: finished.\n", pcb->netif->num));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1000  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1001  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1002  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1003  /************************************************************************
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1004   * Functions called by various PPP subsystems to configure
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1005   * the PPP interface or change the PPP phase.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1006   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1007  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1008  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1009   * new_phase - signal the start of a new phase of pppd's operation.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1010   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1011  void new_phase(ppp_pcb *pcb, int p) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1012    pcb->phase = p;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1013    PPPDEBUG(LOG_DEBUG, ("ppp phase changed[%d]: phase=%d\n", pcb->netif->num, pcb->phase));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1014  #if PPP_NOTIFY_PHASE
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1015    if (pcb->notify_phase_cb != NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1016      pcb->notify_phase_cb(pcb, p, pcb->ctx_cb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1017    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1018  #endif /* PPP_NOTIFY_PHASE */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1019  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1020  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1021  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1022   * ppp_send_config - configure the transmit-side characteristics of
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1023   * the ppp interface.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1024   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1025  int ppp_send_config(ppp_pcb *pcb, int mtu, u32_t accm, int pcomp, int accomp) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1026    LWIP_UNUSED_ARG(mtu);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1027    /* pcb->mtu = mtu; -- set correctly with netif_set_mtu */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1028  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1029    if (pcb->link_cb->send_config) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1030      pcb->link_cb->send_config(pcb, pcb->link_ctx_cb, accm, pcomp, accomp);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1031    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1032  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1033    PPPDEBUG(LOG_INFO, ("ppp_send_config[%d]\n", pcb->netif->num) );
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1034    return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1035  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1036  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1037  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1038   * ppp_recv_config - configure the receive-side characteristics of
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1039   * the ppp interface.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1040   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1041  int ppp_recv_config(ppp_pcb *pcb, int mru, u32_t accm, int pcomp, int accomp) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1042    LWIP_UNUSED_ARG(mru);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1043  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1044    if (pcb->link_cb->recv_config) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1045      pcb->link_cb->recv_config(pcb, pcb->link_ctx_cb, accm, pcomp, accomp);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1046    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1047  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1048    PPPDEBUG(LOG_INFO, ("ppp_recv_config[%d]\n", pcb->netif->num));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1049    return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1050  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1051  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1052  #if PPP_IPV4_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1053  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1054   * sifaddr - Config the interface IP addresses and netmask.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1055   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1056  int sifaddr(ppp_pcb *pcb, u32_t our_adr, u32_t his_adr, u32_t netmask) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1057    ip4_addr_t ip, nm, gw;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1058  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1059    ip4_addr_set_u32(&ip, our_adr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1060    ip4_addr_set_u32(&nm, netmask);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1061    ip4_addr_set_u32(&gw, his_adr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1062    netif_set_addr(pcb->netif, &ip, &nm, &gw);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1063    return 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1064  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1065  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1066  /********************************************************************
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1067   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1068   * cifaddr - Clear the interface IP addresses, and delete routes
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1069   * through the interface if possible.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1070   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1071  int cifaddr(ppp_pcb *pcb, u32_t our_adr, u32_t his_adr) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1072    LWIP_UNUSED_ARG(our_adr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1073    LWIP_UNUSED_ARG(his_adr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1074  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1075    netif_set_addr(pcb->netif, IP4_ADDR_ANY4, IP4_ADDR_BROADCAST, IP4_ADDR_ANY4);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1076    return 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1077  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1078  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1079  #if 0 /* UNUSED - PROXY ARP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1080  /********************************************************************
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1081   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1082   * sifproxyarp - Make a proxy ARP entry for the peer.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1083   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1084  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1085  int sifproxyarp(ppp_pcb *pcb, u32_t his_adr) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1086    LWIP_UNUSED_ARG(pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1087    LWIP_UNUSED_ARG(his_adr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1088    return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1089  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1090  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1091  /********************************************************************
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1092   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1093   * cifproxyarp - Delete the proxy ARP entry for the peer.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1094   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1095  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1096  int cifproxyarp(ppp_pcb *pcb, u32_t his_adr) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1097    LWIP_UNUSED_ARG(pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1098    LWIP_UNUSED_ARG(his_adr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1099    return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1100  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1101  #endif /* UNUSED - PROXY ARP */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1102  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1103  #if LWIP_DNS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1104  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1105   * sdns - Config the DNS servers
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1106   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1107  int sdns(ppp_pcb *pcb, u32_t ns1, u32_t ns2) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1108    ip_addr_t ns;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1109    LWIP_UNUSED_ARG(pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1110  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1111    ip_addr_set_ip4_u32_val(ns, ns1);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1112    dns_setserver(0, &ns);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1113    ip_addr_set_ip4_u32_val(ns, ns2);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1114    dns_setserver(1, &ns);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1115    return 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1116  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1117  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1118  /********************************************************************
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1119   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1120   * cdns - Clear the DNS servers
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1121   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1122  int cdns(ppp_pcb *pcb, u32_t ns1, u32_t ns2) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1123    const ip_addr_t *nsa;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1124    ip_addr_t nsb;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1125    LWIP_UNUSED_ARG(pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1126  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1127    nsa = dns_getserver(0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1128    ip_addr_set_ip4_u32_val(nsb, ns1);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1129    if (ip_addr_cmp(nsa, &nsb)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1130      dns_setserver(0, IP_ADDR_ANY);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1131    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1132    nsa = dns_getserver(1);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1133    ip_addr_set_ip4_u32_val(nsb, ns2);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1134    if (ip_addr_cmp(nsa, &nsb)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1135      dns_setserver(1, IP_ADDR_ANY);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1136    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1137    return 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1138  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1139  #endif /* LWIP_DNS */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1140  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1141  #if VJ_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1142  /********************************************************************
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1143   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1144   * sifvjcomp - config tcp header compression
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1145   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1146  int sifvjcomp(ppp_pcb *pcb, int vjcomp, int cidcomp, int maxcid) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1147    pcb->vj_enabled = vjcomp;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1148    pcb->vj_comp.compressSlot = cidcomp;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1149    pcb->vj_comp.maxSlotIndex = maxcid;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1150    PPPDEBUG(LOG_INFO, ("sifvjcomp[%d]: VJ compress enable=%d slot=%d max slot=%d\n",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1151              pcb->netif->num, vjcomp, cidcomp, maxcid));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1152    return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1153  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1154  #endif /* VJ_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1155  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1156  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1157   * sifup - Config the interface up and enable IP packets to pass.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1158   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1159  int sifup(ppp_pcb *pcb) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1160    pcb->if4_up = 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1161    pcb->err_code = PPPERR_NONE;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1162    netif_set_link_up(pcb->netif);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1163  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1164    PPPDEBUG(LOG_DEBUG, ("sifup[%d]: err_code=%d\n", pcb->netif->num, pcb->err_code));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1165    pcb->link_status_cb(pcb, pcb->err_code, pcb->ctx_cb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1166    return 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1167  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1168  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1169  /********************************************************************
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1170   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1171   * sifdown - Disable the indicated protocol and config the interface
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1172   *           down if there are no remaining protocols.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1173   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1174  int sifdown(ppp_pcb *pcb) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1175  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1176    pcb->if4_up = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1177  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1178    if (1
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1179  #if PPP_IPV6_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1180     /* set the interface down if IPv6 is down as well */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1181     && !pcb->if6_up
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1182  #endif /* PPP_IPV6_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1183    ) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1184      /* make sure the netif link callback is called */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1185      netif_set_link_down(pcb->netif);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1186    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1187    PPPDEBUG(LOG_DEBUG, ("sifdown[%d]: err_code=%d\n", pcb->netif->num, pcb->err_code));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1188    return 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1189  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1190  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1191  /********************************************************************
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1192   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1193   * Return user specified netmask, modified by any mask we might determine
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1194   * for address `addr' (in network byte order).
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1195   * Here we scan through the system's list of interfaces, looking for
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1196   * any non-point-to-point interfaces which might appear to be on the same
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1197   * network as `addr'.  If we find any, we OR in their netmask to the
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1198   * user-specified netmask.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1199   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1200  u32_t get_mask(u32_t addr) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1201  #if 0
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1202    u32_t mask, nmask;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1203  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1204    addr = lwip_htonl(addr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1205    if (IP_CLASSA(addr)) { /* determine network mask for address class */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1206      nmask = IP_CLASSA_NET;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1207    } else if (IP_CLASSB(addr)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1208      nmask = IP_CLASSB_NET;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1209    } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1210      nmask = IP_CLASSC_NET;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1211    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1212  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1213    /* class D nets are disallowed by bad_ip_adrs */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1214    mask = PP_HTONL(0xffffff00UL) | lwip_htonl(nmask);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1215  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1216    /* XXX
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1217     * Scan through the system's network interfaces.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1218     * Get each netmask and OR them into our mask.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1219     */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1220    /* return mask; */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1221    return mask;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1222  #endif /* 0 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1223    LWIP_UNUSED_ARG(addr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1224    return IPADDR_BROADCAST;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1225  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1226  #endif /* PPP_IPV4_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1227  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1228  #if PPP_IPV6_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1229  #define IN6_LLADDR_FROM_EUI64(ip6, eui64) do {    \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1230    ip6.addr[0] = PP_HTONL(0xfe800000);             \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1231    ip6.addr[1] = 0;                                \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1232    eui64_copy(eui64, ip6.addr[2]);                 \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1233    } while (0)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1234  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1235  /********************************************************************
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1236   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1237   * sif6addr - Config the interface with an IPv6 link-local address
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1238   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1239  int sif6addr(ppp_pcb *pcb, eui64_t our_eui64, eui64_t his_eui64) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1240    ip6_addr_t ip6;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1241    LWIP_UNUSED_ARG(his_eui64);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1242  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1243    IN6_LLADDR_FROM_EUI64(ip6, our_eui64);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1244    netif_ip6_addr_set(pcb->netif, 0, &ip6);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1245    netif_ip6_addr_set_state(pcb->netif, 0, IP6_ADDR_PREFERRED);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1246    /* FIXME: should we add an IPv6 static neighbor using his_eui64 ? */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1247    return 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1248  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1249  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1250  /********************************************************************
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1251   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1252   * cif6addr - Remove IPv6 address from interface
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1253   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1254  int cif6addr(ppp_pcb *pcb, eui64_t our_eui64, eui64_t his_eui64) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1255    LWIP_UNUSED_ARG(our_eui64);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1256    LWIP_UNUSED_ARG(his_eui64);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1257  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1258    netif_ip6_addr_set_state(pcb->netif, 0, IP6_ADDR_INVALID);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1259    netif_ip6_addr_set(pcb->netif, 0, IP6_ADDR_ANY6);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1260    return 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1261  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1262  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1263  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1264   * sif6up - Config the interface up and enable IPv6 packets to pass.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1265   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1266  int sif6up(ppp_pcb *pcb) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1267  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1268    pcb->if6_up = 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1269    pcb->err_code = PPPERR_NONE;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1270    netif_set_link_up(pcb->netif);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1271  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1272    PPPDEBUG(LOG_DEBUG, ("sif6up[%d]: err_code=%d\n", pcb->netif->num, pcb->err_code));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1273    pcb->link_status_cb(pcb, pcb->err_code, pcb->ctx_cb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1274    return 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1275  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1276  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1277  /********************************************************************
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1278   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1279   * sif6down - Disable the indicated protocol and config the interface
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1280   *            down if there are no remaining protocols.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1281   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1282  int sif6down(ppp_pcb *pcb) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1283  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1284    pcb->if6_up = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1285  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1286    if (1
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1287  #if PPP_IPV4_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1288     /* set the interface down if IPv4 is down as well */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1289     && !pcb->if4_up
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1290  #endif /* PPP_IPV4_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1291    ) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1292      /* make sure the netif link callback is called */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1293      netif_set_link_down(pcb->netif);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1294    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1295    PPPDEBUG(LOG_DEBUG, ("sif6down[%d]: err_code=%d\n", pcb->netif->num, pcb->err_code));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1296    return 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1297  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1298  #endif /* PPP_IPV6_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1299  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1300  #if DEMAND_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1301  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1302   * sifnpmode - Set the mode for handling packets for a given NP.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1303   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1304  int sifnpmode(ppp_pcb *pcb, int proto, enum NPmode mode) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1305    LWIP_UNUSED_ARG(pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1306    LWIP_UNUSED_ARG(proto);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1307    LWIP_UNUSED_ARG(mode);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1308    return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1309  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1310  #endif /* DEMAND_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1311  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1312  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1313   * netif_set_mtu - set the MTU on the PPP network interface.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1314   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1315  void netif_set_mtu(ppp_pcb *pcb, int mtu) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1316  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1317    pcb->netif->mtu = mtu;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1318    PPPDEBUG(LOG_INFO, ("netif_set_mtu[%d]: mtu=%d\n", pcb->netif->num, mtu));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1319  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1320  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1321  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1322   * netif_get_mtu - get PPP interface MTU
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1323   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1324  int netif_get_mtu(ppp_pcb *pcb) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1325  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1326    return pcb->netif->mtu;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1327  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1328  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1329  #if CCP_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1330  #if 0 /* unused */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1331  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1332   * ccp_test - whether a given compression method is acceptable for use.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1333   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1334  int
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1335  ccp_test(ppp_pcb *pcb, u_char *opt_ptr, int opt_len, int for_transmit)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1336  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1337    LWIP_UNUSED_ARG(pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1338    LWIP_UNUSED_ARG(opt_ptr);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1339    LWIP_UNUSED_ARG(opt_len);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1340    LWIP_UNUSED_ARG(for_transmit);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1341    return -1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1342  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1343  #endif /* unused */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1344  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1345  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1346   * ccp_set - inform about the current state of CCP.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1347   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1348  void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1349  ccp_set(ppp_pcb *pcb, u8_t isopen, u8_t isup, u8_t receive_method, u8_t transmit_method)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1350  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1351    LWIP_UNUSED_ARG(isopen);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1352    LWIP_UNUSED_ARG(isup);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1353    pcb->ccp_receive_method = receive_method;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1354    pcb->ccp_transmit_method = transmit_method;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1355    PPPDEBUG(LOG_DEBUG, ("ccp_set[%d]: is_open=%d, is_up=%d, receive_method=%u, transmit_method=%u\n",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1356             pcb->netif->num, isopen, isup, receive_method, transmit_method));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1357  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1358  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1359  void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1360  ccp_reset_comp(ppp_pcb *pcb)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1361  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1362    switch (pcb->ccp_transmit_method) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1363  #if MPPE_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1364    case CI_MPPE:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1365      mppe_comp_reset(pcb, &pcb->mppe_comp);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1366      break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1367  #endif /* MPPE_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1368    default:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1369      break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1370    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1371  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1372  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1373  void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1374  ccp_reset_decomp(ppp_pcb *pcb)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1375  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1376    switch (pcb->ccp_receive_method) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1377  #if MPPE_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1378    case CI_MPPE:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1379      mppe_decomp_reset(pcb, &pcb->mppe_decomp);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1380      break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1381  #endif /* MPPE_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1382    default:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1383      break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1384    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1385  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1386  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1387  #if 0 /* unused */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1388  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1389   * ccp_fatal_error - returns 1 if decompression was disabled as a
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1390   * result of an error detected after decompression of a packet,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1391   * 0 otherwise.  This is necessary because of patent nonsense.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1392   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1393  int
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1394  ccp_fatal_error(ppp_pcb *pcb)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1395  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1396    LWIP_UNUSED_ARG(pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1397    return 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1398  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1399  #endif /* unused */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1400  #endif /* CCP_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1401  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1402  #if PPP_IDLETIMELIMIT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1403  /********************************************************************
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1404   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1405   * get_idle_time - return how long the link has been idle.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1406   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1407  int get_idle_time(ppp_pcb *pcb, struct ppp_idle *ip) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1408    /* FIXME: add idle time support and make it optional */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1409    LWIP_UNUSED_ARG(pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1410    LWIP_UNUSED_ARG(ip);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1411    return 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1412  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1413  #endif /* PPP_IDLETIMELIMIT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1414  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1415  #if DEMAND_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1416  /********************************************************************
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1417   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1418   * get_loop_output - get outgoing packets from the ppp device,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1419   * and detect when we want to bring the real link up.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1420   * Return value is 1 if we need to bring up the link, 0 otherwise.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1421   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1422  int get_loop_output(void) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1423    return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1424  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1425  #endif /* DEMAND_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1426  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1427  #if PPP_PROTOCOLNAME
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1428  /* List of protocol names, to make our messages a little more informative. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1429  struct protocol_list {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1430    u_short proto;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1431    const char *name;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1432  } const protocol_list[] = {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1433    { 0x21, "IP" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1434    { 0x23, "OSI Network Layer" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1435    { 0x25, "Xerox NS IDP" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1436    { 0x27, "DECnet Phase IV" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1437    { 0x29, "Appletalk" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1438    { 0x2b, "Novell IPX" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1439    { 0x2d, "VJ compressed TCP/IP" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1440    { 0x2f, "VJ uncompressed TCP/IP" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1441    { 0x31, "Bridging PDU" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1442    { 0x33, "Stream Protocol ST-II" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1443    { 0x35, "Banyan Vines" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1444    { 0x39, "AppleTalk EDDP" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1445    { 0x3b, "AppleTalk SmartBuffered" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1446    { 0x3d, "Multi-Link" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1447    { 0x3f, "NETBIOS Framing" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1448    { 0x41, "Cisco Systems" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1449    { 0x43, "Ascom Timeplex" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1450    { 0x45, "Fujitsu Link Backup and Load Balancing (LBLB)" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1451    { 0x47, "DCA Remote Lan" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1452    { 0x49, "Serial Data Transport Protocol (PPP-SDTP)" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1453    { 0x4b, "SNA over 802.2" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1454    { 0x4d, "SNA" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1455    { 0x4f, "IP6 Header Compression" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1456    { 0x51, "KNX Bridging Data" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1457    { 0x53, "Encryption" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1458    { 0x55, "Individual Link Encryption" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1459    { 0x57, "IPv6" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1460    { 0x59, "PPP Muxing" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1461    { 0x5b, "Vendor-Specific Network Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1462    { 0x61, "RTP IPHC Full Header" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1463    { 0x63, "RTP IPHC Compressed TCP" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1464    { 0x65, "RTP IPHC Compressed non-TCP" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1465    { 0x67, "RTP IPHC Compressed UDP 8" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1466    { 0x69, "RTP IPHC Compressed RTP 8" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1467    { 0x6f, "Stampede Bridging" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1468    { 0x73, "MP+" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1469    { 0xc1, "NTCITS IPI" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1470    { 0xfb, "single-link compression" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1471    { 0xfd, "Compressed Datagram" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1472    { 0x0201, "802.1d Hello Packets" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1473    { 0x0203, "IBM Source Routing BPDU" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1474    { 0x0205, "DEC LANBridge100 Spanning Tree" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1475    { 0x0207, "Cisco Discovery Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1476    { 0x0209, "Netcs Twin Routing" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1477    { 0x020b, "STP - Scheduled Transfer Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1478    { 0x020d, "EDP - Extreme Discovery Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1479    { 0x0211, "Optical Supervisory Channel Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1480    { 0x0213, "Optical Supervisory Channel Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1481    { 0x0231, "Luxcom" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1482    { 0x0233, "Sigma Network Systems" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1483    { 0x0235, "Apple Client Server Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1484    { 0x0281, "MPLS Unicast" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1485    { 0x0283, "MPLS Multicast" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1486    { 0x0285, "IEEE p1284.4 standard - data packets" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1487    { 0x0287, "ETSI TETRA Network Protocol Type 1" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1488    { 0x0289, "Multichannel Flow Treatment Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1489    { 0x2063, "RTP IPHC Compressed TCP No Delta" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1490    { 0x2065, "RTP IPHC Context State" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1491    { 0x2067, "RTP IPHC Compressed UDP 16" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1492    { 0x2069, "RTP IPHC Compressed RTP 16" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1493    { 0x4001, "Cray Communications Control Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1494    { 0x4003, "CDPD Mobile Network Registration Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1495    { 0x4005, "Expand accelerator protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1496    { 0x4007, "ODSICP NCP" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1497    { 0x4009, "DOCSIS DLL" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1498    { 0x400B, "Cetacean Network Detection Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1499    { 0x4021, "Stacker LZS" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1500    { 0x4023, "RefTek Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1501    { 0x4025, "Fibre Channel" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1502    { 0x4027, "EMIT Protocols" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1503    { 0x405b, "Vendor-Specific Protocol (VSP)" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1504    { 0x8021, "Internet Protocol Control Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1505    { 0x8023, "OSI Network Layer Control Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1506    { 0x8025, "Xerox NS IDP Control Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1507    { 0x8027, "DECnet Phase IV Control Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1508    { 0x8029, "Appletalk Control Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1509    { 0x802b, "Novell IPX Control Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1510    { 0x8031, "Bridging NCP" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1511    { 0x8033, "Stream Protocol Control Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1512    { 0x8035, "Banyan Vines Control Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1513    { 0x803d, "Multi-Link Control Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1514    { 0x803f, "NETBIOS Framing Control Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1515    { 0x8041, "Cisco Systems Control Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1516    { 0x8043, "Ascom Timeplex" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1517    { 0x8045, "Fujitsu LBLB Control Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1518    { 0x8047, "DCA Remote Lan Network Control Protocol (RLNCP)" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1519    { 0x8049, "Serial Data Control Protocol (PPP-SDCP)" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1520    { 0x804b, "SNA over 802.2 Control Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1521    { 0x804d, "SNA Control Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1522    { 0x804f, "IP6 Header Compression Control Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1523    { 0x8051, "KNX Bridging Control Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1524    { 0x8053, "Encryption Control Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1525    { 0x8055, "Individual Link Encryption Control Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1526    { 0x8057, "IPv6 Control Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1527    { 0x8059, "PPP Muxing Control Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1528    { 0x805b, "Vendor-Specific Network Control Protocol (VSNCP)" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1529    { 0x806f, "Stampede Bridging Control Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1530    { 0x8073, "MP+ Control Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1531    { 0x80c1, "NTCITS IPI Control Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1532    { 0x80fb, "Single Link Compression Control Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1533    { 0x80fd, "Compression Control Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1534    { 0x8207, "Cisco Discovery Protocol Control" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1535    { 0x8209, "Netcs Twin Routing" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1536    { 0x820b, "STP - Control Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1537    { 0x820d, "EDPCP - Extreme Discovery Protocol Ctrl Prtcl" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1538    { 0x8235, "Apple Client Server Protocol Control" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1539    { 0x8281, "MPLSCP" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1540    { 0x8285, "IEEE p1284.4 standard - Protocol Control" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1541    { 0x8287, "ETSI TETRA TNP1 Control Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1542    { 0x8289, "Multichannel Flow Treatment Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1543    { 0xc021, "Link Control Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1544    { 0xc023, "Password Authentication Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1545    { 0xc025, "Link Quality Report" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1546    { 0xc027, "Shiva Password Authentication Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1547    { 0xc029, "CallBack Control Protocol (CBCP)" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1548    { 0xc02b, "BACP Bandwidth Allocation Control Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1549    { 0xc02d, "BAP" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1550    { 0xc05b, "Vendor-Specific Authentication Protocol (VSAP)" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1551    { 0xc081, "Container Control Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1552    { 0xc223, "Challenge Handshake Authentication Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1553    { 0xc225, "RSA Authentication Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1554    { 0xc227, "Extensible Authentication Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1555    { 0xc229, "Mitsubishi Security Info Exch Ptcl (SIEP)" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1556    { 0xc26f, "Stampede Bridging Authorization Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1557    { 0xc281, "Proprietary Authentication Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1558    { 0xc283, "Proprietary Authentication Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1559    { 0xc481, "Proprietary Node ID Authentication Protocol" },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1560    { 0, NULL },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1561  };
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1562  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1563  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1564   * protocol_name - find a name for a PPP protocol.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1565   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1566  const char * protocol_name(int proto) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1567    const struct protocol_list *lp;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1568  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1569    for (lp = protocol_list; lp->proto != 0; ++lp) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1570      if (proto == lp->proto) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1571        return lp->name;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1572      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1573    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1574    return NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1575  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1576  #endif /* PPP_PROTOCOLNAME */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1577  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1578  #if PPP_STATS_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1579  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1580  /* ---- Note on PPP Stats support ----
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1581   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1582   * The one willing link stats support should add the get_ppp_stats()
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1583   * to fetch statistics from lwIP.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1584   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1585  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1586  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1587   * reset_link_stats - "reset" stats when link goes up.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1588   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1589  void reset_link_stats(int u) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1590    if (!get_ppp_stats(u, &old_link_stats)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1591      return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1592    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1593    gettimeofday(&start_time, NULL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1594  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1595  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1596  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1597   * update_link_stats - get stats at link termination.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1598   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1599  void update_link_stats(int u) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1600    struct timeval now;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1601    char numbuf[32];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1602  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1603    if (!get_ppp_stats(u, &link_stats) || gettimeofday(&now, NULL) < 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1604      return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1605    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1606    link_connect_time = now.tv_sec - start_time.tv_sec;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1607    link_stats_valid = 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1608  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1609    link_stats.bytes_in  -= old_link_stats.bytes_in;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1610    link_stats.bytes_out -= old_link_stats.bytes_out;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1611    link_stats.pkts_in   -= old_link_stats.pkts_in;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1612    link_stats.pkts_out  -= old_link_stats.pkts_out;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1613  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1614  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1615  void print_link_stats() {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1616    /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1617     * Print connect time and statistics.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1618     */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1619    if (link_stats_valid) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1620      int t = (link_connect_time + 5) / 6;    /* 1/10ths of minutes */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1621      info("Connect time %d.%d minutes.", t/10, t%10);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1622      info("Sent %u bytes, received %u bytes.", link_stats.bytes_out, link_stats.bytes_in);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1623      link_stats_valid = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1624    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1625  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1626  #endif /* PPP_STATS_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1627  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\ppp.c	  1628  #endif /* PPP_SUPPORT */
+
+	; Module end

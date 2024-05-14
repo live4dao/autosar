@@ -1,0 +1,33 @@
+{
+    "files.associations": {
+        "canif_can.h": "c",
+        "platform_types.h": "c",
+        "comstack_types_cfg.h": "c",
+        "can_generaltypes.h": "c",
+        "ecum.h": "c",
+        "ecum_cbk.h": "c",
+        "ecum_types.h": "c",
+        "ecum_generated_types.h": "c",
+        "comstack_types.h": "c",
+        "std_types.h": "c",
+        "compiler.h": "c",
+        "cannm_callout.h": "c",
+        "bswm_cfg.h": "c",
+        "can_17_mcmcan.h": "c",
+        "memif.h": "c",
+        "fls_17_dmu_cfg.h": "c",
+        "fee.h": "c",
+        "fee_cfg.h": "c",
+        "fls_17_dmu.h": "c",
+        "schm_fee.h": "c",
+        "schm_fls_17_dmu.h": "c",
+        "memif_types.h": "c",
+        "memif_cfg.h": "c",
+        "ifx_os.h": "c",
+        "fls_17_dmu_ac.h": "c",
+        "wdgm.h": "c",
+        "flstst.h": "c",
+        "ramtst.h": "c",
+        "rte_hook.h": "c"
+    }
+}

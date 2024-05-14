@@ -1,0 +1,771 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.2r2 Build 18041957 SN 09003395"
+	.compiler_invocation	"ctc -f cc392a --dep-file=EAS\\BSW\\Common\\.Bsw_Common.o.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc39x -D__CPU_TC39X__ --core=tc1.6.2 --fp-model=+float -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Cfg_Ssw -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Cfg_Ssw\\TC39B -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Integration -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr\\TC39xB -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr\\TC39xB\\_Reg -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw\\TC39B -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw\\TC39B\\Tricore -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\inc\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Lib -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\App_Func -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\demo -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Adc_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Gtm_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\AscLin_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Can_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\EthV2_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Stm_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Main -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\APP -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\BswM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanNm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanSm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanTp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanTSyn -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Com -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\ComM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Common -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Crc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Dcm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Dem -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Det -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\DoIP -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EcuM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Eth -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthSM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthTrcv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthTSyn -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\FiM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\FlsTst -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\MemIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Nm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\NvM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS\\Kernel -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS\\Portable -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\PduR -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\RamTst -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\SoAd -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\StbM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\api -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\arch -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv6 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\arpa -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\net -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\sys -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\stdc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\apps -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\priv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\prot -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif\\ppp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif\\ppp\\polarssl -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\polarssl -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\UdpNm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\WdgIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\WdgM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Cal -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Daq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Pag -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Pgm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Std -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\XcpOnEth -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Callout -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Config -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Library\\Vfx_ComE2E -g2 --make-target=EAS\\BSW\\Common\\Bsw_Common.o -t2 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O1 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o EAS\\BSW\\Common\\Bsw_Common.src ..\\EAS\\BSW\\Common\\Bsw_Common.c"
+	.compiler_name		"ctc"
+	;source	'..\\EAS\\BSW\\Common\\Bsw_Common.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.Bsw_Common.Bsw_MemCpy',code,cluster('Bsw_MemCpy')
+	.sect	'.text.Bsw_Common.Bsw_MemCpy'
+	.align	2
+	
+	.global	Bsw_MemCpy
+
+; ..\EAS\BSW\Common\Bsw_Common.c	     1  /*  BEGIN_FILE_HDR
+; ..\EAS\BSW\Common\Bsw_Common.c	     2  ********************************************************************************
+; ..\EAS\BSW\Common\Bsw_Common.c	     3  *   NOTICE
+; ..\EAS\BSW\Common\Bsw_Common.c	     4  *   This software is the property of HiRain Technologies. Any information
+; ..\EAS\BSW\Common\Bsw_Common.c	     5  *   contained in this doc should not be reproduced, or used, or disclosed
+; ..\EAS\BSW\Common\Bsw_Common.c	     6  *   without the written authorization from HiRain Technologies.
+; ..\EAS\BSW\Common\Bsw_Common.c	     7  ********************************************************************************
+; ..\EAS\BSW\Common\Bsw_Common.c	     8  *   File Name       : Bsw_Common.c
+; ..\EAS\BSW\Common\Bsw_Common.c	     9  ********************************************************************************
+; ..\EAS\BSW\Common\Bsw_Common.c	    10  *   Project/Product : AUTOSAR 4.2
+; ..\EAS\BSW\Common\Bsw_Common.c	    11  *   Title           : BSW COMMON File
+; ..\EAS\BSW\Common\Bsw_Common.c	    12  *   Author          : Hirain
+; ..\EAS\BSW\Common\Bsw_Common.c	    13  ********************************************************************************
+; ..\EAS\BSW\Common\Bsw_Common.c	    14  *   Description     : for some functions may be used by all modules
+; ..\EAS\BSW\Common\Bsw_Common.c	    15  *
+; ..\EAS\BSW\Common\Bsw_Common.c	    16  ********************************************************************************
+; ..\EAS\BSW\Common\Bsw_Common.c	    17  *   Limitations     : None
+; ..\EAS\BSW\Common\Bsw_Common.c	    18  *
+; ..\EAS\BSW\Common\Bsw_Common.c	    19  ********************************************************************************
+; ..\EAS\BSW\Common\Bsw_Common.c	    20  *
+; ..\EAS\BSW\Common\Bsw_Common.c	    21  ********************************************************************************
+; ..\EAS\BSW\Common\Bsw_Common.c	    22  *   Revision History:
+; ..\EAS\BSW\Common\Bsw_Common.c	    23  *
+; ..\EAS\BSW\Common\Bsw_Common.c	    24  *   Version     Date          Initials        CR#          Descriptions
+; ..\EAS\BSW\Common\Bsw_Common.c	    25  *   ---------   ----------    ------------    ----------   ---------------
+; ..\EAS\BSW\Common\Bsw_Common.c	    26  *   01.00.00    24/08/2016    Ning.Chen       N/A          Original
+; ..\EAS\BSW\Common\Bsw_Common.c	    27  *   01.00.01    01/11/2018    Ning.Chen       N/A          EAS422_COMMON_20181101_01
+; ..\EAS\BSW\Common\Bsw_Common.c	    28  *   01.00.02    06/07/2022    Feixiang.Dong   QAC retest   EAS422_COMMON_20181101_01
+; ..\EAS\BSW\Common\Bsw_Common.c	    29  ********************************************************************************
+; ..\EAS\BSW\Common\Bsw_Common.c	    30  * END_FILE_HDR*/
+; ..\EAS\BSW\Common\Bsw_Common.c	    31  
+; ..\EAS\BSW\Common\Bsw_Common.c	    32  /*******************************************************************************
+; ..\EAS\BSW\Common\Bsw_Common.c	    33  *   Includes
+; ..\EAS\BSW\Common\Bsw_Common.c	    34  *******************************************************************************/
+; ..\EAS\BSW\Common\Bsw_Common.c	    35  #include "Bsw_Common.h"
+; ..\EAS\BSW\Common\Bsw_Common.c	    36  
+; ..\EAS\BSW\Common\Bsw_Common.c	    37  /*****************************************************************************
+; ..\EAS\BSW\Common\Bsw_Common.c	    38   *  General QAC Suppression
+; ..\EAS\BSW\Common\Bsw_Common.c	    39   *****************************************************************************/
+; ..\EAS\BSW\Common\Bsw_Common.c	    40  /*PRQA S 5087,3614,3214,862 EOF*/
+; ..\EAS\BSW\Common\Bsw_Common.c	    41  /*
+; ..\EAS\BSW\Common\Bsw_Common.c	    42  According to the requirements of AUTOSAR Specification,when locating address
+; ..\EAS\BSW\Common\Bsw_Common.c	    43  segments in the files of each module,#include "MemMap.h" is required.Defined
+; ..\EAS\BSW\Common\Bsw_Common.c	    44  XXX_START_SEC_ will undefine in MemMap.h
+; ..\EAS\BSW\Common\Bsw_Common.c	    45  */
+; ..\EAS\BSW\Common\Bsw_Common.c	    46  
+; ..\EAS\BSW\Common\Bsw_Common.c	    47  /*PRQA S 3432,3410,3409 EOF*/
+; ..\EAS\BSW\Common\Bsw_Common.c	    48  /*
+; ..\EAS\BSW\Common\Bsw_Common.c	    49  P2VAR and other macros in the Compiler conforms to AUTOSAR standard.There's no
+; ..\EAS\BSW\Common\Bsw_Common.c	    50  need to revise.
+; ..\EAS\BSW\Common\Bsw_Common.c	    51  */
+; ..\EAS\BSW\Common\Bsw_Common.c	    52  
+; ..\EAS\BSW\Common\Bsw_Common.c	    53  /*PRQA S 3211 EOF*/
+; ..\EAS\BSW\Common\Bsw_Common.c	    54  /*
+; ..\EAS\BSW\Common\Bsw_Common.c	    55  Variables can be defined and used in defferent files.
+; ..\EAS\BSW\Common\Bsw_Common.c	    56  */
+; ..\EAS\BSW\Common\Bsw_Common.c	    57  
+; ..\EAS\BSW\Common\Bsw_Common.c	    58  #define BSW_START_SEC_CONST_8
+; ..\EAS\BSW\Common\Bsw_Common.c	    59  #include "MemMap.h"
+; ..\EAS\BSW\Common\Bsw_Common.c	    60  /* CANFD DLC Map */
+; ..\EAS\BSW\Common\Bsw_Common.c	    61  CONST(uint8, BSW_CONST) Bsw_CanFDDlcMap[BSW_CANFD_LENGTH_TABLE_SIZE] =
+; ..\EAS\BSW\Common\Bsw_Common.c	    62  {
+; ..\EAS\BSW\Common\Bsw_Common.c	    63      (uint8)0,
+; ..\EAS\BSW\Common\Bsw_Common.c	    64      (uint8)1,
+; ..\EAS\BSW\Common\Bsw_Common.c	    65      (uint8)2,
+; ..\EAS\BSW\Common\Bsw_Common.c	    66      (uint8)3,
+; ..\EAS\BSW\Common\Bsw_Common.c	    67      (uint8)4,
+; ..\EAS\BSW\Common\Bsw_Common.c	    68      (uint8)5,
+; ..\EAS\BSW\Common\Bsw_Common.c	    69      (uint8)6,
+; ..\EAS\BSW\Common\Bsw_Common.c	    70      (uint8)7,
+; ..\EAS\BSW\Common\Bsw_Common.c	    71      (uint8)8,
+; ..\EAS\BSW\Common\Bsw_Common.c	    72      (uint8)12,
+; ..\EAS\BSW\Common\Bsw_Common.c	    73      (uint8)16,
+; ..\EAS\BSW\Common\Bsw_Common.c	    74      (uint8)20,
+; ..\EAS\BSW\Common\Bsw_Common.c	    75      (uint8)24,
+; ..\EAS\BSW\Common\Bsw_Common.c	    76      (uint8)32,
+; ..\EAS\BSW\Common\Bsw_Common.c	    77      (uint8)48,
+; ..\EAS\BSW\Common\Bsw_Common.c	    78      (uint8)64
+; ..\EAS\BSW\Common\Bsw_Common.c	    79  };
+; ..\EAS\BSW\Common\Bsw_Common.c	    80  #define BSW_STOP_SEC_CONST_8
+; ..\EAS\BSW\Common\Bsw_Common.c	    81  #include "MemMap.h"
+; ..\EAS\BSW\Common\Bsw_Common.c	    82  
+; ..\EAS\BSW\Common\Bsw_Common.c	    83  
+; ..\EAS\BSW\Common\Bsw_Common.c	    84  #define BSW_START_SEC_CODE
+; ..\EAS\BSW\Common\Bsw_Common.c	    85  #include "MemMap.h"
+; ..\EAS\BSW\Common\Bsw_Common.c	    86  
+; ..\EAS\BSW\Common\Bsw_Common.c	    87  /*******************************************************************************
+; ..\EAS\BSW\Common\Bsw_Common.c	    88  *   Functions
+; ..\EAS\BSW\Common\Bsw_Common.c	    89  *******************************************************************************/
+; ..\EAS\BSW\Common\Bsw_Common.c	    90  
+; ..\EAS\BSW\Common\Bsw_Common.c	    91  /* BEGIN_FUNCTION_HDR
+; ..\EAS\BSW\Common\Bsw_Common.c	    92  ********************************************************************************
+; ..\EAS\BSW\Common\Bsw_Common.c	    93  * Function Name: Bsw_MemCpy
+; ..\EAS\BSW\Common\Bsw_Common.c	    94  *
+; ..\EAS\BSW\Common\Bsw_Common.c	    95  * Description:   This service copy data from src to dest
+; ..\EAS\BSW\Common\Bsw_Common.c	    96  *
+; ..\EAS\BSW\Common\Bsw_Common.c	    97  * Inputs:        dest, src, size
+; ..\EAS\BSW\Common\Bsw_Common.c	    98  *
+; ..\EAS\BSW\Common\Bsw_Common.c	    99  * Outputs:       None
+; ..\EAS\BSW\Common\Bsw_Common.c	   100  *
+; ..\EAS\BSW\Common\Bsw_Common.c	   101  * Limitations:   None
+; ..\EAS\BSW\Common\Bsw_Common.c	   102  ********************************************************************************
+; ..\EAS\BSW\Common\Bsw_Common.c	   103  END_FUNCTION_HDR*/
+; ..\EAS\BSW\Common\Bsw_Common.c	   104  FUNC(void, BSW_CODE) Bsw_MemCpy
+; Function Bsw_MemCpy
+.L12:
+Bsw_MemCpy:	.type	func
+
+; ..\EAS\BSW\Common\Bsw_Common.c	   105  (
+; ..\EAS\BSW\Common\Bsw_Common.c	   106      CONSTP2VAR (uint8, AUTOMATIC, BSW_APPL_DATA) dest,
+; ..\EAS\BSW\Common\Bsw_Common.c	   107      CONSTP2CONST (uint8, AUTOMATIC, BSW_APPL_DATA) src,
+; ..\EAS\BSW\Common\Bsw_Common.c	   108      const uint32 size
+; ..\EAS\BSW\Common\Bsw_Common.c	   109  )
+; ..\EAS\BSW\Common\Bsw_Common.c	   110  {
+; ..\EAS\BSW\Common\Bsw_Common.c	   111      uint32 i;
+; ..\EAS\BSW\Common\Bsw_Common.c	   112  
+; ..\EAS\BSW\Common\Bsw_Common.c	   113      for (i = (uint32)0; i < size; i++)
+	mov	d15,#0
+.L66:
+	j	.L2
+.L3:
+
+; ..\EAS\BSW\Common\Bsw_Common.c	   114      {
+; ..\EAS\BSW\Common\Bsw_Common.c	   115          dest[i] = src[i];
+	addsc.a	a15,a4,d15,#0
+.L78:
+	addsc.a	a2,a5,d15,#0
+	ld.bu	d0,[a2]
+.L79:
+	st.b	[a15],d0
+.L80:
+	add	d15,#1
+.L2:
+	jlt.u	d15,d4,.L3
+.L81:
+
+; ..\EAS\BSW\Common\Bsw_Common.c	   116      }
+; ..\EAS\BSW\Common\Bsw_Common.c	   117  }
+	ret
+.L38:
+	
+__Bsw_MemCpy_function_end:
+	.size	Bsw_MemCpy,__Bsw_MemCpy_function_end-Bsw_MemCpy
+.L25:
+	; End of function
+	
+	.sdecl	'.text.Bsw_Common.Bsw_MemSet',code,cluster('Bsw_MemSet')
+	.sect	'.text.Bsw_Common.Bsw_MemSet'
+	.align	2
+	
+	.global	Bsw_MemSet
+
+; ..\EAS\BSW\Common\Bsw_Common.c	   118  
+; ..\EAS\BSW\Common\Bsw_Common.c	   119  
+; ..\EAS\BSW\Common\Bsw_Common.c	   120  /* BEGIN_FUNCTION_HDR
+; ..\EAS\BSW\Common\Bsw_Common.c	   121  ********************************************************************************
+; ..\EAS\BSW\Common\Bsw_Common.c	   122  * Function Name: Bsw_MemSet
+; ..\EAS\BSW\Common\Bsw_Common.c	   123  *
+; ..\EAS\BSW\Common\Bsw_Common.c	   124  * Description:   This service set fix data to  dest
+; ..\EAS\BSW\Common\Bsw_Common.c	   125  *
+; ..\EAS\BSW\Common\Bsw_Common.c	   126  * Inputs:        dest, src, size
+; ..\EAS\BSW\Common\Bsw_Common.c	   127  *
+; ..\EAS\BSW\Common\Bsw_Common.c	   128  * Outputs:       None
+; ..\EAS\BSW\Common\Bsw_Common.c	   129  *
+; ..\EAS\BSW\Common\Bsw_Common.c	   130  * Limitations:   None
+; ..\EAS\BSW\Common\Bsw_Common.c	   131  ********************************************************************************
+; ..\EAS\BSW\Common\Bsw_Common.c	   132  END_FUNCTION_HDR*/
+; ..\EAS\BSW\Common\Bsw_Common.c	   133  FUNC(void, BSW_CODE) Bsw_MemSet
+; Function Bsw_MemSet
+.L14:
+Bsw_MemSet:	.type	func
+
+; ..\EAS\BSW\Common\Bsw_Common.c	   134  (
+; ..\EAS\BSW\Common\Bsw_Common.c	   135      CONSTP2VAR (uint8, AUTOMATIC, BSW_APPL_DATA) dest,
+; ..\EAS\BSW\Common\Bsw_Common.c	   136      const uint8 src,
+; ..\EAS\BSW\Common\Bsw_Common.c	   137      const uint32 size
+; ..\EAS\BSW\Common\Bsw_Common.c	   138  )
+; ..\EAS\BSW\Common\Bsw_Common.c	   139  {
+; ..\EAS\BSW\Common\Bsw_Common.c	   140      uint32 i;
+; ..\EAS\BSW\Common\Bsw_Common.c	   141  
+; ..\EAS\BSW\Common\Bsw_Common.c	   142      for (i = (uint32)0; i < size; i++)
+	mov	d15,#0
+.L67:
+	j	.L4
+.L5:
+
+; ..\EAS\BSW\Common\Bsw_Common.c	   143      {
+; ..\EAS\BSW\Common\Bsw_Common.c	   144          dest[i] = src;
+	addsc.a	a15,a4,d15,#0
+.L86:
+	st.b	[a15],d4
+.L87:
+	add	d15,#1
+.L4:
+	jlt.u	d15,d5,.L5
+.L88:
+
+; ..\EAS\BSW\Common\Bsw_Common.c	   145      }
+; ..\EAS\BSW\Common\Bsw_Common.c	   146  }
+	ret
+.L47:
+	
+__Bsw_MemSet_function_end:
+	.size	Bsw_MemSet,__Bsw_MemSet_function_end-Bsw_MemSet
+.L30:
+	; End of function
+	
+	.sdecl	'.text.Bsw_Common.Bsw_MemCmp',code,cluster('Bsw_MemCmp')
+	.sect	'.text.Bsw_Common.Bsw_MemCmp'
+	.align	2
+	
+	.global	Bsw_MemCmp
+
+; ..\EAS\BSW\Common\Bsw_Common.c	   147  
+; ..\EAS\BSW\Common\Bsw_Common.c	   148  /* BEGIN_FUNCTION_HDR
+; ..\EAS\BSW\Common\Bsw_Common.c	   149  ********************************************************************************
+; ..\EAS\BSW\Common\Bsw_Common.c	   150  * Function Name: Bsw_MemCmp
+; ..\EAS\BSW\Common\Bsw_Common.c	   151  *
+; ..\EAS\BSW\Common\Bsw_Common.c	   152  * Description:   This service compare CmpA with CmpB
+; ..\EAS\BSW\Common\Bsw_Common.c	   153  *
+; ..\EAS\BSW\Common\Bsw_Common.c	   154  * Inputs:        CmpA, CmpB, size
+; ..\EAS\BSW\Common\Bsw_Common.c	   155  *
+; ..\EAS\BSW\Common\Bsw_Common.c	   156  * Outputs:       None
+; ..\EAS\BSW\Common\Bsw_Common.c	   157  *
+; ..\EAS\BSW\Common\Bsw_Common.c	   158  * Limitations:   None
+; ..\EAS\BSW\Common\Bsw_Common.c	   159  ********************************************************************************
+; ..\EAS\BSW\Common\Bsw_Common.c	   160  END_FUNCTION_HDR*/
+; ..\EAS\BSW\Common\Bsw_Common.c	   161  FUNC(Std_ReturnType, BSW_CODE) Bsw_MemCmp
+; Function Bsw_MemCmp
+.L16:
+Bsw_MemCmp:	.type	func
+
+; ..\EAS\BSW\Common\Bsw_Common.c	   162  (
+; ..\EAS\BSW\Common\Bsw_Common.c	   163      CONSTP2CONST (uint8, AUTOMATIC, BSW_APPL_DATA) CmpA,
+; ..\EAS\BSW\Common\Bsw_Common.c	   164      CONSTP2CONST (uint8, AUTOMATIC, BSW_APPL_DATA) CmpB,
+; ..\EAS\BSW\Common\Bsw_Common.c	   165      const uint32 size
+; ..\EAS\BSW\Common\Bsw_Common.c	   166  )
+; ..\EAS\BSW\Common\Bsw_Common.c	   167  {
+; ..\EAS\BSW\Common\Bsw_Common.c	   168      uint32 i;
+; ..\EAS\BSW\Common\Bsw_Common.c	   169      Std_ReturnType ret = E_OK;
+	mov	d2,#0
+.L68:
+
+; ..\EAS\BSW\Common\Bsw_Common.c	   170  
+; ..\EAS\BSW\Common\Bsw_Common.c	   171      for (i = (uint32)0; i < size; i++)
+	mov	d15,d2
+.L69:
+	j	.L6
+.L7:
+
+; ..\EAS\BSW\Common\Bsw_Common.c	   172      {
+; ..\EAS\BSW\Common\Bsw_Common.c	   173          if(CmpA[i] != CmpB[i])
+	addsc.a	a15,a4,d15,#0
+	ld.bu	d0,[a15]
+.L93:
+	addsc.a	a15,a5,d15,#0
+	ld.bu	d1,[a15]
+.L94:
+	jeq	d0,d1,.L8
+.L95:
+
+; ..\EAS\BSW\Common\Bsw_Common.c	   174          {
+; ..\EAS\BSW\Common\Bsw_Common.c	   175              ret = E_NOT_OK;
+	mov	d2,#1
+.L96:
+
+; ..\EAS\BSW\Common\Bsw_Common.c	   176              break;
+; ..\EAS\BSW\Common\Bsw_Common.c	   177          }
+; ..\EAS\BSW\Common\Bsw_Common.c	   178      }
+; ..\EAS\BSW\Common\Bsw_Common.c	   179      return ret;
+; ..\EAS\BSW\Common\Bsw_Common.c	   180  }
+	ret
+.L8:
+	add	d15,#1
+.L6:
+	jlt.u	d15,d4,.L7
+.L97:
+	ret
+.L56:
+	
+__Bsw_MemCmp_function_end:
+	.size	Bsw_MemCmp,__Bsw_MemCmp_function_end-Bsw_MemCmp
+.L35:
+	; End of function
+	
+	.sdecl	'.rodata.Bsw_Common.Bsw_CanFDDlcMap',data,rom,cluster('Bsw_CanFDDlcMap')
+	.sect	'.rodata.Bsw_Common.Bsw_CanFDDlcMap'
+	.global	Bsw_CanFDDlcMap
+Bsw_CanFDDlcMap:	.type	object
+	.size	Bsw_CanFDDlcMap,16
+	.space	1
+	.byte	1,2,3,4
+	.byte	5,6,7,8
+	.byte	12,16,20,24
+	.byte	32,48,64
+	.calls	'Bsw_MemCpy','',0
+	.calls	'Bsw_MemSet','',0
+	.calls	'Bsw_MemCmp','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L18:
+	.word	377
+	.half	3
+	.word	.L19
+	.byte	4
+.L17:
+	.byte	1
+	.byte	'..\\EAS\\BSW\\Common\\Bsw_Common.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L20
+.L55:
+	.byte	2
+	.byte	'unsigned char',0,1,8,3
+	.word	154
+.L39:
+	.byte	4
+	.word	171
+	.byte	4
+	.word	154
+	.byte	3
+	.word	181
+.L41:
+	.byte	4
+	.word	186
+.L45:
+	.byte	2
+	.byte	'unsigned long int',0,4,7
+.L43:
+	.byte	4
+	.word	196
+.L48:
+	.byte	4
+	.word	171
+.L50:
+	.byte	4
+	.word	154
+.L52:
+	.byte	4
+	.word	196
+.L57:
+	.byte	4
+	.word	186
+.L59:
+	.byte	4
+	.word	186
+.L61:
+	.byte	4
+	.word	196
+	.byte	5,1,3
+	.word	252
+	.byte	6
+	.byte	'__codeptr',0,1,1,1
+	.word	254
+	.byte	6
+	.byte	'uint8',0,2,106,29
+	.word	154
+	.byte	2
+	.byte	'unsigned short int',0,2,7,6
+	.byte	'uint16',0,2,110,29
+	.word	291
+	.byte	6
+	.byte	'uint32',0,2,114,29
+	.word	196
+	.byte	6
+	.byte	'Std_ReturnType',0,3,109,16
+	.word	154
+	.byte	7,16
+	.word	154
+	.byte	8,15,0
+.L65:
+	.byte	4
+	.word	366
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L19:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,15,0,73,19,0,0,4,38,0,73,19
+	.byte	0,0,5,21,0,54,15,0,0,6,22,0,3,8,58,15,59,15,57,15,73,19,0,0,7,1,1,11,15,73,19,0,0,8,33,0,47,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L20:
+	.word	.L71-.L70
+.L70:
+	.half	3
+	.word	.L73-.L72
+.L72:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform',0,0
+	.byte	'..\\EAS\\BSW\\Common\\Bsw_Common.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0
+	.byte	'Std_Types.h',0,1,0,0,0
+.L73:
+.L71:
+	.sdecl	'.debug_info',debug,cluster('Bsw_MemCpy')
+	.sect	'.debug_info'
+.L21:
+	.word	265
+	.half	3
+	.word	.L22
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\Common\\Bsw_Common.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L24,.L23
+	.byte	2
+	.word	.L17
+	.byte	3
+	.byte	'Bsw_MemCpy',0,1,104,22,1,1,1
+	.word	.L12,.L38,.L11
+	.byte	4
+	.byte	'dest',0,1,106,50
+	.word	.L39,.L40
+	.byte	4
+	.byte	'src',0,1,107,52
+	.word	.L41,.L42
+	.byte	4
+	.byte	'size',0,1,108,18
+	.word	.L43,.L44
+	.byte	5
+	.word	.L12,.L38
+	.byte	6
+	.byte	'i',0,1,111,12
+	.word	.L45,.L46
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Bsw_MemCpy')
+	.sect	'.debug_abbrev'
+.L22:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Bsw_MemCpy')
+	.sect	'.debug_line'
+.L23:
+	.word	.L75-.L74
+.L74:
+	.half	3
+	.word	.L77-.L76
+.L76:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\BSW\\Common\\Bsw_Common.c',0,0,0,0,0
+.L77:
+	.byte	5,12,7,0,5,2
+	.word	.L12
+	.byte	3,240,0,1,5,33,9
+	.half	.L66-.L12
+	.byte	1,5,13,9
+	.half	.L3-.L66
+	.byte	3,2,1,5,22,9
+	.half	.L78-.L3
+	.byte	1,5,17,9
+	.half	.L79-.L78
+	.byte	1,5,36,9
+	.half	.L80-.L79
+	.byte	3,126,1,5,33,9
+	.half	.L2-.L80
+	.byte	1,5,1,7,9
+	.half	.L81-.L2
+	.byte	3,4,1,7,9
+	.half	.L25-.L81
+	.byte	0,1,1
+.L75:
+	.sdecl	'.debug_ranges',debug,cluster('Bsw_MemCpy')
+	.sect	'.debug_ranges'
+.L24:
+	.word	-1,.L12,0,.L25-.L12,0,0
+	.sdecl	'.debug_info',debug,cluster('Bsw_MemSet')
+	.sect	'.debug_info'
+.L26:
+	.word	270
+	.half	3
+	.word	.L27
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\Common\\Bsw_Common.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L29,.L28
+	.byte	2
+	.word	.L17
+	.byte	3
+	.byte	'Bsw_MemSet',0,1,133,1,22,1,1,1
+	.word	.L14,.L47,.L13
+	.byte	4
+	.byte	'dest',0,1,135,1,50
+	.word	.L48,.L49
+	.byte	4
+	.byte	'src',0,1,136,1,17
+	.word	.L50,.L51
+	.byte	4
+	.byte	'size',0,1,137,1,18
+	.word	.L52,.L53
+	.byte	5
+	.word	.L14,.L47
+	.byte	6
+	.byte	'i',0,1,140,1,12
+	.word	.L45,.L54
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Bsw_MemSet')
+	.sect	'.debug_abbrev'
+.L27:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Bsw_MemSet')
+	.sect	'.debug_line'
+.L28:
+	.word	.L83-.L82
+.L82:
+	.half	3
+	.word	.L85-.L84
+.L84:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\BSW\\Common\\Bsw_Common.c',0,0,0,0,0
+.L85:
+	.byte	5,12,7,0,5,2
+	.word	.L14
+	.byte	3,141,1,1,5,33,9
+	.half	.L67-.L14
+	.byte	1,5,13,9
+	.half	.L5-.L67
+	.byte	3,2,1,5,17,9
+	.half	.L86-.L5
+	.byte	1,5,36,9
+	.half	.L87-.L86
+	.byte	3,126,1,5,33,9
+	.half	.L4-.L87
+	.byte	1,5,1,7,9
+	.half	.L88-.L4
+	.byte	3,4,1,7,9
+	.half	.L30-.L88
+	.byte	0,1,1
+.L83:
+	.sdecl	'.debug_ranges',debug,cluster('Bsw_MemSet')
+	.sect	'.debug_ranges'
+.L29:
+	.word	-1,.L14,0,.L30-.L14,0,0
+	.sdecl	'.debug_info',debug,cluster('Bsw_MemCmp')
+	.sect	'.debug_info'
+.L31:
+	.word	292
+	.half	3
+	.word	.L32
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\Common\\Bsw_Common.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L34,.L33
+	.byte	2
+	.word	.L17
+	.byte	3
+	.byte	'Bsw_MemCmp',0,1,161,1,32
+	.word	.L55
+	.byte	1,1,1
+	.word	.L16,.L56,.L15
+	.byte	4
+	.byte	'CmpA',0,1,163,1,52
+	.word	.L57,.L58
+	.byte	4
+	.byte	'CmpB',0,1,164,1,52
+	.word	.L59,.L60
+	.byte	4
+	.byte	'size',0,1,165,1,18
+	.word	.L61,.L62
+	.byte	5
+	.word	.L16,.L56
+	.byte	6
+	.byte	'i',0,1,168,1,12
+	.word	.L45,.L63
+	.byte	6
+	.byte	'ret',0,1,169,1,20
+	.word	.L55,.L64
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Bsw_MemCmp')
+	.sect	'.debug_abbrev'
+.L32:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Bsw_MemCmp')
+	.sect	'.debug_line'
+.L33:
+	.word	.L90-.L89
+.L89:
+	.half	3
+	.word	.L92-.L91
+.L91:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\EAS\\BSW\\Common\\Bsw_Common.c',0,0,0,0,0
+.L92:
+	.byte	5,24,7,0,5,2
+	.word	.L16
+	.byte	3,168,1,1,5,12,9
+	.half	.L68-.L16
+	.byte	3,2,1,5,33,9
+	.half	.L69-.L68
+	.byte	1,5,16,9
+	.half	.L7-.L69
+	.byte	3,2,1,5,27,9
+	.half	.L93-.L7
+	.byte	1,5,9,9
+	.half	.L94-.L93
+	.byte	1,5,17,7,9
+	.half	.L95-.L94
+	.byte	3,2,1,5,1,9
+	.half	.L96-.L95
+	.byte	3,5,1,5,36,7,9
+	.half	.L8-.L96
+	.byte	3,119,1,5,33,9
+	.half	.L6-.L8
+	.byte	1,5,1,7,9
+	.half	.L97-.L6
+	.byte	3,9,1,7,9
+	.half	.L35-.L97
+	.byte	0,1,1
+.L90:
+	.sdecl	'.debug_ranges',debug,cluster('Bsw_MemCmp')
+	.sect	'.debug_ranges'
+.L34:
+	.word	-1,.L16,0,.L35-.L16,0,0
+	.sdecl	'.debug_info',debug,cluster('Bsw_CanFDDlcMap')
+	.sect	'.debug_info'
+.L36:
+	.word	183
+	.half	3
+	.word	.L37
+	.byte	4,1
+	.byte	'..\\EAS\\BSW\\Common\\Bsw_Common.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1,2
+	.word	.L17
+	.byte	3
+	.byte	'Bsw_CanFDDlcMap',0,1,61,25
+	.word	.L65
+	.byte	1,5,3
+	.word	Bsw_CanFDDlcMap
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Bsw_CanFDDlcMap')
+	.sect	'.debug_abbrev'
+.L37:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_loc',debug,cluster('Bsw_MemCmp')
+	.sect	'.debug_loc'
+.L15:
+	.word	-1,.L16,0,.L56-.L16
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L58:
+	.word	-1,.L16,0,.L56-.L16
+	.half	1
+	.byte	100
+	.word	0,0
+.L60:
+	.word	-1,.L16,0,.L56-.L16
+	.half	1
+	.byte	101
+	.word	0,0
+.L63:
+	.word	-1,.L16,.L69-.L16,.L56-.L16
+	.half	1
+	.byte	95
+	.word	0,0
+.L64:
+	.word	-1,.L16,.L68-.L16,.L56-.L16
+	.half	1
+	.byte	82
+	.word	0,0
+.L62:
+	.word	-1,.L16,0,.L56-.L16
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Bsw_MemCpy')
+	.sect	'.debug_loc'
+.L11:
+	.word	-1,.L12,0,.L38-.L12
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L40:
+	.word	-1,.L12,0,.L38-.L12
+	.half	1
+	.byte	100
+	.word	0,0
+.L46:
+	.word	-1,.L12,.L66-.L12,.L38-.L12
+	.half	1
+	.byte	95
+	.word	0,0
+.L44:
+	.word	-1,.L12,0,.L38-.L12
+	.half	1
+	.byte	84
+	.word	0,0
+.L42:
+	.word	-1,.L12,0,.L38-.L12
+	.half	1
+	.byte	101
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Bsw_MemSet')
+	.sect	'.debug_loc'
+.L13:
+	.word	-1,.L14,0,.L47-.L14
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L49:
+	.word	-1,.L14,0,.L47-.L14
+	.half	1
+	.byte	100
+	.word	0,0
+.L54:
+	.word	-1,.L14,.L67-.L14,.L47-.L14
+	.half	1
+	.byte	95
+	.word	0,0
+.L53:
+	.word	-1,.L14,0,.L47-.L14
+	.half	1
+	.byte	85
+	.word	0,0
+.L51:
+	.word	-1,.L14,0,.L47-.L14
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L98:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('Bsw_MemCpy')
+	.sect	'.debug_frame'
+	.word	20
+	.word	.L98,.L12,.L38-.L12
+	.byte	8,19,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('Bsw_MemSet')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L98,.L14,.L47-.L14
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('Bsw_MemCmp')
+	.sect	'.debug_frame'
+	.word	20
+	.word	.L98,.L16,.L56-.L16
+	.byte	8,18,8,19,8,22,8,23
+
+; ..\EAS\BSW\Common\Bsw_Common.c	   181  #define BSW_STOP_SEC_CODE
+; ..\EAS\BSW\Common\Bsw_Common.c	   182  #include "MemMap.h"
+; ..\EAS\BSW\Common\Bsw_Common.c	   183  
+; ..\EAS\BSW\Common\Bsw_Common.c	   184  
+
+	; Module end

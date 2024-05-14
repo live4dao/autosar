@@ -1,0 +1,1303 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.2r2 Build 18041957 SN 09003395"
+	.compiler_invocation	"ctc -f cc31892a --dep-file=EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\.vj.o.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc39x -D__CPU_TC39X__ --core=tc1.6.2 --fp-model=+float -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Cfg_Ssw -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Cfg_Ssw\\TC39B -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Integration -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr\\TC39xB -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr\\TC39xB\\_Reg -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw\\TC39B -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw\\TC39B\\Tricore -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\inc\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Lib -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\App_Func -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\demo -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Adc_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Gtm_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\AscLin_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Can_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\EthV2_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Stm_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Main -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\APP -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\BswM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanNm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanSm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanTp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanTSyn -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Com -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\ComM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Common -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Crc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Dcm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Dem -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Det -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\DoIP -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EcuM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Eth -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthSM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthTrcv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthTSyn -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\FiM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\FlsTst -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\MemIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Nm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\NvM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS\\Kernel -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS\\Portable -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\PduR -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\RamTst -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\SoAd -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\StbM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\api -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\arch -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv6 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\arpa -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\net -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\sys -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\stdc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\apps -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\priv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\prot -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif\\ppp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif\\ppp\\polarssl -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\polarssl -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\UdpNm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\WdgIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\WdgM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Cal -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Daq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Pag -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Pgm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Std -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\XcpOnEth -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Callout -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Config -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Library\\Vfx_ComE2E -g2 --make-target=EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\vj.o -t2 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O1 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\vj.src ..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\vj.c"
+	.compiler_name		"ctc"
+	;source	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\vj.c'
+
+	
+$TC162
+	
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L3:
+	.word	4545
+	.half	3
+	.word	.L4
+	.byte	4
+.L2:
+	.byte	1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\vj.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L5
+	.byte	2,1,3
+	.word	166
+	.byte	4
+	.byte	'__codeptr',0,1,1,1
+	.word	168
+	.byte	5
+	.byte	'unsigned char',0,1,8,4
+	.byte	'boolean',0,2,102,29
+	.word	191
+	.byte	4
+	.byte	'uint8',0,2,106,29
+	.word	191
+	.byte	5
+	.byte	'unsigned short int',0,2,7,4
+	.byte	'uint16',0,2,110,29
+	.word	238
+	.byte	5
+	.byte	'unsigned long int',0,4,7,4
+	.byte	'uint32',0,2,114,29
+	.word	275
+	.byte	4
+	.byte	'Std_ReturnType',0,3,109,16
+	.word	191
+	.byte	4
+	.byte	'PduIdType',0,4,37,21
+	.word	191
+	.byte	4
+	.byte	'PduLengthType',0,4,41,22
+	.word	238
+	.byte	6,5,101,9,1,7
+	.byte	'BUFREQ_OK',0,0,7
+	.byte	'BUFREQ_E_NOT_OK',0,1,7
+	.byte	'BUFREQ_E_BUSY',0,2,7
+	.byte	'BUFREQ_E_OVFL',0,3,0,4
+	.byte	'BufReq_ReturnType',0,5,107,3
+	.word	374
+	.byte	3
+	.word	191
+	.byte	4
+	.byte	'SduDataPtrType',0,5,189,1,40
+	.word	468
+	.byte	6,5,204,1,9,1,7
+	.byte	'TP_DATACONF',0,0,7
+	.byte	'TP_DATARETRY',0,1,7
+	.byte	'TP_CONFPENDING',0,2,0,4
+	.byte	'TpDataStateType',0,5,216,1,3
+	.word	497
+	.byte	4
+	.byte	'TcpIp_SocketIdType',0,6,50,16
+	.word	191
+	.byte	8,4
+	.word	275
+	.byte	9,0,0,10,6,52,9,4,11
+	.byte	'Addr',0
+	.word	602
+	.byte	4,2,35,0,0,4
+	.byte	'TcpIp_IpAddressType',0,6,55,3
+	.word	611
+	.byte	4
+	.byte	'TcpIp_DomainType',0,6,61,16
+	.word	238
+	.byte	10,6,68,9,8,11
+	.byte	'Domain',0
+	.word	238
+	.byte	2,2,35,0,11
+	.byte	'Port',0
+	.word	238
+	.byte	2,2,35,2,11
+	.byte	'Addr',0
+	.word	602
+	.byte	4,2,35,4,0,4
+	.byte	'TcpIp_SockAddrInetType',0,6,73,3
+	.word	684
+	.byte	4
+	.byte	'TcpIp_AddressType',0,7,128,1,15
+	.word	191
+	.byte	4
+	.byte	'TcpIp_CtrlIdType',0,7,142,1,15
+	.word	191
+	.byte	4
+	.byte	'TcpIp_IpAddrStateType',0,7,144,1,15
+	.word	191
+	.byte	4
+	.byte	'TcpIp_LocalAddrAssignmentConfigType',0,7,149,1,15
+	.word	191
+	.byte	4
+	.byte	'TcpIp_StaticAddrIdType',0,7,151,1,15
+	.word	191
+	.byte	10,7,152,1,9,12,11
+	.byte	'State',0
+	.word	191
+	.byte	1,2,35,0,11
+	.byte	'Netmask',0
+	.word	191
+	.byte	1,2,35,1,11
+	.byte	'Domain',0
+	.word	238
+	.byte	2,2,35,2,11
+	.byte	'IpAddr',0
+	.word	611
+	.byte	4,2,35,4,11
+	.byte	'DefaultRouter',0
+	.word	611
+	.byte	4,2,35,8,0,4
+	.byte	'TcpIp_StaticIpAddrType',0,7,162,1,3
+	.word	926
+	.byte	4
+	.byte	'TcpIp_LocalAddrIdType',0,7,173,1,15
+	.word	191
+	.byte	8,3
+	.word	191
+	.byte	9,2,0,10,7,231,1,9,8,11
+	.byte	'CtrlId',0
+	.word	191
+	.byte	1,2,35,0,11
+	.byte	'Address',0
+	.word	191
+	.byte	1,2,35,1,11
+	.byte	'Domain',0
+	.word	238
+	.byte	2,2,35,2,11
+	.byte	'StaticAddrId',0
+	.word	191
+	.byte	1,2,35,4,11
+	.byte	'Assignments',0
+	.word	1083
+	.byte	3,2,35,5,0,4
+	.byte	'TcpIp_LocalAddrConfigType',0,7,243,1,3
+	.word	1092
+	.byte	10,7,245,1,9,4,11
+	.byte	'ArpConfigId',0
+	.word	191
+	.byte	1,2,35,0,11
+	.byte	'DHCPConfigId',0
+	.word	191
+	.byte	1,2,35,1,11
+	.byte	'AutoIpInitTimeout',0
+	.word	238
+	.byte	2,2,35,2,0,4
+	.byte	'TcpIp_IpV4CtrlConfigType',0,7,130,2,3
+	.word	1226
+	.byte	10,7,133,2,9,8,11
+	.byte	'CtrlIdx',0
+	.word	191
+	.byte	1,2,35,0,11
+	.byte	'FramePrio',0
+	.word	191
+	.byte	1,2,35,1,11
+	.byte	'UnicastAddrId',0
+	.word	191
+	.byte	1,2,35,2,11
+	.byte	'UnicastAddrLimit',0
+	.word	191
+	.byte	1,2,35,3,11
+	.byte	'MulticastAddrId',0
+	.word	191
+	.byte	1,2,35,4,11
+	.byte	'LocalAddrLimit',0
+	.word	191
+	.byte	1,2,35,5,11
+	.byte	'IpV4CtrlId',0
+	.word	191
+	.byte	1,2,35,6,11
+	.byte	'IpV6CtrlId',0
+	.word	191
+	.byte	1,2,35,7,0,4
+	.byte	'TcpIp_NetIfCtrlConfigType',0,7,148,2,3
+	.word	1337
+	.byte	4
+	.byte	'SoAd_RoutingGroupIdType',0,8,43,15
+	.word	191
+	.byte	4
+	.byte	'SoAd_SoConIdType',0,8,44,15
+	.word	191
+	.byte	4
+	.byte	'SoAd_SoConGroupIdType',0,8,45,15
+	.word	191
+	.byte	4
+	.byte	'SoAd_PduRouteIdType',0,8,46,15
+	.word	191
+	.byte	4
+	.byte	'SoAd_PduRouteDestIdType',0,8,47,15
+	.word	191
+	.byte	4
+	.byte	'SoAd_SocketRouteIdType',0,8,48,15
+	.word	191
+	.byte	4
+	.byte	'SoAd_IfTxUnconfirmedType',0,8,49,16
+	.word	238
+	.byte	4
+	.byte	'SoAd_IfTxTimerType',0,8,51,16
+	.word	238
+	.byte	8,1
+	.word	191
+	.byte	9,0,0,10,8,53,9,2,11
+	.byte	'Mask',0
+	.word	1791
+	.byte	1,2,35,0,11
+	.byte	'RoutingState',0
+	.word	1791
+	.byte	1,2,35,1,0,4
+	.byte	'SoAd_RoutingGroupCtrlType',0,8,57,3
+	.word	1800
+	.byte	6,8,63,9,1,7
+	.byte	'SOAD_UL_DOIP',0,0,7
+	.byte	'SOAD_UL_UDPNM',0,1,7
+	.byte	'SOAD_UL_PDUR',0,2,7
+	.byte	'SOAD_UL_XCP',0,3,7
+	.byte	'SOAD_UL_MAX',0,4,0,4
+	.byte	'SoAd_ULIndexType',0,8,71,3
+	.word	1876
+	.byte	4
+	.byte	'SoAd_RemoteAddressType',0,9,113,32
+	.word	684
+	.byte	6,9,115,9,1,7
+	.byte	'SOAD_SOCON_UNINIT',0,0,7
+	.byte	'SOAD_SOCON_OFFLINE',0,1,7
+	.byte	'SOAD_SOCON_RECONN',0,2,7
+	.byte	'SOAD_SOCON_ONLINE',0,3,0,4
+	.byte	'SoAd_SoConModeType',0,9,121,3
+	.word	2012
+	.byte	12
+	.word	191
+	.byte	3
+	.word	2126
+	.byte	12
+	.word	191
+	.byte	3
+	.word	2136
+	.byte	12
+	.word	191
+	.byte	3
+	.word	2146
+	.byte	12
+	.word	1876
+	.byte	3
+	.word	2156
+	.byte	10,9,129,1,9,36,11
+	.byte	'IfBufferLength',0
+	.word	238
+	.byte	2,2,35,0,11
+	.byte	'IfBufferOffset',0
+	.word	238
+	.byte	2,2,35,2,11
+	.byte	'TpBufferLength',0
+	.word	238
+	.byte	2,2,35,4,11
+	.byte	'TpBufferOffset',0
+	.word	238
+	.byte	2,2,35,6,11
+	.byte	'PduRouteNum',0
+	.word	191
+	.byte	1,2,35,8,11
+	.byte	'SocketRouteNum',0
+	.word	191
+	.byte	1,2,35,9,11
+	.byte	'PduRouteDestNum',0
+	.word	191
+	.byte	1,2,35,10,11
+	.byte	'RemoteAddrState',0
+	.word	191
+	.byte	1,2,35,11,11
+	.byte	'RemoteAddr',0
+	.word	684
+	.byte	8,2,35,12,11
+	.byte	'PduRouteDestList',0
+	.word	2131
+	.byte	4,2,35,20,11
+	.byte	'PduRouteList',0
+	.word	2141
+	.byte	4,2,35,24,11
+	.byte	'SocketRouteList',0
+	.word	2151
+	.byte	4,2,35,28,11
+	.byte	'SoConModeChgList',0
+	.word	2161
+	.byte	4,2,35,32,0,4
+	.byte	'SoAd_SocketConnectionType',0,9,146,1,3
+	.word	2166
+	.byte	10,9,148,1,9,16,11
+	.byte	'CtrlFlag',0
+	.word	191
+	.byte	1,2,35,0,11
+	.byte	'KeepAliveProbesMax',0
+	.word	238
+	.byte	2,2,35,2,11
+	.byte	'KeepAliveInterval',0
+	.word	275
+	.byte	4,2,35,4,11
+	.byte	'KeepAliveTime',0
+	.word	275
+	.byte	4,2,35,8,11
+	.byte	'TxQuota',0
+	.word	275
+	.byte	4,2,35,12,0,4
+	.byte	'SoAd_TcpProtocolType',0,9,155,1,3
+	.word	2518
+	.byte	10,9,157,1,9,12,11
+	.byte	'CtrlFlag',0
+	.word	191
+	.byte	1,2,35,0,11
+	.byte	'nPduTxBufferMin',0
+	.word	238
+	.byte	2,2,35,2,11
+	.byte	'TriggerTimeout',0
+	.word	238
+	.byte	2,2,35,4,11
+	.byte	'AliveSupervisionTimeout',0
+	.word	275
+	.byte	4,2,35,6,0,4
+	.byte	'SoAd_UdpProtocolType',0,9,163,1,3
+	.word	2668
+	.byte	12
+	.word	2518
+	.byte	3
+	.word	2805
+	.byte	12
+	.word	2668
+	.byte	3
+	.word	2815
+	.byte	10,9,165,1,9,24,11
+	.byte	'GroupId',0
+	.word	191
+	.byte	1,2,35,0,11
+	.byte	'CtrlFlag',0
+	.word	191
+	.byte	1,2,35,1,11
+	.byte	'FramePriority',0
+	.word	191
+	.byte	1,2,35,2,11
+	.byte	'SoConNum',0
+	.word	191
+	.byte	1,2,35,3,11
+	.byte	'SoConId',0
+	.word	191
+	.byte	1,2,35,4,11
+	.byte	'IpAddrAssignChgNum',0
+	.word	191
+	.byte	1,2,35,5,11
+	.byte	'LocalAddrId',0
+	.word	191
+	.byte	1,2,35,6,11
+	.byte	'LocalPort',0
+	.word	238
+	.byte	2,2,35,8,11
+	.byte	'IpAddrAssignChgList',0
+	.word	2161
+	.byte	4,2,35,12,11
+	.byte	'TcpProtocolPtr',0
+	.word	2810
+	.byte	4,2,35,16,11
+	.byte	'UdpProtocolPtr',0
+	.word	2820
+	.byte	4,2,35,20,0,4
+	.byte	'SoAd_SocketConnectionGroupType',0,9,178,1,3
+	.word	2825
+	.byte	12
+	.word	191
+	.byte	3
+	.word	3110
+	.byte	10,9,180,1,9,12,11
+	.byte	'CtrlFlag',0
+	.word	191
+	.byte	1,2,35,0,11
+	.byte	'PduRouteDestNum',0
+	.word	191
+	.byte	1,2,35,1,11
+	.byte	'SocketRouteDestNum',0
+	.word	191
+	.byte	1,2,35,2,11
+	.byte	'PduRouteDestList',0
+	.word	3115
+	.byte	4,2,35,4,11
+	.byte	'SocketRouteDestList',0
+	.word	3115
+	.byte	4,2,35,8,0,4
+	.byte	'SoAd_RoutingGroupType',0,9,187,1,3
+	.word	3120
+	.byte	10,9,189,1,9,6,11
+	.byte	'ULType',0
+	.word	191
+	.byte	1,2,35,0,11
+	.byte	'ULIndex',0
+	.word	1876
+	.byte	1,2,35,1,11
+	.byte	'CtrlFlag',0
+	.word	191
+	.byte	1,2,35,2,11
+	.byte	'RouteDestNum',0
+	.word	191
+	.byte	1,2,35,3,11
+	.byte	'RouteDestId',0
+	.word	191
+	.byte	1,2,35,4,11
+	.byte	'TxPduId',0
+	.word	191
+	.byte	1,2,35,5,0,4
+	.byte	'SoAd_PduRouteType',0,9,204,1,3
+	.word	3284
+	.byte	3
+	.word	1800
+	.byte	10,9,206,1,9,20,11
+	.byte	'TxPduHeaderId',0
+	.word	275
+	.byte	4,2,35,0,11
+	.byte	'SoConNum',0
+	.word	191
+	.byte	1,2,35,4,11
+	.byte	'SoConId',0
+	.word	191
+	.byte	1,2,35,5,11
+	.byte	'PduRouteId',0
+	.word	191
+	.byte	1,2,35,6,11
+	.byte	'UdpTriggerMode',0
+	.word	191
+	.byte	1,2,35,7,11
+	.byte	'UdpTriggerTimeout',0
+	.word	238
+	.byte	2,2,35,8,11
+	.byte	'RoutingCtrlList',0
+	.word	3429
+	.byte	4,2,35,12,11
+	.byte	'IfTriggerList',0
+	.word	468
+	.byte	4,2,35,16,0,4
+	.byte	'SoAd_PduRouteDestType',0,9,217,1,3
+	.word	3434
+	.byte	10,9,219,1,9,16,11
+	.byte	'RxPduHeaderId',0
+	.word	275
+	.byte	4,2,35,0,11
+	.byte	'ULType',0
+	.word	191
+	.byte	1,2,35,4,11
+	.byte	'ULIndex',0
+	.word	1876
+	.byte	1,2,35,5,11
+	.byte	'SoConNum',0
+	.word	191
+	.byte	1,2,35,6,11
+	.byte	'SoConId',0
+	.word	191
+	.byte	1,2,35,7,11
+	.byte	'RxPduId',0
+	.word	191
+	.byte	1,2,35,8,11
+	.byte	'RoutingCtrlList',0
+	.word	3429
+	.byte	4,2,35,12,0,4
+	.byte	'SoAd_SocketRouteType',0,9,236,1,3
+	.word	3649
+	.byte	12
+	.word	3434
+	.byte	3
+	.word	3819
+	.byte	10,9,155,2,9,24,11
+	.byte	'State',0
+	.word	191
+	.byte	1,2,35,0,11
+	.byte	'Timer',0
+	.word	238
+	.byte	2,2,35,2,11
+	.byte	'BufferLength',0
+	.word	238
+	.byte	2,2,35,4,11
+	.byte	'BufferOffset',0
+	.word	238
+	.byte	2,2,35,6,11
+	.byte	'UdpTxBuffer',0
+	.word	468
+	.byte	4,2,35,8,11
+	.byte	'TotalTxLength',0
+	.word	238
+	.byte	2,2,35,12,11
+	.byte	'UsedTxLength',0
+	.word	238
+	.byte	2,2,35,14,11
+	.byte	'IfTxDataBuffer',0
+	.word	3115
+	.byte	4,2,35,16,11
+	.byte	'PduRouteDestPtr',0
+	.word	3824
+	.byte	4,2,35,20,0,4
+	.byte	'SoAd_TxSessionType',0,9,177,2,3
+	.word	3829
+	.byte	12
+	.word	3649
+	.byte	3
+	.word	4053
+	.byte	10,9,180,2,9,8,11
+	.byte	'PduLength',0
+	.word	238
+	.byte	2,2,35,0,11
+	.byte	'RemainLength',0
+	.word	238
+	.byte	2,2,35,2,11
+	.byte	'SocketRoutePtr',0
+	.word	4058
+	.byte	4,2,35,4,0,4
+	.byte	'SoAd_RxPduInfoType',0,9,185,2,3
+	.word	4063
+	.byte	10,9,187,2,9,12,11
+	.byte	'TotalLength',0
+	.word	238
+	.byte	2,2,35,0,11
+	.byte	'In',0
+	.word	238
+	.byte	2,2,35,2,11
+	.byte	'Out',0
+	.word	238
+	.byte	2,2,35,4,11
+	.byte	'BufferPtr',0
+	.word	468
+	.byte	4,2,35,8,0,4
+	.byte	'SoAd_RxFifoType',0,9,193,2,3
+	.word	4163
+	.byte	10,9,195,2,9,8,11
+	.byte	'TotalLength',0
+	.word	238
+	.byte	2,2,35,0,11
+	.byte	'UsedLength',0
+	.word	238
+	.byte	2,2,35,2,11
+	.byte	'BufferPtr',0
+	.word	468
+	.byte	4,2,35,4,0,4
+	.byte	'SoAd_RxBufferType',0,9,200,2,3
+	.word	4260
+	.byte	8,8
+	.word	191
+	.byte	9,7,0,10,9,202,2,9,48,11
+	.byte	'State',0
+	.word	191
+	.byte	1,2,35,0,11
+	.byte	'ValidHeaderLen',0
+	.word	191
+	.byte	1,2,35,1,11
+	.byte	'PduHeader',0
+	.word	4354
+	.byte	8,2,35,2,11
+	.byte	'RxPduInfo',0
+	.word	4063
+	.byte	8,2,35,12,11
+	.byte	'ProcessPduInfo',0
+	.word	4063
+	.byte	8,2,35,20,11
+	.byte	'IfBuffer',0
+	.word	4260
+	.byte	8,2,35,28,11
+	.byte	'TpBuffer',0
+	.word	4163
+	.byte	12,2,35,36,0,4
+	.byte	'SoAd_RxSessionType',0,9,216,2,3
+	.word	4363
+	.byte	4
+	.byte	'u8_t',0,10,61,25
+	.word	191
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L4:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,0,0,3,15,0,73,19,0,0,4,22,0,3,8,58,15,59,15
+	.byte	57,15,73,19,0,0,5,36,0,3,8,11,15,62,15,0,0,6,4,1,58,15,59,15,57,15,11,15,0,0,7,40,0,3,8,28,13,0,0,8,1
+	.byte	1,11,15,73,19,0,0,9,33,0,47,15,0,0,10,19,1,58,15,59,15,57,15,11,15,0,0,11,13,0,3,8,73,19,11,15,56,9,0
+	.byte	0,12,38,0,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L5:
+	.word	.L7-.L6
+.L6:
+	.half	3
+	.word	.L9-.L8
+.L8:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Config',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\SoAd',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\arch',0,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\vj.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0
+	.byte	'Std_Types.h',0,1,0,0
+	.byte	'ComStack_Types_Cfg.h',0,2,0,0
+	.byte	'ComStack_Types.h',0,3,0,0
+	.byte	'TcpIp_GeneratedTypes.h',0,2,0,0
+	.byte	'TcpIp_Types.h',0,4,0,0
+	.byte	'SoAd_GeneratedTypes.h',0,2,0,0
+	.byte	'SoAd_Types.h',0,5,0,0
+	.byte	'cc.h',0,6,0,0,0
+.L9:
+.L7:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	     1  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	     2   * Routines to compress and uncompess tcp packets (for transmission
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	     3   * over low speed serial lines.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	     4   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	     5   * Copyright (c) 1989 Regents of the University of California.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	     6   * All rights reserved.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	     7   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	     8   * Redistribution and use in source and binary forms are permitted
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	     9   * provided that the above copyright notice and this paragraph are
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    10   * duplicated in all such forms and that any documentation,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    11   * advertising materials, and other materials related to such
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    12   * distribution and use acknowledge that the software was developed
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    13   * by the University of California, Berkeley.  The name of the
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    14   * University may not be used to endorse or promote products derived
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    15   * from this software without specific prior written permission.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    16   * THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    17   * IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    18   * WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    19   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    20   * Van Jacobson (van@helios.ee.lbl.gov), Dec 31, 1989:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    21   *   Initial distribution.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    22   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    23   * Modified June 1993 by Paul Mackerras, paulus@cs.anu.edu.au,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    24   * so that the entire packet being decompressed doesn't have
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    25   * to be in contiguous memory (just the compressed header).
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    26   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    27   * Modified March 1998 by Guy Lancaster, glanca@gesn.com,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    28   * for a 16 bit processor.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    29   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    30  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    31  #include "netif/ppp/ppp_opts.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    32  #if PPP_SUPPORT && VJ_SUPPORT /* don't build if not configured for use in lwipopts.h */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    33  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    34  #include "netif/ppp/ppp_impl.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    35  #include "netif/ppp/pppdebug.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    36  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    37  #include "netif/ppp/vj.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    38  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    39  #include <string.h>
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    40  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    41  #if LINK_STATS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    42  #define INCR(counter) ++comp->stats.counter
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    43  #else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    44  #define INCR(counter)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    45  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    46  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    47  void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    48  vj_compress_init(struct vjcompress *comp)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    49  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    50    u8_t i;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    51    struct cstate *tstate = comp->tstate;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    52  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    53  #if MAX_SLOTS == 0
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    54    memset((char *)comp, 0, sizeof(*comp));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    55  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    56    comp->maxSlotIndex = MAX_SLOTS - 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    57    comp->compressSlot = 0;    /* Disable slot ID compression by default. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    58    for (i = MAX_SLOTS - 1; i > 0; --i) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    59      tstate[i].cs_id = i;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    60      tstate[i].cs_next = &tstate[i - 1];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    61    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    62    tstate[0].cs_next = &tstate[MAX_SLOTS - 1];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    63    tstate[0].cs_id = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    64    comp->last_cs = &tstate[0];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    65    comp->last_recv = 255;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    66    comp->last_xmit = 255;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    67    comp->flags = VJF_TOSS;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    68  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    69  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    70  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    71  /* ENCODE encodes a number that is known to be non-zero.  ENCODEZ
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    72   * checks for zero (since zero has to be encoded in the long, 3 byte
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    73   * form).
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    74   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    75  #define ENCODE(n) { \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    76    if ((u16_t)(n) >= 256) { \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    77      *cp++ = 0; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    78      cp[1] = (u8_t)(n); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    79      cp[0] = (u8_t)((n) >> 8); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    80      cp += 2; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    81    } else { \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    82      *cp++ = (u8_t)(n); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    83    } \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    84  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    85  #define ENCODEZ(n) { \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    86    if ((u16_t)(n) >= 256 || (u16_t)(n) == 0) { \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    87      *cp++ = 0; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    88      cp[1] = (u8_t)(n); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    89      cp[0] = (u8_t)((n) >> 8); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    90      cp += 2; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    91    } else { \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    92      *cp++ = (u8_t)(n); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    93    } \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    94  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    95  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    96  #define DECODEL(f) { \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    97    if (*cp == 0) {\ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    98      u32_t tmp_ = lwip_ntohl(f) + ((cp[1] << 8) | cp[2]); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	    99      (f) = lwip_htonl(tmp_); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   100      cp += 3; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   101    } else { \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   102      u32_t tmp_ = lwip_ntohl(f) + (u32_t)*cp++; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   103      (f) = lwip_htonl(tmp_); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   104    } \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   105  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   106  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   107  #define DECODES(f) { \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   108    if (*cp == 0) {\ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   109      u16_t tmp_ = lwip_ntohs(f) + (((u16_t)cp[1] << 8) | cp[2]); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   110      (f) = lwip_htons(tmp_); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   111      cp += 3; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   112    } else { \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   113      u16_t tmp_ = lwip_ntohs(f) + (u16_t)*cp++; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   114      (f) = lwip_htons(tmp_); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   115    } \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   116  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   117  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   118  #define DECODEU(f) { \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   119    if (*cp == 0) {\ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   120      (f) = lwip_htons(((u16_t)cp[1] << 8) | cp[2]); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   121      cp += 3; \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   122    } else { \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   123      (f) = lwip_htons((u16_t)*cp++); \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   124    } \ 
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   125  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   126  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   127  /* Helper structures for unaligned *u32_t and *u16_t accesses */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   128  #ifdef PACK_STRUCT_USE_INCLUDES
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   129  #  include "arch/bpstruct.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   130  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   131  PACK_STRUCT_BEGIN
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   132  struct vj_u32_t {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   133    PACK_STRUCT_FIELD(u32_t v);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   134  } PACK_STRUCT_STRUCT;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   135  PACK_STRUCT_END
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   136  #ifdef PACK_STRUCT_USE_INCLUDES
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   137  #  include "arch/epstruct.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   138  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   139  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   140  #ifdef PACK_STRUCT_USE_INCLUDES
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   141  #  include "arch/bpstruct.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   142  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   143  PACK_STRUCT_BEGIN
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   144  struct vj_u16_t {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   145    PACK_STRUCT_FIELD(u16_t v);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   146  } PACK_STRUCT_STRUCT;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   147  PACK_STRUCT_END
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   148  #ifdef PACK_STRUCT_USE_INCLUDES
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   149  #  include "arch/epstruct.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   150  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   151  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   152  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   153   * vj_compress_tcp - Attempt to do Van Jacobson header compression on a
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   154   * packet.  This assumes that nb and comp are not null and that the first
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   155   * buffer of the chain contains a valid IP header.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   156   * Return the VJ type code indicating whether or not the packet was
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   157   * compressed.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   158   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   159  u8_t
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   160  vj_compress_tcp(struct vjcompress *comp, struct pbuf **pb)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   161  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   162    struct pbuf *np = *pb;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   163    struct ip_hdr *ip = (struct ip_hdr *)np->payload;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   164    struct cstate *cs = comp->last_cs->cs_next;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   165    u16_t ilen = IPH_HL(ip);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   166    u16_t hlen;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   167    struct tcp_hdr *oth;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   168    struct tcp_hdr *th;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   169    u16_t deltaS, deltaA = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   170    u32_t deltaL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   171    u32_t changes = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   172    u8_t new_seq[16];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   173    u8_t *cp = new_seq;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   174  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   175    /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   176     * Check that the packet is IP proto TCP.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   177     */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   178    if (IPH_PROTO(ip) != IP_PROTO_TCP) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   179      return (TYPE_IP);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   180    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   181  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   182    /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   183     * Bail if this is an IP fragment or if the TCP packet isn't
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   184     * `compressible' (i.e., ACK isn't set or some other control bit is
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   185     * set).
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   186     */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   187    if ((IPH_OFFSET(ip) & PP_HTONS(0x3fff)) || np->tot_len < 40) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   188      return (TYPE_IP);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   189    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   190    th = (struct tcp_hdr *)&((struct vj_u32_t*)ip)[ilen];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   191    if ((TCPH_FLAGS(th) & (TCP_SYN|TCP_FIN|TCP_RST|TCP_ACK)) != TCP_ACK) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   192      return (TYPE_IP);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   193    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   194  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   195    /* Check that the TCP/IP headers are contained in the first buffer. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   196    hlen = ilen + TCPH_HDRLEN(th);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   197    hlen <<= 2;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   198    if (np->len < hlen) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   199      PPPDEBUG(LOG_INFO, ("vj_compress_tcp: header len %d spans buffers\n", hlen));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   200      return (TYPE_IP);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   201    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   202  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   203    /* TCP stack requires that we don't change the packet payload, therefore we copy
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   204     * the whole packet before compression. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   205    np = pbuf_clone(PBUF_RAW, PBUF_RAM, *pb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   206    if (!np) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   207      return (TYPE_IP);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   208    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   209  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   210    *pb = np;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   211    ip = (struct ip_hdr *)np->payload;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   212  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   213    /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   214     * Packet is compressible -- we're going to send either a
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   215     * COMPRESSED_TCP or UNCOMPRESSED_TCP packet.  Either way we need
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   216     * to locate (or create) the connection state.  Special case the
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   217     * most recently used connection since it's most likely to be used
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   218     * again & we don't have to do any reordering if it's used.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   219     */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   220    INCR(vjs_packets);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   221    if (!ip4_addr_cmp(&ip->src, &cs->cs_ip.src)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   222        || !ip4_addr_cmp(&ip->dest, &cs->cs_ip.dest)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   223        || (*(struct vj_u32_t*)th).v != (((struct vj_u32_t*)&cs->cs_ip)[IPH_HL(&cs->cs_ip)]).v) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   224      /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   225       * Wasn't the first -- search for it.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   226       *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   227       * States are kept in a circularly linked list with
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   228       * last_cs pointing to the end of the list.  The
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   229       * list is kept in lru order by moving a state to the
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   230       * head of the list whenever it is referenced.  Since
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   231       * the list is short and, empirically, the connection
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   232       * we want is almost always near the front, we locate
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   233       * states via linear search.  If we don't find a state
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   234       * for the datagram, the oldest state is (re-)used.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   235       */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   236      struct cstate *lcs;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   237      struct cstate *lastcs = comp->last_cs;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   238  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   239      do {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   240        lcs = cs; cs = cs->cs_next;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   241        INCR(vjs_searches);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   242        if (ip4_addr_cmp(&ip->src, &cs->cs_ip.src)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   243            && ip4_addr_cmp(&ip->dest, &cs->cs_ip.dest)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   244            && (*(struct vj_u32_t*)th).v == (((struct vj_u32_t*)&cs->cs_ip)[IPH_HL(&cs->cs_ip)]).v) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   245          goto found;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   246        }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   247      } while (cs != lastcs);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   248  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   249      /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   250       * Didn't find it -- re-use oldest cstate.  Send an
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   251       * uncompressed packet that tells the other side what
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   252       * connection number we're using for this conversation.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   253       * Note that since the state list is circular, the oldest
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   254       * state points to the newest and we only need to set
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   255       * last_cs to update the lru linkage.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   256       */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   257      INCR(vjs_misses);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   258      comp->last_cs = lcs;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   259      goto uncompressed;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   260  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   261      found:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   262      /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   263       * Found it -- move to the front on the connection list.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   264       */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   265      if (cs == lastcs) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   266        comp->last_cs = lcs;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   267      } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   268        lcs->cs_next = cs->cs_next;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   269        cs->cs_next = lastcs->cs_next;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   270        lastcs->cs_next = cs;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   271      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   272    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   273  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   274    oth = (struct tcp_hdr *)&((struct vj_u32_t*)&cs->cs_ip)[ilen];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   275    deltaS = ilen;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   276  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   277    /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   278     * Make sure that only what we expect to change changed. The first
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   279     * line of the `if' checks the IP protocol version, header length &
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   280     * type of service.  The 2nd line checks the "Don't fragment" bit.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   281     * The 3rd line checks the time-to-live and protocol (the protocol
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   282     * check is unnecessary but costless).  The 4th line checks the TCP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   283     * header length.  The 5th line checks IP options, if any.  The 6th
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   284     * line checks TCP options, if any.  If any of these things are
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   285     * different between the previous & current datagram, we send the
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   286     * current datagram `uncompressed'.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   287     */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   288    if ((((struct vj_u16_t*)ip)[0]).v != (((struct vj_u16_t*)&cs->cs_ip)[0]).v
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   289        || (((struct vj_u16_t*)ip)[3]).v != (((struct vj_u16_t*)&cs->cs_ip)[3]).v
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   290        || (((struct vj_u16_t*)ip)[4]).v != (((struct vj_u16_t*)&cs->cs_ip)[4]).v
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   291        || TCPH_HDRLEN(th) != TCPH_HDRLEN(oth)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   292        || (deltaS > 5 && BCMP(ip + 1, &cs->cs_ip + 1, (deltaS - 5) << 2))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   293        || (TCPH_HDRLEN(th) > 5 && BCMP(th + 1, oth + 1, (TCPH_HDRLEN(th) - 5) << 2))) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   294      goto uncompressed;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   295    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   296  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   297    /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   298     * Figure out which of the changing fields changed.  The
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   299     * receiver expects changes in the order: urgent, window,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   300     * ack, seq (the order minimizes the number of temporaries
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   301     * needed in this section of code).
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   302     */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   303    if (TCPH_FLAGS(th) & TCP_URG) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   304      deltaS = lwip_ntohs(th->urgp);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   305      ENCODEZ(deltaS);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   306      changes |= NEW_U;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   307    } else if (th->urgp != oth->urgp) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   308      /* argh! URG not set but urp changed -- a sensible
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   309       * implementation should never do this but RFC793
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   310       * doesn't prohibit the change so we have to deal
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   311       * with it. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   312      goto uncompressed;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   313    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   314  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   315    if ((deltaS = (u16_t)(lwip_ntohs(th->wnd) - lwip_ntohs(oth->wnd))) != 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   316      ENCODE(deltaS);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   317      changes |= NEW_W;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   318    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   319  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   320    if ((deltaL = lwip_ntohl(th->ackno) - lwip_ntohl(oth->ackno)) != 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   321      if (deltaL > 0xffff) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   322        goto uncompressed;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   323      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   324      deltaA = (u16_t)deltaL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   325      ENCODE(deltaA);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   326      changes |= NEW_A;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   327    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   328  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   329    if ((deltaL = lwip_ntohl(th->seqno) - lwip_ntohl(oth->seqno)) != 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   330      if (deltaL > 0xffff) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   331        goto uncompressed;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   332      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   333      deltaS = (u16_t)deltaL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   334      ENCODE(deltaS);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   335      changes |= NEW_S;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   336    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   337  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   338    switch(changes) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   339    case 0:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   340      /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   341       * Nothing changed. If this packet contains data and the
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   342       * last one didn't, this is probably a data packet following
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   343       * an ack (normal on an interactive connection) and we send
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   344       * it compressed.  Otherwise it's probably a retransmit,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   345       * retransmitted ack or window probe.  Send it uncompressed
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   346       * in case the other side missed the compressed version.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   347       */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   348      if (IPH_LEN(ip) != IPH_LEN(&cs->cs_ip) &&
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   349        lwip_ntohs(IPH_LEN(&cs->cs_ip)) == hlen) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   350        break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   351      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   352      /* no break */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   353      /* fall through */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   354  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   355    case SPECIAL_I:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   356    case SPECIAL_D:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   357      /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   358       * actual changes match one of our special case encodings --
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   359       * send packet uncompressed.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   360       */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   361      goto uncompressed;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   362  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   363    case NEW_S|NEW_A:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   364      if (deltaS == deltaA && deltaS == lwip_ntohs(IPH_LEN(&cs->cs_ip)) - hlen) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   365        /* special case for echoed terminal traffic */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   366        changes = SPECIAL_I;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   367        cp = new_seq;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   368      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   369      break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   370  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   371    case NEW_S:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   372      if (deltaS == lwip_ntohs(IPH_LEN(&cs->cs_ip)) - hlen) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   373        /* special case for data xfer */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   374        changes = SPECIAL_D;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   375        cp = new_seq;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   376      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   377      break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   378    default:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   379       break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   380    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   381  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   382    deltaS = (u16_t)(lwip_ntohs(IPH_ID(ip)) - lwip_ntohs(IPH_ID(&cs->cs_ip)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   383    if (deltaS != 1) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   384      ENCODEZ(deltaS);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   385      changes |= NEW_I;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   386    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   387    if (TCPH_FLAGS(th) & TCP_PSH) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   388      changes |= TCP_PUSH_BIT;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   389    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   390    /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   391     * Grab the cksum before we overwrite it below.  Then update our
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   392     * state with this packet's header.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   393     */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   394    deltaA = lwip_ntohs(th->chksum);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   395    MEMCPY(&cs->cs_ip, ip, hlen);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   396  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   397    /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   398     * We want to use the original packet as our compressed packet.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   399     * (cp - new_seq) is the number of bytes we need for compressed
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   400     * sequence numbers.  In addition we need one byte for the change
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   401     * mask, one for the connection id and two for the tcp checksum.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   402     * So, (cp - new_seq) + 4 bytes of header are needed.  hlen is how
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   403     * many bytes of the original packet to toss so subtract the two to
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   404     * get the new packet size.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   405     */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   406    deltaS = (u16_t)(cp - new_seq);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   407    if (!comp->compressSlot || comp->last_xmit != cs->cs_id) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   408      comp->last_xmit = cs->cs_id;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   409      hlen -= deltaS + 4;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   410      if (pbuf_remove_header(np, hlen)){
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   411        /* Can we cope with this failing?  Just assert for now */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   412        LWIP_ASSERT("pbuf_remove_header failed\n", 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   413      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   414      cp = (u8_t*)np->payload;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   415      *cp++ = (u8_t)(changes | NEW_C);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   416      *cp++ = cs->cs_id;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   417    } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   418      hlen -= deltaS + 3;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   419      if (pbuf_remove_header(np, hlen)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   420        /* Can we cope with this failing?  Just assert for now */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   421        LWIP_ASSERT("pbuf_remove_header failed\n", 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   422      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   423      cp = (u8_t*)np->payload;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   424      *cp++ = (u8_t)changes;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   425    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   426    *cp++ = (u8_t)(deltaA >> 8);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   427    *cp++ = (u8_t)deltaA;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   428    MEMCPY(cp, new_seq, deltaS);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   429    INCR(vjs_compressed);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   430    return (TYPE_COMPRESSED_TCP);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   431  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   432    /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   433     * Update connection state cs & send uncompressed packet (that is,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   434     * a regular ip/tcp packet but with the 'conversation id' we hope
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   435     * to use on future compressed packets in the protocol field).
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   436     */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   437  uncompressed:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   438    MEMCPY(&cs->cs_ip, ip, hlen);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   439    IPH_PROTO_SET(ip, cs->cs_id);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   440    comp->last_xmit = cs->cs_id;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   441    return (TYPE_UNCOMPRESSED_TCP);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   442  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   443  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   444  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   445   * Called when we may have missed a packet.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   446   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   447  void
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   448  vj_uncompress_err(struct vjcompress *comp)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   449  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   450    comp->flags |= VJF_TOSS;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   451    INCR(vjs_errorin);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   452  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   453  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   454  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   455   * "Uncompress" a packet of type TYPE_UNCOMPRESSED_TCP.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   456   * Return 0 on success, -1 on failure.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   457   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   458  int
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   459  vj_uncompress_uncomp(struct pbuf *nb, struct vjcompress *comp)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   460  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   461    u32_t hlen;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   462    struct cstate *cs;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   463    struct ip_hdr *ip;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   464  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   465    ip = (struct ip_hdr *)nb->payload;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   466    hlen = IPH_HL(ip) << 2;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   467    if (IPH_PROTO(ip) >= MAX_SLOTS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   468        || hlen + sizeof(struct tcp_hdr) > nb->len
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   469        || (hlen += TCPH_HDRLEN_BYTES((struct tcp_hdr *)&((char *)ip)[hlen]))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   470            > nb->len
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   471        || hlen > MAX_HDR) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   472      PPPDEBUG(LOG_INFO, ("vj_uncompress_uncomp: bad cid=%d, hlen=%d buflen=%d\n",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   473        IPH_PROTO(ip), hlen, nb->len));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   474      vj_uncompress_err(comp);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   475      return -1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   476    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   477    cs = &comp->rstate[comp->last_recv = IPH_PROTO(ip)];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   478    comp->flags &=~ VJF_TOSS;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   479    IPH_PROTO_SET(ip, IP_PROTO_TCP);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   480    /* copy from/to bigger buffers checked above instead of cs->cs_ip and ip
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   481       just to help static code analysis to see this is correct ;-) */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   482    MEMCPY(&cs->cs_hdr, nb->payload, hlen);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   483    cs->cs_hlen = (u16_t)hlen;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   484    INCR(vjs_uncompressedin);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   485    return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   486  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   487  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   488  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   489   * Uncompress a packet of type TYPE_COMPRESSED_TCP.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   490   * The packet is composed of a buffer chain and the first buffer
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   491   * must contain an accurate chain length.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   492   * The first buffer must include the entire compressed TCP/IP header.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   493   * This procedure replaces the compressed header with the uncompressed
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   494   * header and returns the length of the VJ header.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   495   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   496  int
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   497  vj_uncompress_tcp(struct pbuf **nb, struct vjcompress *comp)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   498  {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   499    u8_t *cp;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   500    struct tcp_hdr *th;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   501    struct cstate *cs;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   502    struct vj_u16_t *bp;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   503    struct pbuf *n0 = *nb;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   504    u32_t tmp;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   505    u32_t vjlen, hlen, changes;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   506  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   507    INCR(vjs_compressedin);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   508    cp = (u8_t*)n0->payload;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   509    changes = *cp++;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   510    if (changes & NEW_C) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   511      /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   512       * Make sure the state index is in range, then grab the state.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   513       * If we have a good state index, clear the 'discard' flag.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   514       */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   515      if (*cp >= MAX_SLOTS) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   516        PPPDEBUG(LOG_INFO, ("vj_uncompress_tcp: bad cid=%d\n", *cp));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   517        goto bad;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   518      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   519  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   520      comp->flags &=~ VJF_TOSS;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   521      comp->last_recv = *cp++;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   522    } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   523      /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   524       * this packet has an implicit state index.  If we've
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   525       * had a line error since the last time we got an
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   526       * explicit state index, we have to toss the packet.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   527       */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   528      if (comp->flags & VJF_TOSS) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   529        PPPDEBUG(LOG_INFO, ("vj_uncompress_tcp: tossing\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   530        INCR(vjs_tossed);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   531        return (-1);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   532      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   533    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   534    cs = &comp->rstate[comp->last_recv];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   535    hlen = IPH_HL(&cs->cs_ip) << 2;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   536    th = (struct tcp_hdr *)&((u8_t*)&cs->cs_ip)[hlen];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   537    th->chksum = lwip_htons((*cp << 8) | cp[1]);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   538    cp += 2;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   539    if (changes & TCP_PUSH_BIT) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   540      TCPH_SET_FLAG(th, TCP_PSH);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   541    } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   542      TCPH_UNSET_FLAG(th, TCP_PSH);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   543    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   544  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   545    switch (changes & SPECIALS_MASK) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   546    case SPECIAL_I:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   547      {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   548        u32_t i = lwip_ntohs(IPH_LEN(&cs->cs_ip)) - cs->cs_hlen;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   549        /* some compilers can't nest inline assembler.. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   550        tmp = lwip_ntohl(th->ackno) + i;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   551        th->ackno = lwip_htonl(tmp);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   552        tmp = lwip_ntohl(th->seqno) + i;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   553        th->seqno = lwip_htonl(tmp);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   554      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   555      break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   556  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   557    case SPECIAL_D:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   558      /* some compilers can't nest inline assembler.. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   559      tmp = lwip_ntohl(th->seqno) + lwip_ntohs(IPH_LEN(&cs->cs_ip)) - cs->cs_hlen;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   560      th->seqno = lwip_htonl(tmp);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   561      break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   562  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   563    default:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   564      if (changes & NEW_U) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   565        TCPH_SET_FLAG(th, TCP_URG);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   566        DECODEU(th->urgp);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   567      } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   568        TCPH_UNSET_FLAG(th, TCP_URG);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   569      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   570      if (changes & NEW_W) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   571        DECODES(th->wnd);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   572      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   573      if (changes & NEW_A) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   574        DECODEL(th->ackno);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   575      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   576      if (changes & NEW_S) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   577        DECODEL(th->seqno);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   578      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   579      break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   580    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   581    if (changes & NEW_I) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   582      DECODES(cs->cs_ip._id);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   583    } else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   584      IPH_ID_SET(&cs->cs_ip, lwip_ntohs(IPH_ID(&cs->cs_ip)) + 1);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   585      IPH_ID_SET(&cs->cs_ip, lwip_htons(IPH_ID(&cs->cs_ip)));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   586    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   587  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   588    /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   589     * At this point, cp points to the first byte of data in the
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   590     * packet.  Fill in the IP total length and update the IP
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   591     * header checksum.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   592     */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   593    vjlen = (u16_t)(cp - (u8_t*)n0->payload);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   594    if (n0->len < vjlen) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   595      /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   596       * We must have dropped some characters (crc should detect
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   597       * this but the old slip framing won't)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   598       */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   599      PPPDEBUG(LOG_INFO, ("vj_uncompress_tcp: head buffer %d too short %d\n",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   600            n0->len, vjlen));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   601      goto bad;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   602    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   603  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   604  #if BYTE_ORDER == LITTLE_ENDIAN
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   605    tmp = n0->tot_len - vjlen + cs->cs_hlen;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   606    IPH_LEN_SET(&cs->cs_ip, lwip_htons((u16_t)tmp));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   607  #else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   608    IPH_LEN_SET(&cs->cs_ip, lwip_htons(n0->tot_len - vjlen + cs->cs_hlen));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   609  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   610  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   611    /* recompute the ip header checksum */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   612    bp = (struct vj_u16_t*) &cs->cs_ip;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   613    IPH_CHKSUM_SET(&cs->cs_ip, 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   614    for (tmp = 0; hlen > 0; hlen -= 2) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   615      tmp += (*bp++).v;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   616    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   617    tmp = (tmp & 0xffff) + (tmp >> 16);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   618    tmp = (tmp & 0xffff) + (tmp >> 16);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   619    IPH_CHKSUM_SET(&cs->cs_ip,  (u16_t)(~tmp));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   620  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   621    /* Remove the compressed header and prepend the uncompressed header. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   622    if (pbuf_remove_header(n0, vjlen)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   623      /* Can we cope with this failing?  Just assert for now */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   624      LWIP_ASSERT("pbuf_remove_header failed\n", 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   625      goto bad;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   626    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   627  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   628    if(LWIP_MEM_ALIGN(n0->payload) != n0->payload) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   629      struct pbuf *np;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   630  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   631  #if IP_FORWARD
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   632      /* If IP forwarding is enabled we are using a PBUF_LINK packet type so
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   633       * the packet is being allocated with enough header space to be
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   634       * forwarded (to Ethernet for example).
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   635       */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   636      np = pbuf_alloc(PBUF_LINK, n0->len + cs->cs_hlen, PBUF_POOL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   637  #else /* IP_FORWARD */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   638      np = pbuf_alloc(PBUF_RAW, n0->len + cs->cs_hlen, PBUF_POOL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   639  #endif /* IP_FORWARD */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   640      if(!np) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   641        PPPDEBUG(LOG_WARNING, ("vj_uncompress_tcp: realign failed\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   642        goto bad;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   643      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   644  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   645      if (pbuf_remove_header(np, cs->cs_hlen)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   646        /* Can we cope with this failing?  Just assert for now */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   647        LWIP_ASSERT("pbuf_remove_header failed\n", 0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   648        goto bad;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   649      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   650  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   651      pbuf_take(np, n0->payload, n0->len);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   652  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   653      if(n0->next) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   654        pbuf_chain(np, n0->next);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   655        pbuf_dechain(n0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   656      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   657      pbuf_free(n0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   658      n0 = np;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   659    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   660  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   661    if (pbuf_add_header(n0, cs->cs_hlen)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   662      struct pbuf *np;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   663  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   664      LWIP_ASSERT("vj_uncompress_tcp: cs->cs_hlen <= PBUF_POOL_BUFSIZE", cs->cs_hlen <= PBUF_POOL_BUFSIZE);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   665      np = pbuf_alloc(PBUF_RAW, cs->cs_hlen, PBUF_POOL);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   666      if(!np) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   667        PPPDEBUG(LOG_WARNING, ("vj_uncompress_tcp: prepend failed\n"));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   668        goto bad;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   669      }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   670      pbuf_cat(np, n0);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   671      n0 = np;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   672    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   673    LWIP_ASSERT("n0->len >= cs->cs_hlen", n0->len >= cs->cs_hlen);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   674    MEMCPY(n0->payload, &cs->cs_ip, cs->cs_hlen);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   675  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   676    *nb = n0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   677  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   678    return vjlen;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   679  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   680  bad:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   681    vj_uncompress_err(comp);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   682    return (-1);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   683  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   684  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\vj.c	   685  #endif /* PPP_SUPPORT && VJ_SUPPORT */
+
+	; Module end

@@ -1,0 +1,1295 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.2r2 Build 18041957 SN 09003395"
+	.compiler_invocation	"ctc -f cc27260a --dep-file=EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\.chap-new.o.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc39x -D__CPU_TC39X__ --core=tc1.6.2 --fp-model=+float -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\EB_Cfg\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Cfg_Ssw -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Cfg_Ssw\\TC39B -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Integration -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Irq\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr\\TC39xB -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Sfr\\TC39xB\\_Reg -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw\\TC39B -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Ssw\\TC39B\\Tricore -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Adc\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Can_17_McmCan\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Dio\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Eth_17_GEthMacV2\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fee\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Fls_17_Dmu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Gpt\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\I2c\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Icu_17_TimerIp\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\inc\\AS440 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\McalLib\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Mcu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Ocu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Port\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Pwm_17_GtmCcu6\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Smu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Spi\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Stm\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Uart\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc\\inc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Tricore\\Wdg_17_Scu\\ssc\\src -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Lib -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\App_Func -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\demo -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Adc_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Gtm_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\AscLin_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Can_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\EthV2_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Irq\\Stm_Irq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Srval\\Main -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\APP -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\BswM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanNm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanSm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanTp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\CanTSyn -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Com -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\ComM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Common -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Crc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Dcm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Dem -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Det -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\DoIP -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EcuM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Eth -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthSM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthTrcv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\EthTSyn -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\FiM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\FlsTst -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\MemIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Nm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\NvM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS\\Kernel -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\OS\\Portable -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\PduR -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\RamTst -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\SoAd -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\StbM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\api -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\arch -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv4 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\core\\ipv6 -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\arpa -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\net -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\posix\\sys -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\compat\\stdc -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\apps -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\priv -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\lwip\\prot -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif\\ppp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\include\\netif\\ppp\\polarssl -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\polarssl -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\UdpNm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\WdgIf -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\WdgM -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Cal -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Daq -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Pag -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Pgm -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\Std -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\Xcp\\XcpOnEth -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Callout -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Config -IF:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Library\\Vfx_ComE2E -g2 --make-target=EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\chap-new.o -t2 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O1 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\chap-new.src ..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\chap-new.c"
+	.compiler_name		"ctc"
+	;source	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\chap-new.c'
+
+	
+$TC162
+	
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L3:
+	.word	4551
+	.half	3
+	.word	.L4
+	.byte	4
+.L2:
+	.byte	1
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\chap-new.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Debug\\',0,12,1
+	.word	.L5
+	.byte	2,1,3
+	.word	172
+	.byte	4
+	.byte	'__codeptr',0,1,1,1
+	.word	174
+	.byte	5
+	.byte	'unsigned char',0,1,8,4
+	.byte	'boolean',0,2,102,29
+	.word	197
+	.byte	4
+	.byte	'uint8',0,2,106,29
+	.word	197
+	.byte	5
+	.byte	'unsigned short int',0,2,7,4
+	.byte	'uint16',0,2,110,29
+	.word	244
+	.byte	5
+	.byte	'unsigned long int',0,4,7,4
+	.byte	'uint32',0,2,114,29
+	.word	281
+	.byte	4
+	.byte	'Std_ReturnType',0,3,109,16
+	.word	197
+	.byte	4
+	.byte	'PduIdType',0,4,37,21
+	.word	197
+	.byte	4
+	.byte	'PduLengthType',0,4,41,22
+	.word	244
+	.byte	6,5,101,9,1,7
+	.byte	'BUFREQ_OK',0,0,7
+	.byte	'BUFREQ_E_NOT_OK',0,1,7
+	.byte	'BUFREQ_E_BUSY',0,2,7
+	.byte	'BUFREQ_E_OVFL',0,3,0,4
+	.byte	'BufReq_ReturnType',0,5,107,3
+	.word	380
+	.byte	3
+	.word	197
+	.byte	4
+	.byte	'SduDataPtrType',0,5,189,1,40
+	.word	474
+	.byte	6,5,204,1,9,1,7
+	.byte	'TP_DATACONF',0,0,7
+	.byte	'TP_DATARETRY',0,1,7
+	.byte	'TP_CONFPENDING',0,2,0,4
+	.byte	'TpDataStateType',0,5,216,1,3
+	.word	503
+	.byte	4
+	.byte	'TcpIp_SocketIdType',0,6,50,16
+	.word	197
+	.byte	8,4
+	.word	281
+	.byte	9,0,0,10,6,52,9,4,11
+	.byte	'Addr',0
+	.word	608
+	.byte	4,2,35,0,0,4
+	.byte	'TcpIp_IpAddressType',0,6,55,3
+	.word	617
+	.byte	4
+	.byte	'TcpIp_DomainType',0,6,61,16
+	.word	244
+	.byte	10,6,68,9,8,11
+	.byte	'Domain',0
+	.word	244
+	.byte	2,2,35,0,11
+	.byte	'Port',0
+	.word	244
+	.byte	2,2,35,2,11
+	.byte	'Addr',0
+	.word	608
+	.byte	4,2,35,4,0,4
+	.byte	'TcpIp_SockAddrInetType',0,6,73,3
+	.word	690
+	.byte	4
+	.byte	'TcpIp_AddressType',0,7,128,1,15
+	.word	197
+	.byte	4
+	.byte	'TcpIp_CtrlIdType',0,7,142,1,15
+	.word	197
+	.byte	4
+	.byte	'TcpIp_IpAddrStateType',0,7,144,1,15
+	.word	197
+	.byte	4
+	.byte	'TcpIp_LocalAddrAssignmentConfigType',0,7,149,1,15
+	.word	197
+	.byte	4
+	.byte	'TcpIp_StaticAddrIdType',0,7,151,1,15
+	.word	197
+	.byte	10,7,152,1,9,12,11
+	.byte	'State',0
+	.word	197
+	.byte	1,2,35,0,11
+	.byte	'Netmask',0
+	.word	197
+	.byte	1,2,35,1,11
+	.byte	'Domain',0
+	.word	244
+	.byte	2,2,35,2,11
+	.byte	'IpAddr',0
+	.word	617
+	.byte	4,2,35,4,11
+	.byte	'DefaultRouter',0
+	.word	617
+	.byte	4,2,35,8,0,4
+	.byte	'TcpIp_StaticIpAddrType',0,7,162,1,3
+	.word	932
+	.byte	4
+	.byte	'TcpIp_LocalAddrIdType',0,7,173,1,15
+	.word	197
+	.byte	8,3
+	.word	197
+	.byte	9,2,0,10,7,231,1,9,8,11
+	.byte	'CtrlId',0
+	.word	197
+	.byte	1,2,35,0,11
+	.byte	'Address',0
+	.word	197
+	.byte	1,2,35,1,11
+	.byte	'Domain',0
+	.word	244
+	.byte	2,2,35,2,11
+	.byte	'StaticAddrId',0
+	.word	197
+	.byte	1,2,35,4,11
+	.byte	'Assignments',0
+	.word	1089
+	.byte	3,2,35,5,0,4
+	.byte	'TcpIp_LocalAddrConfigType',0,7,243,1,3
+	.word	1098
+	.byte	10,7,245,1,9,4,11
+	.byte	'ArpConfigId',0
+	.word	197
+	.byte	1,2,35,0,11
+	.byte	'DHCPConfigId',0
+	.word	197
+	.byte	1,2,35,1,11
+	.byte	'AutoIpInitTimeout',0
+	.word	244
+	.byte	2,2,35,2,0,4
+	.byte	'TcpIp_IpV4CtrlConfigType',0,7,130,2,3
+	.word	1232
+	.byte	10,7,133,2,9,8,11
+	.byte	'CtrlIdx',0
+	.word	197
+	.byte	1,2,35,0,11
+	.byte	'FramePrio',0
+	.word	197
+	.byte	1,2,35,1,11
+	.byte	'UnicastAddrId',0
+	.word	197
+	.byte	1,2,35,2,11
+	.byte	'UnicastAddrLimit',0
+	.word	197
+	.byte	1,2,35,3,11
+	.byte	'MulticastAddrId',0
+	.word	197
+	.byte	1,2,35,4,11
+	.byte	'LocalAddrLimit',0
+	.word	197
+	.byte	1,2,35,5,11
+	.byte	'IpV4CtrlId',0
+	.word	197
+	.byte	1,2,35,6,11
+	.byte	'IpV6CtrlId',0
+	.word	197
+	.byte	1,2,35,7,0,4
+	.byte	'TcpIp_NetIfCtrlConfigType',0,7,148,2,3
+	.word	1343
+	.byte	4
+	.byte	'SoAd_RoutingGroupIdType',0,8,43,15
+	.word	197
+	.byte	4
+	.byte	'SoAd_SoConIdType',0,8,44,15
+	.word	197
+	.byte	4
+	.byte	'SoAd_SoConGroupIdType',0,8,45,15
+	.word	197
+	.byte	4
+	.byte	'SoAd_PduRouteIdType',0,8,46,15
+	.word	197
+	.byte	4
+	.byte	'SoAd_PduRouteDestIdType',0,8,47,15
+	.word	197
+	.byte	4
+	.byte	'SoAd_SocketRouteIdType',0,8,48,15
+	.word	197
+	.byte	4
+	.byte	'SoAd_IfTxUnconfirmedType',0,8,49,16
+	.word	244
+	.byte	4
+	.byte	'SoAd_IfTxTimerType',0,8,51,16
+	.word	244
+	.byte	8,1
+	.word	197
+	.byte	9,0,0,10,8,53,9,2,11
+	.byte	'Mask',0
+	.word	1797
+	.byte	1,2,35,0,11
+	.byte	'RoutingState',0
+	.word	1797
+	.byte	1,2,35,1,0,4
+	.byte	'SoAd_RoutingGroupCtrlType',0,8,57,3
+	.word	1806
+	.byte	6,8,63,9,1,7
+	.byte	'SOAD_UL_DOIP',0,0,7
+	.byte	'SOAD_UL_UDPNM',0,1,7
+	.byte	'SOAD_UL_PDUR',0,2,7
+	.byte	'SOAD_UL_XCP',0,3,7
+	.byte	'SOAD_UL_MAX',0,4,0,4
+	.byte	'SoAd_ULIndexType',0,8,71,3
+	.word	1882
+	.byte	4
+	.byte	'SoAd_RemoteAddressType',0,9,113,32
+	.word	690
+	.byte	6,9,115,9,1,7
+	.byte	'SOAD_SOCON_UNINIT',0,0,7
+	.byte	'SOAD_SOCON_OFFLINE',0,1,7
+	.byte	'SOAD_SOCON_RECONN',0,2,7
+	.byte	'SOAD_SOCON_ONLINE',0,3,0,4
+	.byte	'SoAd_SoConModeType',0,9,121,3
+	.word	2018
+	.byte	12
+	.word	197
+	.byte	3
+	.word	2132
+	.byte	12
+	.word	197
+	.byte	3
+	.word	2142
+	.byte	12
+	.word	197
+	.byte	3
+	.word	2152
+	.byte	12
+	.word	1882
+	.byte	3
+	.word	2162
+	.byte	10,9,129,1,9,36,11
+	.byte	'IfBufferLength',0
+	.word	244
+	.byte	2,2,35,0,11
+	.byte	'IfBufferOffset',0
+	.word	244
+	.byte	2,2,35,2,11
+	.byte	'TpBufferLength',0
+	.word	244
+	.byte	2,2,35,4,11
+	.byte	'TpBufferOffset',0
+	.word	244
+	.byte	2,2,35,6,11
+	.byte	'PduRouteNum',0
+	.word	197
+	.byte	1,2,35,8,11
+	.byte	'SocketRouteNum',0
+	.word	197
+	.byte	1,2,35,9,11
+	.byte	'PduRouteDestNum',0
+	.word	197
+	.byte	1,2,35,10,11
+	.byte	'RemoteAddrState',0
+	.word	197
+	.byte	1,2,35,11,11
+	.byte	'RemoteAddr',0
+	.word	690
+	.byte	8,2,35,12,11
+	.byte	'PduRouteDestList',0
+	.word	2137
+	.byte	4,2,35,20,11
+	.byte	'PduRouteList',0
+	.word	2147
+	.byte	4,2,35,24,11
+	.byte	'SocketRouteList',0
+	.word	2157
+	.byte	4,2,35,28,11
+	.byte	'SoConModeChgList',0
+	.word	2167
+	.byte	4,2,35,32,0,4
+	.byte	'SoAd_SocketConnectionType',0,9,146,1,3
+	.word	2172
+	.byte	10,9,148,1,9,16,11
+	.byte	'CtrlFlag',0
+	.word	197
+	.byte	1,2,35,0,11
+	.byte	'KeepAliveProbesMax',0
+	.word	244
+	.byte	2,2,35,2,11
+	.byte	'KeepAliveInterval',0
+	.word	281
+	.byte	4,2,35,4,11
+	.byte	'KeepAliveTime',0
+	.word	281
+	.byte	4,2,35,8,11
+	.byte	'TxQuota',0
+	.word	281
+	.byte	4,2,35,12,0,4
+	.byte	'SoAd_TcpProtocolType',0,9,155,1,3
+	.word	2524
+	.byte	10,9,157,1,9,12,11
+	.byte	'CtrlFlag',0
+	.word	197
+	.byte	1,2,35,0,11
+	.byte	'nPduTxBufferMin',0
+	.word	244
+	.byte	2,2,35,2,11
+	.byte	'TriggerTimeout',0
+	.word	244
+	.byte	2,2,35,4,11
+	.byte	'AliveSupervisionTimeout',0
+	.word	281
+	.byte	4,2,35,6,0,4
+	.byte	'SoAd_UdpProtocolType',0,9,163,1,3
+	.word	2674
+	.byte	12
+	.word	2524
+	.byte	3
+	.word	2811
+	.byte	12
+	.word	2674
+	.byte	3
+	.word	2821
+	.byte	10,9,165,1,9,24,11
+	.byte	'GroupId',0
+	.word	197
+	.byte	1,2,35,0,11
+	.byte	'CtrlFlag',0
+	.word	197
+	.byte	1,2,35,1,11
+	.byte	'FramePriority',0
+	.word	197
+	.byte	1,2,35,2,11
+	.byte	'SoConNum',0
+	.word	197
+	.byte	1,2,35,3,11
+	.byte	'SoConId',0
+	.word	197
+	.byte	1,2,35,4,11
+	.byte	'IpAddrAssignChgNum',0
+	.word	197
+	.byte	1,2,35,5,11
+	.byte	'LocalAddrId',0
+	.word	197
+	.byte	1,2,35,6,11
+	.byte	'LocalPort',0
+	.word	244
+	.byte	2,2,35,8,11
+	.byte	'IpAddrAssignChgList',0
+	.word	2167
+	.byte	4,2,35,12,11
+	.byte	'TcpProtocolPtr',0
+	.word	2816
+	.byte	4,2,35,16,11
+	.byte	'UdpProtocolPtr',0
+	.word	2826
+	.byte	4,2,35,20,0,4
+	.byte	'SoAd_SocketConnectionGroupType',0,9,178,1,3
+	.word	2831
+	.byte	12
+	.word	197
+	.byte	3
+	.word	3116
+	.byte	10,9,180,1,9,12,11
+	.byte	'CtrlFlag',0
+	.word	197
+	.byte	1,2,35,0,11
+	.byte	'PduRouteDestNum',0
+	.word	197
+	.byte	1,2,35,1,11
+	.byte	'SocketRouteDestNum',0
+	.word	197
+	.byte	1,2,35,2,11
+	.byte	'PduRouteDestList',0
+	.word	3121
+	.byte	4,2,35,4,11
+	.byte	'SocketRouteDestList',0
+	.word	3121
+	.byte	4,2,35,8,0,4
+	.byte	'SoAd_RoutingGroupType',0,9,187,1,3
+	.word	3126
+	.byte	10,9,189,1,9,6,11
+	.byte	'ULType',0
+	.word	197
+	.byte	1,2,35,0,11
+	.byte	'ULIndex',0
+	.word	1882
+	.byte	1,2,35,1,11
+	.byte	'CtrlFlag',0
+	.word	197
+	.byte	1,2,35,2,11
+	.byte	'RouteDestNum',0
+	.word	197
+	.byte	1,2,35,3,11
+	.byte	'RouteDestId',0
+	.word	197
+	.byte	1,2,35,4,11
+	.byte	'TxPduId',0
+	.word	197
+	.byte	1,2,35,5,0,4
+	.byte	'SoAd_PduRouteType',0,9,204,1,3
+	.word	3290
+	.byte	3
+	.word	1806
+	.byte	10,9,206,1,9,20,11
+	.byte	'TxPduHeaderId',0
+	.word	281
+	.byte	4,2,35,0,11
+	.byte	'SoConNum',0
+	.word	197
+	.byte	1,2,35,4,11
+	.byte	'SoConId',0
+	.word	197
+	.byte	1,2,35,5,11
+	.byte	'PduRouteId',0
+	.word	197
+	.byte	1,2,35,6,11
+	.byte	'UdpTriggerMode',0
+	.word	197
+	.byte	1,2,35,7,11
+	.byte	'UdpTriggerTimeout',0
+	.word	244
+	.byte	2,2,35,8,11
+	.byte	'RoutingCtrlList',0
+	.word	3435
+	.byte	4,2,35,12,11
+	.byte	'IfTriggerList',0
+	.word	474
+	.byte	4,2,35,16,0,4
+	.byte	'SoAd_PduRouteDestType',0,9,217,1,3
+	.word	3440
+	.byte	10,9,219,1,9,16,11
+	.byte	'RxPduHeaderId',0
+	.word	281
+	.byte	4,2,35,0,11
+	.byte	'ULType',0
+	.word	197
+	.byte	1,2,35,4,11
+	.byte	'ULIndex',0
+	.word	1882
+	.byte	1,2,35,5,11
+	.byte	'SoConNum',0
+	.word	197
+	.byte	1,2,35,6,11
+	.byte	'SoConId',0
+	.word	197
+	.byte	1,2,35,7,11
+	.byte	'RxPduId',0
+	.word	197
+	.byte	1,2,35,8,11
+	.byte	'RoutingCtrlList',0
+	.word	3435
+	.byte	4,2,35,12,0,4
+	.byte	'SoAd_SocketRouteType',0,9,236,1,3
+	.word	3655
+	.byte	12
+	.word	3440
+	.byte	3
+	.word	3825
+	.byte	10,9,155,2,9,24,11
+	.byte	'State',0
+	.word	197
+	.byte	1,2,35,0,11
+	.byte	'Timer',0
+	.word	244
+	.byte	2,2,35,2,11
+	.byte	'BufferLength',0
+	.word	244
+	.byte	2,2,35,4,11
+	.byte	'BufferOffset',0
+	.word	244
+	.byte	2,2,35,6,11
+	.byte	'UdpTxBuffer',0
+	.word	474
+	.byte	4,2,35,8,11
+	.byte	'TotalTxLength',0
+	.word	244
+	.byte	2,2,35,12,11
+	.byte	'UsedTxLength',0
+	.word	244
+	.byte	2,2,35,14,11
+	.byte	'IfTxDataBuffer',0
+	.word	3121
+	.byte	4,2,35,16,11
+	.byte	'PduRouteDestPtr',0
+	.word	3830
+	.byte	4,2,35,20,0,4
+	.byte	'SoAd_TxSessionType',0,9,177,2,3
+	.word	3835
+	.byte	12
+	.word	3655
+	.byte	3
+	.word	4059
+	.byte	10,9,180,2,9,8,11
+	.byte	'PduLength',0
+	.word	244
+	.byte	2,2,35,0,11
+	.byte	'RemainLength',0
+	.word	244
+	.byte	2,2,35,2,11
+	.byte	'SocketRoutePtr',0
+	.word	4064
+	.byte	4,2,35,4,0,4
+	.byte	'SoAd_RxPduInfoType',0,9,185,2,3
+	.word	4069
+	.byte	10,9,187,2,9,12,11
+	.byte	'TotalLength',0
+	.word	244
+	.byte	2,2,35,0,11
+	.byte	'In',0
+	.word	244
+	.byte	2,2,35,2,11
+	.byte	'Out',0
+	.word	244
+	.byte	2,2,35,4,11
+	.byte	'BufferPtr',0
+	.word	474
+	.byte	4,2,35,8,0,4
+	.byte	'SoAd_RxFifoType',0,9,193,2,3
+	.word	4169
+	.byte	10,9,195,2,9,8,11
+	.byte	'TotalLength',0
+	.word	244
+	.byte	2,2,35,0,11
+	.byte	'UsedLength',0
+	.word	244
+	.byte	2,2,35,2,11
+	.byte	'BufferPtr',0
+	.word	474
+	.byte	4,2,35,4,0,4
+	.byte	'SoAd_RxBufferType',0,9,200,2,3
+	.word	4266
+	.byte	8,8
+	.word	197
+	.byte	9,7,0,10,9,202,2,9,48,11
+	.byte	'State',0
+	.word	197
+	.byte	1,2,35,0,11
+	.byte	'ValidHeaderLen',0
+	.word	197
+	.byte	1,2,35,1,11
+	.byte	'PduHeader',0
+	.word	4360
+	.byte	8,2,35,2,11
+	.byte	'RxPduInfo',0
+	.word	4069
+	.byte	8,2,35,12,11
+	.byte	'ProcessPduInfo',0
+	.word	4069
+	.byte	8,2,35,20,11
+	.byte	'IfBuffer',0
+	.word	4266
+	.byte	8,2,35,28,11
+	.byte	'TpBuffer',0
+	.word	4169
+	.byte	12,2,35,36,0,4
+	.byte	'SoAd_RxSessionType',0,9,216,2,3
+	.word	4369
+	.byte	4
+	.byte	'u8_t',0,10,61,25
+	.word	197
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L4:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,0,0,3,15,0,73,19,0,0,4,22,0,3,8,58,15,59,15
+	.byte	57,15,73,19,0,0,5,36,0,3,8,11,15,62,15,0,0,6,4,1,58,15,59,15,57,15,11,15,0,0,7,40,0,3,8,28,13,0,0,8,1
+	.byte	1,11,15,73,19,0,0,9,33,0,47,15,0,0,10,19,1,58,15,59,15,57,15,11,15,0,0,11,13,0,3,8,73,19,11,15,56,9,0
+	.byte	0,12,38,0,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L5:
+	.word	.L7-.L6
+.L6:
+	.half	3
+	.word	.L9-.L8
+.L8:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Platform',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\Config',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\Mcal\\Infra_Prod\\Autosar_Srv',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\SoAd',0
+	.byte	'F:\\LC_SWC_Projiectend\\TC397_PROJECT_NEW\\TC397_DemoProj\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\arch',0,0
+	.byte	'..\\EAS\\BSW\\TcpIp\\lwip-2.1.2\\netif\\ppp\\chap-new.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0
+	.byte	'Std_Types.h',0,1,0,0
+	.byte	'ComStack_Types_Cfg.h',0,2,0,0
+	.byte	'ComStack_Types.h',0,3,0,0
+	.byte	'TcpIp_GeneratedTypes.h',0,2,0,0
+	.byte	'TcpIp_Types.h',0,4,0,0
+	.byte	'SoAd_GeneratedTypes.h',0,2,0,0
+	.byte	'SoAd_Types.h',0,5,0,0
+	.byte	'cc.h',0,6,0,0,0
+.L9:
+.L7:
+
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	     1  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	     2   * chap-new.c - New CHAP implementation.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	     3   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	     4   * Copyright (c) 2003 Paul Mackerras. All rights reserved.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	     5   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	     6   * Redistribution and use in source and binary forms, with or without
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	     7   * modification, are permitted provided that the following conditions
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	     8   * are met:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	     9   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    10   * 1. Redistributions of source code must retain the above copyright
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    11   *    notice, this list of conditions and the following disclaimer.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    12   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    13   * 2. The name(s) of the authors of this software must not be used to
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    14   *    endorse or promote products derived from this software without
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    15   *    prior written permission.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    16   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    17   * 3. Redistributions of any form whatsoever must retain the following
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    18   *    acknowledgment:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    19   *    "This product includes software developed by Paul Mackerras
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    20   *     <paulus@samba.org>".
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    21   *
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    22   * THE AUTHORS OF THIS SOFTWARE DISCLAIM ALL WARRANTIES WITH REGARD TO
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    23   * THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    24   * AND FITNESS, IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    25   * SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    26   * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    27   * AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    28   * OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    29   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    30  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    31  #include "netif/ppp/ppp_opts.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    32  #if PPP_SUPPORT && CHAP_SUPPORT  /* don't build if not configured for use in lwipopts.h */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    33  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    34  #if 0 /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    35  #include <stdlib.h>
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    36  #include <string.h>
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    37  #endif /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    38  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    39  #include "netif/ppp/ppp_impl.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    40  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    41  #if 0 /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    42  #include "session.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    43  #endif /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    44  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    45  #include "netif/ppp/chap-new.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    46  #include "netif/ppp/chap-md5.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    47  #if MSCHAP_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    48  #include "netif/ppp/chap_ms.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    49  #endif
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    50  #include "netif/ppp/magic.h"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    51  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    52  #if 0 /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    53  /* Hook for a plugin to validate CHAP challenge */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    54  int (*chap_verify_hook)(const char *name, const char *ourname, int id,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    55  			const struct chap_digest_type *digest,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    56  			const unsigned char *challenge, const unsigned char *response,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    57  			char *message, int message_space) = NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    58  #endif /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    59  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    60  #if PPP_OPTIONS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    61  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    62   * Command-line options.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    63   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    64  static option_t chap_option_list[] = {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    65  	{ "chap-restart", o_int, &chap_timeout_time,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    66  	  "Set timeout for CHAP", OPT_PRIO },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    67  	{ "chap-max-challenge", o_int, &pcb->settings.chap_max_transmits,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    68  	  "Set max #xmits for challenge", OPT_PRIO },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    69  	{ "chap-interval", o_int, &pcb->settings.chap_rechallenge_time,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    70  	  "Set interval for rechallenge", OPT_PRIO },
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    71  	{ NULL }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    72  };
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    73  #endif /* PPP_OPTIONS */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    74  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    75  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    76  /* Values for flags in chap_client_state and chap_server_state */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    77  #define LOWERUP			1
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    78  #define AUTH_STARTED		2
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    79  #define AUTH_DONE		4
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    80  #define AUTH_FAILED		8
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    81  #define TIMEOUT_PENDING		0x10
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    82  #define CHALLENGE_VALID		0x20
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    83  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    84  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    85   * Prototypes.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    86   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    87  static void chap_init(ppp_pcb *pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    88  static void chap_lowerup(ppp_pcb *pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    89  static void chap_lowerdown(ppp_pcb *pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    90  #if PPP_SERVER
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    91  static void chap_timeout(void *arg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    92  static void chap_generate_challenge(ppp_pcb *pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    93  static void chap_handle_response(ppp_pcb *pcb, int code,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    94  		unsigned char *pkt, int len);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    95  static int chap_verify_response(ppp_pcb *pcb, const char *name, const char *ourname, int id,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    96  		const struct chap_digest_type *digest,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    97  		const unsigned char *challenge, const unsigned char *response,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    98  		char *message, int message_space);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	    99  #endif /* PPP_SERVER */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   100  static void chap_respond(ppp_pcb *pcb, int id,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   101  		unsigned char *pkt, int len);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   102  static void chap_handle_status(ppp_pcb *pcb, int code, int id,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   103  		unsigned char *pkt, int len);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   104  static void chap_protrej(ppp_pcb *pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   105  static void chap_input(ppp_pcb *pcb, unsigned char *pkt, int pktlen);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   106  #if PRINTPKT_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   107  static int chap_print_pkt(const unsigned char *p, int plen,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   108  		void (*printer) (void *, const char *, ...), void *arg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   109  #endif /* PRINTPKT_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   110  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   111  /* List of digest types that we know about */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   112  static const struct chap_digest_type* const chap_digests[] = {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   113      &md5_digest,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   114  #if MSCHAP_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   115      &chapms_digest,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   116      &chapms2_digest,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   117  #endif /* MSCHAP_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   118      NULL
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   119  };
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   120  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   121  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   122   * chap_init - reset to initial state.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   123   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   124  static void chap_init(ppp_pcb *pcb) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   125  	LWIP_UNUSED_ARG(pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   126  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   127  #if 0 /* Not necessary, everything is cleared in ppp_new() */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   128  	memset(&pcb->chap_client, 0, sizeof(chap_client_state));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   129  #if PPP_SERVER
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   130  	memset(&pcb->chap_server, 0, sizeof(chap_server_state));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   131  #endif /* PPP_SERVER */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   132  #endif /* 0 */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   133  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   134  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   135  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   136   * chap_lowerup - we can start doing stuff now.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   137   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   138  static void chap_lowerup(ppp_pcb *pcb) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   139  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   140  	pcb->chap_client.flags |= LOWERUP;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   141  #if PPP_SERVER
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   142  	pcb->chap_server.flags |= LOWERUP;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   143  	if (pcb->chap_server.flags & AUTH_STARTED)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   144  		chap_timeout(pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   145  #endif /* PPP_SERVER */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   146  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   147  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   148  static void chap_lowerdown(ppp_pcb *pcb) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   149  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   150  	pcb->chap_client.flags = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   151  #if PPP_SERVER
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   152  	if (pcb->chap_server.flags & TIMEOUT_PENDING)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   153  		UNTIMEOUT(chap_timeout, pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   154  	pcb->chap_server.flags = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   155  #endif /* PPP_SERVER */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   156  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   157  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   158  #if PPP_SERVER
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   159  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   160   * chap_auth_peer - Start authenticating the peer.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   161   * If the lower layer is already up, we start sending challenges,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   162   * otherwise we wait for the lower layer to come up.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   163   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   164  void chap_auth_peer(ppp_pcb *pcb, const char *our_name, int digest_code) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   165  	const struct chap_digest_type *dp;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   166  	int i;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   167  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   168  	if (pcb->chap_server.flags & AUTH_STARTED) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   169  		ppp_error("CHAP: peer authentication already started!");
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   170  		return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   171  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   172  	for (i = 0; (dp = chap_digests[i]) != NULL; ++i)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   173  		if (dp->code == digest_code)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   174  			break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   175  	if (dp == NULL)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   176  		ppp_fatal("CHAP digest 0x%x requested but not available",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   177  		      digest_code);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   178  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   179  	pcb->chap_server.digest = dp;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   180  	pcb->chap_server.name = our_name;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   181  	/* Start with a random ID value */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   182  	pcb->chap_server.id = magic();
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   183  	pcb->chap_server.flags |= AUTH_STARTED;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   184  	if (pcb->chap_server.flags & LOWERUP)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   185  		chap_timeout(pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   186  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   187  #endif /* PPP_SERVER */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   188  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   189  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   190   * chap_auth_with_peer - Prepare to authenticate ourselves to the peer.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   191   * There isn't much to do until we receive a challenge.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   192   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   193  void chap_auth_with_peer(ppp_pcb *pcb, const char *our_name, int digest_code) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   194  	const struct chap_digest_type *dp;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   195  	int i;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   196  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   197  	if(NULL == our_name)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   198  		return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   199  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   200  	if (pcb->chap_client.flags & AUTH_STARTED) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   201  		ppp_error("CHAP: authentication with peer already started!");
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   202  		return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   203  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   204  	for (i = 0; (dp = chap_digests[i]) != NULL; ++i)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   205  		if (dp->code == digest_code)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   206  			break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   207  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   208  	if (dp == NULL)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   209  		ppp_fatal("CHAP digest 0x%x requested but not available",
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   210  		      digest_code);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   211  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   212  	pcb->chap_client.digest = dp;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   213  	pcb->chap_client.name = our_name;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   214  	pcb->chap_client.flags |= AUTH_STARTED;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   215  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   216  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   217  #if PPP_SERVER
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   218  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   219   * chap_timeout - It's time to send another challenge to the peer.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   220   * This could be either a retransmission of a previous challenge,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   221   * or a new challenge to start re-authentication.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   222   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   223  static void chap_timeout(void *arg) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   224  	ppp_pcb *pcb = (ppp_pcb*)arg;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   225  	struct pbuf *p;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   226  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   227  	pcb->chap_server.flags &= ~TIMEOUT_PENDING;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   228  	if ((pcb->chap_server.flags & CHALLENGE_VALID) == 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   229  		pcb->chap_server.challenge_xmits = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   230  		chap_generate_challenge(pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   231  		pcb->chap_server.flags |= CHALLENGE_VALID;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   232  	} else if (pcb->chap_server.challenge_xmits >= pcb->settings.chap_max_transmits) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   233  		pcb->chap_server.flags &= ~CHALLENGE_VALID;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   234  		pcb->chap_server.flags |= AUTH_DONE | AUTH_FAILED;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   235  		auth_peer_fail(pcb, PPP_CHAP);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   236  		return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   237  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   238  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   239  	p = pbuf_alloc(PBUF_RAW, (u16_t)(pcb->chap_server.challenge_pktlen), PPP_CTRL_PBUF_TYPE);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   240  	if(NULL == p)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   241  		return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   242  	if(p->tot_len != p->len) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   243  		pbuf_free(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   244  		return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   245  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   246  	MEMCPY(p->payload, pcb->chap_server.challenge, pcb->chap_server.challenge_pktlen);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   247  	ppp_write(pcb, p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   248  	++pcb->chap_server.challenge_xmits;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   249  	pcb->chap_server.flags |= TIMEOUT_PENDING;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   250  	TIMEOUT(chap_timeout, arg, pcb->settings.chap_timeout_time);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   251  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   252  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   253  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   254   * chap_generate_challenge - generate a challenge string and format
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   255   * the challenge packet in pcb->chap_server.challenge_pkt.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   256   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   257  static void chap_generate_challenge(ppp_pcb *pcb) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   258  	int clen = 1, nlen, len;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   259  	unsigned char *p;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   260  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   261  	p = pcb->chap_server.challenge;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   262  	MAKEHEADER(p, PPP_CHAP);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   263  	p += CHAP_HDRLEN;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   264  	pcb->chap_server.digest->generate_challenge(pcb, p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   265  	clen = *p;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   266  	nlen = strlen(pcb->chap_server.name);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   267  	memcpy(p + 1 + clen, pcb->chap_server.name, nlen);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   268  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   269  	len = CHAP_HDRLEN + 1 + clen + nlen;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   270  	pcb->chap_server.challenge_pktlen = PPP_HDRLEN + len;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   271  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   272  	p = pcb->chap_server.challenge + PPP_HDRLEN;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   273  	p[0] = CHAP_CHALLENGE;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   274  	p[1] = ++pcb->chap_server.id;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   275  	p[2] = len >> 8;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   276  	p[3] = len;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   277  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   278  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   279  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   280   * chap_handle_response - check the response to our challenge.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   281   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   282  static void  chap_handle_response(ppp_pcb *pcb, int id,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   283  		     unsigned char *pkt, int len) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   284  	int response_len, ok, mlen;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   285  	const unsigned char *response;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   286  	unsigned char *outp;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   287  	struct pbuf *p;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   288  	const char *name = NULL;	/* initialized to shut gcc up */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   289  #if 0 /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   290  	int (*verifier)(const char *, const char *, int, const struct chap_digest_type *,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   291  		const unsigned char *, const unsigned char *, char *, int);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   292  #endif /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   293  	char rname[MAXNAMELEN+1];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   294  	char message[256];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   295  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   296  	if ((pcb->chap_server.flags & LOWERUP) == 0)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   297  		return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   298  	if (id != pcb->chap_server.challenge[PPP_HDRLEN+1] || len < 2)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   299  		return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   300  	if (pcb->chap_server.flags & CHALLENGE_VALID) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   301  		response = pkt;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   302  		GETCHAR(response_len, pkt);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   303  		len -= response_len + 1;	/* length of name */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   304  		name = (char *)pkt + response_len;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   305  		if (len < 0)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   306  			return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   307  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   308  		if (pcb->chap_server.flags & TIMEOUT_PENDING) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   309  			pcb->chap_server.flags &= ~TIMEOUT_PENDING;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   310  			UNTIMEOUT(chap_timeout, pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   311  		}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   312  #if PPP_REMOTENAME
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   313  		if (pcb->settings.explicit_remote) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   314  			name = pcb->remote_name;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   315  		} else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   316  #endif /* PPP_REMOTENAME */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   317  		{
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   318  			/* Null terminate and clean remote name. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   319  			ppp_slprintf(rname, sizeof(rname), "%.*v", len, name);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   320  			name = rname;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   321  		}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   322  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   323  #if 0 /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   324  		if (chap_verify_hook)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   325  			verifier = chap_verify_hook;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   326  		else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   327  			verifier = chap_verify_response;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   328  		ok = (*verifier)(name, pcb->chap_server.name, id, pcb->chap_server.digest,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   329  				 pcb->chap_server.challenge + PPP_HDRLEN + CHAP_HDRLEN,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   330  				 response, pcb->chap_server.message, sizeof(pcb->chap_server.message));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   331  #endif /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   332  		ok = chap_verify_response(pcb, name, pcb->chap_server.name, id, pcb->chap_server.digest,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   333                      pcb->chap_server.challenge + PPP_HDRLEN + CHAP_HDRLEN,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   334                      response, message, sizeof(message));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   335  #if 0 /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   336  		if (!ok || !auth_number()) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   337  #endif /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   338  		if (!ok) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   339  			pcb->chap_server.flags |= AUTH_FAILED;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   340  			ppp_warn("Peer %q failed CHAP authentication", name);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   341  		}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   342  	} else if ((pcb->chap_server.flags & AUTH_DONE) == 0)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   343  		return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   344  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   345  	/* send the response */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   346  	mlen = strlen(message);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   347  	len = CHAP_HDRLEN + mlen;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   348  	p = pbuf_alloc(PBUF_RAW, (u16_t)(PPP_HDRLEN +len), PPP_CTRL_PBUF_TYPE);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   349  	if(NULL == p)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   350  		return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   351  	if(p->tot_len != p->len) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   352  		pbuf_free(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   353  		return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   354  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   355  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   356  	outp = (unsigned char *)p->payload;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   357  	MAKEHEADER(outp, PPP_CHAP);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   358  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   359  	outp[0] = (pcb->chap_server.flags & AUTH_FAILED)? CHAP_FAILURE: CHAP_SUCCESS;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   360  	outp[1] = id;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   361  	outp[2] = len >> 8;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   362  	outp[3] = len;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   363  	if (mlen > 0)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   364  		memcpy(outp + CHAP_HDRLEN, message, mlen);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   365  	ppp_write(pcb, p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   366  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   367  	if (pcb->chap_server.flags & CHALLENGE_VALID) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   368  		pcb->chap_server.flags &= ~CHALLENGE_VALID;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   369  		if (!(pcb->chap_server.flags & AUTH_DONE) && !(pcb->chap_server.flags & AUTH_FAILED)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   370  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   371  #if 0 /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   372  		    /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   373  		     * Auth is OK, so now we need to check session restrictions
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   374  		     * to ensure everything is OK, but only if we used a
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   375  		     * plugin, and only if we're configured to check.  This
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   376  		     * allows us to do PAM checks on PPP servers that
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   377  		     * authenticate against ActiveDirectory, and use AD for
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   378  		     * account info (like when using Winbind integrated with
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   379  		     * PAM).
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   380  		     */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   381  		    if (session_mgmt &&
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   382  			session_check(name, NULL, devnam, NULL) == 0) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   383  			pcb->chap_server.flags |= AUTH_FAILED;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   384  			ppp_warn("Peer %q failed CHAP Session verification", name);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   385  		    }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   386  #endif /* UNUSED */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   387  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   388  		}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   389  		if (pcb->chap_server.flags & AUTH_FAILED) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   390  			auth_peer_fail(pcb, PPP_CHAP);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   391  		} else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   392  			if ((pcb->chap_server.flags & AUTH_DONE) == 0)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   393  				auth_peer_success(pcb, PPP_CHAP,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   394  						  pcb->chap_server.digest->code,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   395  						  name, strlen(name));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   396  			if (pcb->settings.chap_rechallenge_time) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   397  				pcb->chap_server.flags |= TIMEOUT_PENDING;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   398  				TIMEOUT(chap_timeout, pcb,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   399  					pcb->settings.chap_rechallenge_time);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   400  			}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   401  		}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   402  		pcb->chap_server.flags |= AUTH_DONE;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   403  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   404  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   405  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   406  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   407   * chap_verify_response - check whether the peer's response matches
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   408   * what we think it should be.  Returns 1 if it does (authentication
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   409   * succeeded), or 0 if it doesn't.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   410   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   411  static int chap_verify_response(ppp_pcb *pcb, const char *name, const char *ourname, int id,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   412  		     const struct chap_digest_type *digest,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   413  		     const unsigned char *challenge, const unsigned char *response,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   414  		     char *message, int message_space) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   415  	int ok;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   416  	unsigned char secret[MAXSECRETLEN];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   417  	int secret_len;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   418  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   419  	/* Get the secret that the peer is supposed to know */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   420  	if (!get_secret(pcb, name, ourname, (char *)secret, &secret_len, 1)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   421  		ppp_error("No CHAP secret found for authenticating %q", name);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   422  		return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   423  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   424  	ok = digest->verify_response(pcb, id, name, secret, secret_len, challenge,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   425  				     response, message, message_space);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   426  	memset(secret, 0, sizeof(secret));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   427  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   428  	return ok;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   429  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   430  #endif /* PPP_SERVER */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   431  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   432  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   433   * chap_respond - Generate and send a response to a challenge.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   434   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   435  static void chap_respond(ppp_pcb *pcb, int id,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   436  	     unsigned char *pkt, int len) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   437  	int clen, nlen;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   438  	int secret_len;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   439  	struct pbuf *p;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   440  	u_char *outp;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   441  	char rname[MAXNAMELEN+1];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   442  	char secret[MAXSECRETLEN+1];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   443  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   444  	p = pbuf_alloc(PBUF_RAW, (u16_t)(RESP_MAX_PKTLEN), PPP_CTRL_PBUF_TYPE);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   445  	if(NULL == p)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   446  		return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   447  	if(p->tot_len != p->len) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   448  		pbuf_free(p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   449  		return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   450  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   451  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   452  	if ((pcb->chap_client.flags & (LOWERUP | AUTH_STARTED)) != (LOWERUP | AUTH_STARTED))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   453  		return;		/* not ready */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   454  	if (len < 2 || len < pkt[0] + 1)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   455  		return;		/* too short */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   456  	clen = pkt[0];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   457  	nlen = len - (clen + 1);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   458  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   459  	/* Null terminate and clean remote name. */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   460  	ppp_slprintf(rname, sizeof(rname), "%.*v", nlen, pkt + clen + 1);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   461  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   462  #if PPP_REMOTENAME
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   463  	/* Microsoft doesn't send their name back in the PPP packet */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   464  	if (pcb->settings.explicit_remote || (pcb->settings.remote_name[0] != 0 && rname[0] == 0))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   465  		strlcpy(rname, pcb->settings.remote_name, sizeof(rname));
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   466  #endif /* PPP_REMOTENAME */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   467  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   468  	/* get secret for authenticating ourselves with the specified host */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   469  	if (!get_secret(pcb, pcb->chap_client.name, rname, secret, &secret_len, 0)) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   470  		secret_len = 0;	/* assume null secret if can't find one */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   471  		ppp_warn("No CHAP secret found for authenticating us to %q", rname);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   472  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   473  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   474  	outp = (u_char*)p->payload;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   475  	MAKEHEADER(outp, PPP_CHAP);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   476  	outp += CHAP_HDRLEN;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   477  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   478  	pcb->chap_client.digest->make_response(pcb, outp, id, pcb->chap_client.name, pkt,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   479  				  secret, secret_len, pcb->chap_client.priv);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   480  	memset(secret, 0, secret_len);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   481  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   482  	clen = *outp;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   483  	nlen = strlen(pcb->chap_client.name);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   484  	memcpy(outp + clen + 1, pcb->chap_client.name, nlen);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   485  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   486  	outp = (u_char*)p->payload + PPP_HDRLEN;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   487  	len = CHAP_HDRLEN + clen + 1 + nlen;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   488  	outp[0] = CHAP_RESPONSE;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   489  	outp[1] = id;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   490  	outp[2] = len >> 8;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   491  	outp[3] = len;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   492  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   493  	pbuf_realloc(p, PPP_HDRLEN + len);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   494  	ppp_write(pcb, p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   495  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   496  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   497  static void chap_handle_status(ppp_pcb *pcb, int code, int id,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   498  		   unsigned char *pkt, int len) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   499  	const char *msg = NULL;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   500  	LWIP_UNUSED_ARG(id);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   501  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   502  	if ((pcb->chap_client.flags & (AUTH_DONE|AUTH_STARTED|LOWERUP))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   503  	    != (AUTH_STARTED|LOWERUP))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   504  		return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   505  	pcb->chap_client.flags |= AUTH_DONE;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   506  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   507  	if (code == CHAP_SUCCESS) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   508  		/* used for MS-CHAP v2 mutual auth, yuck */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   509  		if (pcb->chap_client.digest->check_success != NULL) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   510  			if (!(*pcb->chap_client.digest->check_success)(pcb, pkt, len, pcb->chap_client.priv))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   511  				code = CHAP_FAILURE;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   512  		} else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   513  			msg = "CHAP authentication succeeded";
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   514  	} else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   515  		if (pcb->chap_client.digest->handle_failure != NULL)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   516  			(*pcb->chap_client.digest->handle_failure)(pcb, pkt, len);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   517  		else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   518  			msg = "CHAP authentication failed";
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   519  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   520  	if (msg) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   521  		if (len > 0)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   522  			ppp_info("%s: %.*v", msg, len, pkt);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   523  		else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   524  			ppp_info("%s", msg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   525  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   526  	if (code == CHAP_SUCCESS)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   527  		auth_withpeer_success(pcb, PPP_CHAP, pcb->chap_client.digest->code);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   528  	else {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   529  		pcb->chap_client.flags |= AUTH_FAILED;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   530  		ppp_error("CHAP authentication failed");
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   531  		auth_withpeer_fail(pcb, PPP_CHAP);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   532  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   533  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   534  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   535  static void chap_input(ppp_pcb *pcb, unsigned char *pkt, int pktlen) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   536  	unsigned char code, id;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   537  	int len;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   538  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   539  	if (pktlen < CHAP_HDRLEN)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   540  		return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   541  	GETCHAR(code, pkt);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   542  	GETCHAR(id, pkt);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   543  	GETSHORT(len, pkt);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   544  	if (len < CHAP_HDRLEN || len > pktlen)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   545  		return;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   546  	len -= CHAP_HDRLEN;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   547  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   548  	switch (code) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   549  	case CHAP_CHALLENGE:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   550  		chap_respond(pcb, id, pkt, len);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   551  		break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   552  #if PPP_SERVER
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   553  	case CHAP_RESPONSE:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   554  		chap_handle_response(pcb, id, pkt, len);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   555  		break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   556  #endif /* PPP_SERVER */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   557  	case CHAP_FAILURE:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   558  	case CHAP_SUCCESS:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   559  		chap_handle_status(pcb, code, id, pkt, len);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   560  		break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   561  	default:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   562  		break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   563  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   564  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   565  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   566  static void chap_protrej(ppp_pcb *pcb) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   567  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   568  #if PPP_SERVER
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   569  	if (pcb->chap_server.flags & TIMEOUT_PENDING) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   570  		pcb->chap_server.flags &= ~TIMEOUT_PENDING;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   571  		UNTIMEOUT(chap_timeout, pcb);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   572  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   573  	if (pcb->chap_server.flags & AUTH_STARTED) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   574  		pcb->chap_server.flags = 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   575  		auth_peer_fail(pcb, PPP_CHAP);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   576  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   577  #endif /* PPP_SERVER */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   578  	if ((pcb->chap_client.flags & (AUTH_STARTED|AUTH_DONE)) == AUTH_STARTED) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   579  		pcb->chap_client.flags &= ~AUTH_STARTED;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   580  		ppp_error("CHAP authentication failed due to protocol-reject");
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   581  		auth_withpeer_fail(pcb, PPP_CHAP);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   582  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   583  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   584  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   585  #if PRINTPKT_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   586  /*
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   587   * chap_print_pkt - print the contents of a CHAP packet.
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   588   */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   589  static const char* const chap_code_names[] = {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   590  	"Challenge", "Response", "Success", "Failure"
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   591  };
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   592  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   593  static int chap_print_pkt(const unsigned char *p, int plen,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   594  	       void (*printer) (void *, const char *, ...), void *arg) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   595  	int code, id, len;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   596  	int clen, nlen;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   597  	unsigned char x;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   598  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   599  	if (plen < CHAP_HDRLEN)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   600  		return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   601  	GETCHAR(code, p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   602  	GETCHAR(id, p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   603  	GETSHORT(len, p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   604  	if (len < CHAP_HDRLEN || len > plen)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   605  		return 0;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   606  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   607  	if (code >= 1 && code <= (int)LWIP_ARRAYSIZE(chap_code_names))
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   608  		printer(arg, " %s", chap_code_names[code-1]);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   609  	else
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   610  		printer(arg, " code=0x%x", code);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   611  	printer(arg, " id=0x%x", id);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   612  	len -= CHAP_HDRLEN;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   613  	switch (code) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   614  	case CHAP_CHALLENGE:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   615  	case CHAP_RESPONSE:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   616  		if (len < 1)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   617  			break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   618  		clen = p[0];
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   619  		if (len < clen + 1)
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   620  			break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   621  		++p;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   622  		nlen = len - clen - 1;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   623  		printer(arg, " <");
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   624  		for (; clen > 0; --clen) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   625  			GETCHAR(x, p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   626  			printer(arg, "%.2x", x);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   627  		}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   628  		printer(arg, ">, name = ");
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   629  		ppp_print_string(p, nlen, printer, arg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   630  		break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   631  	case CHAP_FAILURE:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   632  	case CHAP_SUCCESS:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   633  		printer(arg, " ");
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   634  		ppp_print_string(p, len, printer, arg);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   635  		break;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   636  	default:
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   637  		for (clen = len; clen > 0; --clen) {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   638  			GETCHAR(x, p);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   639  			printer(arg, " %.2x", x);
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   640  		}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   641  		/* no break */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   642  	}
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   643  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   644  	return len + CHAP_HDRLEN;
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   645  }
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   646  #endif /* PRINTPKT_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   647  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   648  const struct protent chap_protent = {
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   649  	PPP_CHAP,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   650  	chap_init,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   651  	chap_input,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   652  	chap_protrej,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   653  	chap_lowerup,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   654  	chap_lowerdown,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   655  	NULL,		/* open */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   656  	NULL,		/* close */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   657  #if PRINTPKT_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   658  	chap_print_pkt,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   659  #endif /* PRINTPKT_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   660  #if PPP_DATAINPUT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   661  	NULL,		/* datainput */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   662  #endif /* PPP_DATAINPUT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   663  #if PRINTPKT_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   664  	"CHAP",		/* name */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   665  	NULL,		/* data_name */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   666  #endif /* PRINTPKT_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   667  #if PPP_OPTIONS
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   668  	chap_option_list,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   669  	NULL,		/* check_options */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   670  #endif /* PPP_OPTIONS */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   671  #if DEMAND_SUPPORT
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   672  	NULL,
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   673  	NULL
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   674  #endif /* DEMAND_SUPPORT */
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   675  };
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   676  
+; ..\EAS\BSW\TcpIp\lwip-2.1.2\netif\ppp\chap-new.c	   677  #endif /* PPP_SUPPORT && CHAP_SUPPORT */
+
+	; Module end
