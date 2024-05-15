@@ -255,6 +255,16 @@ extern Func_Status_t UssDrivers_SndRecEnv_Detect(Uss_Detect_Mode_t tMode, uint16
 extern Func_Status_t UssDrivers_Bilat_Read(Uss_Sensor_Id_t tSensorMask, Uss_Cmds_SendRecEnv tCmd, uint32 *u32BilateralT);
 
 extern Func_Status_t UssDrivers_Diag_Status_Get(Uss_Sensor_Id_t tSensorMask);
+
+/** @name: UssDrivers_Diag_Status_USS_Power()
+ *  @brief: Input voltage status List:
+ *          ADC_Init_Voltage = 0,
+ *          ADC_Over_Voltage = 1,
+ *          ADC_Under_Voltage = 2,
+ *          ADC_Normal_Voltage = 3,
+ *          ADC_Error = 4
+*/
+extern Func_Status_t UssDrivers_Diag_Status_USS_Power(uint8 USS_Voltage_Status);
 extern Func_Status_t UssDrivers_Diag_Status_Read(Uss_Sensor_Id_t tSensorMask, uint16 *u16Status);
 
 extern Func_Status_t UssDrivers_work_status_Read(Uss_Sensor_Id_t tSensorMask);

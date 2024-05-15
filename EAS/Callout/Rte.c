@@ -22883,6 +22883,9 @@ TASK(OsTask_Core0_App_10ms)
         Dem_SetEnableCondition(Dem_EnableCond_Power_Normal, TRUE);
 
     }
+    Uss_Power_Status_updata();
+    Uss_Demo();
+    // Uss_API_Test();
     /* OsTask_Core0_App_10ms User Code end*/
 
     /*Counter&Resource Template
@@ -22901,6 +22904,8 @@ TASK(OsTask_Core0_App_10ms)
 TASK(OsTask_Core0_BswWdgM_1ms)
 {
     Rte_Task_Dispatch(OsTask_Core0_BswWdgM_1ms);
+    
+    Uss_MainFunction();
     /*Counter&Resource Template
     */
     TerminateTask();
