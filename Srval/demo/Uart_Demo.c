@@ -16,9 +16,9 @@
 #include "Irq.h"
 #include "Uart.h"
 #include "Uart_Demo.h"
-//#include <stdarg.h>
-//#include <stdio.h>
-//#include <string.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <string.h>
 
 /*******************************************************************************
 **                      Private Macro Definitions                             **

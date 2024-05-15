@@ -52,6 +52,7 @@
 #define ECUM_START_SEC_CONFIG_CODE
 #include "MemMap.h"
 #include "Ethernet.h"
+#include "UssApp.h"
 
 /*******************************************************************************
 *  PUBLIC Functions define
@@ -249,6 +250,16 @@ FUNC(void, ECUM_CALLOUT_CODE) EcuM_AL_DriverInitZero
 #endif
     /* EcuM_AL_DriverInitZero Det_Init User Code end*/
     /*Initialiaze drivers that not depend on the Post-Build configurations*/
+    
+    
+    
+    
+    PinIO_Pwr_On_Sequence();
+
+    IrqGtm_Init();
+
+    Timer_Gpt_Init();
+    Uss_Init();
 }
 
 /* BEGIN_FUNCTION_HDR

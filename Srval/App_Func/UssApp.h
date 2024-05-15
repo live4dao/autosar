@@ -20,6 +20,8 @@ extern void Uss_Init(void);
  * @todo : polling each 1ms.
  * ****************************************************/
 extern void Uss_MainFunction(void);
+extern void Uss_Power_Status_updata(void);
 extern void Uss_Demo(void);
+extern void Uss_API_Test(void);
 
 #endif
