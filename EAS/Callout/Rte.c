@@ -58,6 +58,14 @@
 #include "Rte_CtApDriving_Signal_Transmission.h"
 #include "Os.h"
 
+
+#include "Adc.h"
+#include "Spi.h"
+#include "TLF35584.h"
+#include "ADC_Demo.h"
+#include "PowerDiagnosis.h"
+#include "CtCddSpiDriver.h"
+
 /* Input File User Code start*/
 
 /* Input File User Code end*/
@@ -22918,7 +22926,26 @@ TASK(OsTask_Core1_InitTask)
     Rte_Task_Dispatch(OsTask_Core1_InitTask);
     /*Counter&Resource Template
     */
-    TerminateTask();
+
+    Spi_Init(&Spi_Config);
+        DemoMiddleWareInit();
+
+        DemoAdcInit();
+        initTLF35584(&g_tlfDevice);
+        /* If any error flag has been raised, clear that flag */
+        if (getSystemStatusFlagsTLF35584(&g_tlfDevice) != 0)
+        {
+            clearSystemStatusFlagsTLF35584(&g_tlfDevice);
+        }
+        UpdatePowerFlagsTLF35584(&g_tlfDevice);
+        clearPowerFlagsTLF35584(&g_tlfDevice);
+        setStateTransitionTLF35584(&g_tlfDevice, DeviceStateTransition_normal);
+        getCurrentStateTLF35584(&g_tlfDevice);
+        UpdatePowerFlagsTLF35584(&g_tlfDevice);
+        ActivateTask(OsTask_Core1_Bsw_10ms);
+
+   SetRelAlarm(OsAlarm_Core1_App_10ms,5,10);
+        TerminateTask();
 }
 
 
@@ -22969,8 +22996,18 @@ TASK(OsTask_Core1_App_10ms)
     Rte_Task_Dispatch(OsTask_Core1_App_10ms);
     /*Counter&Resource Template
     */
+    DemoAdc();
+       UpdatePowerFlagsTLF35584(&g_tlfDevice);
 
-    CC_TCP_Handler();
+       Fault_BattLow();
+
+       Fault_OutputVoltage_of_TLF35584();
+       Fault_OutputVoltage_of_LM5141();
+       Fault_Voltage_of_DP83TC812RRHARQ1();
+       Fault_CAM_Voltage_Abnormal();
+       DemoMiddleWare();
+
+//    CC_TCP_Handler();
     TerminateTask();
 }
 

@@ -1200,6 +1200,7 @@
 	</storageModule>
 	<storageModule moduleId="refreshScope" versionNumber="2">
 		<configuration configurationName="TriCore Debug (TASKING)">
+			<resource resourceType="PROJECT" workspacePath="/tc397_calmcar"/>
 			<resource resourceType="PROJECT" workspacePath="/TC397_Calmcar_R2"/>
 		</configuration>
 		<configuration configurationName="TriCore Release (Ext. GCC)">

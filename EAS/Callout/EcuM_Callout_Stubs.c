@@ -45,6 +45,7 @@
 #include "SchM_Fee.h"
 #include "Fls_17_Dmu.h"
 #include "SchM_Fls_17_Dmu.h"
+#include "Adc.h"
 
 #include "Eth_17_GEthMacV2.h"
 #include "Eth_17_GEthMacV2_Cfg.h"
@@ -251,11 +252,10 @@ FUNC(void, ECUM_CALLOUT_CODE) EcuM_AL_DriverInitZero
     /* EcuM_AL_DriverInitZero Det_Init User Code end*/
     /*Initialiaze drivers that not depend on the Post-Build configurations*/
     
-    
-    
-    
+
     PinIO_Pwr_On_Sequence();
 
+    Adc_Init(&Adc_Config);
     IrqGtm_Init();
 
     Timer_Gpt_Init();
